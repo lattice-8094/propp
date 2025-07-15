@@ -1,4 +1,4 @@
-# Propp_fr
+# Propp
 
 ![Model Architecture](propp_logo.png)
 
