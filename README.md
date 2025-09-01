@@ -31,3 +31,11 @@ Inferring gender, social role, narrative function, and other descriptors from co
 ### 7. Character Representation  
 Producing structured profiles for characters (e.g., via embeddings), ready for downstream analysis or visualization.
 
+## Python Library
+
+pip install propp_fr
+[Python Library](https://pypi.org/project/propp-fr/)
+
+## Hands-on Tutorial Notebook
+
+[Hands-on Tutorial Notebook](https://colab.research.google.com/drive/151ODFrKc4EVWojHpNoSUSvZsggGjBQ1j?usp=sharing)
