@@ -39,3 +39,12 @@ pip install propp_fr
 ## Hands-on Tutorial Notebook
 
 [Hands-on Tutorial Notebook](https://colab.research.google.com/drive/151ODFrKc4EVWojHpNoSUSvZsggGjBQ1j?usp=sharing)
+
+## Presentation
+
+[Presentation (in french)](https://mate-shs.cnrs.fr/actions/tutomate/tuto71_propp_bourgois/)
+
+
+## Related Works
+
+### Papers
