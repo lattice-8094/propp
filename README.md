@@ -47,6 +47,6 @@ pip install propp_fr
 ### Papers
 Antoine Bourgois and Thierry Poibeau.
 2025.
-[The Elephant in the Coreference Room: Resolving Coreference in Full-Length French Fiction Works.](articles/2025_CRAC_CoreferenceInFrenchNovels.pdf)
+[The Elephant in the Coreference Room: Resolving Coreference in Full-Length French Fiction Works.](https://arxiv.org/pdf/2510.15594)
 In *Proceeding of the Eighth Workshop on Computational Models of Reference, Anaphora and Coreference (CRAC 2025).* EMNLP 2025, Suzhou, China.
 [arxiv](https://arxiv.org/abs/2510.15594), [hal](https://hal.science/hal-05319970).
