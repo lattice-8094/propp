@@ -50,3 +50,9 @@ Antoine Bourgois and Thierry Poibeau.
 [The Elephant in the Coreference Room: Resolving Coreference in Full-Length French Fiction Works.](https://arxiv.org/pdf/2510.15594)
 In *Proceeding of the Eighth Workshop on Computational Models of Reference, Anaphora and Coreference (CRAC 2025).* EMNLP 2025, Suzhou, China.
 [arxiv](https://arxiv.org/abs/2510.15594), [hal](https://hal.science/hal-05319970).
+
+Jean Barré, Olga Seminck, Antoine Bourgois, Thierry Poibeau.
+2025.
+[Modeling the Construction of a Literary Archetype: The Case of the Detective Figure in French Literature](https://arxiv.org/pdf/2511.00627)
+In *Proceeding of the Sixth Conference on Computational Humanities Research 2025 (CHR 2025).* Luxembourg, Luxembourg.
+[arxiv](https://arxiv.org/abs/2511.00627).
