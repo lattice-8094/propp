@@ -1,6 +1,5 @@
-# Propp
+# [PROP DOCUMENTATION](https://lattice-8094.github.io/propp/)
 
-[WEBSITE](https://lattice-8094.github.io/propp/)
 
 ![Model Architecture](propp_logo.png)
 
