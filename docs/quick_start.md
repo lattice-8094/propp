@@ -252,4 +252,37 @@ For each token, if it serves as an attribute to a character, the corresponding c
 - `Modifier`: adjectives or nominal predicates describing the character: *Hercule est* **fort**, *la* **grande** *reine*, *Victor Hugo, l'* **écrivain**
 - `Possessive`: nouns denoting possessions linked by determiners, *de*-genitives, or *avoir*: *son* **épée**, *la maison de* **Alisée**, *il a un* **chien**
 
+# Step 9: Aggregating Character Information
 
+Build a unified, structured representation of every character extracted so far:
+
+```python
+from propp_fr import generate_characters_dict
+
+characters_dict = generate_characters_dict(tokens_df, entities_df)
+```
+
+This function gathers all relevant information from every mention of each character: surface forms, syntactic attributes, and inferred features such as gender or number.
+
+`characters_dict` is a **list of dictionaries**, where each dictionary corresponds to a single character and contains the following fields:
+
+| Key | Description                                                                                |
+|-----|--------------------------------------------------------------------------------------------|
+| `id` | Character identifier (0 = most frequent)                                                   |
+| `count` | Total mentions and proportion relative to all character mentions                           |
+| `gender` | Ratio of gendered mentions and inferred overall gender (based on majority evidence)        |
+| `number` | Ratio of singular/plural mentions and inferred number                                      |
+| `mentions` | All surface forms used to refer to the character: proper nouns, common nouns, and pronouns |
+| `agent` | List of all **agent attributes** linked to the character                                   |
+| `patient` | list of all **patient attributes** linked to the character                                 |
+| `mod` | list of all **modifiers attributes** linked to the character                               |
+| `poss` | list of all **possessives attributes** linked to the character                             |
+
+The resulting `characters_dict` provides a complete, query-ready profile for each character. 
+This will be useful for narrative analysis, visualization, and computational literary studies.
+
+### Saving Generated Output
+
+
+
+### Reloading Processed Files
