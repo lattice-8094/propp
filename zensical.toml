@@ -22,19 +22,22 @@ Copyright &copy; 2025 The authors
 # can be defined using TOML syntax.
 #
 # Read more: https://zensical.org/docs/setup/navigation/
-# nav = [
-#   { "Get started" = "index.md" },
-#   { "Markdown in 5min" = "markdown.md" },
-# ]
+ nav = [
+   { "Home" = "index.md" },
+   { "Getting Started" = "getting-started.md" },
+   { "Algorithms" = "algorithms.md" },
+   { "Training" = "training.md" },
+   { "Datasets" = "datasets.md" },
+   { "Use Cases" = "use_cases.md" },
+   { "FAQ" = "FAQ.md" },
+   { "Contributors" = "contributors.md" },
+ ]
 
 # With the "extra_css" option you can add your own CSS styling to customize
-# your Zensical project according to your needs. You can add any number of
-# CSS files.
+# your Zensical project according to your needs. You can add any number of CSS files.
 #
 # The path provided should be relative to the "docs_dir".
-#
 # Read more: https://zensical.org/docs/customization/#additional-css
-#
 #extra_css = ["stylesheets/extra.css"]
 
 # With the `extra_javascript` option you can add your own JavaScript to your
@@ -71,22 +74,7 @@ Copyright &copy; 2025 The authors
 # - https://zensical.org/docs/setup/logo-and-icons/#favicon
 # - https://developer.mozilla.org/en-US/docs/Glossary/Favicon
 #
-#favicon = "images/favicon.png"
-
-# Zensical supports more than 60 different languages. This means that the
-# labels and tooltips that Zensical's templates produce are translated.
-# The "language" option allows you to set the language used. This language
-# is also indicated in the HTML head element to help with accessibility
-# and guide search engines and translation tools.
-#
-# The default language is "en" (English). It is possible to create
-# sites with multiple languages and configure a language selector. See
-# the documentation for details.
-#
-# Read more:
-# - https://zensical.org/docs/setup/language/
-#
-language = "en"
+favicon = 'images/propp_logo_favicon.svg'
 
 # Zensical provides a number of feature toggles that change the behavior
 # of the documentation site.
