@@ -26,6 +26,14 @@ process_text_file("root_directory/my_french_novel.txt")
 
 This will generate three additional files in the same directory:
 
+```
+root_directory/
+├── my_french_novel.txt
+├── my_french_novel.tokens
+├── my_french_novel.entities
+└── my_french_novel.book
+```
+
 - `my_french_novel.tokens` contains all tokens along with:
 
   - Part-of-speech tags  
@@ -41,14 +49,6 @@ This will generate three additional files in the same directory:
   - Coreference information  
   - Gender, number, and other features  
 
-```
-root_directory/
-├── my_french_novel.txt
-├── my_french_novel.tokens
-├── my_french_novel.entities
-└── my_french_novel.book
-```
-
 ## Step by Step Processing
 
 
@@ -61,9 +61,9 @@ spacy_model, mentions_detection_model, coreference_resolution_model = load_model
 
 Default models are:
 
-- **spacy_model**: <a href="https://huggingface.co/spacy/fr_dep_news_trf" target="_blank">fr_dep_news_trf</a>
-- **mentions_detection_model**: <a href="https://huggingface.co/AntoineBourgois/propp-fr_NER_camembert-large_FAC_GPE_LOC_PER_TIME_VEH" target="_blank">propp-fr_NER_camembert-large_FAC_GPE_LOC_PER_TIME_VEH</a>
-- **coreference_resolution_model**: <a href="https://huggingface.co/AntoineBourgois/propp-fr_coreference-resolution_camembert-large_PER" target="_blank">propp-fr_coreference-resolution_camembert-large_PER</a>
+- `spacy_model`: <a href="https://huggingface.co/spacy/fr_dep_news_trf" target="_blank">fr_dep_news_trf</a>
+- `mentions_detection_model`: <a href="https://huggingface.co/AntoineBourgois/propp-fr_NER_camembert-large_FAC_GPE_LOC_PER_TIME_VEH" target="_blank">propp-fr_NER_camembert-large_FAC_GPE_LOC_PER_TIME_VEH</a>
+- `coreference_resolution_model`: <a href="https://huggingface.co/AntoineBourgois/propp-fr_coreference-resolution_camembert-large_PER" target="_blank">propp-fr_coreference-resolution_camembert-large_PER</a>
 
 ### Step 2: Loading a .txt File
 
@@ -82,7 +82,7 @@ from propp_fr import generate_tokens_df
 tokens_df = generate_tokens_df(text_content, spacy_model)
 ```
 
-The `tokens_df` object is a [`pandas.DataFrame`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html) where each row represents one token from the text.
+`tokens_df` is a [`pandas.DataFrame`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html) where each row represents one token from the text.
 
 | Column Name | Description |
 |------------|-------------|
@@ -108,41 +108,34 @@ from propp_fr import load_tokenizer_and_embedding_model, get_embedding_tensor_fr
 
 # Load the tokenizer and pre-trained embedding model
 tokenizer, embedding_model = load_tokenizer_and_embedding_model(
-    mentions_detection_model["base_model_name"]
-)
+    mentions_detection_model["base_model_name"],
+  )
 
 # Generate embeddings for all tokens
 tokens_embedding_tensor = get_embedding_tensor_from_tokens_df(
     text_content,
     tokens_df,
     tokenizer,
-    embedding_model
-)
-
-# Check the result
-print(tokens_embedding_tensor.shape)
-# Output: torch.Size([74980, 1024])
+    embedding_model,
+  )
 ```
 
-This converts each token into a 1024-dimensional vector that represents its meaning in numerical form.
+`tokens_embedding_tensor` is a [`torch.tensor`](https://docs.pytorch.org/docs/stable/tensors.html) object with dimensions `[number_of_tokens, embedding_size]`.
 
-The `tokens_embedding_tensor` is a [`torch.tensor`](https://docs.pytorch.org/docs/stable/tensors.html) object with dimensions `[number_of_tokens, embedding_size]`.
-
-Each row corresponds to one token from your `tokens_df`, preserving the same order.
+Each row corresponds to one token from `tokens_df`, preserving the same order.
 
 These embeddings will be used as inputs for the `mention detection model` and the `coreference resolution model`.
 
 ### Step 5: Mention Spans Detection
 
-Identify all mentions of entities of different types in the text:
+Identify all mentions belonging to entities of different types in the text:
 
 - Characters (PER): pronouns (je, tu, il, ...), possessive pronouns (mon, ton, son, ...), common nouns (le capitaine, la princesse, ...) and proper nouns (Indiana Delmare, Honoré de Pardaillan, ...)  
 - Facilities (FAC): chatêau, sentier, chambre, couloir, ...  
 - Time (TIME): le règne de Louis XIV, ce matin, en juillet, ...  
 - Geo-Political Entities (GPE): Montrouge, France, le petit hameau, ...  
 - Locations (LOC): le sud, Mars, l'océan, le bois, ...  
-- Vehicles (VEH): avion, voitures, calèche, vélos, ...  
-
+- Vehicles (VEH): avion, voitures, calèche, vélos, ...
 
 ```python
 from propp_fr import generate_entities_df
@@ -165,6 +158,8 @@ The `entities_df` object is a [`pandas.DataFrame`](https://pandas.pydata.org/doc
 | `cat` | Type of the entity |
 | `confidence` | Model's confidence score (0-1) for this detection |
 | `text` | The actual text of the mention |
+
+To learn more about how mention detection is performed under the hood, check the [Algorithms Section](algorithms/#mention_spans_detection_model)
 
 ### Step 6: Adding Linguistic Features
 
@@ -231,7 +226,7 @@ entities_df = perform_coreference(
 - `propagate_coref`: If `True`, propagates coreference decisions through the chain  
 - `rule_based_postprocess`: If `True`, applies additional rule-based refinements to the model's predictions  
 
-To learn more about how coreference resolution is performed under the hood check [Algorithms Section](algorithms/#coreference-resolution-model)
+To learn more about how coreference resolution is performed under the hood, check the [Algorithms Section](algorithms/#coreference-resolution-model)
 
 ### Coreference Resolution
 

@@ -1,5 +1,7 @@
 # Algorithms
 
+## Mention Spans Detection Model
+
 ## Coreference Resolution Model
 
 ![Coreference Resolution Pipeline](images/coreference_resolution_pipeline_scheme.png)
