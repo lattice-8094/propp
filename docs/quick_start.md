@@ -252,7 +252,7 @@ For each token, if it serves as an attribute to a character, the corresponding c
 - `Modifier`: adjectives or nominal predicates describing the character: *Hercule est* **fort**, *la* **grande** *reine*, *Victor Hugo, l'* **écrivain**
 - `Possessive`: nouns denoting possessions linked by determiners, *de*-genitives, or *avoir*: *son* **épée**, *la maison de* **Alisée**, *il a un* **chien**
 
-# Step 9: Aggregating Character Information
+### Step 9: Aggregating Character Information
 
 Build a unified, structured representation of every character extracted so far:
 
