@@ -224,7 +224,7 @@ To learn more about how coreference resolution is performed under the hood, chec
 
 ### Step 8: Extracting Character Attributes
 
-Identify words that describe or relate to characters:
+Identify tokens that describe or relate to characters:
 
 ```python
 from propp_fr import extract_attributes
@@ -235,21 +235,21 @@ tokens_df = extract_attributes(entities_df, tokens_df)
 
 This step adds the following columns to `tokens_df`:
 
-| Column Name | Description |
-|------------|-------------|
-| `is_mention_head` | Whether this token is the head of a character mention |
-| `char_att_agent` | Character ID if token is an agent attribute, -1 otherwise |
-| `char_att_patient` | Character ID if token is a patient attribute, -1 otherwise |
-| `char_att_mod` | Character ID if token is a modifier attribute, -1 otherwise |
-| `char_att_poss` | Character ID if token is a possessive attribute, -1 otherwise |
+| Column Name | Description                                                   |
+|------------|---------------------------------------------------------------|
+| `is_mention_head` | Whether this token is the head of a character mention         |
+| `char_att_agent` | Mention ID if token is an agent attribute, -1 otherwise       |
+| `char_att_patient` | Mention ID if token is a patient attribute, -1 otherwise    |
+| `char_att_mod` | Mention ID if token is a modifier attribute, -1 otherwise   |
+| `char_att_poss` | Mention ID if token is a possessive attribute, -1 otherwise |
 
-For each token, if it serves as an attribute to a character, the corresponding column contains the syntactic head token ID of that character. Otherwise, it contains -1.
+For each token, if it serves as an attribute to a character, the corresponding column contains the syntactic head token ID of the mention. Otherwise, it contains -1.
 
 **The four attribute types:**
 
-- **Agent** - verbs where the character is the subject (actions they perform): *Marie* **marche**, *elle* **parle**
-- **Patient** - verbs where the character is the direct object or passive subject (actions done to them): *on pousse* **Jean**, *il* **est suivi**
-- **Possessive** - nouns denoting possessions linked by determiners, *de*-genitives, or *avoir*: *son* **épée**, *la maison de* **Alisée**, *il a un* **chien**
-- **Modifier** - adjectives or nominal predicates describing the character: *Hercule est* **fort**, *la* **grande** *reine*, *Victor Hugo, l'* **écrivain**
+- `Agent`: verbs where the character is the subject (actions they perform): *Marie* **marche**, *elle* **parle**
+- `Patient`: verbs where the character is the direct object or passive subject (actions done to them): *on pousse* **Jean**, *il* **est suivi**
+- `Modifier`: adjectives or nominal predicates describing the character: *Hercule est* **fort**, *la* **grande** *reine*, *Victor Hugo, l'* **écrivain**
+- `Possessive`: nouns denoting possessions linked by determiners, *de*-genitives, or *avoir*: *son* **épée**, *la maison de* **Alisée**, *il a un* **chien**
 
 
