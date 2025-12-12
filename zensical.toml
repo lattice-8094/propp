@@ -30,7 +30,7 @@ site_url = "https://lattice-8094.github.io/propp"
 #
 # The path provided should be relative to the "docs_dir".
 # Read more: https://zensical.org/docs/customization/#additional-css
-extra_css = ["css/custom.css"]
+#extra_css = ["css/custom.css"]
 
 # With the `extra_javascript` option you can add your own JavaScript to your
 # project to customize the behavior according to your needs.
@@ -58,14 +58,7 @@ variant = "classic"
 #
 #custom_dir = "overrides"
 
-# With the "favicon" option you can set your own image to use as the icon
-# browsers will use in the browser title bar or tab bar. The path provided
-# must be relative to the "docs_dir".
-#
-# Read more:
-# - https://zensical.org/docs/setup/logo-and-icons/#favicon
-# - https://developer.mozilla.org/en-US/docs/Glossary/Favicon
-#
+
 favicon = 'images/propp_logo_favicon.svg'
 logo = 'images/propp_logo_topleft.svg'
 
