@@ -229,7 +229,7 @@ entities_df = perform_coreference(
 - `propagate_coref`: If `True`, propagates coreference decisions through the chain  
 - `rule_based_postprocess`: If `True`, applies additional rule-based refinements to the model's predictions  
 
-To learn more about how coreference resolution is performed under the hood check [Algorithms Section](/propp/algorithms/#coreference-resolution-model)
+To learn more about how coreference resolution is performed under the hood check [Algorithms Section](algorithms/#coreference-resolution-model)
 
 ### Coreference Resolution
 
