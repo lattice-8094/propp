@@ -1,3 +1,7 @@
+---
+title: "Quick Start"
+---
+
 **Getting Started with French Text Processing**
 
 This guide will help you load and analyze French text files using the `propp_fr` library.

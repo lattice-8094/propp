@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "Contributors"
 ---
 
 # Contributors to the Propp Project
