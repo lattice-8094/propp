@@ -1,10 +1,11 @@
-/* Push search bar to the right of the header */
-.md-header-nav {
-    display: flex;        /* make header content flexbox */
-    align-items: center;  /* vertically center items */
+/* Make the nav a grid with explicit columns */
+.md-header__inner {
+    display: grid !important;
+    grid-template-columns: auto 1fr auto auto; /* logo | title | spacer | search & palette */
+    align-items: center;
 }
 
-.md-header-nav .md-search {
-    margin-left: auto;    /* pushes the search bar to the far right */
+/* Put the search div at the last column */
+.md-search {
+    grid-column: 4;
 }
-
