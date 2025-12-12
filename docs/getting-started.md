@@ -1,12 +1,10 @@
-## Installation
-
 **Getting Started with French Text Processing**
 
 This guide will help you load and analyze French text files using the `propp_fr` library.
 
+## Installation
 
 The french variant of the Propp python library can be installed via [pypi](https://pypi.org/project/propp-fr/):
-
 
 ```bash
 pip install propp_fr
@@ -24,18 +22,15 @@ process_text_file("root_directory/my_french_novel.txt")
 
 This will generate three additional files in the same directory:
 
-- **Tokens file** (`my_french_novel.tokens`)  
-  Contains all tokens along with:  
+- `my_french_novel.tokens` contains all tokens along with:  
   - Part-of-speech tags  
   - Syntactic parsing information  
 
-- **Entities file** (`my_french_novel.entities`)  
-  Contains information about recognized entities, including:  
+- `my_french_novel.entities` contains information about recognized entities, including:  
   - Start and end positions  
   - Entity type  
 
-- **Book file** (`my_french_novel.book`)  
-  Contains all characters and their attributes, including:  
+- `my_french_novel.book` contains all characters and their attributes, including:  
   - Coreference information  
   - Gender, number, and other features  
 
