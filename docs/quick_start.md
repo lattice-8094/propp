@@ -184,50 +184,44 @@ This step adds the following columns to `entities_df`:
 | `out_to_in_nested_level` | Nesting depth (outer to inner) |
 | `in_to_out_nested_level` | Nesting depth (inner to outer) |
 | `nested_entities_count` | Number of entities nested within this mention |
-| `temp_index` | Temporary indexing value |
 | `head_id` | ID of the syntactic head token |
 | `head_word` | The actual head word |
 | `head_dependency_relation` | Dependency relation of the head |
 | `head_syntactic_head_ID` | ID of the head's syntactic parent |
 | `POS_tag` | Part-of-speech tag of the head |
-| `prop` | Mention type: pronoun (PRON), common noun (NOM), or proper noun (PROPN) |
+| `prop` | Mention type: pronoun (PRON), common noun (NOM), or proper noun (PROP) |
 | `number` | Grammatical number (singular/plural) |
 | `gender` | Grammatical gender (masculine/feminine) |
 | `grammatical_person` | Grammatical person (1st, 2nd, 3rd) |
 
-**What you can analyze**: With these features, you can perform various literary and linguistic analyses:
-
-- **Character centrality**: Count mention frequency to identify main characters
-- **Proper name analysis**: Track occurrences of specific character or place names
-- **Mention type distribution**: Analyze ratios of pronouns vs. common nouns vs. proper nouns
-- **Gender representation**: Study the ratio of female vs. male character mentions
-- **Narrative perspective**: Examine first-person pronoun ratios to determine narrative voice
+These features are primarily used in the following steps of `coreference resolution` and `character representation`, but they can also be leveraged directly for a range of literary and linguistic analyses, such as character centrality, proper name tracking, mention type distribution, gender representation, and narrative perspective.
 
 ### Step 7: Coreference Resolution
 
-Link all mentions that refer to the same character (PER entity) (e.g., "Marie", "she", "the young woman" all referring to the same character):
+Link all `PER` mentions that refer to the same character, creating coreference chains:
 
-```javascript
+```python
 from propp_fr import perform_coreference
 
 entities_df = perform_coreference(
     entities_df,
     tokens_embedding_tensor,
     coreference_resolution_model,
-    propagate_coref=True,
-    rule_based_postprocess=False
-)
+    )
 ```
 
-**What this does:** Groups mentions that refer to the same entity, creating coreference chains. For example, "Jean", "he", "the captain", and "his" might all be linked together as references to the same character.
+**What this does:** Groups character mentions into **coreference chains** where all mentions in a chain refer to the same person. For example, `Marie`, `she`, and `the young woman` might all be linked together as referring to the same character.
 
-**Parameters:**
+This step adds one new column to `entities_df`:
 
-- `propagate_coref`: If `True`, propagates coreference decisions through the chain  
-- `rule_based_postprocess`: If `True`, applies additional rule-based refinements to the model's predictions  
+| Column Name | Description |
+|------------|-------------|
+| `COREF` | ID of the coreference chain this mention belongs to |
+
+Mentions with the same `COREF` value refer to the same character. Mentions with different values refer to different characters.
 
 To learn more about how coreference resolution is performed under the hood, check the [Algorithms Section](algorithms/#coreference-resolution-model)
 
-### Coreference Resolution
+### Step 8: Coreference Resolution
 
 
