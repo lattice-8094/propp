@@ -222,6 +222,34 @@ Mentions with the same `COREF` value refer to the same character. Mentions with 
 
 To learn more about how coreference resolution is performed under the hood, check the [Algorithms Section](algorithms/#coreference-resolution-model)
 
-### Step 8: Coreference Resolution
+### Step 8: Extracting Character Attributes
+
+Identify words that describe or relate to characters:
+
+```python
+from propp_fr import extract_attributes
+tokens_df = extract_attributes(entities_df, tokens_df)
+```
+
+**What this does:** Analyzes the syntactic structure around character mentions to identify words that function as attributes, linking them to the characters they describe.
+
+This step adds the following columns to `tokens_df`:
+
+| Column Name | Description |
+|------------|-------------|
+| `is_mention_head` | Whether this token is the head of a character mention |
+| `char_att_agent` | Character ID if token is an agent attribute, -1 otherwise |
+| `char_att_patient` | Character ID if token is a patient attribute, -1 otherwise |
+| `char_att_mod` | Character ID if token is a modifier attribute, -1 otherwise |
+| `char_att_poss` | Character ID if token is a possessive attribute, -1 otherwise |
+
+For each token, if it serves as an attribute to a character, the corresponding column contains the syntactic head token ID of that character. Otherwise, it contains -1.
+
+**The four attribute types:**
+
+- **Agent** - verbs where the character is the subject (actions they perform): *Marie* **marche**, *elle* **parle**
+- **Patient** - verbs where the character is the direct object or passive subject (actions done to them): *on pousse* **Jean**, *il* **est suivi**
+- **Possessive** - nouns denoting possessions linked by determiners, *de*-genitives, or *avoir*: *son* **épée**, *la maison de* **Alisée**, *il a un* **chien**
+- **Modifier** - adjectives or nominal predicates describing the character: *Hercule est* **fort**, *la* **grande** *reine*, *Victor Hugo, l'* **écrivain**
 
 
