@@ -283,6 +283,32 @@ This will be useful for narrative analysis, visualization, and computational lit
 
 ### Saving Generated Output
 
+Once processing is complete, you can **save** the generated files for future use, storing your processed tokens, entities, and character profiles as reusable data so you don’t need to re-run the entire pipeline.
 
+```python
+from propp_fr import save_tokens_df, save_entities_df, save_book_file
+
+file_name = "my_french_novel"
+root_directory = "root_directory"
+
+save_tokens_df(file_name, root_directory)
+save_entities_df(file_name, root_directory)
+save_book_file(file_name, root_directory)
+```
 
 ### Reloading Processed Files
+
+Later, you can reload them instantly to resume your analysis.
+
+```python
+from propp_fr import load_text_file, load_tokens_df, load_entities_df, load_book_file
+
+file_name = "my_french_novel"
+root_directory = "root_directory"
+
+text_content = load_text_file(file_name, root_directory)
+tokens_df = load_tokens_df(file_name, root_directory)
+entities_df = load_entities_df(file_name, root_directory)
+characters_dict = load_book_file(file_name, root_directory)
+```
+
