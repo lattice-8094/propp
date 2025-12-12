@@ -312,15 +312,16 @@ entities_df = load_entities_df(file_name, root_directory)
 characters_dict = load_book_file(file_name, root_directory)
 ```
 
-??? note
+!!! Abstract "Full Directory Processing"
 
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
-    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
-    massa, nec semper lorem quam in massa.
-
-
-??? note
-
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
-    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
-    massa, nec semper lorem quam in massa.
+    ```python
+    from propp_fr import load_text_file, load_tokens_df, load_entities_df, load_book_file
+    
+    file_name = "my_french_novel"
+    root_directory = "root_directory"
+    
+    text_content = load_text_file(file_name, root_directory)
+    tokens_df = load_tokens_df(file_name, root_directory)
+    entities_df = load_entities_df(file_name, root_directory)
+    characters_dict = load_book_file(file_name, root_directory)
+    ```
