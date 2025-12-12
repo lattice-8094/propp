@@ -1,9 +1,15 @@
-site_name: propp
+site_name: Propp
 site_description: Pattern Recognition and Ontologies for Prose Processing
 site_url: https://lattice-8094.github.io/propp
 
+
 theme:
   name: material
+  palette:
+    primary: black
+
+  logo: 'images/propp_logo_topleft.svg'   # path relative to the docs/ folder
+  favicon: 'images/propp_logo_favicon.svg'  # optional, also for browser tab
   features:
     - navigation.tabs
     - navigation.sections
@@ -16,9 +22,11 @@ nav:
   - Home: index.md
   - Getting Started: getting-started.md
   - Algorithms: algorithms.md
-  - Examples:
-      - Basic Example: examples/basic.md
-      - Advanced Example: examples/advanced.md
+  - Training: training.md
+  - Datasets: datasets.md
+  - Use Cases: use_cases.md
+  - FAQ: FAQ.md
+  - Contributors: contributors.md
 
 markdown_extensions:
   - admonition
@@ -27,3 +35,7 @@ markdown_extensions:
       permalink: true
   - tables
   - footnotes
+  
+extra_javascript:
+  - js/title_link_home.js
+
