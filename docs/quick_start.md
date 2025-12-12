@@ -8,7 +8,7 @@ This guide will help you load and analyze French text files using the `propp_fr`
 
 ## Installation
 
-The french variant of the Propp python library can be installed via [pypi](https://pypi.org/project/propp-fr/):
+The French variant of the Propp python library can be installed via [pypi](https://pypi.org/project/propp-fr/):
 
 ```bash
 pip install propp_fr
