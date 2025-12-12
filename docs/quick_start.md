@@ -288,12 +288,12 @@ Once processing is complete, you can **save** the generated files for future use
 ```python
 from propp_fr import save_tokens_df, save_entities_df, save_book_file
 
-file_name = "my_french_novel"
 root_directory = "root_directory"
+file_name = "my_french_novel"
 
-save_tokens_df(file_name, root_directory)
-save_entities_df(file_name, root_directory)
-save_book_file(file_name, root_directory)
+save_tokens_df(tokens_df, file_name, root_directory)
+save_entities_df(entities_df, file_name, root_directory)
+save_book_file(characters_dict, file_name, root_directory)
 ```
 
 ### Reloading Processed Files
