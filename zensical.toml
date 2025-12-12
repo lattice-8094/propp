@@ -13,12 +13,6 @@ site_url = "https://lattice-8094.github.io/propp"
 # Read more: https://zensical.org/docs/setup/basics/#copyright
 #copyright = "Copyright &copy; 2025 Antoine Bourgois\t"
 
-# Zensical supports both implicit navigation and explicitly defined navigation.
-# If you decide not to define a navigation here then Zensical will simply
-# derive the navigation structure from the directory structure of your
-# "docs_dir". The definition below demonstrates how a navigation structure
-# can be defined using TOML syntax.
-#
 # Read more: https://zensical.org/docs/setup/navigation/
  nav = [
    { "Home" = "index.md" },
@@ -36,7 +30,7 @@ site_url = "https://lattice-8094.github.io/propp"
 #
 # The path provided should be relative to the "docs_dir".
 # Read more: https://zensical.org/docs/customization/#additional-css
-#extra_css = ["stylesheets/extra.css"]
+extra_css = ["css/custom.css"]
 
 # With the `extra_javascript` option you can add your own JavaScript to your
 # project to customize the behavior according to your needs.
