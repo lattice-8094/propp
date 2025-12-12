@@ -11,7 +11,7 @@ site_url = "https://lattice-8094.github.io/propp"
 
 # The copyright notice appears in the page footer and can contain an HTML fragment.
 # Read more: https://zensical.org/docs/setup/basics/#copyright
-copyright = "Copyright &copy; 2025 Antoine Bourgois\t"
+#copyright = "Copyright &copy; 2025 Antoine Bourgois\t"
 
 # Zensical supports both implicit navigation and explicitly defined navigation.
 # If you decide not to define a navigation here then Zensical will simply
@@ -138,7 +138,7 @@ features = [
     # This feature turns on navigation elements in the footer that allow the
     # user to navigate to a next or previous page.
     # https://zensical.org/docs/setup/footer/#navigation
-    "navigation.footer",
+#    "navigation.footer",
 
     # When section index pages are enabled, documents can be directly attached
     # to sections, which is particularly useful for providing overview pages.
@@ -226,6 +226,9 @@ features = [
 scheme = "default"
 toggle.icon = "lucide/sun"
 toggle.name = "Switch to dark mode"
+
+[project.theme]
+palette.primary = "black"
 
 [[project.theme.palette]]
 scheme = "slate"
