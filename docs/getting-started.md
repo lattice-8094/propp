@@ -210,7 +210,7 @@ This step adds the following columns to `entities_df`:
 
 Link all mentions that refer to the same character (PER entity) (e.g., "Marie", "she", "the young woman" all referring to the same character):
 
-```python
+```javascript
 from propp_fr import perform_coreference
 
 entities_df = perform_coreference(
