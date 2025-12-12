@@ -1,11 +1,11 @@
-/*!* Make the nav a grid with explicit columns *!*/
-/*.md-header__inner {*/
-/*    display: grid !important;*/
-/*    grid-template-columns: auto 1fr auto auto; !* logo | title | spacer | search & palette *!*/
-/*    align-items: center;*/
-/*}*/
+/* Make the nav a grid with explicit columns */
+.md-header__inner {
+    display: grid !important;
+    grid-template-columns: auto 1fr auto auto; /* logo | title | spacer | search & palette */
+    align-items: center;
+}
 
-/*!* Put the search div at the last column *!*/
-/*.md-search {*/
-/*    grid-column: 4;*/
-/*}*/
+/* Put the search div at the last column */
+.md-search {
+    grid-column: 4;
+}

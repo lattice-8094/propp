@@ -22,15 +22,18 @@ process_text_file("root_directory/my_french_novel.txt")
 
 This will generate three additional files in the same directory:
 
-- `my_french_novel.tokens` contains all tokens along with:  
+- `my_french_novel.tokens` contains all tokens along with:
+
   - Part-of-speech tags  
   - Syntactic parsing information  
 
-- `my_french_novel.entities` contains information about recognized entities, including:  
+- `my_french_novel.entities` contains information about recognized entities, including:
+
   - Start and end positions  
   - Entity type  
 
-- `my_french_novel.book` contains all characters and their attributes, including:  
+- `my_french_novel.book` contains all characters and their attributes, including:
+
   - Coreference information  
   - Gender, number, and other features  
 
