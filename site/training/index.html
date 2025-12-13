@@ -761,6 +761,24 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Training
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -777,6 +795,48 @@
   
 
       </a>
+      
+        
+
+
+<nav class="md-nav md-nav--secondary" aria-label="On this page">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      On this page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#dataset-preparation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dataset Preparation
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#russian" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Russian
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -911,6 +971,36 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      On this page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#dataset-preparation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dataset Preparation
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#russian" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Russian
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -926,6 +1016,7 @@
 
 <h1 id="training-a-new-pipeline">Training a new Pipeline</h1>
 <p>Training a new coreference resolution pipeline from scratch</p>
+<h2 id="dataset-preparation">Dataset Preparation</h2>
 <p>First, you need an annotated dataset.</p>
 <p>This dataset should contain:</p>
 <ul>
@@ -960,7 +1051,171 @@
 <span class="err">!</span><span class="n">cd</span> <span class="p">{</span><span class="n">dataset_path</span><span class="p">}</span> <span class="o">&amp;&amp;</span> <span class="n">mv</span> <span class="n">coref</span><span class="o">/</span><span class="n">brat</span> <span class="o">.</span> <span class="o">&amp;&amp;</span> <span class="n">rm</span> <span class="o">-</span><span class="n">rf</span> <span class="n">coref</span> <span class="o">&amp;&amp;</span> <span class="n">rm</span> <span class="o">-</span><span class="n">rf</span> <span class="o">.</span><span class="n">git</span>
 </code></pre></div>
 </details>
-<h1 id="russian">Russian</h1>
+<p>We can now take a look at the dataset:</p>
+<details class="abstract">
+<summary>Python Code</summary>
+<div class="highlight"><pre><span></span><code><span class="kn">from</span><span class="w"> </span><span class="nn">pathlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">Path</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">collections</span><span class="w"> </span><span class="kn">import</span> <span class="n">Counter</span>
+
+<span class="n">raw_files_path</span> <span class="o">=</span> <span class="s2">&quot;datasets/litbank/tsv&quot;</span>
+
+<span class="n">all_files</span> <span class="o">=</span> <span class="p">[</span><span class="n">p</span> <span class="k">for</span> <span class="n">p</span> <span class="ow">in</span> <span class="n">Path</span><span class="p">(</span><span class="n">raw_files_path</span><span class="p">)</span><span class="o">.</span><span class="n">iterdir</span><span class="p">()</span> <span class="k">if</span> <span class="n">p</span><span class="o">.</span><span class="n">is_file</span><span class="p">()]</span>
+
+<span class="n">extensions</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span><span class="n">Counter</span><span class="p">(</span><span class="n">p</span><span class="o">.</span><span class="n">suffix</span> <span class="k">for</span> <span class="n">p</span> <span class="ow">in</span> <span class="n">files</span><span class="p">)</span><span class="o">.</span><span class="n">most_common</span><span class="p">())</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;The dataset contains </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">all_files</span><span class="p">)</span><span class="si">:</span><span class="s2">,</span><span class="si">}</span><span class="s2"> files with the following extensions:&quot;</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">extension</span><span class="p">,</span> <span class="n">count</span> <span class="ow">in</span> <span class="n">extensions</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="se">\t</span><span class="s2">&#39;</span><span class="si">{</span><span class="n">extension</span><span class="si">}</span><span class="s2">&#39; = </span><span class="si">{</span><span class="n">count</span><span class="si">:</span><span class="s2">,</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+</code></pre></div>
+</details>
+<div class="highlight"><pre><span></span><code>The dataset contains 200 files with the following extensions:
+    &#39;.txt&#39; = 100
+    &#39;.ann&#39; = 100
+</code></pre></div>
+<p>While the <code>.txt</code> file contains the raw text, we need to take a closer look at the <code>.ann</code> file.</p>
+<details class="abstract">
+<summary>Python Code</summary>
+<div class="highlight"><pre><span></span><code><span class="n">txt_files</span> <span class="o">=</span> <span class="p">[</span><span class="n">p</span> <span class="k">for</span> <span class="n">p</span> <span class="ow">in</span> <span class="n">all_files</span> <span class="k">if</span> <span class="n">p</span><span class="o">.</span><span class="n">suffix</span> <span class="o">==</span> <span class="s2">&quot;.txt&quot;</span><span class="p">]</span>
+<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">ann_files</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="s2">&quot;r&quot;</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s2">&quot;utf-8&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+        <span class="n">text</span> <span class="o">=</span> <span class="n">f</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
+
+<span class="n">ann_files</span> <span class="o">=</span> <span class="p">[</span><span class="n">p</span> <span class="k">for</span> <span class="n">p</span> <span class="ow">in</span> <span class="n">all_files</span> <span class="k">if</span> <span class="n">p</span><span class="o">.</span><span class="n">suffix</span> <span class="o">==</span> <span class="s2">&quot;.ann&quot;</span><span class="p">]</span>
+<span class="n">ann_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">ann_files</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">sep</span><span class="o">=</span><span class="s2">&quot;</span><span class="se">\t</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">header</span><span class="o">=</span><span class="kc">None</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">ann_df</span><span class="o">.</span><span class="n">sample</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span><span class="o">.</span><span class="n">to_markdown</span><span class="p">())</span>
+</code></pre></div>
+</details>
+<table>
+<thead>
+<tr>
+<th style="text-align: right;"></th>
+<th style="text-align: left;">0</th>
+<th style="text-align: left;">1</th>
+<th style="text-align: left;">2</th>
+<th style="text-align: right;">3</th>
+<th style="text-align: right;">4</th>
+<th style="text-align: right;">5</th>
+<th style="text-align: left;">6</th>
+<th style="text-align: left;">7</th>
+<th style="text-align: left;">8</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;">393</td>
+<td style="text-align: left;">COREF</td>
+<td style="text-align: left;">T174</td>
+<td style="text-align: left;">Ralph_Percy-0</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: left;">nan</td>
+<td style="text-align: left;">nan</td>
+<td style="text-align: left;">nan</td>
+</tr>
+<tr>
+<td style="text-align: right;">18</td>
+<td style="text-align: left;">MENTION</td>
+<td style="text-align: left;">T27</td>
+<td style="text-align: left;">15</td>
+<td style="text-align: right;">45</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: right;">46</td>
+<td style="text-align: left;">my house</td>
+<td style="text-align: left;">FAC</td>
+<td style="text-align: left;">NOM</td>
+</tr>
+<tr>
+<td style="text-align: right;">42</td>
+<td style="text-align: left;">MENTION</td>
+<td style="text-align: left;">T65</td>
+<td style="text-align: left;">70</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">70</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: left;">wife</td>
+<td style="text-align: left;">PER</td>
+<td style="text-align: left;">NOM</td>
+</tr>
+<tr>
+<td style="text-align: right;">335</td>
+<td style="text-align: left;">COREF</td>
+<td style="text-align: left;">T135</td>
+<td style="text-align: left;">settlers-7</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: left;">nan</td>
+<td style="text-align: left;">nan</td>
+<td style="text-align: left;">nan</td>
+</tr>
+<tr>
+<td style="text-align: right;">245</td>
+<td style="text-align: left;">MENTION</td>
+<td style="text-align: left;">T254</td>
+<td style="text-align: left;">51</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">51</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: left;">I</td>
+<td style="text-align: left;">PER</td>
+<td style="text-align: left;">PRON</td>
+</tr>
+</tbody>
+</table>
+<p>We see that the first column contains the annotation type, on which the content of other columns depends.</p>
+<details class="abstract">
+<summary>Python Code</summary>
+<div class="highlight"><pre><span></span><code><span class="n">type_to_description_mapping</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s2">&quot;MENTION&quot;</span><span class="p">:</span> <span class="s2">&quot;Entity mention with span and semantic type&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;COREF&quot;</span><span class="p">:</span> <span class="s2">&quot;True coreference link between two mentions&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;COP&quot;</span><span class="p">:</span> <span class="s2">&quot;Copular relation between two mentions (not treated as coreference)&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;APPOS&quot;</span><span class="p">:</span> <span class="s2">&quot;Appositional relation between two mentions (not treated as coreference)&quot;</span><span class="p">,</span>
+<span class="p">}</span>
+
+<span class="n">row_types_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span>
+        <span class="n">Counter</span><span class="p">(</span><span class="n">ann_df</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span><span class="o">.</span><span class="n">most_common</span><span class="p">(),</span>
+        <span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;Column &#39;0&#39; Type&quot;</span><span class="p">,</span> <span class="s2">&quot;Count&quot;</span><span class="p">]</span>
+    <span class="p">)</span>
+<span class="n">row_types_df</span><span class="p">[</span><span class="s2">&quot;Row Type&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">row_types_df</span><span class="p">[</span><span class="s2">&quot;Column &#39;0&#39; Type&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="n">type_to_description_mapping</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">row_types_df</span><span class="o">.</span><span class="n">to_markdown</span><span class="p">(</span><span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">))</span>
+</code></pre></div>
+</details>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Column '0' Type</th>
+<th style="text-align: right;">Count</th>
+<th style="text-align: left;">Row Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">MENTION</td>
+<td style="text-align: right;">316</td>
+<td style="text-align: left;">Entity mention</td>
+</tr>
+<tr>
+<td style="text-align: left;">COREF</td>
+<td style="text-align: right;">307</td>
+<td style="text-align: left;">True coreference link between two mentions</td>
+</tr>
+<tr>
+<td style="text-align: left;">COP</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: left;">Copular relation between two mentions (not treated as coreference)</td>
+</tr>
+<tr>
+<td style="text-align: left;">APPOS</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: left;">Appositional relation between two mentions (not treated as coreference)</td>
+</tr>
+</tbody>
+</table>
+<p>In this case, only the <code>MENTION</code> and <code>COREF</code> annotations are relevant. </p>
+<p>We will create two new objects for both the mentions and the coreference links:</p>
+<h2 id="russian">Russian</h2>
+<p>🚧 Coming soon... 🚧</p>
 
 
 

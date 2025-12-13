@@ -1,6 +1,9 @@
-# PROPP
+---
+title: ""
+---
 
-Pattern Recognition and Ontologies for Prose Processing
+# PROPP: Pattern Recognition and Ontologies for Prose Processing
+# A Python library for narrative analysis
 
 **Propp** is a modular NLP pipeline designed to extract rich character-centric information from narrative texts, especially litterature.  
 It combines deep learning and rule-based techniques for:
