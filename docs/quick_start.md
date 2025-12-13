@@ -298,7 +298,7 @@ save_book_file(characters_dict, file_name, root_directory)
 
 ### Reloading Processed Files
 
-Later, you can reload them instantly to resume your analysis.
+Later, you can reload the generated files instantly to resume your analysis.
 
 ```python
 from propp_fr import load_text_file, load_tokens_df, load_entities_df, load_book_file
@@ -311,17 +311,3 @@ tokens_df = load_tokens_df(file_name, root_directory)
 entities_df = load_entities_df(file_name, root_directory)
 characters_dict = load_book_file(file_name, root_directory)
 ```
-
-??? Abstract "**Full Directory Processing**"
-
-    ```python
-    from propp_fr import load_text_file, load_tokens_df, load_entities_df, load_book_file
-    
-    file_name = "my_french_novel"
-    root_directory = "root_directory"
-    
-    text_content = load_text_file(file_name, root_directory)
-    tokens_df = load_tokens_df(file_name, root_directory)
-    entities_df = load_entities_df(file_name, root_directory)
-    characters_dict = load_book_file(file_name, root_directory)
-    ```
