@@ -312,7 +312,7 @@ entities_df = load_entities_df(file_name, root_directory)
 characters_dict = load_book_file(file_name, root_directory)
 ```
 
-!!! Abstract "Full Directory Processing"
+??? Abstract "**Full Directory Processing**"
 
     ```python
     from propp_fr import load_text_file, load_tokens_df, load_entities_df, load_book_file
