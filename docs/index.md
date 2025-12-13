@@ -32,7 +32,7 @@ Producing structured profiles for characters (e.g., via embeddings), ready for d
 
 ---
 
-## 📦 Installation
+## Installation
 
 ```bash
 pip install propp_fr

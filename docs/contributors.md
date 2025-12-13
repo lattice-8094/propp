@@ -4,7 +4,11 @@ title: "Contributors"
 
 # Contributors to the Propp Project
 
-- Antoine Bourgois: Main Developper, Python Library, French Dataset Annotations, Model Training and Evaluation
+## Antoine Bourgois
 
-- Thierry Poibeau: Supervisor
+  - Main Developer, Python Library, French Dataset Annotations, Model Training and Evaluation
+
+## [Thierry Poibeau](https://tpoibeau.github.io/)
+
+  - Project Supervisor
 

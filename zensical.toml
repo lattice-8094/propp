@@ -17,11 +17,13 @@ site_url = "https://lattice-8094.github.io/propp"
 nav = [
   { "Home" = "index.md" },
   { "User Guide" = [
-      { "Quick Start" = "user_guide/index.md" },
+      { "Quick Start" = "quick_start.md" },
+
       { "Basic Processing" = [
           { "Step by Step" = "step_by_step_processing.md" },
           { "Process an Entire Directory" = "processing_all_directory.md" }
       ]},
+
       { "Advanced Processing" = [
           { "" = "advanced_processing.md" }
       ]}

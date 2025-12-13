@@ -1,12 +1,12 @@
 ---
-title: "Processing a Full Directory"
+title: "Processing Full Directory"
 ---
 
-**Getting Started with French Text Processing**
+# Processing all .txt Files in a Directory
 
-This guide will help you load and analyze French text files using the `propp_fr` library.
 
-??? Abstract "**Notebook Code**"
+
+??? Abstract "**You can copy / paste the whole Notebook Code**"
 
     ```python
     from propp_fr import load_models, load_text_file, generate_tokens_df, load_tokenizer_and_embedding_model, get_embedding_tensor_from_tokens_df, generate_entities_df, add_features_to_entities, perform_coreference, extract_attributes, generate_characters_dict, save_tokens_df, save_entities_df, save_book_file

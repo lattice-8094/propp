@@ -1,11 +1,8 @@
 ---
-title: ""
+title: "Step by Step Processing"
 ---
 
-## Step by Step Processing
-
-
-### 1: Loading Models
+## 1: Loading Models
 
 ```python
 from propp_fr import load_models
@@ -18,14 +15,14 @@ Default models are:
 - `mentions_detection_model`: <a href="https://huggingface.co/AntoineBourgois/propp-fr_NER_camembert-large_FAC_GPE_LOC_PER_TIME_VEH" target="_blank">propp-fr_NER_camembert-large_FAC_GPE_LOC_PER_TIME_VEH</a>
 - `coreference_resolution_model`: <a href="https://huggingface.co/AntoineBourgois/propp-fr_coreference-resolution_camembert-large_PER" target="_blank">propp-fr_coreference-resolution_camembert-large_PER</a>
 
-### 2: Loading a .txt File
+## 2: Loading a .txt File
 
 ```python
 from propp_fr import load_text_file
 text_content = load_text_file("root_directory/my_french_novel.txt")
 ```
 
-### 3: Tokenizing the Text
+## 3: Tokenizing the Text
 
 Break down the text into individual tokens (words and punctuation) with linguistic information:
 
@@ -52,7 +49,7 @@ tokens_df = generate_tokens_df(text_content, spacy_model)
 | `syntactic_head_ID` | The ID of the word this token depends on |
 
 
-### 4: Embedding Tokens
+## 4: Embedding Tokens
 
 Transform the tokens into numerical representations (embeddings) that capture their meaning:
 
@@ -79,7 +76,7 @@ Each row corresponds to one token from `tokens_df`, preserving the same order.
 
 These embeddings will be used as inputs for the `mention detection model` and the `coreference resolution model`.
 
-### 5: Mention Spans Detection
+## 5: Mention Spans Detection
 
 Identify all mentions belonging to entities of different types in the text:
 
@@ -114,7 +111,7 @@ The `entities_df` object is a [`pandas.DataFrame`](https://pandas.pydata.org/doc
 
 To learn more about how mention detection is performed under the hood, check the [Algorithms Section](algorithms/#mention_spans_detection_model)
 
-### 6: Adding Linguistic Features
+## 6: Adding Linguistic Features
 
 Enrich your entity mentions with additional grammatical and syntactic information:
 
@@ -149,7 +146,7 @@ This step adds the following columns to `entities_df`:
 
 These features are primarily used in the following steps of `coreference resolution` and `character representation`, but they can also be leveraged directly for a range of literary and linguistic analyses, such as character centrality, proper name tracking, mention type distribution, gender representation, and narrative perspective.
 
-### 7: Coreference Resolution
+## 7: Coreference Resolution
 
 Link all `PER` mentions that refer to the same character, creating coreference chains:
 
@@ -175,7 +172,7 @@ Mentions with the same `COREF` value refer to the same character. Mentions with 
 
 To learn more about how coreference resolution is performed under the hood, check the [Algorithms Section](algorithms/#coreference-resolution-model)
 
-### 8: Extracting Character Attributes
+## 8: Extracting Character Attributes
 
 Identify tokens that describe or relate to characters:
 
@@ -205,7 +202,7 @@ For each token, if it serves as an attribute to a character, the corresponding c
 - `Modifier`: adjectives or nominal predicates describing the character: *Hercule est* **fort**, *la* **grande** *reine*, *Victor Hugo, l'* **écrivain**
 - `Possessive`: nouns denoting possessions linked by determiners, *de*-genitives, or *avoir*: *son* **épée**, *la maison de* **Alisée**, *il a un* **chien**
 
-### 9: Aggregating Character Information
+## 9: Aggregating Character Information
 
 Build a unified, structured representation of every character extracted so far:
 
@@ -234,7 +231,7 @@ This function gathers all relevant information from every mention of each charac
 The resulting `characters_dict` provides a complete, query-ready profile for each character. 
 This will be useful for narrative analysis, visualization, and computational literary studies.
 
-### Saving Generated Output
+## Saving Generated Output
 
 Once processing is complete, you can **save** the generated files for future use, storing your processed tokens, entities, and character profiles as reusable data so you don’t need to re-run the entire pipeline.
 
@@ -249,7 +246,7 @@ save_entities_df(entities_df, file_name, root_directory)
 save_book_file(characters_dict, file_name, root_directory)
 ```
 
-### Reloading Processed Files
+## Reloading Processed Files
 
 Later, you can reload the generated files instantly to resume your analysis.
 

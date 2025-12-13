@@ -241,7 +241,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../user_guide/" class="md-tabs__link">
+        <a href="../quick_start/" class="md-tabs__link">
           
   
   User Guide
@@ -419,8 +419,6 @@
     
       
         
-          
-        
       
         
       
@@ -442,9 +440,8 @@
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
         
           
-          <div class="md-nav__link md-nav__container">
-            <a href="../user_guide/" class="md-nav__link ">
-              
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
   
   
   <span class="md-ellipsis">
@@ -458,14 +455,8 @@
   
   
 
-            </a>
-            
-              
-              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="0">
-                <span class="md-nav__icon md-icon"></span>
-              </label>
-            
-          </div>
+            <span class="md-nav__icon md-icon"></span>
+          </label>
         
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2">
@@ -478,6 +469,32 @@
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../quick_start/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Quick Start
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
               
             
               
@@ -908,6 +925,41 @@
                   
 
 <h1 id="training-a-new-pipeline">Training a new Pipeline</h1>
+<p>Training a new coreference resolution pipeline from scratch</p>
+<p>First, you need an annotated dataset.</p>
+<p>This dataset should contain:</p>
+<ul>
+<li>The raw text files</li>
+<li>The annotations minimal infos:<ul>
+<li>The start and end of the annotation (character indexes in the raw text)</li>
+<li>The label of the annotation (type of entity)</li>
+<li>The coreference chains ID  </li>
+</ul>
+</li>
+</ul>
+<p>We will make an example by training a pipeline on the <a href="https://github.com/dbamman/litbank">LitBank Dataset</a></p>
+<p>We first need to download the dataset from the github repository: <a href="https://github.com/dbamman/litbank/tree/master/coref/brat">https://github.com/dbamman/litbank/tree/master/coref/brat</a></p>
+<details class="abstract">
+<summary><strong>Python Code to Download the Dataset</strong></summary>
+<div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">os</span>
+
+<span class="n">local_dataset_path</span> <span class="o">=</span> <span class="s2">&quot;datasets/litbank&quot;</span>
+<span class="n">os</span><span class="o">.</span><span class="n">makedirs</span><span class="p">(</span><span class="n">dataset_path</span><span class="p">,</span> <span class="n">exist_ok</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+
+<span class="c1"># The specific GitHub folder you want</span>
+<span class="n">github_folder_path</span> <span class="o">=</span> <span class="s2">&quot;coref/brat&quot;</span>
+<span class="n">repo_url</span> <span class="o">=</span> <span class="s2">&quot;https://github.com/dbamman/litbank.git&quot;</span>
+
+<span class="c1"># Run the git commands (note the exclamation mark !)</span>
+<span class="err">!</span><span class="n">cd</span> <span class="p">{</span><span class="n">dataset_path</span><span class="p">}</span> <span class="o">&amp;&amp;</span> <span class="n">git</span> <span class="n">init</span>
+<span class="err">!</span><span class="n">cd</span> <span class="p">{</span><span class="n">dataset_path</span><span class="p">}</span> <span class="o">&amp;&amp;</span> <span class="n">git</span> <span class="n">remote</span> <span class="n">add</span> <span class="n">origin</span> <span class="o">-</span><span class="n">f</span> <span class="p">{</span><span class="n">repo_url</span><span class="p">}</span>
+<span class="err">!</span><span class="n">cd</span> <span class="p">{</span><span class="n">dataset_path</span><span class="p">}</span> <span class="o">&amp;&amp;</span> <span class="n">git</span> <span class="n">config</span> <span class="n">core</span><span class="o">.</span><span class="n">sparseCheckout</span> <span class="n">true</span>
+<span class="err">!</span><span class="n">cd</span> <span class="p">{</span><span class="n">dataset_path</span><span class="p">}</span> <span class="o">&amp;&amp;</span> <span class="n">echo</span> <span class="s2">&quot;</span><span class="si">{github_folder_path}</span><span class="s2">/*&quot;</span> <span class="o">&gt;&gt;</span> <span class="o">.</span><span class="n">git</span><span class="o">/</span><span class="n">info</span><span class="o">/</span><span class="n">sparse</span><span class="o">-</span><span class="n">checkout</span>
+<span class="err">!</span><span class="n">cd</span> <span class="p">{</span><span class="n">dataset_path</span><span class="p">}</span> <span class="o">&amp;&amp;</span> <span class="n">git</span> <span class="n">pull</span> <span class="n">origin</span> <span class="n">master</span>
+<span class="c1"># Reorganize: move the brat directory to the root of dataset_path, then remove coref and .git</span>
+<span class="err">!</span><span class="n">cd</span> <span class="p">{</span><span class="n">dataset_path</span><span class="p">}</span> <span class="o">&amp;&amp;</span> <span class="n">mv</span> <span class="n">coref</span><span class="o">/</span><span class="n">brat</span> <span class="o">.</span> <span class="o">&amp;&amp;</span> <span class="n">rm</span> <span class="o">-</span><span class="n">rf</span> <span class="n">coref</span> <span class="o">&amp;&amp;</span> <span class="n">rm</span> <span class="o">-</span><span class="n">rf</span> <span class="o">.</span><span class="n">git</span>
+</code></pre></div>
+</details>
 <h1 id="russian">Russian</h1>
 
 
