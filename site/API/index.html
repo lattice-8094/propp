@@ -12,13 +12,9 @@
         <meta name="author" content="Antoine Bourgois">
       
       
-        <link rel="canonical" href="https://lattice-8094.github.io/propp/use_cases/">
+        <link rel="canonical" href="https://lattice-8094.github.io/propp/API/">
       
       
-        <link rel="prev" href="../datasets/">
-      
-      
-        <link rel="next" href="../FAQ/">
       
       
         
@@ -29,7 +25,7 @@
     
     
       
-        <title>Use Cases - Propp</title>
+        <title>API - Propp</title>
       
     
     
@@ -116,7 +112,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#use-cases" class="md-skip">
+        <a href="#api-reference" class="md-skip">
           Skip to content
         </a>
       
@@ -149,7 +145,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Use Cases
+              API
             
           </span>
         </div>
@@ -304,11 +300,9 @@
   
   
   
-    
   
-  
-    <li class="md-tabs__item md-tabs__item--active">
-      <a href="./" class="md-tabs__link">
+    <li class="md-tabs__item">
+      <a href="../use_cases/" class="md-tabs__link">
         
   
   Use Cases
@@ -803,37 +797,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Use Cases
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../use_cases/" class="md-nav__link">
         
   
   
@@ -849,49 +816,6 @@
   
 
       </a>
-      
-        
-
-
-<nav class="md-nav md-nav--secondary" aria-label="On this page">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      On this page
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#detective-archetype" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Detective Archetype
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#character-representation-ontology" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Character Representation - Ontology
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -978,24 +902,41 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#detective-archetype" class="md-nav__link">
+  <a href="#core-functions" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Detective Archetype
+        Core Functions
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Core Functions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#load_models" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        load_models()
       
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#character-representation-ontology" class="md-nav__link">
+        
+          <li class="md-nav__item">
+  <a href="#load_text_filefile_path" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Character Representation - Ontology
+        load_text_file(file_path)
       
     </span>
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -1014,32 +955,27 @@
                 
                   
 
-<h1 id="use-cases">Use Cases</h1>
-<h2 id="detective-archetype">Detective Archetype</h2>
-<p><strong><a href="https://anthology.ach.org/volumes/vol0003/modeling-construction-of-literary-archetype-case/10.63744@SMbYIWcHZj87.pdf" target="_blank">Modeling the Construction of a Literary Archetype: The Case of the Detective Figure in French Literature</a></strong></p>
-<p>This research explores the evolution of the detective archetype in French detective fiction through computational analysis. Using quantitative methods and character-level embeddings, we show that a supervised model is able to capture the unity of the detective archetype across 150 years of literature, from M. Lecoq (1866) to Commissaire Adamsberg (2017). Building on this finding, the study demonstrates how the detective figure evolves from a secondary narrative role to become the central character and the “reasoning machine” of the classical detective story. In the aftermath of the Second World War, with the importation of the hardboiled tradition into France, the archetype becomes more complex, navigating the genre’s turn toward social violence and moral ambiguity.</p>
-<p>propp</p>
-<p><iframe
-    src="/propp/images/detective_clusters.html"
-    width="100%"
-    height="425"
-    style="border:none;"
-    scrolling="no">
-</iframe>
-</p>
-<p><strong>Cite this work</strong>
-<div class="highlight"><pre><span></span><code>@article{10.63744@SMbYIWcHZj87,
-  title = {Modeling the Construction of a Literary Archetype: The Case of the Detective Figure in French Literature},
-  author = {Jean Barré and Olga Seminck and Antoine Bourgois and Thierry Poibeau},
-  year = {2025},
-  journal = {Anthology of Computers and the Humanities},
-  volume = {3},
-  pages = {983--999},
-  editor = {Taylor Arnold, Margherita Fantoli, and Ruben Ros},
-  doi = {10.63744/SMbYIWcHZj87}
-}
-</code></pre></div></p>
-<h2 id="character-representation-ontology">Character Representation - Ontology</h2>
+<h1 id="api-reference">API Reference</h1>
+<h2 id="core-functions">Core Functions</h2>
+<h3 id="load_models">load_models()</h3>
+<p><strong>Description</strong>: Loads the three pre-trained models needed for analysis<br />
+<strong>Parameters</strong>: None<br />
+<strong>Returns</strong>:</p>
+<ul>
+<li>spacy_model: SpaCy French model  </li>
+<li>mentions_detection_model: Entity detection model  </li>
+<li>coreference_resolution_model: Coreference model</li>
+</ul>
+<p><strong>Example</strong>: See Quick Start<br />
+<strong>Time</strong>: ~30 seconds first run (downloads models)  </p>
+<h3 id="load_text_filefile_path">load_text_file(file_path)</h3>
+<p><strong>Description</strong>: Loads a French text file<br />
+<strong>Parameters</strong>:</p>
+<ul>
+<li>file_path (str): Path to .txt file</li>
+</ul>
+<p><strong>Returns</strong>: str - Text content<br />
+<strong>Example</strong>: <code>text = load_text_file("novel.txt")</code>  </p>
 
 
 
@@ -1048,6 +984,9 @@
 
 
 
+
+  
+  
 
 
 
