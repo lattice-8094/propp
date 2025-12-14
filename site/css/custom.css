@@ -14,14 +14,13 @@
     font-weight: 700 !important;
 }
 
-/*Removing the main title of the section in left panel*/
-[data-md-color-scheme="default"] .md-nav--primary > .md-nav__list > .md-nav__item > .md-nav__link > .md-ellipsis,
-[data-md-color-scheme="slate"]   .md-nav--primary > .md-nav__list > .md-nav__item > .md-nav__link > .md-ellipsis {
-    display: none;
-}
-
 @media screen and (min-width: 1200px) {
     .md-grid {
         max-width: 68rem;
+    }
+    /*Removing the main title of the section in left panel*/
+    [data-md-color-scheme="default"] .md-nav--primary > .md-nav__list > .md-nav__item > .md-nav__link > .md-ellipsis,
+    [data-md-color-scheme="slate"]   .md-nav--primary > .md-nav__list > .md-nav__item > .md-nav__link > .md-ellipsis {
+        display: none;
     }
 }
