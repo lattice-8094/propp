@@ -10,12 +10,14 @@
     src="docs/images/propp_logo_favicon_flipped.svg"
     alt="PROPP logo mirrored"
     height="32"
-    style="vertical-align: middle; transform: scaleX(-1);"
+    style="vertical-align: middle;"
   />
-  <a Pattern Recognition and Ontologies for Prose Processing</a>
-  <a A Python library for narrative analysis</a>
-
 </h1>
+
+<p align="center">
+  <strong>Pattern Recognition and Ontologies for Prose Processing</strong><br />
+  <em>A Python library for narrative analysis</em>
+</p>
 
 
 
