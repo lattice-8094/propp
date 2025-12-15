@@ -23,6 +23,38 @@
 
 **Propp** is a modular NLP pipeline designed to extract rich character-centric information from narrative texts, especially litterature. It combines deep learning and rule-based techniques for:
 
+# Quick Start
+
+## Installation
+
+The French variant of the Propp python library can be installed via [pypi](https://pypi.org/project/propp-fr/):
+
+```bash
+pip install propp_fr
+```
+
+## Oneliner Processing
+
+You can process a text file in one line with the default models:
+
+```python
+from propp_fr import process_text_file
+
+process_text_file("root_directory/my_french_novel.txt")
+```
+
+This will generate three additional files in the same directory:
+
+```
+root_directory/
+├── my_french_novel.txt
+├── my_french_novel.tokens
+├── my_french_novel.entities
+└── my_french_novel.book
+```
+
+
+
 ### 1. Token Embeddings  
 Contextualized embeddings from pretrained transformer-based models (e.g., `google/mt5-xl`, `almanach/camembert-large`).
 
