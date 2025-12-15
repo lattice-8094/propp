@@ -1,6 +1,11 @@
 # Coreference Annotated Datasets
 
-## Propp formatted datasets
+## NER-Only Propp formatted datasets
+
+- [Download **conll2003 NER** dataset – PROPP Minimal Implementation](datasets/conll2003-NER_propp_minimal_implementation.zip)
+
+
+## Coreference Resolution Propp formatted datasets
 
 - [Download **Long-LitBank-fr-PER-Only** dataset – PROPP Minimal Implementation](datasets/long-litbank-fr-PER-only_propp_minimal_implementation.zip)
 
