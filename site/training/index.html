@@ -973,7 +973,7 @@
 
 <span class="n">raw_files_path</span> <span class="o">=</span> <span class="s2">&quot;datasets/litbank/tsv&quot;</span>
 
-<span class="n">all_files</span> <span class="o">=</span> <span class="p">[</span><span class="n">p</span> <span class="k">for</span> <span class="n">p</span> <span class="ow">in</span> <span class="n">Path</span><span class="p">(</span><span class="n">raw_files_path</span><span class="p">)</span><span class="o">.</span><span class="n">iterdir</span><span class="p">()</span> <span class="k">if</span> <span class="n">p</span><span class="o">.</span><span class="n">is_file</span><span class="p">()]</span>
+<span class="n">all_files</span> <span class="o">=</span> <span class="nb">sorted</span><span class="p">([</span><span class="n">p</span> <span class="k">for</span> <span class="n">p</span> <span class="ow">in</span> <span class="n">Path</span><span class="p">(</span><span class="n">raw_files_path</span><span class="p">)</span><span class="o">.</span><span class="n">iterdir</span><span class="p">()</span> <span class="k">if</span> <span class="n">p</span><span class="o">.</span><span class="n">is_file</span><span class="p">()])</span>
 
 <span class="n">extensions</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span><span class="n">Counter</span><span class="p">(</span><span class="n">p</span><span class="o">.</span><span class="n">suffix</span> <span class="k">for</span> <span class="n">p</span> <span class="ow">in</span> <span class="n">files</span><span class="p">)</span><span class="o">.</span><span class="n">most_common</span><span class="p">())</span>
 <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;The dataset contains </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">all_files</span><span class="p">)</span><span class="si">:</span><span class="s2">,</span><span class="si">}</span><span class="s2"> files with the following extensions:&quot;</span><span class="p">)</span>
@@ -988,7 +988,9 @@
 <p>While the <code>.txt</code> file contains the raw text, we need to take a closer look at the <code>.ann</code> file.</p>
 <details class="abstract">
 <summary>Python Code</summary>
-<div class="highlight"><pre><span></span><code><span class="n">txt_files</span> <span class="o">=</span> <span class="p">[</span><span class="n">p</span> <span class="k">for</span> <span class="n">p</span> <span class="ow">in</span> <span class="n">all_files</span> <span class="k">if</span> <span class="n">p</span><span class="o">.</span><span class="n">suffix</span> <span class="o">==</span> <span class="s2">&quot;.txt&quot;</span><span class="p">]</span>
+<div class="highlight"><pre><span></span><code><span class="n">file_name</span> <span class="o">=</span> <span class="n">all_files</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">stem</span>
+
+<span class="n">txt_files</span> <span class="o">=</span> <span class="p">[</span><span class="n">p</span> <span class="k">for</span> <span class="n">p</span> <span class="ow">in</span> <span class="n">all_files</span> <span class="k">if</span> <span class="n">p</span><span class="o">.</span><span class="n">suffix</span> <span class="o">==</span> <span class="s2">&quot;.txt&quot;</span><span class="p">]</span>
 <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">ann_files</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="s2">&quot;r&quot;</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s2">&quot;utf-8&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
         <span class="n">text</span> <span class="o">=</span> <span class="n">f</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
 
@@ -1126,8 +1128,162 @@
 </tr>
 </tbody>
 </table>
-<p>In this case, only the <code>MENTION</code> and <code>COREF</code> annotations are relevant. </p>
-<p>We will create two new objects for both the mentions and the coreference links:</p>
+<p>In this case, only the <code>MENTION</code> and <code>COREF</code> annotations are relevant, as copulae and appositions are not considered strict coreference relations.</p>
+<p>We merge <code>MENTION</code> and <code>COREF</code> annotations into a single table and assign unique coreference IDs to singleton mentions:</p>
+<details class="abstract">
+<summary>Python Code</summary>
+<div class="highlight"><pre><span></span><code><span class="c1"># Filter mentions</span>
+<span class="n">mention_df</span> <span class="o">=</span> <span class="n">ann_df</span><span class="p">[</span><span class="n">ann_df</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">==</span><span class="s2">&quot;MENTION&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">drop</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">mention_df</span> <span class="o">=</span> <span class="n">mention_df</span><span class="p">[[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">6</span><span class="p">,</span><span class="mi">7</span><span class="p">,</span><span class="mi">8</span><span class="p">]]</span>
+<span class="n">mention_df</span><span class="o">.</span><span class="n">columns</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;mention_ID&quot;</span><span class="p">,</span><span class="s2">&quot;paragraph_ID&quot;</span><span class="p">,</span><span class="s2">&quot;start_token_within_sentence&quot;</span><span class="p">,</span><span class="s2">&quot;end_token_within_sentence&quot;</span><span class="p">,</span><span class="s2">&quot;text&quot;</span><span class="p">,</span><span class="s2">&quot;cat&quot;</span><span class="p">,</span><span class="s2">&quot;prop&quot;</span><span class="p">]</span>
+<span class="n">mention_df</span><span class="p">[[</span><span class="s2">&quot;paragraph_ID&quot;</span><span class="p">,</span><span class="s2">&quot;start_token_within_sentence&quot;</span><span class="p">,</span><span class="s2">&quot;end_token_within_sentence&quot;</span><span class="p">]]</span> <span class="o">=</span> <span class="n">mention_df</span><span class="p">[[</span><span class="s2">&quot;paragraph_ID&quot;</span><span class="p">,</span><span class="s2">&quot;start_token_within_sentence&quot;</span><span class="p">,</span><span class="s2">&quot;end_token_within_sentence&quot;</span><span class="p">]]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">int</span><span class="p">)</span>
+
+<span class="c1"># Filter coreference links</span>
+<span class="n">coref_df</span> <span class="o">=</span> <span class="n">ann_df</span><span class="p">[</span><span class="n">ann_df</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">==</span><span class="s2">&quot;COREF&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">drop</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">coref_df</span> <span class="o">=</span> <span class="n">coref_df</span><span class="p">[[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">]]</span>
+<span class="n">coref_df</span><span class="o">.</span><span class="n">columns</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;mention_ID&quot;</span><span class="p">,</span><span class="s2">&quot;COREF_name&quot;</span><span class="p">]</span>
+
+<span class="c1"># Merge mentions with coreference info</span>
+<span class="n">entities_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">merge</span><span class="p">(</span><span class="n">coref_df</span><span class="p">,</span> <span class="n">mention_df</span><span class="p">,</span> <span class="n">on</span><span class="o">=</span><span class="s2">&quot;mention_ID&quot;</span><span class="p">,</span> <span class="n">how</span><span class="o">=</span><span class="s2">&quot;outer&quot;</span><span class="p">)</span>\
+                 <span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;mention_ID&quot;</span><span class="p">])</span>\
+                 <span class="o">.</span><span class="n">sort_values</span><span class="p">([</span><span class="s2">&quot;paragraph_ID&quot;</span><span class="p">,</span><span class="s2">&quot;start_token_within_sentence&quot;</span><span class="p">,</span><span class="s2">&quot;end_token_within_sentence&quot;</span><span class="p">])</span>\
+                 <span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">drop</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+
+<span class="c1"># Fill missing COREF_name with unique names</span>
+<span class="n">existing</span> <span class="o">=</span> <span class="nb">set</span><span class="p">(</span><span class="n">entities_df</span><span class="p">[</span><span class="s2">&quot;COREF_name&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">dropna</span><span class="p">())</span>
+<span class="k">for</span> <span class="n">idx</span><span class="p">,</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">entities_df</span><span class="p">[</span><span class="n">entities_df</span><span class="p">[</span><span class="s2">&quot;COREF_name&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">isna</span><span class="p">()]</span><span class="o">.</span><span class="n">iterrows</span><span class="p">():</span>
+    <span class="n">base</span> <span class="o">=</span> <span class="n">row</span><span class="p">[</span><span class="s2">&quot;text&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">,</span> <span class="s2">&quot;_&quot;</span><span class="p">)</span>
+    <span class="n">i</span> <span class="o">=</span> <span class="mi">1</span>
+    <span class="n">name</span> <span class="o">=</span> <span class="n">base</span>
+    <span class="k">while</span> <span class="n">name</span> <span class="ow">in</span> <span class="n">existing</span><span class="p">:</span>
+        <span class="n">i</span> <span class="o">+=</span> <span class="mi">1</span>
+        <span class="n">name</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">base</span><span class="si">}</span><span class="s2">_</span><span class="si">{</span><span class="n">i</span><span class="si">}</span><span class="s2">&quot;</span>
+    <span class="n">entities_df</span><span class="o">.</span><span class="n">at</span><span class="p">[</span><span class="n">idx</span><span class="p">,</span> <span class="s2">&quot;COREF_name&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">name</span>
+    <span class="n">existing</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">name</span><span class="p">)</span>
+</code></pre></div>
+</details>
+<p>We split the original text into paragraphs and tokens, compute tokens byte offsets, and directly merge them with the mentions to map token spans to text offsets.</p>
+<details class="abstract">
+<summary>Python Code</summary>
+<div class="highlight"><pre><span></span><code><span class="c1"># Split text into tokens and track byte offsets</span>
+<span class="n">tokens</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="n">reconstructed_text</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span>
+<span class="k">for</span> <span class="n">paragraph_ID</span><span class="p">,</span> <span class="n">paragraph</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">text_content</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)):</span>
+    <span class="k">if</span> <span class="n">paragraph_ID</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="n">reconstructed_text</span> <span class="o">+=</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span>
+    <span class="k">for</span> <span class="n">token_ID_within_sentence</span><span class="p">,</span> <span class="n">token</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">paragraph</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">)):</span>
+        <span class="n">byte_onset</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">reconstructed_text</span><span class="p">)</span>
+        <span class="n">reconstructed_text</span> <span class="o">+=</span> <span class="n">token</span>
+        <span class="n">byte_offset</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">reconstructed_text</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">token_ID_within_sentence</span> <span class="o">!=</span> <span class="nb">len</span><span class="p">(</span><span class="n">paragraph</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">))</span> <span class="o">-</span> <span class="mi">1</span><span class="p">:</span>
+            <span class="n">reconstructed_text</span> <span class="o">+=</span> <span class="s2">&quot; &quot;</span>
+        <span class="n">tokens</span><span class="o">.</span><span class="n">append</span><span class="p">({</span>
+            <span class="s2">&quot;paragraph_ID&quot;</span><span class="p">:</span> <span class="n">paragraph_ID</span><span class="p">,</span>
+            <span class="s2">&quot;token_ID_within_sentence&quot;</span><span class="p">:</span><span class="n">token_ID_within_sentence</span><span class="p">,</span>
+            <span class="s2">&quot;byte_onset&quot;</span><span class="p">:</span> <span class="n">byte_onset</span><span class="p">,</span>
+            <span class="s2">&quot;byte_offset&quot;</span><span class="p">:</span> <span class="n">byte_offset</span><span class="p">,</span>
+        <span class="p">})</span>
+
+<span class="n">tokens_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">tokens</span><span class="p">)</span>
+
+<span class="c1"># Map mention token spans to byte offsets</span>
+<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">merge</span><span class="p">(</span><span class="n">entities_df</span><span class="p">,</span>
+              <span class="n">tokens_df</span><span class="p">[[</span><span class="s2">&quot;paragraph_ID&quot;</span><span class="p">,</span> <span class="s2">&quot;token_ID_within_sentence&quot;</span><span class="p">,</span> <span class="s2">&quot;byte_onset&quot;</span><span class="p">]],</span>
+              <span class="n">left_on</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;paragraph_ID&quot;</span><span class="p">,</span> <span class="s2">&quot;start_token_within_sentence&quot;</span><span class="p">],</span>
+              <span class="n">right_on</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;paragraph_ID&quot;</span><span class="p">,</span> <span class="s2">&quot;token_ID_within_sentence&quot;</span><span class="p">],</span>
+              <span class="p">)</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;token_ID_within_sentence&quot;</span><span class="p">])</span>
+<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">merge</span><span class="p">(</span><span class="n">df</span><span class="p">,</span>
+              <span class="n">tokens_df</span><span class="p">[[</span><span class="s2">&quot;paragraph_ID&quot;</span><span class="p">,</span> <span class="s2">&quot;token_ID_within_sentence&quot;</span><span class="p">,</span><span class="s2">&quot;byte_offset&quot;</span><span class="p">]],</span>
+              <span class="n">left_on</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;paragraph_ID&quot;</span><span class="p">,</span> <span class="s2">&quot;end_token_within_sentence&quot;</span><span class="p">],</span>
+              <span class="n">right_on</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;paragraph_ID&quot;</span><span class="p">,</span> <span class="s2">&quot;token_ID_within_sentence&quot;</span><span class="p">],</span>
+              <span class="p">)</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;token_ID_within_sentence&quot;</span><span class="p">])</span>
+<span class="n">entities_df</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
+</code></pre></div>
+</details>
+<p>We now have two key objects for downstream coreference tasks:</p>
+<ul>
+<li><code>reconstructed_text</code>: the original text stripped of trailing spaces and formatted with simple <code>\n</code> between paragraphs.</li>
+<li><code>entities_df</code>: a <a href="https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html"><code>pandas.dataframe</code></a> containing all annotated mentions with byte offsets aligned to reconstructed_text and associated coreference information.  </li>
+</ul>
+<p>The <strong>minimal configuration</strong> of <code>entities_df</code> needed to train a coreference resolution pipeline is:</p>
+<ul>
+<li><code>byte_onset</code>: exact character index of the mention start in <code>reconstructed_text</code>,</li>
+<li><code>byte_offset</code>: exact character index of the mention end in <code>reconstructed_text</code>,</li>
+<li><code>cat</code>: the mention type (e.g. <code>PER</code>, <code>FAC</code>, <code>GPE</code>, <code>ORG</code>),</li>
+<li><code>COREF_name</code>: a unique identifier for the mention coreference chain.  </li>
+</ul>
+<p>In this case <code>entities_df</code> contains additional columns:</p>
+<ul>
+<li><code>text</code>: the surface form of the mention,</li>
+<li><code>prop</code>: the manually annotated grammatical type of the mention (proper, noun phrase, pronoun).</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;"><strong>byte_onset</strong></th>
+<th style="text-align: left;"><strong>byte_offset</strong></th>
+<th style="text-align: left;"><strong>cat</strong></th>
+<th style="text-align: left;"><strong>COREF_name</strong></th>
+<th style="text-align: left;">text</th>
+<th style="text-align: left;">prop</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>13</strong></td>
+<td style="text-align: left;"><strong>21</strong></td>
+<td style="text-align: left;"><strong>FAC</strong></td>
+<td style="text-align: left;"><strong>Chancery-0</strong></td>
+<td style="text-align: left;">Chancery</td>
+<td style="text-align: left;">PROP</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>22</strong></td>
+<td style="text-align: left;"><strong>28</strong></td>
+<td style="text-align: left;"><strong>GPE</strong></td>
+<td style="text-align: left;"><strong>London-1</strong></td>
+<td style="text-align: left;">London</td>
+<td style="text-align: left;">PROP</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>69</strong></td>
+<td style="text-align: left;"><strong>84</strong></td>
+<td style="text-align: left;"><strong>PER</strong></td>
+<td style="text-align: left;"><strong>Lord_Chancellor-2</strong></td>
+<td style="text-align: left;">Lord Chancellor</td>
+<td style="text-align: left;">PROP</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>96</strong></td>
+<td style="text-align: left;"><strong>115</strong></td>
+<td style="text-align: left;"><strong>FAC</strong></td>
+<td style="text-align: left;"><strong>Lincoln__s_Inn_Hall-3</strong></td>
+<td style="text-align: left;">Lincoln 's Inn Hall</td>
+<td style="text-align: left;">PROP</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>163</strong></td>
+<td style="text-align: left;"><strong>174</strong></td>
+<td style="text-align: left;"><strong>FAC</strong></td>
+<td style="text-align: left;"><strong>the_streets-4</strong></td>
+<td style="text-align: left;">the streets</td>
+<td style="text-align: left;">NOM</td>
+</tr>
+</tbody>
+</table>
+<p>We can now save our formatted <code>reconstructed_text</code> and <code>entities_df</code> to our dataset directory:</p>
+<details class="abstract">
+<summary>Python Code</summary>
+<div class="highlight"><pre><span></span><code><span class="kn">from</span><span class="w"> </span><span class="nn">propp_fr</span><span class="w"> </span><span class="kn">import</span> <span class="n">save_text_file</span><span class="p">,</span> <span class="n">save_entities_df</span>
+
+<span class="n">local_dataset_path</span> <span class="o">=</span> <span class="s2">&quot;datasets/litbank&quot;</span>
+<span class="n">os</span><span class="o">.</span><span class="n">makedirs</span><span class="p">(</span><span class="n">local_dataset_path</span><span class="p">,</span> <span class="n">exist_ok</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+
+<span class="n">save_text_file</span><span class="p">(</span><span class="n">reconstructed_text</span><span class="p">,</span> <span class="n">file_name</span><span class="p">,</span> <span class="n">local_dataset_path</span><span class="p">)</span>
+<span class="n">save_entities_df</span><span class="p">(</span><span class="n">entities_df</span><span class="p">,</span> <span class="n">file_name</span><span class="p">,</span> <span class="n">local_dataset_path</span><span class="p">)</span>
+</code></pre></div>
+</details>
+<p>Let's put everything together in a clean function and preprocess the 100 files of the LitBank dataset:</p>
 <h2 id="russian">Russian</h2>
 <p>🚧 Coming soon... 🚧</p>
 

@@ -50,7 +50,7 @@ We can now take a look at the dataset:
     
     raw_files_path = "datasets/litbank/tsv"
     
-    all_files = [p for p in Path(raw_files_path).iterdir() if p.is_file()]
+    all_files = sorted([p for p in Path(raw_files_path).iterdir() if p.is_file()])
     
     extensions = dict(Counter(p.suffix for p in files).most_common())
     print(f"The dataset contains {len(all_files):,} files with the following extensions:")
@@ -68,6 +68,8 @@ While the `.txt` file contains the raw text, we need to take a closer look at th
 
 ??? Abstract "Python Code"
     ```python
+    
+    file_name = all_files[0].stem
 
     txt_files = [p for p in all_files if p.suffix == ".txt"]
     with open(ann_files[0], "r", encoding="utf-8") as f:
@@ -154,11 +156,87 @@ We merge `MENTION` and `COREF` annotations into a single table and assign unique
 
     ```
 
+We split the original text into paragraphs and tokens, compute tokens byte offsets, and directly merge them with the mentions to map token spans to text offsets.
 
+??? Abstract "Python Code"
+    ```python
+    
+    # Split text into tokens and track byte offsets
+    tokens = []
+    reconstructed_text = ""
+    for paragraph_ID, paragraph in enumerate(text_content.split("\n")):
+        if paragraph_ID != 0:
+            reconstructed_text += "\n"
+        for token_ID_within_sentence, token in enumerate(paragraph.split(" ")):
+            byte_onset = len(reconstructed_text)
+            reconstructed_text += token
+            byte_offset = len(reconstructed_text)
+            if token_ID_within_sentence != len(paragraph.split(" ")) - 1:
+                reconstructed_text += " "
+            tokens.append({
+                "paragraph_ID": paragraph_ID,
+                "token_ID_within_sentence":token_ID_within_sentence,
+                "byte_onset": byte_onset,
+                "byte_offset": byte_offset,
+            })
+    
+    tokens_df = pd.DataFrame(tokens)
+    
+    # Map mention token spans to byte offsets
+    df = pd.merge(entities_df,
+                  tokens_df[["paragraph_ID", "token_ID_within_sentence", "byte_onset"]],
+                  left_on=["paragraph_ID", "start_token_within_sentence"],
+                  right_on=["paragraph_ID", "token_ID_within_sentence"],
+                  ).drop(columns=["token_ID_within_sentence"])
+    df = pd.merge(df,
+                  tokens_df[["paragraph_ID", "token_ID_within_sentence","byte_offset"]],
+                  left_on=["paragraph_ID", "end_token_within_sentence"],
+                  right_on=["paragraph_ID", "token_ID_within_sentence"],
+                  ).drop(columns=["token_ID_within_sentence"])
+    entities_df = df.copy()
+    
+    ```
+We now have two key objects for downstream coreference tasks:
 
+  - `reconstructed_text`: the original text stripped of trailing spaces and formatted with simple `\n` between paragraphs.
+  - `entities_df`: a [`pandas.dataframe`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html) containing all annotated mentions with byte offsets aligned to reconstructed_text and associated coreference information.  
 
+The **minimal configuration** of `entities_df` needed to train a coreference resolution pipeline is:
 
+  - `byte_onset`: exact character index of the mention start in `reconstructed_text`,
+  - `byte_offset`: exact character index of the mention end in `reconstructed_text`,
+  - `cat`: the mention type (e.g. `PER`, `FAC`, `GPE`, `ORG`),
+  - `COREF_name`: a unique identifier for the mention coreference chain.  
+    
+In this case `entities_df` contains additional columns:
 
+  - `text`: the surface form of the mention,
+  - `prop`: the manually annotated grammatical type of the mention (proper, noun phrase, pronoun).
+
+| **byte_onset**   | **byte_offset**   | **cat**   | **COREF_name**            | text                | prop   |
+|:-----------------|:------------------|:----------|:--------------------------|:--------------------|:-------|
+| **13**           | **21**            | **FAC**   | **Chancery-0**            | Chancery            | PROP   |
+| **22**           | **28**            | **GPE**   | **London-1**              | London              | PROP   |
+| **69**           | **84**            | **PER**   | **Lord_Chancellor-2**     | Lord Chancellor     | PROP   |
+| **96**           | **115**           | **FAC**   | **Lincoln__s_Inn_Hall-3** | Lincoln 's Inn Hall | PROP   |
+| **163**          | **174**           | **FAC**   | **the_streets-4**         | the streets         | NOM    |
+
+We can now save our formatted `reconstructed_text` and `entities_df` to our dataset directory:
+
+??? Abstract "Python Code"
+    ```python
+    
+    from propp_fr import save_text_file, save_entities_df
+
+    local_dataset_path = "datasets/litbank"
+    os.makedirs(local_dataset_path, exist_ok=True)
+    
+    save_text_file(reconstructed_text, file_name, local_dataset_path)
+    save_entities_df(entities_df, file_name, local_dataset_path)
+
+    ```
+
+Let's put everything together in a clean function and preprocess the 100 files of the LitBank dataset:
 
 
 
