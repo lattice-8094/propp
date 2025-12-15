@@ -11,7 +11,8 @@ title: "Contributors"
 </h2>
 
 
-  - French Dataset Annotations, Applications
+  - French Dataset Annotations
+  - Downstream Applications
 
 <h2>
   <a href="https://antoine-bourgois.github.io/" target="_blank" rel="noopener noreferrer">
@@ -19,7 +20,10 @@ title: "Contributors"
   </a>
 </h2>
 
-  - Main Developer, Python Library, French Dataset Annotations, Model Training and Evaluation
+  - Main Developer
+  - Python Library
+  - French Dataset Annotations
+  - Model Training and Evaluation
 
 <h2>
   <a href="https://tpoibeau.github.io/" target="_blank" rel="noopener noreferrer">
@@ -28,4 +32,6 @@ title: "Contributors"
 </h2>
 
   - Project Supervisor
+
+# Acknowledgements
 
