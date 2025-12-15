@@ -14,7 +14,7 @@ title: "Processing Full Directory"
     from pathlib import Path
     from tqdm.auto import tqdm
     
-    files_directory = "<directory_containing_txt_files>"
+    files_directory = #"<directory_containing_txt_files>"
 
     txt_files = sorted(p.stem for p in Path(files_directory).iterdir() if p.suffix == ".txt")
     book_files = sorted(p.stem for p in Path(files_directory).iterdir() if p.suffix == ".book")

@@ -15,21 +15,33 @@ site_url = "https://lattice-8094.github.io/propp"
 
 # Read more: https://zensical.org/docs/setup/navigation/
 nav = [
-  { "Home" = "index.md" },
-  { "User Guide" = [
-      { "Quick Start" = "quick_start.md" },
+    { "Home" = "index.md" },
+    { "User Guide" = [
+        { "Quick Start" = "quick_start.md" },
 
-      { "Basic Processing" = [
-          { "Step by Step" = "step_by_step_processing.md" },
-          { "Process an Entire Directory" = "processing_all_directory.md" }
-      ]},
+        { "Basic Processing" = [
+            { "Step by Step" = "step_by_step_processing.md" },
+            { "Process an Entire Directory" = "processing_all_directory.md" }
+        ]},
 
-      { "Advanced Processing" = [
-          { "" = "advanced_processing.md" }
-      ]}
-  ]},
+        { "Advanced Processing" = [
+            { "" = "advanced_processing.md" }
+        ]}
+    ]},
     {"Algorithms" = "algorithms.md" },
-    {"Training" = "training.md" },
+
+    { "Training" = [
+        { "Training" = "training.md" },
+
+        { "Dataset Pre Processing" = [
+            { "LitBank" = "litbank_preprocessing.md" },
+            { "" = "" }
+        ]},
+
+        { "Mention Detection Model" = [
+            { "Mention Detection Model" = "training_mention_detection_model.md" }
+        ]}
+    ]},
     {"Datasets" = "datasets.md" },
     {"Use Cases" = "use_cases.md" },
 #    {"API" = "API.md" },
