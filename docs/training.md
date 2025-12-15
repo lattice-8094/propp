@@ -236,13 +236,118 @@ We can now save our formatted `reconstructed_text` and `entities_df` to our data
 
     ```
 
-Let's put everything together in a clean function and preprocess the 100 files of the LitBank dataset:
+Finally, we can wrap the entire preprocessing pipeline into a loop to handle all 100 LitBank files.
 
+??? Abstract "Python Code"
+    ```python
 
+    from tqdm.auto import tqdm
+    import pandas as pd
+    from pathlib import Path
+    import os
+    from propp_fr import save_text_file, save_entities_df
+    
+    raw_files_directory_path = "datasets/litbank/tsv"
+    local_dataset_path = "datasets/litbank/propp_minimal"
+    
+    file_names = sorted(list(set([p.stem for p in Path(raw_files_directory_path).iterdir() if p.is_file()])))
+    
+    for file_name in tqdm(file_names):
+        # Loading Input Files
+        with open(os.path.join(raw_files_directory_path, file_name + ".txt"), "r", encoding="utf-8") as f:
+            text_content = f.read()
+        ann_df = pd.read_csv(os.path.join(raw_files_directory_path, file_name + ".ann"), sep="\t", header=None)
 
+        # Filter mentions
+        mention_df = ann_df[ann_df[0]=="MENTION"].reset_index(drop=True)
+        mention_df = mention_df[[1,2,3,5,6,7,8]]
+        mention_df.columns = ["mention_ID","paragraph_ID","start_token_within_sentence","end_token_within_sentence","text","cat","prop"]
+        mention_df[["paragraph_ID","start_token_within_sentence","end_token_within_sentence"]] = mention_df[["paragraph_ID","start_token_within_sentence","end_token_within_sentence"]].astype(int)
+    
+        # Filter coreference links
+        coref_df = ann_df[ann_df[0]=="COREF"].reset_index(drop=True)
+        coref_df = coref_df[[1,2]]
+        coref_df.columns = ["mention_ID","COREF_name"]
+    
+        # Merge mentions with coreference info
+        entities_df = pd.merge(coref_df, mention_df, on="mention_ID", how="outer")\
+                         .drop(columns=["mention_ID"])\
+                         .sort_values(["paragraph_ID","start_token_within_sentence","end_token_within_sentence"])\
+                         .reset_index(drop=True)
+    
+        # Fill missing COREF_name with unique names
+        existing = set(entities_df["COREF_name"].dropna())
+        for idx, row in entities_df[entities_df["COREF_name"].isna()].iterrows():
+            base = row["text"].replace(" ", "_")
+            i = 1
+            name = base
+            while name in existing:
+                i += 1
+                name = f"{base}_{i}"
+            entities_df.at[idx, "COREF_name"] = name
+            existing.add(name)
+    
+        # Split text into tokens and track byte offsets
+        tokens = []
+        reconstructed_text = ""
+        for paragraph_ID, paragraph in enumerate(text_content.split("\n")):
+            if paragraph_ID != 0:
+                reconstructed_text += "\n"
+            for token_ID_within_sentence, token in enumerate(paragraph.split(" ")):
+                byte_onset = len(reconstructed_text)
+                reconstructed_text += token
+                byte_offset = len(reconstructed_text)
+                if token_ID_within_sentence != len(paragraph.split(" ")) - 1:
+                    reconstructed_text += " "
+                tokens.append({
+                    "paragraph_ID": paragraph_ID,
+                    "token_ID_within_sentence":token_ID_within_sentence,
+                    "byte_onset": byte_onset,
+                    "byte_offset": byte_offset,
+                })
+    
+        tokens_df = pd.DataFrame(tokens)
+    
+        # Map mention token spans to byte offsets
+        df = pd.merge(entities_df,
+                      tokens_df[["paragraph_ID", "token_ID_within_sentence", "byte_onset"]],
+                      left_on=["paragraph_ID", "start_token_within_sentence"],
+                      right_on=["paragraph_ID", "token_ID_within_sentence"],
+                      ).drop(columns=["token_ID_within_sentence"])
+        df = pd.merge(df,
+                      tokens_df[["paragraph_ID", "token_ID_within_sentence","byte_offset"]],
+                      left_on=["paragraph_ID", "end_token_within_sentence"],
+                      right_on=["paragraph_ID", "token_ID_within_sentence"],
+                      ).drop(columns=["token_ID_within_sentence", "paragraph_ID", "start_token_within_sentence", "end_token_within_sentence"])
+        entities_df = df.copy()
+    
+        minimal_columns = ['byte_onset', 'byte_offset', 'cat', 'COREF_name']
+        entities_df = entities_df[minimal_columns + [col for col in df.columns if col not in minimal_columns]]
+    
+        file_name = file_name.replace("_brat", "") if file_name.endswith("_brat") else file_name
+        save_text_file(reconstructed_text, file_name, local_dataset_path)
+        save_entities_df(entities_df, file_name, local_dataset_path)
 
+    import shutil
+    
+    output_archive_name = "litbank_propp_minimal_implementation"
+    # Path where the ZIP will be saved (same level as local_dataset_path)
+    output_path = os.path.join(os.path.dirname(local_dataset_path), output_archive_name)
+    # Create a ZIP archive
+    shutil.make_archive(output_path, 'zip', root_dir=local_dataset_path)
+    print(f"Archive created: {output_path}.zip")
 
+    ```
 
+Finally, the script generates a **compressed ZIP archive** of the processed dataset:
+
+```
+litbank_propp_minimal_implementation.zip
+```
+
+This archive is ready to use with the Propp pipeline.
+
+Alternatively, the dataset archive can be downloaded directly from the [datasets section](https://lattice-8094.github.io/propp/datasets/#litbank]).
 
 
 
