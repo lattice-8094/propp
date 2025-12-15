@@ -12,6 +12,9 @@
     height="32"
     style="vertical-align: middle; transform: scaleX(-1);"
   />
+  <a Pattern Recognition and Ontologies for Prose Processing</a>
+  <a A Python library for narrative analysis</a>
+
 </h1>
 
 
