@@ -74,11 +74,6 @@ Inferring gender, social role, narrative function, and other descriptors from co
 ### 7. Character Representation  
 Producing structured profiles for characters (e.g., via embeddings), ready for downstream analysis or visualization.
 
-## Python Library
-
-pip install propp_fr
-[Python Library](https://pypi.org/project/propp-fr/)
-
 ## Hands-on Tutorial Notebook
 
 [Hands-on Tutorial Notebook](https://colab.research.google.com/drive/151ODFrKc4EVWojHpNoSUSvZsggGjBQ1j?usp=sharing)
@@ -87,7 +82,7 @@ pip install propp_fr
 
 [Presentation (in french)](https://mate-shs.cnrs.fr/actions/tutomate/tuto71_propp_bourgois/)
 
-### Papers
+### Research Papers
 Antoine Bourgois and Thierry Poibeau.
 2025.
 [The Elephant in the Coreference Room: Resolving Coreference in Full-Length French Fiction Works.](https://arxiv.org/pdf/2510.15594)
