@@ -19,7 +19,7 @@
   <em>A Python library for Narrative Analysis</em>
 </p>
 
-**Propp** is a modular NLP pipeline designed to extract rich character-centric information from narrative texts, especially litterature. It combines deep learning and rule-based techniques for:
+**Propp** is a modular NLP pipeline designed to extract rich character-centric information from narrative texts, especially litterature.
 
 ## Quick Start
 
