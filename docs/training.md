@@ -347,12 +347,9 @@ litbank_propp_minimal_implementation.zip
 
 This archive is ready to use with the Propp pipeline.
 
-Alternatively, the dataset archive can be downloaded directly from the [datasets section](propp/datasets/#litbank]).
+Alternatively, the dataset archive can be downloaded directly from the [datasets section](propp/datasets/#litbank).
 
 
 
 
 
-## Russian
-
-🚧 Coming soon... 🚧

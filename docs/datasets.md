@@ -1,20 +1,30 @@
-# Datasets
+# Coreference Annotated Datasets
+
+## Propp formatted datasets
+
+- [Download LitBank dataset – PROPP Minimal Implementation](datasets/litbank_propp_minimal_implementation.zip)
+> **Note:** This version is a **minimal implementation** of the [original LitBank dataset](https://github.com/dbamman/litbank), formatted specifically for use with **Propp’s coreference resolution training pipeline**. It contains only the essential columns (`byte_onset`, `byte_offset`, `cat`, `COREF_name`) aligned with the text for efficient model training.
+
 
 ## French Datasets
 
 ### LitBank-fr
 
+### Long-LitBank-fr (characters only)
+
 ## English Datasets
 
 ### LitBank-en
 
-This is the original LitBank dataset.
+[LitBank](https://github.com/dbamman/litbank) is an annotated dataset of 100 works of English-language fiction designed to support tasks in natural language processing and the computational humanities. 
+The dataset is described in the following publications:
 
+- David Bamman, Sejal Popat, and Sheng Shen (2019), "[An Annotated Dataset of Literary Entities](http://people.ischool.berkeley.edu/~dbamman/pubs/pdf/naacl2019_literary_entities.pdf)," *NAACL 2019*.
+- Matthew Sims, Jong Ho Park, and David Bamman (2019), "[Literary Event Detection](http://people.ischool.berkeley.edu/~dbamman/pubs/pdf/acl2019_literary_events.pdf)," *ACL 2019*.
+- David Bamman, Olivia Lewke, and Anya Mansoor (2020), "[An Annotated Dataset of Coreference in English Literature](https://arxiv.org/abs/1912.01140)," *LREC*.
 
-LitBank is an annotated dataset of 100 works of English-language fiction to support tasks in natural language processing and the computational humanities, described in more detail in the following publications:
+**Note:** This version does **not modify the underlying annotations**, only restructures them for easier use in Propp.
 
-* David Bamman, Sejal Popat and Sheng Shen (2019), "[An Annotated Dataset of Literary Entities](http://people.ischool.berkeley.edu/~dbamman/pubs/pdf/naacl2019_literary_entities.pdf)," NAACL 2019.
+## Russian Datasets
 
-* Matthew Sims, Jong Ho Park and David Bamman (2019), "[Literary Event Detection](http://people.ischool.berkeley.edu/~dbamman/pubs/pdf/acl2019_literary_events.pdf)," ACL 2019.
-
-* David Bamman, Olivia Lewke and Anya Mansoor (2020), "[An Annotated Dataset of Coreference in English Literature](https://arxiv.org/abs/1912.01140)", LREC.
+🚧 Coming soon... 🚧
