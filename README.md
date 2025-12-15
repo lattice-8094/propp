@@ -19,13 +19,11 @@
   <em>A Python library for Narrative Analysis</em>
 </p>
 
-## Overview
-
 **Propp** is a modular NLP pipeline designed to extract rich character-centric information from narrative texts, especially litterature. It combines deep learning and rule-based techniques for:
 
-# Quick Start
+## Quick Start
 
-## Installation
+**Installation**
 
 The French variant of the Propp python library can be installed via [pypi](https://pypi.org/project/propp-fr/):
 
@@ -33,7 +31,7 @@ The French variant of the Propp python library can be installed via [pypi](https
 pip install propp_fr
 ```
 
-## Oneliner Processing
+**Oneliner Processing**
 
 You can process a text file in one line with the default models:
 
