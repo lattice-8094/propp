@@ -18,7 +18,7 @@ propp
 
 **Cite this work**
 ```
-@article{10.63744@SMbYIWcHZj87,
+@article{barre_detectives_2025,
   title = {Modeling the Construction of a Literary Archetype: The Case of the Detective Figure in French Literature},
   author = {Jean Barré and Olga Seminck and Antoine Bourgois and Thierry Poibeau},
   year = {2025},
