@@ -1,7 +1,12 @@
-
-![Model Architecture](docs/images/propp_logo_favicon.svg) 
-# [PROPP DOCUMENTATION](https://lattice-8094.github.io/propp/)
-
+<h1 align="center">
+  <img
+    src="docs/images/propp_logo_favicon.svg"
+    alt="PROPP logo"
+    height="32"
+    style="vertical-align: middle;"
+  />
+  <a href="https://lattice-8094.github.io/propp/">PROPP DOCUMENTATION</a>
+</h1>
 
 
 
