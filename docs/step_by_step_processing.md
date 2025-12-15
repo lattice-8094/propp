@@ -34,19 +34,19 @@ tokens_df = generate_tokens_df(text_content, spacy_model)
 
 `tokens_df` is a [`pandas.DataFrame`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html) where each row represents one token from the text.
 
-| Column Name | Description |
-|------------|-------------|
-| `paragraph_ID` | Which paragraph the token belongs to |
-| `sentence_ID` | Which sentence the token belongs to |
-| `token_ID_within_sentence` | Position of the token within its sentence |
+| Column Name | Description                                  |
+|------------|----------------------------------------------|
+| `paragraph_ID` | Which paragraph the token belongs to         |
+| `sentence_ID` | Which sentence the token belongs to          |
+| `token_ID_within_sentence` | Position of the token within its sentence    |
 | `token_ID_within_document` | Position of the token in the entire document |
-| `word` | The actual word as it appears in the text |
-| `lemma` | The base/dictionary form of the word |
-| `byte_onset` | Starting byte position in the original file |
-| `byte_offset` | Ending byte position in the original file |
+| `word` | The actual word as it appears in the text    |
+| `lemma` | The base/dictionary form of the word         |
+| `byte_onset` | Starting byte position in the original file  |
+| `byte_offset` | Ending byte position in the original file    |
 | `POS_tag` | Part-of-speech tag (noun, verb, adjective, etc.) |
-| `dependency_relation` | How the word relates to other words |
-| `syntactic_head_ID` | The ID of the word this token depends on |
+| `dependency_relation` | How the word relates to other words          |
+| `syntactic_head_ID` | The ID of the word this token depends on     |
 
 
 ## 4: Embedding Tokens
