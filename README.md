@@ -16,19 +16,8 @@
 
 <p align="center">
   <strong>Pattern Recognition and Ontologies for Prose Processing</strong><br />
-  <em>A Python library for narrative analysis</em>
+  <em>A Python library for Narrative Analysis</em>
 </p>
-
-
-
-
-
-
-![Model Architecture](propp_logo.png)
-
-Pattern Recognition and Ontologies for Prose Processing
-
-Natural Language Processing Pipeline for French Literary Works
 
 ## Overview
 
