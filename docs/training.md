@@ -116,11 +116,43 @@ We see that the first column contains the annotation type, on which the content 
 | COP               |       6 | Copular relation between two mentions (not treated as coreference)      |
 | APPOS             |       3 | Appositional relation between two mentions (not treated as coreference) |
 
-In this case, only the `MENTION` and `COREF` annotations are relevant. 
+In this case, only the `MENTION` and `COREF` annotations are relevant, as copulae and appositions are not considered strict coreference relations.
 
-We will create two new objects for both the mentions and the coreference links:
+We merge `MENTION` and `COREF` annotations into a single table and assign unique coreference IDs to singleton mentions:
 
+??? Abstract "Python Code"
+    ```python
+    
+    # Filter mentions
+    mention_df = ann_df[ann_df[0]=="MENTION"].reset_index(drop=True)
+    mention_df = mention_df[[1,2,3,5,6,7,8]]
+    mention_df.columns = ["mention_ID","paragraph_ID","start_token_within_sentence","end_token_within_sentence","text","cat","prop"]
+    mention_df[["paragraph_ID","start_token_within_sentence","end_token_within_sentence"]] = mention_df[["paragraph_ID","start_token_within_sentence","end_token_within_sentence"]].astype(int)
+    
+    # Filter coreference links
+    coref_df = ann_df[ann_df[0]=="COREF"].reset_index(drop=True)
+    coref_df = coref_df[[1,2]]
+    coref_df.columns = ["mention_ID","COREF_name"]
+    
+    # Merge mentions with coreference info
+    entities_df = pd.merge(coref_df, mention_df, on="mention_ID", how="outer")\
+                     .drop(columns=["mention_ID"])\
+                     .sort_values(["paragraph_ID","start_token_within_sentence","end_token_within_sentence"])\
+                     .reset_index(drop=True)
+    
+    # Fill missing COREF_name with unique names
+    existing = set(entities_df["COREF_name"].dropna())
+    for idx, row in entities_df[entities_df["COREF_name"].isna()].iterrows():
+        base = row["text"].replace(" ", "_")
+        i = 1
+        name = base
+        while name in existing:
+            i += 1
+            name = f"{base}_{i}"
+        entities_df.at[idx, "COREF_name"] = name
+        existing.add(name)
 
+    ```
 
 
 

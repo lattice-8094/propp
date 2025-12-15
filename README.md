@@ -94,3 +94,7 @@ Jean Barré, Olga Seminck, Antoine Bourgois, Thierry Poibeau.
 [Modeling the Construction of a Literary Archetype: The Case of the Detective Figure in French Literature](https://arxiv.org/pdf/2511.00627)
 In *Proceeding of the Sixth Conference on Computational Humanities Research 2025 (CHR 2025).* Luxembourg, Luxembourg.
 [arxiv](https://arxiv.org/abs/2511.00627).
+
+PROPP: Pattern Recognition and Ontologies for Prose Processing
+ 
+A Python library for narrative analysis 
