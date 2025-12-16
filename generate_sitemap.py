@@ -2,7 +2,7 @@ from pathlib import Path
 
 BASE_URL = "https://lattice-8094.github.io/propp"
 SITE_DIR = Path("site")          # Zensical output directory
-OUTPUT_DIR = Path("docs")        # Where sitemap.xml should be saved
+OUTPUT_DIR = Path("site")        # Where sitemap.xml should be saved
 OUTPUT_DIR.mkdir(exist_ok=True)
 
 urls = []
@@ -28,4 +28,3 @@ with sitemap_path.open("w", encoding="utf-8") as f:
     f.write('</urlset>\n')
 
 print(f"Sitemap written to {sitemap_path}")
-
