@@ -211,7 +211,7 @@ generate_NER_model_card_from_LOOCV_directory(trained_model_directory)
       pipeline_tag: token-classification
     ---
     
-    <h2>INTRODUCTION</h2>
+    ## INTRODUCTION:
     This model, developed as part of the [propp-fr project](https://lattice-8094.github.io/propp/), is a **NER model** built on top of [roberta-large](https://huggingface.co/FacebookAI/roberta-large) embeddings, trained to predict nested entities in french, specifically for literary texts.
     
     The predicted entities are:
@@ -231,8 +231,7 @@ generate_NER_model_card_from_LOOCV_directory(trained_model_directory)
     | micro_avg | 93.16%      | 93.25%   | 93.21%     | 5,648     | 100.00%     |
     | macro_avg | 91.49%      | 91.65%   | 91.57%     | 5,648     | 100.00%     |
     
-    <h2>TRAINING PARAMETERS</h2>
-
+    ## TRAINING PARAMETERS:
     - Entities types: ['MISC', 'ORG', 'PER', 'LOC']
       - Tagging scheme: BIOES
       - Nested entities levels: [0]
