@@ -1111,6 +1111,94 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#define-training-parameters" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Define Training Parameters
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#train-and-evaluate-the-model-and-generate-the-model-card" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Train and Evaluate the model And Generate the Model Card
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        INTRODUCTION:
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#model-performances-test-set" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        MODEL PERFORMANCES (TEST SET):
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#training-parameters" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        TRAINING PARAMETERS:
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#model-architecture" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        MODEL ARCHITECTURE:
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-use" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        HOW TO USE:
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#predictions-confusion-matrix" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        PREDICTIONS CONFUSION MATRIX:
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1276,6 +1364,94 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#define-training-parameters" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Define Training Parameters
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#train-and-evaluate-the-model-and-generate-the-model-card" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Train and Evaluate the model And Generate the Model Card
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        INTRODUCTION:
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#model-performances-test-set" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        MODEL PERFORMANCES (TEST SET):
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#training-parameters" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        TRAINING PARAMETERS:
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#model-architecture" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        MODEL ARCHITECTURE:
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-use" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        HOW TO USE:
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#predictions-confusion-matrix" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        PREDICTIONS CONFUSION MATRIX:
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1352,6 +1528,295 @@
 
 <span class="n">spacy_model</span> <span class="o">=</span> <span class="n">load_spacy_model</span><span class="p">(</span><span class="s2">&quot;en_core_web_trf&quot;</span><span class="p">)</span>
 </code></pre></div>
+<p>Define Preprocessing Functions</p>
+<div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">realign_tokens_offsets</span><span class="p">(</span><span class="n">tokens_df</span><span class="p">,</span> <span class="n">entities_df</span><span class="p">):</span>
+    <span class="n">start_tokens</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">end_tokens</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">new_byte_onsets</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">new_byte_offsets</span> <span class="o">=</span> <span class="p">[]</span>
+
+    <span class="k">for</span> <span class="n">mention_byte_onset</span><span class="p">,</span> <span class="n">mention_byte_offset</span> <span class="ow">in</span> <span class="n">entities_df</span><span class="p">[[</span><span class="s2">&quot;byte_onset&quot;</span><span class="p">,</span> <span class="s2">&quot;byte_offset&quot;</span><span class="p">]]</span><span class="o">.</span><span class="n">values</span><span class="p">:</span>
+        <span class="n">start_token</span> <span class="o">=</span> <span class="n">tokens_df</span><span class="p">[</span><span class="n">tokens_df</span><span class="p">[</span><span class="s2">&quot;byte_offset&quot;</span><span class="p">]</span> <span class="o">&gt;</span> <span class="n">mention_byte_onset</span><span class="p">]</span><span class="o">.</span><span class="n">index</span><span class="o">.</span><span class="n">min</span><span class="p">()</span>
+        <span class="n">end_token</span> <span class="o">=</span> <span class="n">tokens_df</span><span class="p">[</span><span class="n">tokens_df</span><span class="p">[</span><span class="s2">&quot;byte_onset&quot;</span><span class="p">]</span> <span class="o">&lt;</span> <span class="n">mention_byte_offset</span><span class="p">]</span><span class="o">.</span><span class="n">index</span><span class="o">.</span><span class="n">max</span><span class="p">()</span>
+        <span class="n">new_byte_onsets</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">tokens_df</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">start_token</span><span class="p">,</span> <span class="s2">&quot;byte_onset&quot;</span><span class="p">])</span>
+        <span class="n">new_byte_offsets</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">tokens_df</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">end_token</span><span class="p">,</span> <span class="s2">&quot;byte_offset&quot;</span><span class="p">])</span>
+
+        <span class="n">start_tokens</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">start_token</span><span class="p">)</span>
+        <span class="n">end_tokens</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">end_token</span><span class="p">)</span>
+
+    <span class="n">entities_df</span><span class="p">[</span><span class="s2">&quot;start_token&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">start_tokens</span>
+    <span class="n">entities_df</span><span class="p">[</span><span class="s2">&quot;end_token&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">end_tokens</span>
+    <span class="n">entities_df</span><span class="p">[</span><span class="s2">&quot;byte_onset&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">new_byte_onsets</span>
+    <span class="n">entities_df</span><span class="p">[</span><span class="s2">&quot;byte_offset&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">new_byte_offsets</span>
+
+    <span class="k">return</span> <span class="n">entities_df</span>
+
+<span class="k">def</span><span class="w"> </span><span class="nf">extract_mention_text</span><span class="p">(</span><span class="n">text_content</span><span class="p">,</span> <span class="n">entities_df</span><span class="p">):</span>
+    <span class="n">mention_texts</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">mention_byte_onset</span><span class="p">,</span> <span class="n">mention_byte_offset</span> <span class="ow">in</span> <span class="n">entities_df</span><span class="p">[[</span><span class="s2">&quot;byte_onset&quot;</span><span class="p">,</span> <span class="s2">&quot;byte_offset&quot;</span><span class="p">]]</span><span class="o">.</span><span class="n">values</span><span class="p">:</span>
+        <span class="n">mention_texts</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">text_content</span><span class="p">[</span><span class="n">mention_byte_onset</span><span class="p">:</span><span class="n">mention_byte_offset</span><span class="p">])</span>
+    <span class="n">entities_df</span><span class="p">[</span><span class="s2">&quot;text&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">mention_texts</span>
+    <span class="n">entities_df</span><span class="p">[</span><span class="s2">&quot;text&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">entities_df</span><span class="p">[</span><span class="s2">&quot;text&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">str</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">entities_df</span>
+</code></pre></div>
+<p>Preprocess the dataset to make it ready for mention spans detection training.</p>
+<div class="highlight"><pre><span></span><code><span class="kn">from</span><span class="w"> </span><span class="nn">propp_fr</span><span class="w"> </span><span class="kn">import</span> <span class="n">load_text_file</span><span class="p">,</span> <span class="n">generate_tokens_df</span><span class="p">,</span> <span class="n">save_tokens_df</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">propp_fr</span><span class="w"> </span><span class="kn">import</span> <span class="n">load_tokens_df</span><span class="p">,</span> <span class="n">load_entities_df</span><span class="p">,</span> <span class="n">add_features_to_entities</span><span class="p">,</span> <span class="n">save_entities_df</span>
+
+<span class="k">for</span> <span class="n">file_name</span> <span class="ow">in</span> <span class="n">tqdm</span><span class="p">(</span><span class="n">all_files</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">files_directory</span><span class="p">,</span> <span class="n">file_name</span> <span class="o">+</span> <span class="s2">&quot;.tokens&quot;</span><span class="p">)):</span>
+        <span class="k">continue</span>
+    <span class="n">text_content</span> <span class="o">=</span> <span class="n">load_text_file</span><span class="p">(</span><span class="n">file_name</span><span class="p">,</span> <span class="n">files_directory</span><span class="p">)</span>
+    <span class="n">tokens_df</span> <span class="o">=</span> <span class="n">generate_tokens_df</span><span class="p">(</span><span class="n">text_content</span><span class="p">,</span> <span class="n">spacy_model</span><span class="p">,</span> <span class="n">verbose</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+    <span class="n">entities_df</span> <span class="o">=</span> <span class="n">load_entities_df</span><span class="p">(</span><span class="n">file_name</span><span class="p">,</span> <span class="n">files_directory</span><span class="p">)</span>
+
+    <span class="n">entities_df</span> <span class="o">=</span> <span class="n">realign_tokens_offsets</span><span class="p">(</span><span class="n">tokens_df</span><span class="p">,</span> <span class="n">entities_df</span><span class="p">)</span>
+    <span class="n">entities_df</span> <span class="o">=</span> <span class="n">extract_mention_text</span><span class="p">(</span><span class="n">text_content</span><span class="p">,</span> <span class="n">entities_df</span><span class="p">)</span>
+
+    <span class="n">entities_df</span> <span class="o">=</span> <span class="n">add_features_to_entities</span><span class="p">(</span><span class="n">entities_df</span><span class="p">,</span> <span class="n">tokens_df</span><span class="p">)</span>
+    <span class="n">entities_df</span><span class="p">[</span><span class="s2">&quot;gender&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Not_Assigned&quot;</span> <span class="c1"># Not available for english</span>
+    <span class="n">entities_df</span><span class="p">[</span><span class="s2">&quot;number&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Not_Assigned&quot;</span> <span class="c1"># Not available for english</span>
+    <span class="n">entities_df</span><span class="p">[</span><span class="s2">&quot;grammatical_person&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;4&quot;</span> <span class="c1"># Not available for english</span>
+
+    <span class="n">save_entities_df</span><span class="p">(</span><span class="n">entities_df</span><span class="p">,</span> <span class="n">file_name</span><span class="p">,</span> <span class="n">files_directory</span><span class="p">)</span>
+    <span class="n">save_tokens_df</span><span class="p">(</span><span class="n">tokens_df</span><span class="p">,</span> <span class="n">file_name</span><span class="p">,</span> <span class="n">files_directory</span><span class="p">)</span>
+</code></pre></div>
+<div class="highlight"><pre><span></span><code><span class="kn">from</span><span class="w"> </span><span class="nn">propp_fr</span><span class="w"> </span><span class="kn">import</span> <span class="n">mentions_detection_LOOCV_full_model_training</span><span class="p">,</span> <span class="n">generate_NER_model_card_from_LOOCV_directory</span>
+
+<span class="kn">from</span><span class="w"> </span><span class="nn">collections</span><span class="w"> </span><span class="kn">import</span> <span class="n">Counter</span>
+
+<span class="n">NER_categories</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="k">for</span> <span class="n">file_name</span> <span class="ow">in</span> <span class="n">all_files</span><span class="p">:</span>
+    <span class="n">entities_df</span> <span class="o">=</span> <span class="n">load_entities_df</span><span class="p">(</span><span class="n">file_name</span><span class="p">,</span> <span class="n">files_directory</span><span class="p">)</span>
+    <span class="n">NER_categories</span><span class="o">.</span><span class="n">extend</span><span class="p">(</span><span class="n">entities_df</span><span class="p">[</span><span class="s2">&quot;cat&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">tolist</span><span class="p">())</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">Counter</span><span class="p">(</span><span class="n">NER_categories</span><span class="p">))</span>
+<span class="n">NER_cat_list</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">set</span><span class="p">(</span><span class="n">NER_categories</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">NER_cat_list</span><span class="p">)</span>
+</code></pre></div>
+<h2 id="define-training-parameters">Define Training Parameters</h2>
+<div class="highlight"><pre><span></span><code><span class="n">subword_pooling_strategy</span> <span class="o">=</span> <span class="s2">&quot;first_last&quot;</span>
+<span class="n">nested_levels</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+<span class="n">tagging_scheme</span> <span class="o">=</span> <span class="s2">&quot;BIOES&quot;</span>
+<span class="n">test_split</span> <span class="o">=</span> <span class="p">[</span><span class="n">file</span> <span class="k">for</span> <span class="n">file</span> <span class="ow">in</span> <span class="n">all_files</span> <span class="k">if</span> <span class="n">file</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s2">&quot;test&quot;</span><span class="p">)]</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Test split: </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">test_split</span><span class="p">)</span><span class="si">:</span><span class="s2">,</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+
+<span class="n">model_name</span> <span class="o">=</span> <span class="s2">&quot;FacebookAI/roberta-large&quot;</span>
+<span class="n">embedding_model_name</span> <span class="o">=</span> <span class="n">model_name</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;/&quot;</span><span class="p">)[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+<span class="n">trained_model_directory</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">files_directory</span><span class="p">,</span> <span class="sa">f</span><span class="s2">&quot;mentions_detection_model_</span><span class="si">{</span><span class="n">embedding_model_name</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+</code></pre></div>
+<h2 id="train-and-evaluate-the-model-and-generate-the-model-card">Train and Evaluate the model And Generate the Model Card</h2>
+<div class="highlight"><pre><span></span><code><span class="n">mentions_detection_LOOCV_full_model_training</span><span class="p">(</span><span class="n">files_directory</span><span class="o">=</span><span class="n">files_directory</span><span class="p">,</span>
+                                             <span class="n">trained_model_directory</span><span class="o">=</span><span class="n">trained_model_directory</span><span class="p">,</span>
+                                             <span class="n">model_name</span><span class="o">=</span><span class="n">model_name</span><span class="p">,</span>
+                                             <span class="n">subword_pooling_strategy</span><span class="o">=</span><span class="n">subword_pooling_strategy</span><span class="p">,</span>
+                                             <span class="n">nested_levels</span><span class="o">=</span><span class="n">nested_levels</span><span class="p">,</span>
+                                             <span class="n">NER_cat_list</span><span class="o">=</span><span class="n">NER_cat_list</span><span class="p">,</span>
+                                             <span class="n">tagging_scheme</span><span class="o">=</span><span class="n">tagging_scheme</span><span class="p">,</span>
+                                             <span class="n">train_final_model</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+                                             <span class="n">files_to_use_in_cross_validation</span><span class="o">=</span><span class="p">[</span><span class="n">test_split</span><span class="p">],</span>
+                                             <span class="n">verbose</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+
+<span class="n">generate_NER_model_card_from_LOOCV_directory</span><span class="p">(</span><span class="n">trained_model_directory</span><span class="p">)</span>
+</code></pre></div>
+<details class="abstract">
+<summary>Model Card Example</summary>
+<hr />
+<p>language: fr
+tags:
+- NER
+  - literary-texts
+  - nested-entities
+  - propp-fr
+  license: apache-2.0
+  metrics:
+  - f1
+  - precision
+  - recall
+  base_model:
+  - FacebookAI/roberta-large
+  pipeline_tag: token-classification</p>
+<hr />
+<h2 id="introduction">INTRODUCTION:</h2>
+<p>This model, developed as part of the <a href="https://lattice-8094.github.io/propp/">propp-fr project</a>, is a <strong>NER model</strong> built on top of <a href="https://huggingface.co/FacebookAI/roberta-large">roberta-large</a> embeddings, trained to predict nested entities in french, specifically for literary texts.</p>
+<p>The predicted entities are:</p>
+<ul>
+<li>PER: Person names (real or fictional)<ul>
+<li>ORG: Organizations (companies, institutions)</li>
+<li>LOC: Geographical locations (non-political: mountains, rivers, cities)</li>
+<li>MISC: Miscellaneous entities (events, nationalities, products, etc.)</li>
+</ul>
+</li>
+</ul>
+<h2 id="model-performances-test-set">MODEL PERFORMANCES (TEST SET):</h2>
+<table>
+<thead>
+<tr>
+<th>NER_tag</th>
+<th>precision</th>
+<th>recall</th>
+<th>f1_score</th>
+<th>support</th>
+<th>support %</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>LOC</td>
+<td>93.74%</td>
+<td>93.41%</td>
+<td>93.57%</td>
+<td>1,668</td>
+<td>29.53%</td>
+</tr>
+<tr>
+<td>ORG</td>
+<td>92.98%</td>
+<td>93.26%</td>
+<td>93.12%</td>
+<td>1,661</td>
+<td>29.41%</td>
+</tr>
+<tr>
+<td>PER</td>
+<td>97.90%</td>
+<td>98.02%</td>
+<td>97.96%</td>
+<td>1,617</td>
+<td>28.63%</td>
+</tr>
+<tr>
+<td>MISC</td>
+<td>81.33%</td>
+<td>81.91%</td>
+<td>81.62%</td>
+<td>702</td>
+<td>12.43%</td>
+</tr>
+<tr>
+<td>micro_avg</td>
+<td>93.16%</td>
+<td>93.25%</td>
+<td>93.21%</td>
+<td>5,648</td>
+<td>100.00%</td>
+</tr>
+<tr>
+<td>macro_avg</td>
+<td>91.49%</td>
+<td>91.65%</td>
+<td>91.57%</td>
+<td>5,648</td>
+<td>100.00%</td>
+</tr>
+</tbody>
+</table>
+<h2 id="training-parameters">TRAINING PARAMETERS:</h2>
+<ul>
+<li>Entities types: ['MISC', 'ORG', 'PER', 'LOC']</li>
+<li>Tagging scheme: BIOES</li>
+<li>Nested entities levels: [0]</li>
+<li>Split strategy: Leave-one-out cross-validation (1393 files)</li>
+<li>Train/Validation split: 0.85 / 0.15</li>
+<li>Batch size: 16</li>
+<li>Initial learning rate: 0.00014</li>
+</ul>
+<h2 id="model-architecture">MODEL ARCHITECTURE:</h2>
+<p>Model Input: Maximum context roberta-large embeddings (1024 dimensions)</p>
+<ul>
+<li>
+<p>Locked Dropout: 0.5</p>
+</li>
+<li>
+<p>Projection layer:</p>
+<ul>
+<li>layer type: highway layer</li>
+<li>input: 1024 dimensions</li>
+<li>output: 2048 dimensions</li>
+</ul>
+</li>
+<li>
+<p>BiLSTM layer:</p>
+<ul>
+<li>input: 2048 dimensions</li>
+<li>output: 256 dimensions (hidden state)</li>
+</ul>
+</li>
+<li>
+<p>Linear layer:</p>
+<ul>
+<li>input: 256 dimensions</li>
+<li>output: 17 dimensions (predicted labels with BIOES tagging scheme)</li>
+</ul>
+</li>
+<li>
+<p>CRF layer</p>
+</li>
+</ul>
+<p>Model Output: BIOES labels sequence</p>
+<h2 id="how-to-use">HOW TO USE:</h2>
+<p><a href="https://lattice-8094.github.io/propp/quick_start/">Propp Documentation</a></p>
+<h2 id="predictions-confusion-matrix">PREDICTIONS CONFUSION MATRIX:</h2>
+<table>
+<thead>
+<tr>
+<th>Gold Labels</th>
+<th>LOC</th>
+<th>ORG</th>
+<th>PER</th>
+<th>MISC</th>
+<th>O</th>
+<th>support</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>LOC</td>
+<td>1,558</td>
+<td>38</td>
+<td>1</td>
+<td>22</td>
+<td>49</td>
+<td>1,668</td>
+</tr>
+<tr>
+<td>ORG</td>
+<td>30</td>
+<td>1,549</td>
+<td>2</td>
+<td>12</td>
+<td>68</td>
+<td>1,661</td>
+</tr>
+<tr>
+<td>PER</td>
+<td>6</td>
+<td>7</td>
+<td>1,585</td>
+<td>2</td>
+<td>17</td>
+<td>1,617</td>
+</tr>
+<tr>
+<td>MISC</td>
+<td>25</td>
+<td>24</td>
+<td>10</td>
+<td>575</td>
+<td>68</td>
+<td>702</td>
+</tr>
+<tr>
+<td>O</td>
+<td>43</td>
+<td>48</td>
+<td>21</td>
+<td>96</td>
+<td>0</td>
+<td>208</td>
+</tr>
+</tbody>
+</table>
+</details>
 
 
 

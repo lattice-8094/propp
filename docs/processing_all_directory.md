@@ -1,10 +1,11 @@
 ---
 title: "Processing Full Directory"
+description: "Tutorial to process all .txt files in a directory using PROPP pipeline."
 ---
 
 # Processing all .txt Files in a Directory
 
-
+This code will process all the `.txt` files in a `files_directory` and saves the results (`tokens_df`, `entities_df`, and `characters_dict`).
 
 ??? Abstract "**You can copy / paste the whole Notebook Code**"
 
