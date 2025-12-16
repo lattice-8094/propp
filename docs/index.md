@@ -1,5 +1,5 @@
 ---
-title: "Propp: NLP Framework for Narrative Analysis"
+#title: "Propp: NLP Framework for Narrative Analysis"
 ---
 
 # PROPP: Pattern Recognition and Ontologies for Prose Processing
