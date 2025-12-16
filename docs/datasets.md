@@ -1,4 +1,4 @@
-# Coreference Annotated Datasets
+# Annotated Datasets
 
 ## NER-Only Propp formatted datasets
 

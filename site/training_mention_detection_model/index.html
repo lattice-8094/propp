@@ -15,7 +15,7 @@
         <link rel="canonical" href="https://lattice-8094.github.io/propp/training_mention_detection_model/">
       
       
-        <link rel="prev" href="..">
+        <link rel="prev" href="../conll2003_preprocessing/">
       
       
         <link rel="next" href="../datasets/">
@@ -921,14 +921,14 @@
   
   
     <li class="md-nav__item">
-      <a href=".." class="md-nav__link">
+      <a href="../conll2003_preprocessing/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    
+    CoNLL-2003 NER
   
 
     
@@ -1100,6 +1100,17 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#load-the-spacy-model" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Load the spaCy model
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1254,6 +1265,17 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#load-the-spacy-model" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Load the spaCy model
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1279,9 +1301,9 @@
 <span class="n">local_dataset_directory</span> <span class="o">=</span> <span class="s2">&quot;loaded_datasets&quot;</span>
 <span class="n">os</span><span class="o">.</span><span class="n">makedirs</span><span class="p">(</span><span class="n">local_dataset_directory</span><span class="p">,</span> <span class="n">exist_ok</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 
-<span class="c1"># Available Datasets: long-litbank-fr-PER-only ; litbank-fr ; litbank</span>
+<span class="c1"># Available Datasets: long-litbank-fr-PER-only ; litbank-fr ; litbank ; conll2003-NER</span>
 
-<span class="n">dataset_name</span> <span class="o">=</span> <span class="s2">&quot;litbank&quot;</span> <span class="c1">#</span>
+<span class="n">dataset_name</span> <span class="o">=</span> <span class="s2">&quot;conll2003-NER&quot;</span> <span class="c1">#</span>
 
 <span class="c1"># Dataset URL</span>
 <span class="n">dataset_URL_path</span> <span class="o">=</span> <span class="p">(</span>
@@ -1324,6 +1346,8 @@
 <span class="n">all_files</span> <span class="o">=</span> <span class="nb">sorted</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="nb">set</span><span class="p">([</span><span class="n">p</span><span class="o">.</span><span class="n">stem</span> <span class="k">for</span> <span class="n">p</span> <span class="ow">in</span> <span class="n">Path</span><span class="p">(</span><span class="n">files_directory</span><span class="p">)</span><span class="o">.</span><span class="n">iterdir</span><span class="p">()</span> <span class="k">if</span> <span class="n">p</span><span class="o">.</span><span class="n">is_file</span><span class="p">()])))</span>
 <span class="nb">len</span><span class="p">(</span><span class="n">all_files</span><span class="p">)</span>
 </code></pre></div>
+<h2 id="load-the-spacy-model">Load the spaCy model</h2>
+<p>Here, as the dataset is in English, and we have a GPU available, we will use the <code>en_core_web_trf</code> model.</p>
 <div class="highlight"><pre><span></span><code><span class="kn">from</span><span class="w"> </span><span class="nn">propp_fr</span><span class="w"> </span><span class="kn">import</span> <span class="n">load_spacy_model</span>
 
 <span class="n">spacy_model</span> <span class="o">=</span> <span class="n">load_spacy_model</span><span class="p">(</span><span class="s2">&quot;en_core_web_trf&quot;</span><span class="p">)</span>

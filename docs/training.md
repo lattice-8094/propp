@@ -16,7 +16,5 @@ This dataset should contain:
 
 Ready to use annotated datasets can be downloaded directly from the [datasets section](propp/datasets).
 
-œ
-
 
 

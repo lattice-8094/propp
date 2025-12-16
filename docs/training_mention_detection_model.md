@@ -12,9 +12,9 @@ from collections import Counter
 local_dataset_directory = "loaded_datasets"
 os.makedirs(local_dataset_directory, exist_ok=True)
 
-# Available Datasets: long-litbank-fr-PER-only ; litbank-fr ; litbank
+# Available Datasets: long-litbank-fr-PER-only ; litbank-fr ; litbank ; conll2003-NER
 
-dataset_name = "litbank" #
+dataset_name = "conll2003-NER" #
 
 # Dataset URL
 dataset_URL_path = (
@@ -63,6 +63,10 @@ all_files = sorted(list(set([p.stem for p in Path(files_directory).iterdir() if 
 len(all_files)
 
 ```
+
+## Load the spaCy model
+
+Here, as the dataset is in English, and we have a GPU available, we will use the `en_core_web_trf` model.
 
 ```python
 
