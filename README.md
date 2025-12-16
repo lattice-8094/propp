@@ -5,7 +5,9 @@
     height="32"
     style="vertical-align: middle;"
   />
-  <a href="https://lattice-8094.github.io/propp/">🔗PROPP DOCUMENTATION🔗</a>
+  <a href="https://lattice-8094.github.io/propp/" style="text-decoration: underline; font-weight: bold; color: blue;">
+  PROPP DOCUMENTATION
+</a>
   <img
     src="docs/images/propp_logo_favicon_flipped.svg"
     alt="PROPP logo mirrored"
