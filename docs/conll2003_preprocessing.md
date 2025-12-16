@@ -1,4 +1,4 @@
-# LitBank Preprocessing
+# CoNLL-2023 Preprocessing
 
 Tutorial on how to preprocess the [CoNLL-2003 Dataset](https://github.com/dbamman/litbank) for Named-Entity Recognition (NER).
 
@@ -217,9 +217,4 @@ This dataset should contain:
 
 This archive is ready to use with the Propp pipeline.
 
-Alternatively, the dataset archive can be downloaded directly from the [datasets section](propp/datasets/#litbank).
-
-
-
-
-
+Alternatively, the dataset archive can be downloaded directly from the [datasets section](datasets).

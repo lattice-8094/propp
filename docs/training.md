@@ -14,7 +14,7 @@ This dataset should contain:
     - The label of the annotation (type of entity)
     - The coreference chains ID  
 
-Ready to use annotated datasets can be downloaded directly from the [datasets section](propp/datasets).
+Ready to use annotated datasets can be downloaded directly from the [datasets section](datasets).
 
 
 
