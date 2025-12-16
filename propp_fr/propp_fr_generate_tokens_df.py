@@ -103,14 +103,14 @@ def generate_tokens_df_from_spacy_doc(doc):
 
     return tokens_df
 
-def generate_tokens_df(text_content, spacy_model, max_char_sentence_length=100000):
+def generate_tokens_df(text_content, spacy_model, max_char_sentence_length=100000, verbose=1):
     text_len = len(text_content)
     sample_count = (text_len // max_char_sentence_length) + 1
     sample_boundaries = [i for i in range(0, text_len, text_len // sample_count)] + [text_len]
 
     tokens_df = pd.DataFrame()
     start_boundary = 0
-    for end_boundary in tqdm(sample_boundaries[1:], desc='Batch Spacy Tokenization', leave=False):
+    for end_boundary in tqdm(sample_boundaries[1:], desc='Batch Spacy Tokenization', leave=False, disable=(verbose == 0)):
         sample_text = text_content[start_boundary:end_boundary]
         sample_doc = spacy_model(sample_text)
         sample_tokens_df = generate_tokens_df_from_spacy_doc(sample_doc)

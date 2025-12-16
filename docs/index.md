@@ -1,9 +1,9 @@
 ---
-title: ""
+title: "Propp: NLP Framework for Narrative Analysis"
 ---
 
 # PROPP: Pattern Recognition and Ontologies for Prose Processing
-# A Natural Language Processing Framework for Narrative Analysis
+## A Natural Language Processing Framework for Narrative Analysis
 
 **Propp** is a modular NLP pipeline designed to extract rich character-centric information from narrative texts, especially litterature.  
 It combines deep learning and rule-based techniques for:
