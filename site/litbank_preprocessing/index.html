@@ -1621,6 +1621,34 @@
     <span class="n">save_text_file</span><span class="p">(</span><span class="n">reconstructed_text</span><span class="p">,</span> <span class="n">file_name</span><span class="p">,</span> <span class="n">local_dataset_path</span><span class="p">)</span>
     <span class="n">save_entities_df</span><span class="p">(</span><span class="n">entities_df</span><span class="p">,</span> <span class="n">file_name</span><span class="p">,</span> <span class="n">local_dataset_path</span><span class="p">)</span>
 
+<span class="kn">import</span><span class="w"> </span><span class="nn">requests</span>
+
+<span class="n">split_id</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="n">split_config</span> <span class="o">=</span> <span class="p">{}</span>
+
+<span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
+    <span class="n">url</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&quot;https://raw.githubusercontent.com/dbamman/lrec2020-coref/master/data/litbank_tenfold_splits/</span><span class="si">{</span><span class="n">split_id</span><span class="si">}</span><span class="s2">/test.ids&quot;</span>
+    <span class="k">try</span><span class="p">:</span>
+        <span class="n">response</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">url</span><span class="p">)</span>
+        <span class="n">response</span><span class="o">.</span><span class="n">raise_for_status</span><span class="p">()</span>
+    <span class="k">except</span> <span class="n">requests</span><span class="o">.</span><span class="n">exceptions</span><span class="o">.</span><span class="n">RequestException</span><span class="p">:</span>
+        <span class="c1"># No more splits (404 or network error)</span>
+        <span class="k">break</span>
+
+    <span class="n">content</span> <span class="o">=</span> <span class="n">response</span><span class="o">.</span><span class="n">text</span>
+
+    <span class="n">split_content</span> <span class="o">=</span> <span class="p">[</span>
+        <span class="n">file_name</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;_brat.tsv&quot;</span><span class="p">,</span> <span class="s2">&quot;&quot;</span><span class="p">)</span>
+        <span class="k">for</span> <span class="n">file_name</span> <span class="ow">in</span> <span class="n">content</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">file_name</span><span class="o">.</span><span class="n">endswith</span><span class="p">(</span><span class="s2">&quot;_brat.tsv&quot;</span><span class="p">)</span>
+    <span class="p">]</span>
+
+    <span class="n">split_config</span><span class="p">[</span><span class="sa">f</span><span class="s2">&quot;test_</span><span class="si">{</span><span class="n">split_id</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">split_content</span>
+    <span class="n">split_id</span> <span class="o">+=</span> <span class="mi">1</span>
+
+<span class="kn">import</span><span class="w"> </span><span class="nn">json</span>
+<span class="n">json</span><span class="o">.</span><span class="n">dump</span><span class="p">(</span><span class="n">split_config</span><span class="p">,</span> <span class="nb">open</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">local_dataset_path</span><span class="p">,</span> <span class="s2">&quot;split_config.json&quot;</span><span class="p">),</span> <span class="s2">&quot;w&quot;</span><span class="p">))</span>
+
 <span class="kn">import</span><span class="w"> </span><span class="nn">shutil</span>
 
 <span class="n">output_archive_name</span> <span class="o">=</span> <span class="s2">&quot;litbank_propp_minimal_implementation&quot;</span>
@@ -1635,7 +1663,7 @@
 <div class="highlight"><pre><span></span><code>litbank_propp_minimal_implementation.zip
 </code></pre></div>
 <p>This archive is ready to use with the Propp pipeline.</p>
-<p>Alternatively, the dataset archive can be downloaded directly from the <a href="../propp/datasets/#litbank">datasets section</a>.</p>
+<p>Alternatively, the dataset archive can be downloaded directly from the <a href="../datasets">datasets section</a>.</p>
 
 
 

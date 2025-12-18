@@ -234,7 +234,7 @@ Finally, we can wrap the entire preprocessing pipeline into a loop to handle all
 
 ??? Abstract "Python Code"
     ```python
-
+    
     from tqdm.auto import tqdm
     import pandas as pd
     from pathlib import Path
@@ -251,7 +251,7 @@ Finally, we can wrap the entire preprocessing pipeline into a loop to handle all
         with open(os.path.join(raw_files_directory_path, file_name + ".txt"), "r", encoding="utf-8") as f:
             text_content = f.read()
         ann_df = pd.read_csv(os.path.join(raw_files_directory_path, file_name + ".ann"), sep="\t", header=None)
-
+    
         # Filter mentions
         mention_df = ann_df[ann_df[0]=="MENTION"].reset_index(drop=True)
         mention_df = mention_df[[1,2,3,5,6,7,8]]
@@ -321,7 +321,35 @@ Finally, we can wrap the entire preprocessing pipeline into a loop to handle all
         file_name = file_name.replace("_brat", "") if file_name.endswith("_brat") else file_name
         save_text_file(reconstructed_text, file_name, local_dataset_path)
         save_entities_df(entities_df, file_name, local_dataset_path)
-
+    
+    import requests
+    
+    split_id = 0
+    split_config = {}
+    
+    while True:
+        url = f"https://raw.githubusercontent.com/dbamman/lrec2020-coref/master/data/litbank_tenfold_splits/{split_id}/test.ids"
+        try:
+            response = requests.get(url)
+            response.raise_for_status()
+        except requests.exceptions.RequestException:
+            # No more splits (404 or network error)
+            break
+    
+        content = response.text
+    
+        split_content = [
+            file_name.replace("_brat.tsv", "")
+            for file_name in content.split("\n")
+            if file_name.endswith("_brat.tsv")
+        ]
+    
+        split_config[f"test_{split_id}"] = split_content
+        split_id += 1
+    
+    import json
+    json.dump(split_config, open(os.path.join(local_dataset_path, "split_config.json"), "w"))
+    
     import shutil
     
     output_archive_name = "litbank_propp_minimal_implementation"
@@ -341,7 +369,7 @@ litbank_propp_minimal_implementation.zip
 
 This archive is ready to use with the Propp pipeline.
 
-Alternatively, the dataset archive can be downloaded directly from the [datasets section](propp/datasets/#litbank).
+Alternatively, the dataset archive can be downloaded directly from the [datasets section](datasets).
 
 
 
