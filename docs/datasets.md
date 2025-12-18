@@ -50,20 +50,19 @@ The dataset is described in the following publications:
 }
 ```
 
-NER model training with different embedding models
+We evaluated PROPP’s NER pipeline using multiple transformer-based embedding models.
 
 | Embedding Model                                        |   Micro F1 |   Macro F1 |
 |:-------------------------------------------------------|-----------:|-----------:|
 | answerdotai/ModernBERT-large                           |      85.65 |      55.5  |
-| google/mt5-xxl                                         |      87.86 |      60.89 |
 | google-bert/bert-base-cased                            |      87.12 |      60.96 |
+| google-bert/bert-large-cased                           |      87.26 |      63.58 |
+| google/mt5-xxl                                         |      87.86 |      60.89 |
 | FacebookAI/xlm-roberta-large                           |      88.04 |      61.49 |
 | FacebookAI/roberta-large                               |      88.08 |      61.67 |
-| google/flan-t5-xl                                      |      88.53 |      61.95 |
 | google/t5-v1_1-xl                                      |      88.22 |      63.26 |
+| google/flan-t5-xl                                      |      88.53 |      61.95 |
 | google/mt5-xl                                          |      89.1  |      68.74 |
-
-
 
 ## Russian Datasets
 
