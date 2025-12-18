@@ -781,6 +781,56 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Mention Spans Detection Model">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#bert-embeddings" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        BERT Embeddings
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bioes-tag-prediction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        BIOES Tag Prediction
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#model-architecture" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Model Architecture
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#model-training" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Model Training
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -1245,6 +1295,56 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Mention Spans Detection Model">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#bert-embeddings" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        BERT Embeddings
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bioes-tag-prediction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        BIOES Tag Prediction
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#model-architecture" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Model Architecture
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#model-training" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Model Training
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -1292,6 +1392,48 @@
 
 <h1 id="algorithms">Algorithms</h1>
 <h2 id="mention-spans-detection-model">Mention Spans Detection Model</h2>
+<p>The mention detection module consists of two stacked BiLSTM-CRF models, each trained on a
+different nesting level of mentions. During inference, predicted spans from both models are
+combined. If two mention spans overlap, the span with the lower prediction confidence is
+discarded.</p>
+<h3 id="bert-embeddings">BERT Embeddings</h3>
+<p>The raw text is split into overlapping segments of length L (corresponding to the maximum
+context window of the embedding model), with an overlap of L/2 to maximize the contextual
+information available for each token. Each segment is processed by the CamemBERT-large
+model, and the last hidden layer is extracted as token representations (1024 dimensions).</p>
+<p>The final embedding for each token is computed as the average of its representations across
+overlapping segments. The CamemBERT model is not fine-tuned for this task.</p>
+<h3 id="bioes-tag-prediction">BIOES Tag Prediction</h3>
+<p>For each sentence, token representations are passed through the BiLSTM-CRF model, which
+outputs a sequence of BIOES tags:</p>
+<ul>
+<li>B-PER: Beginning of a mention</li>
+<li>I-PER: Inside a mention</li>
+<li>E-PER: End of a mention</li>
+<li>S-PER: Single-token mention</li>
+<li>O: Outside any mention</li>
+</ul>
+<h3 id="model-architecture">Model Architecture</h3>
+<ul>
+<li>Locked Dropout (0.5) applied to embeddings for regularization</li>
+<li>Projection Layer: Highway network mapping 1024 → 2048 dimensions</li>
+<li>BiLSTM Layer: Single bidirectional LSTM with 256 hidden units per direction</li>
+<li>Linear Layer: Maps 512-dimensional BiLSTM outputs to BIOES label scores</li>
+<li>CRF Layer: Enforces structured consistency in label predictions</li>
+</ul>
+<h3 id="model-training">Model Training</h3>
+<ul>
+<li>Data Splitting: Leave-One-Out Cross-Validation (LOOCV) with an 85% / 15% train-validation split</li>
+<li>Batch Size: 16 sentences per batch</li>
+<li>Optimization: Adam optimizer</li>
+<li>Learning rate: 1.4 × 10⁻⁴</li>
+<li>Weight decay: 1 × 10⁻⁵</li>
+<li>Learning Rate Scheduling: ReduceLROnPlateau</li>
+<li>Factor: 0.5</li>
+<li>Patience: 2</li>
+<li>Average Training Epochs: 20</li>
+<li>Hardware: Trained on a single 6 GB NVIDIA RTX 1000 Ada Generation GPU</li>
+</ul>
 <h2 id="coreference-resolution-model">Coreference Resolution Model</h2>
 <p><img alt="Coreference Resolution Pipeline" src="../images/coreference_resolution_pipeline_scheme.png" /></p>
 <p>Blog article about Coreference Resolution - Soon
