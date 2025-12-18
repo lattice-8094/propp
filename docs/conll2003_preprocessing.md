@@ -187,9 +187,14 @@ This dataset should contain:
         entities_df["text"] = entities_df["text"].astype(str)
         return entities_df
     #%%
+    import json
+    
     files_directory = "datasets/conll2003/conll2003-NER_propp_minimal_implementation"
     
+    split_config = {}
+    
     for split_name in ["train", "valid", "test"]:
+        split_config[split_name] = []
         print(f"Split: {split_name}")
         with open(os.path.join(data_dir, f"{split_name}.txt"), "r") as f:
             split_content = f.readlines()
@@ -205,12 +210,15 @@ This dataset should contain:
             save_text_file(reconstructed_text, file_name, files_directory)
             save_entities_df(doc_entities_df, file_name, files_directory)
     
+            split_config[split_name].append(file_name)
+    
+    json.dump(split_config, open(os.path.join(files_directory, "split_config.json"), "w"))
+    
     import shutil
     # Create a ZIP archive
     shutil.make_archive(files_directory, 'zip', root_dir=files_directory)
     print(f"Archive created: {files_directory}.zip")
     #%%
-
 
     ```
 
