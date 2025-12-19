@@ -288,3 +288,20 @@ link = "https://github.com/lattice-8094/propp"
 [project.markdown_extensions.pymdownx.details]
 [project.markdown_extensions.pymdownx.superfences]
 
+
+
+[extra]
+head = """
+<meta property="og:site_name" content="Propp">
+<meta property="og:title" content="Propp – NLP Framework for Narrative Analysis">
+<meta property="og:description" content="Propp is a Natural Language Processing (NLP) framework for narrative analysis, character extraction, and ontology-based prose processing.">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Propp",
+  "description": "Propp is a Natural Language Processing framework for narrative analysis",
+  "url": "https://lattice-8094.github.io/propp"
+}
+</script>
+"""

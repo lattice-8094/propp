@@ -1,5 +1,5 @@
 ---
-title: "Propp"
+title: "Propp – NLP Framework for Narrative Analysis"
 ---
 
 # PROPP
