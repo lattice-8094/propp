@@ -22,6 +22,13 @@
 
 **Propp** is a modular NLP pipeline designed to extract rich character-centric information from narrative texts, especially litterature.
 
+<p align="center">
+  <a href="https://github.com/username/repo/actions"><img src="https://github.com/username/repo/workflows/CI/badge.svg" alt="Build Status"></a>
+  <a href="https://github.com/username/repo"><img src="https://img.shields.io/badge/license-MIT-green.svg" alt="License"></a>
+  <a href="https://lattice-8094.github.io/propp/"><img src="https://img.shields.io/badge/docs-available-brightgreen.svg" alt="Documentation"></a>
+</p>
+
+
 ## Quick Start
 
 **Installation**
