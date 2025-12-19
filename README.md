@@ -28,8 +28,8 @@
   <a href="https://lattice-8094.github.io/propp/"><img src="https://img.shields.io/badge/docs-available-brightgreen.svg" alt="Documentation"></a>
 </p>
 
-[![PyPI version](https://img.shields.io/pypi/v/propp.svg)](https://pypi.org/project/propp-fr/)
-[![PyPI downloads](https://img.shields.io/pypi/dm/propp.svg)](https://pypi.org/project/propp-fr/)
+[![PyPI version](https://img.shields.io/pypi/v/propp-fr.svg)](https://pypi.org/project/propp-fr/)
+[![PyPI downloads](https://img.shields.io/pypi/dm/propp-fr.svg)](https://pypi.org/project/propp-fr/)
 
 ## Quick Start
 
