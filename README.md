@@ -23,6 +23,9 @@
 **Propp** is a modular NLP pipeline designed to extract rich character-centric information from narrative texts, especially litterature.
 
 <p align="center">
+  <a href="https://colab.research.google.com/drive/151ODFrKc4EVWojHpNoSUSvZsggGjBQ1j?usp=sharing">
+    <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Colab demo">
+  </a>
   <a href="https://pypi.org/project/propp-fr/">
     <img src="https://img.shields.io/pypi/v/propp-fr.svg" alt="PyPI version">
   </a>
@@ -37,8 +40,6 @@
   </a>
 </p>
 
-[![PyPI version](https://img.shields.io/pypi/v/propp-fr.svg)](https://pypi.org/project/propp-fr/)
-[![PyPI downloads](https://img.shields.io/pypi/dm/propp-fr.svg)](https://pypi.org/project/propp-fr/)
 
 ## Quick Start
 
