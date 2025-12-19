@@ -15,6 +15,10 @@
         <link rel="canonical" href="https://lattice-8094.github.io/propp/API/">
       
       
+        <link rel="prev" href="../use_cases/">
+      
+      
+        <link rel="next" href="../contributors/">
       
       
         
@@ -309,6 +313,24 @@
         
   
   Use Cases
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
+        
+  
+  API
 
       </a>
     </li>
@@ -1093,6 +1115,43 @@
       
   
   
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    API
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
   
   
     <li class="md-nav__item">
@@ -1137,53 +1196,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      On this page
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#core-functions" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Core Functions
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Core Functions">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#load_models" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        load_models()
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#load_text_filefile_path" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        load_text_file(file_path)
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -1198,26 +1210,53 @@
                   
 
 <h1 id="api-reference">API Reference</h1>
-<h2 id="core-functions">Core Functions</h2>
-<h3 id="load_models">load_models()</h3>
-<p><strong>Description</strong>: Loads the three pre-trained models needed for analysis<br />
-<strong>Parameters</strong>: None<br />
-<strong>Returns</strong>:</p>
+<h1 id="propp_frload_text_file">propp_fr.load_text_file</h1>
+<div class="highlight"><pre><span></span><code><span class="n">propp_fr</span><span class="o">.</span><span class="n">load_text_file</span><span class="p">(</span><span class="n">file_name</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">files_directory</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span><span class="p">,</span> <span class="n">extension</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="s2">&quot;.txt&quot;</span><span class="p">)</span> <span class="err">→</span> <span class="nb">str</span>
+</code></pre></div>
+<p>Loads and returns the content of a text file from a specified directory.</p>
+<p>This function automatically appends the file extension if not already present in the filename, constructs the full file path using <code>pathlib.Path</code>, and reads the entire content of the file using UTF-8 encoding.</p>
+<h2 id="parameters">Parameters</h2>
 <ul>
-<li>spacy_model: SpaCy French model  </li>
-<li>mentions_detection_model: Entity detection model  </li>
-<li>coreference_resolution_model: Coreference model</li>
+<li><strong>file_name</strong> (<em>str</em>) – The name of the file to load. If the extension is not included, it will be automatically appended.</li>
+<li><strong>files_directory</strong> (<em>str, optional</em>) – The directory path where the file is located. If empty, looks in the current working directory. Default: <code>""</code>.</li>
+<li><strong>extension</strong> (<em>str, optional</em>) – The file extension to append if not present in <code>file_name</code>. Default: <code>".txt"</code>.</li>
 </ul>
-<p><strong>Example</strong>: See Quick Start<br />
-<strong>Time</strong>: ~30 seconds first run (downloads models)  </p>
-<h3 id="load_text_filefile_path">load_text_file(file_path)</h3>
-<p><strong>Description</strong>: Loads a French text file<br />
-<strong>Parameters</strong>:</p>
+<h2 id="returns">Returns</h2>
+<p><strong>str</strong> – The complete text content of the file as a string.</p>
+<h2 id="raises">Raises</h2>
 <ul>
-<li>file_path (str): Path to .txt file</li>
+<li><strong>FileNotFoundError</strong> – If the specified file does not exist at the given path.</li>
+<li><strong>PermissionError</strong> – If the file cannot be read due to insufficient permissions.</li>
+<li><strong>UnicodeDecodeError</strong> – If the file cannot be decoded using UTF-8 encoding.</li>
 </ul>
-<p><strong>Returns</strong>: str - Text content<br />
-<strong>Example</strong>: <code>text = load_text_file("novel.txt")</code>  </p>
+<h2 id="examples">Examples</h2>
+<div class="highlight"><pre><span></span><code><span class="c1"># Load a file from the current directory</span>
+<span class="n">content</span> <span class="o">=</span> <span class="n">propp_fr</span><span class="o">.</span><span class="n">load_text_file</span><span class="p">(</span><span class="s2">&quot;example&quot;</span><span class="p">)</span>
+<span class="c1"># Loads &quot;example.txt&quot; from current directory</span>
+
+<span class="c1"># Load a file with explicit extension</span>
+<span class="n">content</span> <span class="o">=</span> <span class="n">propp_fr</span><span class="o">.</span><span class="n">load_text_file</span><span class="p">(</span><span class="s2">&quot;data.txt&quot;</span><span class="p">)</span>
+<span class="c1"># Loads &quot;data.txt&quot; from current directory</span>
+
+<span class="c1"># Load from a specific directory</span>
+<span class="n">content</span> <span class="o">=</span> <span class="n">propp_fr</span><span class="o">.</span><span class="n">load_text_file</span><span class="p">(</span><span class="s2">&quot;story&quot;</span><span class="p">,</span> <span class="n">files_directory</span><span class="o">=</span><span class="s2">&quot;./texts&quot;</span><span class="p">)</span>
+<span class="c1"># Loads &quot;./texts/story.txt&quot;</span>
+
+<span class="c1"># Load a file with custom extension</span>
+<span class="n">content</span> <span class="o">=</span> <span class="n">propp_fr</span><span class="o">.</span><span class="n">load_text_file</span><span class="p">(</span><span class="s2">&quot;config&quot;</span><span class="p">,</span> <span class="n">extension</span><span class="o">=</span><span class="s2">&quot;.cfg&quot;</span><span class="p">)</span>
+<span class="c1"># Loads &quot;config.cfg&quot; from current directory</span>
+
+<span class="c1"># Full path example</span>
+<span class="n">content</span> <span class="o">=</span> <span class="n">propp_fr</span><span class="o">.</span><span class="n">load_text_file</span><span class="p">(</span><span class="s2">&quot;chapter1&quot;</span><span class="p">,</span> <span class="n">files_directory</span><span class="o">=</span><span class="s2">&quot;/data/books&quot;</span><span class="p">,</span> <span class="n">extension</span><span class="o">=</span><span class="s2">&quot;.md&quot;</span><span class="p">)</span>
+<span class="c1"># Loads &quot;/data/books/chapter1.md&quot;</span>
+</code></pre></div>
+<h2 id="notes">Notes</h2>
+<ul>
+<li>The function uses <code>pathlib.Path</code> for cross-platform path handling.</li>
+<li>The function always reads files using UTF-8 encoding.</li>
+<li>Extension is automatically added only if the filename doesn't already end with it.</li>
+<li>The entire file content is loaded into memory at once, which may not be suitable for very large files.</li>
+</ul>
 
 
 
@@ -1240,8 +1279,6 @@
             </div>
           
           
-  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
-
 <script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
         
@@ -1297,7 +1334,7 @@
       
       
       
-      <script id="__config" type="application/json">{"annotate":null,"base":"..","features":["announce.dismiss","content.code.annotate","content.code.copy","content.footnote.tooltips","content.tabs.link","content.tooltips","navigation.indexes","navigation.instant","navigation.instant.prefetch","navigation.sections","navigation.tabs","navigation.top","navigation.tracking","search.highlight"],"search":"../assets/javascripts/workers/search.5df7522c.min.js","tags":null,"translations":{"clipboard.copied":"Copied to clipboard","clipboard.copy":"Copy to clipboard","search.result.more.one":"1 more on this page","search.result.more.other":"# more on this page","search.result.none":"No matching documents","search.result.one":"1 matching document","search.result.other":"# matching documents","search.result.placeholder":"Type to start searching","search.result.term.missing":"Missing","select.version":"Select version"},"version":null}</script>
+      <script id="__config" type="application/json">{"annotate":null,"base":"..","features":["announce.dismiss","content.code.annotate","content.code.copy","content.footnote.tooltips","content.tooltips","navigation.indexes","navigation.instant","navigation.instant.prefetch","navigation.sections","navigation.tabs","navigation.top","navigation.tracking","search.highlight"],"search":"../assets/javascripts/workers/search.5df7522c.min.js","tags":null,"translations":{"clipboard.copied":"Copied to clipboard","clipboard.copy":"Copy to clipboard","search.result.more.one":"1 more on this page","search.result.more.other":"# more on this page","search.result.none":"No matching documents","search.result.one":"1 matching document","search.result.other":"# matching documents","search.result.placeholder":"Type to start searching","search.result.term.missing":"Missing","select.version":"Select version"},"version":null}</script>
     
     
       <script src="../assets/javascripts/bundle.21aa498e.min.js"></script>

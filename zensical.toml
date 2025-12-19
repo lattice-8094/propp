@@ -44,7 +44,7 @@ nav = [
     ]},
     {"Datasets" = "datasets.md" },
     {"Use Cases" = "use_cases.md" },
-#    {"API" = "API.md" },
+    {"API" = "API/" },
 #    {"FAQ" = "FAQ.md" },
     {"Contributors" = "contributors.md" },
  ]
@@ -130,7 +130,7 @@ features = [
     # "JavaScript", "Cobol"), this feature causes all of them to switch to
     # at the same time when the user chooses their language in one.
     # https://zensical.org/docs/authoring/content-tabs/#linked-content-tabs
-    "content.tabs.link",
+#    "content.tabs.link",
 
     # TODO: not sure I understand this one? Is there a demo of this in the docs?
     # https://zensical.org/docs/authoring/tooltips/#improved-tooltips
@@ -287,7 +287,8 @@ link = "https://github.com/lattice-8094/propp"
 [project.markdown_extensions.admonition]
 [project.markdown_extensions.pymdownx.details]
 [project.markdown_extensions.pymdownx.superfences]
-
+[project.markdown_extensions.pymdownx.tabbed]
+alternate_style = true
 
 
 [extra]
