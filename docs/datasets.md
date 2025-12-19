@@ -4,8 +4,19 @@
 
 - [Download **conll2003 NER** dataset – PROPP Minimal Implementation](datasets/conll2003-NER_propp_minimal_implementation.zip)
 
-[//]: # (- OntoNotes 5.0 - To Do)
+**conll2003-NER** Mention Spans Detection
 
+| Embedding Model                                        |   Micro F1 |   Macro F1 |
+|:-------------------------------------------------------|-----------:|-----------:|
+| answerdotai/ModernBERT-large                           |      89.81 |      88.59 |
+| google-bert/bert-base-cased                            |      90.72 |      88.92 |
+| google-bert/bert-large-cased                           |      91.54 |      89.89 |
+| FacebookAI/xlm-roberta-large                           |      92.55 |      91    |
+| google/t5-v1_1-xl                                      |      93.17 |      91.5  |
+| FacebookAI/roberta-large                               |      93.17 |      91.62 |
+| google/flan-t5-xl                                      |      93.54 |      92.28 |
+| google/mt5-xxl                                         |      93.55 |      92.14 |
+| google/mt5-xl                                          |      93.81 |      92.42 |
 
 ## Coreference Resolution Propp formatted datasets
 
@@ -24,13 +35,15 @@
 
 ### Long-LitBank-fr (characters only)
 
-Describe in:
+Described in:
 
 Antoine Bourgois and Thierry Poibeau.
 2025.
 [The Elephant in the Coreference Room: Resolving Coreference in Full-Length French Fiction Works.](https://arxiv.org/pdf/2510.15594)
 In *Proceeding of the Eighth Workshop on Computational Models of Reference, Anaphora and Coreference (CRAC 2025).* EMNLP 2025, Suzhou, China.
 [arxiv](https://arxiv.org/abs/2510.15594), [hal](https://hal.science/hal-05319970).
+
+
 
 ## English Datasets
 
