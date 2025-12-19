@@ -23,9 +23,18 @@
 **Propp** is a modular NLP pipeline designed to extract rich character-centric information from narrative texts, especially litterature.
 
 <p align="center">
-  <a href="https://github.com/username/repo/actions"><img src="https://github.com/username/repo/workflows/CI/badge.svg" alt="Build Status"></a>
-  <a href="https://github.com/username/repo"><img src="https://img.shields.io/badge/license-MIT-green.svg" alt="License"></a>
-  <a href="https://lattice-8094.github.io/propp/"><img src="https://img.shields.io/badge/docs-available-brightgreen.svg" alt="Documentation"></a>
+  <a href="https://pypi.org/project/propp-fr/">
+    <img src="https://img.shields.io/pypi/v/propp-fr.svg" alt="PyPI version">
+  </a>
+  <a href="https://pypi.org/project/propp-fr/">
+    <img src="https://img.shields.io/pypi/dm/propp-fr.svg" alt="PyPI downloads">
+  </a>
+  <a href="https://github.com/lattice-8094/propp">
+    <img src="https://img.shields.io/badge/license-MIT-green.svg" alt="License">
+  </a>
+  <a href="https://lattice-8094.github.io/propp/">
+    <img src="https://img.shields.io/badge/docs-available-brightgreen.svg" alt="Documentation">
+  </a>
 </p>
 
 [![PyPI version](https://img.shields.io/pypi/v/propp-fr.svg)](https://pypi.org/project/propp-fr/)
