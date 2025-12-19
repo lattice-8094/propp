@@ -23,6 +23,11 @@
 **Propp** is a modular NLP pipeline designed to extract rich character-centric information from narrative texts, especially litterature.
 
 <p align="center">
+  <a href="https://colab.research.google.com/drive/1Qw0uaRGRiITS5r77zU9NpuRp80KHVduO?usp=sharing" target="_blank" rel="noopener noreferrer">
+    <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Colab demo">
+  </a>&nbsp;&nbsp;
+
+<p align="center">
   <a href="https://colab.research.google.com/drive/151ODFrKc4EVWojHpNoSUSvZsggGjBQ1j?usp=sharing">
     <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Colab demo">
   </a>
