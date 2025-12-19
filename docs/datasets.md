@@ -3,7 +3,8 @@
 ## NER-Only Propp formatted datasets
 
 - [Download **conll2003 NER** dataset – PROPP Minimal Implementation](datasets/conll2003-NER_propp_minimal_implementation.zip)
-- OntoNotes 5.0 - To Do
+
+[//]: # (- OntoNotes 5.0 - To Do)
 
 
 ## Coreference Resolution Propp formatted datasets

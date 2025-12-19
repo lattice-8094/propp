@@ -1,5 +1,9 @@
 # Algorithms
 
+## Pipeline Overview
+
+![Coreference Resolution Pipeline](images/coreference_resolution_pipeline_scheme.png)
+
 ## Mention Spans Detection Model
 
 The mention detection module consists of two stacked BiLSTM-CRF models, each trained on a
@@ -51,7 +55,7 @@ outputs a sequence of BIOES tags:
 
 ## Coreference Resolution Model
 
-![Coreference Resolution Pipeline](images/coreference_resolution_pipeline_scheme.png)
+
 
 Blog article about Coreference Resolution - Soon
 Taking images from Cergy JE + MATE-SHS
