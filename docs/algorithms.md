@@ -68,7 +68,34 @@ Taking images from Cergy JE + MATE-SHS
 
 
 ### Research Articles
-Antoine Bourgois and Thierry Poibeau. 2025.  
-<a href="https://aclanthology.org/2025.crac-1.5/" target="_blank">The Elephant in the Coreference Room: Resolving Coreference in Full-Length French Fiction Works.</a>  
-In *Proceedings of the Eighth Workshop on Computational Models of Reference, Anaphora and Coreference (CRAC 2025).* EMNLP 2025, Suzhou, China.  
-<a href="https://arxiv.org/abs/2510.15594" target="_blank">arXiv</a>, <a href="https://hal.science/hal-05319970" target="_blank">HAL</a>, <a href="https://github.com/antoine-bourgois/antoine-bourgois.github.io/blob/main/articles/2025_CRAC_CoreferenceInFrenchNovels_poster.pdf" target="_blank">Poster</a>
+
+=== "Cite this work"
+    
+    Antoine Bourgois and Thierry Poibeau. 2025.
+    [The Elephant in the Coreference Room: Resolving Coreference in Full-Length French Fiction Works.](https://aclanthology.org/2025.crac-1.5/)
+    In *Proceedings of the Eighth Workshop on Computational Models of Reference, Anaphora and Coreference*, 
+    pages 55–69, 
+    Suzhou, China. 
+    Association for Computational Linguistics.
+
+=== "BibTeX"
+
+        @inproceedings{bourgois-poibeau-2025-elephant,
+            title = "The Elephant in the Coreference Room: Resolving Coreference in Full-Length {F}rench Fiction Works",
+            author = "Bourgois, Antoine  and
+              Poibeau, Thierry",
+            editor = "Ogrodniczuk, Maciej  and
+              Novak, Michal  and
+              Poesio, Massimo  and
+              Pradhan, Sameer  and
+              Ng, Vincent",
+            booktitle = "Proceedings of the Eighth Workshop on Computational Models of Reference, Anaphora and Coreference",
+            month = nov,
+            year = "2025",
+            address = "Suzhou, China",
+            publisher = "Association for Computational Linguistics",
+            url = "https://aclanthology.org/2025.crac-1.5/",
+            doi = "10.18653/v1/2025.crac-1.5",
+            pages = "55--69",
+            abstract = "While coreference resolution is attracting more interest than ever from computational literature researchers, representative datasets of fully annotated long documents remain surprisingly scarce. In this paper, we introduce a new annotated corpus of three full-length French novels, totaling over 285,000 tokens. Unlike previous datasets focused on shorter texts, our corpus addresses the challenges posed by long, complex literary works, enabling evaluation of coreference models in the context of long reference chains. We present a modular coreference resolution pipeline that allows for fine-grained error analysis. We show that our approach is competitive and scales effectively to long documents. Finally, we demonstrate its usefulness to infer the gender of fictional characters, showcasing its relevance for both literary analysis and downstream NLP tasks."
+        }
