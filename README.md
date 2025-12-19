@@ -32,7 +32,7 @@
   <a href="https://pypi.org/project/propp-fr/">
     <img src="https://img.shields.io/pypi/dm/propp-fr.svg" alt="PyPI downloads">
   </a>
-  <a href="https://github.com/lattice-8094/propp">
+  <a href="https://github.com/lattice-8094/propp/LICENSE.md">
     <img src="https://img.shields.io/badge/license-MIT-green.svg" alt="License">
   </a>
   <a href="https://lattice-8094.github.io/propp/">
