@@ -99,7 +99,7 @@
         }
 
 
-We evaluated PROPP’s NER pipeline using multiple transformer-based embedding models.
+We evaluated PROPP’s NER pipeline using multiple transformer-based embedding models. (test set 0)
 
 | Embedding Model                                        |   Micro F1 |   Macro F1 |
 |:-------------------------------------------------------|-----------:|-----------:|
