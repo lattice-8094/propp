@@ -11,8 +11,11 @@ site_url = "https://lattice-8094.github.io/propp"
 
 # The copyright notice appears in the page footer and can contain an HTML fragment.
 # Read more: https://zensical.org/docs/setup/basics/#copyright
-copyright = "[Sitemap](/sitemap.xml)"
-#copyright = "Copyright &copy; 2025 Antoine Bourgois\t"
+copyright = """
+<a href="https://lattice-8094.github.io/propp/sitemap.xml">
+  Sitemap
+</a>
+"""
 
 # Read more: https://zensical.org/docs/setup/navigation/
 nav = [
