@@ -1,15 +1,12 @@
-# CoNLL-2023 Preprocessing
+# OntoNotes 5 Preprocessing
 
-Tutorial on how to preprocess the [CoNLL-2003 Dataset](https://aclanthology.org/W03-0419/) for Named-Entity Recognition (NER).
+Tutorial on how to preprocess the [OntoNotes 5.0 Dataset](https://catalog.ldc.upenn.edu/LDC2013T19) for Named-Entity Recognition (NER).
 
-This dataset should contain:
+This Dataset is subject to law and can't be shared freely, we will not share the dataset neither raw or after preprocessing, this tutorial can be used by anyone that obtained access to the dataset by Linguistic Data Consortium.
+It is free. It is easy you just need to follow the tutorial.
+[Licensing Instructions: 	Subscription & Standard Members, and Non-Members](https://www.ldc.upenn.edu/language-resources/data/obtaining)
 
-  - The raw text files
-  - The annotations minimal infos:
-    - The start and end of the annotation (character indexes in the raw text)
-    - The label of the annotation (type of entity)
-
-
+Start with a directory containing the `ontonotes-release-5.0_LDC2013T19.tgz` archive.
 
 
 ??? Abstract "**Python Code to Preprocess the CoNLL-2003 NER Dataset**"

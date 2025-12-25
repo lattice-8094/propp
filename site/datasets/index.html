@@ -1424,6 +1424,7 @@
 <th style="text-align: left;">Embedding Model</th>
 <th style="text-align: right;">Micro F1</th>
 <th style="text-align: right;">Macro F1</th>
+<th style="text-align: left;">Support</th>
 </tr>
 </thead>
 <tbody>
@@ -1431,46 +1432,55 @@
 <td style="text-align: left;">answerdotai/ModernBERT-large</td>
 <td style="text-align: right;">89.81</td>
 <td style="text-align: right;">88.59</td>
+<td style="text-align: left;">5,648</td>
 </tr>
 <tr>
 <td style="text-align: left;">google-bert/bert-base-cased</td>
 <td style="text-align: right;">90.72</td>
 <td style="text-align: right;">88.92</td>
+<td style="text-align: left;">5,648</td>
 </tr>
 <tr>
 <td style="text-align: left;">google-bert/bert-large-cased</td>
 <td style="text-align: right;">91.54</td>
 <td style="text-align: right;">89.89</td>
+<td style="text-align: left;">5,648</td>
 </tr>
 <tr>
 <td style="text-align: left;">FacebookAI/xlm-roberta-large</td>
 <td style="text-align: right;">92.55</td>
-<td style="text-align: right;">91</td>
+<td style="text-align: right;">91.00</td>
+<td style="text-align: left;">5,648</td>
 </tr>
 <tr>
 <td style="text-align: left;">google/t5-v1_1-xl</td>
 <td style="text-align: right;">93.17</td>
-<td style="text-align: right;">91.5</td>
+<td style="text-align: right;">91.50</td>
+<td style="text-align: left;">5,648</td>
 </tr>
 <tr>
 <td style="text-align: left;">FacebookAI/roberta-large</td>
 <td style="text-align: right;">93.17</td>
 <td style="text-align: right;">91.62</td>
+<td style="text-align: left;">5,648</td>
 </tr>
 <tr>
 <td style="text-align: left;">google/flan-t5-xl</td>
 <td style="text-align: right;">93.54</td>
 <td style="text-align: right;">92.28</td>
+<td style="text-align: left;">5,648</td>
 </tr>
 <tr>
 <td style="text-align: left;">google/mt5-xxl</td>
 <td style="text-align: right;">93.55</td>
 <td style="text-align: right;">92.14</td>
+<td style="text-align: left;">5,648</td>
 </tr>
 <tr>
 <td style="text-align: left;">google/mt5-xl</td>
 <td style="text-align: right;">93.81</td>
 <td style="text-align: right;">92.42</td>
+<td style="text-align: left;">5,648</td>
 </tr>
 </tbody>
 </table>
@@ -1492,6 +1502,50 @@
 <h2 id="french-datasets">French Datasets</h2>
 <h3 id="litbank-fr">LitBank-fr</h3>
 <h3 id="long-litbank-fr-characters-only">Long-LitBank-fr (characters only)</h3>
+<p>We evaluated PROPP’s NER pipeline using multiple transformer-based embedding models. (LOOCV)
+<code>PER</code> mentions only</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Embedding Model</th>
+<th style="text-align: right;">Micro F1</th>
+<th style="text-align: right;">Macro F1</th>
+<th style="text-align: left;">Support</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">almanach/moderncamembert-cv2-base</td>
+<td style="text-align: right;">92.08</td>
+<td style="text-align: right;">92.08</td>
+<td style="text-align: left;">71,883</td>
+</tr>
+<tr>
+<td style="text-align: left;">dbmdz/bert-base-french-europeana-cased</td>
+<td style="text-align: right;">93.95</td>
+<td style="text-align: right;">93.95</td>
+<td style="text-align: left;">71,883</td>
+</tr>
+<tr>
+<td style="text-align: left;">almanach/camembert-base</td>
+<td style="text-align: right;">94.21</td>
+<td style="text-align: right;">94.21</td>
+<td style="text-align: left;">44,264</td>
+</tr>
+<tr>
+<td style="text-align: left;">google/mt5-xl</td>
+<td style="text-align: right;">94.56</td>
+<td style="text-align: right;">94.56</td>
+<td style="text-align: left;">71,883</td>
+</tr>
+<tr>
+<td style="text-align: left;">almanach/camembert-large</td>
+<td style="text-align: right;">94.68</td>
+<td style="text-align: right;">94.68</td>
+<td style="text-align: left;">71,883</td>
+</tr>
+</tbody>
+</table>
 <div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Cite this work</label><label for="__tabbed_1_2">BibTeX</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
