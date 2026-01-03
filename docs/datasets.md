@@ -18,6 +18,19 @@
 | google/mt5-xxl                                         |      93.55 |      92.14 | 5,648     |
 | google/mt5-xl                                          |      93.81 |      92.42 | 5,648     |
 
+
+**OntoNotes 5 - NER** Mention Spans Detection ([test set](https://cemantix.org/data/ontonotes.html))
+
+| Embedding Model              |   Micro F1 |   Macro F1 | Support   |
+|:-----------------------------|-----------:|-----------:|:----------|
+| answerdotai/ModernBERT-large |      88.11 |      77.26 | 11,257    |
+| google-bert/bert-base-cased  |      89.13 |      80.03 | 11,257    |
+| google-bert/bert-large-cased |      89.31 |      79.11 | 11,257    |
+| google/flan-t5-xl            |      89.67 |      79.57 | 11,257    |
+| FacebookAI/roberta-large     |      90.55 |      81.96 | 11,257    |
+| google/mt5-xl                |      90.58 |      82.35 | 11,257    |
+| FacebookAI/xlm-roberta-large |      90.60 |      81.63 | 11,257    |
+
 ## Coreference Resolution Propp formatted datasets
 
 - [Download **Long-LitBank-fr-PER-Only** dataset – PROPP Minimal Implementation](datasets/long-litbank-fr-PER-only_propp_minimal_implementation.zip)
