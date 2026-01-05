@@ -310,14 +310,17 @@
   
   
   
-    <li class="md-tabs__item">
-      <a href="../datasets/" class="md-tabs__link">
-        
+    
+    
+      <li class="md-tabs__item">
+        <a href="../available_datasets/" class="md-tabs__link">
+          
   
   Datasets
 
-      </a>
-    </li>
+        </a>
+      </li>
+    
   
 
       
@@ -1177,9 +1180,31 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="../datasets/" class="md-nav__link">
+    
+    
+      
         
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
   
   
   <span class="md-ellipsis">
@@ -1193,7 +1218,79 @@
   
   
 
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Datasets
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../available_datasets/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Available Datasets
+  
+
+    
+  </span>
+  
+  
+
       </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../datasets_benchmarks/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Datasets Benchmarks
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -1335,32 +1432,28 @@
 <ul>
 <li>
 <p><code>my_french_novel.tokens</code> contains all tokens along with:</p>
-</li>
-<li>
-<p>Part-of-speech tags  </p>
-</li>
-<li>
-<p>Syntactic parsing information  </p>
+<ul>
+<li>Part-of-speech tags</li>
+<li>Syntactic parsing information  </li>
+</ul>
 </li>
 <li>
 <p><code>my_french_novel.entities</code> contains information about recognized entities, including:</p>
-</li>
-<li>
-<p>Start and end positions  </p>
-</li>
-<li>
-<p>Entity type  </p>
+<ul>
+<li>Start and end positions  </li>
+<li>Entity type  </li>
+</ul>
 </li>
 <li>
 <p><code>my_french_novel.book</code> contains all characters and their attributes, including:</p>
-</li>
-<li>
-<p>Coreference information  </p>
-</li>
+<ul>
+<li>Coreference information  </li>
 <li>Gender, number, and other features  </li>
 </ul>
+</li>
+</ul>
 <h2 id="reloading-processed-files">Reloading Processed Files</h2>
-<p>Generated files are loaded by:</p>
+<p>Generated files can be loaded by:</p>
 <div class="highlight"><pre><span></span><code><span class="kn">from</span><span class="w"> </span><span class="nn">propp_fr</span><span class="w"> </span><span class="kn">import</span> <span class="n">load_text_file</span><span class="p">,</span> <span class="n">load_tokens_df</span><span class="p">,</span> <span class="n">load_entities_df</span><span class="p">,</span> <span class="n">load_book_file</span>
 
 <span class="n">file_name</span> <span class="o">=</span> <span class="s2">&quot;my_french_novel&quot;</span>

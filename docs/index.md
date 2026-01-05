@@ -38,11 +38,11 @@ title: "Propp – NLP Framework for Narrative Analysis"
   </p>
 
   <p>
-    Designed for <strong>computational literary studies</strong>, Propp bridges <strong>Natural Language Processing</strong> and <strong>narrative theory</strong> to enable <strong>character-centric</strong>, <strong>ontology-based</strong>, and <strong>corpus-scale analysis</strong> of prose narratives.
+    Designed for <strong>computational literary studies</strong>, Propp bridges <strong>Natural Language Processing</strong> and <strong>narrative theory</strong> to enable <strong>character-centric</strong>, <strong>ontology-based</strong>, and <strong>corpus-scale analysis</strong> of narratives.
   </p>
 
   <p>
-    The framework is designed for research on characters, narrative structure, and large-scale literary corpora, while remaining accessible to scholars with limited programming experience.
+    The framework is intended for research on characters, narrative structure, and large-scale literary corpora, while remaining accessible to scholars with limited programming experience.
   </p>
 
 </div>
@@ -51,12 +51,12 @@ title: "Propp – NLP Framework for Narrative Analysis"
 
 <div style="text-align: center; margin-top: 3rem; font-size: 1rem;">
   <a href="quick_start" class="md-button md-button--primary"
-     style="border-radius: 20px; background-color: #eeeeee; color: black; border-color: black; padding: 0.7em 1.5em;
+     style="border-radius: 30px; background-color: #eeeeee; color: black; border-color: black; padding: 0.7em 1.5em;
     width: 200px; text-align: center;">
 Get Started
   </a>
   <a href="about" class="md-button md-button--primary"
-     style="border-radius: 20px; background-color: #eeeeee; color: black; border-color: black; padding: 0.7em 1.5em; margin-left: 3rem;
+     style="border-radius: 30px; background-color: #eeeeee; color: black; border-color: black; padding: 0.7em 1.5em; margin-left: 3rem;
     width: 200px; text-align: center;">
     Learn More
   </a>

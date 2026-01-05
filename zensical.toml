@@ -47,7 +47,10 @@ nav = [
             { "Mention Detection Model" = "training_mention_detection_model.md" }
         ]}
     ]},
-    {"Datasets" = "datasets.md" },
+    { "Datasets" = [
+        { "Available Datasets" = "available_datasets.md" },
+        { "Datasets Benchmarks" = "datasets_benchmarks.md" },
+    ]},
     {"Use Cases" = "use_cases.md" },
 #    {"API" = "API" },
 #    {"FAQ" = "FAQ.md" },

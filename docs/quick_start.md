@@ -40,22 +40,22 @@ root_directory/
 
 - `my_french_novel.tokens` contains all tokens along with:
 
-  - Part-of-speech tags  
-  - Syntactic parsing information  
+    - Part-of-speech tags
+    - Syntactic parsing information  
 
 - `my_french_novel.entities` contains information about recognized entities, including:
 
-  - Start and end positions  
-  - Entity type  
+    - Start and end positions  
+    - Entity type  
 
 - `my_french_novel.book` contains all characters and their attributes, including:
 
-  - Coreference information  
-  - Gender, number, and other features  
+    - Coreference information  
+    - Gender, number, and other features  
 
 ## Reloading Processed Files
 
-Generated files are loaded by:
+Generated files can be loaded by:
 
 ```python
 from propp_fr import load_text_file, load_tokens_df, load_entities_df, load_book_file
