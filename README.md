@@ -1,10 +1,26 @@
-<p align="center">
-  <picture><source media="(prefers-color-scheme: dark)" srcset="docs/images/propp_logo_favicon_white.svg"><img src="docs/images/propp_logo_favicon.svg" alt="PROPP logo" height="32" /></picture>
-  &nbsp;&nbsp;
-  <a href="https://lattice-8094.github.io/propp/" style="text-decoration: underline; font-weight: bold; color: blue; font-size: 1.5em;">PROPP DOCUMENTATION</a>
-  &nbsp;&nbsp;
-  <picture><source media="(prefers-color-scheme: dark)" srcset="docs/images/propp_logo_favicon_flipped_white.svg"><img src="docs/images/propp_logo_favicon_flipped.svg" alt="PROPP logo mirrored" height="32" /></picture>
-</p>
+<h1 align="center">
+  <table align="center" style="border: none; border-collapse: collapse;">
+    <tr style="border: none;">
+      <td style="border: none; padding: 5px;">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="docs/images/propp_logo_favicon_white.svg">
+          <img src="docs/images/propp_logo_favicon.svg" alt="PROPP logo" height="32" />
+        </picture>
+      </td>
+      <td style="border: none; padding: 5px;">
+        <a href="https://lattice-8094.github.io/propp/" style="text-decoration: underline; font-weight: bold; color: blue; font-size: 1.5em;">
+          PROPP DOCUMENTATION
+        </a>
+      </td>
+      <td style="border: none; padding: 5px;">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="docs/images/propp_logo_favicon_flipped_white.svg">
+          <img src="docs/images/propp_logo_favicon_flipped.svg" alt="PROPP logo mirrored" height="32" />
+        </picture>
+      </td>
+    </tr>
+  </table>
+</h1>
 
 <p align="center">
   <strong>Pattern Recognition and Ontologies for Prose Processing</strong><br />
