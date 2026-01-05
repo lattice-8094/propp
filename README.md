@@ -1,18 +1,20 @@
 <h1 align="center" style="display: flex; align-items: center; justify-content: center; gap: 10px;">
-  <img
-    src="docs/images/propp_logo_favicon.svg"
-    alt="PROPP logo"
-    height="32"
-  />
+  <!-- Left logo with theme switching -->
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="docs/images/propp_logo_favicon_white.svg">
+    <img src="docs/images/propp_logo_favicon.svg" alt="PROPP logo" height="32" />
+  </picture>
+  
   <a href="https://lattice-8094.github.io/propp/" 
      style="text-decoration: underline; font-weight: bold; color: blue; font-size: 1.5em;">
     PROPP DOCUMENTATION
   </a>
-  <img
-    src="docs/images/propp_logo_favicon_flipped.svg"
-    alt="PROPP logo mirrored"
-    height="32"
-  />
+  
+  <!-- Right logo with theme switching -->
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="docs/images/propp_logo_favicon_flipped_white.svg">
+    <img src="docs/images/propp_logo_favicon_flipped.svg" alt="PROPP logo mirrored" height="32" />
+  </picture>
 </h1>
 
 <p align="center">
