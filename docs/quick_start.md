@@ -8,6 +8,12 @@ title: "Quick Start"
 
 This guide will help you load and analyze French text files using the `propp_fr` library.
 
+## Google Colab Hands-on Tutorial
+
+[`This Notebook`](https://colab.research.google.com/drive/151ODFrKc4EVWojHpNoSUSvZsggGjBQ1j) will guide you through the process of analyzing a French novel using the propp-fr library. 
+
+You'll learn how to load a novel, tokenize it, extract named entities, resolve coreferences, and analyze the main characters.
+
 ## Installation
 
 The French variant of the Propp python library can be installed via [pypi](https://pypi.org/project/propp-fr/):
