@@ -12,13 +12,48 @@ title: "Propp – NLP Framework for Narrative Analysis"
   margin: 0 0;
 ">
 
-  <img
-    src="/images/propp_logo_favicon.svg"
-    alt="PROPP logo"
-    style="height: 1em;"
-  />
+  <!-- Light mode logos -->
+  <img src="/images/propp_logo_favicon.svg" alt="PROPP logo" class="logo-light" style="height: 1em;" />
+  <span style="font-weight: bold; font-family: sans-serif;">PROPP</span>
+  <img src="/images/propp_logo_favicon_flipped.svg" alt="PROPP logo mirrored" class="logo-light" style="height: 1em;" />
 
-  <span style="font-weight: bold; sans-serif;">
+  <!-- Dark mode logos -->
+  <img src="/images/propp_logo_favicon_white.svg" alt="PROPP logo dark" class="logo-dark" style="height: 1em;" />
+  <img src="/images/propp_logo_favicon_flipped_white.svg" alt="PROPP logo mirrored dark" class="logo-dark" style="height: 1em;" />
+
+</h1>
+
+<style>
+/* Default: show light logos, hide dark logos */
+.logo-light { display: inline; }
+.logo-dark { display: none; }
+
+/* Dark mode: hide light logos, show dark logos */
+@media (prefers-color-scheme: dark) {
+  .logo-light { display: none; }
+  .logo-dark { display: inline; }
+}
+</style>
+
+
+
+<h1 style="
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(40px, 1vw, 40px);
+  font-size: 3.5rem;
+  line-height: 1;
+  margin: 0 0;
+">
+
+<img 
+  src="/images/propp_logo_favicon.svg" 
+  alt="PROPP logo" 
+  style="height: 1em;" 
+/>
+
+  <span style="font-weight: bold; sans-serif">
     PROPP
   </span>
 
@@ -51,13 +86,15 @@ The framework is designed for research on characters, narrative structure, and l
 
 
 
-<div style="text-align: center; margin-top: 2rem;">
+<div style="text-align: center; margin-top: 2rem; font-size: 1rem;">
   <a href="quick_start" class="md-button md-button--primary"
-     style="border-radius: 20px; background-color: white; color: black; border-color: black; padding: 0.5em 1.2em;">
-    Get Started
+     style="border-radius: 20px; background-color: #eeeeee; color: black; border-color: black; padding: 0.7em 1.5em;
+    width: 200px; text-align: center;">
+Get Started
   </a>
   <a href="about" class="md-button md-button--primary"
-     style="border-radius: 20px; background-color: white; color: black; border-color: black; padding: 1em 1.2em; margin-left: 2rem;">
+     style="border-radius: 20px; background-color: #eeeeee; color: black; border-color: black; padding: 0.7em 1.5em; margin-left: 2rem;
+    width: 200px; text-align: center;">
     Learn More
   </a>
 </div>
