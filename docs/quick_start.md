@@ -4,10 +4,6 @@ title: "Quick Start"
 
 # Quick Start
 
-**Getting Started with French Text Processing**
-
-This guide will help you load and analyze French text files using the `propp_fr` library.
-
 ## Google Colab Hands-on Tutorial
 
 [`This Notebook`](https://colab.research.google.com/drive/151ODFrKc4EVWojHpNoSUSvZsggGjBQ1j) will guide you through the process of analyzing a French novel using the propp-fr library. 
