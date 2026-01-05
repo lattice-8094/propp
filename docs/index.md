@@ -13,13 +13,13 @@ title: "Propp – NLP Framework for Narrative Analysis"
 ">
 
   <!-- Light mode logos -->
-  <img src="/images/propp_logo_favicon.svg" alt="PROPP logo" class="logo-light" style="height: 1em;" />
+  <img src="/propp/images/propp_logo_favicon.svg" alt="PROPP logo" class="logo-light" style="height: 1em;" />
   <span style="font-weight: bold; font-family: sans-serif;">PROPP</span>
-  <img src="/images/propp_logo_favicon_flipped.svg" alt="PROPP logo mirrored" class="logo-light" style="height: 1em;" />
+  <img src="/propp/images/propp_logo_favicon_flipped.svg" alt="PROPP logo mirrored" class="logo-light" style="height: 1em;" />
 
   <!-- Dark mode logos -->
-  <img src="/images/propp_logo_favicon_white.svg" alt="PROPP logo dark" class="logo-dark" style="height: 1em;" />
-  <img src="/images/propp_logo_favicon_flipped_white.svg" alt="PROPP logo mirrored dark" class="logo-dark" style="height: 1em;" />
+  <img src="/propp/images/propp_logo_favicon_white.svg" alt="PROPP logo dark" class="logo-dark" style="height: 1em;" />
+  <img src="/propp/images/propp_logo_favicon_flipped_white.svg" alt="PROPP logo mirrored dark" class="logo-dark" style="height: 1em;" />
 
 </h1>
 
