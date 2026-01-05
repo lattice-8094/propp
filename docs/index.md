@@ -29,11 +29,23 @@ title: "Propp – NLP Framework for Narrative Analysis"
 
 </div>
 
-**Propp** is a **Python-based Natural Language Processing (NLP) framework** developed for the analysis of **narrative texts**, with a focus on **long-form literary fiction**. 
 
-Designed for **computational literary studies**, Propp bridges **Natural Language Processing** and **narrative theory** to enable **character-centric**, **ontology-based**, and **corpus-scale analysis** of prose narratives.
 
-The framework is designed for research on characters, narrative structure, and large-scale literary corpora, while remaining accessible to scholars with limited programming experience.
+<div style="text-align: justify; line-height: 1.6; margin-top: 1rem;">
+
+  <p>
+    <strong>Propp</strong> is a <strong>Python-based Natural Language Processing (NLP) framework</strong> developed for the analysis of <strong>narrative texts</strong>, with a focus on <strong>long-form literary fiction</strong>.
+  </p>
+
+  <p>
+    Designed for <strong>computational literary studies</strong>, Propp bridges <strong>Natural Language Processing</strong> and <strong>narrative theory</strong> to enable <strong>character-centric</strong>, <strong>ontology-based</strong>, and <strong>corpus-scale analysis</strong> of prose narratives.
+  </p>
+
+  <p>
+    The framework is designed for research on characters, narrative structure, and large-scale literary corpora, while remaining accessible to scholars with limited programming experience.
+  </p>
+
+</div>
 
 
 
