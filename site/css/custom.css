@@ -14,6 +14,13 @@
     font-weight: 700 !important;
 }
 
+/* Default mode: show light logos, hide dark logos */
+[data-md-color-scheme="default"] .logo-light {display: inline;}
+[data-md-color-scheme="default"] .logo-dark {display: none;}
+/* Slate mode: show dark logos, hide light logos */
+[data-md-color-scheme="slate"] .logo-light {display: none;}
+[data-md-color-scheme="slate"] .logo-dark {display: inline;}
+
 @media screen and (min-width: 1200px) {
     .md-grid {
         max-width: 66rem;
