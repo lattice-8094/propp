@@ -4,16 +4,16 @@ title: "Propp – NLP Framework for Narrative Analysis"
 
 <h1 style="display: flex; align-items: center; justify-content: center; gap: clamp(40px, 1vw, 40px); font-size: 3.5rem; line-height: 1; margin: 0 0;">
     <!-- Light mode logos -->
-    <img src="/images/propp_logo_favicon.svg" alt="PROPP logo" class="logo-light" style="height: 1em;" />
+    <img src="/propp/images/propp_logo_favicon.svg" alt="PROPP logo" class="logo-light" style="height: 1em;" />
     <!-- Dark mode logos -->
-    <img src="/images/propp_logo_favicon_white.svg" alt="PROPP logo" class="logo-dark" style="height: 1em;" />
+    <img src="/propp/images/propp_logo_favicon_white.svg" alt="PROPP logo" class="logo-dark" style="height: 1em;" />
     
     <span style="font-weight: bold; sans-serif">PROPP</span>
     
     <!-- Light mode logos -->
-    <img src="/images/propp_logo_favicon_flipped.svg" alt="PROPP logo mirrored" class="logo-light" style="height: 1em;" />
+    <img src="/propp/images/propp_logo_favicon_flipped.svg" alt="PROPP logo mirrored" class="logo-light" style="height: 1em;" />
     <!-- Dark mode logos -->
-    <img src="/images/propp_logo_favicon_flipped_white.svg" alt="PROPP logo mirrored" class="logo-dark" style="height: 1em;" />
+    <img src="/propp/images/propp_logo_favicon_flipped_white.svg" alt="PROPP logo mirrored" class="logo-dark" style="height: 1em;" />
 </h1>
 
 
