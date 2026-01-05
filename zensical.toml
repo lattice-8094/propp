@@ -103,7 +103,7 @@ features = [
     # will generate an edit button for the page. This works for common
     # repository hosting services.
     # https://zensical.org/docs/setup/repository/#code-actions
-    #"content.action.edit",
+#    "content.action.edit",
 
     # If you have a repository configured and turn feature this on, Zensical
     # will generate a button that allows the user to view the Markdown
@@ -144,7 +144,7 @@ features = [
     # With this feature enabled, Zensical will automatically hide parts
     # of the header when the user scrolls past a certain point.
     # https://zensical.org/docs/setup/header/#automatic-hiding
-    # "header.autohide",
+#     "header.autohide",
 
     # Turn on this feature to expand all collapsible sections in the
     # navigation sidebar by default.
@@ -278,7 +278,8 @@ primary = "grey"
 # ----------------------------------------------------------------------------
 #[project.theme.icon]
 #logo = "lucide/smile"
-#repo = "lucide/smile"
+#repo = "lattice-8094/propp"
+
 
 # ----------------------------------------------------------------------------
 # The "extra" section contains miscellaneous settings.
