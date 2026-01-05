@@ -18,7 +18,7 @@ title: "Propp – NLP Framework for Narrative Analysis"
     style="height: 1em;"
   />
 
-  <span style="font-weight: bold; font="arial";>
+  <span style="font-weight: bold; sans-serif;">
     PROPP
   </span>
 
@@ -49,10 +49,15 @@ Designed for **computational literary studies**, Propp bridges **Natural Languag
 
 The framework is designed for research on characters, narrative structure, and large-scale literary corpora, while remaining accessible to scholars with limited programming experience.
 
-<div class="grid cards" markdown>
 
-- [Get Started](quick_start){ .md-button .md-button--primary }
 
-- [Learn More](#){ .md-button .md-button--primary }
-
+<div style="text-align: center; margin-top: 2rem;">
+  <a href="quick_start" class="md-button md-button--primary"
+     style="border-radius: 20px; background-color: white; color: black; border-color: black; padding: 0.5em 1.2em;">
+    Get Started
+  </a>
+  <a href="about" class="md-button md-button--primary"
+     style="border-radius: 20px; background-color: white; color: black; border-color: black; padding: 1em 1.2em; margin-left: 2rem;">
+    Learn More
+  </a>
 </div>
