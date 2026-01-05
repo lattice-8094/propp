@@ -42,7 +42,9 @@
 
 ## Hands-on Tutorial Notebook
 
-[Hands-on Tutorial Notebook](https://colab.research.google.com/drive/151ODFrKc4EVWojHpNoSUSvZsggGjBQ1j?usp=sharing)
+[`This Notebook`](https://colab.research.google.com/drive/151ODFrKc4EVWojHpNoSUSvZsggGjBQ1j) will guide you through the process of analyzing a French novel using the propp-fr library. 
+
+You'll learn how to load a novel, tokenize it, extract named entities, resolve coreferences, and analyze the main characters.
 
 ## Quick Start
 
