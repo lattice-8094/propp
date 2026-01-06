@@ -40,3 +40,14 @@
     font-weight: 500;   /* optional: make them a bit bolder */
 }
 
+[data-md-component="search"] .md-search__inner,
+[data-md-component="search"] .md-search__button {
+  background-color: rgba(146, 146, 146, 0.40);
+}
+[data-md-component="search"] .md-search__inner:hover,
+[data-md-component="search"] .md-search__button:hover {
+  background-color: rgba(146, 146, 146, 0.70);
+}
+
+
+

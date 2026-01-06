@@ -28,14 +28,17 @@ Dream narratives, altered state of consciousness narratives, personal narratives
 
   - 2014 - [Java BookNLP](https://github.com/dbamman/book-nlp?tab=readme-ov-file)
     
-    - [A Bayesian Mixed Effects Model of Literary Character (Bamman et al., ACL 2014)](https://aclanthology.org/P14-1035/)
+    - [A Bayesian Mixed Effects Model of Literary Character](https://aclanthology.org/P14-1035/) (Bamman et al., ACL 2014)
   
-  - 2019 - [BookNLP](#)
+  - 2019 - [BookNLP](https://github.com/booknlp/booknlp)
     
-    - 
+    - [An annotated dataset of literary entities](https://aclanthology.org/N19-1220/) (Bamman et al., NAACL 2019)
 
-  - 2020 - [Multilingual BookNLP](#)
-  - 2021 - [BookNLP-fr](#)
+  - 2020 - [Multilingual BookNLP](https://www.neh.gov/sites/default/files/inline-files/FOIA%2021-09%20Regents%20of%20the%20University%20of%20California%2C%20Berkeley.pdf)
+  - 2021 - [BookNLP-fr](https://www.lattice.cnrs.fr/projets/booknlp/)
+    
+    - [BookNLP-fr, the French Versant of BookNLP. A Tailored Pipeline for 19th and 20th Century French Literature (Mélanie et al., JCLS 2024)](https://jcls.io/article/id/3924/)
+  
   - 2025 - [Propp](#)
 
 ## Modules
