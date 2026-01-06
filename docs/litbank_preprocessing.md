@@ -1,7 +1,7 @@
 # LitBank Preprocessing
 
 Tutorial on how to preprocess the [LitBank Dataset](https://github.com/dbamman/litbank) for coreference resolution.
-
+    
 This dataset should contain:
 
   - The raw text files

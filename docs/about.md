@@ -10,13 +10,20 @@ The framework is designed for research on characters, narrative structure, and l
 
 ## Objectives
 
-Bridging narratological theory and contemporary research in natural language processing
+Bridging narratological theory and contemporary research in natural language processing.
 
 ## Narratology Context
 
 Vladimir Propp
 
 ## Computational Humanities
+
+
+## Design Philosophy
+
+  - Modularity
+  - Open Source
+  - Informed by narratology theory
 
 ## French Fiction and Beyond
 

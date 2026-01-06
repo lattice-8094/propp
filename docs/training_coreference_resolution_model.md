@@ -2,6 +2,8 @@
 
 ## Load a dataset
 
+Select a dataset annotated with Coreference. See [Available Dataset](available_datasets/#coreference-resolution-propp-formatted-datasets).
+
 ```python
 
 import os, requests, zipfile
