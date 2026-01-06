@@ -40,11 +40,12 @@ nav = [
 
         { "Dataset Pre Processing" = [
             { "LitBank" = "litbank_preprocessing.md" },
-            { "CoNLL-2003 NER" = "conll2003_preprocessing.md" }
+            { "CoNLL-2003 NER" = "conll2003_preprocessing.md" },
         ]},
 
         { "Mention Detection Model" = [
-            { "Mention Detection Model" = "training_mention_detection_model.md" }
+            { "Mention Detection Model" = "training_mention_detection_model.md" },
+            { "Coreference Resolution Model" = "training_coreference_resolution_model.md" },
         ]}
     ]},
     { "Datasets" = [

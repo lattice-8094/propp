@@ -12,13 +12,13 @@
         <meta name="author" content="Antoine Bourgois">
       
       
-        <link rel="canonical" href="https://lattice-8094.github.io/propp/training_mention_detection_model/">
+        <link rel="canonical" href="https://lattice-8094.github.io/propp/training_coreference_resolution_model/">
       
       
-        <link rel="prev" href="../conll2003_preprocessing/">
+        <link rel="prev" href="../training_mention_detection_model/">
       
       
-        <link rel="next" href="../training_coreference_resolution_model/">
+        <link rel="next" href="../available_datasets/">
       
       
         
@@ -29,7 +29,7 @@
     
     
       
-        <title>Training a Mention Detection Model - Propp</title>
+        <title>Training a Coreference Resolution Model - Propp</title>
       
     
     
@@ -116,7 +116,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#training-a-mention-detection-model" class="md-skip">
+        <a href="#training-a-coreference-resolution-model" class="md-skip">
           Skip to content
         </a>
       
@@ -149,7 +149,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Training a Mention Detection Model
+              Training a Coreference Resolution Model
             
           </span>
         </div>
@@ -1047,6 +1047,34 @@
                 
   
   
+  
+  
+    <li class="md-nav__item">
+      <a href="../training_mention_detection_model/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mention Detection Model
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
     
   
   
@@ -1066,7 +1094,7 @@
   <span class="md-ellipsis">
     
   
-    Mention Detection Model
+    Coreference Resolution Model
   
 
     
@@ -1084,7 +1112,7 @@
   <span class="md-ellipsis">
     
   
-    Mention Detection Model
+    Coreference Resolution Model
   
 
     
@@ -1235,34 +1263,6 @@
   
 </nav>
       
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../training_coreference_resolution_model/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Coreference Resolution Model
-  
-
-    
-  </span>
-  
-  
-
-      </a>
     </li>
   
 
@@ -1594,7 +1594,7 @@
                 
                   
 
-<h1 id="training-a-mention-detection-model">Training a Mention Detection Model</h1>
+<h1 id="training-a-coreference-resolution-model">Training a Coreference Resolution Model</h1>
 <h2 id="load-a-dataset">Load a dataset</h2>
 <div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">os</span><span class="o">,</span><span class="w"> </span><span class="nn">requests</span><span class="o">,</span><span class="w"> </span><span class="nn">zipfile</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">tqdm.auto</span><span class="w"> </span><span class="kn">import</span> <span class="n">tqdm</span>
