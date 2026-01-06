@@ -85,3 +85,6 @@ The project also received support from the Major Research Program of PSL Researc
 launched by PSL Research University and implemented by the French National Research Agency (ANR),
 reference
 [ANR-10-IDEX-0001](https://anr.fr/ProjetIA-10-IDEX-0001).
+
+The project additionally benefited from the support of the [*Fondation de l’ENS*](https://fondation.ens.psl.eu/en/accueil-english/), through the *Be Ys Chair*, dedicated to the support of innovative research projects in
+artificial intelligence.
