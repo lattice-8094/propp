@@ -6,6 +6,8 @@ Select a dataset annotated with Coreference. See [Available Dataset](available_d
 
 ```python
 
+import pandas as pd
+
 import os, requests, zipfile
 from tqdm.auto import tqdm
 from collections import Counter
@@ -14,9 +16,9 @@ from collections import Counter
 local_dataset_directory = "loaded_datasets"
 os.makedirs(local_dataset_directory, exist_ok=True)
 
-# Available Datasets: long-litbank-fr-PER-only ; litbank-fr ; litbank ; conll2003-NER
+# Available Datasets: long-litbank-fr-PER-only ; litbank-fr ; litbank ;
 
-dataset_name = "conll2003-NER" #
+dataset_name = "litbank" #
 
 # Dataset URL
 dataset_URL_path = (
@@ -74,7 +76,9 @@ Here, as the dataset is in English, and we have a GPU available, we will use the
 
 from propp_fr import load_spacy_model
 
-spacy_model = load_spacy_model("en_core_web_trf")
+spacy_model_name = "en_core_web_trf"
+# spacy_model_name = "fr_dep_news_trf"
+spacy_model = load_spacy_model(spacy_model_name)
 
 ```
 
@@ -124,6 +128,7 @@ from propp_fr import load_tokens_df, load_entities_df, add_features_to_entities,
 for file_name in tqdm(all_files):
     if os.path.exists(os.path.join(files_directory, file_name + ".tokens")):
         continue
+        # pass
     text_content = load_text_file(file_name, files_directory)
     tokens_df = generate_tokens_df(text_content, spacy_model, verbose=0)
     entities_df = load_entities_df(file_name, files_directory)
@@ -132,9 +137,11 @@ for file_name in tqdm(all_files):
     entities_df = extract_mention_text(text_content, entities_df)
 
     entities_df = add_features_to_entities(entities_df, tokens_df)
-    entities_df["gender"] = "Not_Assigned" # Not available for english
-    entities_df["number"] = "Not_Assigned" # Not available for english
-    entities_df["grammatical_person"] = "4" # Not available for english
+
+    if spacy_model_name == "en_core_web_trf":
+        entities_df["gender"] = "Not_Assigned" # Not available for english
+        entities_df["number"] = "Not_Assigned" # Not available for english
+        entities_df["grammatical_person"] = "4" # Not available for english
 
     save_entities_df(entities_df, file_name, files_directory)
     save_tokens_df(tokens_df, file_name, files_directory)
@@ -143,7 +150,9 @@ for file_name in tqdm(all_files):
 
 ```python
 
-from propp_fr import mentions_detection_LOOCV_full_model_training, generate_NER_model_card_from_LOOCV_directory
+from propp_fr import coreference_resolution_LOOCV_full_model_training, generate_coref_model_card_from_LOOCV_directory
+
+help(coreference_resolution_LOOCV_full_model_training)
 
 from collections import Counter
 

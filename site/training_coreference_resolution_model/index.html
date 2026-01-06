@@ -1597,7 +1597,9 @@
 <h1 id="training-a-coreference-resolution-model">Training a Coreference Resolution Model</h1>
 <h2 id="load-a-dataset">Load a dataset</h2>
 <p>Select a dataset annotated with Coreference. See <a href="../available_datasets/#coreference-resolution-propp-formatted-datasets">Available Dataset</a>.</p>
-<div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">os</span><span class="o">,</span><span class="w"> </span><span class="nn">requests</span><span class="o">,</span><span class="w"> </span><span class="nn">zipfile</span>
+<div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">pandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pd</span>
+
+<span class="kn">import</span><span class="w"> </span><span class="nn">os</span><span class="o">,</span><span class="w"> </span><span class="nn">requests</span><span class="o">,</span><span class="w"> </span><span class="nn">zipfile</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">tqdm.auto</span><span class="w"> </span><span class="kn">import</span> <span class="n">tqdm</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">collections</span><span class="w"> </span><span class="kn">import</span> <span class="n">Counter</span>
 
@@ -1605,9 +1607,9 @@
 <span class="n">local_dataset_directory</span> <span class="o">=</span> <span class="s2">&quot;loaded_datasets&quot;</span>
 <span class="n">os</span><span class="o">.</span><span class="n">makedirs</span><span class="p">(</span><span class="n">local_dataset_directory</span><span class="p">,</span> <span class="n">exist_ok</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 
-<span class="c1"># Available Datasets: long-litbank-fr-PER-only ; litbank-fr ; litbank ; conll2003-NER</span>
+<span class="c1"># Available Datasets: long-litbank-fr-PER-only ; litbank-fr ; litbank ;</span>
 
-<span class="n">dataset_name</span> <span class="o">=</span> <span class="s2">&quot;conll2003-NER&quot;</span> <span class="c1">#</span>
+<span class="n">dataset_name</span> <span class="o">=</span> <span class="s2">&quot;litbank&quot;</span> <span class="c1">#</span>
 
 <span class="c1"># Dataset URL</span>
 <span class="n">dataset_URL_path</span> <span class="o">=</span> <span class="p">(</span>
@@ -1654,7 +1656,9 @@
 <p>Here, as the dataset is in English, and we have a GPU available, we will use the <code>en_core_web_trf</code> model.</p>
 <div class="highlight"><pre><span></span><code><span class="kn">from</span><span class="w"> </span><span class="nn">propp_fr</span><span class="w"> </span><span class="kn">import</span> <span class="n">load_spacy_model</span>
 
-<span class="n">spacy_model</span> <span class="o">=</span> <span class="n">load_spacy_model</span><span class="p">(</span><span class="s2">&quot;en_core_web_trf&quot;</span><span class="p">)</span>
+<span class="n">spacy_model_name</span> <span class="o">=</span> <span class="s2">&quot;en_core_web_trf&quot;</span>
+<span class="c1"># spacy_model_name = &quot;fr_dep_news_trf&quot;</span>
+<span class="n">spacy_model</span> <span class="o">=</span> <span class="n">load_spacy_model</span><span class="p">(</span><span class="n">spacy_model_name</span><span class="p">)</span>
 </code></pre></div>
 <p>Define Preprocessing Functions</p>
 <div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">realign_tokens_offsets</span><span class="p">(</span><span class="n">tokens_df</span><span class="p">,</span> <span class="n">entities_df</span><span class="p">):</span>
@@ -1694,6 +1698,7 @@
 <span class="k">for</span> <span class="n">file_name</span> <span class="ow">in</span> <span class="n">tqdm</span><span class="p">(</span><span class="n">all_files</span><span class="p">):</span>
     <span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">files_directory</span><span class="p">,</span> <span class="n">file_name</span> <span class="o">+</span> <span class="s2">&quot;.tokens&quot;</span><span class="p">)):</span>
         <span class="k">continue</span>
+        <span class="c1"># pass</span>
     <span class="n">text_content</span> <span class="o">=</span> <span class="n">load_text_file</span><span class="p">(</span><span class="n">file_name</span><span class="p">,</span> <span class="n">files_directory</span><span class="p">)</span>
     <span class="n">tokens_df</span> <span class="o">=</span> <span class="n">generate_tokens_df</span><span class="p">(</span><span class="n">text_content</span><span class="p">,</span> <span class="n">spacy_model</span><span class="p">,</span> <span class="n">verbose</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
     <span class="n">entities_df</span> <span class="o">=</span> <span class="n">load_entities_df</span><span class="p">(</span><span class="n">file_name</span><span class="p">,</span> <span class="n">files_directory</span><span class="p">)</span>
@@ -1702,14 +1707,18 @@
     <span class="n">entities_df</span> <span class="o">=</span> <span class="n">extract_mention_text</span><span class="p">(</span><span class="n">text_content</span><span class="p">,</span> <span class="n">entities_df</span><span class="p">)</span>
 
     <span class="n">entities_df</span> <span class="o">=</span> <span class="n">add_features_to_entities</span><span class="p">(</span><span class="n">entities_df</span><span class="p">,</span> <span class="n">tokens_df</span><span class="p">)</span>
-    <span class="n">entities_df</span><span class="p">[</span><span class="s2">&quot;gender&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Not_Assigned&quot;</span> <span class="c1"># Not available for english</span>
-    <span class="n">entities_df</span><span class="p">[</span><span class="s2">&quot;number&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Not_Assigned&quot;</span> <span class="c1"># Not available for english</span>
-    <span class="n">entities_df</span><span class="p">[</span><span class="s2">&quot;grammatical_person&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;4&quot;</span> <span class="c1"># Not available for english</span>
+
+    <span class="k">if</span> <span class="n">spacy_model_name</span> <span class="o">==</span> <span class="s2">&quot;en_core_web_trf&quot;</span><span class="p">:</span>
+        <span class="n">entities_df</span><span class="p">[</span><span class="s2">&quot;gender&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Not_Assigned&quot;</span> <span class="c1"># Not available for english</span>
+        <span class="n">entities_df</span><span class="p">[</span><span class="s2">&quot;number&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Not_Assigned&quot;</span> <span class="c1"># Not available for english</span>
+        <span class="n">entities_df</span><span class="p">[</span><span class="s2">&quot;grammatical_person&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;4&quot;</span> <span class="c1"># Not available for english</span>
 
     <span class="n">save_entities_df</span><span class="p">(</span><span class="n">entities_df</span><span class="p">,</span> <span class="n">file_name</span><span class="p">,</span> <span class="n">files_directory</span><span class="p">)</span>
     <span class="n">save_tokens_df</span><span class="p">(</span><span class="n">tokens_df</span><span class="p">,</span> <span class="n">file_name</span><span class="p">,</span> <span class="n">files_directory</span><span class="p">)</span>
 </code></pre></div>
-<div class="highlight"><pre><span></span><code><span class="kn">from</span><span class="w"> </span><span class="nn">propp_fr</span><span class="w"> </span><span class="kn">import</span> <span class="n">mentions_detection_LOOCV_full_model_training</span><span class="p">,</span> <span class="n">generate_NER_model_card_from_LOOCV_directory</span>
+<div class="highlight"><pre><span></span><code><span class="kn">from</span><span class="w"> </span><span class="nn">propp_fr</span><span class="w"> </span><span class="kn">import</span> <span class="n">coreference_resolution_LOOCV_full_model_training</span><span class="p">,</span> <span class="n">generate_coref_model_card_from_LOOCV_directory</span>
+
+<span class="n">help</span><span class="p">(</span><span class="n">coreference_resolution_LOOCV_full_model_training</span><span class="p">)</span>
 
 <span class="kn">from</span><span class="w"> </span><span class="nn">collections</span><span class="w"> </span><span class="kn">import</span> <span class="n">Counter</span>
 
