@@ -2,7 +2,7 @@
 title: "Propp – NLP Framework for Narrative Analysis"
 ---
 
-<h1 style="display: flex; align-items: center; justify-content: center; gap: clamp(40px, 1vw, 40px); font-size: 3.5rem; line-height: 1; margin: 0 0;">
+<h1 style="display: flex; align-items: center; justify-content: center; gap: clamp(40px, 1vw, 40px); font-size: 3.0rem; line-height: 1; margin: 0 0;">
     <!-- Light mode logos -->
     <img src="/propp/images/propp_logo_favicon.svg" alt="PROPP logo" class="logo-light" style="height: 1em;" />
     <!-- Dark mode logos -->
@@ -49,15 +49,40 @@ title: "Propp – NLP Framework for Narrative Analysis"
 
 
 
-<div style="text-align: center; margin-top: 3rem; font-size: 1rem;">
+<div style="
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+  font-size: 1rem;
+">
   <a href="quick_start" class="md-button md-button--primary"
-     style="border-radius: 30px; background-color: #eeeeee; color: black; border-color: black; padding: 0.7em 1.5em;
-    width: 200px; text-align: center;">
-Get Started
+     style="
+       border-radius: 30px;
+       background-color: #eeeeee;
+       color: black;
+       border-color: black;
+       padding: 0.7em 1.5em;
+       text-align: center;
+       white-space: nowrap;
+     ">
+    Get Started
   </a>
+
   <a href="about" class="md-button md-button--primary"
-     style="border-radius: 30px; background-color: #eeeeee; color: black; border-color: black; padding: 0.7em 1.5em; margin-left: 3rem;
-    width: 200px; text-align: center;">
+     style="
+       border-radius: 30px;
+       background-color: #eeeeee;
+       color: black;
+       border-color: black;
+       padding: 0.7em 1.5em;
+       text-align: center;
+       white-space: nowrap;
+     ">
     Learn More
   </a>
 </div>
+
+
+

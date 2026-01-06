@@ -8,6 +8,9 @@ Designed for **computational literary studies**, Propp bridges **Natural Languag
 
 The framework is designed for research on characters, narrative structure, and large-scale literary corpora, while remaining accessible to scholars with limited programming experience.
 
+## Objectives
+
+Bridging narratological theory and contemporary research in natural language processing
 
 ## Narratology Context
 
