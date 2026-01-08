@@ -68,11 +68,9 @@ We evaluated PROPP’s NER pipeline using multiple transformer-based embedding m
 
 **litbank_propp_minimal_implementation** Coreference Resolution (Gold mentions)
 
-|    | Embedding Model              |   MUC f1 |   B3 f1 |   CEAFe f1 |   CONLL f1 |   Avg. Tokens Count |   Avg. Mentions Count |   Documents |
-|---:|:-----------------------------|---------:|--------:|-----------:|-----------:|--------------------:|----------------------:|------------:|
-|  0 | FacebookAI/xlm-roberta-large |    88.05 |   77.00 |      76.67 |      80.57 |                2136 |                   291 |         100 |
-|  1 | google-bert/bert-base-cased  |    86.00 |   72.93 |      74.03 |      77.66 |                2136 |                   291 |         100 |
-|  2 | google-bert/bert-large-cased |    86.53 |   74.94 |      75.08 |      78.85 |                2136 |                   291 |         100 |
-|  3 | google/mt5-xl                |    89.63 |   80.61 |      78.76 |      83.00 |                2136 |                   291 |         100 |
-
-
+| Embedding Model              |   MUC |    B3 |   CEAFe |   CONLL |   Avg. Tokens Count |   Avg. Mentions Count |   Doc. |
+|:-----------------------------|------:|------:|--------:|--------:|--------------------:|----------------------:|-------:|
+| FacebookAI/xlm-roberta-large | 88.05 | 77.00 |   76.67 |   80.57 |                2136 |                   291 |    100 |
+| google-bert/bert-base-cased  | 86.00 | 72.93 |   74.03 |   77.66 |                2136 |                   291 |    100 |
+| google-bert/bert-large-cased | 86.53 | 74.94 |   75.08 |   78.85 |                2136 |                   291 |    100 |
+| google/mt5-xl                | 89.63 | 80.61 |   78.76 |   83.00 |                2136 |                   291 |    100 |
