@@ -120,7 +120,7 @@ GPE
 10. Save your annotated file (press `w`) **Save regularly to avoid losing annotations**
 
 <video id="sacr-video" autoplay muted loop playsinline controls style="max-width: 100%; height: auto;">
-  <source src="/propp/docs/images/SACR_annotations.webm" type="video/webm">
+  <source src="/docs/images/SACR_annotations.webm" type="video/webm">
   Your browser does not support the video tag.
 </video>
 
