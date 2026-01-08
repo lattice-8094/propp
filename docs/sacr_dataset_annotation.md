@@ -108,10 +108,22 @@ ANIMAL
 GPE
 ```
 
-<video controls width="600">
-  <source src="images/SACR_annotations.mp4" type="video/mp4">
+<iframe 
+  width="800" height="450"
+  src="https://www.youtube.com/embed/amv6WcejdSM"
+  title="YouTube video player"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen>
+</iframe>
+
+sfsfs
+
+<video width="600" autoplay muted loop playsinline>
+  <source src="images/SACR_annotations.webm" type="video/webm">
   Your browser does not support the video tag.
 </video>
+
 
 1. Open the [SACR annotation Home Page](https://boberle.com/projects/coreference-annotation-with-sacr/online/)
 2. Load your raw .txt file
