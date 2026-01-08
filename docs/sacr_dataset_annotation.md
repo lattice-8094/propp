@@ -116,7 +116,8 @@ GPE
 6. Annotate your entities mention spans boundaries 
 7. Select entity type 
 8. Link coreferential mentions 
-9. Name your coreference chain
+9. Name your coreference chain (select a mention and press `n`)
+10. Save your annotated file (press `w`) **Save regularly to avoid losing annotations**
 
 <video id="sacr-video" autoplay muted loop playsinline controls style="max-width: 100%; height: auto;">
   <source src="/images/SACR_annotations.webm" type="video/webm">
