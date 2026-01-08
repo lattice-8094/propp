@@ -125,4 +125,7 @@ GPE
 </video>
 
 
+![Coreference Resolution Pipeline](images/coreference_resolution_pipeline_scheme.png)
+
+
 
