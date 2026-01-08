@@ -1,5 +1,13 @@
 # Available Datasets
 
+| dataset_name             | language   |   documents |    Tokens |   Entity Types Count | COREF   |   Average Tokens / Doc |
+|:-------------------------|:-----------|------------:|----------:|---------------------:|:--------|-----------------------:|
+| ontonotes5_english-NER   | en         |       3,637 | 2,074,405 |                   18 | False   |                    570 |
+| long-litbank-fr-PER-only | fr         |          32 |   556,103 |                    4 | True    |                 17,378 |
+| conll2003-NER            | en         |       1,393 |   319,965 |                    4 | False   |                    229 |
+| litbank-fr               | fr         |          29 |   276,992 |                    7 | True    |                  9,551 |
+| litbank                  | en         |         100 |   213,677 |                    6 | True    |                  2,136 |
+
 ## NER-Only Propp formatted datasets
 
 - [Download **conll2003 NER** dataset – PROPP Minimal Implementation](datasets/conll2003-NER_propp_minimal_implementation.zip)

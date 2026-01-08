@@ -108,30 +108,20 @@ ANIMAL
 GPE
 ```
 
-<iframe 
-  width="800" height="450"
-  src="https://www.youtube.com/embed/amv6WcejdSM"
-  title="YouTube video player"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowfullscreen>
-</iframe>
-
-sfsfs
-
-<video width="600" autoplay muted loop playsinline>
-  <source src="images/SACR_annotations.webm" type="video/webm">
-  Your browser does not support the video tag.
-</video>
-
-
 1. Open the [SACR annotation Home Page](https://boberle.com/projects/coreference-annotation-with-sacr/online/)
 2. Load your raw .txt file
 3. Paste you Properties configuration
 4. Choose the tokenization type: `word and punctuation`
 5. Then click the button to `parse the data`
+6. Annotate your entities mention spans boundaries 
+7. Select entity type 
+8. Link coreferential mentions 
+9. Name your coreference chain
 
-Annotate your entities mention spans boundaries
-Select entity type
-Link coreferential mentions
-Name your coreference chain
+<video id="sacr-video" autoplay muted loop playsinline controls style="max-width: 100%; height: auto;">
+  <source src="/images/SACR_annotations.webm" type="video/webm">
+  Your browser does not support the video tag.
+</video>
+
+
+
