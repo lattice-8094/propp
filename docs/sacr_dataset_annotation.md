@@ -124,9 +124,4 @@ GPE
   Your browser does not support the video tag.
 </video>
 
-test
-
-![Coreference Resolution Pipeline](images/coreference_resolution_pipeline_scheme.png)
-
-
 
