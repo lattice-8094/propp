@@ -6,9 +6,9 @@
 | ontonotes5_english-NER   | en         |       3,637 | 2,074,405 |                   18 | ❌      |                    570 |
 | long-litbank-fr-PER-only | fr         |          32 |   556,103 |                    4 | ✅      |                 17,378 |
 | conll2003-NER            | en         |       1,393 |   319,965 |                    4 | ❌      |                    229 |
+| litbank-ru               | ru         |         145 |   291,290 |                    7 | ✅      |                  2,008 |
 | litbank-fr               | fr         |          29 |   276,992 |                    7 | ✅      |                  9,551 |
 | litbank                  | en         |         100 |   213,677 |                    6 | ✅      |                  2,136 |
-
 
 ## NER-Only Propp formatted datasets
 
