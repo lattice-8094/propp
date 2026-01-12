@@ -1,0 +1,320 @@
+COREF_name	COREF	start_token	end_token	cat	sacr_text	byte_onset	byte_offset	text	mention_len	paragraph_ID	sentence_ID	start_token_ID_within_sentence	out_to_in_nested_level	in_to_out_nested_level	nested_entities_count	temp_index	head_id	head_word	head_dependency_relation	head_syntactic_head_ID	POS_tag	prop	number	gender	grammatical_person
+FAC_T1	43	4	5	FAC	дворянских имений	27	44	дворянских имений	2	0	0	4	0	0	0	0	5	имений	nsubj	3	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Radushin	5	25	25	PER	ваш	146	149	ваш	1	0	0	25	0	0	0	1	25	ваш	det	26	DET	PRON	Not_Assigned	Not_Assigned	3
+Aglaev	0	28	28	PER	Аглаев	160	166	аглаев	1	1	1	0	0	0	0	2	28	аглаев	nsubj	29	PROPN	PROP	Singular	Not_Assigned	3
+Radushin	5	33	33	PER	Радушина	204	212	радушина	1	1	1	5	0	0	0	3	33	радушина	nmod	32	PROPN	PROP	Singular	Not_Assigned	3
+Radushin	5	36	36	PER	его	225	228	его	1	1	1	8	0	0	0	4	36	его	obj	35	PRON	PRON	Not_Assigned	Not_Assigned	3
+Radushin	5	41	41	PER	его	252	255	его	1	1	1	13	0	0	0	5	41	его	det	42	DET	PRON	Not_Assigned	Not_Assigned	3
+Aglaev	0	44	44	PER	Он	265	267	он	1	2	2	0	0	0	0	6	44	он	nsubj	45	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T8	17	46	52	PER	всех, кому был должен в Москве	276	306	всех , кому был должен в москве	7	2	2	2	0	1	1	7	50	должен	acl:relcl	46	ADJ	PROP	Singular	Not_Assigned	3
+GPE_T9	9	52	52	GPE	Москве	300	306	москве	1	2	2	8	1	0	0	8	52	москве	obl	50	PROPN	PROP	Not_Assigned	Not_Assigned	3
+PER_T8	17	55	55	PER	всеми	311	316	всеми	1	2	2	11	0	0	0	9	55	всеми	obl	56	PRON	PRON	Not_Assigned	Not_Assigned	3
+GPE_T11	67	61	61	GPE	деревню	348	355	деревню	1	2	2	17	0	0	0	10	61	деревню	obj	58	NOUN	NOM	Not_Assigned	Not_Assigned	3
+T12	21	73	74	PER	жен своей	396	405	жен своей	2	2	2	29	0	1	1	11	73	жен	ROOT	73	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Aglaev	0	74	74	PER	своей	400	405	своей	1	2	2	30	1	0	0	12	74	своей	det	73	DET	PRON	Not_Assigned	Not_Assigned	3
+Aglaev	0	88	88	PER	него	482	486	него	1	3	3	7	0	0	0	13	88	него	obl	86	PRON	PRON	Not_Assigned	Not_Assigned	3
+Aglaev	0	98	98	PER	он	526	528	он	1	3	4	5	0	0	0	14	98	он	nsubj	97	PRON	PRON	Not_Assigned	Not_Assigned	3
+FAC_T15	40	102	102	FAC	имения	551	557	имения	1	3	4	9	0	0	0	15	102	имения	nmod	101	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Aglaev	0	108	108	PER	он	579	581	он	1	4	5	4	0	0	0	16	108	он	nsubj	109	PRON	PRON	Not_Assigned	Not_Assigned	3
+GPE_T9	9	119	119	GPE	Москвы	631	637	москвы	1	4	5	15	0	0	0	17	119	москвы	obl	114	PROPN	PROP	Not_Assigned	Not_Assigned	3
+Aglaev	0	125	125	PER	него	668	672	него	1	5	6	4	0	0	0	18	125	него	obl	123	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T19	62	126	128	PER	мошенников всякого рода	673	696	мошенников всякого рода	3	5	6	5	0	0	0	19	128	рода	nmod	126	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Aglaev	0	131	131	PER	он	700	702	он	1	5	6	10	0	0	0	20	131	он	nsubj	132	PRON	PRON	Not_Assigned	Not_Assigned	3
+Aglaev	0	135	135	PER	своей	737	742	своей	1	5	6	14	0	0	0	21	135	своей	det	134	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T22	14	155	155	PER	Обманутый	820	829	обманутый	1	7	8	15	0	0	0	22	155	обманутый	nsubj	157	VERB	NOM	Not_Assigned	Not_Assigned	3
+PER_T22	14	161	161	PER	сам	856	859	сам	1	7	8	21	0	0	0	23	161	сам	acl	162	ADJ	NOM	Not_Assigned	Not_Assigned	3
+PER_T22	14	163	163	PER	обманщиком	869	879	обманщиком	1	7	8	23	0	0	0	24	163	обманщиком	xcomp	162	NOUN	NOM	Not_Assigned	Not_Assigned	3
+FAC_T25	38	174	181	FAC	одного имения, которое Аглаев имел в виду	925	966	одного имения , которое аглаев имел в виду	8	8	10	6	0	1	1	25	179	имел	acl:relcl	175	VERB	PROP	Not_Assigned	Not_Assigned	3
+Aglaev	0	178	178	PER	Аглаев	948	954	аглаев	1	8	10	10	1	0	0	26	178	аглаев	nsubj	179	PROPN	PROP	Singular	Not_Assigned	3
+Aglaev	0	184	184	PER	он	976	978	он	1	8	10	16	0	0	0	27	184	он	nsubj	183	PRON	PRON	Not_Assigned	Not_Assigned	3
+GPE_T9	9	186	186	GPE	Москве	981	987	москве	1	8	10	18	0	0	0	28	186	москве	obl	183	PROPN	PROP	Not_Assigned	Not_Assigned	3
+Radushin	5	192	192	PER	Радушина	1020	1028	радушина	1	8	10	24	0	0	0	29	192	радушина	obj	191	PROPN	PROP	Singular	Not_Assigned	3
+oncle	15	195	196	PER	дядюшка Аристофанов	1034	1053	дядюшка аристофанов	2	9	11	1	0	0	0	30	195	дядюшка	nsubj	197	NOUN	PROP	Singular	Not_Assigned	3
+Aglaev	0	198	198	PER	ему	1063	1066	ему	1	9	11	4	0	0	0	31	198	ему	iobj	197	PRON	PRON	Not_Assigned	Not_Assigned	3
+Aglaev	0	203	203	PER	он	1094	1096	он	1	9	11	9	0	0	0	32	203	он	nsubj	204	PRON	PRON	Not_Assigned	Not_Assigned	3
+Radushin	5	215	221	PER	известному в Москве дураку и оригиналу Радушину	1149	1196	известному в москве дураку и оригиналу радушину	7	9	11	21	0	1	1	33	218	дураку	obl	213	NOUN	PROP	Singular	Not_Assigned	3
+GPE_T9	9	217	217	GPE	Москве	1162	1168	москве	1	9	11	23	1	0	0	34	217	москве	obl	215	PROPN	PROP	Not_Assigned	Not_Assigned	3
+PER_T36	75	224	227	PER	всех прочих своих знакомых	1200	1226	всех прочих своих знакомых	4	9	11	30	0	1	1	35	227	знакомых	obj	228	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Aglaev	0	226	226	PER	своих	1212	1217	своих	1	9	11	32	1	0	0	36	226	своих	det	227	DET	PRON	Not_Assigned	Not_Assigned	3
+oncle	15	236	236	PER	дяде	1266	1270	дяде	1	10	12	6	0	0	0	37	236	дяде	xcomp	237	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Aglaev	0	238	238	PER	Аглаев	1276	1282	аглаев	1	10	12	8	0	0	0	38	238	аглаев	nsubj	237	PROPN	PROP	Singular	Not_Assigned	3
+Club	6	242	243	ORG	Английский Клуб	1299	1314	английский клуб	2	10	12	12	0	0	0	39	243	клуб	obl	240	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Aglaev	0	257	257	PER	его	1378	1381	его	1	10	12	27	0	0	0	40	257	его	obj	256	PRON	PRON	Not_Assigned	Not_Assigned	3
+Aglaev	0	261	261	PER	он	1390	1392	он	1	10	12	31	0	0	0	41	261	он	nsubj	263	PRON	PRON	Not_Assigned	Not_Assigned	3
+Aglaev	0	267	267	PER	себя	1426	1430	себя	1	10	12	37	0	0	0	42	267	себя	obj	266	PRON	PRON	Not_Assigned	Not_Assigned	3
+Radushin	5	271	271	PER	Радушин	1443	1450	радушин	1	11	13	2	0	0	0	43	271	радушин	nsubj	272	PROPN	PROP	Singular	Not_Assigned	3
+GPE_T45	64	274	274	GPE	деревню	1459	1466	деревню	1	11	13	5	0	0	0	44	274	деревню	obl	272	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Aglaev	0	282	282	PER	Аглаева	1501	1508	аглаева	1	11	13	13	0	0	0	45	282	аглаева	obj	281	PROPN	PROP	Singular	Not_Assigned	3
+Zmeykin	7	285	285	PER	Змейкиным	1513	1522	змейкиным	1	12	14	1	0	0	0	46	285	змейкиным	obl	296	PROPN	PROP	Singular	Not_Assigned	3
+Vampirov	11	288	290	PER	наперсником его Вампировым	1526	1552	наперсником его вампировым	3	12	14	4	0	1	1	47	288	наперсником	conj	285	NOUN	PROP	Singular	Not_Assigned	3
+Aglaev	0	289	289	PER	его	1538	1541	его	1	12	14	5	1	0	0	48	289	его	nmod	288	PRON	PRON	Not_Assigned	Not_Assigned	3
+Aglaev	0	293	293	PER	он	1558	1560	он	1	12	14	9	0	0	0	49	293	он	nsubj	296	PRON	PRON	Not_Assigned	Not_Assigned	3
+ZmeykinVampirov	12	305	305	PER	их	1626	1628	их	1	12	14	21	0	0	0	50	305	их	obj	301	PRON	PRON	Not_Assigned	Not_Assigned	3
+ZmeykinVampirov	12	311	311	PER	ним	1648	1651	ним	1	12	14	27	0	0	0	51	311	ним	obl	309	PRON	PRON	Not_Assigned	Not_Assigned	3
+Club	6	318	318	ORG	Клубе	1680	1685	клубе	1	12	14	34	0	0	0	52	318	клубе	nmod	316	PROPN	PROP	Not_Assigned	Not_Assigned	3
+ZmeykinVampirovAglaev	42	321	321	PER	ними	1700	1704	ними	1	12	14	37	0	0	0	53	321	ними	nmod	319	PRON	PRON	Not_Assigned	Not_Assigned	3
+Aglaev	0	325	325	PER	Аглаев	1733	1739	аглаев	1	13	15	0	0	0	0	54	325	аглаев	nsubj	326	PROPN	PROP	Singular	Not_Assigned	3
+ZmeykinVampirov	12	329	329	PER	ними	1755	1759	ними	1	13	15	4	0	0	0	55	329	ними	obl	327	PRON	PRON	Not_Assigned	Not_Assigned	3
+Aglaev	0	341	341	PER	Аглаев	1813	1819	аглаев	1	14	16	2	0	0	0	56	341	аглаев	nsubj	344	PROPN	PROP	Singular	Not_Assigned	3
+Aglaev	0	342	342	PER	сам	1820	1823	сам	1	14	16	3	0	0	0	57	342	сам	acl	344	ADJ	NOM	Not_Assigned	Not_Assigned	3
+PER_T59	33	347	347	PER	другие	1838	1844	другие	1	14	16	8	0	0	0	58	347	другие	nsubj	348	ADJ	NOM	Not_Assigned	Not_Assigned	3
+Aglaev	0	351	351	PER	он	1861	1863	он	1	14	16	12	0	0	0	59	351	он	nsubj	353	PRON	PRON	Not_Assigned	Not_Assigned	3
+Aglaev	0	352	357	PER	отличный мастер во все коммерческие игры	1864	1904	отличный мастер во все коммерческие игры	6	14	16	13	0	0	0	60	357	игры	nmod	353	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Club	6	360	360	ORG	Клубе	1909	1914	клубе	1	15	17	1	0	0	0	61	360	клубе	obl	361	PROPN	PROP	Not_Assigned	Not_Assigned	3
+Aglaev	0	362	362	PER	он	1926	1928	он	1	15	17	3	0	0	0	62	362	он	nsubj	361	PRON	PRON	Not_Assigned	Not_Assigned	3
+Udushiev	1	368	432	PER	Филипом Ивановичем Удушьевым, который славился прежде удальством своим и молодечеством, т. е. пивал мертвую чашу, играл наверное в карты, известен был своим буянством, имел множество дуэлей, готов был сделать всякому дерзость и оскорбление, сидел несколько раз в крепости, был сослан в дальний гарнизон, словом - - имел все качества удалого Гвардейского Сержанта прошедшего столетия	1946	2328	филипом ивановичем удушьевым , который славился прежде удальством своим и молодечеством , т . е . пивал мертвую чашу , играл наверное в карты , известен был своим буянством , имел множество дуэлей , готов был сделать всякому дерзость и оскорбление , сидел несколько раз в крепости , был сослан в дальний гарнизон , словом - - имел все качества удалого гвардейского сержанта прошедшего столетия	65	15	17	9	0	1	6	63	384	пивал	ROOT	384	VERB	PROP	Singular	Not_Assigned	3
+Udushiev	1	376	376	PER	своим	2011	2016	своим	1	15	17	17	1	0	0	64	376	своим	det	375	DET	PRON	Not_Assigned	Not_Assigned	3
+Udushiev	1	395	395	PER	своим	2097	2102	своим	1	15	17	36	1	0	0	65	395	своим	det	396	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T67	44	405	405	PER	всякому	2155	2162	всякому	1	15	17	46	1	0	0	66	405	всякому	iobj	404	ADJ	NOM	Not_Assigned	Not_Assigned	3
+FAC_T68	28	414	414	FAC	крепости	2209	2217	крепости	1	15	17	55	1	0	0	67	414	крепости	obl	410	NOUN	NOM	Not_Assigned	Not_Assigned	3
+FAC_T69	69	419	420	FAC	дальний гарнизон	2232	2248	дальний гарнизон	2	15	17	60	1	0	0	68	420	гарнизон	obl	417	NOUN	NOM	Not_Assigned	Not_Assigned	3
+M1	45	428	432	PER	удалого Гвардейского Сержанта прошедшего столетия	2279	2328	удалого гвардейского сержанта прошедшего столетия	5	15	17	69	1	0	0	69	430	сержанта	nmod	427	PROPN	PROP	Singular	Not_Assigned	3
+Aglaev	0	434	434	PER	Аглаев	2331	2337	аглаев	1	16	18	0	0	0	0	70	434	аглаев	nsubj	441	PROPN	PROP	Singular	Not_Assigned	3
+Aglaev	0	438	438	PER	своей	2351	2356	своей	1	16	18	4	0	0	0	71	438	своей	det	437	DET	PRON	Not_Assigned	Not_Assigned	3
+Udushiev	1	443	443	PER	Удушьеве	2374	2382	удушьеве	1	16	18	9	0	0	0	72	443	удушьеве	obl	441	PROPN	PROP	Singular	Not_Assigned	3
+Udushiev	1	445	445	PER	он	2384	2386	он	1	16	18	11	0	0	0	73	445	он	nsubj	447	PRON	PRON	Not_Assigned	Not_Assigned	3
+M2	46	447	449	PER	некогдаегероем молодых людей	2391	2419	некогдаегероем молодых людей	3	16	18	13	0	1	1	74	449	людей	nsubj	447	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T76	22	448	449	PER	молодых людей	2406	2419	молодых людей	2	16	18	14	1	0	0	75	449	людей	nsubj	447	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Udushiev	1	455	455	PER	его	2451	2454	его	1	16	18	21	0	0	0	76	455	его	det	456	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T319	74	459	459	PER	кому	2470	2474	кому	1	16	18	25	0	0	0	77	459	кому	iobj	464	PRON	PRON	Not_Assigned	Not_Assigned	3
+Udushiev	1	465	465	PER	оне	2498	2501	оне	1	16	18	31	0	0	0	78	465	оне	iobj	464	VERB	NOM	Not_Assigned	Not_Assigned	3
+PER_T80	23	468	468	PER	кого	2512	2516	кого	1	16	18	34	0	0	0	79	468	кого	obj	469	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T81	24	471	471	PER	кому	2525	2529	кому	1	16	18	37	0	0	0	80	471	кому	iobj	472	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T82	25	483	483	PER	многие	2597	2603	многие	1	16	18	49	0	0	0	81	483	многие	nsubj	484	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Udushiev	1	495	495	PER	Удушьев	2657	2664	удушьев	1	17	19	7	0	0	0	82	495	удушьев	nsubj	496	PROPN	PROP	Singular	Not_Assigned	3
+Udushiev	1	498	498	PER	Он	2677	2679	он	1	18	20	0	0	0	0	83	498	он	nsubj	499	PRON	PRON	Not_Assigned	Not_Assigned	3
+Udushiev	1	503	503	PER	своего	2716	2722	своего	1	18	20	5	0	0	0	84	503	своего	det	502	DET	PRON	Not_Assigned	Not_Assigned	3
+Udushiev	1	519	519	PER	своих	2788	2793	своих	1	18	20	21	0	0	0	85	519	своих	det	518	DET	PRON	Not_Assigned	Not_Assigned	3
+Udushiev	1	521	521	PER	он	2803	2805	он	1	18	20	23	0	0	0	86	521	он	nsubj	520	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T320	47	554	554	PER	всяким	2947	2953	всяким	1	18	20	56	0	0	0	87	554	всяким	conj	550	ADJ	NOM	Not_Assigned	Not_Assigned	3
+Udushiev	1	559	559	PER	себя	2963	2967	себя	1	18	20	61	0	0	0	88	559	себя	obj	557	PRON	PRON	Not_Assigned	Not_Assigned	3
+houseofUdushiev	16	561	561	FAC	дом	2970	2973	дом	1	18	20	63	0	0	0	89	561	дом	obl	557	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T90	26	566	568	PER	избранными своими друзьями	2989	3015	избранными своими друзьями	3	18	20	68	0	1	1	90	568	друзьями	conj	561	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Udushiev	1	567	567	PER	своими	3000	3006	своими	1	18	20	69	1	0	0	91	567	своими	det	568	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T91	27	572	593	PER	теми, которых имел в виду завербовать в друзья, т. е. завлечь к себе в дом и обыграть наверное	3023	3117	теми , которых имел в виду завербовать в друзья , т . е . завлечь к себе в дом и обыграть наверное	22	18	20	74	0	1	3	92	586	завлечь	ROOT	586	VERB	NOM	Not_Assigned	Not_Assigned	3
+M3	48	580	580	PER	друзья	3063	3069	друзья	1	18	20	82	1	0	0	93	580	друзья	obl	578	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Udushiev	1	588	588	PER	себе	3087	3091	себе	1	18	20	90	1	0	0	94	588	себе	obl	586	PRON	PRON	Not_Assigned	Not_Assigned	3
+houseofUdushiev	16	590	590	FAC	дом	3094	3097	дом	1	18	20	92	1	0	0	95	590	дом	obl	586	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Udushiev	1	597	599	PER	этот г. Удушьев	3128	3143	этот г. удушьев	3	19	21	2	0	0	0	96	598	г.	nsubj	603	NOUN	PROP	Singular	Not_Assigned	3
+Aglaev	0	605	605	PER	Аглаеву	3169	3176	аглаеву	1	19	21	10	0	0	0	97	605	аглаеву	obl	603	PROPN	PROP	Singular	Not_Assigned	3
+Aglaev	0	612	612	PER	его	3207	3210	его	1	19	21	17	0	0	0	98	612	его	nmod	611	PRON	PRON	Not_Assigned	Not_Assigned	3
+Aglaev	0	617	617	PER	ним	3224	3227	ним	1	19	21	22	0	0	0	99	617	ним	obl	619	PRON	PRON	Not_Assigned	Not_Assigned	3
+Udushiev	1	623	623	PER	он	3263	3265	он	1	20	22	2	0	0	0	100	623	он	nsubj	622	PRON	PRON	Not_Assigned	Not_Assigned	3
+Aglaev	0	632	632	PER	Аглаеву	3307	3314	аглаеву	1	20	22	11	0	0	0	101	632	аглаеву	nmod	630	PROPN	PROP	Singular	Not_Assigned	3
+Aglaev	0	638	638	PER	ним	3342	3345	ним	1	20	22	17	0	0	0	102	638	ним	obl	636	PRON	PRON	Not_Assigned	Not_Assigned	3
+Aglaev	0	644	644	PER	него	3368	3372	него	1	20	22	23	0	0	0	103	644	него	obl	642	PRON	PRON	Not_Assigned	Not_Assigned	3
+Aglaev	0	647	647	PER	он	3380	3382	он	1	20	22	26	0	0	0	104	647	он	nsubj	648	PRON	PRON	Not_Assigned	Not_Assigned	3
+Aglaev	0	658	658	PER	его	3423	3426	его	1	20	22	37	0	0	0	105	658	его	det	659	DET	PRON	Not_Assigned	Not_Assigned	3
+Udushiev	1	673	673	PER	он	3505	3507	он	1	20	22	52	0	0	0	106	673	он	nsubj	676	PRON	PRON	Not_Assigned	Not_Assigned	3
+Udushiev	1	678	678	PER	Удушьев	3527	3534	удушьев	1	21	23	0	0	0	0	107	678	удушьев	nsubj	679	PROPN	PROP	Singular	Not_Assigned	3
+Aglaev	0	680	680	PER	Аглаеву	3545	3552	аглаеву	1	21	23	2	0	0	0	108	680	аглаеву	obj	679	PROPN	PROP	Singular	Not_Assigned	3
+Aglaev	0	690	690	PER	него	3599	3603	него	1	21	23	12	0	0	0	109	690	него	obl	688	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T109	50	693	694	PER	кем угодно	3607	3617	кем угодно	2	21	23	15	0	0	0	110	693	кем	obl	688	PRON	PRON	Not_Assigned	Not_Assigned	3
+Udushiev	1	699	699	PER	сам	3629	3632	сам	1	22	24	1	0	0	0	111	699	сам	acl	704	ADJ	NOM	Not_Assigned	Not_Assigned	3
+Aglaev	0	701	701	PER	ним	3635	3638	ним	1	22	24	3	0	0	0	112	701	ним	nmod	699	PRON	PRON	Not_Assigned	Not_Assigned	3
+Aglaev	0	712	712	PER	Аглаева	3697	3704	аглаева	1	22	24	14	0	0	0	113	712	аглаева	nmod	711	PROPN	PROP	Singular	Not_Assigned	3
+Aglaev	0	719	719	PER	ним	3729	3732	ним	1	22	24	21	0	0	0	114	719	ним	obl	717	PRON	PRON	Not_Assigned	Not_Assigned	3
+FAC_T114	41	724	724	FAC	комнатам	3748	3756	комнатам	1	22	24	26	0	0	0	115	724	комнатам	obl	717	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Aglaev	0	740	740	PER	Аглаев	3822	3828	аглаев	1	23	25	3	0	0	0	116	740	аглаев	amod	741	PROPN	PROP	Singular	Not_Assigned	3
+Aglaev	0	741	741	PER	автор	3829	3834	автор	1	23	25	4	0	0	0	117	741	автор	nsubj	744	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Udushiev	1	745	745	PER	Удушьев	3853	3860	удушьев	1	23	25	8	0	0	0	118	745	удушьев	obj	744	PROPN	PROP	Singular	Not_Assigned	3
+Aglaev	0	746	746	PER	его	3861	3864	его	1	23	25	9	0	0	0	119	746	его	det	747	DET	PRON	Not_Assigned	Not_Assigned	3
+Udushiev	1	762	762	PER	он	3945	3947	он	1	24	26	2	0	0	0	120	762	он	nsubj	761	PRON	PRON	Not_Assigned	Not_Assigned	3
+Udushiev	1	765	765	PER	своих	3958	3963	своих	1	24	26	5	0	0	0	121	765	своих	det	766	DET	PRON	Not_Assigned	Not_Assigned	3
+Udushiev	1	771	771	PER	себя	3995	3999	себя	1	24	26	11	0	0	0	122	771	себя	obj	770	PRON	PRON	Not_Assigned	Not_Assigned	3
+Udushiev	1	776	782	PER	человек необузданный и не руководимый правилами нравственности	4014	4076	человек необузданный и не руководимый правилами нравственности	7	24	26	16	0	0	0	123	781	правилами	nmod	776	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Udushiev	1	800	800	PER	Удушьев	4161	4168	удушьев	1	25	27	6	0	0	0	124	800	удушьев	nsubj	801	PROPN	PROP	Singular	Not_Assigned	3
+Aglaev	0	802	802	PER	Аглаева	4176	4183	аглаева	1	25	27	8	0	0	0	125	802	аглаева	obj	801	PROPN	PROP	Singular	Not_Assigned	3
+Aglaev	0	808	808	PER	ним	4207	4210	ним	1	25	27	14	0	0	0	126	808	ним	obl	806	PRON	PRON	Not_Assigned	Not_Assigned	3
+Aglaev	0	813	813	PER	тот	4234	4237	тот	1	25	27	19	0	0	0	127	813	тот	nsubj	814	DET	PRON	Not_Assigned	Not_Assigned	3
+Udushiev	1	816	816	PER	его	4252	4255	его	1	25	27	22	0	0	0	128	816	его	obj	815	PRON	PRON	Not_Assigned	Not_Assigned	3
+M4	49	817	818	PER	отличнейшим человеком	4256	4277	отличнейшим человеком	2	25	27	23	0	0	0	129	818	человеком	xcomp	815	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Udushiev	1	822	822	PER	нему	4286	4290	нему	1	25	27	28	0	0	0	130	822	нему	obl	820	PRON	PRON	Not_Assigned	Not_Assigned	3
+Udushiev	1	833	833	PER	его	4344	4347	его	1	25	27	39	0	0	0	131	833	его	det	834	DET	PRON	Not_Assigned	Not_Assigned	3
+Club	6	842	842	ORG	Клуб	4387	4391	клуб	1	25	27	48	0	0	0	132	842	клуб	obl	840	PROPN	PROP	Not_Assigned	Not_Assigned	3
+Udushiev	1	853	853	PER	Удушьевым	4446	4455	удушьевым	1	25	27	59	0	0	0	133	853	удушьевым	obl	851	PROPN	PROP	Singular	Not_Assigned	3
+Udushiev	1	858	858	PER	своей	4477	4482	своей	1	26	28	3	0	0	0	134	858	своей	det	861	DET	PRON	Not_Assigned	Not_Assigned	3
+Aglaev	0	863	863	PER	Аглаеву	4497	4504	аглаеву	1	26	28	8	0	0	0	135	863	аглаеву	nmod	861	PROPN	PROP	Singular	Not_Assigned	3
+Udushiev	1	865	865	PER	Удушьев	4506	4513	удушьев	1	26	28	10	0	0	0	136	865	удушьев	nsubj	866	PROPN	PROP	Singular	Not_Assigned	3
+Aglaev	0	867	867	PER	ему	4524	4527	ему	1	26	28	12	0	0	0	137	867	ему	iobj	866	PRON	PRON	Not_Assigned	Not_Assigned	3
+Aglaev	0	887	887	PER	он	4616	4618	он	1	26	28	32	0	0	0	138	887	он	nsubj	890	PRON	PRON	Not_Assigned	Not_Assigned	3
+Aglaev	0	889	890	PER	такой мастер	4623	4635	такой мастер	2	26	28	34	0	0	0	139	890	мастер	acl:relcl	883	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Udushiev	1	896	896	PER	он	4669	4671	он	1	27	29	4	0	0	0	140	896	он	nsubj	895	PRON	PRON	Not_Assigned	Not_Assigned	3
+Aglaev	0	897	897	PER	Аглаева	4672	4679	аглаева	1	27	29	5	0	0	0	141	897	аглаева	flat:name	896	PROPN	PROP	Singular	Not_Assigned	3
+PER_T141	51	901	907	PER	тех, кто предлагал ему составить партию	4689	4728	тех , кто предлагал ему составить партию	7	27	29	9	0	1	1	142	904	предлагал	acl:relcl	901	VERB	NOM	Not_Assigned	Not_Assigned	3
+Aglaev	0	905	905	PER	ему	4708	4711	ему	1	27	29	13	1	0	0	143	905	ему	iobj	904	PRON	PRON	Not_Assigned	Not_Assigned	3
+Udushiev	1	909	909	PER	Удушьеву	4731	4739	удушьеву	1	28	30	0	0	0	0	144	909	удушьеву	iobj	915	PROPN	PROP	Singular	Not_Assigned	3
+Udushiev	1	912	913	PER	ветерану Клуба	4745	4759	ветерану клуба	2	28	30	3	0	1	1	145	912	ветерану	acl	909	NOUN	PROP	Singular	Not_Assigned	3
+Club	6	913	913	ORG	Клуба	4754	4759	клуба	1	28	30	4	1	0	0	146	913	клуба	nmod	912	PROPN	PROP	Not_Assigned	Not_Assigned	3
+PER_T146	52	919	920	PER	многих посетителей	4797	4815	многих посетителей	2	28	30	10	0	0	0	147	920	посетителей	nmod	918	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Udushiev	1	922	922	PER	Он	4818	4820	он	1	29	31	0	0	0	0	148	922	он	nsubj	923	PRON	PRON	Not_Assigned	Not_Assigned	3
+Aglaev	0	924	924	PER	Аглаеву	4833	4840	аглаеву	1	29	31	2	0	0	0	149	924	аглаеву	iobj	923	PROPN	PROP	Singular	Not_Assigned	3
+PER_T149	53	926	926	PER	некоторых	4851	4860	некоторых	1	29	31	4	0	0	0	150	926	некоторых	det	925	DET	PRON	Not_Assigned	Not_Assigned	3
+Prodigin	2	935	950	PER	этого несчастного, в замаранном сюртуке, с растрепанными волосами, бледного, худого, изнеможенного	4883	4981	этого несчастного , в замаранном сюртуке , с растрепанными волосами , бледного , худого , изнеможенного	16	30	32	7	0	0	0	151	936	несчастного	obj	931	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Prodigin	2	963	963	PER	его	5046	5049	его	1	31	33	11	0	0	0	152	963	его	nmod	962	PRON	PRON	Not_Assigned	Not_Assigned	3
+Prodigin	2	966	968	PER	несчастный Князь Продигин	5056	5081	несчастный князь продигин	3	32	34	1	0	0	0	153	967	князь	ROOT	967	PROPN	PROP	Singular	Not_Assigned	3
+Prodigin	2	975	975	PER	он	5102	5104	он	1	33	36	4	0	0	0	154	975	он	ROOT	975	PRON	PRON	Not_Assigned	Not_Assigned	3
+Aglaev	0	980	980	PER	Аглаев	5119	5125	аглаев	1	33	37	3	0	0	0	155	980	аглаев	nsubj	979	PROPN	PROP	Singular	Not_Assigned	3
+Prodigin	2	984	984	PER	Он	5132	5134	он	1	34	39	0	0	0	0	156	984	он	nsubj	985	PRON	PRON	Not_Assigned	Not_Assigned	3
+Aglaev	0	995	995	PER	я	5192	5193	я	1	34	39	11	0	0	0	157	995	я	nsubj	997	PRON	PRON	Not_Assigned	Not_Assigned	3
+Prodigin	2	999	999	PER	нем	5209	5212	нем	1	34	39	15	0	0	0	158	999	нем	obl	997	PRON	PRON	Not_Assigned	Not_Assigned	3
+Aglaev	0	1004	1004	PER	Вы	5220	5222	вы	1	34	40	3	0	0	0	159	1004	вы	nsubj	1005	PRON	PRON	Not_Assigned	Not_Assigned	3
+Udushiev	1	1010	1010	PER	Удушьев	5246	5253	удушьев	1	34	40	9	0	0	0	160	1010	удушьев	obj	1005	PROPN	PROP	Singular	Not_Assigned	3
+Prodigin	2	1014	1014	PER	он	5260	5262	он	1	34	40	13	0	0	0	161	1014	он	nsubj	1015	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T161	54	1017	1017	PER	многим	5275	5281	многим	1	34	40	16	0	0	0	162	1017	многим	obl	1015	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Prodigin	2	1021	1021	PER	ему	5304	5307	ему	1	34	40	20	0	0	0	163	1021	ему	iobj	1020	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T163	55	1025	1025	PER	все	5319	5322	все	1	34	40	24	0	0	0	164	1025	все	nsubj	1026	PRON	PRON	Not_Assigned	Not_Assigned	3
+Prodigin	2	1032	1032	PER	он	5355	5357	он	1	34	40	31	0	0	0	165	1032	он	nsubj	1033	PRON	PRON	Not_Assigned	Not_Assigned	3
+Prodigin	2	1054	1054	PER	он	5463	5465	он	1	34	40	53	0	0	0	166	1054	он	nsubj	1055	PRON	PRON	Not_Assigned	Not_Assigned	3
+Aglaev	0	1063	1063	PER	вы	5501	5503	вы	1	35	41	4	0	0	0	167	1063	вы	nsubj	1060	PRON	PRON	Not_Assigned	Not_Assigned	3
+Prodigin	2	1075	1075	PER	его	5546	5549	его	1	35	41	16	0	0	0	168	1075	его	obj	1076	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T168	56	1078	1078	PER	героем	5565	5571	героем	1	35	41	19	0	0	0	169	1078	героем	xcomp	1076	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Prodigin	2	1085	1085	PER	него	5605	5609	него	1	36	42	1	0	0	0	170	1085	него	obl	1086	PRON	PRON	Not_Assigned	Not_Assigned	3
+Prodigin	2	1094	1094	PER	он	5661	5663	он	1	36	42	10	0	0	0	171	1094	он	nsubj	1093	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T171	57	1096	1098	PER	бывшими друзьями своими	5670	5693	бывшими друзьями своими	3	36	42	12	0	1	1	172	1097	друзьями	obl	1093	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Prodigin	2	1098	1098	PER	своими	5687	5693	своими	1	36	42	14	1	0	0	173	1098	своими	det	1093	DET	PRON	Not_Assigned	Not_Assigned	3
+Aglaev	0	1103	1103	PER	вы	5712	5714	вы	1	37	43	3	0	0	0	174	1103	вы	nsubj	1104	PRON	PRON	Not_Assigned	Not_Assigned	3
+Prodigin	2	1108	1108	PER	его	5732	5735	его	1	37	43	8	0	0	0	175	1108	его	obl	1110	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T175	58	1109	1109	PER	все	5736	5739	все	1	37	43	9	0	0	0	176	1109	все	nsubj	1110	PRON	PRON	Not_Assigned	Not_Assigned	3
+Prodigin	2	1112	1112	PER	Он	5753	5755	он	1	38	44	0	0	0	0	177	1112	он	nsubj	1113	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T177	59	1121	1121	PER	знакомым	5798	5806	знакомым	1	38	44	9	0	0	0	178	1121	знакомым	conj	1118	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T178	60	1123	1123	PER	незнакомым	5809	5819	незнакомым	1	38	44	11	0	0	0	179	1123	незнакомым	conj	1121	ADJ	NOM	Not_Assigned	Not_Assigned	3
+Prodigin	2	1146	1146	PER	он	5921	5923	он	1	39	45	4	0	0	0	180	1146	он	nsubj	1145	PRON	PRON	Not_Assigned	Not_Assigned	3
+FAC_T180	39	1148	1149	FAC	свое имение	5934	5945	свое имение	2	39	45	6	0	1	1	181	1149	имение	obj	1147	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Prodigin	2	1148	1148	PER	свое	5934	5938	свое	1	39	45	6	1	0	0	182	1148	свое	det	1149	DET	PRON	Not_Assigned	Not_Assigned	3
+Aglaev	0	1164	1164	PER	вы	6015	6017	вы	1	39	45	22	0	0	0	183	1164	вы	nsubj	1166	PRON	PRON	Not_Assigned	Not_Assigned	3
+Prodigin	2	1165	1165	PER	его	6018	6021	его	1	39	45	23	0	0	0	184	1165	его	obj	1166	PRON	PRON	Not_Assigned	Not_Assigned	3
+Prodigin	2	1168	1173	PER	Молод, богат, знатной фамилии	6031	6060	молод , богат , знатной фамилии	6	40	46	0	0	0	0	185	1168	молод	nsubj	1178	PROPN	PROP	Singular	Not_Assigned	3
+Prodigin	2	1175	1178	PER	совсем не глупый человек	6062	6086	совсем не глупый человек	4	40	46	7	0	0	0	186	1178	человек	ROOT	1178	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Prodigin	2	1180	1180	PER	он	6088	6090	он	1	40	46	12	0	0	0	187	1180	он	nsubj	1182	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T186	61	1187	1187	PER	обществу	6118	6126	обществу	1	40	46	19	0	0	0	188	1187	обществу	iobj	1182	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Prodigin	2	1205	1205	PER	его	6224	6227	его	1	40	46	37	0	0	0	189	1205	его	obj	1204	PRON	PRON	Not_Assigned	Not_Assigned	3
+Prodigin	2	1211	1211	PER	он	6248	6250	он	1	40	46	43	0	0	0	190	1211	он	nsubj	1212	PRON	PRON	Not_Assigned	Not_Assigned	3
+Prodigin	2	1213	1213	PER	себя	6258	6262	себя	1	40	46	45	0	0	0	191	1213	себя	obj	1212	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T190	63	1215	1216	PER	семейство свое	6265	6279	семейство свое	2	40	46	47	0	1	1	192	1215	семейство	conj	1213	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Prodigin	2	1216	1216	PER	свое	6275	6279	свое	1	40	46	48	1	0	0	193	1216	свое	det	1215	DET	PRON	Not_Assigned	Not_Assigned	3
+Prodigin	2	1218	1218	PER	Он	6282	6284	он	1	41	47	0	0	0	0	194	1218	он	nsubj	1219	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T194	8	1226	1227	PER	глупому сыну	6338	6350	глупому сыну	2	41	47	8	0	0	0	195	1227	сыну	iobj	1230	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T194	8	1235	1261	PER	молодой богатый человек, вырвавшийся рано на свою волю, не имея руководителя, не получив хорошего воспитания, т. е. основанного на правилах нравственности	6380	6534	молодой богатый человек , вырвавшийся рано на свою волю , не имея руководителя , не получив хорошего воспитания , т . е . основанного на правилах нравственности	27	41	47	17	0	1	2	196	1239	вырвавшийся	acl	1237	VERB	PROP	Singular	Not_Assigned	3
+PER_T194	8	1242	1242	PER	свою	6425	6429	свою	1	41	47	24	1	0	0	197	1242	свою	det	1243	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T196	65	1247	1247	PER	руководителя	6444	6456	руководителя	1	41	47	29	1	0	0	198	1247	руководителя	obj	1246	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T194	8	1273	1273	PER	его	6614	6617	его	1	42	48	5	0	0	0	199	1273	его	nmod	1272	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T194	8	1279	1279	PER	он	6635	6637	он	1	42	48	11	0	0	0	200	1279	он	nsubj	1280	PRON	PRON	Not_Assigned	Not_Assigned	3
+Udushiev	1	1291	1291	PER	Удушьев	6700	6707	удушьев	1	43	50	5	0	0	0	201	1291	удушьев	nsubj	1290	PROPN	PROP	Singular	Not_Assigned	3
+PER_T200	66	1294	1294	PER	других	6712	6718	других	1	43	50	8	0	0	0	202	1294	других	obl	1290	ADJ	NOM	Not_Assigned	Not_Assigned	3
+PER_T201	13	1299	1299	PER	Многие	6726	6732	многие	1	43	51	3	0	0	0	203	1299	многие	nsubj	1303	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Udushiev	1	1304	1304	PER	он	6747	6749	он	1	43	51	8	0	0	0	204	1304	он	nsubj	1303	PRON	PRON	Not_Assigned	Not_Assigned	3
+Club	6	1310	1310	ORG	Клубу	6768	6773	клубу	1	43	51	14	0	0	0	205	1310	клубу	obl	1308	PROPN	PROP	Not_Assigned	Not_Assigned	3
+PER_T201	13	1313	1313	PER	им	6779	6781	им	1	43	51	17	0	0	0	206	1313	им	iobj	1314	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T201	13	1333	1333	PER	их	6872	6874	их	1	44	52	13	0	0	0	207	1333	их	obj	1332	PRON	PRON	Not_Assigned	Not_Assigned	3
+Udushiev	1	1338	1338	PER	Удушьев	6892	6899	удушьев	1	45	54	1	0	0	0	208	1338	удушьев	nsubj	1337	PROPN	PROP	Singular	Not_Assigned	3
+Aglaev	0	1342	1342	PER	Аглаевым	6910	6918	аглаевым	1	45	54	5	0	0	0	209	1342	аглаевым	obl	1340	PROPN	PROP	Singular	Not_Assigned	3
+Club	6	1346	1346	ORG	Клубе	6929	6934	клубе	1	45	54	9	0	0	0	210	1346	клубе	obl	1344	PROPN	PROP	Not_Assigned	Not_Assigned	3
+Zmeykin	7	1348	1348	PER	Змейкин	6937	6944	змейкин	1	46	55	0	0	0	0	211	1348	змейкин	nsubj	1355	PROPN	PROP	Singular	Not_Assigned	3
+Vampirov	11	1350	1352	PER	друг его Вампиров	6946	6963	друг его вампиров	3	46	55	2	0	1	1	212	1352	вампиров	nmod	1350	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Udushiev	1	1351	1351	PER	его	6951	6954	его	1	46	55	3	1	0	0	213	1351	его	det	1352	DET	PRON	Not_Assigned	Not_Assigned	3
+ZVAU	18	1361	1361	PER	ними	6982	6986	ними	1	46	55	13	0	0	0	214	1361	ними	conj	1356	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T214	68	1363	1366	PER	некто, подобный им	6991	7009	некто , подобный им	4	46	55	15	0	1	1	215	1365	подобный	acl	1363	ADJ	NOM	Not_Assigned	Not_Assigned	3
+ZVAU	18	1366	1366	PER	им	7007	7009	им	1	46	55	18	1	0	0	216	1366	им	iobj	1365	PRON	PRON	Not_Assigned	Not_Assigned	3
+Shurke	4	1368	1378	PER	Карл Адамович Шурке, весьма подозрительной физиогномии, бледный и худой	7011	7082	карл адамович шурке , весьма подозрительной физиогномии , бледный и худой	11	46	55	20	0	0	0	217	1374	физиогномии	conj	1363	NOUN	PROP	Singular	Not_Assigned	3
+Shurke	4	1380	1380	PER	Он	7085	7087	он	1	47	56	0	0	0	0	218	1380	он	nsubj	1382	PRON	PRON	Not_Assigned	Not_Assigned	3
+Shurke	4	1390	1390	PER	своим	7132	7137	своим	1	47	56	10	0	0	0	219	1390	своим	det	1392	DET	PRON	Not_Assigned	Not_Assigned	3
+ZVAUS	10	1394	1395	PER	все они	7167	7174	все они	2	47	56	14	0	0	0	220	1395	они	nsubj	1396	PRON	PRON	Not_Assigned	Not_Assigned	3
+ZVAUS	10	1397	1399	PER	друг подле друга	7182	7198	друг подле друга	3	47	56	17	0	0	0	221	1397	друг	obl	1396	PRON	PRON	Not_Assigned	Not_Assigned	3
+Aglaev	0	1401	1401	PER	Аглаев	7201	7207	аглаев	1	48	57	0	0	0	0	222	1401	аглаев	nsubj	1405	PROPN	PROP	Singular	Not_Assigned	3
+SVUS	30	1409	1410	PER	соседей своих	7241	7254	соседей своих	2	48	57	8	0	1	1	223	1409	соседей	obj	1408	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Aglaev	0	1410	1410	PER	своих	7249	7254	своих	1	48	57	9	1	0	0	224	1410	своих	det	1411	DET	PRON	Not_Assigned	Not_Assigned	3
+Aglaev	0	1415	1415	PER	он	7279	7281	он	1	48	57	14	0	0	0	225	1415	он	nsubj	1418	PRON	PRON	Not_Assigned	Not_Assigned	3
+Aglaev	0	1417	1418	PER	большей охотник	7286	7301	большей охотник	2	48	57	16	0	0	0	226	1418	охотник	acl:relcl	1411	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Udushiev	1	1420	1420	PER	Удушьев	7304	7311	удушьев	1	49	58	0	0	0	0	227	1420	удушьев	nsubj	1421	PROPN	PROP	Singular	Not_Assigned	3
+Udushiev	1	1422	1422	PER	себе	7320	7324	себе	1	49	58	2	0	0	0	228	1422	себе	iobj	1421	PRON	PRON	Not_Assigned	Not_Assigned	3
+Zmeykin	7	1426	1426	PER	Змейкин	7342	7349	змейкин	1	49	58	6	0	0	0	229	1426	змейкин	conj	1421	PROPN	PROP	Singular	Not_Assigned	3
+ZVAUS	10	1429	1429	PER	все	7364	7367	все	1	49	58	9	0	0	0	230	1429	все	nsubj	1431	DET	PRON	Not_Assigned	Not_Assigned	3
+ZVAUS	10	1433	1434	PER	друг друга	7393	7403	друг друга	2	49	58	13	0	0	0	231	1433	друг	obj	1432	PRON	PRON	Not_Assigned	Not_Assigned	3
+Aglaev	0	1436	1436	PER	Аглаев	7406	7412	аглаев	1	50	59	0	0	0	0	232	1436	аглаев	nsubj	1438	PROPN	PROP	Singular	Not_Assigned	3
+Aglaev	0	1442	1442	PER	него	7440	7444	него	1	50	59	6	0	0	0	233	1442	него	nmod	1440	PRON	PRON	Not_Assigned	Not_Assigned	3
+Aglaev	0	1450	1450	PER	он	7476	7478	он	1	50	59	14	0	0	0	234	1450	он	nsubj	1449	PRON	PRON	Not_Assigned	Not_Assigned	3
+Aglaev	0	1456	1456	PER	Он	7511	7513	он	1	51	60	0	0	0	0	235	1456	он	nsubj	1457	PRON	PRON	Not_Assigned	Not_Assigned	3
+Udushiev	1	1458	1458	PER	Удушьеву	7525	7533	удушьеву	1	51	60	2	0	0	0	236	1458	удушьеву	iobj	1457	PROPN	PROP	Singular	Not_Assigned	3
+Aglaev	0	1461	1461	PER	своем	7545	7550	своем	1	51	60	5	0	0	0	237	1461	своем	det	1460	DET	PRON	Not_Assigned	Not_Assigned	3
+Udushiev	1	1476	1477	PER	друг его	7618	7626	друг его	2	52	61	2	0	1	1	238	1476	друг	nsubj	1478	PRON	PRON	Not_Assigned	Not_Assigned	3
+Aglaev	0	1477	1477	PER	его	7623	7626	его	1	52	61	3	1	0	0	239	1477	его	det	1476	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T239	70	1483	1483	PER	должником	7663	7672	должником	1	52	61	9	0	0	0	240	1483	должником	xcomp	1482	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Aglaev	0	1490	1492	PER	любезный Петр Федоровичь	7703	7727	любезный петр федоровичь	3	53	62	3	0	0	0	241	1491	петр	nsubj	1488	PROPN	PROP	Singular	Not_Assigned	3
+Udushiev	1	1496	1496	PER	он	7738	7740	он	1	53	62	9	0	0	0	242	1496	он	nsubj	1495	PRON	PRON	Not_Assigned	Not_Assigned	3
+Aglaev	0	1500	1500	PER	вы	7748	7750	вы	1	53	62	13	0	0	0	243	1500	вы	nsubj	1504	PRON	PRON	Not_Assigned	Not_Assigned	3
+Udushiev	1	1502	1502	PER	меня	7759	7763	меня	1	53	62	15	0	0	0	244	1502	меня	obj	1504	PRON	PRON	Not_Assigned	Not_Assigned	3
+Udushiev	1	1510	1510	PER	вы	7791	7793	вы	1	54	64	3	0	0	0	245	1510	вы	nsubj	1511	PRON	PRON	Not_Assigned	Not_Assigned	3
+Aglaev	0	1514	1514	PER	я	7808	7809	я	1	54	64	7	0	0	0	246	1514	я	nsubj	1520	PRON	PRON	Not_Assigned	Not_Assigned	3
+Aglaev	0	1519	1519	PER	себе	7834	7838	себе	1	54	64	12	0	0	0	247	1519	себе	iobj	1520	PRON	PRON	Not_Assigned	Not_Assigned	3
+Udushiev	1	1523	1523	PER	вас	7855	7858	вас	1	54	64	16	0	0	0	248	1523	вас	obl	1520	PRON	PRON	Not_Assigned	Not_Assigned	3
+Udushiev	1	1544	1544	PER	мне	7958	7961	мне	1	56	66	6	0	0	0	249	1544	мне	obl	1545	PRON	PRON	Not_Assigned	Not_Assigned	3
+Udushiev	1	1548	1548	PER	Он	7974	7976	он	1	57	68	0	0	0	0	250	1548	он	nsubj	1550	PRON	PRON	Not_Assigned	Not_Assigned	3
+UdushievAglaev	37	1559	1559	PER	них	8039	8042	них	1	57	68	11	0	0	0	251	1559	них	nmod	1558	PRON	PRON	Not_Assigned	Not_Assigned	3
+Zmeykin	7	1561	1561	PER	Змейкин	8044	8051	змейкин	1	57	68	13	0	0	0	252	1561	змейкин	parataxis	1556	PROPN	PROP	Singular	Not_Assigned	3
+Vampirov	11	1563	1563	PER	Вампиров	8053	8061	вампиров	1	57	68	15	0	0	0	253	1563	вампиров	conj	1561	PROPN	PROP	Singular	Not_Assigned	3
+Shurke	4	1565	1565	PER	Шурке	8064	8069	шурке	1	57	68	17	0	0	0	254	1565	шурке	conj	1561	PROPN	PROP	Singular	Not_Assigned	3
+ZmeykinVampirovShurke	3	1576	1576	PER	их	8129	8131	их	1	57	68	28	0	0	0	255	1576	их	obj	1574	PRON	PRON	Not_Assigned	Not_Assigned	3
+Udushiev	1	1578	1578	PER	себе	8134	8138	себе	1	57	68	30	0	0	0	256	1578	себе	obl	1574	PRON	PRON	Not_Assigned	Not_Assigned	3
+Udushiev	1	1582	1582	PER	Удушьев	8153	8160	удушьев	1	58	69	2	0	0	0	257	1582	удушьев	nsubj	1583	PROPN	PROP	Singular	Not_Assigned	3
+Aglaev	0	1586	1586	PER	Аглаеву	8184	8191	аглаеву	1	58	69	6	0	0	0	258	1586	аглаеву	iobj	1584	PROPN	PROP	Singular	Not_Assigned	3
+Udushiev	1	1589	1589	PER	Мне	8196	8199	мне	1	59	70	1	0	0	0	259	1589	мне	iobj	1590	PRON	PRON	Not_Assigned	Not_Assigned	3
+ZmeykinVampirovShurke	3	1594	1594	PER	их	8225	8227	их	1	59	70	6	0	0	0	260	1594	их	obj	1593	PRON	PRON	Not_Assigned	Not_Assigned	3
+Udushiev	1	1599	1599	PER	Удушьев	8241	8248	удушьев	1	59	70	11	0	0	0	261	1599	удушьев	nsubj	1598	PROPN	PROP	Singular	Not_Assigned	3
+ZmeykinVampirovShurke	3	1602	1602	PER	Они	8253	8256	они	1	60	71	1	0	0	0	262	1602	они	nsubj	1603	PRON	PRON	Not_Assigned	Not_Assigned	3
+Udushiev	1	1606	1606	PER	я	8270	8271	я	1	60	71	5	0	0	0	263	1606	я	nsubj	1608	PRON	PRON	Not_Assigned	Not_Assigned	3
+Aglaev	0	1607	1607	PER	вас	8272	8275	вас	1	60	71	6	0	0	0	264	1607	вас	obj	1608	PRON	PRON	Not_Assigned	Not_Assigned	3
+ZmeykinVampirovShurke	3	1612	1613	PER	этот народ	8297	8307	этот народ	2	61	72	2	0	0	0	265	1613	народ	nsubj	1621	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Udushiev	1	1614	1614	PER	мне	8308	8311	мне	1	61	72	4	0	0	0	266	1614	мне	iobj	1621	PRON	PRON	Not_Assigned	Not_Assigned	3
+FAC_T266	36	1617	1619	FAC	пол - двора	8318	8329	пол - двора	3	61	72	7	0	0	0	267	1617	пол	conj	1614	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Aglaev	0	1633	1633	PER	вами	8398	8402	вами	1	61	72	23	0	0	0	268	1633	вами	obl	1631	PRON	PRON	Not_Assigned	Not_Assigned	3
+Zmeykin	7	1639	1639	PER	Змейкин	8420	8427	змейкин	1	62	74	3	0	0	0	269	1639	змейкин	nsubj	1645	PROPN	PROP	Singular	Not_Assigned	3
+Vampirov	11	1641	1641	PER	Вампиров	8430	8438	вампиров	1	62	74	5	0	0	0	270	1641	вампиров	conj	1639	PROPN	PROP	Singular	Not_Assigned	3
+Aglaev	0	1649	1649	PER	Аглаев	8472	8478	аглаев	1	62	74	13	0	0	0	271	1649	аглаев	nsubj	1648	PROPN	PROP	Singular	Not_Assigned	3
+Aglaev	0	1653	1653	PER	Я	8485	8486	я	1	63	76	0	0	0	0	272	1653	я	nsubj	1656	PRON	PRON	Not_Assigned	Not_Assigned	3
+ZmeykinVampirovShurke	3	1656	1656	PER	них	8493	8496	них	1	63	76	3	0	0	0	273	1656	них	ROOT	1656	PRON	PRON	Not_Assigned	Not_Assigned	3
+Aglaev	0	1664	1664	PER	я	8530	8531	я	1	63	76	11	0	0	0	274	1664	я	nsubj	1663	PRON	PRON	Not_Assigned	Not_Assigned	3
+ZmeykinVampirovShurke	3	1667	1667	PER	они	8539	8542	они	1	63	76	14	0	0	0	275	1667	они	nsubj	1668	PRON	PRON	Not_Assigned	Not_Assigned	3
+Aglaev	0	1671	1672	PER	самому мне	8561	8571	самому мне	2	63	76	18	0	0	0	276	1672	мне	iobj	1673	PRON	PRON	Not_Assigned	Not_Assigned	3
+ZmeykinVampirovShurke	3	1676	1676	PER	них	8590	8593	них	1	63	76	23	0	0	0	277	1676	них	obj	1677	PRON	PRON	Not_Assigned	Not_Assigned	3
+Aglaev	0	1685	1685	PER	я	8634	8635	я	1	63	76	32	0	0	0	278	1685	я	nsubj	1686	PRON	PRON	Not_Assigned	Not_Assigned	3
+Udushiev	1	1702	1702	PER	Я	8716	8717	я	1	64	77	3	0	0	0	279	1702	я	nsubj	1704	PRON	PRON	Not_Assigned	Not_Assigned	3
+Udushiev	1	1708	1708	PER	Удушьев	8738	8745	удушьев	1	64	77	9	0	0	0	280	1708	удушьев	nsubj	1707	PROPN	PROP	Singular	Not_Assigned	3
+ZmeykinVampirovShurke	3	1713	1713	PER	они	8766	8769	они	1	64	77	14	0	0	0	281	1713	они	nsubj	1714	PRON	PRON	Not_Assigned	Not_Assigned	3
+ZmeykinVampirovShurke	3	1726	1726	PER	они	8831	8834	они	1	65	78	8	0	0	0	282	1726	они	nsubj	1732	PRON	PRON	Not_Assigned	Not_Assigned	3
+Shurke	4	1737	1737	PER	Шурке	8878	8883	шурке	1	66	79	3	0	0	0	283	1737	шурке	obl	1735	PROPN	PROP	Singular	Not_Assigned	3
+Shurke	4	1740	1742	PER	самый пустой человек	8889	8909	самый пустой человек	3	66	79	6	0	0	0	284	1742	человек	ROOT	1742	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Shurke	4	1747	1747	PER	ним	8922	8925	ним	1	66	79	13	0	0	0	285	1747	ним	obl	1745	PRON	PRON	Not_Assigned	Not_Assigned	3
+Shurke	4	1750	1750	PER	он	8936	8938	он	1	66	79	16	0	0	0	286	1750	он	nsubj	1753	PRON	PRON	Not_Assigned	Not_Assigned	3
+Aglaev	0	1775	1775	PER	Аглаев	9051	9057	аглаев	1	67	81	9	0	0	0	287	1775	аглаев	nsubj	1774	PROPN	PROP	Singular	Not_Assigned	3
+Udushiev	1	1777	1777	PER	Удушьеву	9060	9068	удушьеву	1	67	81	11	0	0	0	288	1777	удушьеву	obl	1774	PROPN	PROP	Singular	Not_Assigned	3
+Aglaev	0	1786	1786	PER	его	9096	9099	его	1	67	81	20	0	0	0	289	1786	его	discourse	1784	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T289	71	1792	1794	PER	никого из гостей	9122	9138	никого из гостей	3	67	81	26	0	1	1	290	1794	гостей	nmod	1792	NOUN	NOM	Not_Assigned	Not_Assigned	3
+ZmeykinVampirovShurke	3	1794	1794	PER	гостей	9132	9138	гостей	1	67	81	28	1	0	0	291	1794	гостей	nmod	1792	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Udushiev	1	1800	1801	PER	сам хозяин	9154	9164	сам хозяин	2	67	81	34	0	0	0	292	1801	хозяин	nsubj	1803	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Aglaev	0	1808	1808	PER	Аглаева	9202	9209	аглаева	1	68	82	0	0	0	0	293	1808	аглаева	obj	1809	PROPN	PROP	Singular	Not_Assigned	3
+FAC_T293	20	1811	1826	FAC	кабинет, который занимал более половины всего дома, и убран был со вкусом и роскощью	9218	9302	кабинет , который занимал более половины всего дома , и убран был со вкусом и роскощью	16	68	82	3	0	1	1	294	1814	занимал	acl:relcl	1811	VERB	NOM	Not_Assigned	Not_Assigned	3
+FAC_T294	29	1817	1818	FAC	всего дома	9258	9268	всего дома	2	68	82	9	1	0	0	295	1818	дома	nmod	1816	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Aglaev	0	1832	1832	PER	он	9331	9333	он	1	69	83	4	0	0	0	296	1832	он	nsubj	1831	PRON	PRON	Not_Assigned	Not_Assigned	3
+T296	32	1835	1836	PER	Виктора Дюканжа	9352	9367	виктора дюканжа	2	69	83	7	0	0	0	297	1835	виктора	nmod	1834	PROPN	PROP	Singular	Not_Assigned	3
+T297	31	1839	1839	PER	Беранже	9375	9382	беранже	1	69	83	11	0	0	0	298	1839	беранже	nmod	1838	PROPN	PROP	Singular	Not_Assigned	3
+T298	34	1842	1842	PER	Видока	9392	9398	видока	1	69	83	14	0	0	0	299	1842	видока	flat:name	1841	PROPN	PROP	Singular	Not_Assigned	3
+PER_T299	72	1870	1876	PER	лучших Французских, Английских и Немецких Авторов	9530	9579	лучших французских , английских и немецких авторов	7	69	83	42	0	0	0	300	1876	авторов	nmod	1869	PROPN	PROP	Singular	Not_Assigned	3
+Aglaev	0	1878	1878	PER	Аглаеву	9582	9589	аглаеву	1	70	84	0	0	0	0	301	1878	аглаеву	iobj	1879	PROPN	PROP	Singular	Not_Assigned	3
+T301	35	1882	1882	PER	Бюффона	9620	9627	бюффона	1	70	84	4	0	0	0	302	1882	бюффона	appos	1881	PROPN	PROP	Singular	Not_Assigned	3
+Aglaev	0	1893	1893	PER	Он	9671	9673	он	1	71	85	0	0	0	0	303	1893	он	nsubj	1894	PRON	PRON	Not_Assigned	Not_Assigned	3
+T307	19	1946	1950	PER	каммердинер Удушьева, с трубкою	9926	9957	каммердинер удушьева , с трубкою	5	72	86	4	0	1	1	304	1946	каммердинер	nsubj	1945	NOUN	PROP	Singular	Not_Assigned	3
+Udushiev	1	1947	1947	PER	Удушьева	9938	9946	удушьева	1	72	86	5	1	0	0	305	1947	удушьева	nmod	1946	PROPN	PROP	Singular	Not_Assigned	3
+PER_T305	73	1958	1958	PER	вас	9976	9979	вас	1	73	87	6	0	0	0	306	1958	вас	nsubj	1963	PRON	PRON	Not_Assigned	Not_Assigned	3
+Aglaev	0	1969	1969	PER	Аглаев	10028	10034	аглаев	1	73	88	2	0	0	0	307	1969	аглаев	nsubj	1968	PROPN	PROP	Singular	Not_Assigned	3
+T307	19	1989	1993	PER	каммердинер Удушьева, с трубкою	10122	10153	каммердинер удушьева , с трубкою	5	74	90	10	0	1	1	308	1993	трубкою	obl	1988	NOUN	PROP	Singular	Not_Assigned	3
+Udushiev	1	1990	1990	PER	Удушьева	10134	10142	удушьева	1	74	90	11	1	0	0	309	1990	удушьева	nmod	1989	PROPN	PROP	Singular	Not_Assigned	3
+Udushiev	1	2001	2001	PER	барин	10173	10178	барин	1	74	91	6	0	0	0	310	2001	барин	nsubj	2002	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Aglaev	0	2012	2012	PER	Аглаев	10232	10238	аглаев	1	75	92	2	0	0	0	311	2012	аглаев	nsubj	2013	PROPN	PROP	Singular	Not_Assigned	3
+Udushiev	1	2030	2030	PER	хозяин	10328	10334	хозяин	1	76	93	4	0	0	0	312	2030	хозяин	nsubj	2029	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Udushiev	1	2035	2035	PER	себе	10352	10356	себе	1	76	93	9	0	0	0	313	2035	себе	obl	2032	PRON	PRON	Not_Assigned	Not_Assigned	3
+FAC_T293	20	2037	2037	FAC	кабинет	10359	10366	кабинет	1	76	93	11	0	0	0	314	2037	кабинет	obl	2032	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Aglaev	0	2041	2041	PER	Аглаевым	10384	10392	аглаевым	1	76	93	15	0	0	0	315	2041	аглаевым	obl	2039	PROPN	PROP	Singular	Not_Assigned	3
+Aglaev	0	2045	2045	PER	его	10407	10410	его	1	76	93	19	0	0	0	316	2045	его	obj	2044	PRON	PRON	Not_Assigned	Not_Assigned	3
+Aglaev	0	2060	2060	PER	вам	10471	10474	вам	1	76	93	34	0	0	0	317	2060	вам	iobj	2061	PRON	PRON	Not_Assigned	Not_Assigned	3
+Udushiev	1	2062	2062	PER	моя	10484	10487	моя	1	76	93	36	0	0	0	318	2062	моя	det	2063	DET	PRON	Not_Assigned	Not_Assigned	3

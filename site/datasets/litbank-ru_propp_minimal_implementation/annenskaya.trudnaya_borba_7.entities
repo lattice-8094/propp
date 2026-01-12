@@ -1,0 +1,262 @@
+COREF_name	COREF	start_token	end_token	cat	sacr_text	byte_onset	byte_offset	text	mention_len	paragraph_ID	sentence_ID	start_token_ID_within_sentence	out_to_in_nested_level	in_to_out_nested_level	nested_entities_count	temp_index	head_id	head_word	head_dependency_relation	head_syntactic_head_ID	POS_tag	prop	number	gender	grammatical_person
+Lelya	1	3	3	PER	я	13	14	я	1	0	0	3	0	0	0	0	3	я	nsubj	7	PRON	PRON	Not_Assigned	Not_Assigned	3
+Olya	0	16	16	PER	Оля	71	74	оля	1	0	0	16	0	0	0	1	16	оля	obj	15	PROPN	PROP	Singular	Not_Assigned	3
+Olya	0	18	18	PER	Она	78	81	она	1	1	1	0	0	0	0	2	18	она	nsubj	19	PRON	PRON	Not_Assigned	Not_Assigned	3
+Mitya	8	28	28	PER	Мити	135	139	мити	1	1	1	10	0	0	0	3	28	мити	nmod	27	PROPN	PROP	Singular	Not_Assigned	3
+PER_T5	25	30	31	PER	его товарищей	142	155	его товарищей	2	1	1	12	0	1	1	4	31	товарищей	conj	28	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Mitya	8	30	30	PER	его	142	145	его	1	1	1	12	1	0	0	5	30	его	nmod	31	PRON	PRON	Not_Assigned	Not_Assigned	3
+Mityaandfriends	11	34	34	PER	они	163	166	они	1	1	1	16	0	0	0	6	34	они	nsubj	36	PRON	PRON	Not_Assigned	Not_Assigned	3
+Olya	0	37	37	PER	ее	178	180	ее	1	1	1	19	0	0	0	7	37	ее	obj	36	PRON	PRON	Not_Assigned	Not_Assigned	3
+Mityaandfriends	11	39	39	PER	себя	188	192	себя	1	1	1	21	0	0	0	8	39	себя	obj	36	PRON	PRON	Not_Assigned	Not_Assigned	3
+Lelya	1	43	43	PER	меня	203	207	меня	1	2	2	2	0	0	0	9	43	меня	obj	47	PRON	PRON	Not_Assigned	Not_Assigned	3
+Mityaandfriends	11	44	44	PER	они	208	211	они	1	2	2	3	0	0	0	10	44	они	nsubj	47	PRON	PRON	Not_Assigned	Not_Assigned	3
+Lelya	1	52	52	PER	я	251	252	я	1	3	3	2	0	0	0	11	52	я	nsubj	54	PRON	PRON	Not_Assigned	Not_Assigned	3
+Lelya	1	74	74	PER	Лели	366	370	лели	1	4	4	10	0	0	0	12	74	лели	nmod	73	PROPN	PROP	Singular	Not_Assigned	3
+Lelya	1	78	78	PER	ей	383	385	ей	1	4	4	14	0	0	0	13	78	ей	iobj	77	PRON	PRON	Not_Assigned	Not_Assigned	3
+Lelya	1	81	81	PER	Она	394	397	она	1	5	5	0	0	0	0	14	81	она	nsubj	83	PRON	PRON	Not_Assigned	Not_Assigned	3
+motherofLelya	12	86	86	PER	матери	428	434	матери	1	5	5	5	0	0	0	15	86	матери	iobj	85	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Lelya	1	88	88	PER	свои	439	443	свои	1	5	5	7	0	0	0	16	88	свои	det	89	DET	PRON	Not_Assigned	Not_Assigned	3
+Lelya	1	110	110	PER	она	548	551	она	1	5	5	29	0	0	0	17	110	она	nsubj	111	PRON	PRON	Not_Assigned	Not_Assigned	3
+Lelya	1	117	117	PER	ей	590	592	ей	1	5	5	36	0	0	0	18	117	ей	iobj	119	PRON	PRON	Not_Assigned	Not_Assigned	3
+Lelya	1	121	121	PER	Она	610	613	она	1	6	6	0	0	0	0	19	121	она	nsubj	122	PRON	PRON	Not_Assigned	Not_Assigned	3
+Olya	0	126	126	PER	Оле	647	650	оле	1	6	6	5	0	0	0	20	126	оле	nmod	125	PROPN	PROP	Singular	Not_Assigned	3
+Olya	0	129	129	PER	ее	660	662	ее	1	6	6	8	0	0	0	21	129	ее	det	130	DET	PRON	Not_Assigned	Not_Assigned	3
+Olya	0	142	142	PER	Оля	717	720	оля	1	7	7	10	0	0	0	22	142	оля	nsubj	141	PROPN	PROP	Singular	Not_Assigned	3
+Lelya	1	146	146	PER	тебе	727	731	тебе	1	7	7	14	0	0	0	23	146	тебе	iobj	147	PRON	PRON	Not_Assigned	Not_Assigned	3
+Lelya	1	152	152	PER	ты	759	761	ты	1	7	7	20	0	0	0	24	152	ты	nsubj	153	PRON	PRON	Not_Assigned	Not_Assigned	3
+Olya	0	155	155	PER	мне	770	773	мне	1	7	7	23	0	0	0	25	155	мне	conj	147	PRON	PRON	Not_Assigned	Not_Assigned	3
+Lelya	1	161	161	PER	я	790	791	я	1	7	7	29	0	0	0	26	161	я	nsubj	162	PRON	PRON	Not_Assigned	Not_Assigned	3
+Olya	0	168	168	PER	ты	812	814	ты	1	8	8	4	0	0	0	27	168	ты	nsubj	170	PRON	PRON	Not_Assigned	Not_Assigned	3
+Olya	0	174	174	PER	свою	839	843	свою	1	8	8	10	0	0	0	28	174	свою	det	175	DET	PRON	Not_Assigned	Not_Assigned	3
+Lelya	1	182	182	PER	Леля	883	887	леля	1	8	9	5	0	0	0	29	182	леля	nsubj	181	PROPN	PROP	Singular	Not_Assigned	3
+Lelya	1	191	191	PER	я	910	911	я	1	9	10	7	0	0	0	30	191	я	nsubj	192	PRON	PRON	Not_Assigned	Not_Assigned	3
+Lelya	1	196	196	PER	свое	933	937	свое	1	9	10	12	0	0	0	31	196	свое	det	197	DET	PRON	Not_Assigned	Not_Assigned	3
+Olya	0	203	203	PER	я	965	966	я	1	10	11	4	0	0	0	32	203	я	nsubj	205	PRON	PRON	Not_Assigned	Not_Assigned	3
+Lelya	1	206	206	PER	тебе	981	985	тебе	1	10	11	7	0	0	0	33	206	тебе	iobj	205	PRON	PRON	Not_Assigned	Not_Assigned	3
+OlyaLelya	5	208	208	PER	Девочки	988	995	девочки	1	11	12	0	0	0	0	34	208	девочки	nsubj	209	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Olya	0	212	212	PER	Оля	1012	1015	оля	1	11	12	4	0	0	0	35	212	оля	nsubj	213	PROPN	PROP	Singular	Not_Assigned	3
+Lelya	1	214	214	PER	Леле	1022	1026	леле	1	11	12	6	0	0	0	36	214	леле	iobj	213	PROPN	PROP	Singular	Not_Assigned	3
+Lelya	1	228	228	PER	ей	1098	1100	ей	1	11	12	20	0	0	0	37	228	ей	iobj	227	PRON	PRON	Not_Assigned	Not_Assigned	3
+Lelya	1	235	235	PER	Леля	1129	1133	леля	1	11	12	27	0	0	0	38	235	леля	nsubj	240	PROPN	PROP	Singular	Not_Assigned	3
+OlyaLelya	5	259	259	PER	девочек	1279	1286	девочек	1	12	13	5	0	0	0	39	259	девочек	nmod	258	NOUN	NOM	Not_Assigned	Not_Assigned	3
+governesse	4	270	270	PER	Англичанка	1339	1349	англичанка	1	13	14	0	0	0	0	40	270	англичанка	nsubj	275	NOUN	NOM	Not_Assigned	Not_Assigned	3
+governesse	4	272	272	PER	гувернантка	1352	1363	гувернантка	1	13	14	2	0	0	0	41	272	гувернантка	nsubj	275	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Olya	0	283	285	PER	эта бедная мещанка	1427	1445	эта бедная мещанка	3	13	14	13	0	0	0	42	285	мещанка	ccomp	279	NOUN	NOM	Not_Assigned	Not_Assigned	3
+motherofLelya	12	293	293	PER	генеральши	1464	1474	генеральши	1	13	14	23	0	0	0	43	293	генеральши	nmod	292	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Olya	0	295	295	PER	Олю	1484	1487	олю	1	13	14	25	0	0	0	44	295	олю	obj	294	PROPN	PROP	Singular	Not_Assigned	3
+Lelya	1	307	307	PER	барышне	1531	1538	барышне	1	13	14	37	0	0	0	45	307	барышне	iobj	300	NOUN	NOM	Not_Assigned	Not_Assigned	3
+governesse	4	312	312	PER	ее	1559	1561	ее	1	14	15	2	0	0	0	46	312	ее	obj	311	PRON	PRON	Not_Assigned	Not_Assigned	3
+Lelya	1	314	314	PER	Леля	1563	1567	леля	1	14	15	4	0	0	0	47	314	леля	nsubj	315	PROPN	PROP	Singular	Not_Assigned	3
+governesse	4	318	318	PER	ей	1590	1592	ей	1	14	15	8	0	0	0	48	318	ей	iobj	317	PRON	PRON	Not_Assigned	Not_Assigned	3
+Lelya	1	330	330	PER	ее	1651	1653	ее	1	14	15	20	0	0	0	49	330	ее	det	331	DET	PRON	Not_Assigned	Not_Assigned	3
+Lelya	1	341	341	PER	девочка	1707	1714	девочка	1	15	16	3	0	0	0	50	341	девочка	nsubj	342	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Lelya	1	349	349	PER	она	1767	1770	она	1	15	16	11	0	0	0	51	349	она	nsubj	350	PRON	PRON	Not_Assigned	Not_Assigned	3
+Lelya	1	355	355	PER	ей	1806	1808	ей	1	15	16	17	0	0	0	52	355	ей	iobj	356	PRON	PRON	Not_Assigned	Not_Assigned	3
+Olya	0	366	366	PER	Олины	1874	1879	олины	1	15	16	28	0	0	0	53	366	олины	obj	365	PROPN	PROP	Singular	Not_Assigned	3
+governesse	4	383	383	PER	надзирательница	1965	1980	надзирательница	1	15	16	45	0	0	0	54	383	надзирательница	nsubj	386	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Lelya	1	396	396	PER	нее	2053	2056	нее	1	16	17	2	0	0	0	55	396	нее	obl	397	PRON	PRON	Not_Assigned	Not_Assigned	3
+Olya	0	401	401	PER	Оля	2086	2089	оля	1	17	18	0	0	0	0	56	401	оля	nsubj	403	PROPN	PROP	Singular	Not_Assigned	3
+Lelya	1	408	408	PER	она	2121	2124	она	1	17	18	7	0	0	0	57	408	она	nsubj	409	PRON	PRON	Not_Assigned	Not_Assigned	3
+Olya	0	418	419	PER	ей самой	2174	2182	ей самой	2	17	18	17	0	0	0	58	418	ей	iobj	424	PRON	PRON	Not_Assigned	Not_Assigned	3
+Mitya	8	423	423	PER	Мите	2192	2196	мите	1	17	18	22	0	0	0	59	423	мите	iobj	424	PROPN	PROP	Singular	Not_Assigned	3
+Lelya	1	444	444	PER	она	2311	2314	она	1	18	19	11	0	0	0	60	444	она	nsubj	446	PRON	PRON	Not_Assigned	Not_Assigned	3
+Olya	0	471	471	PER	Оле	2472	2475	оле	1	18	19	38	0	0	0	61	471	оле	nsubj	476	PROPN	PROP	Singular	Not_Assigned	3
+Olya	0	474	474	PER	учительнице	2481	2492	учительнице	1	18	19	41	0	0	0	62	474	учительнице	iobj	476	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Lelya	1	479	479	PER	ее	2526	2528	ее	1	18	19	46	0	0	0	63	479	ее	obj	478	PRON	PRON	Not_Assigned	Not_Assigned	3
+Lelya	1	488	488	PER	Леля	2559	2563	леля	1	19	20	4	0	0	0	64	488	леля	obj	494	PROPN	PROP	Singular	Not_Assigned	3
+Olya	0	495	495	PER	она	2596	2599	она	1	19	20	11	0	0	0	65	495	она	nsubj	494	PRON	PRON	Not_Assigned	Not_Assigned	3
+Olya	0	500	500	PER	я	2610	2611	я	1	19	20	16	0	0	0	66	500	я	nsubj	502	PRON	PRON	Not_Assigned	Not_Assigned	3
+Olya	0	521	521	PER	я	2703	2704	я	1	21	22	7	0	0	0	67	521	я	nsubj	524	PRON	PRON	Not_Assigned	Not_Assigned	3
+Lelya	1	525	525	PER	тебе	2721	2725	тебе	1	21	22	11	0	0	0	68	525	тебе	iobj	524	PRON	PRON	Not_Assigned	Not_Assigned	3
+Lelya	1	530	530	PER	ты	2742	2744	ты	1	21	22	16	0	0	0	69	530	ты	nsubj	532	PRON	PRON	Not_Assigned	Not_Assigned	3
+Lelya	1	556	556	PER	Леля	2861	2865	леля	1	22	24	3	0	0	0	70	556	леля	nsubj	555	PROPN	PROP	Singular	Not_Assigned	3
+Olya	0	559	559	PER	подругу	2875	2882	подругу	1	22	24	6	0	0	0	71	559	подругу	obj	558	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T72	24	567	567	PER	гувернантки	2907	2918	гувернантки	1	22	24	14	0	0	0	72	567	гувернантки	obl	558	NOUN	NOM	Not_Assigned	Not_Assigned	3
+governesse	4	569	570	PER	мисс Розы	2926	2935	мисс розы	2	22	24	16	0	0	0	73	569	мисс	obl	558	NOUN	PROP	Singular	Not_Assigned	3
+Olya	0	572	572	PER	ты	2938	2940	ты	1	22	24	19	0	0	0	74	572	ты	nsubj	575	PRON	PRON	Not_Assigned	Not_Assigned	3
+governesse	4	573	573	PER	ее	2941	2943	ее	1	22	24	20	0	0	0	75	573	ее	det	575	DET	PRON	Not_Assigned	Not_Assigned	3
+Lelya	1	582	582	PER	сударыня	2987	2995	сударыня	1	23	25	5	0	0	0	76	582	сударыня	parataxis	579	VERB	NOM	Not_Assigned	Not_Assigned	3
+Olya	0	585	585	PER	я	3000	3001	я	1	23	25	8	0	0	0	77	585	я	nsubj	588	PRON	PRON	Not_Assigned	Not_Assigned	3
+Lelya	1	589	589	PER	вас	3021	3024	вас	1	23	25	12	0	0	0	78	589	вас	obj	588	PRON	PRON	Not_Assigned	Not_Assigned	3
+Lelya	1	591	591	PER	Она	3027	3030	она	1	24	26	0	0	0	0	79	591	она	nsubj	592	PRON	PRON	Not_Assigned	Not_Assigned	3
+Olya	0	606	606	PER	Оли	3103	3106	оли	1	24	26	15	0	0	0	80	606	оли	nmod	605	PROPN	PROP	Singular	Not_Assigned	3
+OlyaLelya	5	629	629	PER	девочки	3222	3229	девочки	1	25	27	7	0	0	0	81	629	девочки	nsubj	630	NOUN	NOM	Not_Assigned	Not_Assigned	3
+OlyaLelya	5	634	635	PER	друг другом	3260	3271	друг другом	2	25	27	12	0	0	0	82	634	друг	obl	633	PRON	PRON	Not_Assigned	Not_Assigned	3
+Lelya	1	644	644	PER	Леле	3316	3320	леле	1	25	27	22	0	0	0	83	644	леле	iobj	645	PROPN	PROP	Singular	Not_Assigned	3
+FAC_T84	19	653	653	FAC	театре	3376	3382	театре	1	25	27	31	0	0	0	84	653	театре	conj	650	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Lelya	1	658	658	PER	она	3402	3405	она	1	26	28	3	0	0	0	85	658	она	nsubj	659	PRON	PRON	Not_Assigned	Not_Assigned	3
+Olya	0	670	670	PER	Оля	3468	3471	оля	1	27	29	0	0	0	0	86	670	оля	nsubj	671	PROPN	PROP	Singular	Not_Assigned	3
+Lelya	1	673	673	PER	ее	3485	3487	ее	1	27	29	3	0	0	0	87	673	ее	det	674	DET	PRON	Not_Assigned	Not_Assigned	3
+Lelya	1	676	676	PER	ее	3506	3508	ее	1	27	29	6	0	0	0	88	676	ее	det	677	DET	PRON	Not_Assigned	Not_Assigned	3
+Lelya	1	681	681	PER	Леля	3532	3536	леля	1	28	30	0	0	0	0	89	681	леля	nsubj	685	NOUN	PROP	Singular	Not_Assigned	3
+Olya	0	689	689	PER	подруги	3584	3591	подруги	1	28	30	8	0	0	0	90	689	подруги	nmod	688	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Olya	0	692	692	PER	ей	3603	3605	ей	1	28	30	11	0	0	0	91	692	ей	iobj	691	PRON	PRON	Not_Assigned	Not_Assigned	3
+OlyaLelya	5	713	713	PER	обеих	3719	3724	обеих	1	29	31	18	0	0	0	92	713	обеих	nmod	712	NUM	NOM	Not_Assigned	Not_Assigned	3
+Lelya	1	715	715	PER	Леля	3728	3732	леля	1	30	32	0	0	0	0	93	715	леля	nsubj	716	PROPN	PROP	Singular	Not_Assigned	3
+Lelya	1	721	721	PER	она	3752	3755	она	1	30	32	6	0	0	0	94	721	она	nsubj	722	PRON	PRON	Not_Assigned	Not_Assigned	3
+Olya	0	729	729	PER	Оля	3787	3790	оля	1	30	32	14	0	0	0	95	729	оля	nsubj	731	PROPN	PROP	Singular	Not_Assigned	3
+Lelya	1	730	730	PER	ее	3791	3793	ее	1	30	32	15	0	0	0	96	730	ее	obj	731	PRON	PRON	Not_Assigned	Not_Assigned	3
+Olya	0	733	733	PER	Оля	3807	3810	оля	1	31	33	0	0	0	0	97	733	оля	nsubj	734	PROPN	PROP	Singular	Not_Assigned	3
+Lelya	1	741	749	PER	бедняжечку, которая, конечно, не может заниматься	3846	3895	бедняжечку , которая , конечно , не может заниматься	9	31	33	8	0	0	0	98	748	может	acl:relcl	741	VERB	NOM	Not_Assigned	Not_Assigned	3
+Lelya	1	752	752	PER	ей	3903	3905	ей	1	31	33	19	0	0	0	99	752	ей	iobj	754	PRON	PRON	Not_Assigned	Not_Assigned	3
+Lelya	1	780	780	PER	Лелю	4046	4050	лелю	1	32	34	21	0	0	0	100	780	лелю	obj	779	PROPN	PROP	Singular	Not_Assigned	3
+Lelya	1	785	785	PER	она	4064	4067	она	1	32	34	26	0	0	0	101	785	она	nsubj	790	PRON	PRON	Not_Assigned	Not_Assigned	3
+Olya	0	800	800	PER	Оли	4135	4138	оли	1	32	34	41	0	0	0	102	800	оли	nmod	799	PROPN	PROP	Singular	Not_Assigned	3
+Olya	0	803	803	PER	ей	4144	4146	ей	1	32	34	44	0	0	0	103	803	ей	iobj	804	PRON	PRON	Not_Assigned	Not_Assigned	3
+Lelya	1	815	815	PER	ты	4201	4203	ты	1	32	34	56	0	0	0	104	815	ты	nsubj	818	PRON	PRON	Not_Assigned	Not_Assigned	3
+Lelya	1	838	838	PER	Леля	4352	4356	леля	1	33	35	0	0	0	0	105	838	леля	nsubj	841	NOUN	PROP	Singular	Not_Assigned	3
+VEH_T106	22	845	845	VEH	экипажей	4397	4405	экипажей	1	33	35	7	0	0	0	106	845	экипажей	ccomp	841	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T107	15	847	849	PER	кто из знакомых	4407	4422	кто из знакомых	3	33	35	9	0	0	0	107	849	знакомых	nmod	847	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T108	16	851	851	PER	кем	4425	4428	кем	1	33	35	13	0	0	0	108	851	кем	nmod	849	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T109	34	854	854	PER	кто	4436	4439	кто	1	33	35	16	0	0	0	109	854	кто	nsubj	855	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T110	32	859	859	PER	кого	4456	4460	кого	1	33	35	21	0	0	0	110	859	кого	obl	855	PRON	PRON	Not_Assigned	Not_Assigned	3
+M1	26	863	863	VEH	лошади	4479	4485	лошади	1	33	35	25	0	0	0	111	863	лошади	nsubj	859	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Lelya	1	869	869	PER	она	4508	4511	она	1	33	35	31	0	0	0	112	869	она	nsubj	871	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T112	31	877	878	PER	своих знакомых	4557	4571	своих знакомых	2	33	35	39	0	1	1	113	878	знакомых	nmod	876	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Lelya	1	877	877	PER	своих	4557	4562	своих	1	33	35	39	1	0	0	114	877	своих	det	878	DET	PRON	Not_Assigned	Not_Assigned	3
+Lelya	1	881	881	PER	своем	4576	4581	своем	1	33	35	43	0	0	0	115	881	своем	det	882	DET	PRON	Not_Assigned	Not_Assigned	3
+Lelya	1	889	889	PER	она	4636	4639	она	1	33	35	51	0	0	0	116	889	она	nsubj	890	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T115	10	891	891	PER	актерам	4650	4657	актерам	1	33	35	53	0	0	0	117	891	актерам	iobj	890	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T115	10	895	895	PER	их	4678	4680	их	1	33	35	57	0	0	0	118	895	их	obj	894	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T115	10	899	899	PER	их	4700	4702	их	1	33	35	61	0	0	0	119	899	их	det	900	DET	PRON	Not_Assigned	Not_Assigned	3
+Olya	0	902	902	PER	Оле	4711	4714	оле	1	34	36	0	0	0	0	120	902	оле	nsubj	903	PROPN	PROP	Singular	Not_Assigned	3
+Olya	0	910	911	PER	сама она	4766	4774	сама она	2	34	36	8	0	0	0	121	911	она	nsubj	913	PRON	PRON	Not_Assigned	Not_Assigned	3
+Olya	0	920	920	PER	она	4816	4819	она	1	34	36	18	0	0	0	122	920	она	nsubj	919	PRON	PRON	Not_Assigned	Not_Assigned	3
+Lelya	1	923	923	PER	Леля	4825	4829	леля	1	34	36	21	0	0	0	123	923	леля	nsubj	925	PROPN	PROP	Singular	Not_Assigned	3
+Olya	0	934	934	PER	Она	4893	4896	она	1	35	37	0	0	0	0	124	934	она	nsubj	935	PRON	PRON	Not_Assigned	Not_Assigned	3
+Olya	0	936	936	PER	свое	4909	4913	свое	1	35	37	2	0	0	0	125	936	свое	det	937	DET	PRON	Not_Assigned	Not_Assigned	3
+Lelya	1	938	938	PER	подруге	4921	4928	подруге	1	35	37	4	0	0	0	126	938	подруге	iobj	935	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Olya	0	946	946	PER	она	4958	4961	она	1	35	37	12	0	0	0	127	946	она	nsubj	947	PRON	PRON	Not_Assigned	Not_Assigned	3
+Lelya	1	951	951	PER	ее	4987	4989	ее	1	35	37	17	0	0	0	128	951	ее	det	952	DET	PRON	Not_Assigned	Not_Assigned	3
+Lelya	1	968	968	PER	свои	5075	5079	свои	1	35	37	34	0	0	0	129	968	свои	det	969	DET	PRON	Not_Assigned	Not_Assigned	3
+Olya	0	971	971	PER	Оля	5091	5094	оля	1	36	38	0	0	0	0	130	971	оля	nsubj	972	PROPN	PROP	Singular	Not_Assigned	3
+Lelya	1	985	985	PER	Леле	5161	5165	леле	1	36	38	14	0	0	0	131	985	леле	obl	983	PROPN	PROP	Singular	Not_Assigned	3
+Lelya	1	1000	1000	PER	Лелино	5234	5240	лелино	1	36	38	29	0	0	0	132	1000	лелино	amod	1001	PROPN	PROP	Singular	Not_Assigned	3
+Lelya	1	1004	1004	PER	она	5261	5264	она	1	36	38	33	0	0	0	133	1004	она	nsubj	1006	PRON	PRON	Not_Assigned	Not_Assigned	3
+Olya	0	1012	1013	PER	молоденькую учительницу	5308	5331	молоденькую учительницу	2	36	38	41	0	0	0	134	1013	учительницу	obj	1011	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Lelya	1	1016	1016	PER	своею	5342	5347	своею	1	36	38	45	0	0	0	135	1016	своею	iobj	1011	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Lelya	1	1026	1026	PER	Леля	5403	5407	леля	1	38	40	0	0	0	0	136	1026	леля	nsubj	1031	NOUN	PROP	Singular	Not_Assigned	3
+Olya	0	1032	1032	PER	Оля	5428	5431	оля	1	38	40	6	0	0	0	137	1032	оля	nsubj	1031	PROPN	PROP	Singular	Not_Assigned	3
+Lelya	1	1038	1038	PER	тебя	5446	5450	тебя	1	38	40	12	0	0	0	138	1038	тебя	obl	1031	PRON	PRON	Not_Assigned	Not_Assigned	3
+Lelya	1	1044	1044	PER	тебя	5476	5480	тебя	1	39	41	3	0	0	0	139	1044	тебя	obl	1045	PRON	PRON	Not_Assigned	Not_Assigned	3
+Lelya	1	1049	1049	PER	ты	5496	5498	ты	1	39	41	8	0	0	0	140	1049	ты	nsubj	1050	PRON	PRON	Not_Assigned	Not_Assigned	3
+M2	30	1051	1051	PER	мальчиком	5508	5517	мальчиком	1	39	41	10	0	0	0	141	1051	мальчиком	xcomp	1050	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Lelya	1	1056	1056	PER	тебя	5531	5535	тебя	1	39	41	15	0	0	0	142	1056	тебя	obj	1057	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T141	29	1061	1061	PER	мальчиков	5552	5561	мальчиков	1	39	41	20	0	0	0	143	1061	мальчиков	obj	1060	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Lelya	1	1063	1063	PER	Леля	5564	5568	леля	1	40	42	0	0	0	0	144	1063	леля	nsubj	1064	PROPN	PROP	Singular	Not_Assigned	3
+Olya	0	1085	1085	PER	Оля	5671	5674	оля	1	42	45	6	0	0	0	145	1085	оля	nsubj	1084	PROPN	PROP	Singular	Not_Assigned	3
+Olya	0	1096	1096	PER	она	5733	5736	она	1	42	45	17	0	0	0	146	1096	она	nsubj	1099	PRON	PRON	Not_Assigned	Not_Assigned	3
+Olya	0	1102	1102	PER	она	5769	5772	она	1	43	46	1	0	0	0	147	1102	она	nsubj	1105	PRON	PRON	Not_Assigned	Not_Assigned	3
+Olya	0	1106	1106	PER	свою	5788	5792	свою	1	43	46	5	0	0	0	148	1106	свою	det	1107	DET	PRON	Not_Assigned	Not_Assigned	3
+Olya	0	1125	1125	PER	она	5878	5881	она	1	43	46	24	0	0	0	149	1125	она	nsubj	1126	PRON	PRON	Not_Assigned	Not_Assigned	3
+Olya	0	1131	1131	PER	она	5904	5907	она	1	43	46	30	0	0	0	150	1131	она	nsubj	1132	PRON	PRON	Not_Assigned	Not_Assigned	3
+motherofOlya	2	1135	1135	PER	мать	5922	5926	мать	1	43	46	34	0	0	0	151	1135	мать	nsubj	1137	NOUN	NOM	Not_Assigned	Not_Assigned	3
+motherofOlya	2	1138	1138	PER	одна	5936	5940	одна	1	43	46	37	0	0	0	152	1138	одна	nsubj	1137	DET	PRON	Not_Assigned	Not_Assigned	3
+familyofOlya	6	1141	1143	PER	такой большой семьи	5955	5974	такой большой семьи	3	43	46	40	0	0	0	153	1143	семьи	obl	1139	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Olya	0	1149	1149	PER	себя	5998	6002	себя	1	43	46	48	0	0	0	154	1149	себя	obl	1147	PRON	PRON	Not_Assigned	Not_Assigned	3
+Olya	0	1162	1162	PER	ей	6066	6068	ей	1	44	47	8	0	0	0	155	1162	ей	iobj	1161	PRON	PRON	Not_Assigned	Not_Assigned	3
+Olya	0	1167	1167	PER	она	6094	6097	она	1	44	47	13	0	0	0	156	1167	она	nsubj	1170	PRON	PRON	Not_Assigned	Not_Assigned	3
+Olya	0	1189	1189	PER	ее	6214	6216	ее	1	44	47	35	0	0	0	157	1189	ее	obj	1188	PRON	PRON	Not_Assigned	Not_Assigned	3
+Olya	0	1198	1198	PER	она	6251	6254	она	1	45	48	7	0	0	0	158	1198	она	nsubj	1200	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T157	28	1207	1208	PER	младшие дети	6302	6314	младшие дети	2	45	48	16	0	0	0	159	1208	дети	nsubj	1206	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Mitya	8	1221	1221	PER	Мите	6375	6379	мите	1	46	49	2	0	0	0	160	1221	мите	iobj	1220	PROPN	PROP	Singular	Not_Assigned	3
+Anyuta	14	1228	1228	PER	Анюта	6425	6430	анюта	1	46	49	9	0	0	0	161	1228	анюта	nsubj	1227	PROPN	PROP	Singular	Not_Assigned	3
+Anyuta	14	1231	1231	PER	ей	6434	6436	ей	1	46	49	12	0	0	0	162	1231	ей	iobj	1233	PRON	PRON	Not_Assigned	Not_Assigned	3
+Olya	0	1247	1247	PER	Она	6505	6508	она	1	47	50	0	0	0	0	163	1247	она	nsubj	1249	PRON	PRON	Not_Assigned	Not_Assigned	3
+Olya	0	1260	1260	PER	она	6571	6574	она	1	48	51	7	0	0	0	164	1260	она	nsubj	1262	PRON	PRON	Not_Assigned	Not_Assigned	3
+Olya	0	1274	1274	PER	Оля	6652	6655	оля	1	49	52	1	0	0	0	165	1274	оля	appos	1273	PROPN	PROP	Singular	Not_Assigned	3
+Olya	0	1283	1283	PER	она	6721	6724	она	1	49	52	10	0	0	0	166	1283	она	nsubj	1282	PRON	PRON	Not_Assigned	Not_Assigned	3
+Olya	0	1300	1300	PER	она	6820	6823	она	1	49	52	27	0	0	0	167	1300	она	nsubj	1299	PRON	PRON	Not_Assigned	Not_Assigned	3
+Olya	0	1317	1317	PER	Девочке	6917	6924	девочке	1	50	53	0	0	0	0	168	1317	девочке	iobj	1319	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Olya	0	1331	1331	PER	нее	6993	6996	нее	1	50	53	14	0	0	0	169	1331	нее	obl	1329	PRON	PRON	Not_Assigned	Not_Assigned	3
+Olya	0	1334	1334	PER	Она	7007	7010	она	1	51	54	0	0	0	0	170	1334	она	nsubj	1336	PRON	PRON	Not_Assigned	Not_Assigned	3
+Olya	0	1354	1354	PER	ее	7107	7109	ее	1	52	55	3	0	0	0	171	1354	ее	det	1355	DET	PRON	Not_Assigned	Not_Assigned	3
+motherofOlya	2	1358	1358	PER	матери	7130	7136	матери	1	52	55	7	0	0	0	172	1358	матери	nmod	1357	NOUN	NOM	Not_Assigned	Not_Assigned	3
+motherofOlya	2	1363	1363	PER	я	7145	7146	я	1	52	55	12	0	0	0	173	1363	я	nsubj	1356	PRON	PRON	Not_Assigned	Not_Assigned	3
+Olya	0	1367	1367	PER	Олечка	7156	7162	олечка	1	52	55	16	0	0	0	174	1367	олечка	obj	1365	PROPN	PROP	Singular	Not_Assigned	3
+motherofOlya	2	1372	1373	PER	Марья Осиповна	7177	7191	марья осиповна	2	52	55	21	0	0	0	175	1372	марья	nsubj	1365	PROPN	PROP	Singular	Not_Assigned	3
+Olya	0	1379	1379	PER	дочери	7217	7223	дочери	1	52	55	28	0	0	0	176	1379	дочери	nmod	1378	NOUN	NOM	Not_Assigned	Not_Assigned	3
+motherofOlya	2	1383	1383	PER	я	7237	7238	я	1	52	55	32	0	0	0	177	1383	я	nsubj	1382	PRON	PRON	Not_Assigned	Not_Assigned	3
+homeofOlya	13	1384	1384	FAC	домой	7239	7244	домой	1	52	55	33	0	0	0	178	1384	домой	advmod	1382	ADV	NOM	Not_Assigned	Not_Assigned	3
+familyofOlya	6	1389	1389	PER	наших	7260	7265	наших	1	52	55	38	0	0	0	179	1389	наших	det	1390	DET	PRON	Not_Assigned	Not_Assigned	3
+Stepanovna	7	1392	1394	PER	Анну Степановну Дудкину	7281	7304	анну степановну дудкину	3	52	55	41	0	0	0	180	1392	анну	obj	1391	PROPN	PROP	Singular	Not_Assigned	3
+Olya	0	1396	1396	PER	Оле	7307	7310	оле	1	52	55	45	0	0	0	181	1396	оле	iobj	1397	PROPN	PROP	Singular	Not_Assigned	3
+motherofOlya	2	1402	1402	PER	мать	7348	7352	мать	1	52	55	51	0	0	0	182	1402	мать	obj	1401	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Stepanovna	7	1405	1405	PER	она	7357	7360	она	1	52	55	54	0	0	0	183	1405	она	nsubj	1407	PRON	PRON	Not_Assigned	Not_Assigned	3
+motherofOlya	2	1412	1413	PER	Марья Осиповна	7389	7403	марья осиповна	2	52	55	61	0	0	0	184	1412	марья	nsubj	1407	PROPN	PROP	Singular	Not_Assigned	3
+PER_T183	27	1418	1418	PER	вы	7414	7416	вы	1	52	55	67	0	0	0	185	1418	вы	nsubj	1423	PRON	PRON	Not_Assigned	Not_Assigned	3
+motherofOlya	2	1425	1425	PER	Я	7442	7443	я	1	53	56	0	0	0	0	186	1425	я	nsubj	1426	PRON	PRON	Not_Assigned	Not_Assigned	3
+Stepanovna	7	1440	1440	PER	она	7501	7504	она	1	54	57	1	0	0	0	187	1440	она	nsubj	1441	PRON	PRON	Not_Assigned	Not_Assigned	3
+Matryona	3	1446	1448	PER	Матрене Ивановне Кузьминой	7525	7551	матрене ивановне кузьминой	3	54	57	7	0	0	0	188	1446	матрене	obl	1452	PROPN	PROP	Singular	Not_Assigned	3
+PER_T187	9	1449	1449	PER	мужик	7552	7557	мужик	1	54	57	10	0	0	0	189	1449	мужик	nsubj	1452	NOUN	NOM	Not_Assigned	Not_Assigned	3
+GPE_T188	20	1451	1451	GPE	деревни	7561	7568	деревни	1	54	57	12	0	0	0	190	1451	деревни	nmod	1449	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Matryona	3	1466	1466	PER	она	7617	7620	она	1	54	57	27	0	0	0	191	1466	она	nsubj	1472	PRON	PRON	Not_Assigned	Not_Assigned	3
+Stepanovna	7	1468	1468	PER	мне	7623	7626	мне	1	54	57	29	0	0	0	192	1468	мне	iobj	1472	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T187	9	1471	1471	PER	мужика	7634	7640	мужика	1	54	57	32	0	0	0	193	1471	мужика	obl	1472	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Matryona	3	1480	1480	PER	ее	7686	7688	ее	1	54	57	41	0	0	0	194	1480	ее	obj	1479	PRON	PRON	Not_Assigned	Not_Assigned	3
+Matryona	3	1485	1485	PER	она	7700	7703	она	1	54	57	46	0	0	0	195	1485	она	nsubj	1490	PRON	PRON	Not_Assigned	Not_Assigned	3
+motherofOlya	2	1488	1488	PER	вас	7710	7713	вас	1	54	57	49	0	0	0	196	1488	вас	obl	1490	PRON	PRON	Not_Assigned	Not_Assigned	3
+Olya	0	1494	1494	PER	Олечка	7734	7740	олечка	1	55	58	2	0	0	0	197	1494	олечка	conj	1492	PROPN	PROP	Singular	Not_Assigned	3
+Matryona	3	1500	1501	PER	Матрене Ивановне	7762	7778	матрене ивановне	2	55	58	8	0	0	0	198	1500	матрене	obl	1498	PROPN	PROP	Singular	Not_Assigned	3
+motherofOlya	2	1513	1513	PER	я	7818	7819	я	1	56	59	1	0	0	0	199	1513	я	nsubj	1516	PRON	PRON	Not_Assigned	Not_Assigned	3
+motherofOlya	2	1524	1524	PER	я	7870	7871	я	1	57	60	1	0	0	0	200	1524	я	nsubj	1523	PRON	PRON	Not_Assigned	Not_Assigned	3
+Olya	0	1549	1549	PER	ты	7976	7978	ты	1	58	61	3	0	0	0	201	1549	ты	nsubj	1551	PRON	PRON	Not_Assigned	Not_Assigned	3
+Matryona	3	1552	1553	PER	Матрену Ивановну	7990	8006	матрену ивановну	2	58	61	6	0	0	0	202	1552	матрену	obj	1551	PROPN	PROP	Singular	Not_Assigned	3
+motherofOlya	2	1559	1559	PER	маменька	8021	8029	маменька	1	59	62	4	0	0	0	203	1559	маменька	conj	1557	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Olya	0	1561	1561	PER	я	8031	8032	я	1	59	62	6	0	0	0	204	1561	я	nsubj	1562	PRON	PRON	Not_Assigned	Not_Assigned	3
+Olya	0	1575	1575	PER	я	8098	8099	я	1	59	62	20	0	0	0	205	1575	я	nsubj	1576	PRON	PRON	Not_Assigned	Not_Assigned	3
+Olya	0	1578	1578	PER	мне	8111	8114	мне	1	59	62	23	0	0	0	206	1578	мне	iobj	1579	PRON	PRON	Not_Assigned	Not_Assigned	3
+Olya	0	1587	1587	PER	ты	8145	8147	ты	1	60	63	5	0	0	0	207	1587	ты	nsubj	1588	PRON	PRON	Not_Assigned	Not_Assigned	3
+Olya	0	1597	1597	PER	Олечка	8191	8197	олечка	1	62	65	2	0	0	0	208	1597	олечка	conj	1595	PROPN	PROP	Singular	Not_Assigned	3
+Olya	0	1601	1601	PER	тебе	8207	8211	тебе	1	62	65	6	0	0	0	209	1601	тебе	obl	1605	PRON	PRON	Not_Assigned	Not_Assigned	3
+Olya	0	1615	1615	PER	сама	8273	8277	сама	1	63	66	8	0	0	0	210	1615	сама	acl	1616	ADJ	NOM	Not_Assigned	Not_Assigned	3
+familyofOlya	6	1622	1622	PER	нам	8308	8311	нам	1	63	66	15	0	0	0	211	1622	нам	iobj	1629	PRON	PRON	Not_Assigned	Not_Assigned	3
+Olya	0	1632	1632	PER	ты	8354	8356	ты	1	63	66	25	0	0	0	212	1632	ты	nsubj	1633	PRON	PRON	Not_Assigned	Not_Assigned	3
+familyofOlya	6	1641	1641	PER	мы	8391	8393	мы	1	64	67	3	0	0	0	213	1641	мы	nsubj	1644	PRON	PRON	Not_Assigned	Not_Assigned	3
+Olya	0	1648	1648	PER	ты	8427	8429	ты	1	65	68	2	0	0	0	214	1648	ты	nsubj	1650	PRON	PRON	Not_Assigned	Not_Assigned	3
+motherofOlya	2	1652	1653	PER	я сама	8441	8447	я сама	2	65	68	6	0	0	0	215	1652	я	nsubj	1654	PRON	PRON	Not_Assigned	Not_Assigned	3
+Olya	0	1661	1661	PER	Оля	8482	8485	оля	1	67	70	0	0	0	0	216	1661	оля	nsubj	1662	PROPN	PROP	Singular	Not_Assigned	3
+motherofOlya	2	1665	1668	PER	мать бледна и утомлена	8498	8520	мать бледна и утомлена	4	67	70	4	0	0	0	217	1666	бледна	ccomp	1662	ADJ	NOM	Not_Assigned	Not_Assigned	3
+Olya	0	1670	1670	PER	она	8523	8526	она	1	67	70	9	0	0	0	218	1670	она	nsubj	1671	PRON	PRON	Not_Assigned	Not_Assigned	3
+familyofOlya	6	1686	1686	PER	их	8610	8612	их	1	67	70	25	0	0	0	219	1686	их	det	1688	DET	PRON	Not_Assigned	Not_Assigned	3
+Matryona	3	1701	1702	PER	Матрене Ивановне	8682	8698	матрене ивановне	2	67	70	40	0	0	0	220	1701	матрене	obl	1699	PROPN	PROP	Singular	Not_Assigned	3
+GPE_T220	21	1711	1712	GPE	кривым улицам	8746	8759	кривым улицам	2	68	71	7	0	0	0	221	1712	улицам	conj	1707	NOUN	NOM	Not_Assigned	Not_Assigned	3
+GPE_T221	23	1714	1715	GPE	узким переулкам	8762	8777	узким переулкам	2	68	71	10	0	0	0	222	1715	переулкам	conj	1712	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Olya	0	1722	1722	PER	девочку	8815	8822	девочку	1	69	72	5	0	0	0	223	1722	девочку	obj	1721	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Olya	0	1728	1728	PER	ее	8847	8849	ее	1	69	72	11	0	0	0	224	1728	ее	det	1727	DET	PRON	Not_Assigned	Not_Assigned	3
+Olya	0	1739	1739	PER	ее	8903	8905	ее	1	69	72	22	0	0	0	225	1739	ее	det	1738	DET	PRON	Not_Assigned	Not_Assigned	3
+Olya	0	1750	1750	PER	она	8951	8954	она	1	69	72	33	0	0	0	226	1750	она	nsubj	1752	PRON	PRON	Not_Assigned	Not_Assigned	3
+Olya	0	1759	1759	PER	ее	8994	8996	ее	1	69	72	42	0	0	0	227	1759	ее	obj	1761	PRON	PRON	Not_Assigned	Not_Assigned	3
+Olya	0	1766	1766	PER	ее	9039	9041	ее	1	69	72	49	0	0	0	228	1766	ее	obj	1767	PRON	PRON	Not_Assigned	Not_Assigned	3
+Olya	0	1773	1773	PER	ей	9087	9089	ей	1	69	72	56	0	0	0	229	1773	ей	iobj	1772	PRON	PRON	Not_Assigned	Not_Assigned	3
+Olya	0	1780	1780	PER	она	9126	9129	она	1	70	73	4	0	0	0	230	1780	она	nsubj	1782	PRON	PRON	Not_Assigned	Not_Assigned	3
+houseofMatryona	18	1784	1786	FAC	дома Матрены Ивановны	9149	9170	дома матрены ивановны	3	70	73	8	0	1	1	231	1784	дома	obl	1782	NOUN	PROP	Not_Assigned	Not_Assigned	3
+Matryona	3	1785	1786	PER	Матрены Ивановны	9154	9170	матрены ивановны	2	70	73	9	1	0	0	232	1785	матрены	nmod	1784	PROPN	PROP	Singular	Not_Assigned	3
+Olya	0	1799	1799	PER	ей	9231	9233	ей	1	71	74	3	0	0	0	233	1799	ей	iobj	1798	PRON	PRON	Not_Assigned	Not_Assigned	3
+Olya	0	1803	1803	PER	она	9251	9254	она	1	71	74	7	0	0	0	234	1803	она	nsubj:pass	1805	PRON	PRON	Not_Assigned	Not_Assigned	3
+Olya	0	1810	1810	PER	она	9293	9296	она	1	71	74	14	0	0	0	235	1810	она	nsubj	1809	PRON	PRON	Not_Assigned	Not_Assigned	3
+Olya	0	1811	1811	PER	свои	9297	9301	свои	1	71	74	15	0	0	0	236	1811	свои	det	1812	DET	PRON	Not_Assigned	Not_Assigned	3
+Olya	0	1815	1815	PER	ее	9322	9324	ее	1	71	74	19	0	0	0	237	1815	ее	det	1816	DET	PRON	Not_Assigned	Not_Assigned	3
+Matryona	3	1824	1825	PER	Матрена Ивановна	9376	9392	матрена ивановна	2	71	74	28	0	0	0	238	1824	матрена	nsubj	1822	PROPN	PROP	Singular	Not_Assigned	3
+Olya	0	1829	1829	PER	ей	9405	9407	ей	1	71	74	33	0	0	0	239	1829	ей	iobj	1828	PRON	PRON	Not_Assigned	Not_Assigned	3
+Matryona	3	1844	1845	PER	Матрена Ивановна	9483	9499	матрена ивановна	2	72	75	12	0	0	0	240	1844	матрена	nsubj	1846	PROPN	PROP	Singular	Not_Assigned	3
+Matryona	3	1850	1850	PER	своего	9537	9543	своего	1	72	75	18	0	0	0	241	1850	своего	det	1851	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T187	9	1853	1856	PER	мужиком, продававшим их	9557	9580	мужиком , продававшим их	4	72	75	21	0	0	0	242	1855	продававшим	acl	1853	VERB	NOM	Not_Assigned	Not_Assigned	3
+Olya	0	1861	1861	PER	Ольга	9592	9597	ольга	1	72	75	29	0	0	0	243	1861	ольга	nsubj	1863	PROPN	PROP	Singular	Not_Assigned	3
+Olya	0	1866	1866	PER	своим	9620	9625	своим	1	72	75	34	0	0	0	244	1866	своим	det	1867	DET	PRON	Not_Assigned	Not_Assigned	3
+Olya	0	1869	1869	PER	она	9638	9641	она	1	72	75	37	0	0	0	245	1869	она	nsubj	1870	PRON	PRON	Not_Assigned	Not_Assigned	3
+Olya	0	1882	1882	PER	ее	9701	9703	ее	1	72	75	50	0	0	0	246	1882	ее	det	1883	DET	PRON	Not_Assigned	Not_Assigned	3
+Matryona	3	1893	1894	PER	Матрена Ивановна	9742	9758	матрена ивановна	2	72	75	61	0	0	0	247	1893	матрена	nsubj	1895	PROPN	PROP	Singular	Not_Assigned	3
+Olya	0	1905	1905	PER	собеседницу	9806	9817	собеседницу	1	72	75	73	0	0	0	248	1905	собеседницу	obl	1902	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Olya	0	1917	1918	PER	милая моя	9859	9868	милая моя	2	72	75	85	0	1	1	249	1918	моя	conj	1870	DET	PRON	Not_Assigned	Not_Assigned	3
+Matryona	3	1918	1918	PER	моя	9865	9868	моя	1	72	75	86	1	0	0	250	1918	моя	conj	1870	DET	PRON	Not_Assigned	Not_Assigned	3
+Olya	0	1935	1935	PER	Оли	9934	9937	оли	1	72	75	103	0	0	0	251	1935	оли	nmod	1934	PROPN	PROP	Singular	Not_Assigned	3
+Olya	0	1951	1951	PER	ее	10042	10044	ее	1	72	75	119	0	0	0	252	1951	ее	det	1952	DET	PRON	Not_Assigned	Not_Assigned	3
+Olya	0	1954	1954	PER	Девочка	10054	10061	девочка	1	73	76	0	0	0	0	253	1954	девочка	nsubj	1956	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Matryona	3	1963	1964	PER	Матреной Ивановной	10110	10128	матреной ивановной	2	73	76	9	0	0	0	254	1964	ивановной	obl	1961	PROPN	PROP	Singular	Not_Assigned	3
+homeofOlya	13	1975	1975	FAC	домой	10189	10194	домой	1	73	76	21	0	0	0	255	1975	домой	advmod	1974	ADV	NOM	Not_Assigned	Not_Assigned	3
+Olya	0	1985	1985	PER	она	10238	10241	она	1	74	78	3	0	0	0	256	1985	она	nsubj	1984	PRON	PRON	Not_Assigned	Not_Assigned	3
+motherofOlya	2	2002	2002	PER	мать	10310	10314	мать	1	76	81	3	0	0	0	257	2002	мать	nsubj	2003	NOUN	NOM	Not_Assigned	Not_Assigned	3
+FAC_T256	33	2005	2005	FAC	кухне	10325	10330	кухне	1	76	81	6	0	0	0	258	2005	кухне	obl	2003	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Olya	0	2007	2007	PER	она	10332	10335	она	1	76	81	8	0	0	0	259	2007	она	nsubj	2009	PRON	PRON	Not_Assigned	Not_Assigned	3
+FAC_T258	17	2011	2011	FAC	комнату	10358	10365	комнату	1	76	81	12	0	0	0	260	2011	комнату	obl	2009	NOUN	NOM	Not_Assigned	Not_Assigned	3

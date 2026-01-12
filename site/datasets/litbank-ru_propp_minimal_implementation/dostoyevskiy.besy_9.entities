@@ -1,0 +1,281 @@
+COREF_name	COREF	start_token	end_token	cat	sacr_text	byte_onset	byte_offset	text	mention_len	paragraph_ID	sentence_ID	start_token_ID_within_sentence	out_to_in_nested_level	in_to_out_nested_level	nested_entities_count	temp_index	head_id	head_word	head_dependency_relation	head_syntactic_head_ID	POS_tag	prop	number	gender	grammatical_person
+Liputin	3	7	7	PER	Липутин	25	32	липутин	1	1	1	0	0	0	0	0	7	липутин	nsubj	8	PROPN	PROP	Singular	Not_Assigned	3
+Nicolas	2	14	14	PER	Nicolas	65	72	nicolas	1	2	2	0	0	0	0	1	14	nicolas	nsubj	16	PROPN	PROP	Singular	Male	3
+Liputin	3	22	22	PER	Липутину	120	128	липутину	1	2	2	8	0	0	0	2	22	липутину	iobj	21	PROPN	PROP	Singular	Not_Assigned	3
+Liputin	3	30	30	PER	вас	154	157	вас	1	3	3	6	0	0	0	3	30	вас	obl	50	PRON	PRON	Not_Assigned	Not_Assigned	3
+Nicolas	2	39	39	PER	Nicolas	206	213	nicolas	1	3	3	15	0	0	0	4	39	nicolas	appos	38	PROPN	PROP	Singular	Male	3
+Agafia	22	45	45	PER	Агафью	225	231	агафью	1	3	3	21	0	0	0	5	45	агафью	obl	50	PROPN	PROP	Singular	Not_Assigned	3
+Nicolas	2	46	46	PER	я	232	233	я	1	3	3	22	0	0	0	6	46	я	nsubj	50	PRON	PRON	Not_Assigned	Not_Assigned	3
+Liputin	3	53	53	PER	вы	260	262	вы	1	3	3	29	0	0	0	7	53	вы	nsubj	55	PRON	PRON	Not_Assigned	Not_Assigned	3
+Agafia	22	54	54	PER	ее	263	265	ее	1	3	3	30	0	0	0	8	54	ее	obj	55	PRON	PRON	Not_Assigned	Not_Assigned	3
+Nicolas	2	56	56	PER	меня	275	279	меня	1	3	3	32	0	0	0	9	56	меня	obj	57	PRON	PRON	Not_Assigned	Not_Assigned	3
+Nicolas	2	66	66	PER	вас	316	319	вас	1	4	4	7	0	0	0	10	66	вас	obj	67	PRON	PRON	Not_Assigned	Not_Assigned	3
+Nicolas	2	79	79	PER	Я	356	357	я	1	6	6	0	0	0	0	11	79	я	nsubj	81	PRON	PRON	Not_Assigned	Not_Assigned	3
+Liputin	3	87	87	PER	вы	382	384	вы	1	6	6	8	0	0	0	12	87	вы	nsubj	90	PRON	PRON	Not_Assigned	Not_Assigned	3
+Liputin	3	105	105	PER	Липутин	466	473	липутин	1	7	8	4	0	0	0	13	105	липутин	nsubj	104	PROPN	PROP	Singular	Not_Assigned	3
+Liputin	3	112	112	PER	Липутин	510	517	липутин	1	9	10	0	0	0	0	14	112	липутин	nsubj	115	PROPN	PROP	Singular	Not_Assigned	3
+Nicolas	2	124	124	PER	я	557	558	я	1	10	11	7	0	0	0	15	124	я	nsubj	125	PRON	PRON	Not_Assigned	Not_Assigned	3
+Nicolas	2	130	130	PER	Nicolas	579	586	nicolas	1	10	12	3	0	0	0	16	130	nicolas	appos	129	PROPN	PROP	Singular	Male	3
+Consideran	45	143	143	PER	Консидерана	639	650	консидерана	1	10	12	16	0	0	0	17	143	консидерана	nmod	142	PROPN	PROP	Singular	Not_Assigned	3
+PER_T18	50	150	150	PER	фурьерист	665	674	фурьерист	1	10	12	23	0	0	0	18	150	фурьерист	ROOT	150	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Liputin	3	152	152	PER	вы	678	680	вы	1	10	12	25	0	0	0	19	152	вы	nsubj	150	PRON	PRON	Not_Assigned	Not_Assigned	3
+Nicolas	2	171	171	PER	он	768	770	он	1	12	14	13	0	0	0	20	171	он	nsubj	170	PRON	PRON	Not_Assigned	Not_Assigned	3
+Liputin	3	197	197	PER	Липутин	876	883	липутин	1	13	16	9	0	0	0	21	197	липутин	nsubj	196	PROPN	PROP	Singular	Not_Assigned	3
+PER_T22	55	224	226	PER	человеческой социальной республики	1003	1037	человеческой социальной республики	3	14	17	4	0	0	0	22	226	республики	nmod	221	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Nicolas	2	259	259	PER	Nicolas	1163	1170	nicolas	1	16	20	4	0	0	0	23	259	nicolas	obj	258	PROPN	PROP	Singular	Male	3
+Nicolas	2	271	272	PER	господине Ставрогине	1238	1258	господине ставрогине	2	18	22	1	0	0	0	24	271	господине	obl	276	NOUN	PROP	Singular	Not_Assigned	3
+Nicolas	2	289	289	PER	его	1342	1345	его	1	18	22	19	0	0	0	25	289	его	nmod	288	PRON	PRON	Not_Assigned	Not_Assigned	3
+Nicolas	2	296	296	PER	им	1373	1375	им	1	18	22	26	0	0	0	26	296	им	obl:agent	295	PRON	PRON	Not_Assigned	Not_Assigned	3
+thecity	19	298	299	GPE	нашем городе	1378	1390	нашем городе	2	18	22	28	0	1	1	27	299	городе	obl	295	NOUN	NOM	Not_Assigned	Not_Assigned	3
+autorreaders	4	298	298	PER	нашем	1378	1383	нашем	1	18	22	28	1	0	0	28	298	нашем	det	299	DET	PRON	Not_Assigned	Not_Assigned	3
+Nicolas	2	305	305	PER	его	1419	1422	его	1	18	22	35	0	0	0	29	305	его	det	306	DET	PRON	Not_Assigned	Not_Assigned	3
+Liputin	3	312	376	PER	"фигурка губернского чиновничишка, ревнивца и семейного грубого деспота, скряги и процентщика, запиравшего остатки от обеда и огарки на ключ и в то же время яростного сектатора бог знает какой будущей "" социальной гармонии "", упивавшегося по ночам восторгами пред фантастическими картинами будущей фаланстеры, в ближайшее осуществление которой в России и в нашей губернии он верил как в свое собственное существование"	1462	1878	"фигурка губернского чиновничишка , ревнивца и семейного грубого деспота , скряги и процентщика , запиравшего остатки от обеда и огарки на ключ и в то же время яростного сектатора бог знает какой будущей "" социальной гармонии "" , упивавшегося по ночам восторгами пред фантастическими картинами будущей фаланстеры , в ближайшее осуществление которой в россии и в нашей губернии он верил как в свое собственное существование"	65	18	22	42	0	2	5	30	347	гармонии	iobj	342	NOUN	PROP	Singular	Not_Assigned	3
+Russia	24	365	365	GPE	России	1807	1813	россии	1	18	22	95	1	0	0	31	365	россии	obl	371	PROPN	PROP	Not_Assigned	Not_Assigned	3
+GPE_T34	10	368	369	GPE	нашей губернии	1818	1832	нашей губернии	2	18	22	98	1	1	1	32	369	губернии	obl	371	NOUN	NOM	Not_Assigned	Not_Assigned	3
+autorreaders	4	368	368	PER	нашей	1818	1823	нашей	1	18	22	98	2	0	0	33	368	нашей	det	369	DET	PRON	Not_Assigned	Not_Assigned	3
+Liputin	3	370	370	PER	он	1833	1835	он	1	18	22	100	1	0	0	34	370	он	nsubj	371	PRON	PRON	Not_Assigned	Not_Assigned	3
+Liputin	3	374	374	PER	свое	1848	1852	свое	1	18	22	104	1	0	0	35	374	свое	det	376	DET	PRON	Not_Assigned	Not_Assigned	3
+Liputin	3	385	385	PER	он	1903	1905	он	1	19	23	7	0	0	0	36	385	он	nsubj	386	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T38	59	400	400	PER	женой	1967	1972	женой	1	19	23	22	0	0	0	37	400	женой	obl	398	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T39	60	414	414	PER	человека	2037	2045	человека	1	19	23	36	0	0	0	38	414	человека	nsubj	411	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Liputin	3	418	418	PER	него	2057	2061	него	1	19	23	40	0	0	0	39	418	него	obl	416	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T41	61	428	438	PER	"будущего члена "" всемирно - общечеловеческой социальной республики и гармонии """	2105	2184	"будущего члена "" всемирно - общечеловеческой социальной республики и гармонии """	11	19	23	50	0	0	0	40	435	республики	nmod	429	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T42	62	445	446	PER	эти люди	2204	2212	эти люди	2	20	24	5	0	0	0	41	446	люди	nsubj	447	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Nicolas	2	451	451	PER	Nicolas	2232	2239	nicolas	1	20	25	2	0	0	0	42	451	nicolas	nsubj	450	PROPN	PROP	Singular	Male	3
+Liputin	3	457	458	PER	неожиданного фурьериста	2272	2295	неожиданного фурьериста	2	20	25	8	0	0	0	43	458	фурьериста	obj	455	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Nicolas	2	462	463	PER	Наш принц	2303	2312	наш принц	2	22	27	0	0	1	1	44	463	принц	nsubj	464	NOUN	NOM	Not_Assigned	Not_Assigned	3
+autorreaders	4	462	462	PER	Наш	2303	2306	наш	1	22	27	0	1	0	0	45	462	наш	det	463	DET	PRON	Not_Assigned	Not_Assigned	3
+thecity	19	472	472	GPE	городе	2355	2361	городе	1	22	27	10	0	0	0	46	472	городе	obl	476	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Nicolas	2	475	475	PER	нем	2370	2373	нем	1	22	27	13	0	0	0	47	475	нем	obl	476	PRON	PRON	Not_Assigned	Not_Assigned	3
+autorreaders	4	478	478	PER	Нам	2385	2388	нам	1	23	28	0	0	0	0	48	478	нам	iobj	480	PRON	PRON	Not_Assigned	Not_Assigned	3
+Trophimovich	1	484	485	PER	Степана Трофимовича	2412	2431	степана трофимовича	2	23	28	6	0	0	0	49	484	степана	conj	480	PROPN	PROP	Singular	Not_Assigned	3
+Nicolas	2	488	488	PER	он	2437	2439	он	1	23	28	10	0	0	0	50	488	он	nsubj	489	PRON	PRON	Not_Assigned	Not_Assigned	3
+Europe	41	491	491	GPE	Европу	2453	2459	европу	1	23	28	13	0	0	0	51	491	европу	obj	489	PROPN	PROP	Not_Assigned	Not_Assigned	3
+GPE_T52	36	496	496	GPE	Египте	2472	2478	египте	1	23	28	18	0	0	0	52	496	египте	obl	489	PROPN	PROP	Not_Assigned	Not_Assigned	3
+GPE_T53	31	500	500	GPE	Иерусалим	2491	2500	иерусалим	1	23	28	22	0	0	0	53	500	иерусалим	obl	498	PROPN	PROP	Not_Assigned	Not_Assigned	3
+ORG_T54	49	508	514	ORG	какой-то ученой экспедиции в Исландию	2529	2566	какой - то ученой экспедиции в исландию	7	23	28	30	0	1	1	54	512	экспедиции	obl	503	NOUN	PROP	Not_Assigned	Not_Assigned	3
+GPE_T55	30	514	514	GPE	Исландию	2558	2566	исландию	1	23	28	36	1	0	0	55	514	исландию	nmod	512	PROPN	PROP	Not_Assigned	Not_Assigned	3
+GPE_T55	30	520	520	GPE	Исландии	2594	2602	исландии	1	23	28	42	0	0	0	56	520	исландии	obl	518	PROPN	PROP	Not_Assigned	Not_Assigned	3
+Nicolas	2	526	526	PER	он	2626	2628	он	1	24	29	4	0	0	0	57	526	он	nsubj	529	PRON	PRON	Not_Assigned	Not_Assigned	3
+ORG_T58	43	532	534	ORG	одном немецком университете	2655	2682	одном немецком университете	3	24	29	10	0	0	0	58	534	университете	obl	529	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Nicolas	2	536	536	PER	Он	2685	2687	он	1	25	30	0	0	0	0	59	536	он	nsubj	538	PRON	PRON	Not_Assigned	Not_Assigned	3
+motherofNicolas	0	540	540	PER	матери	2701	2707	матери	1	25	30	4	0	0	0	60	540	матери	obl	538	NOUN	NOM	Not_Assigned	Not_Assigned	3
+motherofNicolas	0	553	554	PER	Варвара Петровна	2745	2761	варвара петровна	2	25	30	17	0	0	0	61	553	варвара	nsubj	556	PROPN	PROP	Singular	Not_Assigned	3
+Nicolas	2	565	565	PER	сыном	2823	2828	сыном	1	26	31	4	0	0	0	62	565	сыном	nmod	563	NOUN	NOM	Not_Assigned	Not_Assigned	3
+motherofNicolas	0	566	566	PER	она	2829	2832	она	1	26	31	5	0	0	0	63	566	она	nsubj	567	PRON	PRON	Not_Assigned	Not_Assigned	3
+Nicolas	2	590	590	PER	Nicolas	2957	2964	nicolas	1	26	31	29	0	0	0	64	590	nicolas	obl	587	PROPN	PROP	Singular	Male	3
+Trophimovich	1	605	606	PER	Степана Трофимовича	3035	3054	степана трофимовича	2	28	33	2	0	0	0	65	605	степана	obl	611	PROPN	PROP	Singular	Not_Assigned	3
+motherofNicolas	0	613	613	PER	Она	3091	3094	она	1	29	34	0	0	0	0	66	613	она	nsubj	614	PRON	PRON	Not_Assigned	Not_Assigned	3
+motherofNicolas	0	620	620	PER	себя	3124	3128	себя	1	29	34	7	0	0	0	67	620	себя	nmod	618	PRON	PRON	Not_Assigned	Not_Assigned	3
+Trophimovich	1	642	643	PER	Степана Трофимовича	3234	3253	степана трофимовича	2	29	34	29	0	0	0	68	642	степана	nmod	641	PROPN	PROP	Singular	Not_Assigned	3
+motherofNicolas	0	650	650	PER	она	3288	3291	она	1	30	35	5	0	0	0	69	650	она	nsubj	651	PRON	PRON	Not_Assigned	Not_Assigned	3
+Paris	18	654	654	GPE	Парижа	3311	3317	парижа	1	30	35	9	0	0	0	70	654	парижа	nmod	652	PROPN	PROP	Not_Assigned	Not_Assigned	3
+Praskovia	5	657	664	PER	генеральши Прасковьи Ивановны Дроздовой, подруги своего детства	3322	3385	генеральши прасковьи ивановны дроздовой , подруги своего детства	8	30	35	12	0	1	1	71	658	прасковьи	appos	657	PROPN	PROP	Singular	Not_Assigned	3
+motherofNicolas	0	663	663	PER	своего	3371	3377	своего	1	30	35	18	1	0	0	72	663	своего	det	664	DET	PRON	Not_Assigned	Not_Assigned	3
+Praskovia	5	668	668	PER	своем	3397	3402	своем	1	31	36	2	0	0	0	73	668	своем	det	669	DET	PRON	Not_Assigned	Not_Assigned	3
+Praskovia	5	669	670	PER	Прасковья Ивановна	3403	3421	прасковья ивановна	2	31	36	3	0	0	0	74	669	прасковья	nsubj	679	PROPN	PROP	Singular	Not_Assigned	3
+motherofNicolas	0	676	677	PER	Варвара Петровна	3437	3453	варвара петровна	2	31	36	10	0	0	0	75	676	варвара	nsubj	679	PROPN	PROP	Singular	Not_Assigned	3
+motherofNicolas	0	690	690	PER	ее	3517	3519	ее	1	31	36	24	0	0	0	76	690	ее	obj	689	PRON	PRON	Not_Assigned	Not_Assigned	3
+Nicolas	2	693	694	PER	Николай Всеволодович	3525	3545	николай всеволодович	2	31	36	27	0	0	0	77	693	николай	nsubj	696	PROPN	PROP	Singular	Not_Assigned	3
+Lisa	7	703	703	PER	Лизой	3588	3593	лизой	1	31	36	37	0	0	0	78	703	лизой	obl	701	PROPN	PROP	Singular	Not_Assigned	3
+Lisa	7	705	707	PER	единственною ее дочерью	3596	3619	единственною ее дочерью	3	31	36	39	0	1	1	79	707	дочерью	nmod	705	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Praskovia	5	706	706	PER	ее	3609	3611	ее	1	31	36	40	1	0	0	80	706	ее	det	707	DET	PRON	Not_Assigned	Not_Assigned	3
+LisaPraskovia	42	712	712	PER	их	3645	3647	их	1	31	36	46	0	0	0	81	712	их	obj	711	PRON	PRON	Not_Assigned	Not_Assigned	3
+Suiss	11	715	715	GPE	Швейцарию	3656	3665	швейцарию	1	31	36	49	0	0	0	82	715	швейцарию	obl	711	PROPN	PROP	Not_Assigned	Not_Assigned	3
+GPE_T81	28	718	720	GPE	Vernex - Montreux	3669	3686	vernex - montreux	3	31	36	52	0	0	0	83	718	vernex	conj	679	X	PROP	Not_Assigned	Not_Assigned	3
+PER_T82	44	728	731	PER	семействе графа К.	3710	3728	семействе графа к ...	4	31	36	62	0	1	1	84	728	семействе	acl	724	NOUN	PROP	Singular	Not_Assigned	3
+grafK	14	729	731	PER	графа К.	3720	3728	графа к ...	3	31	36	63	1	0	0	85	729	графа	nmod	728	NOUN	PROP	Singular	Not_Assigned	3
+grafK	14	733	737	PER	весьма влиятельного в Петербурге лица	3733	3770	весьма влиятельного в петербурге лица	5	31	36	67	0	1	1	86	734	влиятельного	amod	737	ADJ	PROP	Singular	Not_Assigned	3
+Petersbourg	32	736	736	GPE	Петербурге	3755	3765	петербурге	1	31	36	70	1	0	0	87	736	петербурге	nmod	734	PROPN	PROP	Not_Assigned	Not_Assigned	3
+Paris	18	743	743	GPE	Париже	3796	3802	париже	1	31	36	77	0	0	0	88	743	париже	obl	740	PROPN	PROP	Not_Assigned	Not_Assigned	3
+PER_T87	37	747	748	PER	родной сын	3815	3825	родной сын	2	31	36	81	0	0	0	89	748	сын	obl	745	NOUN	NOM	Not_Assigned	Not_Assigned	3
+grafK	14	755	755	PER	графа	3849	3854	графа	1	31	36	89	0	0	0	90	755	графа	obl	753	NOUN	NOM	Not_Assigned	Not_Assigned	3
+motherofNicolas	0	775	776	PER	Варвара Петровна	3972	3988	варвара петровна	2	33	38	0	0	0	0	91	775	варвара	nsubj	779	PROPN	PROP	Singular	Not_Assigned	3
+motherofNicolas	0	788	788	PER	собою	4046	4051	собою	1	33	38	13	0	0	0	92	788	собою	obl	786	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Dasha	20	789	791	FAC	свою воспитанницу Дашу	4052	4074	свою воспитанницу дашу	3	33	38	14	0	1	1	93	790	воспитанницу	obj	786	NOUN	PROP	Not_Assigned	Not_Assigned	3
+motherofNicolas	0	789	789	PER	свою	4052	4056	свою	1	33	38	14	1	0	0	94	789	свою	det	790	DET	PRON	Not_Assigned	Not_Assigned	3
+Dasha	20	793	794	PER	сестру Шатова	4077	4090	сестру шатова	2	33	38	18	0	1	1	95	793	сестру	appos	791	NOUN	PROP	Singular	Not_Assigned	3
+Shatov	33	794	794	PER	Шатова	4084	4090	шатова	1	33	38	19	1	0	0	96	794	шатова	appos	793	PROPN	PROP	Singular	Not_Assigned	3
+Paris	18	802	802	GPE	Париж	4124	4129	париж	1	33	38	27	0	0	0	97	802	париж	obl	800	PROPN	PROP	Not_Assigned	Not_Assigned	3
+Suiss	11	806	806	GPE	Швейцарию	4140	4149	швейцарию	1	33	38	31	0	0	0	98	806	швейцарию	conj	802	PROPN	PROP	Not_Assigned	Not_Assigned	3
+motherofNicolas	0	809	809	PER	она	4163	4166	она	1	34	39	1	0	0	0	99	809	она	nsubj	808	PRON	PRON	Not_Assigned	Not_Assigned	3
+Dasha	20	815	815	PER	Дашу	4188	4192	дашу	1	34	39	7	0	0	0	100	815	дашу	obj	814	PROPN	PROP	Singular	Not_Assigned	3
+Drosdovi	8	817	817	PER	Дроздовых	4195	4204	дроздовых	1	34	39	9	0	0	0	101	817	дроздовых	obl	814	PROPN	PROP	Singular	Not_Assigned	3
+Drosdovi	8	819	819	PER	сами	4207	4211	сами	1	34	39	11	0	0	0	102	819	сами	amod	821	ADJ	NOM	Not_Assigned	Not_Assigned	3
+Drosdovi	8	821	821	PER	Дроздовы	4215	4223	дроздовы	1	34	39	13	0	0	0	103	821	дроздовы	nsubj	828	PROPN	PROP	Singular	Not_Assigned	3
+motherofNicolas	0	825	825	PER	ею	4241	4243	ею	1	34	39	17	0	0	0	104	825	ею	obl:agent	824	PRON	PRON	Not_Assigned	Not_Assigned	3
+autorreaders	4	831	831	PER	нам	4272	4275	нам	1	34	39	23	0	0	0	105	831	нам	obl	829	PRON	PRON	Not_Assigned	Not_Assigned	3
+Drosdovi	8	836	836	PER	Дроздовы	4294	4302	дроздовы	1	35	40	0	0	0	0	106	836	дроздовы	nsubj	839	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Drosdovi	8	839	841	PER	помещики нашей губернии	4313	4336	помещики нашей губернии	3	35	40	3	0	2	2	107	839	помещики	ROOT	839	NOUN	NOM	Not_Assigned	Not_Assigned	3
+GPE_T34	10	840	841	GPE	нашей губернии	4322	4336	нашей губернии	2	35	40	4	1	1	1	108	841	губернии	nmod	839	NOUN	NOM	Not_Assigned	Not_Assigned	3
+autorreaders	4	840	840	PER	нашей	4322	4327	нашей	1	35	40	4	2	0	0	109	840	нашей	det	841	DET	PRON	Not_Assigned	Not_Assigned	3
+IvanIvanovich	21	845	847	PER	генерала Ивана Ивановича	4348	4372	генерала ивана ивановича	3	35	40	9	0	0	0	110	845	генерала	nmod	844	NOUN	PROP	Singular	Not_Assigned	3
+IvanIvanovich	21	849	856	PER	бывшего приятеля Варвары Петровны и сослуживца ее мужа	4375	4429	бывшего приятеля варвары петровны и сослуживца ее мужа	8	35	40	13	0	2	3	111	850	приятеля	appos	846	NOUN	PROP	Singular	Not_Assigned	3
+motherofNicolas	0	851	852	PER	Варвары Петровны	4392	4408	варвары петровны	2	35	40	15	1	0	0	112	851	варвары	appos	850	PROPN	PROP	Singular	Not_Assigned	3
+Trophimovich	1	855	856	PER	ее мужа	4422	4429	ее мужа	2	35	40	19	1	1	1	113	856	мужа	nmod	854	NOUN	NOM	Not_Assigned	Not_Assigned	3
+motherofNicolas	0	855	855	PER	ее	4422	4424	ее	1	35	40	19	2	0	0	114	855	ее	det	856	DET	PRON	Not_Assigned	Not_Assigned	3
+Drosdovi	8	860	860	PER	им	4449	4451	им	1	35	40	24	0	0	0	115	860	им	iobj	859	PRON	PRON	Not_Assigned	Not_Assigned	3
+FAC_T111	40	865	867	FAC	их великолепное поместье	4475	4499	их великолепное поместье	3	35	40	29	0	1	1	116	867	поместье	obj	861	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Drosdovi	8	865	865	PER	их	4475	4477	их	1	35	40	29	1	0	0	117	865	их	det	867	DET	PRON	Not_Assigned	Not_Assigned	3
+IvanIvanovich	21	872	872	PER	генерала	4515	4523	генерала	1	36	41	3	0	0	0	118	872	генерала	nmod	870	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Praskovia	5	880	881	PER	Прасковья Ивановна	4566	4584	прасковья ивановна	2	36	41	11	0	0	0	119	880	прасковья	nsubj	882	PROPN	PROP	Singular	Not_Assigned	3
+Lisa	7	884	884	PER	дочерью	4599	4606	дочерью	1	36	41	15	0	0	0	120	884	дочерью	obl	882	NOUN	NOM	Not_Assigned	Not_Assigned	3
+GPE_T81	28	902	904	GPE	Vernex - Montreux	4713	4730	vernex - montreux	3	36	41	33	0	0	0	121	902	vernex	obl	900	X	NOM	Not_Assigned	Not_Assigned	3
+Russia	24	914	914	GPE	отечество	4777	4786	отечество	1	37	42	4	0	0	0	122	914	отечество	nmod	911	NOUN	NOM	Not_Assigned	Not_Assigned	3
+GPE_T34	10	918	919	GPE	нашей губернии	4813	4827	нашей губернии	2	37	42	8	0	1	1	123	919	губернии	obl	916	NOUN	NOM	Not_Assigned	Not_Assigned	3
+autorreaders	4	918	918	PER	нашей	4813	4818	нашей	1	37	42	8	1	0	0	124	918	нашей	det	919	DET	PRON	Not_Assigned	Not_Assigned	3
+thecity	19	923	923	GPE	городе	4841	4847	городе	1	38	43	1	0	0	0	125	923	городе	obl	926	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Praskovia	5	925	925	PER	нее	4850	4853	нее	1	38	43	3	0	0	0	126	925	нее	obl	926	PRON	PRON	Not_Assigned	Not_Assigned	3
+houseofPraskovia	39	927	938	FAC	большой дом, много уже лет стоявший пустым, с заколоченными окнами	4858	4924	большой дом , много уже лет стоявший пустым , с заколоченными окнами	12	38	43	5	0	0	0	127	933	стоявший	acl	928	VERB	NOM	Not_Assigned	Not_Assigned	3
+familyofPraskovia	34	940	940	PER	Люди	4927	4931	люди	1	39	44	0	0	0	0	128	940	люди	nsubj	942	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Praskovia	5	944	945	PER	Прасковья Ивановна	4947	4965	прасковья ивановна	2	40	45	0	0	0	0	129	944	прасковья	nsubj	958	PROPN	PROP	Singular	Not_Assigned	3
+Praskovia	5	950	951	PER	госпожа Тушина	4988	5002	госпожа тушина	2	40	45	6	0	0	0	130	950	госпожа	appos	944	NOUN	PROP	Singular	Not_Assigned	3
+motherofNicolas	0	957	961	PER	пансионская подруга ее Варвара Петровна	5016	5055	пансионская подруга ее варвара петровна	5	40	45	13	0	1	1	131	958	подруга	ROOT	958	NOUN	PROP	Singular	Not_Assigned	3
+Praskovia	5	959	959	PER	ее	5036	5038	ее	1	40	45	15	1	0	0	132	959	ее	nmod	958	PRON	PRON	Not_Assigned	Not_Assigned	3
+Praskovia	5	964	967	PER	дочерью откупщика прошедшего времени	5062	5098	дочерью откупщика прошедшего времени	4	40	45	20	0	1	1	133	964	дочерью	conj	958	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T125	54	965	967	PER	откупщика прошедшего времени	5070	5098	откупщика прошедшего времени	3	40	45	21	1	0	0	134	967	времени	nmod	965	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Tushin	16	976	980	PER	Отставной штаб - ротмистр Тушин	5139	5170	отставной штаб - ротмистр тушин	5	41	46	0	0	0	0	135	977	штаб	nsubj	984	NOUN	PROP	Singular	Not_Assigned	3
+Tushin	16	984	990	PER	человек со средствами и с некоторыми способностями	5181	5231	человек со средствами и с некоторыми способностями	7	41	46	8	0	0	0	136	990	способностями	conj	986	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Tushin	16	993	993	PER	он	5241	5243	он	1	42	47	1	0	0	0	137	993	он	nsubj	994	PRON	PRON	Not_Assigned	Not_Assigned	3
+Lisa	7	995	1000	PER	своей семилетней и единственной дочери Лизе	5252	5295	своей семилетней и единственной дочери лизе	6	42	47	3	0	0	0	138	999	дочери	iobj	994	NOUN	PROP	Singular	Not_Assigned	3
+Lisa	7	1007	1008	PER	Лизавете Николаевне	5328	5347	лизавете николаевне	2	43	48	3	0	0	0	139	1007	лизавете	iobj	1009	VERB	PROP	Singular	Not_Assigned	3
+Lisa	7	1017	1017	PER	нею	5385	5388	нею	1	43	48	13	0	0	0	140	1017	нею	obl	1019	PRON	PRON	Not_Assigned	Not_Assigned	3
+Lisa	7	1027	1027	PER	ее	5444	5446	ее	1	43	48	23	0	0	0	141	1027	ее	det	1029	DET	PRON	Not_Assigned	Not_Assigned	3
+Lisa	7	1040	1040	PER	ей	5513	5515	ей	1	43	48	36	0	0	0	142	1040	ей	iobj	1041	PRON	PRON	Not_Assigned	Not_Assigned	3
+Praskovia	5	1044	1051	PER	матери, не имевшей детей во втором супружестве	5543	5589	матери , не имевшей детей во втором супружестве	8	43	48	40	0	1	1	143	1047	имевшей	acl	1044	VERB	NOM	Not_Assigned	Not_Assigned	3
+PER_T135	46	1048	1048	PER	детей	5562	5567	детей	1	43	48	44	1	0	0	144	1048	детей	obj	1047	NOUN	NOM	Not_Assigned	Not_Assigned	3
+motherofNicolas	0	1053	1054	PER	Варвара Петровна	5592	5608	варвара петровна	2	44	49	0	0	0	0	145	1053	варвара	nsubj	1055	PROPN	PROP	Singular	Not_Assigned	3
+motherofNicolas	0	1065	1065	PER	ее	5663	5665	ее	1	45	50	1	0	0	0	146	1065	ее	det	1066	DET	PRON	Not_Assigned	Not_Assigned	3
+motherofNicolas	0	1068	1068	PER	она	5674	5677	она	1	45	50	4	0	0	0	147	1068	она	nsubj	1069	PRON	PRON	Not_Assigned	Not_Assigned	3
+Praskovia	5	1072	1073	PER	Прасковьей Ивановной	5699	5719	прасковьей ивановной	2	45	50	8	0	0	0	148	1072	прасковьей	obl	1070	PROPN	PROP	Singular	Not_Assigned	3
+Trophimovich	1	1082	1083	PER	Степану Трофимовичу	5774	5793	степану трофимовичу	2	45	50	18	0	0	0	149	1082	степану	appos	1081	PROPN	PROP	Singular	Not_Assigned	3
+Trophimovich	1	1088	1088	PER	ним	5808	5811	ним	1	45	50	24	0	0	0	150	1088	ним	obl	1090	PRON	PRON	Not_Assigned	Not_Assigned	3
+motherofNicolas	0	1096	1096	PER	нею	5848	5851	нею	1	45	50	32	0	0	0	151	1096	нею	obl	1098	PRON	PRON	Not_Assigned	Not_Assigned	3
+Trophimovich	1	1107	1108	PER	Степан Трофимович	5890	5907	степан трофимович	2	46	52	3	0	0	0	152	1107	степан	appos	1106	PROPN	PROP	Singular	Not_Assigned	3
+Trophimovich	1	1113	1113	PER	Он	5932	5934	он	1	47	53	0	0	0	0	153	1113	он	nsubj	1117	PRON	PRON	Not_Assigned	Not_Assigned	3
+motherofNicolas	0	1127	1128	PER	своим другом	5993	6005	своим другом	2	47	53	14	0	1	1	154	1128	другом	nmod	1125	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Trophimovich	1	1127	1127	PER	своим	5993	5998	своим	1	47	53	14	1	0	0	155	1127	своим	det	1128	DET	PRON	Not_Assigned	Not_Assigned	3
+motherofNicolas	0	1138	1138	PER	она	6051	6054	она	1	48	54	4	0	0	0	156	1138	она	nsubj	1143	PRON	PRON	Not_Assigned	Not_Assigned	3
+Trophimovich	1	1141	1141	PER	ним	6062	6065	ним	1	48	54	7	0	0	0	157	1141	ним	obl	1143	PRON	PRON	Not_Assigned	Not_Assigned	3
+motherofNicolas	0	1151	1151	PER	своих	6116	6121	своих	1	48	54	17	0	0	0	158	1151	своих	det	1152	DET	PRON	Not_Assigned	Not_Assigned	3
+Praskovia	5	1154	1155	PER	этой бабе	6131	6140	этой бабе	2	48	54	20	0	0	0	159	1155	бабе	iobj	1149	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Trophimovich	1	1163	1163	PER	он	6170	6172	он	1	48	54	29	0	0	0	160	1163	он	nsubj	1166	PRON	PRON	Not_Assigned	Not_Assigned	3
+motherofNicolas	0	1168	1168	PER	Она	6193	6196	она	1	49	55	0	0	0	0	161	1168	она	nsubj	1169	PRON	PRON	Not_Assigned	Not_Assigned	3
+Trophimovich	1	1171	1171	PER	него	6210	6214	него	1	49	55	3	0	0	0	162	1171	него	obl	1169	PRON	PRON	Not_Assigned	Not_Assigned	3
+Suiss	11	1184	1184	GPE	Швейцарии	6292	6301	швейцарии	1	50	56	3	0	0	0	163	1184	швейцарии	obl	1185	PROPN	PROP	Not_Assigned	Not_Assigned	3
+Trophimovich	1	1190	1191	PER	брошенного друга	6335	6351	брошенного друга	2	50	56	9	0	0	0	164	1191	друга	iobj	1192	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Trophimovich	1	1207	1207	PER	ним	6422	6425	ним	1	50	56	26	0	0	0	165	1207	ним	obl	1208	PRON	PRON	Not_Assigned	Not_Assigned	3
+Trophimovich	1	1219	1220	PER	Степана Трофимовича	6505	6524	степана трофимовича	2	51	57	9	0	0	0	166	1219	степана	nmod	1218	PROPN	PROP	Singular	Not_Assigned	3
+Trophimovich	1	1233	1233	PER	Его	6578	6581	его	1	52	58	0	0	0	0	167	1233	его	obj	1234	PRON	PRON	Not_Assigned	Not_Assigned	3
+motherofNicolas	0	1246	1247	PER	Варвары Петровны	6669	6685	варвары петровны	2	52	58	13	0	0	0	168	1246	варвары	nmod	1245	PROPN	PROP	Singular	Not_Assigned	3
+osipovich	23	1265	1270	PER	нашего доброго, мягкого Ивана Осиповича	6795	6834	нашего доброго , мягкого ивана осиповича	6	53	59	11	0	1	1	169	1269	ивана	nmod	1264	PROPN	PROP	Singular	Not_Assigned	3
+autorreaders	4	1265	1265	PER	нашего	6795	6801	нашего	1	53	59	11	1	0	0	170	1265	нашего	det	1269	DET	PRON	Not_Assigned	Not_Assigned	3
+osipovich	23	1272	1272	PER	его	6837	6840	его	1	53	59	18	0	0	0	171	1272	его	obj	1273	PRON	PRON	Not_Assigned	Not_Assigned	3
+motherofNicolas	0	1284	1285	PER	Варвары Петровны	6896	6912	варвары петровны	2	54	60	4	0	0	0	172	1284	варвары	nmod	1283	PROPN	PROP	Singular	Not_Assigned	3
+fonLembke	6	1290	1292	PER	нашего нового начальника	6932	6956	нашего нового начальника	3	54	60	10	0	1	1	173	1292	начальника	nmod	1289	NOUN	NOM	Not_Assigned	Not_Assigned	3
+autorreaders	4	1290	1290	PER	нашего	6932	6938	нашего	1	54	60	10	1	0	0	174	1290	нашего	det	1292	DET	PRON	Not_Assigned	Not_Assigned	3
+fonLembke	6	1294	1298	PER	Андрея Антоновича фон-Лембке	6958	6986	андрея антоновича фон - лембке	5	54	60	14	0	0	0	175	1294	андрея	appos	1292	PROPN	PROP	Singular	Not_Assigned	3
+society	17	1311	1315	FAC	почти всего нашего губернского общества	7055	7094	почти всего нашего губернского общества	5	54	60	31	0	1	1	176	1315	общества	nmod	1310	NOUN	NOM	Not_Assigned	Not_Assigned	3
+autorreaders	4	1313	1313	PER	нашего	7067	7073	нашего	1	54	60	33	1	0	0	177	1313	нашего	det	1315	DET	PRON	Not_Assigned	Not_Assigned	3
+motherofNicolas	0	1317	1318	PER	Варваре Петровне	7097	7113	варваре петровне	2	54	60	37	0	0	0	178	1317	варваре	nmod	1315	PROPN	PROP	Singular	Not_Assigned	3
+Trophimovich	1	1325	1326	PER	Степану Трофимовичу	7132	7151	степану трофимовичу	2	54	60	45	0	0	0	179	1325	степану	obl	1321	PROPN	PROP	Singular	Not_Assigned	3
+Trophimovich	1	1331	1331	PER	он	7170	7172	он	1	55	61	3	0	0	0	180	1331	он	nsubj	1333	PRON	PRON	Not_Assigned	Not_Assigned	3
+motherofNicolas	0	1351	1352	PER	Варвары Петровны	7278	7294	варвары петровны	2	55	61	23	0	0	0	181	1351	варвары	nmod	1349	PROPN	PROP	Singular	Not_Assigned	3
+Trophimovich	1	1354	1354	PER	Он	7297	7299	он	1	56	62	0	0	0	0	182	1354	он	nsubj	1357	PRON	PRON	Not_Assigned	Not_Assigned	3
+Trophimovich	1	1361	1361	PER	нем	7330	7333	нем	1	56	62	7	0	0	0	183	1361	нем	obl	1363	PRON	PRON	Not_Assigned	Not_Assigned	3
+fonLembke	6	1364	1365	PER	новому губернатору	7346	7364	новому губернатору	2	56	62	10	0	0	0	184	1365	губернатору	iobj	1363	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T172	47	1369	1370	PER	человеке опасном	7372	7388	человеке опасном	2	56	62	15	0	0	0	185	1369	человеке	obl	1363	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Trophimovich	1	1372	1372	PER	Он	7391	7393	он	1	57	63	0	0	0	0	186	1372	он	nsubj	1373	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T174	48	1377	1380	PER	некоторые из наших дам	7418	7440	некоторые из наших дам	4	57	63	5	0	2	2	187	1380	дам	nmod	1377	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T175	15	1379	1380	PER	наших дам	7431	7440	наших дам	2	57	63	7	1	1	1	188	1380	дам	nmod	1377	NOUN	NOM	Not_Assigned	Not_Assigned	3
+autorreaders	4	1379	1379	PER	наших	7431	7436	наших	1	57	63	7	2	0	0	189	1379	наших	det	1380	DET	PRON	Not_Assigned	Not_Assigned	3
+motherofNicolas	0	1384	1385	PER	Варваре Петровне	7467	7483	варваре петровне	2	57	63	12	0	0	0	190	1384	варваре	obl	1382	PROPN	PROP	Singular	Not_Assigned	3
+newgouverneuse	9	1389	1399	PER	будущей губернаторше ( которую ждали у нас только к осени )	7495	7554	будущей губернаторше ( которую ждали у нас только к осени )	11	58	64	1	0	0	0	191	1393	ждали	parataxis	1390	VERB	NOM	Not_Assigned	Not_Assigned	3
+newgouverneuse	9	1403	1403	PER	она	7570	7573	она	1	58	64	15	0	0	0	192	1403	она	nsubj	1404	PRON	PRON	Not_Assigned	Not_Assigned	3
+newgouverneuse	9	1409	1409	PER	гордячка	7590	7598	гордячка	1	58	64	21	0	0	0	193	1409	гордячка	conj	1404	NOUN	NOM	Not_Assigned	Not_Assigned	3
+newgouverneuse	9	1413	1415	PER	уже настоящая аристократка	7608	7634	уже настоящая аристократка	3	58	64	25	0	0	0	194	1414	настоящая	amod	1415	ADJ	NOM	Not_Assigned	Not_Assigned	3
+motherofNicolas	0	1422	1428	PER	какая-нибудь наша несчастная Варвара Петровна	7650	7695	какая - нибудь наша несчастная варвара петровна	7	58	64	34	0	1	1	195	1427	варвара	conj	1404	PROPN	PROP	Singular	Not_Assigned	3
+autorreaders	4	1425	1425	PER	наша	7663	7667	наша	1	58	64	37	1	0	0	196	1425	наша	det	1427	DET	PRON	Not_Assigned	Not_Assigned	3
+society	17	1431	1431	PER	Всем	7700	7704	всем	1	59	65	0	0	0	0	197	1431	всем	det	1432	DET	PRON	Not_Assigned	Not_Assigned	3
+newgouverneuse	9	1442	1443	PER	новая губернаторша	7765	7783	новая губернаторша	2	59	65	11	0	0	0	198	1443	губернаторша	nsubj	1448	NOUN	NOM	Not_Assigned	Not_Assigned	3
+motherofNicolas	0	1445	1446	PER	Варвара Петровна	7786	7802	варвара петровна	2	59	65	14	0	0	0	199	1445	варвара	conj	1443	PROPN	PROP	Singular	Not_Assigned	3
+newgouverneuse	9	1462	1466	PER	г-же фон- Лембке	7890	7906	г - же фон- лембке	5	59	65	31	0	0	0	200	1463		nmod	1460	NOUN	PROP	Singular	Male	3
+motherofNicolas	0	1471	1472	PER	Варвару Петровну	7930	7946	варвару петровну	2	59	65	40	0	0	0	201	1471	варвару	obl	1467	PROPN	PROP	Singular	Not_Assigned	3
+motherofNicolas	0	1480	1481	PER	Варвары Петровны	7999	8015	варвары петровны	2	60	66	4	0	0	0	202	1480	варвары	nmod	1479	PROPN	PROP	Singular	Not_Assigned	3
+motherofNicolas	0	1488	1488	PER	она	8053	8056	она	1	60	66	12	0	0	0	203	1488	она	nsubj	1489	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T175	15	1492	1493	PER	наших дам	8077	8086	наших дам	2	60	66	16	0	1	1	204	1493	дам	nmod	1491	NOUN	NOM	Not_Assigned	Not_Assigned	3
+autorreaders	4	1492	1492	PER	наших	8077	8082	наших	1	60	66	16	1	0	0	205	1492	наших	det	1493	DET	PRON	Not_Assigned	Not_Assigned	3
+society	17	1497	1497	PER	общества	8100	8108	общества	1	60	66	21	0	0	0	206	1497	общества	nmod	1496	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Trophimovich	1	1502	1504	PER	робевшего Степана Трофимовича	8133	8162	робевшего степана трофимовича	3	60	66	26	0	0	0	207	1502	робевшего	nmod	1501	VERB	PROP	Singular	Not_Assigned	3
+Trophimovich	1	1508	1508	PER	его	8183	8186	его	1	60	66	32	0	0	0	208	1508	его	obj	1507	PRON	PRON	Not_Assigned	Not_Assigned	3
+Trophimovich	1	1520	1520	PER	он	8241	8243	он	1	61	67	10	0	0	0	209	1520	он	nsubj	1522	PRON	PRON	Not_Assigned	Not_Assigned	3
+motherofNicolas	0	1521	1521	PER	ей	8244	8246	ей	1	61	67	11	0	0	0	210	1521	ей	iobj	1522	PRON	PRON	Not_Assigned	Not_Assigned	3
+fonLembke	6	1525	1526	PER	нового губернатора	8269	8287	нового губернатора	2	61	67	15	0	0	0	211	1526	губернатора	nmod	1524	NOUN	NOM	Not_Assigned	Not_Assigned	3
+motherofNicolas	0	1530	1530	PER	Вам	8294	8297	вам	1	62	68	2	0	0	0	212	1530	вам	xcomp	1518	ADV	NOM	Not_Assigned	Not_Assigned	3
+motherofNicolas	0	1532	1533	PER	excellente amie	8299	8314	excellente amie	2	62	68	4	0	0	0	213	1532	excellente	nsubj	1518	X	NOM	Not_Assigned	Not_Assigned	3
+Trophimovich	1	1543	1543	PER	он	8359	8361	он	1	62	68	15	0	0	0	214	1543	он	nsubj	1542	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T198	25	1556	1557	PER	русский администратор	8425	8446	русский администратор	2	62	68	28	0	0	0	215	1557	администратор	nsubj	1555	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T198	25	1565	1566	PER	русский администратор	8476	8497	русский администратор	2	62	68	37	0	0	0	216	1566	администратор	nsubj	1564	NOUN	NOM	Not_Assigned	Not_Assigned	3
+motherofNicolas	0	1586	1586	PER	вы	8602	8604	вы	1	64	70	4	0	0	0	217	1586	вы	nsubj	1585	PRON	PRON	Not_Assigned	Not_Assigned	3
+motherofNicolas	0	1617	1617	PER	Vous	8763	8767	vous	1	68	74	0	0	0	0	218	1617	vous	nsubj	1585	X	PRON	Ambiguous	Ambiguous	2
+autorreaders	4	1620	1620	PER	nous	8779	8783	nous	1	68	74	3	0	0	0	219	1620	nous	flat:foreign	1617	X	PRON	Plural	Ambiguous	1
+PER_T201	12	1627	1632	PER	какую-нибудь самую последнюю ничтожность	8809	8849	какую - нибудь самую последнюю ничтожность	6	69	75	5	0	0	0	220	1632	ничтожность	obj	1626	NOUN	NOM	Not_Assigned	Not_Assigned	3
+VEH_T203	35	1641	1642	VEH	железную дорогу	8892	8907	железную дорогу	2	69	75	19	0	0	0	221	1642	дорогу	nmod	1639	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T201	12	1645	1646	PER	эта ничтожность	8911	8926	эта ничтожность	2	69	75	23	0	0	0	222	1646	ничтожность	nsubj	1649	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T201	12	1650	1650	PER	себя	8944	8948	себя	1	69	75	28	0	0	0	223	1650	себя	obj	1649	PRON	PRON	Not_Assigned	Not_Assigned	3
+motherofNicolas	0	1655	1655	PER	вас	8969	8972	вас	1	69	75	33	0	0	0	224	1655	вас	obl	1653	PRON	PRON	Not_Assigned	Not_Assigned	3
+motherofNicolas	0	1659	1659	PER	вы	8989	8991	вы	1	69	75	37	0	0	0	225	1659	вы	nsubj	1660	PRON	PRON	Not_Assigned	Not_Assigned	3
+motherofNicolas	0	1665	1665	PER	vous	9018	9022	vous	1	69	75	43	0	0	0	226	1665	vous	flat:foreign	1664	X	PRON	Ambiguous	Ambiguous	2
+PER_T201	12	1667	1667	PER	son	9031	9034	son	1	69	75	45	0	0	0	227	1667	son	flat:foreign	1664	X	PRON	Singular	Ambiguous	3
+M1	26	1676	1676	PER	я	9065	9066	я	1	70	76	6	0	0	0	228	1676	я	nsubj	1677	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T209	51	1679	1679	PER	тобой	9078	9083	тобой	1	70	76	9	0	0	0	229	1679	тобой	obl	1677	PRON	PRON	Not_Assigned	Not_Assigned	3
+M1	26	1680	1680	PER	мою	9084	9087	мою	1	70	76	10	0	0	0	230	1680	мою	det	1681	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T210	52	1687	1687	PER	них	9109	9112	них	1	71	77	3	0	0	0	231	1687	них	obl	1691	PRON	PRON	Not_Assigned	Not_Assigned	3
+Trophimovich	1	1697	1697	PER	я	9166	9167	я	1	72	78	4	0	0	0	232	1697	я	nsubj	1699	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T212	13	1702	1705	PER	какой-то дьячок	9184	9199	какой - то дьячок	4	72	78	9	0	0	0	233	1705	дьячок	nsubj	1728	NOUN	NOM	Not_Assigned	Not_Assigned	3
+FAC_T213	27	1708	1712	FAC	одной из наших заграничных церквей	9203	9237	одной из наших заграничных церквей	5	72	78	15	0	0	0	234	1712	церквей	nmod	1708	NOUN	NOM	Not_Assigned	Not_Assigned	3
+FAC_T213	27	1731	1731	FAC	церкви	9308	9314	церкви	1	72	78	38	0	0	0	235	1731	церкви	obl	1728	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T215	29	1732	1735	PER	одно замечательное английское семейство	9315	9354	одно замечательное английское семейство	4	72	78	39	0	0	0	236	1735	семейство	obj	1728	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T215	29	1737	1739	PER	les dames charmantes	9356	9376	les dames charmantes	3	72	78	44	0	0	0	237	1737	les	appos	1735	X	NOM	Plural	Not_Assigned	3
+motherofNicolas	0	1749	1749	PER	vous	9430	9434	vous	1	72	78	56	0	0	0	238	1749	vous	obj	1728	X	PRON	Ambiguous	Ambiguous	2
+PER_T216	53	1767	1767	PER	иностранцам	9520	9531	иностранцам	1	72	78	74	0	0	0	239	1767	иностранцам	iobj	1766	NOUN	NOM	Not_Assigned	Not_Assigned	3
+FAC_T217	38	1769	1770	FAC	русским церквам	9535	9550	русским церквам	2	72	78	76	0	0	0	240	1770	церквам	obl	1766	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T212	13	1787	1788	PER	Этот дьячок	9633	9644	этот дьячок	2	73	79	0	0	0	0	241	1788	дьячок	nsubj	1791	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T212	13	1795	1795	PER	il	9690	9692	il	1	73	79	8	0	0	0	242	1795	il	flat:foreign	1794	X	PRON	Singular	Male	3
+PER_T212	13	1798	1798	PER	son	9702	9705	son	1	73	79	11	0	0	0	243	1798	son	flat:foreign	1794	X	PRON	Singular	Ambiguous	3
+Trophimovich	1	1808	1809	PER	Степан Трофимович	9746	9763	степан трофимович	2	74	80	7	0	0	0	244	1808	степан	nsubj	1806	PROPN	PROP	Singular	Not_Assigned	3
+fonLembke	6	1813	1815	PER	Господин фон- Лембке	9770	9790	господин фон- лембке	3	75	81	2	0	0	0	245	1813	господин	nsubj	1816	PROPN	PROP	Singular	Not_Assigned	3
+GPE_T34	10	1819	1819	GPE	губернии	9808	9816	губернии	1	75	81	8	0	0	0	246	1819	губернии	obl	1816	NOUN	NOM	Not_Assigned	Not_Assigned	3
+fonLembke	6	1826	1827	PER	Андрей Антонович	9835	9851	андрей антонович	2	76	82	5	0	0	0	247	1826	андрей	conj	1821	PROPN	PROP	Singular	Not_Assigned	3
+fonLembke	6	1831	1834	PER	русский немец православного исповедания	9860	9899	русский немец православного исповедания	4	76	82	10	0	0	0	248	1832	немец	nsubj	1859	NOUN	NOM	Not_Assigned	Not_Assigned	3
+fonLembke	6	1842	1842	PER	ему	9921	9924	ему	1	76	82	21	0	0	0	249	1842	ему	iobj	1841	PRON	PRON	Not_Assigned	Not_Assigned	3
+fonLembke	6	1847	1852	PER	замечательно красивый мужчина, из сорокалетних	9934	9980	замечательно красивый мужчина , из сорокалетних	6	76	82	26	0	1	1	250	1849	мужчина	nsubj	1859	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T226	56	1852	1852	PER	сорокалетних	9968	9980	сорокалетних	1	76	82	31	1	0	0	251	1852	сорокалетних	amod	1849	ADJ	NOM	Not_Assigned	Not_Assigned	3
+Trophimovich	1	1858	1858	PER	вы	9996	9998	вы	1	77	83	4	0	0	0	252	1858	вы	nsubj	1859	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T228	57	1862	1863	PER	красивый мужчина	10010	10026	красивый мужчина	2	77	83	8	0	0	0	253	1863	мужчина	ccomp	1859	NOUN	NOM	Not_Assigned	Not_Assigned	3
+fonLembke	6	1866	1866	PER	него	10032	10036	него	1	78	84	1	0	0	0	254	1866	него	ROOT	1866	PRON	PRON	Not_Assigned	Not_Assigned	3
+Trophimovich	1	1878	1878	PER	я	10082	10083	я	1	80	86	2	0	0	0	255	1878	я	nsubj	1879	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T175	15	1886	1887	PER	наших дам	10112	10121	наших дам	2	80	86	10	0	1	1	256	1887	дам	nmod	1885	NOUN	NOM	Not_Assigned	Not_Assigned	3
+autorreaders	4	1886	1886	PER	наших	10112	10117	наших	1	80	86	10	1	0	0	257	1886	наших	det	1887	DET	PRON	Not_Assigned	Not_Assigned	3
+Trophimovich	1	1893	1894	PER	Степан Трофимович	10142	10159	степан трофимович	2	81	87	4	0	0	0	258	1893	степан	conj	1879	PROPN	PROP	Singular	Not_Assigned	3
+Trophimovich	1	1897	1897	PER	вас	10167	10170	вас	1	81	87	8	0	0	0	259	1897	вас	obj	1896	PRON	PRON	Not_Assigned	Not_Assigned	3
+Trophimovich	1	1901	1901	PER	вы	10182	10184	вы	1	82	88	2	0	0	0	260	1901	вы	nsubj	1902	PRON	PRON	Not_Assigned	Not_Assigned	3
+Trophimovich	1	1912	1912	PER	я	10230	10231	я	1	83	89	3	0	0	0	261	1912	я	nsubj	1902	PRON	PRON	Not_Assigned	Not_Assigned	3
+Trophimovich	1	1914	1914	PER	я	10235	10236	я	1	83	89	5	0	0	0	262	1914	я	nsubj	1921	PRON	PRON	Not_Assigned	Not_Assigned	3
+Trophimovich	1	1923	1923	PER	вы	10273	10275	вы	1	84	90	5	0	0	0	263	1923	вы	nsubj	1921	PRON	PRON	Not_Assigned	Not_Assigned	3
+Trophimovich	1	1924	1924	PER	ваш	10276	10279	ваш	1	84	90	6	0	0	0	264	1924	ваш	det	1925	DET	PRON	Not_Assigned	Not_Assigned	3
+Trophimovich	1	1936	1936	PER	вам	10344	10347	вам	1	85	91	9	0	0	0	265	1936	вам	iobj	1937	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T240	58	1938	1938	PER	доктором	10359	10367	доктором	1	85	91	11	0	0	0	266	1938	доктором	obl:agent	1937	NOUN	NOM	Not_Assigned	Not_Assigned	3
+motherofNicolas	0	1950	1950	PER	я	10401	10402	я	1	87	93	3	0	0	0	267	1950	я	nsubj	1952	PRON	PRON	Not_Assigned	Not_Assigned	3
+motherofNicolas	0	1954	1954	PER	Я	10414	10415	я	1	88	94	0	0	0	0	268	1954	я	nsubj	1959	PRON	PRON	Not_Assigned	Not_Assigned	3
+Suiss	11	1956	1956	GPE	Швейцарии	10418	10427	швейцарии	1	88	94	2	0	0	0	269	1956	швейцарии	obl	1959	PROPN	PROP	Not_Assigned	Not_Assigned	3
+motherofNicolas	0	1965	1965	PER	она	10483	10486	она	1	88	95	4	0	0	0	270	1965	она	nsubj	1964	PRON	PRON	Not_Assigned	Not_Assigned	3
+Trophimovich	1	1970	1970	PER	вы	10499	10501	вы	1	88	95	9	0	0	0	271	1970	вы	nsubj	1974	PRON	PRON	Not_Assigned	Not_Assigned	3
+Trophimovich	1	1982	1982	PER	Вы	10550	10552	вы	1	89	96	0	0	0	0	272	1982	вы	nsubj	1984	PRON	PRON	Not_Assigned	Not_Assigned	3
+Trophimovich	1	1992	1992	PER	Вы	10592	10594	вы	1	90	97	0	0	0	0	273	1992	вы	nsubj	1999	PRON	PRON	Not_Assigned	Not_Assigned	3
+Trophimovich	1	1998	1998	PER	вы	10616	10618	вы	1	90	97	6	0	0	0	274	1998	вы	nsubj	1999	PRON	PRON	Not_Assigned	Not_Assigned	3
+Trophimovich	1	2001	2001	PER	вы	10632	10634	вы	1	90	97	9	0	0	0	275	2001	вы	nsubj	2002	PRON	PRON	Not_Assigned	Not_Assigned	3
+motherofNicolas	0	2003	2003	PER	меня	10644	10648	меня	1	90	97	11	0	0	0	276	2003	меня	obj	2002	PRON	PRON	Not_Assigned	Not_Assigned	3
+motherofNicolas	0	2006	2006	PER	я	10656	10657	я	1	90	97	14	0	0	0	277	2006	я	nsubj	2008	PRON	PRON	Not_Assigned	Not_Assigned	3
+Trophimovich	1	2007	2007	PER	вас	10658	10661	вас	1	90	97	15	0	0	0	278	2007	вас	obj	2008	PRON	PRON	Not_Assigned	Not_Assigned	3
+Trophimovich	1	2013	2013	PER	ваш	10690	10693	ваш	1	90	97	21	0	0	0	279	2013	ваш	det	2015	DET	PRON	Not_Assigned	Not_Assigned	3

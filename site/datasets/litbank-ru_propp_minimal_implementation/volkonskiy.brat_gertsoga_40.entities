@@ -1,0 +1,326 @@
+COREF_name	COREF	start_token	end_token	cat	sacr_text	byte_onset	byte_offset	text	mention_len	paragraph_ID	sentence_ID	start_token_ID_within_sentence	out_to_in_nested_level	in_to_out_nested_level	nested_entities_count	temp_index	head_id	head_word	head_dependency_relation	head_syntactic_head_ID	POS_tag	prop	number	gender	grammatical_person
+Yuliana	32	0	0	PER	Юлиана	0	6	юлиана	1	0	0	0	0	0	0	0	0	юлиана	nsubj	3	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T2	20	5	5	PER	ней	38	41	ней	1	0	0	5	0	0	0	1	5	ней	obl	3	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T2	20	17	17	PER	ты	82	84	ты	1	0	0	17	0	0	0	2	17	ты	nsubj	20	PRON	PRON	Not_Assigned	Not_Assigned	3
+T4	27	24	24	PER	мамка	110	115	мамка	1	1	1	2	0	0	0	3	24	мамка	nsubj	25	NOUN	NOM	Not_Assigned	Not_Assigned	3
+T4	27	26	26	PER	свои	125	129	свои	1	1	1	4	0	0	0	4	26	свои	det	27	DET	PRON	Not_Assigned	Not_Assigned	3
+FAC_T6	40	29	29	FAC	девичьей	143	151	девичьей	1	1	1	7	0	0	0	5	29	девичьей	obl	25	ADJ	NOM	Not_Assigned	Not_Assigned	3
+T7	26	32	39	PER	тот сведущий человек, который разговаривал с принцессой	157	212	тот сведущий человек , который разговаривал с принцессой	8	1	1	10	0	1	1	6	34	человек	nsubj	42	NOUN	NOM	Not_Assigned	Not_Assigned	3
+T8	28	39	39	PER	принцессой	202	212	принцессой	1	1	1	17	1	0	0	7	39	принцессой	obl	37	NOUN	NOM	Not_Assigned	Not_Assigned	3
+T7	26	42	42	PER	сведущий	228	236	сведущий	1	1	1	20	0	0	0	8	42	сведущий	acl	29	VERB	NOM	Not_Assigned	Not_Assigned	3
+knyaz	0	55	64	PER	Князь Борис, не на шутку - принявшийся за дело	291	337	князь борис , не на шутку - принявшийся за дело	10	4	4	0	0	0	0	9	60	шутку	obl	67	NOUN	PROP	Singular	Not_Assigned	3
+knyaz	0	77	77	PER	ему	404	407	ему	1	4	4	22	0	0	0	10	77	ему	iobj	76	PRON	PRON	Not_Assigned	Not_Assigned	3
+knyaz	0	84	84	PER	он	441	443	он	1	5	5	4	0	0	0	11	84	он	nsubj	85	PRON	PRON	Not_Assigned	Not_Assigned	3
+houseoffatherofknyaz	8	94	97	FAC	старом доме его отца	498	518	старом доме его отца	4	5	5	14	0	2	2	12	95	доме	obl	92	NOUN	NOM	Not_Assigned	Not_Assigned	3
+fatherofknyaz	2	96	97	PER	его отца	510	518	его отца	2	5	5	16	1	1	1	13	97	отца	nmod	95	NOUN	NOM	Not_Assigned	Not_Assigned	3
+knyaz	0	96	96	PER	его	510	513	его	1	5	5	16	2	0	0	14	96	его	nmod	97	PRON	PRON	Not_Assigned	Not_Assigned	3
+knyaz	0	111	111	PER	его	584	587	его	1	5	5	31	0	0	0	15	111	его	obj	110	PRON	PRON	Not_Assigned	Not_Assigned	3
+Danilov	3	117	117	PER	Даниловым	613	622	даниловым	1	5	5	37	0	0	0	16	117	даниловым	obl	115	PROPN	PROP	Singular	Not_Assigned	3
+houseoffatherofknyaz	8	119	119	FAC	дом	625	628	дом	1	5	5	39	0	0	0	17	119	дом	obl	115	NOUN	NOM	Not_Assigned	Not_Assigned	3
+houseoffatherofknyaz	8	121	121	FAC	Там	631	634	там	1	6	6	0	0	0	0	18	121	там	advmod	129	ADV	NOM	Not_Assigned	Not_Assigned	3
+knyaz	0	128	128	PER	он	660	662	он	1	6	6	7	0	0	0	19	128	он	nsubj	129	PRON	PRON	Not_Assigned	Not_Assigned	3
+T21	33	134	134	PER	соседи	691	697	соседи	1	6	6	13	0	0	0	20	134	соседи	nsubj	140	NOUN	NOM	Not_Assigned	Not_Assigned	3
+houseoffatherofknyaz	8	138	139	FAC	старого дома	710	722	старого дома	2	6	6	17	0	0	0	21	139	дома	nmod	137	NOUN	NOM	Not_Assigned	Not_Assigned	3
+knyaz	0	155	157	PER	Чарыков - Ордынский	810	829	чарыков - ордынский	3	7	7	0	0	0	0	22	155	чарыков	nsubj	158	PROPN	PROP	Singular	Not_Assigned	3
+Ivolgin	4	175	175	PER	шельма	911	917	шельма	1	9	9	3	0	0	0	23	175	шельма	nsubj	174	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Danilov	3	179	179	PER	Данилов	929	936	данилов	1	9	10	2	0	0	0	24	179	данилов	nsubj	178	PROPN	PROP	Singular	Not_Assigned	3
+Ivolgin	4	183	183	PER	Иволгина	951	959	иволгина	1	9	10	6	0	0	0	25	183	иволгина	obl	181	PROPN	PROP	Singular	Not_Assigned	3
+knyaz	0	192	192	PER	князинька	986	995	князинька	1	10	11	4	0	0	0	26	192	князинька	conj	189	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Ivolgin	4	195	195	PER	его	1001	1004	его	1	10	11	7	0	0	0	27	195	его	obj	197	PRON	PRON	Not_Assigned	Not_Assigned	3
+Danilov	3	199	199	PER	Он	1017	1019	он	1	11	12	0	0	0	0	28	199	он	nsubj	203	PRON	PRON	Not_Assigned	Not_Assigned	3
+knyaz	0	207	207	PER	князя	1061	1066	князя	1	11	12	8	0	0	0	29	207	князя	nmod	206	NOUN	NOM	Not_Assigned	Not_Assigned	3
+knyaz	0	210	210	PER	тот	1074	1077	тот	1	11	12	11	0	0	0	30	210	тот	nsubj	211	DET	PRON	Not_Assigned	Not_Assigned	3
+FAC_T35	17	213	213	FAC	дворца	1090	1096	дворца	1	11	12	14	0	0	0	31	213	дворца	obl	211	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Ivolgin	4	219	219	PER	Иволгин	1109	1116	иволгин	1	11	12	20	0	0	0	32	219	иволгин	nsubj	223	PROPN	PROP	Singular	Not_Assigned	3
+knyaz	0	225	225	PER	его	1141	1144	его	1	11	12	26	0	0	0	33	225	его	obj	224	PRON	PRON	Not_Assigned	Not_Assigned	3
+FAC_T38	29	229	229	FAC	улице	1157	1162	улице	1	11	12	30	0	0	0	34	229	улице	obl	227	NOUN	NOM	Not_Assigned	Not_Assigned	3
+soldats	12	230	230	PER	солдатам	1163	1171	солдатам	1	11	12	31	0	0	0	35	230	солдатам	iobj	227	NOUN	NOM	Not_Assigned	Not_Assigned	3
+soldats	12	233	233	PER	они	1179	1182	они	1	11	12	34	0	0	0	36	233	они	nsubj	234	PRON	PRON	Not_Assigned	Not_Assigned	3
+knyaz	0	235	235	PER	Чарыкова	1192	1200	чарыкова	1	11	12	36	0	0	0	37	235	чарыкова	obj	234	PROPN	PROP	Singular	Not_Assigned	3
+knyaz	0	242	243	PER	князь Борис	1226	1237	князь борис	2	12	13	5	0	0	0	38	242	князь	nsubj	244	NOUN	PROP	Singular	Not_Assigned	3
+Ivolgin	4	248	248	PER	Иволгина	1262	1270	иволгина	1	12	13	11	0	0	0	39	248	иволгина	appos	247	PROPN	PROP	Singular	Not_Assigned	3
+knyaz	0	250	250	PER	он	1272	1274	он	1	12	13	13	0	0	0	40	250	он	nsubj	258	PRON	PRON	Not_Assigned	Not_Assigned	3
+knyaz	0	268	268	PER	он	1366	1368	он	1	14	15	1	0	0	0	41	268	он	nsubj	270	PRON	PRON	Not_Assigned	Not_Assigned	3
+knyaz	0	280	282	PER	он и сам	1423	1431	он и сам	3	14	15	13	0	0	0	42	280	он	nsubj	278	PRON	PRON	Not_Assigned	Not_Assigned	3
+knyaz	0	291	291	PER	он	1462	1464	он	1	14	15	24	0	0	0	43	291	он	nsubj	290	PRON	PRON	Not_Assigned	Not_Assigned	3
+knyaz	0	295	295	PER	ним	1476	1479	ним	1	14	15	28	0	0	0	44	295	ним	obl	296	PRON	PRON	Not_Assigned	Not_Assigned	3
+knyaz	0	304	304	PER	Его	1513	1516	его	1	15	16	0	0	0	0	45	304	его	obj	305	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T50	55	310	310	PER	люди	1549	1553	люди	1	15	16	6	0	0	0	46	310	люди	nsubj	311	NOUN	NOM	Not_Assigned	Not_Assigned	3
+knyaz	0	313	313	PER	нем	1564	1567	нем	1	15	16	9	0	0	0	47	313	нем	obl	311	PRON	PRON	Not_Assigned	Not_Assigned	3
+knyaz	0	317	317	PER	он	1584	1586	он	1	15	16	13	0	0	0	48	317	он	nsubj	318	PRON	PRON	Not_Assigned	Not_Assigned	3
+soldats	12	321	321	PER	солдаты	1598	1605	солдаты	1	15	16	17	0	0	0	49	321	солдаты	nsubj	322	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Ivolgin	4	323	323	PER	Иволгину	1613	1621	иволгину	1	15	16	19	0	0	0	50	323	иволгину	obj	322	PROPN	PROP	Singular	Not_Assigned	3
+Ivolgin	4	330	330	PER	его	1637	1640	его	1	17	18	3	0	0	0	51	330	его	parataxis	305	PRON	PRON	Not_Assigned	Not_Assigned	3
+knyaz	0	334	334	PER	он	1653	1655	он	1	17	19	2	0	0	0	52	334	он	nsubj	333	PRON	PRON	Not_Assigned	Not_Assigned	3
+Danilov	3	335	335	PER	Данилову	1656	1664	данилову	1	17	19	3	0	0	0	53	335	данилову	iobj	333	PROPN	PROP	Singular	Not_Assigned	3
+knyaz	0	344	345	PER	князь Борис	1710	1721	князь борис	2	18	20	3	0	0	0	54	344	князь	nsubj	347	NOUN	PROP	Singular	Not_Assigned	3
+knyaz	0	351	351	PER	себя	1756	1760	себя	1	18	20	10	0	0	0	55	351	себя	obl	349	PRON	PRON	Not_Assigned	Not_Assigned	3
+fatherofknyaz	2	362	363	PER	его отца	1815	1823	его отца	2	19	21	8	0	1	1	56	363	отца	nmod	361	NOUN	NOM	Not_Assigned	Not_Assigned	3
+knyaz	0	362	362	PER	его	1815	1818	его	1	19	21	8	1	0	0	57	362	его	nmod	363	PRON	PRON	Not_Assigned	Not_Assigned	3
+baron	1	378	381	PER	барона Андрея Ивановича Остермана	1882	1915	барона андрея ивановича остермана	4	19	21	24	0	0	0	58	379	андрея	appos	378	PROPN	PROP	Singular	Not_Assigned	3
+knyaz	0	387	388	PER	Князь Борис	1956	1967	князь борис	2	20	22	0	0	0	0	59	387	князь	nsubj	391	NOUN	PROP	Singular	Not_Assigned	3
+baron	1	396	399	PER	тот самый барон Остерман	2001	2025	тот самый барон остерман	4	20	22	9	0	0	0	60	398	барон	ccomp	391	NOUN	PROP	Singular	Not_Assigned	3
+baron	1	409	410	PER	сильным человеком	2090	2107	сильным человеком	2	20	22	22	0	0	0	61	410	человеком	conj	403	NOUN	NOM	Not_Assigned	Not_Assigned	3
+baron	1	414	414	PER	канцлера	2127	2135	канцлера	1	20	22	27	0	0	0	62	414	канцлера	nmod	413	NOUN	NOM	Not_Assigned	Not_Assigned	3
+knyaz	0	416	416	PER	Он	2138	2140	он	1	21	23	0	0	0	0	63	416	он	nsubj	417	PRON	PRON	Not_Assigned	Not_Assigned	3
+baron	1	419	420	PER	графе Остермане	2148	2163	графе остермане	2	21	23	3	0	0	0	64	419	графе	obl	417	NOUN	PROP	Singular	Not_Assigned	3
+Natasha	16	426	426	PER	Наташи	2196	2202	наташи	1	21	23	10	0	0	0	65	426	наташи	nmod	425	PROPN	PROP	Singular	Not_Assigned	3
+Ivolgin	4	435	435	PER	Иволгин	2240	2247	иволгин	1	21	23	19	0	0	0	66	435	иволгин	nsubj	434	PROPN	PROP	Singular	Not_Assigned	3
+knyaz	0	440	440	PER	своего	2272	2278	своего	1	21	23	24	0	0	0	67	440	своего	det	439	DET	PRON	Not_Assigned	Not_Assigned	3
+FAC_T72	45	442	442	FAC	тайнике	2281	2288	тайнике	1	21	23	26	0	0	0	68	442	тайнике	nmod	439	NOUN	NOM	Not_Assigned	Not_Assigned	3
+baron	1	444	453	PER	Остерман, умевший удержаться в продолжение стольких лет при дворе	2291	2356	остерман , умевший удержаться в продолжение стольких лет при дворе	10	22	24	0	0	1	1	69	446	умевший	acl	444	VERB	PROP	Singular	Not_Assigned	3
+PER_T74	56	453	453	PER	дворе	2351	2356	дворе	1	22	24	9	1	0	0	70	453	дворе	obl	447	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T75	41	459	459	PER	многие	2373	2379	многие	1	22	24	15	0	0	0	71	459	многие	nsubj	462	NOUN	NOM	Not_Assigned	Not_Assigned	3
+baron	1	474	489	PER	хитрый, осмотрительный старик, который умел вести не только дела государственные, но и собственные	2449	2547	хитрый , осмотрительный старик , который умел вести не только дела государственные , но и собственные	16	22	24	30	0	0	0	72	480	умел	acl:relcl	477	VERB	NOM	Not_Assigned	Not_Assigned	3
+baron	1	491	491	PER	Он	2550	2552	он	1	23	25	0	0	0	0	73	491	он	nsubj	493	PRON	PRON	Not_Assigned	Not_Assigned	3
+baron	1	495	495	PER	себя	2568	2572	себя	1	23	25	4	0	0	0	74	495	себя	obl	493	PRON	PRON	Not_Assigned	Not_Assigned	3
+baron	1	498	527	PER	старик, знавший всегда обо всем, что делалось за границей, в России, в Петербурге, а главное - во дворце, хотя редко сам выходил из дому	2579	2715	старик , знавший всегда обо всем , что делалось за границей , в россии , в петербурге , а главное - во дворце , хотя редко сам выходил из дому	30	23	25	7	0	1	6	75	520	дворце	conj	493	NOUN	PROP	Singular	Not_Assigned	3
+LOC_T80	46	507	508	LOC	за границей	2625	2636	за границей	2	23	25	16	1	0	0	76	508	границей	obl	506	NOUN	NOM	Not_Assigned	Not_Assigned	3
+GPE_T81	44	511	511	GPE	России	2640	2646	россии	1	23	25	20	1	0	0	77	511	россии	conj	508	PROPN	PROP	Not_Assigned	Not_Assigned	3
+GPE_T82	14	514	514	GPE	Петербурге	2650	2660	петербурге	1	23	25	23	1	0	0	78	514	петербурге	conj	508	PROPN	PROP	Not_Assigned	Not_Assigned	3
+FAC_T35	17	520	520	FAC	дворце	2677	2683	дворце	1	23	25	29	1	0	0	79	520	дворце	conj	493	NOUN	NOM	Not_Assigned	Not_Assigned	3
+baron	1	524	524	PER	сам	2696	2699	сам	1	23	25	33	1	0	0	80	524	сам	acl	525	ADJ	NOM	Not_Assigned	Not_Assigned	3
+FAC_T85	30	527	527	FAC	дому	2711	2715	дому	1	23	25	36	1	0	0	81	527	дому	obl	525	NOUN	NOM	Not_Assigned	Not_Assigned	3
+baron	1	532	532	PER	своем	2733	2738	своем	1	23	25	41	0	0	0	82	532	своем	det	533	DET	PRON	Not_Assigned	Not_Assigned	3
+baron	1	536	536	PER	себя	2756	2760	себя	1	23	25	45	0	0	0	83	536	себя	obj	535	PRON	PRON	Not_Assigned	Not_Assigned	3
+baron	1	548	548	PER	он	2836	2838	он	1	24	26	5	0	0	0	84	548	он	nsubj	550	PRON	PRON	Not_Assigned	Not_Assigned	3
+baron	1	552	552	PER	свое	2860	2864	свое	1	24	26	9	0	0	0	85	552	свое	det	553	DET	PRON	Not_Assigned	Not_Assigned	3
+baron	1	558	558	PER	его	2891	2894	его	1	24	26	15	0	0	0	86	558	его	obj	557	PRON	PRON	Not_Assigned	Not_Assigned	3
+baron	1	567	567	PER	он	2921	2923	он	1	25	27	7	0	0	0	87	567	он	nsubj	568	PRON	PRON	Not_Assigned	Not_Assigned	3
+spyofbaron	11	570	577	PER	людей, приходивших к нему с заднего крыльца	2935	2978	людей , приходивших к нему с заднего крыльца	8	25	27	10	0	1	2	88	572	приходивших	acl	570	VERB	NOM	Not_Assigned	Not_Assigned	3
+baron	1	574	574	PER	нему	2956	2960	нему	1	25	27	14	1	0	0	89	574	нему	obl	572	PRON	PRON	Not_Assigned	Not_Assigned	3
+FAC_T94	54	576	577	FAC	заднего крыльца	2963	2978	заднего крыльца	2	25	27	16	1	0	0	90	577	крыльца	obl	572	NOUN	NOM	Not_Assigned	Not_Assigned	3
+baron	1	581	581	PER	него	2984	2988	него	1	25	27	21	0	0	0	91	581	него	obl	584	PRON	PRON	Not_Assigned	Not_Assigned	3
+FAC_T96	42	583	583	FAC	кабинете	2991	2999	кабинете	1	25	27	23	0	0	0	92	583	кабинете	obl	584	NOUN	NOM	Not_Assigned	Not_Assigned	3
+spyofbaron	11	592	597	PER	его «глаза и уши»	3049	3066	его « глаза и уши »	6	25	27	32	0	1	1	93	594	глаза	nsubj	589	NOUN	NOM	Not_Assigned	Not_Assigned	3
+baron	1	592	592	PER	его	3049	3052	его	1	25	27	32	1	0	0	94	592	его	det	594	DET	PRON	Not_Assigned	Not_Assigned	3
+baron	1	601	601	PER	он	3088	3090	он	1	25	27	41	0	0	0	95	601	он	nsubj	602	PRON	PRON	Not_Assigned	Not_Assigned	3
+GPE_T82	14	610	610	GPE	столице	3126	3133	столице	1	25	27	50	0	0	0	96	610	столице	obl	608	NOUN	NOM	Not_Assigned	Not_Assigned	3
+duke	9	612	612	PER	Герцог	3136	3142	герцог	1	26	28	0	0	0	0	97	612	герцог	nsubj	613	PROPN	PROP	Singular	Not_Assigned	3
+spyofbaron	11	619	620	PER	шпионов Остермана	3165	3182	шпионов остермана	2	26	28	7	0	1	1	98	619	шпионов	conj	613	NOUN	PROP	Singular	Not_Assigned	3
+baron	1	620	620	PER	Остермана	3173	3182	остермана	1	26	28	8	1	0	0	99	620	остермана	nmod	619	PROPN	PROP	Singular	Not_Assigned	3
+PER_T104	18	622	623	PER	шпионы бироновские	3188	3206	шпионы бироновские	2	26	28	10	0	0	0	100	622	шпионы	nsubj	619	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T104	18	628	628	PER	их	3218	3220	их	1	26	28	16	0	0	0	101	628	их	obj	629	PRON	PRON	Not_Assigned	Not_Assigned	3
+Ivolgin	4	631	631	PER	Иволгин	3231	3238	иволгин	1	26	28	19	0	0	0	102	631	иволгин	nsubj	629	PROPN	PROP	Singular	Not_Assigned	3
+baron	1	633	633	PER	Остерману	3241	3250	остерману	1	26	28	21	0	0	0	103	633	остерману	obl	629	PROPN	PROP	Singular	Not_Assigned	3
+baron	1	639	639	PER	него	3275	3279	него	1	26	28	27	0	0	0	104	639	него	obl	637	PRON	PRON	Not_Assigned	Not_Assigned	3
+duke	9	646	646	PER	герцога	3307	3314	герцога	1	26	28	34	0	0	0	105	646	герцога	obl	642	NOUN	NOM	Not_Assigned	Not_Assigned	3
+baron	1	650	651	PER	граф Остерман	3328	3341	граф остерман	2	27	29	2	0	0	0	106	650	граф	nsubj	656	NOUN	PROP	Singular	Not_Assigned	3
+duke	9	667	667	PER	герцога	3440	3447	герцога	1	27	29	19	0	0	0	107	667	герцога	obl	665	NOUN	NOM	Not_Assigned	Not_Assigned	3
+baron	1	671	671	PER	он	3460	3462	он	1	27	29	23	0	0	0	108	671	он	nsubj	678	PRON	PRON	Not_Assigned	Not_Assigned	3
+Ivolgin	4	674	674	PER	Иволгиным	3476	3485	иволгиным	1	27	29	26	0	0	0	109	674	иволгиным	nmod	678	PROPN	PROP	Singular	Not_Assigned	3
+baron	1	676	679	PER	самым ярым сторонником Бирона	3490	3519	самым ярым сторонником бирона	4	27	29	28	0	1	1	110	678	сторонником	parataxis	656	NOUN	PROP	Singular	Not_Assigned	3
+duke	9	679	679	PER	Бирона	3513	3519	бирона	1	27	29	31	1	0	0	111	679	бирона	nmod	678	PROPN	PROP	Singular	Not_Assigned	3
+spyofbaron	11	682	682	PER	шпионов	3526	3533	шпионов	1	28	30	1	0	0	0	112	682	шпионов	obl	685	NOUN	NOM	Not_Assigned	Not_Assigned	3
+baron	1	684	684	PER	Остермана	3536	3545	остермана	1	28	30	3	0	0	0	113	684	остермана	obl	685	PROPN	PROP	Singular	Not_Assigned	3
+knyaz	0	696	697	PER	князю Борису	3621	3633	князю борису	2	28	30	15	0	0	0	114	696	князю	iobj	694	NOUN	PROP	Singular	Not_Assigned	3
+Ivolgin	4	699	699	PER	Иволгина	3637	3645	иволгина	1	28	30	18	0	0	0	115	699	иволгина	obl	694	PROPN	PROP	Singular	Not_Assigned	3
+knyaz	0	701	703	PER	Чарыков - Ордынский	3648	3667	чарыков - ордынский	3	29	31	0	0	0	0	116	701	чарыков	nsubj	704	PROPN	PROP	Singular	Not_Assigned	3
+baron	1	710	710	PER	Остерману	3702	3711	остерману	1	29	31	9	0	0	0	117	710	остерману	iobj	709	PROPN	PROP	Singular	Not_Assigned	3
+baron	1	711	711	PER	его	3712	3715	его	1	29	31	10	0	0	0	118	711	его	det	712	PRON	PRON	Not_Assigned	Not_Assigned	3
+baron	1	726	726	PER	Остерману	3786	3795	остерману	1	29	31	25	0	0	0	119	726	остерману	obl	723	PROPN	PROP	Singular	Not_Assigned	3
+knyaz	0	733	733	PER	ему	3846	3849	ему	1	29	31	32	0	0	0	120	733	ему	iobj	731	PRON	PRON	Not_Assigned	Not_Assigned	3
+Ivolgin	4	735	735	PER	Иволгина	3856	3864	иволгина	1	29	31	34	0	0	0	121	735	иволгина	obl	731	PROPN	PROP	Singular	Not_Assigned	3
+knyaz	0	750	750	PER	князь	3922	3927	князь	1	30	32	10	0	0	0	122	750	князь	nsubj	749	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Danilov	3	755	755	PER	Данилову	3957	3965	данилову	1	30	32	15	0	0	0	123	755	данилову	obj	754	PROPN	PROP	Singular	Not_Assigned	3
+VEH_T128	10	757	770	VEH	наемной карете, той самой, которую нанимал он, когда ездили к Наташе	3968	4036	наемной карете , той самой , которую нанимал он , когда ездили к наташе	14	30	32	17	0	1	2	124	764	нанимал	acl:relcl	761	VERB	PROP	Not_Assigned	Not_Assigned	3
+Danilov	3	765	765	PER	он	4011	4013	он	1	30	32	25	1	0	0	125	765	он	nsubj	764	PRON	PRON	Not_Assigned	Not_Assigned	3
+Natasha	16	770	770	PER	Наташе	4030	4036	наташе	1	30	32	30	1	0	0	126	770	наташе	obl	768	PROPN	PROP	Singular	Not_Assigned	3
+VEH_T128	10	777	777	VEH	карете	4061	4067	карете	1	31	33	5	0	0	0	127	777	карете	obl	788	NOUN	NOM	Not_Assigned	Not_Assigned	3
+knyaz	0	778	780	PER	Чарыков-Ордынский	4068	4085	чарыков - ордынский	3	31	33	6	0	0	0	128	778	чарыков	appos	777	PROPN	PROP	Singular	Not_Assigned	3
+Danilov	3	782	782	PER	Даниловым	4088	4097	даниловым	1	31	33	10	0	0	0	129	782	даниловым	nmod	777	PROPN	PROP	Singular	Not_Assigned	3
+Danilov	3	784	784	PER	его	4100	4103	его	1	31	33	12	0	0	0	130	784	его	det	785	DET	PRON	Not_Assigned	Not_Assigned	3
+VEH_T135	31	787	787	VEH	козлах	4114	4120	козлах	1	31	33	15	0	0	0	131	787	козлах	obl	788	NOUN	NOM	Not_Assigned	Not_Assigned	3
+houseofBaron	15	790	792	FAC	дому графа Остермана	4132	4152	дому графа остермана	3	31	33	18	0	1	1	132	790	дому	obl	788	NOUN	PROP	Not_Assigned	Not_Assigned	3
+baron	1	791	792	PER	графа Остермана	4137	4152	графа остермана	2	31	33	19	1	0	0	133	791	графа	nmod	790	NOUN	PROP	Singular	Not_Assigned	3
+Danilov	3	794	794	PER	Данилов	4155	4162	данилов	1	32	34	0	0	0	0	134	794	данилов	nsubj	802	PROPN	PROP	Singular	Not_Assigned	3
+knyaz	0	804	807	PER	князя Чарыкова-Ордынского	4213	4238	князя чарыкова - ордынского	4	32	34	10	0	0	0	135	804	князя	nmod	803	NOUN	PROP	Singular	Not_Assigned	3
+FAC_T140	23	809	811	FAC	сенях у Остермана	4241	4258	сенях у остермана	3	32	34	15	0	1	1	136	811	остермана	obl	802	PROPN	PROP	Not_Assigned	Not_Assigned	3
+baron	1	811	811	PER	Остермана	4249	4258	остермана	1	32	34	17	1	0	0	137	811	остермана	obl	802	PROPN	PROP	Singular	Not_Assigned	3
+FAC_T142	37	818	819	FAC	олуньевском доме	4279	4295	олуньевском доме	2	32	34	24	0	0	0	138	819	доме	obl	814	NOUN	NOM	Not_Assigned	Not_Assigned	3
+baron	1	823	823	PER	Остермана	4302	4311	остермана	1	33	35	2	0	0	0	139	823	остермана	obl	825	PROPN	PROP	Singular	Not_Assigned	3
+PER_T144	49	824	824	PER	лакеи	4312	4317	лакеи	1	33	35	3	0	0	0	140	824	лакеи	nsubj	825	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Danilov	3	836	836	PER	Данилова	4400	4408	данилова	1	33	35	15	0	0	0	141	836	данилова	nmod	835	PROPN	PROP	Singular	Not_Assigned	3
+Danilov	3	838	838	PER	его	4411	4414	его	1	33	35	17	0	0	0	142	838	его	det	839	DET	PRON	Not_Assigned	Not_Assigned	3
+baron	1	852	852	PER	Остерман	4463	4471	остерман	1	34	36	6	0	0	0	143	852	остерман	nsubj	856	PROPN	PROP	Singular	Not_Assigned	3
+baron	1	854	856	PER	слишком важным лицом	4476	4496	слишком важным лицом	3	34	36	8	0	0	0	144	855	важным	amod	856	ADJ	NOM	Not_Assigned	Not_Assigned	3
+knyaz	0	861	862	PER	князя Бориса	4517	4529	князя бориса	2	34	36	15	0	0	0	145	861	князя	obj	860	NOUN	PROP	Singular	Not_Assigned	3
+Danilov	3	865	865	PER	Данилову	4534	4542	данилову	1	35	37	1	0	0	0	146	865	данилову	obl	866	PROPN	PROP	Singular	Not_Assigned	3
+butler	6	867	868	PER	старый дворецкий	4549	4565	старый дворецкий	2	35	37	3	0	0	0	147	868	дворецкий	nsubj	866	NOUN	NOM	Not_Assigned	Not_Assigned	3
+knyaz	0	874	874	PER	князь	4586	4591	князь	1	35	37	10	0	0	0	148	874	князь	nsubj	876	NOUN	NOM	Not_Assigned	Not_Assigned	3
+VEH_T128	10	878	878	VEH	карете	4604	4610	карете	1	35	37	14	0	0	0	149	878	карете	obl	876	NOUN	NOM	Not_Assigned	Not_Assigned	3
+knyaz	0	885	887	PER	князь Чарыков- Ордынский	4643	4667	князь чарыков- ордынский	3	35	37	21	0	0	0	150	885	князь	parataxis	881	NOUN	PROP	Singular	Not_Assigned	3
+M2	48	889	889	PER	кто	4671	4674	кто	1	35	37	25	0	0	0	151	889	кто	appos	885	PRON	PRON	Not_Assigned	Not_Assigned	3
+knyaz	0	890	890	PER	он	4675	4677	он	1	35	37	26	0	0	0	152	890	он	conj	885	PRON	PRON	Not_Assigned	Not_Assigned	3
+knyaz	0	893	893	PER	он	4684	4686	он	1	35	37	29	0	0	0	153	893	он	conj	885	PRON	PRON	Not_Assigned	Not_Assigned	3
+Danilov	3	895	895	PER	Данилов	4690	4697	данилов	1	36	38	0	0	0	0	154	895	данилов	nsubj	897	PROPN	PROP	Singular	Not_Assigned	3
+knyaz	0	900	901	PER	его сиятельство	4718	4733	его сиятельство	2	36	38	5	0	0	0	155	901	сиятельство	nsubj	902	NOUN	NOM	Not_Assigned	Not_Assigned	3
+GPE_T82	14	907	907	GPE	Петербург	4766	4775	петербург	1	36	38	12	0	0	0	156	907	петербург	obl	905	PROPN	PROP	Not_Assigned	Not_Assigned	3
+baron	1	911	913	PER	графа Ивана Андреевича	4787	4809	графа ивана андреевича	3	36	38	16	0	0	0	157	911	графа	obl	909	NOUN	PROP	Singular	Not_Assigned	3
+butler	6	919	919	PER	Дворецкий	4840	4849	дворецкий	1	37	39	0	0	0	0	158	919	дворецкий	nsubj	923	PROPN	PROP	Singular	Not_Assigned	3
+butler	6	933	933	PER	он	4921	4923	он	1	38	40	3	0	0	0	159	933	он	nsubj	934	PRON	PRON	Not_Assigned	Not_Assigned	3
+baron	1	939	939	PER	граф	4947	4951	граф	1	38	40	9	0	0	0	160	939	граф	nsubj	940	NOUN	NOM	Not_Assigned	Not_Assigned	3
+knyaz	0	943	944	PER	Князь Борис	4972	4983	князь борис	2	39	41	0	0	0	0	161	943	князь	nsubj	945	NOUN	PROP	Singular	Not_Assigned	3
+VEH_T128	10	947	947	VEH	кареты	4993	4999	кареты	1	39	41	4	0	0	0	162	947	кареты	obl	945	NOUN	NOM	Not_Assigned	Not_Assigned	3
+knyaz	0	950	950	PER	свой	5007	5011	свой	1	39	41	7	0	0	0	163	950	свой	det	951	DET	PRON	Not_Assigned	Not_Assigned	3
+Danilov	3	954	954	PER	Данилову	5025	5033	данилову	1	39	41	11	0	0	0	164	954	данилову	iobj	949	PROPN	PROP	Singular	Not_Assigned	3
+butler	6	962	962	PER	дворецким	5073	5082	дворецким	1	39	41	19	0	0	0	165	962	дворецким	obl	960	NOUN	NOM	Not_Assigned	Not_Assigned	3
+houseofBaron	15	964	965	FAC	Дом Остермана	5085	5098	дом остермана	2	40	42	0	0	1	1	166	964	дом	nsubj	967	NOUN	PROP	Not_Assigned	Not_Assigned	3
+baron	1	965	965	PER	Остермана	5089	5098	остермана	1	40	42	1	1	0	0	167	965	остермана	nmod	964	PROPN	PROP	Singular	Not_Assigned	3
+FAC_T140	23	996	996	FAC	сеней	5273	5278	сеней	1	41	43	1	0	0	0	168	996	сеней	obl	997	NOUN	NOM	Not_Assigned	Not_Assigned	3
+knyaz	0	1011	1012	PER	князь Борис	5361	5372	князь борис	2	42	44	5	0	0	0	169	1011	князь	nsubj	1014	NOUN	PROP	Singular	Not_Assigned	3
+FAC_T173	36	1021	1031	FAC	щегольским, чистеньким и уютным домом, где жила его Наташа	5425	5483	щегольским , чистеньким и уютным домом , где жила его наташа	11	42	44	15	0	2	2	170	1029	жила	acl:relcl	1026	VERB	PROP	Not_Assigned	Not_Assigned	3
+Natasha	16	1030	1031	PER	его Наташа	5473	5483	его наташа	2	42	44	24	1	1	1	171	1031	наташа	nsubj	1029	PROPN	PROP	Singular	Not_Assigned	3
+knyaz	0	1030	1030	PER	его	5473	5476	его	1	42	44	24	2	0	0	172	1030	его	det	1031	PRON	PRON	Not_Assigned	Not_Assigned	3
+houseofBaron	15	1035	1057	FAC	хоромами графа Остермана, запущенными и загрязненными до того, что Чарыков мог поручиться, что в тайнике у него куда было чище	5493	5619	хоромами графа остермана , запущенными и загрязненными до того , что чарыков мог поручиться , что в тайнике у него куда было чище	23	42	44	29	0	1	4	173	1057	чище	ccomp	1048	ADJ	PROP	Not_Assigned	Not_Assigned	3
+baron	1	1036	1037	PER	графа Остермана	5502	5517	графа остермана	2	42	44	30	1	0	0	174	1036	графа	nmod	1035	NOUN	PROP	Singular	Not_Assigned	3
+knyaz	0	1046	1046	PER	Чарыков	5560	5567	чарыков	1	42	44	40	1	0	0	175	1046	чарыков	nsubj	1047	PROPN	PROP	Singular	Not_Assigned	3
+FAC_T179	35	1052	1052	FAC	тайнике	5590	5597	тайнике	1	42	44	46	1	0	0	176	1052	тайнике	obl	1057	NOUN	NOM	Not_Assigned	Not_Assigned	3
+knyaz	0	1054	1054	PER	него	5600	5604	него	1	42	44	48	1	0	0	177	1054	него	obl	1057	PRON	PRON	Not_Assigned	Not_Assigned	3
+baron	1	1060	1060	PER	Остермана	5624	5633	остермана	1	43	45	1	0	0	0	178	1060	остермана	obl	1061	PROPN	PROP	Singular	Not_Assigned	3
+FAC_T182	25	1063	1071	FAC	зал с запыленными зеркалами и люстрой в пыльном чехле	5643	5696	зал с запыленными зеркалами и люстрой в пыльном чехле	9	43	45	4	0	0	0	179	1066	зеркалами	nmod	1063	NOUN	NOM	Not_Assigned	Not_Assigned	3
+butler	6	1073	1073	PER	Дворецкий	5699	5708	дворецкий	1	44	46	0	0	0	0	180	1073	дворецкий	nsubj	1074	PROPN	PROP	Singular	Not_Assigned	3
+knyaz	0	1075	1075	PER	князя	5716	5721	князя	1	44	46	2	0	0	0	181	1075	князя	obj	1074	NOUN	NOM	Not_Assigned	Not_Assigned	3
+FAC_T182	25	1078	1078	FAC	зал	5733	5736	зал	1	44	46	5	0	0	0	182	1078	зал	obl	1074	NOUN	NOM	Not_Assigned	Not_Assigned	3
+FAC_T186	34	1084	1085	FAC	несколько комнат	5756	5772	несколько комнат	2	44	46	11	0	0	0	183	1085	комнат	conj	1078	NOUN	NOM	Not_Assigned	Not_Assigned	3
+knyaz	0	1097	1098	PER	князя Бориса	5829	5841	князя бориса	2	44	46	24	0	0	0	184	1097	князя	obj	1096	NOUN	PROP	Singular	Not_Assigned	3
+knyaz	0	1100	1100	PER	Чарыков	5844	5851	чарыков	1	45	47	0	0	0	0	185	1100	чарыков	nsubj	1101	PROPN	PROP	Singular	Not_Assigned	3
+FAC_T189	22	1103	1114	FAC	большую комнату, тускло освещенную сквозь грязные стекла окон сумерками петербургского дня	5860	5950	большую комнату , тускло освещенную сквозь грязные стекла окон сумерками петербургского дня	12	45	47	3	0	0	0	186	1110	стекла	obl	1107	NOUN	NOM	Not_Assigned	Not_Assigned	3
+knyaz	0	1119	1119	PER	ему	5969	5972	ему	1	46	48	3	0	0	0	187	1119	ему	iobj	1120	PRON	PRON	Not_Assigned	Not_Assigned	3
+FAC_T189	22	1124	1124	FAC	ней	5991	5994	ней	1	46	48	8	0	0	0	188	1124	ней	obl	1125	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T192	50	1126	1126	PER	никого	5999	6005	никого	1	46	48	10	0	0	0	189	1126	никого	nsubj	1125	PRON	PRON	Not_Assigned	Not_Assigned	3
+baron	1	1143	1143	PER	Остерман	6098	6106	остерман	1	48	50	2	0	0	0	190	1143	остерман	nsubj	1146	PROPN	PROP	Singular	Not_Assigned	3
+knyaz	0	1156	1157	PER	Князь Борис	6158	6169	князь борис	2	49	51	0	0	0	0	191	1156	князь	nsubj	1158	NOUN	PROP	Singular	Not_Assigned	3
+baron	1	1163	1164	PER	грязненький старичок	6201	6221	грязненький старичок	2	50	52	3	0	0	0	192	1164	старичок	nsubj	1162	NOUN	NOM	Not_Assigned	Not_Assigned	3
+knyaz	0	1170	1171	PER	Князь Борис	6250	6261	князь борис	2	51	53	0	0	0	0	193	1170	князь	nsubj	1172	NOUN	PROP	Singular	Not_Assigned	3
+baron	1	1174	1174	PER	него	6275	6279	него	1	51	53	4	0	0	0	194	1174	него	obl	1172	PRON	PRON	Not_Assigned	Not_Assigned	3
+baron	1	1178	1178	PER	Остермана	6293	6302	остермана	1	51	53	8	0	0	0	195	1178	остермана	obj	1177	PROPN	PROP	Singular	Not_Assigned	3
+knyaz	0	1184	1185	PER	Князь Борис	6332	6343	князь борис	2	53	55	0	0	0	0	196	1184	князь	nsubj	1186	NOUN	PROP	Singular	Not_Assigned	3
+knyaz	0	1192	1192	PER	ему	6377	6380	ему	1	53	55	8	0	0	0	197	1192	ему	iobj	1190	PRON	PRON	Not_Assigned	Not_Assigned	3
+baron	1	1201	1201	PER	Остермана	6417	6426	остермана	1	53	55	17	0	0	0	198	1201	остермана	obj	1200	PROPN	PROP	Singular	Not_Assigned	3
+knyaz	0	1208	1208	PER	его	6456	6459	его	1	53	55	24	0	0	0	199	1208	его	det	1209	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T203	51	1210	1210	PER	никто	6467	6472	никто	1	53	55	26	0	0	0	200	1210	никто	nsubj	1212	PRON	PRON	Not_Assigned	Not_Assigned	3
+knyaz	0	1216	1217	PER	он сам	6501	6507	он сам	2	54	56	1	0	0	0	201	1216	он	nsubj	1218	PRON	PRON	Not_Assigned	Not_Assigned	3
+baron	1	1220	1220	PER	старику	6520	6527	старику	1	54	56	5	0	0	0	202	1220	старику	obl	1218	NOUN	NOM	Not_Assigned	Not_Assigned	3
+baron	1	1229	1229	PER	он	6565	6567	он	1	54	56	14	0	0	0	203	1229	он	nsubj	1227	PRON	PRON	Not_Assigned	Not_Assigned	3
+knyaz	0	1233	1233	PER	нему	6578	6582	нему	1	54	56	18	0	0	0	204	1233	нему	obl	1231	PRON	PRON	Not_Assigned	Not_Assigned	3
+baron	1	1234	1234	PER	граф	6583	6587	граф	1	54	56	19	0	0	0	205	1234	граф	nsubj	1231	NOUN	NOM	Not_Assigned	Not_Assigned	3
+knyaz	0	1240	1240	PER	вам	6604	6607	вам	1	56	58	1	0	0	0	206	1240	вам	iobj	1243	PRON	PRON	Not_Assigned	Not_Assigned	3
+baron	1	1242	1242	PER	графа	6615	6620	графа	1	56	58	3	0	0	0	207	1242	графа	nmod	1240	NOUN	NOM	Not_Assigned	Not_Assigned	3
+baron	1	1247	1247	PER	старичок	6639	6647	старичок	1	56	59	2	0	0	0	208	1247	старичок	nsubj	1246	NOUN	NOM	Not_Assigned	Not_Assigned	3
+baron	1	1254	1254	PER	своим	6682	6687	своим	1	56	59	9	0	0	0	209	1254	своим	det	1255	DET	PRON	Not_Assigned	Not_Assigned	3
+knyaz	0	1257	1258	PER	Князь Борис	6696	6707	князь борис	2	57	60	0	0	0	0	210	1257	князь	nsubj	1259	NOUN	PROP	Singular	Not_Assigned	3
+baron	1	1262	1263	PER	Графа Остермана	6721	6736	графа остермана	2	58	61	1	0	0	0	211	1262	графа	obj	1259	PROPN	PROP	Singular	Not_Assigned	3
+baron	1	1265	1265	PER	Старик	6739	6745	старик	1	59	62	0	0	0	0	212	1265	старик	nsubj	1266	PROPN	PROP	Singular	Not_Assigned	3
+baron	1	1273	1274	PER	Граф Остерман	6784	6797	граф остерман	2	60	63	1	0	0	0	213	1273	граф	parataxis	1270	NOUN	PROP	Singular	Not_Assigned	3
+baron	1	1275	1276	PER	я сам	6798	6803	я сам	2	60	63	3	0	0	0	214	1275	я	nsubj	1278	PRON	PRON	Not_Assigned	Not_Assigned	3
+baron	1	1282	1283	PER	ГРАФ ОСТЕРМАН	6819	6832	граф остерман	2	62	65	0	0	0	0	215	1282	граф	nsubj	1289	NOUN	PROP	Singular	Not_Assigned	3
+knyaz	0	1284	1286	PER	Чарыков - Ордынский	6834	6853	чарыков - ордынский	3	63	66	0	0	0	0	216	1284	чарыков	appos	1282	PROPN	PROP	Singular	Not_Assigned	3
+baron	1	1291	1318	PER	странного старика, стоявшего перед ним в выцветшем малиновом суконном кафтанчике на лисьем меху, вытертом и вылезшем, в стоптанных туфлях с завернувшимися и спустившимися грязными чулками	6878	7065	странного старика , стоявшего перед ним в выцветшем малиновом суконном кафтанчике на лисьем меху , вытертом и вылезшем , в стоптанных туфлях с завернувшимися и спустившимися грязными чулками	28	63	66	7	0	1	1	217	1294	стоявшего	acl	1292	VERB	NOM	Not_Assigned	Not_Assigned	3
+knyaz	0	1296	1296	PER	ним	6913	6916	ним	1	63	66	12	1	0	0	218	1296	ним	obl	1294	PRON	PRON	Not_Assigned	Not_Assigned	3
+knyaz	0	1320	1320	PER	Он	7068	7070	он	1	64	67	0	0	0	0	219	1320	он	nsubj	1321	PRON	PRON	Not_Assigned	Not_Assigned	3
+baron	1	1323	1323	PER	него	7082	7086	него	1	64	67	3	0	0	0	220	1323	него	obl	1321	PRON	PRON	Not_Assigned	Not_Assigned	3
+knyaz	0	1333	1333	PER	ним	7121	7124	ним	1	64	67	13	0	0	0	221	1333	ним	obl	1335	PRON	PRON	Not_Assigned	Not_Assigned	3
+baron	1	1336	1338	PER	канцлер русской империи	7145	7168	канцлер русской империи	3	64	67	16	0	1	1	222	1338	империи	nmod	1336	NOUN	NOM	Not_Assigned	Not_Assigned	3
+GPE_T225	43	1337	1338	GPE	русской империи	7153	7168	русской империи	2	64	67	17	1	0	0	223	1338	империи	nmod	1336	NOUN	NOM	Not_Assigned	Not_Assigned	3
+baron	1	1342	1342	PER	сановника	7181	7190	сановника	1	65	68	2	0	0	0	224	1342	сановника	nmod	1340	NOUN	NOM	Not_Assigned	Not_Assigned	3
+knyaz	0	1345	1345	PER	ему	7207	7210	ему	1	65	68	5	0	0	0	225	1345	ему	iobj	1344	PRON	PRON	Not_Assigned	Not_Assigned	3
+knyaz	0	1346	1346	PER	его	7211	7214	его	1	65	68	6	0	0	0	226	1346	его	det	1348	DET	PRON	Not_Assigned	Not_Assigned	3
+knyaz	0	1355	1355	PER	его	7274	7277	его	1	65	68	15	0	0	0	227	1355	его	det	1356	DET	PRON	Not_Assigned	Not_Assigned	3
+knyaz	0	1366	1367	PER	государь мой	7321	7333	государь мой	2	67	70	5	0	1	1	228	1366	государь	parataxis	1360	NOUN	NOM	Not_Assigned	Not_Assigned	3
+baron	1	1367	1367	PER	мой	7330	7333	мой	1	67	70	6	1	0	0	229	1367	мой	det	1366	DET	PRON	Not_Assigned	Not_Assigned	3
+baron	1	1371	1371	PER	Остерман	7348	7356	остерман	1	67	71	2	0	0	0	230	1371	остерман	nsubj	1370	PROPN	PROP	Singular	Not_Assigned	3
+knyaz	0	1376	1376	PER	вам	7370	7373	вам	1	68	72	3	0	0	0	231	1376	вам	iobj	1377	PRON	PRON	Not_Assigned	Not_Assigned	3
+baron	1	1381	1381	PER	меня	7393	7397	меня	1	68	72	8	0	0	0	232	1381	меня	nmod	1379	PRON	PRON	Not_Assigned	Not_Assigned	3
+knyaz	0	1389	1390	PER	Князь Борис	7438	7449	князь борис	2	70	74	0	0	0	0	233	1389	князь	nsubj	1391	NOUN	PROP	Singular	Not_Assigned	3
+knyaz	0	1397	1402	PER	Князь Борис Андреевич Чарыков - Ордынский	7488	7529	князь борис андреевич чарыков - ордынский	6	71	75	1	0	0	0	234	1398	борис	nsubj	1391	PROPN	PROP	Singular	Not_Assigned	3
+baron	1	1404	1404	PER	Остерман	7532	7540	остерман	1	72	76	0	0	0	0	235	1404	остерман	nsubj	1405	PROPN	PROP	Singular	Not_Assigned	3
+knyaz	0	1408	1408	PER	его	7561	7564	его	1	72	76	4	0	0	0	236	1408	его	obj	1407	PRON	PRON	Not_Assigned	Not_Assigned	3
+baron	1	1445	1445	PER	он	7709	7711	он	1	76	80	2	0	0	0	237	1445	он	nsubj	1448	PRON	PRON	Not_Assigned	Not_Assigned	3
+knyaz	0	1467	1468	PER	князю Борису	7830	7842	князю борису	2	76	80	24	0	0	0	238	1467	князю	iobj	1466	NOUN	PROP	Singular	Not_Assigned	3
+baron	1	1472	1472	PER	себя	7858	7862	себя	1	76	80	29	0	0	0	239	1472	себя	nmod	1470	PRON	PRON	Not_Assigned	Not_Assigned	3
+knyaz	0	1475	1475	PER	ему	7874	7877	ему	1	76	80	32	0	0	0	240	1475	ему	iobj	1474	PRON	PRON	Not_Assigned	Not_Assigned	3
+baron	1	1483	1484	PER	Ваш слуга	7907	7916	ваш слуга	2	76	80	40	0	1	1	241	1484	слуга	nsubj	1480	NOUN	NOM	Not_Assigned	Not_Assigned	3
+knyaz	0	1483	1483	PER	Ваш	7907	7910	ваш	1	76	80	40	1	0	0	242	1483	ваш	det	1484	DET	PRON	Not_Assigned	Not_Assigned	3
+knyaz	0	1486	1486	PER	Чарыков	7919	7926	чарыков	1	77	81	0	0	0	0	243	1486	чарыков	nsubj	1487	PROPN	PROP	Singular	Not_Assigned	3
+knyaz	0	1488	1488	PER	себя	7938	7942	себя	1	77	81	2	0	0	0	244	1488	себя	obj	1487	PRON	PRON	Not_Assigned	Not_Assigned	3
+knyaz	0	1500	1500	PER	он	8001	8003	он	1	77	81	14	0	0	0	245	1500	он	nsubj	1501	PRON	PRON	Not_Assigned	Not_Assigned	3
+baron	1	1503	1503	PER	Остерману	8013	8022	остерману	1	77	81	17	0	0	0	246	1503	остерману	obl	1501	PROPN	PROP	Singular	Not_Assigned	3
+baron	1	1524	1524	PER	его	8116	8119	его	1	77	81	38	0	0	0	247	1524	его	nmod	1523	PRON	PRON	Not_Assigned	Not_Assigned	3
+M1	47	1525	1525	PER	кто	8120	8123	кто	1	77	81	39	0	0	0	248	1525	кто	nsubj	1527	PRON	PRON	Not_Assigned	Not_Assigned	3
+baron	1	1532	1533	PER	сам Остерман	8152	8164	сам остерман	2	77	81	46	0	0	0	249	1533	остерман	conj	1487	PROPN	PROP	Singular	Not_Assigned	3
+knyaz	0	1536	1536	PER	Як	8170	8172	як	1	79	83	0	0	0	0	250	1536	як	nsubj	1539	PROPN	PROP	Singular	Not_Assigned	3
+baron	1	1537	1537	PER	вашему	8173	8179	вашему	1	79	83	1	0	0	0	251	1537	вашему	det	1538	DET	PRON	Not_Assigned	Not_Assigned	3
+knyaz	0	1545	1545	PER	князь	8216	8221	князь	1	79	83	9	0	0	0	252	1545	князь	nsubj	1544	NOUN	NOM	Not_Assigned	Not_Assigned	3
+knyaz	0	1551	1551	PER	я	8252	8253	я	1	80	84	4	0	0	0	253	1551	я	nsubj	1550	PRON	PRON	Not_Assigned	Not_Assigned	3
+fatherofknyaz	2	1553	1554	PER	моего отца	8261	8271	моего отца	2	80	84	6	0	1	1	254	1554	отца	nmod	1552	NOUN	NOM	Not_Assigned	Not_Assigned	3
+knyaz	0	1553	1553	PER	моего	8261	8266	моего	1	80	84	6	1	0	0	255	1553	моего	det	1554	DET	PRON	Not_Assigned	Not_Assigned	3
+fatherofknyaz	2	1558	1558	PER	он	8284	8286	он	1	80	84	11	0	0	0	256	1558	он	nsubj	1562	PRON	PRON	Not_Assigned	Not_Assigned	3
+baron	1	1563	1563	PER	вам	8308	8311	вам	1	80	84	16	0	0	0	257	1563	вам	iobj	1562	PRON	PRON	Not_Assigned	Not_Assigned	3
+baron	1	1568	1568	PER	Мне	8336	8339	мне	1	82	86	0	0	0	0	258	1568	мне	iobj	1550	PRON	PRON	Not_Assigned	Not_Assigned	3
+baron	1	1572	1572	PER	Остерман	8353	8361	остерман	1	82	87	2	0	0	0	259	1572	остерман	nsubj	1571	PROPN	PROP	Singular	Not_Assigned	3
+fatherofknyaz	2	1584	1585	PER	вашего батюшку	8409	8423	вашего батюшку	2	84	89	2	0	1	1	260	1585	батюшку	obj	1583	NOUN	NOM	Not_Assigned	Not_Assigned	3
+knyaz	0	1584	1584	PER	вашего	8409	8415	вашего	1	84	89	2	1	0	0	261	1584	вашего	det	1585	DET	PRON	Not_Assigned	Not_Assigned	3
+knyaz	0	1587	1587	PER	Чарыков	8427	8434	чарыков	1	85	90	0	0	0	0	262	1587	чарыков	nsubj	1588	PROPN	PROP	Singular	Not_Assigned	3
+fatherofknyaz	2	1590	1590	PER	отца	8446	8450	отца	1	85	90	3	0	0	0	263	1590	отца	nmod	1589	NOUN	NOM	Not_Assigned	Not_Assigned	3
+fatherofknyaz	2	1593	1595	PER	Князь Андрей Николаевич	8455	8478	князь андрей николаевич	3	86	91	1	0	0	0	264	1593	князь	ROOT	1593	NOUN	PROP	Singular	Not_Assigned	3
+baron	1	1599	1599	PER	Остерман	8493	8501	остерман	1	86	92	2	0	0	0	265	1599	остерман	nsubj	1598	PROPN	PROP	Singular	Not_Assigned	3
+knyaz	0	1607	1607	PER	вы	8525	8527	вы	1	88	94	1	0	0	0	266	1607	вы	nsubj	1609	PRON	PRON	Not_Assigned	Not_Assigned	3
+knyaz	0	1608	1609	PER	его сынок	8528	8537	его сынок	2	88	94	2	0	1	1	267	1609	сынок	ROOT	1609	NOUN	NOM	Not_Assigned	Not_Assigned	3
+fatherofknyaz	2	1608	1608	PER	его	8528	8531	его	1	88	94	2	1	0	0	268	1608	его	obj	1609	PRON	PRON	Not_Assigned	Not_Assigned	3
+baron	1	1620	1620	PER	его	8571	8574	его	1	91	97	1	0	0	0	269	1620	его	det	1622	DET	PRON	Not_Assigned	Not_Assigned	3
+fatherofknyaz	2	1635	1639	PER	старом князе Чарыкове-Ордынском	8653	8684	старом князе чарыкове - ордынском	5	92	98	6	0	0	0	270	1636	князе	nmod	1633	NOUN	PROP	Singular	Not_Assigned	3
+baron	1	1642	1642	PER	него	8694	8698	него	1	92	98	13	0	0	0	271	1642	него	nmod	1644	PRON	PRON	Not_Assigned	Not_Assigned	3
+baron	1	1654	1654	PER	он	8754	8756	он	1	94	100	7	0	0	0	272	1654	он	nsubj	1653	PRON	PRON	Not_Assigned	Not_Assigned	3
+baron	1	1666	1666	PER	я	8800	8801	я	1	96	102	1	0	0	0	273	1666	я	nsubj	1665	PRON	PRON	Not_Assigned	Not_Assigned	3
+fatherofknyaz	2	1667	1668	PER	вашего батюшку	8802	8816	вашего батюшку	2	96	102	2	0	1	1	274	1668	батюшку	obj	1665	NOUN	NOM	Not_Assigned	Not_Assigned	3
+knyaz	0	1667	1667	PER	вашего	8802	8808	вашего	1	96	102	2	1	0	0	275	1667	вашего	det	1668	DET	PRON	Not_Assigned	Not_Assigned	3
+fatherofknyaz	2	1682	1682	PER	его	8873	8876	его	1	97	103	10	0	0	0	276	1682	его	obj	1681	PRON	PRON	Not_Assigned	Not_Assigned	3
+knyaz	0	1685	1685	PER	вы	8884	8886	вы	1	98	104	1	0	0	0	277	1685	вы	nsubj	1686	PRON	PRON	Not_Assigned	Not_Assigned	3
+knyaz	0	1691	1692	PER	Князь Борис	8913	8924	князь борис	2	99	105	0	0	0	0	278	1691	князь	nsubj	1693	NOUN	PROP	Singular	Not_Assigned	3
+fatherofknyaz	2	1695	1695	PER	отца	8939	8943	отца	1	99	105	4	0	0	0	279	1695	отца	nmod	1694	NOUN	NOM	Not_Assigned	Not_Assigned	3
+baron	1	1699	1699	PER	Остерману	8957	8966	остерману	1	99	105	8	0	0	0	280	1699	остерману	iobj	1697	PROPN	PROP	Singular	Not_Assigned	3
+baron	1	1707	1707	PER	тот	8996	8999	тот	1	101	107	5	0	0	0	281	1707	тот	nsubj	1706	DET	PRON	Not_Assigned	Not_Assigned	3
+fatherofknyaz	2	1718	1718	PER	Он	9051	9053	он	1	103	109	0	0	0	0	282	1718	он	nsubj	1721	PRON	PRON	Not_Assigned	Not_Assigned	3
+baron	1	1720	1720	PER	меня	9056	9060	меня	1	103	109	2	0	0	0	283	1720	меня	obl	1721	PRON	PRON	Not_Assigned	Not_Assigned	3
+fatherofknyaz	2	1727	1727	PER	он	9091	9093	он	1	103	109	9	0	0	0	284	1727	он	nsubj	1728	PRON	PRON	Not_Assigned	Not_Assigned	3
+baron	1	1732	1732	PER	Я	9112	9113	я	1	104	110	0	0	0	0	285	1732	я	nsubj	1737	PRON	PRON	Not_Assigned	Not_Assigned	3
+fatherofknyaz	2	1749	1750	PER	вашему батюшке	9185	9199	вашему батюшке	2	104	110	17	0	1	1	286	1750	батюшке	iobj	1751	NOUN	NOM	Not_Assigned	Not_Assigned	3
+knyaz	0	1749	1749	PER	вашему	9185	9191	вашему	1	104	110	17	1	0	0	287	1749	вашему	det	1750	DET	PRON	Not_Assigned	Not_Assigned	3
+baron	1	1769	1770	PER	ваше сиятельство	9279	9295	ваше сиятельство	2	107	113	7	0	0	0	288	1770	сиятельство	conj	1737	NOUN	NOM	Not_Assigned	Not_Assigned	3
+knyaz	0	1774	1774	PER	Чарыков	9308	9315	чарыков	1	107	114	2	0	0	0	289	1774	чарыков	nsubj	1773	PROPN	PROP	Singular	Not_Assigned	3
+PER_T290	19	1785	1785	PER	старики	9375	9382	старики	1	108	115	9	0	0	0	290	1785	старики	nsubj	1786	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T290	19	1795	1795	PER	их	9423	9425	их	1	108	115	19	0	0	0	291	1795	их	det	1796	DET	PRON	Not_Assigned	Not_Assigned	3
+baron	1	1798	1798	PER	Остерман	9437	9445	остерман	1	108	115	22	0	0	0	292	1798	остерман	nsubj	1799	PROPN	PROP	Singular	Not_Assigned	3
+knyaz	0	1801	1802	PER	князю Борису	9464	9476	князю борису	2	108	115	25	0	0	0	293	1801	князю	iobj	1800	NOUN	PROP	Singular	Not_Assigned	3
+baron	1	1805	1805	PER	он	9485	9487	он	1	108	115	29	0	0	0	294	1805	он	nsubj	1807	PRON	PRON	Not_Assigned	Not_Assigned	3
+fatherofknyaz	2	1812	1813	PER	его отцу	9520	9528	его отцу	2	108	115	36	0	1	1	295	1813	отцу	iobj	1808	NOUN	NOM	Not_Assigned	Not_Assigned	3
+knyaz	0	1812	1812	PER	его	9520	9523	его	1	108	115	36	1	0	0	296	1812	его	det	1813	DET	PRON	Not_Assigned	Not_Assigned	3
+baron	1	1819	1819	PER	я	9552	9553	я	1	110	117	3	0	0	0	297	1819	я	nsubj	1818	PRON	PRON	Not_Assigned	Not_Assigned	3
+Petr1	5	1825	1826	PER	покойном государе	9579	9596	покойном государе	2	111	118	3	0	0	0	298	1826	государе	nmod	1823	NOUN	NOM	Not_Assigned	Not_Assigned	3
+baron	1	1828	1828	PER	он	9599	9601	он	1	111	118	6	0	0	0	299	1828	он	nsubj	1833	PRON	PRON	Not_Assigned	Not_Assigned	3
+Petr1	5	1834	1835	PER	покойным государем	9630	9648	покойным государем	2	111	118	12	0	0	0	300	1835	государем	xcomp	1833	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Petr1	5	1836	1838	PER	императора Петра I	9649	9667	императора петра i	3	111	118	14	0	0	0	301	1836	императора	nmod	1835	NOUN	PROP	Singular	Not_Assigned	3
+Petr1	5	1842	1842	PER	него	9680	9684	него	1	111	118	20	0	0	0	302	1842	него	obl	1843	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T303	57	1845	1846	PER	двух государынь	9698	9713	двух государынь	2	111	118	23	0	0	0	303	1846	государынь	obj	1843	NOUN	NOM	Not_Assigned	Not_Assigned	3
+T304	38	1848	1851	PER	юного государя Петра II	9716	9739	юного государя петра ii	4	111	118	26	0	0	0	304	1849	государя	conj	1846	NOUN	PROP	Singular	Not_Assigned	3
+Petr1	5	1863	1863	PER	Государь	9793	9801	государь	1	113	120	0	0	0	0	305	1863	государь	nsubj	1865	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Petr1	5	1866	1866	PER	сам	9823	9826	сам	1	113	120	3	0	0	0	306	1866	сам	acl	1865	ADJ	NOM	Not_Assigned	Not_Assigned	3
+PER_T307	52	1869	1869	PER	никто	9830	9835	никто	1	113	120	6	0	0	0	307	1869	никто	nsubj	1873	PRON	PRON	Not_Assigned	Not_Assigned	3
+Petr1	5	1876	1877	PER	его величество	9868	9882	его величество	2	113	120	13	0	0	0	308	1877	величество	nsubj	1878	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Petr1	5	1878	1878	PER	сам	9883	9886	сам	1	113	120	15	0	0	0	309	1878	сам	ccomp	1873	ADJ	NOM	Not_Assigned	Not_Assigned	3
+PER_T312	24	1897	1897	PER	Всех	9973	9977	всех	1	115	122	0	0	0	0	310	1897	всех	obj	1898	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T312	24	1900	1900	PER	всем	9986	9990	всем	1	115	122	3	0	0	0	311	1900	всем	det	1901	DET	PRON	Not_Assigned	Not_Assigned	3
+ladies	7	1912	1912	PER	барынь	10055	10061	барынь	1	116	123	8	0	0	0	312	1912	барынь	parataxis	1907	NOUN	NOM	Not_Assigned	Not_Assigned	3
+ladies	7	1914	1915	PER	Барыни русские	10064	10078	барыни русские	2	117	124	0	0	0	0	313	1914	барыни	iobj	1918	PROPN	PROP	Singular	Not_Assigned	3
+PER_T319	13	1947	1947	PER	мужчины	10217	10224	мужчины	1	119	126	3	0	0	0	314	1947	мужчины	ROOT	1947	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T319	13	1953	1953	PER	все	10239	10242	всеэтак	1	119	126	9	0	0	0	315	1953	всеэтак	ROOT	1953	ADV	NOM	Not_Assigned	Not_Assigned	3
+ladies	7	1961	1961	PER	дам	10278	10281	дам	1	119	126	17	0	0	0	316	1961	дам	obl	1962	NOUN	NOM	Not_Assigned	Not_Assigned	3
+ladies	7	1965	1965	PER	они	10298	10301	они	1	119	126	21	0	0	0	317	1965	они	nsubj:pass	1970	PRON	PRON	Not_Assigned	Not_Assigned	3
+Petr1	5	1978	1979	PER	император Петр	10376	10390	император петр	2	120	127	2	0	0	0	318	1978	император	nsubj	1977	NOUN	PROP	Singular	Not_Assigned	3
+PER_T319	13	1993	1994	PER	всем кавалерам	10460	10474	всем кавалерам	2	120	127	17	0	0	0	319	1994	кавалерам	iobj	1992	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Petr1	5	1996	1996	PER	дам	10486	10489	дам	1	120	127	20	0	0	0	320	1996	дам	obj	1997	VERB	NOM	Not_Assigned	Not_Assigned	3
+PER_T322	21	2000	2000	PER	кто	10503	10506	кто	1	120	127	24	0	0	0	321	2000	кто	nsubj	2001	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T323	53	2003	2003	PER	дамы	10519	10523	дамы	1	120	127	27	0	0	0	322	2003	дамы	obl	2001	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T322	21	2005	2005	PER	тот	10525	10528	тот	1	120	127	29	0	0	0	323	2005	тот	nsubj	2006	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T325	39	2037	2037	PER	кто	10670	10673	кто	1	121	128	25	0	0	0	324	2037	кто	nsubj	2038	PRON	PRON	Not_Assigned	Not_Assigned	3

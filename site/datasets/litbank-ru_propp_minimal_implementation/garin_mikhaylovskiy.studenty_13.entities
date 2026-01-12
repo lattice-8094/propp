@@ -1,0 +1,265 @@
+COREF_name	COREF	start_token	end_token	cat	sacr_text	byte_onset	byte_offset	text	mention_len	paragraph_ID	sentence_ID	start_token_ID_within_sentence	out_to_in_nested_level	in_to_out_nested_level	nested_entities_count	temp_index	head_id	head_word	head_dependency_relation	head_syntactic_head_ID	POS_tag	prop	number	gender	grammatical_person
+Kartashev	0	6	6	PER	Я	16	17	я	1	1	1	0	0	0	0	0	6	я	nsubj	7	PRON	PRON	Not_Assigned	Not_Assigned	3
+Shatski	1	10	10	PER	тебе	33	37	тебе	1	2	2	1	0	0	0	1	10	тебе	obl	24	PRON	PRON	Not_Assigned	Not_Assigned	3
+Shatski	1	16	16	PER	тобой	53	58	тобой	1	2	2	7	0	0	0	2	16	тобой	nmod	14	PRON	PRON	Not_Assigned	Not_Assigned	3
+Kartashev	0	43	43	PER	Карташев	150	158	карташев	1	5	5	11	0	0	0	3	43	карташев	appos	42	PROPN	PROP	Singular	Not_Assigned	3
+Shatski	1	51	51	PER	Миша	184	188	миша	1	7	7	2	0	0	0	4	51	миша	parataxis	49	PROPN	PROP	Singular	Not_Assigned	3
+Kartashev	0	56	56	PER	Ларио	202	207	ларио	1	7	7	7	0	0	0	5	56	ларио	nsubj	36	PROPN	PROP	Singular	Not_Assigned	3
+Shatski	1	72	72	PER	Шацкого	280	287	шацкого	1	8	8	14	0	0	0	6	72	шацкого	nmod	71	PROPN	PROP	Singular	Not_Assigned	3
+Shatski	1	84	84	PER	Шацкий	320	326	шацкий	1	9	10	3	0	0	0	7	84	шацкий	amod	85	ADJ	PROP	Singular	Not_Assigned	3
+Kartashev	0	85	85	PER	Карташева	327	336	карташева	1	9	10	4	0	0	0	8	85	карташева	nsubj	83	PROPN	PROP	Singular	Not_Assigned	3
+ShatskiKartashev	9	88	88	PER	они	344	347	они	1	9	10	7	0	0	0	9	88	они	nsubj	92	PRON	PRON	Not_Assigned	Not_Assigned	3
+theater	7	94	94	FAC	театра	387	393	театра	1	9	10	13	0	0	0	10	94	театра	obl	92	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Kartashev	0	96	96	PER	Карташев	396	404	карташев	1	10	11	0	0	0	0	11	96	карташев	nsubj	97	PROPN	PROP	Singular	Not_Assigned	3
+Shatski	1	114	114	PER	Шацкий	485	491	шацкий	1	11	12	11	0	0	0	12	114	шацкий	nsubj	113	PROPN	PROP	Singular	Not_Assigned	3
+Kartashev	0	119	119	PER	мной	501	505	мной	1	12	13	3	0	0	0	13	119	мной	obl	121	PRON	PRON	Not_Assigned	Not_Assigned	3
+Kartashev	0	125	125	PER	я	529	530	я	1	12	13	9	0	0	0	14	125	я	obj	122	PRON	PRON	Not_Assigned	Not_Assigned	3
+Kornev	5	127	127	PER	Корнев	534	540	корнев	1	12	13	11	0	0	0	15	127	корнев	obj	122	PROPN	PROP	Singular	Not_Assigned	3
+Kartashev	0	129	129	PER	я	542	543	я	1	12	13	13	0	0	0	16	129	я	nsubj	130	PRON	PRON	Not_Assigned	Not_Assigned	3
+Kornev	5	131	131	PER	тебя	550	554	тебя	1	12	13	15	0	0	0	17	131	тебя	obj	130	PRON	PRON	Not_Assigned	Not_Assigned	3
+Shatski	1	133	134	PER	мой друг	556	564	мой друг	2	12	13	17	0	1	1	18	134	друг	conj	121	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Kartashev	0	133	133	PER	мой	556	559	мой	1	12	13	17	1	0	0	19	133	мой	det	134	DET	PRON	Not_Assigned	Not_Assigned	3
+Kartashev	0	153	153	PER	меня	632	636	меня	1	15	16	9	0	0	0	20	153	меня	obj	154	PRON	PRON	Not_Assigned	Not_Assigned	3
+Shatski	1	160	160	PER	Я	660	661	я	1	17	18	0	0	0	0	21	160	я	nsubj	161	PRON	PRON	Not_Assigned	Not_Assigned	3
+Kartashev	0	191	191	PER	Карташев	775	783	карташев	1	21	22	0	0	0	0	22	191	карташев	nsubj	192	PROPN	PROP	Singular	Not_Assigned	3
+homeofKartashev	13	194	194	FAC	домой	797	802	домой	1	21	22	3	0	0	0	23	194	домой	advmod	193	ADV	NOM	Not_Assigned	Not_Assigned	3
+Kartashev	0	201	201	PER	себя	836	840	себя	1	21	22	10	0	0	0	24	201	себя	obj	200	PRON	PRON	Not_Assigned	Not_Assigned	3
+theater	7	211	211	FAC	театра	902	908	театра	1	22	23	5	0	0	0	25	211	театра	nmod	210	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T27	18	219	220	PER	красивых актрис	949	964	красивых актрис	2	22	23	13	0	0	0	26	220	актрис	nmod	218	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T28	3	224	226	PER	одна из них	977	988	одна из них	3	22	23	18	0	1	1	27	226	них	nmod	224	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T27	18	226	226	PER	них	985	988	них	1	22	23	20	1	0	0	28	226	них	nmod	224	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T28	3	233	242	PER	красивая, стройная, с мягкими, темными глазами певица	1015	1068	красивая , стройная , с мягкими , темными глазами певица	10	22	23	27	0	0	0	29	238	мягкими	amod	241	ADJ	NOM	Not_Assigned	Not_Assigned	3
+PER_T28	3	244	244	PER	Она	1071	1074	она	1	23	24	0	0	0	0	30	244	она	nsubj:pass	246	PRON	PRON	Not_Assigned	Not_Assigned	3
+M2	16	252	252	GPE	l'Italia	1110	1118	l'italia	1	23	24	8	0	0	0	31	252	l'italia	flat:foreign	251	X	NOM	Not_Assigned	Not_Assigned	3
+PER_T28	3	258	258	PER	своими	1141	1147	своими	1	23	24	14	0	0	0	32	258	своими	det	259	DET	PRON	Not_Assigned	Not_Assigned	3
+Kartashev	0	262	262	PER	Карташеву	1159	1168	карташеву	1	23	24	18	0	0	0	33	262	карташеву	iobj	263	PROPN	PROP	Singular	Not_Assigned	3
+PER_T28	3	266	266	PER	она	1185	1188	она	1	23	24	22	0	0	0	34	266	она	nsubj	268	PRON	PRON	Not_Assigned	Not_Assigned	3
+Kartashev	0	270	270	PER	него	1206	1210	него	1	23	24	26	0	0	0	35	270	него	obl	268	PRON	PRON	Not_Assigned	Not_Assigned	3
+M2	16	291	291	GPE	Италия	1265	1271	италия	1	23	24	47	0	0	0	36	291	италия	nsubj	290	PROPN	PROP	Not_Assigned	Not_Assigned	3
+Kartashev	0	298	298	PER	ним	1290	1293	ним	1	24	25	1	0	0	0	37	298	ним	obl	299	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T28	3	300	300	PER	ее	1304	1306	ее	1	24	25	3	0	0	0	38	300	ее	det	304	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T28	3	310	310	PER	ее	1356	1358	ее	1	24	25	13	0	0	0	39	310	ее	det	312	DET	PRON	Not_Assigned	Not_Assigned	3
+Kartashev	0	317	317	PER	его	1384	1387	его	1	24	25	20	0	0	0	40	317	его	nmod	316	DET	PRON	Not_Assigned	Not_Assigned	3
+Kartashev	0	322	322	PER	он	1409	1411	он	1	24	25	25	0	0	0	41	322	он	nsubj	323	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T28	3	330	331	PER	такой женщиной	1446	1460	такой женщиной	2	24	25	33	0	0	0	42	331	женщиной	nmod	329	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Kartashev	0	346	346	PER	ему	1522	1525	ему	1	25	26	4	0	0	0	43	346	ему	iobj	345	PRON	PRON	Not_Assigned	Not_Assigned	3
+Kartashev	0	352	352	PER	Карташев	1544	1552	карташев	1	26	27	4	0	0	0	44	352	карташев	nsubj	353	PROPN	PROP	Singular	Not_Assigned	3
+Kartashev	0	357	357	PER	его	1572	1575	его	1	26	27	9	0	0	0	45	357	его	obj	358	PRON	PRON	Not_Assigned	Not_Assigned	3
+Kartashev	0	363	363	PER	он	1607	1609	он	1	26	27	15	0	0	0	46	363	он	nsubj	367	PRON	PRON	Not_Assigned	Not_Assigned	3
+motherofKartashev	8	373	373	PER	матери	1656	1662	матери	1	26	27	25	0	0	0	47	373	матери	nmod	372	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Kartashev	0	382	382	PER	ним	1705	1708	ним	1	26	27	34	0	0	0	48	382	ним	obl	379	PRON	PRON	Not_Assigned	Not_Assigned	3
+motherofKartashev	8	386	386	PER	ее	1728	1730	ее	1	27	28	2	0	0	0	49	386	ее	det	387	DET	PRON	Not_Assigned	Not_Assigned	3
+motherofKartashev	8	402	402	PER	матери	1813	1819	матери	1	27	28	18	0	0	0	50	402	матери	nmod	400	NOUN	NOM	Not_Assigned	Not_Assigned	3
+motherofKartashev	8	425	429	PER	мать его, очень чуткая	1927	1949	мать его , очень чуткая	5	27	28	41	0	1	1	51	429	чуткая	conj	420	ADJ	NOM	Not_Assigned	Not_Assigned	3
+Kartashev	0	426	426	PER	его	1932	1935	его	1	27	28	42	1	0	0	52	426	его	nmod	425	PRON	PRON	Not_Assigned	Not_Assigned	3
+Kartashev	0	443	443	PER	Карташев	2013	2021	карташев	1	28	29	7	0	0	0	53	443	карташев	nsubj	444	PROPN	PROP	Singular	Not_Assigned	3
+Kartashev	0	446	446	PER	себя	2037	2041	себя	1	28	29	10	0	0	0	54	446	себя	obj	445	PRON	PRON	Not_Assigned	Not_Assigned	3
+Kartashev	0	454	454	PER	его	2080	2083	его	1	29	30	4	0	0	0	55	454	его	obj	453	PRON	PRON	Not_Assigned	Not_Assigned	3
+Kartashev	0	458	458	PER	он	2094	2096	он	1	29	30	8	0	0	0	56	458	он	nsubj	461	PRON	PRON	Not_Assigned	Not_Assigned	3
+FAC_T56	29	463	463	FAC	оперетке	2125	2133	оперетке	1	29	30	13	0	0	0	57	463	оперетке	obl	461	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Kartashev	0	474	474	PER	его	2186	2189	его	1	30	31	3	0	0	0	58	474	его	obj	473	PRON	PRON	Not_Assigned	Not_Assigned	3
+Kartashev	0	493	493	PER	Он	2289	2291	он	1	32	33	0	0	0	0	59	493	он	nsubj	496	PRON	PRON	Not_Assigned	Not_Assigned	3
+FAC_T59	17	498	498	FAC	университет	2312	2323	университет	1	32	33	5	0	0	0	60	498	университет	obl	496	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Kartashev	0	500	500	PER	Он	2326	2328	он	1	33	34	0	0	0	0	61	500	он	nsubj	501	PRON	PRON	Not_Assigned	Not_Assigned	3
+Kartashev	0	507	507	PER	своей	2359	2364	своей	1	33	34	7	0	0	0	62	507	своей	det	508	DET	PRON	Not_Assigned	Not_Assigned	3
+FAC_T62	36	511	512	FAC	передней университета	2379	2400	передней университета	2	34	35	1	0	1	1	63	512	университета	obl	513	NOUN	NOM	Not_Assigned	Not_Assigned	3
+FAC_T59	17	512	512	FAC	университета	2388	2400	университета	1	34	35	2	1	0	0	64	512	университета	obl	513	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Kartashev	0	514	514	PER	его	2411	2414	его	1	34	35	4	0	0	0	65	514	его	det	516	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T64	24	515	517	PER	знакомая толпа швейцаров	2415	2439	знакомая толпа швейцаров	3	34	35	5	0	0	0	66	516	толпа	nsubj	513	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Kartashev	0	527	527	PER	он	2481	2483	он	1	34	35	17	0	0	0	67	527	он	nsubj	528	PRON	PRON	Not_Assigned	Not_Assigned	3
+Kartashev	0	532	532	PER	Карташев	2505	2513	карташев	1	35	36	0	0	0	0	68	532	карташев	nsubj	533	PROPN	PROP	Singular	Not_Assigned	3
+M1	11	555	555	FAC	аудиторию	2624	2633	аудиторию	1	35	36	23	0	0	0	69	555	аудиторию	obl	548	NOUN	NOM	Not_Assigned	Not_Assigned	3
+M1	11	557	557	FAC	Там	2636	2639	там	1	36	37	0	0	0	0	70	557	там	advmod	560	ADV	NOM	Not_Assigned	Not_Assigned	3
+Kartashev	0	558	558	PER	он	2640	2642	он	1	36	37	1	0	0	0	71	558	он	nsubj	560	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T69	22	565	566	PER	знаменитого профессора	2680	2702	знаменитого профессора	2	36	37	8	0	0	0	72	566	профессора	obj	564	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Kartashev	0	575	575	PER	Карташев	2744	2752	карташев	1	37	38	0	0	0	0	73	575	карташев	nsubj	577	PROPN	PROP	Singular	Not_Assigned	3
+Kartashev	0	586	586	PER	я	2789	2790	я	1	38	39	7	0	0	0	74	586	я	nsubj	587	PRON	PRON	Not_Assigned	Not_Assigned	3
+Kartashev	0	587	587	PER	дурак	2791	2796	дурак	1	38	39	8	0	0	0	75	587	дурак	parataxis	584	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T73	4	590	590	PER	вы	2800	2802	вы	1	38	39	11	0	0	0	76	590	вы	nsubj	591	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T73	4	596	596	PER	вами	2818	2822	вами	1	38	39	17	0	0	0	77	596	вами	nmod	594	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T73	4	598	598	PER	всеми	2826	2831	всеми	1	38	39	19	0	0	0	78	598	всеми	det	594	PRON	PRON	Not_Assigned	Not_Assigned	3
+Kartashev	0	608	608	PER	я	2880	2881	я	1	38	39	29	0	0	0	79	608	я	nsubj	609	PRON	PRON	Not_Assigned	Not_Assigned	3
+Kartashev	0	609	609	PER	дурак	2882	2887	дурак	1	38	39	30	0	0	0	80	609	дурак	ccomp	601	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Kartashev	0	611	611	PER	я	2889	2890	я	1	38	39	32	0	0	0	81	611	я	nsubj	613	PRON	PRON	Not_Assigned	Not_Assigned	3
+Kartashev	0	617	617	PER	Он	2913	2915	он	1	39	40	0	0	0	0	82	617	он	nsubj	619	PRON	PRON	Not_Assigned	Not_Assigned	3
+M1	11	623	623	FAC	аудитории	2944	2953	аудитории	1	39	40	6	0	0	0	83	623	аудитории	obl	621	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T73	4	628	629	PER	вы себе	2970	2977	вы себе	2	40	41	3	0	0	0	84	628	вы	nsubj	627	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T73	4	630	630	PER	все	2978	2981	все	1	40	41	5	0	0	0	85	630	все	obj	627	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T73	4	632	632	PER	вашим	2984	2989	вашим	1	40	41	7	0	0	0	86	632	вашим	det	633	DET	PRON	Not_Assigned	Not_Assigned	3
+Kartashev	0	638	638	PER	он	3010	3012	он	1	40	41	13	0	0	0	87	638	он	nsubj	637	PRON	PRON	Not_Assigned	Not_Assigned	3
+Kartashev	0	647	647	PER	Карташев	3047	3055	карташев	1	41	42	4	0	0	0	88	647	карташев	nsubj	650	PROPN	PROP	Singular	Not_Assigned	3
+Kartashev	0	655	655	PER	себя	3103	3107	себя	1	41	42	12	0	0	0	89	655	себя	obj	654	PRON	PRON	Not_Assigned	Not_Assigned	3
+LOC_T87	39	656	656	LOC	дома	3108	3112	дома	1	41	42	13	0	0	0	90	656	дома	advmod	654	ADV	NOM	Not_Assigned	Not_Assigned	3
+homeofKartashev	13	662	662	LOC	дома	3125	3129	дома	1	41	42	19	0	0	0	91	662	дома	advmod	659	ADV	NOM	Not_Assigned	Not_Assigned	3
+LOC_T89	40	665	666	LOC	далекой родине	3134	3148	далекой родине	2	41	42	22	0	0	0	92	666	родине	conj	662	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Peterbourg	23	675	676	GPE	большом Петербурге	3170	3188	большом петербурге	2	41	42	32	0	0	0	93	676	петербурге	obl	650	PROPN	PROP	Not_Assigned	Not_Assigned	3
+Kartashev	0	678	678	PER	Ему	3191	3194	ему	1	42	43	0	0	0	0	94	678	ему	iobj	679	PRON	PRON	Not_Assigned	Not_Assigned	3
+theater	7	680	681	FAC	вчерашний театр	3206	3221	вчерашний театр	2	42	43	2	0	0	0	95	681	театр	nsubj	679	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Shatski	1	683	683	PER	Шацкий	3223	3229	шацкий	1	42	43	5	0	0	0	96	683	шацкий	amod	681	ADJ	PROP	Singular	Not_Assigned	3
+Shatski	1	685	685	PER	его	3231	3234	его	1	42	43	7	0	0	0	97	685	его	det	686	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T95	15	691	691	PER	извозчика	3256	3265	извозчика	1	42	43	13	0	0	0	98	691	извозчика	obj	690	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Kartashev	0	693	693	PER	он	3267	3269	он	1	42	43	15	0	0	0	99	693	он	nsubj	694	PRON	PRON	Not_Assigned	Not_Assigned	3
+Shatski	1	696	696	PER	Шацкому	3279	3286	шацкому	1	42	43	18	0	0	0	100	696	шацкому	obl	694	PROPN	PROP	Singular	Not_Assigned	3
+PER_T95	15	698	698	PER	Извозчик	3289	3297	извозчик	1	43	44	0	0	0	0	101	698	извозчик	nsubj	699	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Kartashev	0	700	700	PER	его	3305	3308	его	1	43	44	2	0	0	0	102	700	его	obj	699	PRON	PRON	Not_Assigned	Not_Assigned	3
+houseofShatski	21	702	706	FAC	красивому дому на Малой Морской	3311	3342	красивому дому на малой морской	5	43	44	4	0	1	1	103	706	морской	obl	699	ADJ	NOM	Not_Assigned	Not_Assigned	3
+FAC_T103	43	705	706	FAC	Малой Морской	3329	3342	малой морской	2	43	44	7	1	0	0	104	706	морской	obl	699	ADJ	NOM	Not_Assigned	Not_Assigned	3
+PER_T104	42	718	718	PER	швейцара	3397	3405	швейцара	1	43	44	20	0	0	0	105	718	швейцара	nmod	717	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Kartashev	0	720	720	PER	Карташев	3407	3415	карташев	1	43	44	22	0	0	0	106	720	карташев	nsubj	721	PROPN	PROP	Singular	Not_Assigned	3
+Kartashev	0	726	726	PER	Он	3441	3443	он	1	44	45	0	0	0	0	107	726	он	nsubj	727	PRON	PRON	Not_Assigned	Not_Assigned	3
+gornishnaya	2	730	737	PER	горничная в чепце, молоденькая, но важная	3461	3502	горничная в чепце , молоденькая , но важная	8	45	46	1	0	0	0	108	730	горничная	nsubj	729	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Kartashev	0	759	759	PER	Карташев	3599	3607	карташев	1	46	47	9	0	0	0	109	759	карташев	nsubj	758	PROPN	PROP	Singular	Not_Assigned	3
+Kartashev	0	763	763	PER	он	3622	3624	он	1	47	48	2	0	0	0	110	763	он	nsubj	764	PRON	PRON	Not_Assigned	Not_Assigned	3
+gornishnaya	2	766	766	PER	горничную	3638	3647	горничную	1	47	48	5	0	0	0	111	766	горничную	obl	764	ADJ	NOM	Not_Assigned	Not_Assigned	3
+Kartashev	0	772	772	PER	его	3663	3666	его	1	47	48	11	0	0	0	112	772	его	obj	771	PRON	PRON	Not_Assigned	Not_Assigned	3
+FAC_T110	30	776	780	FAC	широкому, застланному ковром коридору	3686	3723	широкому , застланному ковром коридору	5	47	48	15	0	0	0	113	779	ковром	nmod	774	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Kartashev	0	785	785	PER	Карташев	3742	3750	карташев	1	48	49	0	0	0	0	114	785	карташев	nsubj	786	PROPN	PROP	Singular	Not_Assigned	3
+FAC_T112	31	788	790	FAC	большую высокую комнату	3759	3782	большую высокую комнату	3	48	49	3	0	0	0	115	790	комнату	obl	786	NOUN	NOM	Not_Assigned	Not_Assigned	3
+FAC_T113	14	807	808	FAC	другую комнату	3883	3897	другую комнату	2	48	49	22	0	0	0	116	808	комнату	nmod	805	NOUN	NOM	Not_Assigned	Not_Assigned	3
+FAC_T113	14	811	811	FAC	комнаты	3908	3915	комнаты	1	49	50	1	0	0	0	117	811	комнаты	obl	812	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Kartashev	0	854	854	PER	Карташев	4132	4140	карташев	1	52	53	0	0	0	0	118	854	карташев	nsubj	855	PROPN	PROP	Singular	Not_Assigned	3
+Shatski	1	859	865	PER	Шацкого, задумчиво лежавшего еще в постели	4166	4208	шацкого , задумчиво лежавшего еще в постели	7	52	53	5	0	0	0	119	862	лежавшего	acl	859	VERB	PROP	Singular	Not_Assigned	3
+Shatski	1	871	871	PER	Шацкого	4246	4253	шацкого	1	53	54	4	0	0	0	120	871	шацкого	obj	870	PROPN	PROP	Singular	Not_Assigned	3
+Shatski	1	884	884	PER	хозяина	4325	4332	хозяина	1	53	54	17	0	0	0	121	884	хозяина	nmod	883	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T119	44	888	888	PER	Кто	4339	4342	кто	1	54	55	2	0	0	0	122	888	кто	ROOT	888	PRON	PRON	Not_Assigned	Not_Assigned	3
+Shatski	1	895	895	PER	Шацкий	4371	4377	шацкий	1	54	56	4	0	0	0	123	895	шацкий	obj	894	PROPN	PROP	Singular	Not_Assigned	3
+Kartashev	0	899	899	PER	Карташева	4389	4398	карташева	1	54	56	8	0	0	0	124	899	карташева	obj	898	PROPN	PROP	Singular	Not_Assigned	3
+Kartashev	0	906	906	PER	Артур	4423	4428	артур	1	54	56	15	0	0	0	125	906	артур	nsubj	902	PROPN	PROP	Singular	Not_Assigned	3
+Kartashev	0	908	909	PER	мой друг	4430	4438	мой друг	2	54	56	17	0	1	1	126	909	друг	appos	894	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Shatski	1	908	908	PER	мой	4430	4433	мой	1	54	56	17	1	0	0	127	908	мой	det	909	DET	PRON	Not_Assigned	Not_Assigned	3
+Shatski	1	912	912	PER	я	4444	4445	я	1	54	56	21	0	0	0	128	912	я	nsubj	913	PRON	PRON	Not_Assigned	Not_Assigned	3
+Kartashev	0	914	914	PER	тебя	4450	4454	тебя	1	54	56	23	0	0	0	129	914	тебя	obj	915	PRON	PRON	Not_Assigned	Not_Assigned	3
+Kartashev	0	920	920	PER	я	4471	4472	я	1	55	57	3	0	0	0	130	920	я	nsubj	923	PRON	PRON	Not_Assigned	Not_Assigned	3
+Shatski	1	924	924	PER	тебя	4488	4492	тебя	1	55	57	7	0	0	0	131	924	тебя	obj	925	PRON	PRON	Not_Assigned	Not_Assigned	3
+Shatski	1	933	933	PER	Шацкий	4519	4525	шацкий	1	57	59	0	0	0	0	132	933	шацкий	nsubj	935	ADJ	PROP	Singular	Not_Assigned	3
+gornishnaya	2	946	952	PER	горничной, спрашивавшей, что ему угодно	4584	4623	горничной , спрашивавшей , что ему угодно	7	57	59	13	0	1	1	133	952	угодно	ccomp	948	ADV	NOM	Not_Assigned	Not_Assigned	3
+Shatski	1	951	951	PER	ему	4613	4616	ему	1	57	59	18	1	0	0	134	951	ему	iobj	952	PRON	PRON	Not_Assigned	Not_Assigned	3
+Shatski	1	954	954	PER	он	4625	4627	он	1	57	59	21	0	0	0	135	954	он	nsubj	955	PRON	PRON	Not_Assigned	Not_Assigned	3
+Kartashev	0	971	972	PER	мой друг	4693	4701	мой друг	2	57	59	38	0	1	1	136	972	друг	parataxis	969	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Shatski	1	971	971	PER	мой	4693	4696	мой	1	57	59	38	1	0	0	137	971	мой	det	972	DET	PRON	Not_Assigned	Not_Assigned	3
+Kartashev	0	974	975	PER	граф Артур	4703	4713	граф артур	2	57	59	41	0	0	0	138	974	граф	conj	972	NOUN	PROP	Singular	Not_Assigned	3
+Shatski	1	986	987	PER	ваше сиятельство	4748	4764	ваше сиятельство	2	58	60	5	0	0	0	139	987	сиятельство	conj	984	NOUN	NOM	Not_Assigned	Not_Assigned	3
+gornishnaya	2	992	992	PER	горничная	4779	4788	горничная	1	58	60	11	0	0	0	140	992	горничная	nsubj	991	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Shatski	1	997	997	PER	меня	4797	4801	меня	1	59	61	3	0	0	0	141	997	меня	obl	998	PRON	PRON	Not_Assigned	Not_Assigned	3
+Shatski	1	1003	1003	PER	Шацкий	4821	4827	шацкий	1	59	61	9	0	0	0	142	1003	шацкий	nsubj	1002	PROPN	PROP	Singular	Not_Assigned	3
+gornishnaya	2	1006	1006	PER	горничной	4840	4849	горничной	1	59	61	12	0	0	0	143	1006	горничной	nmod	1005	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Kartashev	0	1013	1013	PER	ты	4868	4870	ты	1	60	62	5	0	0	0	144	1013	ты	nsubj	1015	PRON	PRON	Not_Assigned	Not_Assigned	3
+Shatski	1	1014	1014	PER	меня	4871	4875	меня	1	60	62	6	0	0	0	145	1014	меня	obj	1015	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T144	19	1017	1017	PER	графы	4887	4892	графы	1	60	62	9	0	0	0	146	1017	графы	obl	1015	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Kartashev	0	1022	1022	PER	Карташев	4907	4915	карташев	1	60	63	3	0	0	0	147	1022	карташев	nsubj	1021	PROPN	PROP	Singular	Not_Assigned	3
+Kartashev	0	1028	1029	PER	мой друг	4930	4938	мой друг	2	61	64	4	0	1	1	148	1029	друг	ROOT	1029	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Shatski	1	1028	1028	PER	мой	4930	4933	мой	1	61	64	4	1	0	0	149	1028	мой	det	1029	DET	PRON	Not_Assigned	Not_Assigned	3
+Shatski	1	1034	1034	PER	меня	4951	4955	меня	1	62	65	1	0	0	0	150	1034	меня	obl	1043	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T149	37	1035	1040	PER	никто, кроме графов и князей	4956	4984	никто , кроме графов и князей	6	62	65	2	0	1	2	151	1038	графов	obl	1043	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T144	19	1038	1038	PER	графов	4969	4975	графов	1	62	65	5	1	0	0	152	1038	графов	obl	1043	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T151	28	1040	1040	PER	князей	4978	4984	князей	1	62	65	7	1	0	0	153	1040	князей	conj	1038	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Lario	12	1048	1048	PER	Ларио	5035	5040	ларио	1	63	66	3	0	0	0	154	1048	ларио	nsubj	1047	PROPN	PROP	Singular	Not_Assigned	3
+Shatski	1	1050	1050	PER	Я	5045	5046	я	1	64	67	0	0	0	0	155	1050	я	nsubj	1052	PRON	PRON	Not_Assigned	Not_Assigned	3
+Lario	12	1051	1051	PER	его	5047	5050	его	1	64	67	1	0	0	0	156	1051	его	obj	1052	PRON	PRON	Not_Assigned	Not_Assigned	3
+gornishnaya	2	1056	1056	PER	горничная	5075	5084	горничная	1	64	67	6	0	0	0	157	1056	горничная	nsubj	1055	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Lario	12	1059	1062	PER	Мой милый оригинал барон	5089	5113	мой милый оригинал барон	4	64	67	9	0	1	1	158	1061	оригинал	ROOT	1061	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Shatski	1	1059	1059	PER	Мой	5089	5092	мой	1	64	67	9	1	0	0	159	1059	мой	det	1061	DET	PRON	Not_Assigned	Not_Assigned	3
+Kartashev	0	1071	1072	PER	граф Артур	5142	5152	граф артур	2	65	68	6	0	0	0	160	1071	граф	conj	1061	NOUN	PROP	Singular	Not_Assigned	3
+Shatski	1	1075	1075	PER	Я	5158	5159	я	1	66	69	0	0	0	0	161	1075	я	nsubj	1078	PRON	PRON	Not_Assigned	Not_Assigned	3
+fatherofShatski	10	1079	1079	PER	отцу	5178	5182	отцу	1	66	69	4	0	0	0	162	1079	отцу	iobj	1078	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Kartashev	0	1085	1086	PER	графом Артуром	5201	5215	графом артуром	2	66	69	10	0	0	0	163	1085	графом	nmod	1083	NOUN	PROP	Singular	Not_Assigned	3
+fatherofShatski	10	1088	1088	PER	Он	5218	5220	он	1	67	70	0	0	0	0	164	1088	он	nsubj	1095	PRON	PRON	Not_Assigned	Not_Assigned	3
+FAC_T163	32	1094	1095	FAC	Дерптском университете	5236	5258	дерптском университете	2	67	70	6	0	0	0	165	1095	университете	ROOT	1095	NOUN	NOM	Not_Assigned	Not_Assigned	3
+fatherofShatski	10	1099	1099	PER	своими	5278	5284	своими	1	67	70	11	0	0	0	166	1099	своими	det	1100	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T165	20	1102	1102	PER	немцами	5295	5302	немцами	1	67	70	14	0	0	0	167	1102	немцами	nmod	1100	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T165	20	1104	1104	PER	баронами	5305	5313	баронами	1	67	70	16	0	0	0	168	1104	баронами	nmod	1100	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Kartashev	0	1111	1112	PER	графом Артуром	5332	5346	графом артуром	2	67	70	23	0	0	0	169	1111	графом	conj	1100	NOUN	PROP	Singular	Not_Assigned	3
+Kornev	5	1129	1129	PER	Корнева	5438	5445	корнева	1	69	72	1	0	0	0	170	1129	корнева	nsubj	1130	PROPN	PROP	Singular	Not_Assigned	3
+Shatski	1	1132	1132	PER	мне	5461	5464	мне	1	69	72	4	0	0	0	171	1132	мне	iobj	1133	PRON	PRON	Not_Assigned	Not_Assigned	3
+Shatski	1	1137	1137	PER	Ты	5482	5484	ты	1	70	73	2	0	0	0	172	1137	ты	nsubj	1138	PRON	PRON	Not_Assigned	Not_Assigned	3
+Kornev	5	1147	1148	PER	Лучший доктор	5522	5535	лучший доктор	2	72	75	0	0	0	0	173	1148	доктор	nsubj	1130	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Kartashev	0	1158	1159	PER	мой друг	5574	5582	мой друг	2	73	76	2	0	1	1	174	1159	друг	nsubj	1156	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Shatski	1	1158	1158	PER	мой	5574	5577	мой	1	73	76	2	1	0	0	175	1158	мой	det	1159	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T174	6	1163	1163	PER	Мы	5597	5599	мы	1	74	77	0	0	0	0	176	1163	мы	nsubj	1171	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T174	6	1165	1168	PER	бедные люди большого света	5601	5627	бедные люди большого света	4	74	77	2	0	0	0	177	1166	люди	appos	1163	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T174	6	1170	1170	PER	мы	5629	5631	мы	1	74	77	7	0	0	0	178	1170	мы	nsubj	1171	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T174	6	1171	1172	PER	рабы этикета	5632	5644	рабы этикета	2	74	77	8	0	0	0	179	1171	рабы	ROOT	1171	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Shatski	1	1174	1174	PER	Он	5647	5649	он	1	75	78	0	0	0	0	180	1174	он	nsubj	1175	PRON	PRON	Not_Assigned	Not_Assigned	3
+Shatski	1	1220	1220	PER	Шацкий	5875	5881	шацкий	1	77	80	2	0	0	0	181	1220	шацкий	nsubj	1221	PROPN	PROP	Singular	Not_Assigned	3
+Shatski	1	1239	1239	PER	себе	5980	5984	себе	1	77	80	21	0	0	0	182	1239	себе	iobj	1238	PRON	PRON	Not_Assigned	Not_Assigned	3
+Shatski	1	1243	1243	PER	себя	5999	6003	себя	1	77	80	25	0	0	0	183	1243	себя	obj	1242	PRON	PRON	Not_Assigned	Not_Assigned	3
+Shatski	1	1253	1253	PER	себе	6054	6058	себе	1	77	80	35	0	0	0	184	1253	себе	iobj	1252	PRON	PRON	Not_Assigned	Not_Assigned	3
+Kartashev	0	1265	1265	PER	Карташеву	6097	6106	карташеву	1	77	80	47	0	0	0	185	1265	карташеву	obl	1263	PROPN	PROP	Singular	Not_Assigned	3
+Shatski	1	1269	1269	PER	Я	6113	6114	я	1	77	80	51	0	0	0	186	1269	я	nsubj	1263	PRON	PRON	Not_Assigned	Not_Assigned	3
+FAC_T185	33	1276	1276	FAC	домой	6149	6154	домой	1	77	80	58	0	0	0	187	1276	домой	advmod	1274	ADV	NOM	Not_Assigned	Not_Assigned	3
+Shatski	1	1290	1291	PER	ваше сиятельство	6213	6229	ваше сиятельство	2	78	81	6	0	0	0	188	1291	сиятельство	conj	1286	NOUN	NOM	Not_Assigned	Not_Assigned	3
+gornishnaya	2	1300	1300	PER	горничной	6260	6269	горничной	1	78	81	16	0	0	0	189	1300	горничной	nmod	1299	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Kartashev	0	1304	1305	PER	Граф Артур	6276	6286	граф артур	2	79	82	2	0	0	0	190	1304	граф	nsubj	1307	PROPN	PROP	Singular	Not_Assigned	3
+Kartashev	0	1308	1308	PER	вас	6294	6297	вас	1	79	82	6	0	0	0	191	1308	вас	obj	1307	PRON	PRON	Not_Assigned	Not_Assigned	3
+Shatski	1	1310	1310	PER	мне	6306	6309	мне	1	79	82	8	0	0	0	192	1310	мне	iobj	1309	PRON	PRON	Not_Assigned	Not_Assigned	3
+Shatski	1	1314	1314	PER	моего	6326	6331	моего	1	79	82	12	0	0	0	193	1314	моего	det	1315	DET	PRON	Not_Assigned	Not_Assigned	3
+Shatski	1	1320	1320	PER	Шацкий	6349	6355	шацкий	1	80	83	1	0	0	0	194	1320	шацкий	nsubj	1325	ADJ	PROP	Singular	Not_Assigned	3
+Kartashev	0	1336	1336	PER	Карташев	6437	6445	карташев	1	80	83	17	0	0	0	195	1336	карташев	nsubj	1337	PROPN	PROP	Singular	Not_Assigned	3
+FAC_T195	34	1339	1339	FAC	столовую	6456	6464	столовую	1	80	83	20	0	0	0	196	1339	столовую	obl	1337	NOUN	NOM	Not_Assigned	Not_Assigned	3
+gornishnaya	2	1341	1341	PER	Горничная	6467	6476	горничная	1	81	84	0	0	0	0	197	1341	горничная	nsubj	1343	ADJ	NOM	Not_Assigned	Not_Assigned	3
+Shatski	1	1347	1347	PER	Шацкий	6507	6513	шацкий	1	82	85	0	0	0	0	198	1347	шацкий	nsubj	1348	PROPN	PROP	Singular	Not_Assigned	3
+Shatski	1	1358	1358	PER	Мне	6571	6574	мне	1	83	86	2	0	0	0	199	1358	мне	iobj	1359	PRON	PRON	Not_Assigned	Not_Assigned	3
+Shatski	1	1369	1369	PER	он	6634	6636	он	1	83	86	13	0	0	0	200	1369	он	nsubj	1368	PRON	PRON	Not_Assigned	Not_Assigned	3
+Shatski	1	1373	1373	PER	себя	6648	6652	себя	1	83	86	17	0	0	0	201	1373	себя	obl	1368	PRON	PRON	Not_Assigned	Not_Assigned	3
+M3	41	1379	1379	PER	madame	6678	6684	madame	1	84	87	4	0	0	0	202	1379	madame	obj	1378	PROPN	NOM	Singular	Female	3
+Shatski	1	1381	1382	PER	ваше сиятельство	6686	6702	ваше сиятельство	2	84	87	6	0	0	0	203	1382	сиятельство	parataxis	1378	NOUN	NOM	Not_Assigned	Not_Assigned	3
+gornishnaya	2	1393	1393	PER	горничная	6741	6750	горничная	1	86	89	1	0	0	0	204	1393	горничная	nsubj	1394	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Shatski	1	1396	1396	PER	Шацкий	6758	6764	шацкий	1	86	89	4	0	0	0	205	1396	шацкий	nsubj	1397	PROPN	PROP	Singular	Not_Assigned	3
+Kartashev	0	1398	1398	PER	Карташева	6773	6782	карташева	1	86	89	6	0	0	0	206	1398	карташева	obj	1397	PROPN	PROP	Singular	Not_Assigned	3
+Kartashev	0	1412	1413	PER	мой друг	6825	6833	мой друг	2	88	91	4	0	1	1	207	1413	друг	conj	1410	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Shatski	1	1412	1412	PER	мой	6825	6828	мой	1	88	91	4	1	0	0	208	1412	мой	det	1413	DET	PRON	Not_Assigned	Not_Assigned	3
+Shatski	1	1416	1416	PER	моих	6838	6842	моих	1	89	92	1	0	0	0	209	1416	моих	det	1417	DET	PRON	Not_Assigned	Not_Assigned	3
+Kartashev	0	1418	1418	PER	ты	6854	6856	ты	1	89	92	3	0	0	0	210	1418	ты	nsubj	1419	PRON	PRON	Not_Assigned	Not_Assigned	3
+Kartashev	0	1419	1423	PER	единственный, кто утешает меня	6857	6887	единственный , кто утешает меня	5	89	92	4	0	1	1	211	1422	утешает	acl:relcl	1419	VERB	NOM	Not_Assigned	Not_Assigned	3
+Shatski	1	1423	1423	PER	меня	6883	6887	меня	1	89	92	8	1	0	0	212	1423	меня	obj	1422	PRON	PRON	Not_Assigned	Not_Assigned	3
+Shatski	1	1430	1430	PER	он	6918	6920	он	1	90	93	5	0	0	0	213	1430	он	nsubj	1429	PRON	PRON	Not_Assigned	Not_Assigned	3
+Shatski	1	1444	1444	PER	Шацкий	6992	6998	шацкий	1	91	94	7	0	0	0	214	1444	шацкий	nsubj	1445	PROPN	PROP	Singular	Not_Assigned	3
+Kartashev	0	1447	1447	PER	Карташеву	7011	7020	карташеву	1	91	94	10	0	0	0	215	1447	карташеву	obl	1445	PROPN	PROP	Singular	Not_Assigned	3
+Kartashev	0	1455	1456	PER	мой друг	7042	7050	мой друг	2	91	94	18	0	1	1	216	1456	друг	parataxis	1452	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Shatski	1	1455	1455	PER	мой	7042	7045	мой	1	91	94	18	1	0	0	217	1455	мой	det	1456	DET	PRON	Not_Assigned	Not_Assigned	3
+Shatski	1	1461	1461	PER	меня	7063	7067	меня	1	92	95	1	0	0	0	218	1461	меня	obl	1462	PRON	PRON	Not_Assigned	Not_Assigned	3
+Basil	27	1470	1472	PER	Мой друг Базиль	7109	7124	мой друг базиль	3	93	96	0	0	0	0	219	1471	друг	nsubj	1473	NOUN	PROP	Singular	Not_Assigned	3
+Shatski	1	1474	1474	PER	мне	7132	7135	мне	1	93	96	4	0	0	0	220	1474	мне	iobj	1473	PRON	PRON	Not_Assigned	Not_Assigned	3
+GPE_T220	38	1476	1476	GPE	Гаваны	7139	7145	гаваны	1	93	96	6	0	0	0	221	1476	гаваны	obl	1473	PROPN	PROP	Not_Assigned	Not_Assigned	3
+Shatski	1	1488	1488	PER	Я	7205	7206	я	1	94	97	0	0	0	0	222	1488	я	nsubj	1489	PRON	PRON	Not_Assigned	Not_Assigned	3
+Shatski	1	1492	1492	PER	мне	7218	7221	мне	1	94	97	4	0	0	0	223	1492	мне	iobj	1493	PRON	PRON	Not_Assigned	Not_Assigned	3
+Shatski	1	1502	1502	PER	себе	7266	7270	себе	1	94	97	14	0	0	0	224	1502	себе	iobj	1501	PRON	PRON	Not_Assigned	Not_Assigned	3
+Shatski	1	1510	1511	PER	своего приятеля	7313	7328	своего приятеля	2	95	98	3	0	1	1	225	1511	приятеля	obj	1509	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Kartashev	0	1510	1510	PER	своего	7313	7319	своего	1	95	98	3	1	0	0	226	1510	своего	det	1511	DET	PRON	Not_Assigned	Not_Assigned	3
+Shatski	1	1521	1521	PER	него	7370	7374	него	1	95	98	14	0	0	0	227	1521	него	obl	1523	PRON	PRON	Not_Assigned	Not_Assigned	3
+Kartashev	0	1526	1526	PER	Карташев	7395	7403	карташев	1	95	98	19	0	0	0	228	1526	карташев	nsubj	1528	PROPN	PROP	Singular	Not_Assigned	3
+Kartashev	0	1551	1551	PER	Карташев	7521	7529	карташев	1	97	100	9	0	0	0	229	1551	карташев	nsubj	1550	PROPN	PROP	Singular	Not_Assigned	3
+Kartashev	0	1570	1570	PER	он	7605	7607	он	1	98	101	8	0	0	0	230	1570	он	nsubj	1569	PRON	PRON	Not_Assigned	Not_Assigned	3
+Kartashev	0	1579	1580	PER	Мой друг	7641	7649	мой друг	2	99	102	2	0	1	1	231	1580	друг	ROOT	1580	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Shatski	1	1579	1579	PER	Мой	7641	7644	мой	1	99	102	2	1	0	0	232	1579	мой	det	1580	DET	PRON	Not_Assigned	Not_Assigned	3
+Kartashev	0	1582	1582	PER	ты	7651	7653	ты	1	99	102	5	0	0	0	233	1582	ты	nsubj	1588	PRON	PRON	Not_Assigned	Not_Assigned	3
+Shatski	1	1593	1593	PER	Шацкий	7688	7694	шацкий	1	99	103	3	0	0	0	234	1593	шацкий	nsubj	1592	PROPN	PROP	Singular	Not_Assigned	3
+Kartashev	0	1598	1598	PER	Карташеву	7720	7729	карташеву	1	99	103	8	0	0	0	235	1598	карташеву	obl	1596	PROPN	PROP	Singular	Not_Assigned	3
+Shatski	1	1608	1608	PER	Мой	7759	7762	мой	1	102	106	0	0	0	0	236	1608	мой	det	1609	DET	PRON	Not_Assigned	Not_Assigned	3
+Kartashev	0	1612	1612	PER	твоим	7780	7785	твоим	1	102	106	4	0	0	0	237	1612	твоим	det	1613	DET	PRON	Not_Assigned	Not_Assigned	3
+Kartashev	0	1619	1619	PER	мне	7807	7810	мне	1	103	107	4	0	0	0	238	1619	мне	iobj	1621	PRON	PRON	Not_Assigned	Not_Assigned	3
+Kartashev	0	1627	1627	PER	Карташев	7837	7845	карташев	1	103	107	12	0	0	0	239	1627	карташев	nsubj	1626	PROPN	PROP	Singular	Not_Assigned	3
+Kartashev	0	1637	1637	PER	Я	7878	7879	я	1	105	109	0	0	0	0	240	1637	я	nsubj	1640	PRON	PRON	Not_Assigned	Not_Assigned	3
+Shatski	1	1659	1659	PER	я	7977	7978	я	1	106	110	12	0	0	0	241	1659	я	nsubj	1661	PRON	PRON	Not_Assigned	Not_Assigned	3
+Kartashev	0	1670	1670	PER	я	8020	8021	я	1	107	111	3	0	0	0	242	1670	я	nsubj	1672	PRON	PRON	Not_Assigned	Not_Assigned	3
+Shatski	1	1679	1679	PER	Я	8054	8055	я	1	108	112	2	0	0	0	243	1679	я	nsubj	1682	PRON	PRON	Not_Assigned	Not_Assigned	3
+Kartashev	0	1685	1685	PER	ты	8083	8085	ты	1	108	112	8	0	0	0	244	1685	ты	nsubj	1687	PRON	PRON	Not_Assigned	Not_Assigned	3
+Kartashev	0	1686	1687	PER	умный человек	8086	8099	умный человек	2	108	112	9	0	0	0	245	1687	человек	ccomp	1682	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Shatski	1	1693	1693	PER	Шацкий	8128	8134	шацкий	1	108	112	16	0	0	0	246	1693	шацкий	nsubj	1692	PROPN	PROP	Singular	Not_Assigned	3
+FAC_T247	35	1727	1727	FAC	дома	8275	8279	дома	1	112	116	4	0	0	0	247	1727	дома	advmod	1729	ADV	NOM	Not_Assigned	Not_Assigned	3
+Kartashev	0	1748	1749	PER	мой друг	8377	8385	мой друг	2	113	117	5	0	1	1	248	1749	друг	nsubj	1746	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Shatski	1	1748	1748	PER	мой	8377	8380	мой	1	113	117	5	1	0	0	249	1748	мой	det	1749	DET	PRON	Not_Assigned	Not_Assigned	3
+Shatski	1	1774	1774	PER	мне	8468	8471	мне	1	116	121	1	0	0	0	250	1774	мне	iobj	1773	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T250	26	1777	1778	PER	порядочному человеку	8477	8497	порядочному человеку	2	116	121	4	0	0	0	251	1778	человеку	iobj	1782	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Shatski	1	1807	1807	PER	я	8646	8647	я	1	117	122	23	0	0	0	252	1807	я	nsubj	1808	PRON	PRON	Not_Assigned	Not_Assigned	3
+Kartashev	0	1812	1812	PER	ты	8666	8668	ты	1	118	123	2	0	0	0	253	1812	ты	nsubj	1813	PRON	PRON	Not_Assigned	Not_Assigned	3
+Shatski	1	1857	1857	PER	Шацкий	8866	8872	шацкий	1	127	132	1	0	0	0	254	1857	шацкий	conj	1846	ADJ	PROP	Singular	Not_Assigned	3
+ShatskiKartashev	9	1887	1887	PER	приятели	8988	8996	приятели	1	128	133	15	0	0	0	255	1887	приятели	nsubj	1888	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Kartashev	0	1903	1903	PER	Карташев	9061	9069	карташев	1	129	134	11	0	0	0	256	1903	карташев	parataxis	1901	PROPN	PROP	Singular	Not_Assigned	3
+Shatski	1	1917	1917	PER	Я	9105	9106	я	1	131	136	0	0	0	0	257	1917	я	nsubj	1919	PRON	PRON	Not_Assigned	Not_Assigned	3
+Kartashev	0	1918	1918	PER	тебе	9107	9111	тебе	1	131	136	1	0	0	0	258	1918	тебе	iobj	1919	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T259	25	1924	1924	PER	Мильбрету	9142	9151	мильбрету	1	132	137	3	0	0	0	259	1924	мильбрету	obl	1922	PROPN	PROP	Singular	Not_Assigned	3
+ShatskiKartashev	9	1940	1940	PER	приятели	9221	9229	приятели	1	134	139	4	0	0	0	260	1940	приятели	nsubj	1942	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Shatski	1	1956	1956	PER	Шацкий	9322	9328	шацкий	1	135	140	7	0	0	0	261	1956	шацкий	nsubj	1957	PROPN	PROP	Singular	Not_Assigned	3
+Kartashev	0	1969	1969	PER	Артур	9372	9377	артур	1	135	140	20	0	0	0	262	1969	артур	nsubj	1971	PROPN	PROP	Singular	Not_Assigned	3
+theater	7	1973	1973	FAC	театр	9386	9391	театр	1	135	140	24	0	0	0	263	1973	театр	obl	1971	NOUN	NOM	Not_Assigned	Not_Assigned	3

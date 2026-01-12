@@ -1,0 +1,206 @@
+COREF_name	COREF	start_token	end_token	cat	sacr_text	byte_onset	byte_offset	text	mention_len	paragraph_ID	sentence_ID	start_token_ID_within_sentence	out_to_in_nested_level	in_to_out_nested_level	nested_entities_count	temp_index	head_id	head_word	head_dependency_relation	head_syntactic_head_ID	POS_tag	prop	number	gender	grammatical_person
+PER_T1	110	60	60	PER	Зинарии	342	349	зинарии	1	3	3	2	0	0	0	0	60	зинарии	nmod	58	PROPN	PROP	Singular	Not_Assigned	3
+PER_T2	13	98	98	PER	детей	545	550	детей	1	4	4	2	0	0	0	1	98	детей	obj	97	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T3	1	100	100	PER	мужчина	552	559	мужчина	1	4	4	4	0	0	0	2	100	мужчина	nsubj	101	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T4	22	110	115	PER	Женщины, не желавшие иметь детей	617	649	женщины , не желавшие иметь детей	6	5	5	0	0	1	1	3	113	желавшие	acl	110	VERB	NOM	Not_Assigned	Not_Assigned	3
+PER_T5	85	115	115	PER	детей	644	649	детей	1	5	5	5	1	0	0	4	115	детей	obj	114	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T6	93	129	129	PER	воров	723	728	воров	1	6	6	4	0	0	0	5	129	воров	obj	128	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T7	76	149	150	PER	подозреваемому лицу	833	852	подозреваемому лицу	2	7	7	18	0	0	0	6	150	лицу	iobj	146	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T8	61	157	157	PER	вор	883	886	вор	1	8	8	5	0	0	0	7	157	вор	advcl	160	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T9	69	159	159	PER	он	888	890	он	1	8	8	7	0	0	0	8	159	он	nsubj	160	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T10	111	184	184	PER	человечество	1039	1051	человечество	1	9	9	15	0	0	0	9	184	человечество	nsubj	185	NOUN	NOM	Not_Assigned	Not_Assigned	3
+GPE_T11	143	190	190	GPE	Византии	1080	1088	византии	1	10	10	1	0	0	0	10	190	византии	obl	191	PROPN	PROP	Not_Assigned	Not_Assigned	3
+GPE_T12	147	203	204	GPE	древней Греции	1170	1184	древней греции	2	10	10	14	0	0	0	11	204	греции	nmod	201	PROPN	PROP	Not_Assigned	Not_Assigned	3
+GPE_T13	149	218	219	GPE	христианской стране	1245	1264	христианской стране	2	12	12	1	0	0	0	12	219	стране	obl	224	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T14	195	247	253	PER	Жители города Пергама, осажденные однажды сарацинами	1401	1453	жители города пергама , осажденные однажды сарацинами	7	13	13	0	0	1	2	13	251	осажденные	acl	247	VERB	PROP	Singular	Not_Assigned	3
+GPE_T15	151	248	249	GPE	города Пергама	1408	1422	города пергама	2	13	13	1	1	0	0	14	248	города	nmod	247	NOUN	PROP	Not_Assigned	Not_Assigned	3
+PER_T16	165	253	253	PER	сарацинами	1443	1453	сарацинами	1	13	13	6	1	0	0	15	253	сарацинами	obl	251	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T17	176	256	260	PER	беременную женщину, собиравшуюся родить	1464	1503	беременную женщину , собиравшуюся родить	5	13	13	9	0	0	0	16	257	женщину	obj	255	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T18	32	264	264	PER	ее	1517	1519	ее	1	13	13	17	0	0	0	17	264	ее	det	266	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T19	43	266	266	PER	младенца	1526	1534	младенца	1	13	13	19	0	0	0	18	266	младенца	obl	262	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T20	24	269	269	PER	последнего	1545	1555	последнего	1	13	13	22	0	0	0	19	269	последнего	obj	268	ADJ	NOM	Not_Assigned	Not_Assigned	3
+PER_T21	3	276	276	PER	они	1582	1585	они	1	14	14	1	0	0	0	20	276	они	nsubj	277	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T22	4	288	288	PER	они	1646	1649	они	1	14	14	13	0	0	0	21	288	они	nsubj	289	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T23	5	296	296	PER	свою	1687	1691	свою	1	14	14	21	0	0	0	22	296	свою	det	297	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T24	6	300	310	PER	люди, специально занимавшиеся предсказыванием будущего и бравшие за это деньги	1710	1788	люди , специально занимавшиеся предсказыванием будущего и бравшие за это деньги	11	15	15	1	0	0	0	23	303	занимавшиеся	acl	300	VERB	NOM	Not_Assigned	Not_Assigned	3
+PER_T25	7	312	312	PER	Они	1791	1794	они	1	16	16	0	0	0	0	24	312	они	nsubj	313	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T26	8	343	344	PER	византийских императорах	1967	1991	византийских императорах	2	17	17	11	0	0	0	25	344	императорах	nmod	341	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T27	9	376	378	PER	императора Михаила VII	2172	2194	императора михаила vii	3	20	20	2	0	0	0	26	376	императора	obl	379	NOUN	PROP	Singular	Not_Assigned	3
+PER_T28	10	380	381	PER	Некифор Вотаниат	2203	2219	некифор вотаниат	2	20	20	6	0	0	0	27	380	некифор	nsubj	379	PROPN	PROP	Singular	Not_Assigned	3
+PER_T29	11	383	383	PER	последнему	2221	2231	последнему	1	20	20	9	0	0	0	28	383	последнему	iobj	387	ADJ	NOM	Not_Assigned	Not_Assigned	3
+PER_T30	12	390	390	PER	он	2267	2269	он	1	20	20	16	0	0	0	29	390	он	nsubj	391	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T31	14	402	402	PER	греков	2333	2339	греков	1	21	21	6	0	0	0	30	402	греков	obl	400	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T32	15	421	421	PER	Никифор	2413	2420	никифор	1	22	22	11	0	0	0	31	421	никифор	parataxis	417	PROPN	PROP	Singular	Not_Assigned	3
+PER_T33	16	423	423	PER	Михаила	2423	2430	михаила	1	22	22	13	0	0	0	32	423	михаила	appos	417	PROPN	PROP	Singular	Not_Assigned	3
+PER_T34	17	443	443	PER	душою	2551	2556	душою	1	24	24	12	0	0	0	33	443	душою	obl:agent	442	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T35	18	449	449	PER	она	2573	2576	она	1	24	24	18	0	0	0	34	449	она	nsubj	453	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T36	19	455	455	PER	телом	2605	2610	телом	1	24	24	24	0	0	0	35	455	телом	obl	453	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T37	20	466	467	PER	нас самих	2661	2670	нас самих	2	25	25	9	0	0	0	36	467	самих	amod	474	ADJ	NOM	Not_Assigned	Not_Assigned	3
+GPE_T38	127	477	477	GPE	Византия	2708	2716	византия	1	25	25	20	0	0	0	37	477	византия	nsubj	479	PROPN	PROP	Not_Assigned	Not_Assigned	3
+PER_T39	21	512	512	PER	людей	2936	2941	людей	1	27	27	6	0	0	0	38	512	людей	obj	511	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T40	23	544	545	PER	византийские императоры	3115	3138	византийские императоры	2	29	29	1	0	0	0	39	545	императоры	nsubj	546	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T41	50	548	548	PER	своих	3152	3157	своих	1	29	29	5	0	0	0	40	548	своих	det	549	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T42	51	551	551	PER	они	3168	3171	они	1	29	29	8	0	0	0	41	551	они	nsubj	552	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T43	52	553	553	PER	астрологов	3182	3192	астрологов	1	29	29	10	0	0	0	42	553	астрологов	obj	552	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T44	65	556	556	PER	те	3196	3198	те	1	29	29	13	0	0	0	43	556	те	nsubj	557	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T45	80	560	560	PER	их	3216	3218	их	1	29	29	17	0	0	0	44	560	их	obj	561	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T46	81	565	568	PER	древних греков и римлян	3234	3257	древних греков и римлян	4	30	30	1	0	0	0	45	566	греков	obl	569	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T47	82	578	578	PER	Гомера	3329	3335	гомера	1	31	31	1	0	0	0	46	578	гомера	nsubj	577	PROPN	PROP	Singular	Not_Assigned	3
+PER_T48	83	580	580	PER	Виргилия	3340	3348	виргилия	1	31	31	3	0	0	0	47	580	виргилия	conj	578	PROPN	PROP	Singular	Not_Assigned	3
+PER_T49	84	598	599	PER	классических авторов	3465	3485	классических авторов	2	32	32	6	0	0	0	48	599	авторов	obj	597	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T50	86	611	612	PER	отца церкви	3550	3561	отца церкви	2	33	33	10	0	1	1	49	611	отца	nmod	607	NOUN	NOM	Not_Assigned	Not_Assigned	3
+ORG_T51	109	612	612	ORG	церкви	3555	3561	церкви	1	33	33	11	1	0	0	50	612	церкви	nmod	611	NOUN	NOM	Not_Assigned	Not_Assigned	3
+GPE_T52	105	630	631	GPE	древней Руси	3669	3681	древней руси	2	34	34	4	0	0	0	51	631	руси	obl	628	PROPN	PROP	Not_Assigned	Not_Assigned	3
+PER_T53	87	634	634	PER	нам	3687	3690	нам	1	34	34	8	0	0	0	52	634	нам	iobj	635	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T54	88	638	639	PER	Владимира Мономаха	3712	3730	владимира мономаха	2	34	34	12	0	0	0	53	638	владимира	nmod	637	PROPN	PROP	Singular	Not_Assigned	3
+PER_T55	89	641	642	PER	Суеверные девицы	3733	3749	суеверные девицы	2	35	35	0	0	0	0	54	642	девицы	nsubj	649	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T56	90	659	659	PER	мне	3841	3844	мне	1	35	35	18	0	0	0	55	659	мне	iobj	660	PRON	PRON	Not_Assigned	Not_Assigned	3
+GPE_T57	106	670	670	GPE	Византии	3900	3908	византии	1	36	36	7	0	0	0	56	670	византии	obl	668	PROPN	PROP	Not_Assigned	Not_Assigned	3
+PER_T58	91	686	688	PER	Император Алексей Комнен	3993	4017	император алексей комнен	3	38	38	0	0	0	0	57	686	император	nsubj	689	NOUN	PROP	Singular	Not_Assigned	3
+PER_T59	92	694	694	PER	половцев	4049	4057	половцев	1	38	38	8	0	0	0	58	694	половцев	nmod	692	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T60	94	697	700	PER	приближенные к нему лица	4062	4086	приближенные к нему лица	4	38	38	11	0	1	1	59	700	лица	nsubj	701	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T61	95	699	699	PER	нему	4077	4081	нему	1	38	38	13	1	0	0	60	699	нему	obl	697	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T62	96	708	708	PER	себя	4138	4142	себя	1	39	39	3	0	0	0	61	708	себя	obj	707	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T63	97	713	713	PER	себя	4161	4165	себя	1	39	39	8	0	0	0	62	713	себя	obl	711	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T64	98	716	716	PER	император	4183	4192	император	1	39	39	11	0	0	0	63	716	император	nsubj	707	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T66	100	721	722	PER	общего голоса	4213	4226	общего голоса	2	39	39	16	0	0	0	64	722	голоса	obl	719	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T65	99	732	732	PER	он	4267	4269	он	1	39	39	27	0	0	0	65	732	он	nsubj	733	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T67	79	740	746	PER	Сопровождаемый военными чинами и многочисленным духовенством император	4309	4379	сопровождаемый военными чинами и многочисленным духовенством император	7	40	40	0	0	1	2	66	742	чинами	obl	740	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T68	78	741	742	PER	военными чинами	4324	4339	военными чинами	2	40	40	1	1	0	0	67	742	чинами	obl	740	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T69	77	744	745	PER	многочисленным духовенством	4342	4369	многочисленным духовенством	2	40	40	4	1	0	0	68	745	духовенством	conj	742	NOUN	NOM	Not_Assigned	Not_Assigned	3
+FAC_T70	136	750	752	FAC	храм святой Софии	4401	4418	храм святой софии	3	40	40	10	0	0	0	69	752	софии	nmod	750	PROPN	PROP	Not_Assigned	Not_Assigned	3
+PER_T71	54	756	756	PER	патриарха	4435	4444	патриарха	1	41	41	2	0	0	0	70	756	патриарха	nmod	755	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T72	55	758	758	PER	он	4446	4448	он	1	41	41	4	0	0	0	71	758	он	nsubj	759	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T73	56	780	780	PER	половцев	4550	4558	половцев	1	41	41	26	0	0	0	72	780	половцев	nmod	778	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T74	57	790	790	PER	императора	4599	4609	императора	1	42	42	2	0	0	0	73	790	императора	nmod	789	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T75	58	792	792	PER	патриарх	4611	4619	патриарх	1	42	42	4	0	0	0	74	792	патриарх	nsubj	793	NOUN	NOM	Not_Assigned	Not_Assigned	3
+FAC_T76	137	798	799	FAC	великой церкви	4650	4664	великой церкви	2	42	42	10	0	0	0	75	799	церкви	nmod	797	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T77	59	816	816	PER	патриарх	4753	4761	патриарх	1	43	43	6	0	0	0	76	816	патриарх	nsubj	818	NOUN	NOM	Not_Assigned	Not_Assigned	3
+FAC_T78	138	820	820	FAC	алтарь	4776	4782	алтарь	1	43	43	10	0	0	0	77	820	алтарь	obl	818	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T79	60	830	830	PER	всех	4824	4828	всех	1	43	43	20	0	0	0	78	830	всех	obl	831	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T80	62	842	842	PER	половцев	4899	4907	половцев	1	44	44	6	0	0	0	79	842	половцев	nmod	840	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T81	63	847	847	PER	никто	4924	4929	никто	1	44	44	11	0	0	0	80	847	никто	nsubj	850	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T82	53	864	865	PER	игумены монастырей	5044	5062	игумены монастырей	2	46	46	4	0	1	1	81	864	игумены	nsubj:pass	863	NOUN	NOM	Not_Assigned	Not_Assigned	3
+FAC_T83	139	865	865	FAC	монастырей	5052	5062	монастырей	1	46	46	5	1	0	0	82	865	монастырей	nmod	864	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T84	64	868	869	PER	трех кандидатов	5074	5089	трех кандидатов	2	47	47	1	0	0	0	83	869	кандидатов	obj	867	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T85	66	872	872	PER	их	5102	5104	их	1	47	47	5	0	0	0	84	872	их	det	873	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T86	67	897	897	PER	нас	5217	5220	нас	1	48	48	1	0	0	0	85	897	нас	ROOT	897	PRON	PRON	Not_Assigned	Not_Assigned	3
+GPE_T87	107	900	900	GPE	Руси	5225	5229	руси	1	48	48	4	0	0	0	86	900	руси	conj	897	PROPN	PROP	Not_Assigned	Not_Assigned	3
+PER_T88	68	910	911	PER	новгородского епископа	5273	5295	новгородского епископа	2	48	48	14	0	0	0	87	911	епископа	nmod	909	NOUN	NOM	Not_Assigned	Not_Assigned	3
+GPE_T89	108	914	914	GPE	Византии	5300	5308	византии	1	49	49	1	0	0	0	88	914	византии	obl	915	PROPN	PROP	Not_Assigned	Not_Assigned	3
+PER_T90	70	927	927	PER	летописцы	5399	5408	летописцы	1	49	49	14	0	0	0	89	927	летописцы	nsubj	926	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T91	71	939	941	PER	царь Андроник Палеолог	5457	5479	царь андроник палеолог	3	50	50	10	0	0	0	90	939	царь	nsubj	946	NOUN	PROP	Singular	Not_Assigned	3
+FAC_T92	140	948	948	FAC	церковь	5506	5513	церковь	1	50	50	19	0	0	0	91	948	церковь	obl	946	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T93	72	963	963	PER	нему	5595	5599	нему	1	51	51	1	0	0	0	92	963	нему	obl	964	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T94	73	965	965	PER	люди	5610	5614	люди	1	51	51	3	0	0	0	93	965	люди	nsubj	964	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T95	74	974	974	PER	они	5664	5667	они	1	51	51	12	0	0	0	94	974	они	nsubj	975	PRON	PRON	Not_Assigned	Not_Assigned	3
+FAC_T96	130	984	984	FAC	дворце	5712	5718	дворце	1	51	51	22	0	0	0	95	984	дворце	obl	980	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T97	75	994	994	PER	Все	5758	5761	все	1	52	52	0	0	0	0	96	994	все	nsubj	995	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T98	204	1014	1014	PER	Царь	5865	5869	царь	1	53	53	0	0	0	0	97	1014	царь	nsubj	1015	NOUN	NOM	Not_Assigned	Not_Assigned	3
+FAC_T99	141	1032	1032	FAC	дворца	5961	5967	дворца	1	53	53	18	0	0	0	98	1032	дворца	nmod	1031	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T100	112	1034	1035	PER	Первый министр	5970	5984	первый министр	2	54	54	0	0	0	0	99	1035	министр	nsubj	1037	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T101	113	1041	1041	PER	царю	6019	6023	царю	1	54	54	7	0	0	0	100	1041	царю	iobj	1040	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T102	114	1048	1048	PER	турок	6061	6066	турок	1	54	54	14	0	0	0	101	1048	турок	nmod	1046	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T103	104	1051	1051	PER	царь	6072	6076	царь	1	55	55	1	0	0	0	102	1051	царь	nsubj	1055	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T104	115	1053	1053	PER	ним	6079	6082	ним	1	55	55	3	0	0	0	103	1053	ним	obl	1055	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T105	117	1058	1058	PER	его	6102	6105	его	1	56	56	1	0	0	0	104	1058	его	det	1059	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T106	118	1067	1068	PER	его отца	6164	6172	его отца	2	56	56	10	0	1	1	105	1068	отца	nmod	1066	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T107	119	1067	1067	PER	его	6164	6167	его	1	56	56	10	1	0	0	106	1067	его	nmod	1068	PRON	PRON	Not_Assigned	Not_Assigned	3
+FAC_T108	0	1084	1084	FAC	площади	6256	6263	площади	1	57	57	8	0	0	0	107	1084	площади	obl	1082	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T109	120	1088	1091	PER	Византа, основателя Византии	6283	6311	византа , основателя византии	4	57	57	12	0	0	0	108	1090	основателя	appos	1088	NOUN	PROP	Singular	Not_Assigned	3
+PER_T110	121	1111	1111	PER	царь	6400	6404	царь	1	59	59	1	0	0	0	109	1111	царь	nsubj	1115	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T111	122	1113	1114	PER	первым министром	6407	6423	первым министром	2	59	59	3	0	0	0	110	1114	министром	nmod	1111	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T112	123	1142	1142	PER	неприятеля	6584	6594	неприятеля	1	59	59	32	0	0	0	111	1142	неприятеля	nmod	1141	NOUN	NOM	Not_Assigned	Not_Assigned	3
+GPE_T113	144	1146	1146	GPE	государстве	6604	6615	государстве	1	59	59	36	0	0	0	112	1146	государстве	nmod	1144	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T114	124	1148	1150	PER	Царь Михаил Палеолог	6618	6638	царь михаил палеолог	3	60	60	0	0	0	0	113	1148	царь	nsubj	1151	NOUN	PROP	Singular	Not_Assigned	3
+GPE_T115	145	1153	1153	GPE	Солун	6652	6657	солун	1	60	60	5	0	0	0	114	1153	солун	obl	1151	PROPN	PROP	Not_Assigned	Not_Assigned	3
+PER_T116	125	1163	1163	PER	ему	6692	6695	ему	1	60	60	15	0	0	0	115	1163	ему	iobj	1165	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T117	126	1174	1174	PER	он	6762	6764	он	1	62	62	1	0	0	0	116	1174	он	nsubj	1177	PRON	PRON	Not_Assigned	Not_Assigned	3
+GPE_T118	146	1177	1177	GPE	Андрианополе	6771	6783	андрианополе	1	62	62	4	0	0	0	117	1177	андрианополе	obl	1181	PROPN	PROP	Not_Assigned	Not_Assigned	3
+FAC_T119	103	1180	1180	FAC	дворце	6788	6794	дворце	1	62	62	7	0	0	0	118	1180	дворце	obl	1181	NOUN	NOM	Not_Assigned	Not_Assigned	3
+GPE_T120	148	1216	1216	GPE	Салун	6966	6971	салун	1	63	63	13	0	0	0	119	1216	салун	obl	1217	PROPN	PROP	Not_Assigned	Not_Assigned	3
+PER_T121	153	1218	1222	PER	один царь из дома Палеологов	6982	7010	один царь из дома палеологов	5	63	63	15	0	2	2	120	1219	царь	nsubj	1217	NOUN	PROP	Singular	Not_Assigned	3
+FAC_T122	131	1221	1222	FAC	дома Палеологов	6995	7010	дома палеологов	2	63	63	18	1	1	1	121	1221	дома	nmod	1219	NOUN	PROP	Not_Assigned	Not_Assigned	3
+PER_T123	154	1222	1222	PER	Палеологов	7000	7010	палеологов	1	63	63	19	2	0	0	122	1222	палеологов	appos	1221	PROPN	PROP	Singular	Not_Assigned	3
+PER_T124	155	1233	1235	PER	историк того времени	7054	7074	историк того времени	3	64	64	6	0	0	0	123	1235	времени	nmod	1233	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T125	168	1253	1253	PER	человек	7158	7165	человек	1	65	65	6	0	0	0	124	1253	человек	nsubj	1252	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T126	183	1259	1261	PER	кто-нибудь	7189	7199	кто - нибудь	3	66	66	4	0	0	0	125	1259	кто	nsubj	1262	PRON	PRON	Not_Assigned	Not_Assigned	3
+FAC_T127	132	1275	1275	FAC	дворце	7265	7271	дворце	1	66	66	20	0	0	0	126	1275	дворце	obl	1276	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T128	184	1277	1277	PER	царь	7282	7286	царь	1	66	66	22	0	0	0	127	1277	царь	nsubj	1276	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T129	185	1280	1281	PER	множество народу	7290	7306	множество народу	2	66	66	25	0	0	0	128	1280	множество	nsubj	1283	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T130	186	1290	1290	PER	народе	7358	7364	народе	1	67	67	2	0	0	0	129	1290	народе	nmod	1288	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T150	180	1291	1291	PER	оракулов	7365	7373	оракулов	1	67	67	3	0	0	0	130	1291	оракулов	nmod	1290	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T131	187	1299	1300	PER	один царь	7415	7424	один царь	2	68	68	2	0	0	0	131	1300	царь	nsubj	1301	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T132	188	1302	1303	PER	некоего Пахомия	7432	7447	некоего пахомия	2	68	68	5	0	0	0	132	1303	пахомия	obj	1301	PROPN	PROP	Singular	Not_Assigned	3
+GPE_T133	150	1310	1310	GPE	Константинополю	7471	7486	константинополю	1	68	68	13	0	0	0	133	1310	константинополю	obl	1311	PROPN	PROP	Not_Assigned	Not_Assigned	3
+PER_T134	189	1315	1316	PER	приемником его	7514	7528	приемником его	2	68	68	18	0	1	1	134	1315	приемником	acl	1312	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T135	190	1316	1316	PER	его	7525	7528	его	1	68	68	19	1	0	0	135	1316	его	nmod	1315	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T136	191	1318	1318	PER	Пахомий	7535	7542	пахомий	1	68	68	21	0	0	0	136	1318	пахомий	nsubj	1315	PROPN	PROP	Singular	Not_Assigned	3
+PER_T137	192	1320	1320	PER	Никто	7546	7551	никто	1	69	69	0	0	0	0	137	1320	никто	nsubj	1322	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T138	193	1343	1344	PER	образованные люди	7696	7713	образованные люди	2	70	70	1	0	0	0	138	1344	люди	nsubj	1345	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T139	194	1358	1362	PER	один ученейший писатель XIV века	7791	7823	один ученейший писатель xiv века	5	71	71	7	0	0	0	139	1360	писатель	nsubj	1354	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T140	196	1380	1380	PER	никто	7922	7927	никто	1	71	71	29	0	0	0	140	1380	никто	obj	1379	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T141	197	1390	1390	PER	кто	7971	7974	кто	1	72	72	2	0	0	0	141	1390	кто	nsubj	1391	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T142	198	1393	1394	PER	такого человека	7991	8006	такого человека	2	72	72	5	0	0	0	142	1394	человека	obj	1392	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T143	199	1399	1399	PER	его	8025	8028	его	1	72	72	11	0	0	0	143	1399	его	obj	1401	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T144	200	1414	1414	PER	он	8107	8109	он	1	72	72	26	0	0	0	144	1414	он	nsubj	1416	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T145	201	1435	1435	PER	человека	8235	8243	человека	1	73	73	4	0	0	0	145	1435	человека	nmod	1434	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T146	202	1448	1448	PER	человек	8297	8304	человек	1	74	74	4	0	0	0	146	1448	человек	acl	1444	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T147	203	1461	1461	PER	человека	8364	8372	человека	1	75	75	2	0	0	0	147	1461	человека	obl	1466	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T148	182	1497	1499	PER	кто-нибудь	8564	8574	кто - нибудь	3	76	76	4	0	0	0	148	1497	кто	nsubj	1500	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T149	181	1505	1507	PER	тот же писатель	8600	8615	тот же писатель	3	76	76	12	0	0	0	149	1507	писатель	nsubj	1504	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T151	179	1516	1521	PER	оракулы, которые ходят между людьми	8653	8688	оракулы , которые ходят между людьми	6	76	76	23	0	1	1	150	1519	ходят	acl:relcl	1516	VERB	NOM	Not_Assigned	Not_Assigned	3
+PER_T152	157	1521	1521	PER	людьми	8682	8688	людьми	1	76	76	28	1	0	0	151	1521	людьми	obl	1519	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T153	158	1526	1526	PER	они	8705	8708	они	1	76	76	33	0	0	0	152	1526	они	nsubj	1535	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T154	159	1530	1530	PER	себе	8721	8725	себе	1	76	76	37	0	0	0	153	1530	себе	obl	1528	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T155	160	1543	1543	PER	Кто	8797	8800	кто	1	77	77	0	0	0	0	154	1543	кто	nsubj	1546	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T156	161	1545	1546	PER	их составителем	8805	8820	их составителем	2	77	77	2	0	0	0	155	1546	составителем	ROOT	1546	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T157	162	1548	1548	PER	кто	8823	8826	кто	1	77	77	5	0	0	0	156	1548	кто	nsubj	1549	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T158	163	1551	1552	PER	последующим поколениям	8838	8860	последующим поколениям	2	77	77	8	0	0	0	157	1552	поколениям	iobj	1549	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T159	164	1556	1556	PER	мы	8870	8872	мы	1	77	77	13	0	0	0	158	1556	мы	nsubj	1558	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T160	166	1562	1562	PER	историков	8896	8905	историков	1	77	77	19	0	0	0	159	1562	историков	obl	1558	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T161	156	1566	1567	PER	других писателей	8912	8928	других писателей	2	77	77	23	0	0	0	160	1567	писателей	conj	1562	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T162	167	1569	1570	PER	Все они	8931	8938	все они	2	78	78	0	0	1	1	161	1570	они	nsubj	1571	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T163	169	1570	1570	PER	они	8935	8938	они	1	78	78	1	1	0	0	162	1570	они	nsubj	1571	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T164	170	1580	1580	PER	тот	8982	8985	тот	1	78	78	11	0	0	0	163	1580	тот	det	1583	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T165	171	1582	1583	PER	другой оракул	8990	9003	другой оракул	2	78	78	13	0	0	0	164	1582	другой	conj	1580	ADJ	NOM	Not_Assigned	Not_Assigned	3
+PER_T166	172	1586	1586	PER	народ	9012	9017	народ	1	78	78	17	0	0	0	165	1586	народ	obl	1584	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T167	173	1598	1598	PER	своим	9084	9089	своим	1	79	79	3	0	0	0	166	1598	своим	det	1599	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T168	174	1600	1602	PER	каждый из них	9105	9118	каждый из них	3	79	79	5	0	1	1	167	1602	них	nmod	1600	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T169	175	1602	1602	PER	них	9115	9118	них	1	79	79	7	1	0	0	168	1602	них	nmod	1600	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T170	177	1606	1606	PER	никто	9137	9142	никто	1	79	79	11	0	0	0	169	1606	никто	nsubj	1608	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T171	178	1621	1621	PER	некоторых	9216	9225	некоторых	1	80	80	2	0	0	0	170	1621	некоторых	nmod	1620	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T172	129	1623	1627	PER	какие-то служебные силы	9227	9250	какие - то служебные силы	5	80	80	4	0	0	0	171	1627	силы	nsubj	1628	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T173	102	1651	1651	PER	людям	9374	9379	людям	1	80	80	32	0	0	0	172	1651	людям	iobj	1649	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T174	26	1692	1692	PER	каждого	9616	9623	каждого	1	80	80	73	0	0	0	173	1692	каждого	det	1691	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T175	101	1698	1699	PER	древние мудрецы	9640	9655	древние мудрецы	2	81	81	4	0	0	0	174	1699	мудрецы	nsubj	1701	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T176	28	1720	1724	PER	того, кто их написал	9773	9793	того , кто их написал	5	82	82	16	0	0	0	175	1724	написал	acl:relcl	1720	VERB	NOM	Not_Assigned	Not_Assigned	3
+PER_T177	29	1727	1728	PER	все оракулы	9799	9810	все оракулы	2	83	83	1	0	1	1	176	1728	оракулы	nsubj	1729	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T178	30	1728	1728	PER	оракулы	9803	9810	оракулы	1	83	83	2	1	0	0	177	1728	оракулы	nsubj	1729	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T179	31	1751	1751	PER	толпы	9934	9939	толпы	1	83	83	25	0	0	0	178	1751	толпы	obl	1749	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T180	33	1759	1759	PER	всякому	9975	9982	всякому	1	84	84	6	0	0	0	179	1759	всякому	iobj	1757	ADJ	NOM	Not_Assigned	Not_Assigned	3
+PER_T181	34	1776	1776	PER	оракулов	10051	10059	оракулов	1	85	85	9	0	0	0	180	1776	оракулов	nmod	1774	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T182	35	1782	1782	PER	их	10094	10096	их	1	85	85	15	0	0	0	181	1782	их	obj	1781	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T183	36	1792	1792	PER	одних	10142	10147	одних	1	86	86	1	0	0	0	182	1792	одних	obl	1794	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T184	37	1793	1793	PER	они	10148	10151	они	1	86	86	2	0	0	0	183	1793	они	nsubj	1794	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T185	27	1798	1798	PER	других	10175	10181	других	1	86	86	7	0	0	0	184	1798	других	conj	1795	ADJ	NOM	Not_Assigned	Not_Assigned	3
+PER_T186	38	1803	1803	PER	ими	10214	10217	ими	1	87	87	1	0	0	0	185	1803	ими	obl	1802	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T187	40	1805	1805	PER	одни	10219	10223	одни	1	87	87	3	0	0	0	186	1805	одни	ROOT	1805	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T188	41	1824	1824	PER	себя	10320	10324	себя	1	87	87	22	0	0	0	187	1824	себя	obl	1821	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T189	42	1829	1829	PER	своей	10356	10361	своей	1	87	87	27	0	0	0	188	1829	своей	det	1830	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T190	44	1834	1835	PER	людей малодушных	10377	10393	людей малодушных	2	88	88	2	0	0	0	189	1834	людей	obl	1839	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T191	45	1843	1843	PER	Они	10451	10454	они	1	89	89	0	0	0	0	190	1843	они	nsubj	1845	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T192	46	1865	1865	PER	их	10567	10569	их	1	89	89	22	0	0	0	191	1865	их	obj	1864	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T193	47	1871	1871	PER	они	10583	10586	они	1	89	89	28	0	0	0	192	1871	они	nsubj	1872	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T194	48	1876	1877	PER	некоторые оракулы	10607	10624	некоторые оракулы	2	90	90	2	0	0	0	193	1877	оракулы	nsubj	1878	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T195	49	1887	1887	PER	их	10672	10674	их	1	90	90	13	0	0	0	194	1887	их	obj	1889	PRON	PRON	Not_Assigned	Not_Assigned	3
+GPE_T196	152	1898	1898	GPE	Византии	10729	10737	византии	1	91	91	4	0	0	0	195	1898	византии	obl	1899	PROPN	PROP	Not_Assigned	Not_Assigned	3
+GPE_T197	142	1922	1922	GPE	Византии	10861	10869	византии	1	92	92	6	0	0	0	196	1922	византии	obl	1928	PROPN	PROP	Not_Assigned	Not_Assigned	3
+PER_T198	39	1935	1935	PER	Безобразов	10943	10953	безобразов	1	93	93	1	0	0	0	197	1935	безобразов	nsubj	1936	PROPN	PROP	Singular	Not_Assigned	3
+PER_T199	25	1952	1952	PER	он	11048	11050	он	1	93	93	18	0	0	0	198	1952	он	nsubj	1953	PRON	PRON	Not_Assigned	Not_Assigned	3
+FAC_T200	133	1957	1958	FAC	ватиканской библиотеки	11075	11097	ватиканской библиотеки	2	93	93	23	0	0	0	199	1958	библиотеки	nmod	1956	NOUN	NOM	Not_Assigned	Not_Assigned	3
+FAC_T201	134	1970	1977	FAC	одном из главных константинопольских храмов, во Влахернском	11164	11223	одном из главных константинопольских храмов , во влахернском	8	94	94	1	0	2	2	200	1970	одном	ROOT	1970	NUM	PROP	Not_Assigned	Not_Assigned	3
+FAC_T202	135	1972	1977	FAC	главных константинопольских храмов, во Влахернском	11173	11223	главных константинопольских храмов , во влахернском	6	94	94	3	1	1	1	201	1974	храмов	nmod	1970	NOUN	PROP	Not_Assigned	Not_Assigned	3
+GPE_T203	128	1977	1977	GPE	Влахернском	11212	11223	влахернском	1	94	94	8	2	0	0	202	1977	влахернском	conj	1970	PROPN	PROP	Not_Assigned	Not_Assigned	3
+GPE_T204	116	2013	2013	GPE	Греции	11437	11443	греции	1	95	95	24	0	0	0	203	2013	греции	nmod	2011	PROPN	PROP	Not_Assigned	Not_Assigned	3
+PER_T205	2	2041	2041	PER	молящимся	11603	11612	молящимся	1	96	96	26	0	0	0	204	2041	молящимся	xcomp	2042	VERB	NOM	Not_Assigned	Not_Assigned	3

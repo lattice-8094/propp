@@ -1,0 +1,114 @@
+COREF_name	COREF	start_token	end_token	cat	sacr_text	byte_onset	byte_offset	text	mention_len	paragraph_ID	sentence_ID	start_token_ID_within_sentence	out_to_in_nested_level	in_to_out_nested_level	nested_entities_count	temp_index	head_id	head_word	head_dependency_relation	head_syntactic_head_ID	POS_tag	prop	number	gender	grammatical_person
+PER_T1	75	1	1	PER	я	7	8	я	1	0	0	1	0	0	0	0	1	я	nsubj	2	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T2	107	6	6	PER	вас	36	39	вас	1	0	0	6	0	0	0	1	6	вас	obj	5	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T3	96	8	8	PER	Я	42	43	я	1	1	1	0	0	0	0	2	8	я	nsubj	9	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T4	1	19	19	PER	его	99	102	его	1	2	2	4	0	0	0	3	19	его	obj	18	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T5	19	27	27	PER	он	126	128	он	1	3	3	6	0	0	0	4	27	он	nsubj	30	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T6	10	34	34	PER	мне	165	168	мне	1	3	3	13	0	0	0	5	34	мне	iobj	33	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T7	27	62	62	PER	он	315	317	он	1	5	6	2	0	0	0	6	62	он	nsubj	61	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T8	50	68	68	PER	себя	330	334	себя	1	5	6	8	0	0	0	7	68	себя	obl	65	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T9	40	71	71	PER	вас	340	343	вас	1	5	6	11	0	0	0	8	71	вас	conj	68	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T10	74	77	77	PER	я	361	362	я	1	5	6	17	0	0	0	9	77	я	nsubj	79	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T11	63	83	83	PER	вам	396	399	вам	1	5	6	23	0	0	0	10	83	вам	iobj	82	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T12	84	96	96	PER	пациент	461	468	пациент	1	5	6	36	0	0	0	11	96	пациент	nsubj	94	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T13	85	104	104	PER	Вы	514	516	вы	1	6	7	0	0	0	0	12	104	вы	nsubj	105	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T15	100	106	106	PER	себя	526	530	себя	1	6	7	2	0	0	0	13	106	себя	obj	105	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T14	86	107	107	PER	помешанным	531	541	помешанным	1	6	7	3	0	0	0	14	107	помешанным	xcomp	105	VERB	NOM	Not_Assigned	Not_Assigned	3
+PER_T16	111	126	126	PER	я	614	615	я	1	7	8	13	0	0	0	15	126	я	nsubj	130	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T17	110	131	131	PER	вас	640	643	вас	1	7	8	18	0	0	0	16	131	вас	obj	130	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T18	109	137	137	PER	я	665	666	я	1	8	9	4	0	0	0	17	137	я	nsubj	138	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T19	108	142	142	PER	вас	681	684	вас	1	8	9	9	0	0	0	18	142	вас	obj	138	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T20	106	144	144	PER	доктор	686	692	доктор	1	8	9	11	0	0	0	19	144	доктор	parataxis	138	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T21	105	146	146	PER	Я	697	698	я	1	9	10	0	0	0	0	20	146	я	nsubj	147	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T22	104	147	147	PER	публицист	699	708	публицист	1	9	10	1	0	0	0	21	147	публицист	ROOT	147	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T23	103	150	150	PER	пенкосниматель	714	728	пенкосниматель	1	9	10	4	0	0	0	22	150	пенкосниматель	conj	147	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T24	102	152	152	PER	Я	732	733	я	1	10	11	0	0	0	0	23	152	я	nsubj	154	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T25	101	170	170	PER	я	820	821	я	1	11	12	1	0	0	0	24	170	я	nsubj:pass	172	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T26	99	176	176	PER	я	850	851	я	1	11	12	7	0	0	0	25	176	я	nsubj	178	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T27	87	194	194	PER	я	927	928	я	1	12	13	12	0	0	0	26	194	я	nsubj	199	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T28	98	212	212	PER	вам	1009	1012	вам	1	14	15	3	0	0	0	27	212	вам	iobj	214	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T29	97	221	221	PER	вы	1067	1069	вы	1	15	16	3	0	0	0	28	221	вы	nsubj	222	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T30	95	224	224	PER	я	1084	1085	я	1	15	16	6	0	0	0	29	224	я	nsubj	225	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T31	94	226	226	PER	вам	1090	1093	вам	1	15	16	8	0	0	0	30	226	вам	iobj	225	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T32	93	228	229	PER	доктора Тиссота	1104	1119	доктора тиссота	2	15	16	10	0	0	0	31	228	доктора	nmod	227	NOUN	PROP	Singular	Not_Assigned	3
+PER_T33	92	234	234	PER	вы	1140	1142	вы	1	15	16	16	0	0	0	32	234	вы	nsubj	235	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T34	91	246	246	PER	мне	1210	1213	мне	1	16	17	1	0	0	0	33	246	мне	iobj	245	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T35	90	251	251	PER	она	1230	1233	она	1	16	17	6	0	0	0	34	251	она	nsubj	252	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T36	89	253	253	PER	вас	1243	1246	вас	1	16	17	8	0	0	0	35	253	вас	obj	252	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T37	88	257	257	PER	я	1257	1258	я	1	17	18	2	0	0	0	36	257	я	nsubj	258	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T38	58	277	278	PER	мировых судей	1381	1394	мировых судей	2	17	18	22	0	0	0	37	278	судей	nmod	276	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T39	56	286	286	PER	вы	1428	1430	вы	1	17	18	31	0	0	0	38	286	вы	nsubj	287	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T40	55	294	294	PER	себе	1477	1481	себе	1	17	18	39	0	0	0	39	294	себе	iobj	293	PRON	PRON	Not_Assigned	Not_Assigned	3
+GPE_T41	83	306	307	GPE	Римская империя	1539	1554	римская империя	2	17	18	51	0	0	0	40	307	империя	nsubj	309	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T42	26	312	312	PER	варваров	1575	1583	варваров	1	17	18	57	0	0	0	41	312	варваров	nmod	311	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T43	25	318	318	PER	доктор	1602	1608	доктор	1	18	19	3	0	0	0	42	318	доктор	parataxis	280	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T44	24	326	326	PER	меня	1642	1646	меня	1	19	20	2	0	0	0	43	326	меня	obj	280	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T45	23	344	344	PER	вас	1729	1732	вас	1	20	21	7	0	0	0	44	344	вас	obj	343	PRON	PRON	Not_Assigned	Not_Assigned	3
+GPE_T46	82	355	357	GPE	Западной Римской империи	1794	1818	западной римской империи	3	20	21	18	0	0	0	45	357	империи	obl	358	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T47	22	361	362	PER	мировых судей	1837	1850	мировых судей	2	20	21	24	0	0	0	46	362	судей	nmod	360	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T48	21	384	384	PER	вас	1942	1945	вас	1	23	24	7	0	0	0	47	384	вас	obl	385	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T49	20	398	398	PER	доктор	2014	2020	доктор	1	24	25	4	0	0	0	48	398	доктор	nsubj	380	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T50	18	400	400	PER	Я	2023	2024	я	1	25	26	0	0	0	0	49	400	я	nsubj	403	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T51	17	427	427	PER	я	2154	2155	я	1	26	27	6	0	0	0	50	427	я	nsubj	428	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T52	16	432	432	PER	меня	2174	2178	меня	1	26	27	11	0	0	0	51	432	меня	obl	434	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T53	15	452	452	PER	Вашингтон	2292	2301	вашингтон	1	26	27	31	0	0	0	52	452	вашингтон	nsubj	453	PROPN	PROP	Singular	Not_Assigned	3
+GPE_T54	81	456	456	GPE	Америке	2318	2325	америке	1	26	27	35	0	0	0	53	456	америке	obl	453	PROPN	PROP	Not_Assigned	Not_Assigned	3
+PER_T56	14	469	472	PER	председателя Новосильской земской управы	2368	2408	председателя новосильской земской управы	4	26	27	48	0	1	1	54	472	управы	nmod	469	NOUN	NOM	Not_Assigned	Not_Assigned	3
+ORG_T55	78	470	472	ORG	Новосильской земской управы	2381	2408	новосильской земской управы	3	26	27	49	1	0	0	55	472	управы	nmod	469	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T57	13	479	479	PER	я	2431	2432	я	1	27	28	4	0	0	0	56	479	я	nsubj	480	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T58	12	507	507	PER	вам	2563	2566	вам	1	29	30	1	0	0	0	57	507	вам	iobj	506	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T59	11	526	526	PER	я	2660	2661	я	1	30	31	4	0	0	0	58	526	я	nsubj	528	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T60	9	530	530	PER	доктор	2675	2681	доктор	1	30	31	8	0	0	0	59	530	доктор	nsubj	528	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T61	8	533	533	PER	я	2689	2690	я	1	30	31	11	0	0	0	60	533	я	nsubj	534	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T62	7	543	546	PER	всякий из ваших товарищей	2734	2759	всякий из ваших товарищей	4	32	33	1	0	1	1	61	546	товарищей	nmod	543	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T63	6	546	546	PER	товарищей	2750	2759	товарищей	1	32	33	4	1	0	0	62	546	товарищей	nmod	543	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T64	5	554	554	PER	вы	2795	2797	вы	1	32	33	12	0	0	0	63	554	вы	nsubj	552	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T65	4	558	559	PER	самого себя	2813	2824	самого себя	2	32	33	16	0	0	0	64	559	себя	obl	552	PRON	PRON	Not_Assigned	Not_Assigned	3
+GPE_T66	80	564	566	GPE	Западную Римскую империю	2841	2865	западную римскую империю	3	32	33	22	0	0	0	65	566	империю	obj	561	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T67	3	572	573	PER	мировых судей	2891	2904	мировых судей	2	32	33	30	0	0	0	66	573	судей	parataxis	570	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T68	2	577	577	PER	Вашингтона	2912	2922	вашингтона	1	32	33	35	0	0	0	67	577	вашингтона	conj	573	PROPN	PROP	Singular	Not_Assigned	3
+GPE_T69	79	581	583	GPE	Новосильекой земской управе	2938	2965	новосильекой земской управе	3	32	33	39	0	0	0	68	583	управе	nmod	579	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T70	28	591	604	PER	субъект в синем вицмундире, который делает, рукою движение, как будто закупоривает	2993	3075	субъект в синем вицмундире , который делает , рукою движение , как будто закупоривает	14	33	34	6	0	0	0	69	599	рукою	conj	586	VERB	NOM	Not_Assigned	Not_Assigned	3
+PER_T71	29	608	608	PER	педагог	3085	3092	педагог	1	34	35	2	0	0	0	70	608	педагог	ROOT	608	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T72	43	611	611	PER	него	3097	3101	него	1	35	36	1	0	0	0	71	611	него	obl	612	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T73	54	636	636	PER	Он	3232	3234	он	1	37	38	0	0	0	0	72	636	он	nsubj	637	PRON	PRON	Not_Assigned	Not_Assigned	3
+ORG_T74	77	643	647	ORG	одном из здешних воспитательных заведении	3271	3312	одном из здешних воспитательных заведении	5	37	38	7	0	1	1	73	647	заведении	nmod	643	NOUN	NOM	Not_Assigned	Not_Assigned	3
+ORG_T75	76	645	647	ORG	здешних воспитательных заведении	3280	3312	здешних воспитательных заведении	3	37	38	9	1	0	0	74	647	заведении	nmod	643	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T76	53	657	657	PER	он	3359	3361	он	1	37	38	21	0	0	0	75	657	он	nsubj	659	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T77	52	667	668	PER	моих пациентов	3408	3422	моих пациентов	2	37	38	31	0	0	0	76	668	пациентов	nmod	666	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T78	51	670	672	PER	Товарищи по больнице	3425	3445	товарищи по больнице	3	38	39	0	0	1	1	77	672	больнице	nmod	670	NOUN	PROP	Singular	Not_Assigned	3
+FAC_T79	0	672	672	FAC	больнице	3437	3445	больнице	1	38	39	2	1	0	0	78	672	больнице	nmod	670	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T80	49	673	673	PER	его	3446	3449	его	1	38	39	3	0	0	0	79	673	его	obj	674	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T81	48	678	678	PER	он	3475	3477	он	1	38	39	8	0	0	0	80	678	он	nsubj	680	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T82	47	688	691	PER	Один только господин Поцелуев	3539	3568	один только господин поцелуев	4	39	40	0	0	0	0	81	690	господин	appos	688	NOUN	PROP	Singular	Not_Assigned	3
+PER_T83	46	696	696	PER	его	3589	3592	его	1	39	40	8	0	0	0	82	696	его	obj	695	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T84	45	701	701	PER	ним	3609	3612	ним	1	39	40	13	0	0	0	83	701	ним	obl	699	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T85	44	708	712	PER	старым, изъеденным молью треухом	3638	3670	старым , изъеденным молью треухом	5	39	40	20	0	0	0	84	710	изъеденным	acl	708	VERB	PROP	Singular	Not_Assigned	3
+PER_T86	42	748	750	PER	все молодое поколение	3837	3858	все молодое поколение	3	40	41	34	0	0	0	85	750	поколение	nsubj	745	NOUN	NOM	Not_Assigned	Not_Assigned	3
+FAC_T87	57	756	756	FAC	комнаты	3884	3891	комнаты	1	41	42	4	0	0	0	86	756	комнаты	nmod	755	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T88	30	758	780	PER	небольшой и до крайности мизерный человечек, который проворно делал руками загадочные движения, как будто закупоривал ими какой-то воображаемый сосуд	3898	4047	небольшой и до крайности мизерный человечек , который проворно делал руками загадочные движения , как будто закупоривал ими какой - то воображаемый сосуд	23	41	42	6	0	0	0	87	767	делал	acl:relcl	763	VERB	NOM	Not_Assigned	Not_Assigned	3
+PER_T89	41	812	812	PER	себя	4208	4212	себя	1	43	44	11	0	0	0	88	812	себя	obl	808	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T90	39	835	836	PER	этого субъекта	4318	4332	этого субъекта	2	44	45	2	0	0	0	89	836	субъекта	nmod	834	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T91	38	845	845	PER	него	4374	4378	него	1	45	46	2	0	0	0	90	845	него	obl	846	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T92	37	867	868	PER	Господин Елеонский	4487	4505	господин елеонский	2	46	47	1	0	0	0	91	867	господин	ROOT	867	NOUN	PROP	Singular	Not_Assigned	3
+PER_T93	36	873	873	PER	нам	4533	4536	нам	1	46	47	7	0	0	0	92	873	нам	obl	871	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T94	35	879	879	PER	доктор	4558	4564	доктор	1	46	48	4	0	0	0	93	879	доктор	nsubj	876	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T95	34	881	881	PER	Человечек	4567	4576	человечек	1	47	49	0	0	0	0	94	881	человечек	nsubj	882	PROPN	PROP	Singular	Not_Assigned	3
+PER_T96	33	894	894	PER	нам	4647	4650	нам	1	47	49	13	0	0	0	95	894	нам	obl	892	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T97	32	904	905	PER	молодых людей	4688	4701	молодых людей	2	48	50	8	0	0	0	96	905	людей	obj	903	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T98	31	910	911	PER	господин доктор	4719	4734	господин доктор	2	49	51	3	0	0	0	97	910	господин	parataxis	903	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T99	112	927	927	PER	Елеонский	4794	4803	елеонский	1	49	52	2	0	0	0	98	927	елеонский	nsubj	926	PROPN	PROP	Singular	Not_Assigned	3
+PER_T100	73	943	943	PER	меня	4888	4892	меня	1	49	52	18	0	0	0	99	943	меня	obj	944	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T101	72	950	950	PER	Я	4918	4919	я	1	50	53	1	0	0	0	100	950	я	nsubj	955	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T102	71	965	965	PER	Один	4981	4985	один	1	51	54	0	0	0	0	101	965	один	nsubj	978	NUM	NOM	Not_Assigned	Not_Assigned	3
+PER_T103	70	967	967	PER	всех	4989	4993	всех	1	51	54	2	0	0	0	102	967	всех	det	965	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T104	69	974	974	PER	вы	5007	5009	вы	1	52	55	3	0	0	0	103	974	вы	nsubj	978	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T105	68	977	977	PER	помощников	5016	5026	помощников	1	52	55	6	0	0	0	104	977	помощников	obl	978	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T106	67	993	996	PER	"господину "" провинциялу """	5109	5134	"господину "" провинциялу """	4	53	56	11	0	0	0	105	995	провинциялу	appos	993	VERB	NOM	Not_Assigned	Not_Assigned	3
+PER_T107	66	1012	1012	PER	мальчиков	5201	5210	мальчиков	1	54	57	7	0	0	0	106	1012	мальчиков	ROOT	1012	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T108	65	1018	1018	PER	сударь	5228	5234	сударь	1	55	58	2	0	0	0	107	1018	сударь	parataxis	1020	ADV	NOM	Not_Assigned	Not_Assigned	3
+PER_T109	64	1025	1025	PER	я	5264	5265	я	1	56	59	3	0	0	0	108	1025	я	nsubj	1026	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T110	62	1030	1030	PER	доктор	5288	5294	доктор	1	56	59	8	0	0	0	109	1030	доктор	nsubj	1031	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T111	61	1034	1034	PER	меня	5313	5317	меня	1	56	59	12	0	0	0	110	1034	меня	obj	1033	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T112	60	1036	1036	PER	жертву	5320	5326	жертву	1	56	59	14	0	0	0	111	1036	жертву	obl	1033	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T113	59	1037	1039	PER	этому странному существу	5327	5351	этому странному существу	3	56	59	15	0	0	0	112	1039	существу	iobj	1033	NOUN	NOM	Not_Assigned	Not_Assigned	3

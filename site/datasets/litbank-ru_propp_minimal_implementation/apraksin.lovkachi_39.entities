@@ -1,0 +1,284 @@
+COREF_name	COREF	start_token	end_token	cat	sacr_text	byte_onset	byte_offset	text	mention_len	paragraph_ID	sentence_ID	start_token_ID_within_sentence	out_to_in_nested_level	in_to_out_nested_level	nested_entities_count	temp_index	head_id	head_word	head_dependency_relation	head_syntactic_head_ID	POS_tag	prop	number	gender	grammatical_person
+PER_T1	39	1	1	PER	он	4	6	он	1	0	0	1	0	0	0	0	1	он	nsubj	4	PRON	PRON	Not_Assigned	Not_Assigned	3
+Ivan	0	2	2	PER	его	7	10	его	1	0	0	2	0	0	0	1	2	его	obj	4	PRON	PRON	Not_Assigned	Not_Assigned	3
+Ivan	0	11	12	PER	Иван Александрович	47	65	иван александрович	2	1	1	5	0	0	0	2	11	иван	nsubj	20	PROPN	PROP	Singular	Not_Assigned	3
+Ivan	0	31	31	PER	он	167	169	он	1	2	2	9	0	0	0	3	31	он	nsubj	30	PRON	PRON	Not_Assigned	Not_Assigned	3
+Ivan	0	40	40	PER	своих	222	227	своих	1	2	2	18	0	0	0	4	40	своих	det	41	DET	PRON	Not_Assigned	Not_Assigned	3
+Ivan	0	46	46	PER	его	249	252	его	1	3	3	3	0	0	0	5	46	его	det	47	DET	PRON	Not_Assigned	Not_Assigned	3
+Ivan	0	49	49	PER	он	265	267	он	1	3	3	6	0	0	0	6	49	он	nsubj	56	PRON	PRON	Not_Assigned	Not_Assigned	3
+houseofIvan	24	61	61	FAC	дома	322	326	дома	1	3	3	18	0	0	0	7	61	дома	obl	59	NOUN	NOM	Not_Assigned	Not_Assigned	3
+FAC_T9	31	67	72	FAC	помещения, занимаемого конторой страхового общества	353	404	помещения , занимаемого конторой страхового общества	6	4	4	1	0	2	2	8	69	занимаемого	acl	67	VERB	NOM	Not_Assigned	Not_Assigned	3
+bureau	12	70	72	FAC	конторой страхового общества	376	404	конторой страхового общества	3	4	4	4	1	1	1	9	72	общества	nmod	70	NOUN	NOM	Not_Assigned	Not_Assigned	3
+assurance	3	71	72	ORG	страхового общества	385	404	страхового общества	2	4	4	5	2	0	0	10	72	общества	nmod	70	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Ivan	0	77	77	PER	Хмуров	422	428	хмуров	1	4	4	11	0	0	0	11	77	хмуров	nsubj	81	PROPN	PROP	Singular	Not_Assigned	3
+LOC_T20	36	83	84	LOC	этом переулке	456	469	этом переулке	2	4	4	17	0	0	0	12	84	переулке	obl	81	NOUN	NOM	Not_Assigned	Not_Assigned	3
+GPE_T11	33	90	90	GPE	городу	490	496	городу	1	4	4	24	0	0	0	13	90	городу	obl	88	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Ivan	0	100	100	PER	Он	548	550	он	1	5	5	0	0	0	0	14	100	он	nsubj	101	PRON	PRON	Not_Assigned	Not_Assigned	3
+FAC_T13	43	109	109	FAC	передней	593	601	передней	1	5	5	9	0	0	0	15	109	передней	amod	110	ADJ	NOM	Not_Assigned	Not_Assigned	3
+Ivan	0	116	116	PER	его	629	632	его	1	6	6	4	0	0	0	16	116	его	obj	115	PRON	PRON	Not_Assigned	Not_Assigned	3
+Ivan	0	123	123	PER	Он	663	665	он	1	7	7	0	0	0	0	17	123	он	nsubj	124	PRON	PRON	Not_Assigned	Not_Assigned	3
+Ivan	0	131	131	PER	мне	690	693	мне	1	7	7	8	0	0	0	18	131	мне	iobj	132	PRON	PRON	Not_Assigned	Not_Assigned	3
+dead	1	137	139	PER	одного друга моего	731	749	одного друга моего	3	7	7	14	0	1	1	19	138	друга	nmod	136	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Ivan	0	139	139	PER	моего	744	749	моего	1	7	7	16	1	0	0	20	139	моего	det	138	DET	PRON	Not_Assigned	Not_Assigned	3
+assurance	3	141	144	ORG	"обществе "" Урбэн """	752	770	"обществе "" урбэн """	4	7	7	18	0	0	0	21	143	урбэн	appos	141	PROPN	PROP	Not_Assigned	Not_Assigned	3
+secretaire	4	146	155	PER	Высокого роста господин, уже седой, в золотых очках	774	825	высокого роста господин , уже седой , в золотых очках	10	8	8	0	0	0	0	22	155	очках	conj	148	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Ivan	0	167	167	PER	Я	864	865	я	1	9	9	2	0	0	0	23	167	я	nsubj	168	PRON	PRON	Not_Assigned	Not_Assigned	3
+secretaire	4	171	171	PER	вами	886	890	вами	1	9	9	6	0	0	0	24	171	вами	obl	169	PRON	PRON	Not_Assigned	Not_Assigned	3
+secretaire	4	183	183	PER	я	936	937	я	1	10	10	10	0	0	0	25	183	я	nsubj	184	PRON	PRON	Not_Assigned	Not_Assigned	3
+secretaire	4	184	185	PER	секретарь здешний	938	955	секретарь здешний	2	10	10	11	0	0	0	26	185	здешний	conj	124	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Ivan	0	189	189	PER	вам	964	967	вам	1	10	10	16	0	0	0	27	189	вам	iobj	191	PRON	PRON	Not_Assigned	Not_Assigned	3
+secretaire	4	194	194	PER	я	985	986	я	1	10	10	21	0	0	0	28	194	я	nsubj	195	PRON	PRON	Not_Assigned	Not_Assigned	3
+Ivan	0	197	197	PER	вашим	997	1002	вашим	1	10	10	24	0	0	0	29	197	вашим	det	198	DET	PRON	Not_Assigned	Not_Assigned	3
+Ivan	0	200	200	PER	Хмуров	1013	1019	хмуров	1	11	11	0	0	0	0	30	200	хмуров	nsubj	202	PROPN	PROP	Singular	Not_Assigned	3
+PER_T35	19	207	208	PER	двух лиц	1065	1073	двух лиц	2	12	12	2	0	0	0	31	208	лиц	nmod	205	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T30	17	211	211	PER	конторщика	1078	1088	конторщика	1	12	12	6	0	0	0	32	211	конторщика	nmod	205	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T31	18	213	213	PER	кассира	1091	1098	кассира	1	12	12	8	0	0	0	33	213	кассира	conj	211	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Ivan	0	216	216	PER	его	1103	1106	его	1	12	12	11	0	0	0	34	216	его	obj	218	PRON	PRON	Not_Assigned	Not_Assigned	3
+Ivan	0	220	220	PER	он	1128	1130	он	1	12	12	15	0	0	0	35	220	он	nsubj	221	PRON	PRON	Not_Assigned	Not_Assigned	3
+secretaire	4	233	233	PER	секретарь	1194	1203	секретарь	1	13	13	4	0	0	0	36	233	секретарь	nsubj	232	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Ivan	0	249	249	PER	вас	1285	1288	вас	1	14	14	3	0	0	0	37	249	вас	obj	248	PRON	PRON	Not_Assigned	Not_Assigned	3
+FAC_T37	30	252	258	FAC	кабинет нашего главного представителя по Московскому округу	1292	1351	кабинет нашего главного представителя по московскому округу	7	14	14	6	0	2	3	38	255	представителя	nmod	252	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T38	20	253	258	PER	нашего главного представителя по Московскому округу	1300	1351	нашего главного представителя по московскому округу	6	14	14	7	1	1	2	39	255	представителя	nmod	252	NOUN	NOM	Not_Assigned	Not_Assigned	3
+assurance	3	253	253	ORG	нашего	1300	1306	нашего	1	14	14	7	2	0	0	40	253	нашего	det	255	DET	PRON	Not_Assigned	Not_Assigned	3
+LOC_T40	37	257	258	LOC	Московскому округу	1333	1351	московскому округу	2	14	14	11	2	0	0	41	258	округу	nmod	255	NOUN	NOM	Not_Assigned	Not_Assigned	3
+IvanSecretaire	35	261	262	PER	оба они	1360	1367	оба они	2	15	15	1	0	0	0	42	262	они	nsubj	263	PRON	PRON	Not_Assigned	Not_Assigned	3
+Ivan	0	265	265	PER	Хмуров	1377	1383	хмуров	1	15	15	5	0	0	0	43	265	хмуров	nsubj	266	PROPN	PROP	Singular	Not_Assigned	3
+Ivan	0	269	269	PER	собою	1405	1410	собою	1	15	15	9	0	0	0	44	269	собою	obl	267	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Ivan	0	275	275	PER	собою	1437	1442	собою	1	15	15	15	0	0	0	45	275	собою	obl	272	NOUN	NOM	Not_Assigned	Not_Assigned	3
+assurance	3	282	282	ORG	вас	1459	1462	вас	1	16	16	3	0	0	0	46	282	вас	obl	284	PRON	PRON	Not_Assigned	Not_Assigned	3
+Ivan	0	289	289	PER	он	1490	1492	он	1	16	16	10	0	0	0	47	289	он	nsubj	288	PRON	PRON	Not_Assigned	Not_Assigned	3
+dead	1	297	300	PER	некто Илья Максимович Пузырев	1524	1553	некто илья максимович пузырев	4	16	16	18	0	0	0	48	298	илья	appos	297	PROPN	PROP	Singular	Not_Assigned	3
+secretaire	4	310	310	PER	секретарь	1593	1602	секретарь	1	17	17	8	0	0	0	49	310	секретарь	nsubj	309	NOUN	NOM	Not_Assigned	Not_Assigned	3
+dead	1	330	332	PER	Илья Максимович Пузырев	1697	1720	илья максимович пузырев	3	20	20	2	0	0	0	50	330	илья	nsubj	333	PROPN	PROP	Singular	Not_Assigned	3
+secretaire	4	342	342	PER	Вас	1760	1763	вас	1	22	22	2	0	0	0	51	342	вас	obj	344	PART	NOM	Not_Assigned	Not_Assigned	3
+secretaire	4	352	352	PER	Я	1809	1810	я	1	24	24	0	0	0	0	52	352	я	nsubj	353	PRON	PRON	Not_Assigned	Not_Assigned	3
+dead	1	354	354	PER	его	1817	1820	его	1	24	24	2	0	0	0	53	354	его	obj	353	PRON	PRON	Not_Assigned	Not_Assigned	3
+assurance	3	357	357	ORG	нас	1836	1839	нас	1	24	24	5	0	0	0	54	357	нас	obl	353	PRON	PRON	Not_Assigned	Not_Assigned	3
+bureau	12	359	359	FAC	конторе	1842	1849	конторе	1	24	24	7	0	0	0	55	359	конторе	obl	353	NOUN	NOM	Not_Assigned	Not_Assigned	3
+dead	1	361	361	PER	он	1852	1854	он	1	24	24	9	0	0	0	56	361	он	nsubj	362	PRON	PRON	Not_Assigned	Not_Assigned	3
+secretaire	4	364	364	PER	меня	1869	1873	меня	1	24	24	12	0	0	0	57	364	меня	obl	362	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T57	16	366	368	PER	человека совершенно здорового	1886	1915	человека совершенно здорового	3	24	24	14	0	0	0	58	368	здорового	obl	362	ADJ	NOM	Not_Assigned	Not_Assigned	3
+PER_T58	22	373	375	PER	двух наших докторов	1943	1962	двух наших докторов	3	24	24	21	0	1	1	59	375	докторов	nmod	372	NOUN	NOM	Not_Assigned	Not_Assigned	3
+assurance	3	374	374	ORG	наших	1948	1953	наших	1	24	24	22	1	0	0	60	374	наших	det	375	DET	PRON	Not_Assigned	Not_Assigned	3
+Ivan	0	393	393	PER	Хмуров	2064	2070	хмуров	1	25	25	13	0	0	0	61	393	хмуров	nsubj	392	PROPN	PROP	Singular	Not_Assigned	3
+Ivan	0	399	399	PER	я	2086	2087	я	1	26	26	4	0	0	0	62	399	я	nsubj	400	PRON	PRON	Not_Assigned	Not_Assigned	3
+assurance	3	402	402	ORG	вам	2097	2100	вам	1	26	26	7	0	0	0	63	402	вам	obl	400	PRON	PRON	Not_Assigned	Not_Assigned	3
+Ivan	0	409	409	PER	Он	2128	2130	он	1	27	27	2	0	0	0	64	409	он	nsubj	413	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Ivan	0	455	455	PER	Вам	2342	2345	вам	1	29	29	2	0	0	0	65	455	вам	iobj	459	ADV	NOM	Not_Assigned	Not_Assigned	3
+dead	1	464	464	PER	он	2383	2385	он	1	29	29	11	0	0	0	66	464	он	nsubj	465	PRON	PRON	Not_Assigned	Not_Assigned	3
+secretaire	4	470	470	PER	секретарь	2414	2423	секретарь	1	29	30	3	0	0	0	67	470	секретарь	nsubj	469	NOUN	NOM	Not_Assigned	Not_Assigned	3
+secretaire	4	481	481	PER	вам	2460	2463	вам	1	31	32	3	0	0	0	68	481	вам	iobj	484	PRON	PRON	Not_Assigned	Not_Assigned	3
+doctor	7	487	488	PER	местного врача	2500	2514	местного врача	2	31	32	9	0	0	0	69	488	врача	nmod	486	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Ivan	0	492	492	PER	Вы	2521	2523	вы	1	32	33	2	0	0	0	70	492	вы	nsubj	493	PRON	PRON	Not_Assigned	Not_Assigned	3
+dead	1	496	496	PER	он	2538	2540	он	1	32	33	6	0	0	0	71	496	он	nsubj	497	PRON	PRON	Not_Assigned	Not_Assigned	3
+GPE_T70	10	502	502	GPE	Крыму	2560	2565	крыму	1	33	34	3	0	0	0	72	502	крыму	obl	493	PROPN	PROP	Not_Assigned	Not_Assigned	3
+GPE_T71	11	505	505	GPE	Ялте	2569	2573	ялте	1	33	34	6	0	0	0	73	505	ялте	conj	502	PROPN	PROP	Not_Assigned	Not_Assigned	3
+assurance	3	517	521	ORG	"страхового общества "" Урбэн """	2625	2654	"страхового общества "" урбэн """	5	35	36	2	0	0	0	74	518	общества	nmod	516	NOUN	PROP	Not_Assigned	Not_Assigned	3
+dead	1	525	536	PER	умершего, почерк которого вам должен быть известен и без нотариального засвидетельствования	2676	2767	умершего , почерк которого вам должен быть известен и без нотариального засвидетельствования	12	35	36	10	0	1	1	75	530	должен	acl:relcl	525	ADJ	NOM	Not_Assigned	Not_Assigned	3
+secretaire	4	529	529	PER	вам	2702	2705	вам	1	35	36	14	1	0	0	76	529	вам	iobj	530	PRON	PRON	Not_Assigned	Not_Assigned	3
+Ivan	0	541	541	PER	я	2782	2783	я	1	35	36	26	0	0	0	77	541	я	nsubj	542	PRON	PRON	Not_Assigned	Not_Assigned	3
+Ivan	0	548	548	PER	мною	2823	2827	мною	1	35	36	33	0	0	0	78	548	мною	nmod	547	PRON	PRON	Not_Assigned	Not_Assigned	3
+Ivan	0	555	555	PER	я	2856	2857	я	1	35	36	40	0	0	0	79	555	я	nsubj	556	PRON	PRON	Not_Assigned	Not_Assigned	3
+dead	1	559	559	PER	умершего	2887	2895	умершего	1	35	36	44	0	0	0	80	559	умершего	nmod	558	NOUN	NOM	Not_Assigned	Not_Assigned	3
+dead	1	562	562	PER	его	2901	2904	его	1	35	36	47	0	0	0	81	562	его	det	563	DET	PRON	Not_Assigned	Not_Assigned	3
+Ivan	0	565	565	PER	мне	2915	2918	мне	1	35	36	50	0	0	0	82	565	мне	nmod	563	PRON	PRON	Not_Assigned	Not_Assigned	3
+doctor	7	590	590	PER	врача	3026	3031	врача	1	38	39	5	0	0	0	83	590	врача	nmod	589	NOUN	NOM	Not_Assigned	Not_Assigned	3
+dead	1	593	593	PER	Пузырева	3041	3049	пузырева	1	38	39	8	0	0	0	84	593	пузырева	nmod	592	PROPN	PROP	Singular	Not_Assigned	3
+secretaire	4	606	606	PER	секретарь	3116	3125	секретарь	1	40	41	1	0	0	0	85	606	секретарь	nsubj	607	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Ivan	0	612	613	PER	Иван Александрович	3158	3176	иван александрович	2	40	41	7	0	0	0	86	612	иван	nsubj	615	PROPN	PROP	Singular	Not_Assigned	3
+Ivan	0	632	632	PER	он	3240	3242	он	1	41	42	8	0	0	0	87	632	он	nsubj	631	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T86	5	639	647	PER	того лица, у которого он жил в Крыму	3268	3304	того лица , у которого он жил в крыму	9	41	42	15	0	1	2	88	645	жил	acl:relcl	640	VERB	PROP	Singular	Not_Assigned	3
+dead	1	644	644	PER	он	3290	3292	он	1	41	42	20	1	0	0	89	644	он	nsubj	645	PRON	PRON	Not_Assigned	Not_Assigned	3
+GPE_T70	10	647	647	GPE	Крыму	3299	3304	крыму	1	41	42	23	1	0	0	90	647	крыму	obl	645	PROPN	PROP	Not_Assigned	Not_Assigned	3
+PER_T86	5	651	652	PER	Ваш знакомый	3311	3323	ваш знакомый	2	42	43	2	0	1	1	91	652	знакомый	nsubj	650	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Ivan	0	651	651	PER	Ваш	3311	3314	ваш	1	42	43	2	1	0	0	92	651	ваш	nsubj	652	PRON	PRON	Not_Assigned	Not_Assigned	3
+Ivan	0	668	668	PER	мне	3377	3380	мне	1	44	45	10	0	0	0	93	668	мне	iobj	670	PRON	PRON	Not_Assigned	Not_Assigned	3
+secretaire	4	674	674	PER	вам	3409	3412	вам	1	45	46	2	0	0	0	94	674	вам	iobj	675	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T86	5	677	677	PER	кто	3422	3425	кто	1	45	46	5	0	0	0	95	677	кто	nsubj	681	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T86	5	678	678	PER	он	3426	3428	он	1	45	46	6	0	0	0	96	678	он	nsubj	677	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T86	5	687	689	PER	домовладелец в Ялте	3464	3483	домовладелец в ялте	3	46	47	4	0	1	1	97	689	ялте	nmod	687	PROPN	PROP	Singular	Not_Assigned	3
+GPE_T71	11	689	689	GPE	Ялте	3479	3483	ялте	1	46	47	6	1	0	0	98	689	ялте	nmod	687	PROPN	PROP	Not_Assigned	Not_Assigned	3
+PER_T86	5	692	692	PER	его	3494	3497	его	1	47	48	1	0	0	0	99	692	его	det	691	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T86	5	693	693	PER	Любарский	3498	3507	любарский	1	47	48	2	0	0	0	100	693	любарский	ROOT	693	ADJ	NOM	Not_Assigned	Not_Assigned	3
+FAC_T98	32	697	698	FAC	его дома	3520	3528	его дома	2	48	49	2	0	1	1	101	698	дома	nmod	696	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T86	5	697	697	PER	его	3520	3523	его	1	48	49	2	1	0	0	102	697	его	det	698	DET	PRON	Not_Assigned	Not_Assigned	3
+Ivan	0	700	700	PER	я	3535	3536	я	1	48	49	5	0	0	0	103	700	я	nsubj	699	PRON	PRON	Not_Assigned	Not_Assigned	3
+dead	1	701	701	PER	покойному	3537	3546	покойному	1	48	49	6	0	0	0	104	701	покойному	iobj	699	NOUN	NOM	Not_Assigned	Not_Assigned	3
+secretaire	4	714	714	PER	секретарь	3589	3598	секретарь	1	49	50	11	0	0	0	105	714	секретарь	nsubj	713	NOUN	NOM	Not_Assigned	Not_Assigned	3
+secretaire	4	718	718	PER	я	3604	3605	я	1	49	50	15	0	0	0	106	718	я	nsubj	722	PRON	PRON	Not_Assigned	Not_Assigned	3
+Ivan	0	721	721	PER	вас	3619	3622	вас	1	49	50	18	0	0	0	107	721	вас	nmod	719	PRON	PRON	Not_Assigned	Not_Assigned	3
+Ivan	0	726	726	PER	вас	3641	3644	вас	1	49	50	23	0	0	0	108	726	вас	obj	725	PRON	PRON	Not_Assigned	Not_Assigned	3
+Ivan	0	736	736	PER	вам	3698	3701	вам	1	49	50	33	0	0	0	109	736	вам	iobj	737	PRON	PRON	Not_Assigned	Not_Assigned	3
+Ivan	0	739	739	PER	Вы	3711	3713	вы	1	50	51	0	0	0	0	110	739	вы	nsubj	741	PRON	PRON	Not_Assigned	Not_Assigned	3
+GPE_T221	13	743	743	GPE	Москве	3735	3741	москве	1	50	51	4	0	0	0	111	743	москве	obl	744	PROPN	PROP	Not_Assigned	Not_Assigned	3
+Ivan	0	755	755	PER	я	3777	3778	я	1	52	53	5	0	0	0	112	755	я	nsubj	754	PRON	PRON	Not_Assigned	Not_Assigned	3
+GPE_T269	9	757	757	GPE	Варшавы	3782	3789	варшавы	1	52	53	7	0	0	0	113	757	варшавы	nmod	755	PROPN	PROP	Not_Assigned	Not_Assigned	3
+Ivan	0	760	760	PER	меня	3795	3799	меня	1	52	53	10	0	0	0	114	760	меня	obj	761	PRON	PRON	Not_Assigned	Not_Assigned	3
+dead	1	766	767	PER	моего друга	3834	3845	моего друга	2	52	53	16	0	1	1	115	767	друга	nmod	765	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Ivan	0	766	766	PER	моего	3834	3839	моего	1	52	53	16	1	0	0	116	766	моего	det	767	DET	PRON	Not_Assigned	Not_Assigned	3
+Ivan	0	771	771	PER	я	3863	3864	я	1	53	54	2	0	0	0	117	771	я	nsubj	769	PRON	PRON	Not_Assigned	Not_Assigned	3
+Ivan	0	777	777	PER	Он	3887	3889	он	1	54	55	0	0	0	0	118	777	он	nsubj	779	PRON	PRON	Not_Assigned	Not_Assigned	3
+Ivan	0	783	783	PER	свой	3923	3927	свой	1	54	55	6	0	0	0	119	783	свой	det	784	DET	PRON	Not_Assigned	Not_Assigned	3
+Ivan	0	799	799	PER	он	3988	3990	он	1	55	56	6	0	0	0	120	799	он	nsubj	800	PRON	PRON	Not_Assigned	Not_Assigned	3
+Ivan	0	817	817	PER	его	4058	4061	его	1	55	56	24	0	0	0	121	817	его	obj	816	PRON	PRON	Not_Assigned	Not_Assigned	3
+dead	1	824	824	PER	человек	4102	4109	человек	1	55	56	31	0	0	0	122	824	человек	nsubj	823	NOUN	NOM	Not_Assigned	Not_Assigned	3
+assurance	3	842	842	ORG	им	4183	4185	им	1	58	59	1	0	0	0	123	842	им	iobj	846	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T120	40	844	844	PER	нами	4188	4192	нами	1	58	59	3	0	0	0	124	844	нами	obl	846	PRON	PRON	Not_Assigned	Not_Assigned	3
+assurance	3	850	850	ORG	они	4215	4218	они	1	58	59	9	0	0	0	125	850	они	nsubj	851	PRON	PRON	Not_Assigned	Not_Assigned	3
+Ivan	0	852	852	PER	мне	4226	4229	мне	1	58	59	11	0	0	0	126	852	мне	iobj	853	PRON	PRON	Not_Assigned	Not_Assigned	3
+dead	1	859	859	PER	Пузырева	4259	4267	пузырева	1	59	60	1	0	0	0	127	859	пузырева	obl	867	PROPN	PROP	Singular	Not_Assigned	3
+Ivan	0	870	870	PER	мне	4318	4321	мне	1	60	61	1	0	0	0	128	870	мне	iobj	869	PRON	PRON	Not_Assigned	Not_Assigned	3
+assurance	3	878	878	ORG	их	4363	4365	их	1	60	61	9	0	0	0	129	878	их	det	879	DET	PRON	Not_Assigned	Not_Assigned	3
+Ivan	0	894	894	PER	Хмуров	4450	4456	хмуров	1	62	64	5	0	0	0	130	894	хмуров	nsubj	895	PROPN	PROP	Singular	Not_Assigned	3
+Ivan	0	907	907	PER	Он	4534	4536	он	1	63	65	0	0	0	0	131	907	он	nsubj	908	PRON	PRON	Not_Assigned	Not_Assigned	3
+FAC_T129	27	910	912	FAC	свои неважные номера	4543	4563	свои неважные номера	3	63	65	3	0	1	1	132	912	номера	obl	908	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Ivan	0	910	910	PER	свои	4543	4547	свои	1	63	65	3	1	0	0	133	910	свои	det	912	DET	PRON	Not_Assigned	Not_Assigned	3
+Ivan	0	924	924	PER	он	4620	4622	он	1	64	66	1	0	0	0	134	924	он	nsubj	925	PRON	PRON	Not_Assigned	Not_Assigned	3
+Petr	2	942	944	PER	Петр Косьмич Свербеев	4731	4752	петр косьмич свербеев	3	65	67	0	0	0	0	135	942	петр	parataxis	940	PROPN	PROP	Singular	Not_Assigned	3
+Petr	2	946	947	PER	Присяжный поверенный	4755	4775	присяжный поверенный	2	66	68	0	0	0	0	136	947	поверенный	ROOT	947	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Ivan	0	958	958	PER	Его	4810	4813	его	1	68	70	0	0	0	0	137	958	его	obj	959	PRON	PRON	Not_Assigned	Not_Assigned	3
+Ivan	0	962	962	PER	Он	4830	4832	он	1	69	71	0	0	0	0	138	962	он	nsubj	963	PRON	PRON	Not_Assigned	Not_Assigned	3
+FAC_T135	14	971	971	FAC	приемной	4865	4873	приемной	1	70	72	2	0	0	0	139	971	приемной	obl	973	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T136	15	974	975	PER	несколько человек	4885	4902	несколько человек	2	70	72	5	0	0	0	140	975	человек	nsubj	973	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Ivan	0	980	980	PER	своей	4932	4937	своей	1	71	73	3	0	0	0	141	980	своей	det	981	DET	PRON	Not_Assigned	Not_Assigned	3
+Ivan	0	988	988	PER	Хмуров	4972	4978	хмуров	1	72	74	5	0	0	0	142	988	хмуров	nsubj	991	PROPN	PROP	Singular	Not_Assigned	3
+Ivan	0	1012	1012	PER	он	5088	5090	он	1	72	74	29	0	0	0	143	1012	он	nsubj	1014	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T140	41	1030	1030	PER	клиент	5181	5187	клиент	1	73	75	7	0	0	0	144	1030	клиент	nsubj	1029	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T141	42	1032	1032	PER	клиентка	5192	5200	клиентка	1	73	75	9	0	0	0	145	1032	клиентка	conj	1030	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T142	45	1036	1042	PER	кто-либо из присутствовавших в приемной	5213	5252	кто - либо из присутствовавших в приемной	7	73	75	13	0	2	2	146	1040	присутствовавших	acl	1038	VERB	NOM	Not_Assigned	Not_Assigned	3
+PER_T136	15	1040	1042	PER	присутствовавших в приемной	5225	5252	присутствовавших в приемной	3	73	75	17	1	1	1	147	1042	приемной	obl	1040	NOUN	NOM	Not_Assigned	Not_Assigned	3
+FAC_T135	14	1042	1042	FAC	приемной	5244	5252	приемной	1	73	75	19	2	0	0	148	1042	приемной	obl	1040	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Ivan	0	1052	1053	PER	Ивана Александровича	5291	5311	ивана александровича	2	74	76	5	0	0	0	149	1052	ивана	obl	1048	PROPN	PROP	Singular	Not_Assigned	3
+Petr	2	1055	1057	PER	Петр Косьмич Свербеев	5314	5335	петр косьмич свербеев	3	75	77	0	0	0	0	150	1055	петр	nsubj	1059	PROPN	PROP	Singular	Not_Assigned	3
+bureauofPetr	21	1065	1066	FAC	кабинет его	5362	5373	кабинет его	2	75	77	10	0	1	1	151	1065	кабинет	nsubj	1067	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Petr	2	1066	1066	PER	его	5370	5373	его	1	75	77	11	1	0	0	152	1066	его	obj	1067	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T148	44	1068	1068	PER	клиенту	5381	5388	клиенту	1	75	77	13	0	0	0	153	1068	клиенту	iobj	1067	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Ivan	0	1072	1072	PER	Хмурова	5403	5410	хмурова	1	76	78	1	0	0	0	154	1072	хмурова	nsubj	1080	PROPN	PROP	Singular	Not_Assigned	3
+Ivan	0	1083	1083	PER	он	5466	5468	он	1	76	78	12	0	0	0	155	1083	он	nsubj	1082	PRON	PRON	Not_Assigned	Not_Assigned	3
+Ivan	0	1085	1085	PER	своем	5472	5477	своем	1	76	78	14	0	0	0	156	1085	своем	det	1086	DET	PRON	Not_Assigned	Not_Assigned	3
+Ivan	0	1097	1097	PER	он	5547	5549	он	1	77	79	7	0	0	0	157	1097	он	nsubj	1099	PRON	PRON	Not_Assigned	Not_Assigned	3
+Ivan	0	1100	1100	PER	себя	5574	5578	себя	1	77	79	10	0	0	0	158	1100	себя	obj	1099	PRON	PRON	Not_Assigned	Not_Assigned	3
+Ivan	0	1114	1114	PER	он	5629	5631	он	1	78	80	10	0	0	0	159	1114	он	nsubj	1113	PRON	PRON	Not_Assigned	Not_Assigned	3
+Ivan	0	1123	1123	PER	моя	5656	5659	моя	1	78	80	19	0	0	0	160	1123	моя	det	1117	DET	PRON	Not_Assigned	Not_Assigned	3
+Petr	2	1125	1125	PER	вам	5662	5665	вам	1	78	80	21	0	0	0	161	1125	вам	nmod	1117	PRON	PRON	Not_Assigned	Not_Assigned	3
+dead	1	1134	1136	PER	большой друг мой	5710	5726	большой друг мой	3	79	81	6	0	1	1	162	1135	друг	obl	1128	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Ivan	0	1136	1136	PER	мой	5723	5726	мой	1	79	81	8	1	0	0	163	1136	мой	det	1135	DET	PRON	Not_Assigned	Not_Assigned	3
+dead	1	1138	1140	PER	Илья Максимович Пузырев	5728	5751	илья максимович пузырев	3	79	81	10	0	0	0	164	1138	илья	appos	1128	PROPN	PROP	Singular	Not_Assigned	3
+dead	1	1143	1143	PER	свою	5765	5769	свою	1	79	81	15	0	0	0	165	1143	свою	det	1144	DET	PRON	Not_Assigned	Not_Assigned	3
+assurance	3	1146	1159	ORG	"французском страховом обществе "" Урбэн "", имеющем право совершать операции и в России"	5778	5863	"французском страховом обществе "" урбэн "" , имеющем право совершать операции и в россии"	14	79	81	18	0	1	1	166	1148	обществе	obl	1142	NOUN	PROP	Not_Assigned	Not_Assigned	3
+GPE_T163	34	1159	1159	GPE	России	5857	5863	россии	1	79	81	31	1	0	0	167	1159	россии	obl	1155	PROPN	PROP	Not_Assigned	Not_Assigned	3
+dead	1	1171	1171	PER	его	5926	5929	его	1	79	81	43	0	0	0	168	1171	его	det	1172	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T164	29	1173	1184	PER	тому лицу, которое представит в общество полис с его бланковой надписью	5937	6008	тому лицу , которое представит в общество полис с его бланковой надписью	12	79	81	45	0	1	2	169	1177	представит	acl:relcl	1174	VERB	NOM	Not_Assigned	Not_Assigned	3
+assurance	3	1179	1179	ORG	общество	5969	5977	общество	1	79	81	51	1	0	0	170	1179	общество	obl	1177	NOUN	NOM	Not_Assigned	Not_Assigned	3
+dead	1	1182	1182	PER	его	5986	5989	его	1	79	81	54	1	0	0	171	1182	его	det	1184	DET	PRON	Not_Assigned	Not_Assigned	3
+Petr	2	1194	1194	PER	Свербеев	6037	6045	свербеев	1	80	82	8	0	0	0	172	1194	свербеев	nsubj	1193	PROPN	PROP	Singular	Not_Assigned	3
+PER_T167	28	1202	1202	PER	клиентами	6073	6082	клиентами	1	80	82	16	0	0	0	173	1202	клиентами	nmod	1200	NOUN	NOM	Not_Assigned	Not_Assigned	3
+dead	1	1206	1207	PER	этот господин	6088	6101	этот господин	2	80	82	20	0	0	0	174	1207	господин	nsubj	1208	NOUN	NOM	Not_Assigned	Not_Assigned	3
+dead	1	1225	1226	PER	мой друг	6178	6186	мой друг	2	81	83	15	0	1	1	175	1226	друг	conj	1208	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Ivan	0	1225	1225	PER	мой	6178	6181	мой	1	81	83	15	1	0	0	176	1225	мой	det	1226	DET	PRON	Not_Assigned	Not_Assigned	3
+dead	1	1228	1230	PER	Илья Максимович Пузырев	6188	6211	илья максимович пузырев	3	81	83	18	0	0	0	177	1228	илья	appos	1226	PROPN	PROP	Singular	Not_Assigned	3
+Ivan	0	1239	1239	PER	вам	6240	6243	вам	1	82	84	5	0	0	0	178	1239	вам	obl	1237	PRON	PRON	Not_Assigned	Not_Assigned	3
+Ivan	0	1249	1249	PER	мне	6289	6292	мне	1	83	85	8	0	0	0	179	1249	мне	obl	1247	PRON	PRON	Not_Assigned	Not_Assigned	3
+Ivan	0	1254	1254	PER	Хмуров	6306	6312	хмуров	1	83	85	13	0	0	0	180	1254	хмуров	nsubj	1253	PROPN	PROP	Singular	Not_Assigned	3
+Ivan	0	1259	1259	PER	я	6320	6321	я	1	83	85	18	0	0	0	181	1259	я	nsubj	1253	PRON	PRON	Not_Assigned	Not_Assigned	3
+dead	1	1265	1266	PER	его владельцем	6343	6357	его владельцем	2	83	85	24	0	0	0	182	1266	владельцем	xcomp	1264	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Ivan	0	1272	1273	PER	правопреемником умершего	6376	6400	правопреемником умершего	2	83	85	31	0	1	1	183	1272	правопреемником	xcomp	1261	NOUN	NOM	Not_Assigned	Not_Assigned	3
+dead	1	1273	1273	PER	умершего	6392	6400	умершего	1	83	85	32	1	0	0	184	1273	умершего	nmod	1272	NOUN	NOM	Not_Assigned	Not_Assigned	3
+assurance	3	1278	1278	ORG	общество	6409	6417	общество	1	84	86	3	0	0	0	185	1278	общество	nsubj	1279	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Petr	2	1289	1289	PER	адвокат	6481	6488	адвокат	1	84	87	3	0	0	0	186	1289	адвокат	nsubj	1288	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Ivan	0	1296	1296	PER	Я	6504	6505	я	1	86	89	0	0	0	0	187	1296	я	nsubj	1301	PRON	PRON	Not_Assigned	Not_Assigned	3
+Ivan	0	1306	1306	PER	я	6547	6548	я	1	86	89	10	0	0	0	188	1306	я	nsubj	1309	PRON	PRON	Not_Assigned	Not_Assigned	3
+dead	1	1313	1313	PER	Пузырева	6588	6596	пузырева	1	86	89	17	0	0	0	189	1313	пузырева	nmod	1312	PROPN	PROP	Singular	Not_Assigned	3
+Ivan	0	1321	1321	PER	вам	6622	6625	вам	1	87	90	6	0	0	0	190	1321	вам	iobj	1323	PRON	PRON	Not_Assigned	Not_Assigned	3
+Petr	2	1323	1323	PER	меня	6629	6633	меня	1	87	90	8	0	0	0	191	1323	меня	acl	1319	PRON	PRON	Not_Assigned	Not_Assigned	3
+Ivan	0	1337	1337	PER	мне	6686	6689	мне	1	88	91	8	0	0	0	192	1337	мне	iobj	1336	PRON	PRON	Not_Assigned	Not_Assigned	3
+Petr	2	1349	1350	PER	господин Свербеев	6739	6756	господин свербеев	2	88	91	20	0	0	0	193	1349	господин	nsubj	1352	NOUN	PROP	Singular	Not_Assigned	3
+Ivan	0	1355	1355	PER	него	6779	6783	него	1	88	91	26	0	0	0	194	1355	него	obl	1353	PRON	PRON	Not_Assigned	Not_Assigned	3
+Ivan	0	1358	1358	PER	Хмуров	6793	6799	хмуров	1	88	91	29	0	0	0	195	1358	хмуров	nsubj	1357	PROPN	PROP	Singular	Not_Assigned	3
+Ivan	0	1370	1370	PER	мое	6849	6852	мое	1	90	93	6	0	0	0	196	1370	мое	det	1371	DET	PRON	Not_Assigned	Not_Assigned	3
+assurance	3	1375	1378	GPE	"общества "" Унбзн """	6875	6893	"общества "" унбзн """	4	90	93	11	0	0	0	197	1377	унбзн	appos	1375	NOUN	NOM	Not_Assigned	Not_Assigned	3
+dead	1	1382	1383	PER	умершего Пузырева	6913	6930	умершего пузырева	2	90	93	18	0	0	0	198	1383	пузырева	nmod	1380	PROPN	PROP	Singular	Not_Assigned	3
+dead	1	1388	1388	PER	покойного	6964	6973	покойного	1	90	93	24	0	0	0	199	1388	покойного	nmod	1387	ADJ	NOM	Not_Assigned	Not_Assigned	3
+dead	1	1392	1392	PER	он	6986	6988	он	1	91	94	2	0	0	0	200	1392	он	nsubj	1393	PRON	PRON	Not_Assigned	Not_Assigned	3
+dead	1	1407	1407	PER	ему	7066	7069	ему	1	91	94	17	0	0	0	201	1407	ему	iobj	1410	PRON	PRON	Not_Assigned	Not_Assigned	3
+Ivan	0	1413	1413	PER	я	7096	7097	я	1	91	94	23	0	0	0	202	1413	я	nsubj	1414	PRON	PRON	Not_Assigned	Not_Assigned	3
+dead	1	1415	1415	PER	его	7102	7105	его	1	91	94	25	0	0	0	203	1415	его	det	1416	PRON	PRON	Not_Assigned	Not_Assigned	3
+dead	1	1418	1418	PER	его	7120	7123	его	1	91	94	28	0	0	0	204	1418	его	det	1419	DET	PRON	Not_Assigned	Not_Assigned	3
+Ivan	0	1425	1425	PER	мне	7152	7155	мне	1	92	95	4	0	0	0	205	1425	мне	obl	1442	PRON	PRON	Not_Assigned	Not_Assigned	3
+Ivan	0	1429	1429	PER	мы	7164	7166	мы	1	92	95	8	0	0	0	206	1429	мы	nsubj	1432	PRON	PRON	Not_Assigned	Not_Assigned	3
+Petr	2	1431	1431	PER	вами	7169	7173	вами	1	92	95	10	0	0	0	207	1431	вами	obl	1432	PRON	PRON	Not_Assigned	Not_Assigned	3
+Ivan	0	1441	1441	PER	я	7228	7229	я	1	92	95	20	0	0	0	208	1441	я	nsubj	1442	PRON	PRON	Not_Assigned	Not_Assigned	3
+Petr	2	1443	1443	PER	вас	7238	7241	вас	1	92	95	22	0	0	0	209	1443	вас	obj	1442	PRON	PRON	Not_Assigned	Not_Assigned	3
+dead	1	1453	1453	PER	умерший	7287	7294	умерший	1	93	96	5	0	0	0	210	1453	умерший	nsubj	1452	VERB	NOM	Not_Assigned	Not_Assigned	3
+secretaire	4	1463	1463	PER	секретарь	7323	7332	секретарь	1	93	97	8	0	0	0	211	1463	секретарь	obl	1458	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Petr	2	1465	1466	PER	господин Свербеев	7334	7351	господин свербеев	2	93	97	10	0	0	0	212	1465	господин	appos	1463	NOUN	PROP	Singular	Not_Assigned	3
+Ivan	0	1471	1471	PER	я	7368	7369	я	1	94	98	3	0	0	0	213	1471	я	nsubj	1472	PRON	PRON	Not_Assigned	Not_Assigned	3
+Ivan	0	1477	1478	PER	Иван Александрович	7391	7409	иван александрович	2	94	98	9	0	0	0	214	1477	иван	nsubj	1476	PROPN	PROP	Singular	Not_Assigned	3
+Ivan	0	1487	1487	PER	я	7447	7448	я	1	94	98	19	0	0	0	215	1487	я	nsubj	1489	PRON	PRON	Not_Assigned	Not_Assigned	3
+assurance	3	1491	1491	ORG	общество	7469	7477	общество	1	94	98	23	0	0	0	216	1491	общество	obl	1489	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Ivan	0	1500	1500	PER	вас	7521	7524	вас	1	95	99	3	0	0	0	217	1500	вас	obl	1501	PRON	PRON	Not_Assigned	Not_Assigned	3
+Ivan	0	1510	1510	PER	я	7554	7555	я	1	96	100	6	0	0	0	218	1510	я	nsubj	1512	PRON	PRON	Not_Assigned	Not_Assigned	3
+Ivan	0	1524	1524	PER	Мне	7605	7608	мне	1	98	102	2	0	0	0	219	1524	мне	iobj	1525	PRON	PRON	Not_Assigned	Not_Assigned	3
+Ivan	0	1536	1536	PER	я	7662	7663	я	1	98	102	14	0	0	0	220	1536	я	nsubj	1537	PRON	PRON	Not_Assigned	Not_Assigned	3
+doctor	7	1540	1542	PER	выдавшего свидетельство врача	7684	7713	выдавшего свидетельство врача	3	98	102	18	0	0	0	221	1540	выдавшего	nmod	1539	VERB	NOM	Not_Assigned	Not_Assigned	3
+Ivan	0	1551	1551	PER	вы	7742	7744	вы	1	100	104	2	0	0	0	222	1551	вы	nsubj	1553	PRON	PRON	Not_Assigned	Not_Assigned	3
+assurance	3	1563	1564	ORG	страховое общество	7797	7815	страховое общество	2	101	105	7	0	0	0	223	1564	общество	nsubj:pass	1568	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T218	25	1572	1574	PER	его московских представителей	7863	7892	его московских представителей	3	101	105	16	0	1	1	224	1574	представителей	obl	1570	NOUN	NOM	Not_Assigned	Not_Assigned	3
+assurance	3	1572	1572	ORG	его	7863	7866	его	1	101	105	16	1	0	0	225	1572	его	det	1574	PRON	PRON	Not_Assigned	Not_Assigned	3
+Ivan	0	1580	1580	PER	я	7914	7915	я	1	102	106	3	0	0	0	226	1580	я	nsubj:pass	1583	PRON	PRON	Not_Assigned	Not_Assigned	3
+dead	1	1592	1592	PER	Пузырев	7958	7965	пузырев	1	102	106	15	0	0	0	227	1592	пузырев	nsubj	1593	PROPN	PROP	Singular	Not_Assigned	3
+GPE_T221	13	1599	1599	GPE	Москвы	7998	8004	москвы	1	102	106	22	0	0	0	228	1599	москвы	obl	1601	PROPN	PROP	Not_Assigned	Not_Assigned	3
+dead	1	1610	1610	PER	он	8055	8057	он	1	103	107	7	0	0	0	229	1610	он	nsubj	1609	PRON	PRON	Not_Assigned	Not_Assigned	3
+Ivan	0	1615	1615	PER	я	8074	8075	я	1	104	108	1	0	0	0	230	1615	я	nsubj	1616	PRON	PRON	Not_Assigned	Not_Assigned	3
+dead	1	1621	1621	PER	его	8094	8097	его	1	104	108	7	0	0	0	231	1621	его	nmod	1620	PRON	PRON	Not_Assigned	Not_Assigned	3
+dead	1	1632	1633	PER	этот человек	8159	8171	этот человек	2	104	108	18	0	0	0	232	1633	человек	nsubj	1634	NOUN	NOM	Not_Assigned	Not_Assigned	3
+dead	1	1636	1636	PER	собою	8181	8186	собою	1	104	108	22	0	0	0	233	1636	собою	obl	1634	NOUN	NOM	Not_Assigned	Not_Assigned	3
+dead	1	1641	1641	PER	его	8202	8205	его	1	105	109	3	0	0	0	234	1641	его	obj	1643	PRON	PRON	Not_Assigned	Not_Assigned	3
+Ivan	0	1654	1654	PER	я	8252	8253	я	1	106	110	7	0	0	0	235	1654	я	nsubj	1656	PRON	PRON	Not_Assigned	Not_Assigned	3
+Petr	2	1667	1667	PER	вас	8324	8327	вас	1	106	110	20	0	0	0	236	1667	вас	obj	1666	PRON	PRON	Not_Assigned	Not_Assigned	3
+Petr	2	1670	1670	PER	себя	8337	8341	себя	1	106	110	23	0	0	0	237	1670	себя	obl	1668	PRON	PRON	Not_Assigned	Not_Assigned	3
+assurance	3	1674	1674	ORG	них	8358	8361	них	1	106	110	27	0	0	0	238	1674	них	obl	1672	PRON	PRON	Not_Assigned	Not_Assigned	3
+Ivan	0	1678	1678	PER	Мои	8375	8378	мои	1	107	111	0	0	0	0	239	1678	мои	det	1679	DET	PRON	Not_Assigned	Not_Assigned	3
+IvanPetr	6	1691	1691	PER	мы	8455	8457	мы	1	107	111	13	0	0	0	240	1691	мы	nsubj	1692	PRON	PRON	Not_Assigned	Not_Assigned	3
+Petr	2	1706	1706	PER	вам	8547	8550	вам	1	107	111	28	0	0	0	241	1706	вам	iobj	1705	PRON	PRON	Not_Assigned	Not_Assigned	3
+IvanPetr	6	1714	1714	PER	наши	8594	8598	наши	1	107	111	36	0	0	0	242	1714	наши	nsubj	1716	DET	PRON	Not_Assigned	Not_Assigned	3
+Petr	2	1720	1720	PER	Я	8616	8617	я	1	108	112	2	0	0	0	243	1720	я	nsubj	1721	PRON	PRON	Not_Assigned	Not_Assigned	3
+Petr	2	1726	1727	PER	присяжный поверенный	8639	8659	присяжный поверенный	2	108	112	8	0	0	0	244	1727	поверенный	nsubj	1725	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Petr	2	1732	1732	PER	я	8667	8668	я	1	108	112	14	0	0	0	245	1732	я	nsubj	1734	PRON	PRON	Not_Assigned	Not_Assigned	3
+IvanPetr	6	1741	1741	PER	нас	8705	8708	нас	1	108	112	23	0	0	0	246	1741	нас	obl	1744	PRON	PRON	Not_Assigned	Not_Assigned	3
+assurance	3	1749	1750	ORG	это общество	8738	8750	это общество	2	108	112	31	0	0	0	247	1750	общество	advcl	1744	NOUN	NOM	Not_Assigned	Not_Assigned	3
+assurance	3	1757	1757	ORG	Им	8777	8779	им	1	109	113	0	0	0	0	248	1757	им	iobj	1765	PRON	PRON	Not_Assigned	Not_Assigned	3
+assurance	3	1776	1776	ORG	ним	8906	8909	ним	1	109	113	19	0	0	0	249	1776	ним	nmod	1774	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T243	26	1778	1778	PER	все	8911	8914	все	1	109	113	21	0	0	0	250	1778	все	nsubj	1780	PRON	PRON	Not_Assigned	Not_Assigned	3
+assurance	3	1782	1782	ORG	ним	8931	8934	ним	1	109	113	25	0	0	0	251	1782	ним	obl	1780	PRON	PRON	Not_Assigned	Not_Assigned	3
+Ivan	0	1792	1792	PER	Ваше	8977	8981	ваше	1	110	114	0	0	0	0	252	1792	ваше	det	1794	DET	PRON	Not_Assigned	Not_Assigned	3
+Petr	2	1803	1803	PER	мое	9056	9059	мое	1	111	115	5	0	0	0	253	1803	мое	det	1804	DET	PRON	Not_Assigned	Not_Assigned	3
+Petr	2	1811	1811	PER	мне	9100	9103	мне	1	111	115	13	0	0	0	254	1811	мне	iobj	1799	PRON	PRON	Not_Assigned	Not_Assigned	3
+Petr	2	1813	1813	PER	я	9105	9106	я	1	111	115	15	0	0	0	255	1813	я	nsubj	1814	PRON	PRON	Not_Assigned	Not_Assigned	3
+Ivan	0	1816	1816	PER	вас	9113	9116	вас	1	111	115	18	0	0	0	256	1816	вас	obj	1817	PRON	PRON	Not_Assigned	Not_Assigned	3
+Petr	2	1825	1825	PER	мы	9154	9156	мы	1	111	115	27	0	0	0	257	1825	мы	nsubj	1830	PRON	PRON	Not_Assigned	Not_Assigned	3
+Ivan	0	1827	1827	PER	вами	9159	9163	вами	1	111	115	29	0	0	0	258	1827	вами	nmod	1825	PRON	PRON	Not_Assigned	Not_Assigned	3
+Petr	2	1832	1832	PER	моей	9192	9196	моей	1	111	115	34	0	0	0	259	1832	моей	det	1833	DET	PRON	Not_Assigned	Not_Assigned	3
+Ivan	0	1840	1840	PER	Хмуров	9229	9235	хмуров	1	113	117	0	0	0	0	260	1840	хмуров	nsubj	1842	PROPN	PROP	Singular	Not_Assigned	3
+Petr	2	1848	1849	PER	господин Свербеев	9270	9287	господин свербеев	2	113	117	8	0	0	0	261	1848	господин	nsubj	1850	NOUN	PROP	Singular	Not_Assigned	3
+Ivan	0	1851	1851	PER	его	9298	9301	его	1	113	117	11	0	0	0	262	1851	его	obj	1850	PRON	PRON	Not_Assigned	Not_Assigned	3
+Ivan	0	1857	1858	PER	сами вы	9319	9326	сами вы	2	113	117	17	0	0	0	263	1858	вы	nsubj	1860	PRON	PRON	Not_Assigned	Not_Assigned	3
+assurance	3	1872	1872	ORG	обществе	9399	9407	обществе	1	114	118	9	0	0	0	264	1872	обществе	obl	1870	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Ivan	0	1874	1874	PER	Хмуров	9410	9416	хмуров	1	115	119	0	0	0	0	265	1874	хмуров	nsubj	1875	PROPN	PROP	Singular	Not_Assigned	3
+dead	1	1878	1878	PER	Пузырева	9443	9451	пузырева	1	115	119	4	0	0	0	266	1878	пузырева	nmod	1877	PROPN	PROP	Singular	Not_Assigned	3
+Petr	2	1895	1896	PER	Опытный Свербеев	9514	9530	опытный свербеев	2	116	120	0	0	0	0	267	1896	свербеев	nsubj	1897	PROPN	PROP	Singular	Not_Assigned	3
+Ivan	0	1899	1899	PER	него	9543	9547	него	1	116	120	4	0	0	0	268	1899	него	obl	1897	PRON	PRON	Not_Assigned	Not_Assigned	3
+Petr	2	1914	1915	PER	Он сам	9619	9625	он сам	2	117	121	0	0	0	0	269	1914	он	nsubj	1916	PRON	PRON	Not_Assigned	Not_Assigned	3
+Ivan	0	1917	1917	PER	его	9635	9638	его	1	117	121	3	0	0	0	270	1917	его	obj	1916	PRON	PRON	Not_Assigned	Not_Assigned	3
+dead	1	1938	1938	PER	умершего	9743	9751	умершего	1	117	121	24	0	0	0	271	1938	умершего	nmod	1937	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Petr	2	1941	1941	PER	меня	9763	9767	меня	1	117	121	27	0	0	0	272	1941	меня	obl	1939	PRON	PRON	Not_Assigned	Not_Assigned	3
+Petr	2	1943	1943	PER	я	9770	9771	я	1	117	121	29	0	0	0	273	1943	я	nsubj	1947	PRON	PRON	Not_Assigned	Not_Assigned	3
+Ivan	0	1952	1952	PER	Хмурову	9817	9824	хмурову	1	119	123	0	0	0	0	274	1952	хмурову	iobj	1953	PROPN	PROP	Singular	Not_Assigned	3
+Ivan	0	1959	1959	PER	Ему	9859	9862	ему	1	120	124	0	0	0	0	275	1959	ему	iobj	1960	PRON	PRON	Not_Assigned	Not_Assigned	3
+GPE_T269	9	1969	1969	GPE	Варшаве	9916	9923	варшаве	1	120	124	10	0	0	0	276	1969	варшаве	obl	1967	PROPN	PROP	Not_Assigned	Not_Assigned	3
+Sarra	23	1971	1971	PER	Сарры	9926	9931	сарры	1	120	124	12	0	0	0	277	1971	сарры	obl	1967	PROPN	PROP	Singular	Not_Assigned	3
+Ivan	0	1977	1977	PER	он	9955	9957	он	1	121	125	2	0	0	0	278	1977	он	nsubj	1978	PRON	PRON	Not_Assigned	Not_Assigned	3
+notaire	8	1980	1980	PER	нотариусу	9971	9980	нотариусу	1	121	125	5	0	0	0	279	1980	нотариусу	obl	1978	NOUN	NOM	Not_Assigned	Not_Assigned	3
+notaire	8	1983	1983	PER	него	9985	9989	него	1	121	125	8	0	0	0	280	1983	него	obl	1984	PRON	PRON	Not_Assigned	Not_Assigned	3
+Petr	2	1989	1993	PER	присяжного поверенного Петра Косьмича Свербеева	10028	10075	присяжного поверенного петра косьмича свербеева	5	121	125	14	0	0	0	281	1990	поверенного	nmod	1988	NOUN	PROP	Singular	Not_Assigned	3
+ORG_T275	38	2012	2016	ORG	частным обществам для заклада движимостей	10174	10215	частным обществам для заклада движимостей	5	121	125	37	0	0	0	282	2015	заклада	obl	2007	NOUN	NOM	Not_Assigned	Not_Assigned	3

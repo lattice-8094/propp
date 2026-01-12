@@ -1,0 +1,268 @@
+COREF_name	COREF	start_token	end_token	cat	sacr_text	byte_onset	byte_offset	text	mention_len	paragraph_ID	sentence_ID	start_token_ID_within_sentence	out_to_in_nested_level	in_to_out_nested_level	nested_entities_count	temp_index	head_id	head_word	head_dependency_relation	head_syntactic_head_ID	POS_tag	prop	number	gender	grammatical_person
+M3	47	0	2	PER	Викентий Викентьевич Вересаев	0	29	викентий викентьевич вересаев	3	0	0	0	0	0	0	0	0	викентий	amod	9	ADJ	PROP	Singular	Not_Assigned	3
+docteurTroitskiy	0	7	12	PER	Богучаровский земский врач Сергей Андреевич Троицкий	57	109	богучаровский земский врач сергей андреевич троицкий	6	3	3	0	0	0	0	1	9	врач	nsubj	15	NOUN	PROP	Singular	Not_Assigned	3
+patiente	5	17	20	PER	задыхавшейся от крупа девочке	143	172	задыхавшейся от крупа девочке	4	3	3	10	0	0	0	2	20	девочке	iobj	15	NOUN	NOM	Not_Assigned	Not_Assigned	3
+docteurTroitskiy	0	22	22	PER	Он	175	177	он	1	4	4	0	0	0	0	3	22	он	nsubj	23	PRON	PRON	Not_Assigned	Not_Assigned	3
+infirmierePetrovna	4	29	31	PER	фельдшерица Ольга Петровна	209	235	фельдшерица ольга петровна	3	4	4	7	0	0	0	4	29	фельдшерица	conj	23	NOUN	PROP	Singular	Not_Assigned	3
+patiente	5	49	49	PER	Больная	326	333	больная	1	5	5	0	0	0	0	5	49	больная	nsubj	52	ADJ	NOM	Not_Assigned	Not_Assigned	3
+patiente	5	56	56	PER	она	368	371	она	1	5	5	7	0	0	0	6	56	она	nsubj	57	PRON	PRON	Not_Assigned	Not_Assigned	3
+infirmierePetrovna	4	69	70	PER	Ольга Петровна	449	463	ольга петровна	2	5	5	20	0	0	0	7	69	ольга	nsubj	71	PROPN	PROP	Singular	Not_Assigned	3
+patiente	5	74	74	PER	ребенок	483	490	ребенок	1	5	5	25	0	0	0	8	74	ребенок	nsubj	75	NOUN	NOM	Not_Assigned	Not_Assigned	3
+docteurTroitskiy	0	92	93	PER	Сергей Андреевич	587	603	сергей андреевич	2	5	5	43	0	0	0	9	92	сергей	nsubj	97	PROPN	PROP	Singular	Not_Assigned	3
+infirmierePetrovna	4	95	96	PER	Ольга Петровна	606	620	ольга петровна	2	5	5	46	0	0	0	10	95	ольга	conj	92	PROPN	PROP	Singular	Not_Assigned	3
+infirmierePetrovna	4	101	102	PER	Ольга Петровна	646	660	ольга петровна	2	6	6	0	0	0	0	11	101	ольга	nsubj	103	PROPN	PROP	Singular	Not_Assigned	3
+docteurTroitskiy	0	141	142	PER	Сергей Андреевич	851	867	сергей андреевич	2	7	8	5	0	0	0	12	141	сергей	nsubj	140	PROPN	PROP	Singular	Not_Assigned	3
+infirmierePetrovna	4	144	145	PER	Ольга Петровна	870	884	ольга петровна	2	8	9	0	0	0	0	13	144	ольга	nsubj	147	PROPN	PROP	Singular	Not_Assigned	3
+infirmierePetrovna	4	153	153	PER	Я	917	918	я	1	9	10	0	0	0	0	14	153	я	nsubj	156	PRON	PRON	Not_Assigned	Not_Assigned	3
+infirmierePetrovna	4	162	162	PER	вам	954	957	вам	1	10	11	3	0	0	0	15	162	вам	iobj	161	PRON	PRON	Not_Assigned	Not_Assigned	3
+infirmierePetrovna	4	164	165	PER	Ольга Петровна	959	973	ольга петровна	2	10	11	5	0	0	0	16	164	ольга	conj	161	PROPN	PROP	Singular	Not_Assigned	3
+docteurTroitskiy	0	169	169	PER	Мы	987	989	мы	1	11	12	0	0	0	0	17	169	мы	nsubj	172	PRON	PRON	Not_Assigned	Not_Assigned	3
+infirmierePetrovna	4	171	171	PER	вами	992	996	вами	1	11	12	2	0	0	0	18	171	вами	nmod	169	PRON	PRON	Not_Assigned	Not_Assigned	3
+TroitskyAndPetrovna	16	172	173	PER	люди привычные	997	1011	люди привычные	2	11	12	3	0	0	0	19	172	люди	ROOT	172	NOUN	NOM	Not_Assigned	Not_Assigned	3
+TroitskyAndPetrovna	16	175	175	PER	нас	1014	1017	нас	1	11	12	6	0	0	0	20	175	нас	obj	179	PRON	PRON	Not_Assigned	Not_Assigned	3
+infirmierePetrovna	4	182	183	PER	Ольга Петровна	1052	1066	ольга петровна	2	12	13	0	0	0	0	21	182	ольга	nsubj	188	PROPN	PROP	Singular	Not_Assigned	3
+infirmierePetrovna	4	196	196	PER	она	1133	1136	она	1	12	13	14	0	0	0	22	196	она	nsubj	197	PRON	PRON	Not_Assigned	Not_Assigned	3
+docteurTroitskiy	0	203	204	PER	Сергеем Андреевичем	1167	1186	сергеем андреевичем	2	12	13	21	0	0	0	23	203	сергеем	obl	201	PROPN	PROP	Singular	Not_Assigned	3
+docteurTroitskiy	0	211	211	PER	он	1220	1222	он	1	12	13	29	0	0	0	24	211	он	nsubj	215	PRON	PRON	Not_Assigned	Not_Assigned	3
+patiente	5	221	221	PER	Больная	1269	1276	больная	1	13	14	0	0	0	0	25	221	больная	nsubj	223	ADJ	NOM	Not_Assigned	Not_Assigned	3
+patiente	5	232	232	PER	Дунька	1330	1336	дунька	1	14	15	3	0	0	0	26	232	дунька	parataxis	223	PROPN	PROP	Singular	Not_Assigned	3
+docteurTroitskiy	0	239	240	PER	Сергей Андреевич	1359	1375	сергей андреевич	2	14	16	2	0	0	0	27	239	сергей	nsubj	238	PROPN	PROP	Singular	Not_Assigned	3
+patiente	5	246	246	PER	ее	1407	1409	ее	1	14	16	9	0	0	0	28	246	ее	obj	245	PRON	PRON	Not_Assigned	Not_Assigned	3
+patiente	5	252	252	PER	Девочка	1437	1444	девочка	1	15	17	0	0	0	0	29	252	девочка	nsubj	253	NOUN	NOM	Not_Assigned	Not_Assigned	3
+T30	34	263	263	PER	Сиделка	1497	1504	сиделка	1	16	18	0	0	0	0	30	263	сиделка	nsubj	264	NOUN	NOM	Not_Assigned	Not_Assigned	3
+patiente	5	265	265	PER	ее	1511	1513	ее	1	16	18	2	0	0	0	31	265	ее	obj	264	PRON	PRON	Not_Assigned	Not_Assigned	3
+docteurTroitskiy	0	273	274	PER	Сергей Андреевич	1550	1566	сергей андреевич	2	17	19	0	0	0	0	32	273	сергей	nsubj	276	PROPN	PROP	Singular	Not_Assigned	3
+infirmierePetrovna	4	284	285	PER	Ольгой Петровной	1616	1632	ольгой петровной	2	17	19	11	0	0	0	33	284	ольгой	obl	282	PROPN	PROP	Singular	Not_Assigned	3
+FAC_T34	26	289	289	FAC	больницы	1644	1652	больницы	1	17	19	16	0	0	0	34	289	больницы	obl	287	NOUN	NOM	Not_Assigned	Not_Assigned	3
+houseofdoctor	13	290	290	FAC	домой	1653	1658	домой	1	17	19	17	0	0	0	35	290	домой	advmod	287	ADV	NOM	Not_Assigned	Not_Assigned	3
+docteurTroitskiy	0	345	346	PER	Сергей Андреевич	1942	1958	сергей андреевич	2	22	24	0	0	0	0	36	345	сергей	nsubj	347	PROPN	PROP	Singular	Not_Assigned	3
+FAC_T37	27	349	349	FAC	дороге	1966	1972	дороге	1	22	24	4	0	0	0	37	349	дороге	obl	347	NOUN	NOM	Not_Assigned	Not_Assigned	3
+docteurTroitskiy	0	370	371	PER	Сергея Андреевича	2102	2119	сергея андреевича	2	23	25	2	0	0	0	38	370	сергея	obl	372	PROPN	PROP	Singular	Not_Assigned	3
+docteurTroitskiy	0	376	376	PER	ему	2143	2146	ему	1	23	25	8	0	0	0	39	376	ему	iobj	377	PRON	PRON	Not_Assigned	Not_Assigned	3
+guests	11	381	382	PER	двумя гостями	2175	2188	двумя гостями	2	23	25	13	0	0	0	40	382	гостями	nmod	379	NOUN	NOM	Not_Assigned	Not_Assigned	3
+docteurTroitskiy	0	385	385	PER	он	2196	2198	он	1	23	25	17	0	0	0	41	385	он	nsubj	387	PRON	PRON	Not_Assigned	Not_Assigned	3
+guests	11	394	395	PER	этих гостях	2236	2247	этих гостях	2	24	26	2	0	0	0	42	395	гостях	nmod	392	NOUN	NOM	Not_Assigned	Not_Assigned	3
+docteurTroitskiy	0	398	399	PER	Сергее Андреевиче	2259	2276	сергее андреевиче	2	24	26	6	0	0	0	43	398	сергее	obl	396	PROPN	PROP	Singular	Not_Assigned	3
+docteurTroitskiy	0	401	401	PER	его	2285	2288	его	1	24	26	9	0	0	0	44	401	его	det	402	DET	PRON	Not_Assigned	Not_Assigned	3
+docteurTroitskiy	0	406	406	PER	он	2307	2309	он	1	24	26	14	0	0	0	45	406	он	nsubj	407	PRON	PRON	Not_Assigned	Not_Assigned	3
+firstGuestKiselev	2	415	417	PER	Один из гостей	2353	2367	один из гостей	3	25	27	0	0	1	1	46	417	гостей	nmod	415	NOUN	NOM	Not_Assigned	Not_Assigned	3
+guests	11	417	417	PER	гостей	2361	2367	гостей	1	25	27	2	1	0	0	47	417	гостей	nmod	415	NOUN	NOM	Not_Assigned	Not_Assigned	3
+docteurTroitskiy	0	424	425	PER	Сергея Андреевича	2405	2422	сергея андреевича	2	25	27	9	0	0	0	48	424	сергея	obl	422	PROPN	PROP	Singular	Not_Assigned	3
+houseofdoctor	13	430	430	FAC	дома	2443	2447	дома	1	25	27	15	0	0	0	49	430	дома	obj	428	NOUN	NOM	Not_Assigned	Not_Assigned	3
+firstGuestKiselev	2	432	432	PER	Гость	2450	2455	гость	1	26	28	0	0	0	0	50	432	гость	nsubj	438	NOUN	NOM	Not_Assigned	Not_Assigned	3
+firstGuestKiselev	2	435	439	PER	его старый университетский товарищ Киселев	2465	2507	его старый университетский товарищ киселев	5	26	28	3	0	1	1	51	438	товарищ	ROOT	438	NOUN	PROP	Singular	Not_Assigned	3
+docteurTroitskiy	0	435	435	PER	его	2465	2468	его	1	26	28	3	1	0	0	52	435	его	det	438	DET	PRON	Not_Assigned	Not_Assigned	3
+firstGuestKiselev	2	441	443	PER	знаменитый организатор артелей	2509	2539	знаменитый организатор артелей	3	26	28	9	0	0	0	53	442	организатор	appos	438	NOUN	NOM	Not_Assigned	Not_Assigned	3
+firstGuestKiselev	2	446	446	PER	нем	2544	2547	нем	1	27	29	1	0	0	0	54	446	нем	obl	451	PRON	PRON	Not_Assigned	Not_Assigned	3
+FAC_T52	28	456	457	FAC	нижегородской выставки	2593	2615	нижегородской выставки	2	28	30	1	0	0	0	55	457	выставки	obl	469	NOUN	NOM	Not_Assigned	Not_Assigned	3
+firstGuestKiselev	2	460	460	PER	он	2621	2623	он	1	28	30	5	0	0	0	56	460	он	nsubj	461	PRON	PRON	Not_Assigned	Not_Assigned	3
+M9	41	463	464	PER	своих кустарей	2645	2659	своих кустарей	2	28	30	8	0	1	1	57	464	кустарей	nmod	462	NOUN	NOM	Not_Assigned	Not_Assigned	3
+firstGuestKiselev	2	463	463	PER	своих	2645	2650	своих	1	28	30	8	1	0	0	58	463	своих	det	464	DET	PRON	Not_Assigned	Not_Assigned	3
+firstGuestKiselev	2	466	466	PER	Киселев	2661	2668	киселев	1	28	30	11	0	0	0	59	466	киселев	nsubj	469	PROPN	PROP	Singular	Not_Assigned	3
+FAC_T57	29	468	468	FAC	дороге	2672	2678	дороге	1	28	30	13	0	0	0	60	468	дороге	obl	469	NOUN	NOM	Not_Assigned	Not_Assigned	3
+docteurTroitskiy	0	473	474	PER	Сергею Андреевичу	2697	2714	сергею андреевичу	2	28	30	18	0	0	0	61	473	сергею	obl	469	PROPN	PROP	Singular	Not_Assigned	3
+docteurTroitskiy	0	480	481	PER	Сергей Андреевич	2742	2758	сергей андреевич	2	29	31	0	0	0	0	62	480	сергей	nsubj	482	PROPN	PROP	Singular	Not_Assigned	3
+firstGuestKiselev	2	484	484	PER	ним	2772	2775	ним	1	29	31	4	0	0	0	63	484	ним	obl	482	PRON	PRON	Not_Assigned	Not_Assigned	3
+docteurTroitskiy	0	495	495	PER	он	2832	2834	он	1	29	31	15	0	0	0	64	495	он	nsubj	497	PRON	PRON	Not_Assigned	Not_Assigned	3
+firstGuestKiselev	2	499	499	PER	Киселева	2854	2862	киселева	1	29	31	19	0	0	0	65	499	киселева	obj	498	PROPN	PROP	Singular	Not_Assigned	3
+firstGuestKiselev	2	505	505	PER	ним	2886	2889	ним	1	29	31	25	0	0	0	66	505	ним	obl	503	PRON	PRON	Not_Assigned	Not_Assigned	3
+firstGuestKiselev	2	509	510	PER	этого человека	2901	2915	этого человека	2	29	31	29	0	0	0	67	510	человека	obl	507	NOUN	NOM	Not_Assigned	Not_Assigned	3
+docteurTroitskiy	0	520	521	PER	Сергей Андреевич	2959	2975	сергей андреевич	2	29	31	40	0	0	0	68	520	сергей	nsubj	522	PROPN	PROP	Singular	Not_Assigned	3
+firstGuestKiselev	2	532	533	PER	таких деятелей	3048	3062	таких деятелей	2	29	31	52	0	0	0	69	533	деятелей	nmod	531	NOUN	NOM	Not_Assigned	Not_Assigned	3
+secondGuestTchekhanova	1	535	536	PER	Другой гость	3065	3077	другой гость	2	30	32	0	0	0	0	70	536	гость	nsubj	545	NOUN	NOM	Not_Assigned	Not_Assigned	3
+docteurTroitskiy	0	541	542	PER	Сергей Андреевич	3101	3117	сергей андреевич	2	30	32	6	0	0	0	71	541	сергей	nsubj	540	PROPN	PROP	Singular	Not_Assigned	3
+secondGuestTchekhanova	1	545	547	PER	дочь соседнего помещика	3124	3147	дочь соседнего помещика	3	30	32	10	0	1	1	72	545	дочь	ROOT	545	NOUN	NOM	Not_Assigned	Not_Assigned	3
+M5	49	546	547	PER	соседнего помещика	3129	3147	соседнего помещика	2	30	32	11	1	0	0	73	547	помещика	nmod	545	NOUN	NOM	Not_Assigned	Not_Assigned	3
+secondGuestTchekhanova	1	549	551	PER	Наталья Александровна Чеканова	3149	3179	наталья александровна чеканова	3	30	32	14	0	0	0	74	549	наталья	appos	545	PROPN	PROP	Singular	Not_Assigned	3
+docteurTroitskiy	0	553	554	PER	Сергей Андреевич	3182	3198	сергей андреевич	2	31	33	0	0	0	0	75	553	сергей	nsubj	556	PROPN	PROP	Singular	Not_Assigned	3
+secondGuestTchekhanova	1	557	557	PER	ее	3208	3210	ее	1	31	33	4	0	0	0	76	557	ее	obj	556	DET	PRON	Not_Assigned	Not_Assigned	3
+secondGuestTchekhanova	1	564	564	PER	Наташа	3236	3242	наташа	1	32	34	3	0	0	0	77	564	наташа	nsubj	567	PROPN	PROP	Singular	Not_Assigned	3
+ORG_T74	39	569	569	ORG	гимназии	3264	3272	гимназии	1	32	34	8	0	0	0	78	569	гимназии	obl	567	NOUN	NOM	Not_Assigned	Not_Assigned	3
+secondGuestTchekhanova	1	583	586	PER	девушка сорви - голова	3355	3377	девушка сорви - голова	4	32	34	22	0	0	0	79	583	девушка	conj	567	NOUN	PROP	Singular	Not_Assigned	3
+fatherOfTchekhanova	12	610	610	PER	отца	3490	3494	отца	1	33	35	4	0	0	0	80	610	отца	nmod	609	NOUN	NOM	Not_Assigned	Not_Assigned	3
+secondGuestTchekhanova	1	612	612	PER	она	3496	3499	она	1	33	35	6	0	0	0	81	612	она	nsubj	614	PRON	PRON	Not_Assigned	Not_Assigned	3
+GPE_T78	32	616	616	GPE	Швейцарию	3520	3529	швейцарию	1	33	35	10	0	0	0	82	616	швейцарию	obl	614	PROPN	PROP	Not_Assigned	Not_Assigned	3
+secondGuestTchekhanova	1	633	633	PER	она	3594	3597	она	1	33	35	27	0	0	0	83	633	она	nsubj	634	PRON	PRON	Not_Assigned	Not_Assigned	3
+GPE_T80	22	636	636	GPE	Петербург	3610	3619	петербург	1	33	35	30	0	0	0	84	636	петербург	obl	634	PROPN	PROP	Not_Assigned	Not_Assigned	3
+fatherOfTchekhanova	12	638	638	PER	Отец	3622	3626	отец	1	34	36	0	0	0	0	85	638	отец	nsubj	639	NOUN	NOM	Not_Assigned	Not_Assigned	3
+secondGuestTchekhanova	1	644	644	PER	Наташа	3651	3657	наташа	1	34	36	6	0	0	0	86	644	наташа	nsubj	647	PROPN	PROP	Singular	Not_Assigned	3
+secondGuestTchekhanova	1	649	649	PER	сама	3678	3682	сама	1	34	36	11	0	0	0	87	649	сама	acl	650	ADJ	NOM	Not_Assigned	Not_Assigned	3
+homeofTchekhanova	14	651	651	FAC	домой	3693	3698	домой	1	34	36	13	0	0	0	88	651	домой	advmod	650	ADV	NOM	Not_Assigned	Not_Assigned	3
+fatherOfTchekhanova	12	660	660	PER	он	3741	3743	он	1	34	36	22	0	0	0	89	660	он	nsubj	661	PRON	PRON	Not_Assigned	Not_Assigned	3
+secondGuestTchekhanova	1	662	662	PER	ей	3752	3754	ей	1	34	36	24	0	0	0	90	662	ей	iobj	661	PRON	PRON	Not_Assigned	Not_Assigned	3
+GPE_T80	22	664	664	GPE	Петербург	3757	3766	петербург	1	34	36	26	0	0	0	91	664	петербург	obl	661	PROPN	PROP	Not_Assigned	Not_Assigned	3
+LOC_T88	33	671	671	LOC	деревню	3798	3805	деревню	1	34	36	33	0	0	0	92	671	деревню	obl	667	NOUN	NOM	Not_Assigned	Not_Assigned	3
+secondGuestTchekhanova	1	673	673	PER	Наташа	3808	3814	наташа	1	35	37	0	0	0	0	93	673	наташа	nsubj	674	PROPN	PROP	Singular	Not_Assigned	3
+secondGuestTchekhanova	1	683	683	PER	ей	3858	3860	ей	1	35	37	10	0	0	0	94	683	ей	iobj	684	PRON	PRON	Not_Assigned	Not_Assigned	3
+secondGuestTchekhanova	1	694	694	PER	она	3913	3916	она	1	36	38	6	0	0	0	95	694	она	nsubj	697	PRON	PRON	Not_Assigned	Not_Assigned	3
+homeofTchekhanova	14	698	698	FAC	домой	3947	3952	домой	1	36	38	10	0	0	0	96	698	домой	advmod	697	ADV	NOM	Not_Assigned	Not_Assigned	3
+FAC_T93	30	710	710	FAC	станции	4004	4011	станции	1	37	39	3	0	0	0	97	710	станции	nmod	708	NOUN	NOM	Not_Assigned	Not_Assigned	3
+secondGuestTchekhanova	1	711	711	PER	она	4012	4015	она	1	37	39	4	0	0	0	98	711	она	nsubj	712	PRON	PRON	Not_Assigned	Not_Assigned	3
+docteurTroitskiy	0	714	715	PER	Сергею Андреевичу	4026	4043	сергею андреевичу	2	37	39	7	0	0	0	99	714	сергею	obl	712	PROPN	PROP	Singular	Not_Assigned	3
+docteurTroitskiy	0	718	718	PER	он	4052	4054	он	1	38	40	1	0	0	0	100	718	он	nsubj	719	PRON	PRON	Not_Assigned	Not_Assigned	3
+secondGuestTchekhanova	1	720	720	PER	Наташу	4062	4068	наташу	1	38	40	3	0	0	0	101	720	наташу	obj	719	PROPN	PROP	Singular	Not_Assigned	3
+docteurTroitskiy	0	723	723	PER	него	4072	4076	него	1	38	40	6	0	0	0	102	723	него	obl	724	PRON	PRON	Not_Assigned	Not_Assigned	3
+secondGuestTchekhanova	1	735	735	PER	ей	4132	4134	ей	1	38	40	18	0	0	0	103	735	ей	iobj	736	PRON	PRON	Not_Assigned	Not_Assigned	3
+secondGuestTchekhanova	1	740	740	PER	она	4162	4165	она	1	38	40	23	0	0	0	104	740	она	nsubj	742	PRON	PRON	Not_Assigned	Not_Assigned	3
+secondGuestTchekhanova	1	752	752	PER	нее	4227	4230	нее	1	38	40	35	0	0	0	105	752	нее	obl	755	PRON	PRON	Not_Assigned	Not_Assigned	3
+docteurTroitskiy	0	757	758	PER	Сергея Андреевича	4248	4265	сергея андреевича	2	38	40	40	0	0	0	106	757	сергея	obl	755	PROPN	PROP	Singular	Not_Assigned	3
+docteurTroitskiy	0	765	765	PER	Он	4299	4301	он	1	39	41	0	0	0	0	107	765	он	nsubj	769	PRON	PRON	Not_Assigned	Not_Assigned	3
+secondGuestTchekhanova	1	774	774	PER	Наташи	4361	4367	наташи	1	39	41	9	0	0	0	108	774	наташи	nmod	773	PROPN	PROP	Singular	Not_Assigned	3
+secondGuestTchekhanova	1	777	777	PER	ее	4378	4380	ее	1	39	41	12	0	0	0	109	777	ее	obj	776	PRON	PRON	Not_Assigned	Not_Assigned	3
+secondGuestTchekhanova	1	782	782	PER	Она	4393	4396	она	1	39	41	17	0	0	0	110	782	она	nsubj	783	PRON	PRON	Not_Assigned	Not_Assigned	3
+FAC_T119	45	784	784	FAC	дорогу	4403	4409	дорогу	1	39	41	19	0	0	0	111	784	дорогу	obj	783	NOUN	NOM	Not_Assigned	Not_Assigned	3
+secondGuestTchekhanova	1	791	791	PER	Наташа	4430	4436	наташа	1	40	42	0	0	0	0	112	791	наташа	nsubj	792	PROPN	PROP	Singular	Not_Assigned	3
+docteurTroitskiy	0	794	794	PER	него	4447	4451	него	1	40	42	3	0	0	0	113	794	него	obl	796	PRON	PRON	Not_Assigned	Not_Assigned	3
+docteurTroitskiy	0	800	801	PER	Сергей Андреевич	4473	4489	сергей андреевич	2	40	42	9	0	0	0	114	800	сергей	nsubj	803	PROPN	PROP	Singular	Not_Assigned	3
+secondGuestTchekhanova	1	806	806	PER	нею	4512	4515	нею	1	40	42	15	0	0	0	115	806	нею	obl	804	PRON	PRON	Not_Assigned	Not_Assigned	3
+docteurTroitskiy	0	811	811	PER	он	4536	4538	он	1	41	43	1	0	0	0	116	811	он	nsubj	812	PRON	PRON	Not_Assigned	Not_Assigned	3
+secondGuestTchekhanova	1	813	813	PER	ее	4548	4550	ее	1	41	43	3	0	0	0	117	813	ее	obj	812	PRON	PRON	Not_Assigned	Not_Assigned	3
+docteurTroitskiy	0	817	817	PER	него	4566	4570	него	1	41	43	7	0	0	0	118	817	него	nmod	815	PRON	PRON	Not_Assigned	Not_Assigned	3
+firstGuestKiselev	2	818	818	PER	Киселева	4571	4579	киселева	1	41	43	8	0	0	0	119	818	киселева	nmod	815	PROPN	PROP	Singular	Not_Assigned	3
+secondGuestTchekhanova	1	821	821	PER	Наташа	4583	4589	наташа	1	41	43	11	0	0	0	120	821	наташа	nsubj	822	PROPN	PROP	Singular	Not_Assigned	3
+secondGuestTchekhanova	1	831	831	PER	нее	4627	4630	нее	1	42	44	6	0	0	0	121	831	нее	obl	829	PRON	PRON	Not_Assigned	Not_Assigned	3
+docteurTroitskiy	0	838	839	PER	Сергей Андреевич	4658	4674	сергей андреевич	2	42	45	5	0	0	0	122	838	сергей	nsubj	837	PROPN	PROP	Singular	Not_Assigned	3
+docteurTroitskiy	0	845	845	PER	он	4693	4695	он	1	43	46	1	0	0	0	123	845	он	nsubj	846	PRON	PRON	Not_Assigned	Not_Assigned	3
+M2	48	872	872	PER	людей	4855	4860	людей	1	43	46	28	0	0	0	124	872	людей	obj	871	NOUN	NOM	Not_Assigned	Not_Assigned	3
+docteurTroitskiy	0	874	875	PER	Сергей Андреевич	4863	4879	сергей андреевич	2	44	47	0	0	0	0	125	874	сергей	nsubj	876	PROPN	PROP	Singular	Not_Assigned	3
+FAC_T134	20	880	880	FAC	церкви	4907	4913	церкви	1	44	47	6	0	0	0	126	880	церкви	obl	878	NOUN	NOM	Not_Assigned	Not_Assigned	3
+FAC_T135	21	881	882	FAC	ветхому домику	4914	4928	ветхому домику	2	44	47	7	0	0	0	127	882	домику	obl	876	NOUN	NOM	Not_Assigned	Not_Assigned	3
+FAC_T134	20	895	895	FAC	церковь	4997	5004	церковь	1	45	48	11	0	0	0	128	895	церковь	obl	893	NOUN	NOM	Not_Assigned	Not_Assigned	3
+FAC_T135	21	901	901	FAC	дома	5034	5038	дома	1	46	49	1	0	0	0	129	901	дома	obl	902	NOUN	NOM	Not_Assigned	Not_Assigned	3
+sonOfTroitskyVolodya	19	909	911	PER	сын Сергея Андреевича	5084	5105	сын сергея андреевича	3	47	50	3	0	1	1	130	909	сын	nsubj	914	NOUN	PROP	Singular	Not_Assigned	3
+docteurTroitskiy	0	910	911	PER	Сергея Андреевича	5088	5105	сергея андреевича	2	47	50	4	1	0	0	131	910	сергея	nmod	909	PROPN	PROP	Singular	Not_Assigned	3
+sonOfTroitskyVolodya	19	912	913	PER	гимназист Володя	5106	5122	гимназист володя	2	47	50	6	0	0	0	132	912	гимназист	nsubj	914	NOUN	PROP	Singular	Not_Assigned	3
+PER_T140	37	918	919	PER	деревенскими ребятами	5141	5162	деревенскими ребятами	2	47	50	12	0	0	0	133	919	ребятами	nmod	916	NOUN	NOM	Not_Assigned	Not_Assigned	3
+FAC_T142	9	927	930	FAC	потемневшая от дождей терраса	5203	5232	потемневшая от дождей терраса	4	48	51	6	0	0	0	134	929	дождей	obl	927	NOUN	NOM	Not_Assigned	Not_Assigned	3
+FAC_T142	9	939	939	FAC	террасе	5288	5295	террасе	1	49	52	1	0	0	0	135	939	террасе	obl	940	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Lyuba	6	943	946	PER	Дочь Сергея Андреевича Люба	5314	5341	дочь сергея андреевича люба	4	50	53	0	0	1	1	136	943	дочь	nsubj	947	NOUN	PROP	Singular	Not_Assigned	3
+docteurTroitskiy	0	944	945	PER	Сергея Андреевича	5319	5336	сергея андреевича	2	50	53	1	1	0	0	137	944	сергея	nmod	943	PROPN	PROP	Singular	Not_Assigned	3
+firstGuestKiselev	2	953	953	PER	Киселев	5375	5382	киселев	1	51	54	3	0	0	0	138	953	киселев	nsubj	952	PROPN	PROP	Singular	Not_Assigned	3
+Daev	3	955	960	PER	сын богучаровского дьячка студент- технолог Даев	5385	5433	сын богучаровского дьячка студент- технолог даев	6	51	54	5	0	1	1	139	959	технолог	conj	953	NOUN	PROP	Singular	Not_Assigned	3
+M6	44	956	957	PER	богучаровского дьячка	5389	5410	богучаровского дьячка	2	51	54	6	1	0	0	140	957	дьячка	nmod	955	NOUN	NOM	Not_Assigned	Not_Assigned	3
+docteurTroitskiy	0	964	965	PER	Сергей Андреевич	5446	5462	сергей андреевич	2	53	56	1	0	0	0	141	964	сергей	nsubj	966	PROPN	PROP	Singular	Not_Assigned	3
+FAC_T142	9	968	968	PER	террасу	5473	5480	террасу	1	53	56	5	0	0	0	142	968	террасу	obl	966	NOUN	NOM	Not_Assigned	Not_Assigned	3
+firstGuestKiselev	2	971	971	PER	Киселевым	5488	5497	киселевым	1	53	56	8	0	0	0	143	971	киселевым	obl	974	PROPN	PROP	Singular	Not_Assigned	3
+Daev	3	973	973	PER	Даевым	5500	5506	даевым	1	53	56	10	0	0	0	144	973	даевым	conj	971	PROPN	PROP	Singular	Not_Assigned	3
+docteurTroitskiy	0	980	980	PER	него	5529	5533	него	1	53	56	17	0	0	0	145	980	него	obl	983	PRON	PRON	Not_Assigned	Not_Assigned	3
+Lyuba	6	990	990	PER	Любушка	5573	5580	любушка	1	54	57	4	0	0	0	146	990	любушка	conj	988	PROPN	PROP	Singular	Not_Assigned	3
+docteurTroitskiy	0	1001	1002	PER	Сергей Андреевич	5620	5636	сергей андреевич	2	54	58	2	0	0	0	147	1001	сергей	nsubj	1000	PROPN	PROP	Singular	Not_Assigned	3
+Lyuba	6	1004	1004	PER	дочери	5639	5645	дочери	1	54	58	5	0	0	0	148	1004	дочери	obl	1000	NOUN	NOM	Not_Assigned	Not_Assigned	3
+docteurTroitskiy	0	1006	1006	PER	Он	5648	5650	он	1	55	59	0	0	0	0	149	1006	он	nsubj	1007	PRON	PRON	Not_Assigned	Not_Assigned	3
+firstGuestKiselev	2	1025	1025	PER	Киселев	5740	5747	киселев	1	56	60	0	0	0	0	150	1025	киселев	nsubj	1030	PROPN	PROP	Singular	Not_Assigned	3
+firstGuestKiselev	2	1027	1033	PER	плотный и приземистый человек лет за сорок	5752	5794	плотный и приземистый человек лет за сорок	7	56	60	2	0	0	0	151	1030	человек	ROOT	1030	NOUN	NOM	Not_Assigned	Not_Assigned	3
+firstGuestKiselev	2	1070	1070	PER	Киселев	6004	6011	киселев	1	57	61	3	0	0	0	152	1070	киселев	nsubj	1072	PROPN	PROP	Singular	Not_Assigned	3
+M8	42	1073	1075	PER	ярославца - целовальника	6029	6053	ярославца - целовальника	3	57	61	6	0	0	0	153	1073	ярославца	obj	1072	NOUN	NOM	Not_Assigned	Not_Assigned	3
+firstGuestKiselev	2	1082	1082	PER	он	6090	6092	он	1	57	61	15	0	0	0	154	1082	он	nsubj	1083	PRON	PRON	Not_Assigned	Not_Assigned	3
+M7	18	1091	1091	PER	мужиков	6140	6147	мужиков	1	57	61	24	0	0	0	155	1091	мужиков	nmod	1090	NOUN	NOM	Not_Assigned	Not_Assigned	3
+M7	18	1098	1098	PER	им	6174	6176	им.	1	57	61	31	0	0	0	156	1098	им.	nmod	1097	NOUN	NOM	Not_Assigned	Not_Assigned	3
+firstGuestKiselev	2	1106	1106	PER	Киселев	6232	6239	киселев	1	58	62	7	0	0	0	157	1106	киселев	nsubj	1108	PROPN	PROP	Singular	Not_Assigned	3
+Daev	3	1109	1109	PER	студента	6259	6267	студента	1	58	62	10	0	0	0	158	1109	студента	obj	1108	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Daev	3	1127	1127	PER	Даев	6344	6348	даев	1	60	64	12	0	0	0	159	1127	даев	nsubj	1126	PROPN	PROP	Singular	Not_Assigned	3
+Daev	3	1129	1141	PER	стройный парень с черною бородкою и презрительно - надменною складкою меж тонких бровей	6350	6437	стройный парень с черною бородкою и презрительно - надменною складкою меж тонких бровей	13	60	64	14	0	0	0	160	1130	парень	conj	1118	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Daev	3	1144	1144	PER	Я	6442	6443	я	1	61	65	1	0	0	0	161	1144	я	nsubj	1146	PRON	PRON	Not_Assigned	Not_Assigned	3
+firstGuestKiselev	2	1151	1151	PER	вам	6474	6477	вам	1	61	65	8	0	0	0	162	1151	вам	iobj	1152	PRON	PRON	Not_Assigned	Not_Assigned	3
+M1	40	1158	1160	PER	нескольких десятков кустарей	6528	6556	нескольких десятков кустарей	3	61	65	15	0	0	0	163	1159	десятков	nmod	1157	NOUN	NOM	Not_Assigned	Not_Assigned	3
+firstGuestKiselev	2	1204	1204	PER	Киселев	6781	6788	киселев	1	63	68	2	0	0	0	164	1204	киселев	nsubj	1203	PROPN	PROP	Singular	Not_Assigned	3
+artisan	7	1218	1219	PER	нашему кустарю	6866	6880	нашему кустарю	2	64	69	12	0	1	1	165	1219	кустарю	nmod	1216	NOUN	NOM	Not_Assigned	Not_Assigned	3
+KiselevDaev	23	1218	1218	PER	нашему	6866	6872	нашему	1	64	69	12	1	0	0	166	1218	нашему	det	1219	DET	PRON	Not_Assigned	Not_Assigned	3
+firstGuestKiselev	2	1222	1222	PER	Вы	6892	6894	вы	1	65	70	0	0	0	0	167	1222	вы	nsubj	1223	PRON	PRON	Not_Assigned	Not_Assigned	3
+artisan	7	1225	1225	PER	он	6908	6910	он	1	65	70	3	0	0	0	168	1225	он	nsubj	1230	PRON	PRON	Not_Assigned	Not_Assigned	3
+artisan	7	1250	1250	PER	его	7057	7060	его	1	65	70	28	0	0	0	169	1250	его	det	1251	DET	PRON	Not_Assigned	Not_Assigned	3
+artisan	7	1259	1259	PER	кустарь	7099	7106	кустарь	1	65	70	37	0	0	0	170	1259	кустарь	nsubj	1260	NOUN	NOM	Not_Assigned	Not_Assigned	3
+artisan	7	1283	1283	PER	ему	7228	7231	ему	1	65	70	61	0	0	0	171	1283	ему	iobj	1282	PRON	PRON	Not_Assigned	Not_Assigned	3
+artisan	7	1303	1303	PER	него	7311	7315	него	1	66	71	13	0	0	0	172	1303	него	obl	1301	PRON	PRON	Not_Assigned	Not_Assigned	3
+ORG_T180	17	1313	1313	ORG	фабрика	7369	7376	фабрика	1	66	71	23	0	0	0	173	1313	фабрика	nsubj	1312	NOUN	NOM	Not_Assigned	Not_Assigned	3
+firstGuestKiselev	2	1324	1324	PER	Киселев	7423	7430	киселев	1	67	73	2	0	0	0	174	1324	киселев	nsubj	1323	PROPN	PROP	Singular	Not_Assigned	3
+ORG_T180	17	1336	1336	ORG	фабрика	7487	7494	фабрика	1	68	74	6	0	0	0	175	1336	фабрика	nsubj	1339	NOUN	NOM	Not_Assigned	Not_Assigned	3
+artisan	7	1340	1340	PER	кустаря	7513	7520	кустаря	1	68	74	10	0	0	0	176	1340	кустаря	obj	1339	NOUN	NOM	Not_Assigned	Not_Assigned	3
+firstGuestKiselev	2	1346	1346	PER	Киселев	7544	7551	киселев	1	70	76	1	0	0	0	177	1346	киселев	nsubj	1347	PROPN	PROP	Singular	Not_Assigned	3
+Daev	3	1354	1354	PER	вас	7584	7587	вас	1	71	77	2	0	0	0	178	1354	вас	nmod	1357	PRON	PRON	Not_Assigned	Not_Assigned	3
+firstGuestKiselev	2	1385	1385	PER	вы	7728	7730	вы	1	73	79	12	0	0	0	179	1385	вы	nsubj	1387	PRON	PRON	Not_Assigned	Not_Assigned	3
+docteurTroitskiy	0	1405	1406	PER	Сергей Андреевич	7839	7855	сергей андреевич	2	74	80	0	0	0	0	180	1405	сергей	nsubj	1419	PROPN	PROP	Singular	Not_Assigned	3
+Daev	3	1420	1420	PER	Даева	7943	7948	даева	1	74	80	15	0	0	0	181	1420	даева	obj	1419	PROPN	PROP	Singular	Not_Assigned	3
+Daev	3	1425	1425	PER	он	7959	7961	он	1	75	81	3	0	0	0	182	1425	он	nsubj	1426	PRON	PRON	Not_Assigned	Not_Assigned	3
+docteurTroitskiy	0	1431	1432	PER	Сергея Андреевича	7983	8000	сергея андреевича	2	75	81	9	0	0	0	183	1431	сергея	obl	1429	PROPN	PROP	Singular	Not_Assigned	3
+docteurTroitskiy	0	1437	1437	PER	он	8021	8023	он	1	75	81	15	0	0	0	184	1437	он	nsubj	1441	PRON	PRON	Not_Assigned	Not_Assigned	3
+Daev	3	1443	1443	PER	Даева	8045	8050	даева	1	75	81	21	0	0	0	185	1443	даева	obl	1441	PROPN	PROP	Singular	Not_Assigned	3
+GPE_T189	31	1465	1465	GPE	России	8188	8194	россии	1	75	81	43	0	0	0	186	1465	россии	nmod	1463	PROPN	PROP	Not_Assigned	Not_Assigned	3
+Daev	3	1484	1484	PER	Даева	8322	8327	даева	1	76	82	2	0	0	0	187	1484	даева	parataxis	1488	PROPN	PROP	Singular	Not_Assigned	3
+docteurTroitskiy	0	1486	1487	PER	Сергей Андреевич	8329	8345	сергей андреевич	2	76	82	4	0	0	0	188	1486	сергей	nsubj	1488	PROPN	PROP	Singular	Not_Assigned	3
+docteurTroitskiy	0	1494	1494	PER	ему	8384	8387	ему	1	77	83	1	0	0	0	189	1494	ему	iobj	1495	PRON	PRON	Not_Assigned	Not_Assigned	3
+docteurTroitskiy	0	1504	1504	PER	он	8443	8445	он	1	77	83	11	0	0	0	190	1504	он	nsubj	1505	PRON	PRON	Not_Assigned	Not_Assigned	3
+firstGuestKiselev	2	1512	1513	PER	Иван Иванович	8481	8494	иван иванович	2	78	84	3	0	0	0	191	1512	иван	conj	1495	PROPN	PROP	Singular	Not_Assigned	3
+firstGuestKiselev	2	1517	1517	PER	ты	8503	8505	ты	1	78	84	8	0	0	0	192	1517	ты	nsubj	1520	PRON	PRON	Not_Assigned	Not_Assigned	3
+Daev	3	1519	1519	PER	ним	8508	8511	ним	1	78	84	10	0	0	0	193	1519	ним	obl	1520	PRON	PRON	Not_Assigned	Not_Assigned	3
+docteurTroitskiy	0	1524	1524	PER	он	8539	8541	он	1	78	85	2	0	0	0	194	1524	он	nsubj	1523	PRON	PRON	Not_Assigned	Not_Assigned	3
+firstGuestKiselev	2	1526	1526	PER	Киселеву	8544	8552	киселеву	1	78	85	4	0	0	0	195	1526	киселеву	obl	1523	PROPN	PROP	Singular	Not_Assigned	3
+firstGuestKiselev	2	1529	1529	PER	его	8560	8563	его	1	78	85	7	0	0	0	196	1529	его	obj	1528	PRON	PRON	Not_Assigned	Not_Assigned	3
+Daev	3	1539	1539	PER	Даева	8607	8612	даева	1	78	85	17	0	0	0	197	1539	даева	nmod	1538	PROPN	PROP	Singular	Not_Assigned	3
+M12	8	1543	1544	PER	новые люди	8621	8631	новые люди	2	79	86	2	0	0	0	198	1544	люди	nsubj	1523	NOUN	NOM	Not_Assigned	Not_Assigned	3
+M12	8	1546	1547	PER	народ отпетый	8634	8647	народ отпетый	2	79	86	5	0	0	0	199	1546	народ	nsubj	1523	NOUN	NOM	Not_Assigned	Not_Assigned	3
+M12	8	1550	1550	PER	ними	8651	8655	ними	1	79	86	9	0	0	0	200	1550	ними	obl	1523	PRON	PRON	Not_Assigned	Not_Assigned	3
+firstGuestKiselev	2	1552	1552	PER	брат	8657	8661	брат	1	79	86	11	0	0	0	201	1552	брат	nsubj	1523	NOUN	NOM	Not_Assigned	Not_Assigned	3
+KiselevDaev	23	1557	1557	PER	Нам	8680	8683	нам	1	80	87	0	0	0	0	202	1557	нам	iobj	1563	PRON	PRON	Not_Assigned	Not_Assigned	3
+M12	8	1558	1558	PER	их	8684	8686	их	1	80	87	1	0	0	0	203	1558	их	obj	1563	PRON	PRON	Not_Assigned	Not_Assigned	3
+firstGuestKiselev	2	1560	1560	PER	тобою	8689	8694	тобою	1	80	87	3	0	0	0	204	1560	тобою	nmod	1558	ADV	NOM	Not_Assigned	Not_Assigned	3
+M12	8	1566	1574	PER	всех этих декадентов, символистов, марксистов, велосипедистов	8710	8771	всех этих декадентов , символистов , марксистов , велосипедистов	9	80	87	9	0	1	4	205	1568	декадентов	obj	1563	NOUN	NOM	Not_Assigned	Not_Assigned	3
+M11	43	1568	1568	PER	декадентов	8720	8730	декадентов	1	80	87	11	1	0	0	206	1568	декадентов	obj	1563	NOUN	NOM	Not_Assigned	Not_Assigned	3
+M13	46	1570	1570	PER	символистов	8732	8743	символистов	1	80	87	13	1	0	0	207	1570	символистов	conj	1568	NOUN	NOM	Not_Assigned	Not_Assigned	3
+M14	24	1572	1572	PER	марксистов	8745	8755	марксистов	1	80	87	15	1	0	0	208	1572	марксистов	conj	1568	NOUN	NOM	Not_Assigned	Not_Assigned	3
+M15	25	1574	1574	PER	велосипедистов	8757	8771	велосипедистов	1	80	87	17	1	0	0	209	1574	велосипедистов	conj	1568	NOUN	NOM	Not_Assigned	Not_Assigned	3
+secondGuestTchekhanova	1	1580	1580	PER	она	8786	8789	она	1	81	88	4	0	0	0	210	1580	она	nsubj	1581	PRON	PRON	Not_Assigned	Not_Assigned	3
+secondGuestTchekhanova	1	1584	1585	PER	Наталья Александровна	8801	8822	наталья александровна	2	81	88	8	0	0	0	211	1584	наталья	ROOT	1584	PROPN	PROP	Singular	Not_Assigned	3
+docteurTroitskiy	0	1587	1588	PER	Сергей Андреевич	8825	8841	сергей андреевич	2	82	89	0	0	0	0	212	1587	сергей	nsubj	1589	PROPN	PROP	Singular	Not_Assigned	3
+VEH_T216	15	1601	1602	VEH	буланой лошади	8899	8913	буланой лошади	2	84	91	5	0	0	0	213	1602	лошади	obl	1599	NOUN	NOM	Not_Assigned	Not_Assigned	3
+secondGuestTchekhanova	1	1605	1611	PER	девушка в соломенной шляпке и розовой кофточке	8925	8971	девушка в соломенной шляпке и розовой кофточке	7	84	91	9	0	0	0	214	1608	шляпке	nmod	1605	NOUN	NOM	Not_Assigned	Not_Assigned	3
+secondGuestTchekhanova	1	1620	1620	PER	Она	9021	9024	она	1	85	92	0	0	0	0	215	1620	она	nsubj	1621	PRON	PRON	Not_Assigned	Not_Assigned	3
+VEH_T216	15	1627	1627	VEH	лошадь	9064	9070	лошадь	1	85	92	7	0	0	0	216	1627	лошадь	obj	1626	NOUN	NOM	Not_Assigned	Not_Assigned	3
+docteurTroitskiy	0	1631	1632	PER	Сергей Андреевич	9082	9098	сергей андреевич	2	86	93	0	0	0	0	217	1631	сергей	nsubj	1634	PROPN	PROP	Singular	Not_Assigned	3
+secondGuestTchekhanova	1	1638	1639	PER	Наталья Александровна	9128	9149	наталья александровна	2	87	94	1	0	0	0	218	1638	наталья	appos	1637	PROPN	PROP	Singular	Not_Assigned	3
+secondGuestTchekhanova	1	1649	1649	PER	Наташа	9189	9195	наташа	1	90	97	0	0	0	0	219	1649	наташа	nsubj	1656	PROPN	PROP	Singular	Not_Assigned	3
+docteurTroitskiy	0	1658	1658	PER	его	9249	9252	его	1	90	97	9	0	0	0	220	1658	его	det	1659	DET	PRON	Not_Assigned	Not_Assigned	3
+FAC_T142	9	1663	1663	FAC	террасу	9273	9280	террасу	1	90	97	14	0	0	0	221	1663	террасу	obl	1661	NOUN	NOM	Not_Assigned	Not_Assigned	3
+secondGuestTchekhanova	1	1677	1677	PER	Наташа	9345	9351	наташа	1	91	98	12	0	0	0	222	1677	наташа	nsubj	1678	PROPN	PROP	Singular	Not_Assigned	3
+docteurTroitskiy	0	1687	1688	PER	Сергей Андреевич	9397	9413	сергей андреевич	2	91	98	22	0	0	0	223	1687	сергей	nsubj	1689	PROPN	PROP	Singular	Not_Assigned	3
+secondGuestTchekhanova	1	1690	1690	PER	ее	9420	9422	ее	1	91	98	25	0	0	0	224	1690	ее	obj	1689	PRON	PRON	Not_Assigned	Not_Assigned	3
+secondGuestTchekhanova	1	1695	1695	PER	Она	9438	9441	она	1	92	99	0	0	0	0	225	1695	она	nsubj	1696	PRON	PRON	Not_Assigned	Not_Assigned	3
+Lyuba	6	1698	1698	PER	Любой	9457	9462	любой	1	92	99	3	0	0	0	226	1698	любой	obl	1696	PROPN	PROP	Singular	Not_Assigned	3
+docteurTroitskiy	0	1700	1701	PER	Сергей Андреевич	9464	9480	сергей андреевич	2	92	99	5	0	0	0	227	1700	сергей	nsubj	1702	PROPN	PROP	Singular	Not_Assigned	3
+secondGuestTchekhanova	1	1703	1703	PER	ей	9492	9494	ей	1	92	99	8	0	0	0	228	1703	ей	iobj	1702	PRON	PRON	Not_Assigned	Not_Assigned	3
+firstGuestKiselev	2	1704	1704	PER	Киселева	9495	9503	киселева	1	92	99	9	0	0	0	229	1704	киселева	obj	1702	PROPN	PROP	Singular	Not_Assigned	3
+Daev	3	1706	1706	PER	Даева	9506	9511	даева	1	92	99	11	0	0	0	230	1706	даева	conj	1704	PROPN	PROP	Singular	Not_Assigned	3
+Lyuba	6	1710	1710	PER	вы	9522	9524	вы	1	93	100	2	0	0	0	231	1710	вы	nsubj	1713	PRON	PRON	Not_Assigned	Not_Assigned	3
+secondGuestTchekhanova	1	1717	1717	PER	Наташа	9554	9560	наташа	1	93	101	2	0	0	0	232	1717	наташа	nsubj	1716	PROPN	PROP	Singular	Not_Assigned	3
+Lyuba	6	1722	1722	PER	Любу	9582	9586	любу	1	93	101	7	0	0	0	233	1722	любу	obj	1721	PROPN	PROP	Singular	Not_Assigned	3
+Lyuba	6	1725	1725	PER	Вы	9591	9593	вы	1	94	102	1	0	0	0	234	1725	вы	nsubj	1729	PRON	PRON	Not_Assigned	Not_Assigned	3
+Lyuba	6	1740	1740	PER	Люба	9660	9664	люба	1	95	103	9	0	0	0	235	1740	люба	nsubj	1739	PROPN	PROP	Singular	Not_Assigned	3
+secondGuestTchekhanova	1	1744	1744	PER	ей	9682	9684	ей	1	95	103	13	0	0	0	236	1744	ей	iobj	1743	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T238	36	1749	1749	PER	все	9701	9704	все	1	96	104	2	0	0	0	237	1749	все	nsubj	1750	PRON	PRON	Not_Assigned	Not_Assigned	3
+secondGuestTchekhanova	1	1756	1757	PER	Наталья Александровна	9727	9748	наталья александровна	2	97	105	4	0	0	0	238	1756	наталья	ROOT	1756	PROPN	PROP	Singular	Not_Assigned	3
+secondGuestTchekhanova	1	1760	1760	PER	вы	9756	9758	вы	1	97	105	8	0	0	0	239	1760	вы	nsubj	1759	PRON	PRON	Not_Assigned	Not_Assigned	3
+docteurTroitskiy	0	1767	1768	PER	Сергей Андреевич	9786	9802	сергей андреевич	2	97	105	15	0	0	0	240	1767	сергей	nsubj	1766	PROPN	PROP	Singular	Not_Assigned	3
+secondGuestTchekhanova	1	1775	1775	PER	нее	9833	9836	нее	1	97	105	23	0	0	0	241	1775	нее	obl	1773	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T242	35	1779	1779	PER	нам	9843	9846	нам	1	98	106	2	0	0	0	242	1779	нам	iobj	1783	PRON	PRON	Not_Assigned	Not_Assigned	3
+firstGuestKiselev	2	1781	1782	PER	Иван Иванович	9851	9864	иван иванович	2	98	106	4	0	0	0	243	1781	иван	nsubj	1783	PROPN	PROP	Singular	Not_Assigned	3
+firstGuestKiselev	2	1786	1786	PER	им	9895	9897	им	1	98	106	9	0	0	0	244	1786	им	obl:agent	1785	PRON	PRON	Not_Assigned	Not_Assigned	3
+docteurTroitskiy	0	1789	1789	PER	Я	9908	9909	я	1	99	107	0	0	0	0	245	1789	я	nsubj	1792	PRON	PRON	Not_Assigned	Not_Assigned	3
+secondGuestTchekhanova	1	1790	1790	PER	вам	9910	9913	вам	1	99	107	1	0	0	0	246	1790	вам	iobj	1792	PRON	PRON	Not_Assigned	Not_Assigned	3
+firstGuestKiselev	2	1794	1794	PER	нем	9928	9931	нем	1	99	107	5	0	0	0	247	1794	нем	obl	1792	PRON	PRON	Not_Assigned	Not_Assigned	3
+firstGuestKiselev	2	1797	1797	PER	Вы	9936	9938	вы	1	100	108	1	0	0	0	248	1797	вы	nsubj	1800	PRON	PRON	Not_Assigned	Not_Assigned	3
+secondGuestTchekhanova	1	1806	1806	PER	Наташа	9978	9984	наташа	1	100	109	2	0	0	0	249	1806	наташа	nsubj	1805	PROPN	PROP	Singular	Not_Assigned	3
+firstGuestKiselev	2	1811	1811	PER	Киселеву	10011	10019	киселеву	1	100	109	7	0	0	0	250	1811	киселеву	obl	1809	PROPN	PROP	Singular	Not_Assigned	3
+firstGuestKiselev	2	1821	1821	PER	Киселев	10061	10068	киселев	1	101	110	8	0	0	0	251	1821	киселев	nsubj	1820	PROPN	PROP	Singular	Not_Assigned	3
+Daev	3	1829	1829	PER	Даевым	10108	10114	даевым	1	101	110	16	0	0	0	252	1829	даевым	nmod	1827	PROPN	PROP	Singular	Not_Assigned	3
+secondGuestTchekhanova	1	1831	1831	PER	Наташа	10117	10123	наташа	1	102	111	0	0	0	0	253	1831	наташа	nsubj	1833	PROPN	PROP	Singular	Not_Assigned	3
+firstGuestKiselev	2	1836	1836	PER	Вам	10149	10152	вам	1	102	111	5	0	0	0	254	1836	вам	iobj	1833	ADV	NOM	Not_Assigned	Not_Assigned	3
+PER_T104	38	1857	1857	PER	наш	10254	10257	наш	1	104	113	6	0	0	0	255	1857	наш	det	1859	DET	PRON	Not_Assigned	Not_Assigned	3
+firstGuestKiselev	2	1865	1865	PER	Он	10293	10295	он	1	105	114	0	0	0	0	256	1865	он	nsubj	1866	PRON	PRON	Not_Assigned	Not_Assigned	3
+secondGuestTchekhanova	1	1875	1875	PER	Наташе	10357	10363	наташе	1	105	114	10	0	0	0	257	1875	наташе	obj	1874	PROPN	PROP	Singular	Not_Assigned	3
+secondGuestTchekhanova	1	1877	1877	PER	Наташа	10366	10372	наташа	1	106	115	0	0	0	0	258	1877	наташа	nsubj	1879	PROPN	PROP	Singular	Not_Assigned	3
+M4	10	1909	1909	PER	членом	10534	10540	членом	1	108	117	5	0	0	0	259	1909	членом	nmod	1907	NOUN	NOM	Not_Assigned	Not_Assigned	3
+M4	10	1912	1912	PER	он	10547	10549	он	1	108	117	8	0	0	0	260	1912	он	nsubj	1913	PRON	PRON	Not_Assigned	Not_Assigned	3
+secondGuestTchekhanova	1	1920	1920	PER	она	10589	10592	она	1	108	118	2	0	0	0	261	1920	она	nsubj	1919	PRON	PRON	Not_Assigned	Not_Assigned	3
+M4	10	1929	1929	PER	его	10633	10636	его	1	110	120	3	0	0	0	262	1929	его	obj	1928	PRON	PRON	Not_Assigned	Not_Assigned	3
+M4	10	1932	1932	PER	мужик	10640	10645	мужик	1	110	120	6	0	0	0	263	1932	мужик	nsubj	1928	NOUN	NOM	Not_Assigned	Not_Assigned	3
+secondGuestTchekhanova	1	1967	1967	PER	Наташа	10811	10817	наташа	1	112	122	0	0	0	0	264	1967	наташа	nsubj	1968	PROPN	PROP	Singular	Not_Assigned	3
+firstGuestKiselev	2	1993	1993	PER	Киселев	10981	10988	киселев	1	113	123	0	0	0	0	265	1993	киселев	nsubj	1997	PROPN	PROP	Singular	Not_Assigned	3
+firstGuestKiselev	2	2002	2002	PER	Он	11035	11037	он	1	114	124	0	0	0	0	266	2002	он	nsubj	2003	PRON	PRON	Not_Assigned	Not_Assigned	3

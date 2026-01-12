@@ -1,0 +1,67 @@
+COREF_name	COREF	start_token	end_token	cat	sacr_text	byte_onset	byte_offset	text	mention_len	paragraph_ID	sentence_ID	start_token_ID_within_sentence	out_to_in_nested_level	in_to_out_nested_level	nested_entities_count	temp_index	head_id	head_word	head_dependency_relation	head_syntactic_head_ID	POS_tag	prop	number	gender	grammatical_person
+PER_T1	36	0	0	PER	Маша	0	4	маша	1	0	0	0	0	0	0	0	0	маша	nsubj	1	PROPN	PROP	Singular	Not_Assigned	3
+PER_T2	47	5	6	PER	Василий Степанович	19	37	василий степанович	2	0	0	5	0	0	0	1	5	василий	nsubj	20	PROPN	PROP	Singular	Not_Assigned	3
+PER_T3	56	14	14	PER	его	69	72	его	1	0	0	14	0	0	0	2	14	его	obj	11	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T4	33	22	22	PER	Посланный	98	107	посланный	1	1	1	0	0	0	0	3	22	посланный	nsubj	38	ADJ	NOM	Not_Assigned	Not_Assigned	3
+PER_T5	11	24	26	PER	нечто вроде приказчика	109	131	нечто вроде приказчика	3	1	1	2	0	0	0	4	26	приказчика	nmod	24	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T6	21	47	47	PER	казначея	243	251	казначея	1	1	1	25	0	0	0	5	47	казначея	nmod	44	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T7	30	65	66	PER	Василий Степанович	338	356	василий степанович	2	1	1	43	0	0	0	6	65	василий	nsubj	73	PROPN	PROP	Singular	Not_Assigned	3
+PER_T8	31	69	69	PER	ему	368	371	ему	1	1	1	47	0	0	0	7	69	ему	iobj	68	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T68	29	95	95	PER	посланный	464	473	посланный	1	2	3	4	0	0	0	8	95	посланный	ROOT	95	VERB	NOM	Not_Assigned	Not_Assigned	3
+PER_T9	65	127	127	PER	Посол	594	599	посол	1	6	7	0	0	0	0	9	127	посол	nsubj	130	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T10	37	138	138	PER	казначей	649	657	казначей	1	6	7	11	0	0	0	10	138	казначей	nsubj	139	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T11	38	151	152	PER	господин Тупицын	721	737	господин тупицын	2	7	8	6	0	1	1	11	151	господин	nsubj	148	NOUN	PROP	Singular	Not_Assigned	3
+PER_T12	39	152	152	PER	Тупицын	730	737	тупицын	1	7	8	7	1	0	0	12	152	тупицын	appos	151	PROPN	PROP	Singular	Not_Assigned	3
+PER_T13	40	157	157	PER	Чиновники	770	779	чиновники	1	8	9	0	0	0	0	13	157	чиновники	nsubj	161	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T14	41	167	167	PER	начальника	830	840	начальника	1	8	9	10	0	0	0	14	167	начальника	nmod	166	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T15	42	172	172	PER	Пожилые	854	861	пожилые	1	9	10	0	0	0	0	15	172	пожилые	nsubj	173	ADJ	NOM	Not_Assigned	Not_Assigned	3
+PER_T16	43	200	200	PER	Подгонялов	1021	1031	подгонялов	1	10	11	4	0	0	0	16	200	подгонялов	nsubj	201	PROPN	PROP	Singular	Not_Assigned	3
+PER_T17	44	203	203	PER	Маше	1043	1047	маше	1	10	11	7	0	0	0	17	203	маше	obl	201	PROPN	PROP	Singular	Not_Assigned	3
+PER_T18	45	211	211	PER	никто	1077	1082	никто	1	10	11	15	0	0	0	18	211	никто	nsubj	214	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T19	46	222	223	PER	Чиновники помоложе	1133	1151	чиновники помоложе	2	11	13	0	0	0	0	19	222	чиновники	nsubj	224	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T20	48	233	233	PER	юноша	1207	1212	юноша	1	12	14	1	0	0	0	20	233	юноша	nsubj	234	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T21	49	249	251	PER	двое его товарищей	1287	1305	двое его товарищей	3	12	14	17	0	1	1	21	251	товарищей	nsubj	252	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T22	50	250	250	PER	его	1292	1295	его	1	12	14	18	1	0	0	22	250	его	nmod	251	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T23	51	253	253	PER	его	1317	1320	его	1	12	14	21	0	0	0	23	253	его	obj	252	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T24	52	263	265	PER	Два канцелярские служителя	1377	1403	два канцелярские служителя	3	13	15	0	0	0	0	24	265	служителя	nsubj	266	NOUN	NOM	Not_Assigned	Not_Assigned	3
+FAC_T25	0	277	277	FAC	присутствие	1470	1481	присутствие	1	13	15	14	0	0	0	25	277	присутствие	parataxis	275	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T27	53	296	300	PER	казначеем, как с опальным	1581	1606	казначеем , как с опальным	5	14	16	1	0	0	0	26	300	опальным	acl	296	ADJ	NOM	Not_Assigned	Not_Assigned	3
+PER_T28	54	308	308	PER	его	1639	1642	его	1	14	16	13	0	0	0	27	308	его	obj	310	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T29	55	312	312	PER	Он	1661	1663	он	1	15	17	0	0	0	0	28	312	он	nsubj	313	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T30	57	332	332	PER	его	1762	1765	его	1	15	17	20	0	0	0	29	332	его	obj	336	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T31	58	339	339	PER	его	1788	1791	его	1	16	18	1	0	0	0	30	339	его	det	338	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T32	59	351	352	PER	Плевавшие канцеляристы	1868	1890	плевавшие канцеляристы	2	18	20	0	0	0	0	31	352	канцеляристы	nsubj	353	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T33	60	365	366	PER	Отчаянный курильщик	1959	1978	отчаянный курильщик	2	19	21	0	0	0	0	32	366	курильщик	nsubj	369	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T34	61	377	377	PER	все	2048	2051	все	1	19	21	12	0	0	0	33	377	все	nsubj	378	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T35	62	396	396	PER	Тупицын	2139	2146	тупицын	1	20	22	11	0	0	0	34	396	тупицын	appos	395	PROPN	PROP	Singular	Not_Assigned	3
+PER_T36	63	400	401	PER	Василию Степановичу	2160	2179	василию степановичу	2	20	22	15	0	0	0	35	400	василию	obl	398	PROPN	PROP	Singular	Not_Assigned	3
+PER_T37	64	417	418	PER	ваше превосходительство	2238	2261	ваше превосходительство	2	21	23	5	0	0	0	36	418	превосходительство	nsubj	422	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T38	35	425	425	PER	старик	2292	2298	старик	1	21	23	13	0	0	0	37	425	старик	nsubj	422	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T39	34	452	453	PER	ваше превосходительство	2379	2402	ваше превосходительство	2	25	27	6	0	0	0	38	453	превосходительство	conj	430	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T40	32	486	487	PER	ваше превосходительство	2507	2530	ваше превосходительство	2	28	30	11	0	0	0	39	487	превосходительство	conj	430	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T41	2	491	491	PER	Вы	2538	2540	вы	1	29	31	2	0	0	0	40	491	вы	nsubj	494	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T42	3	497	497	PER	Он	2562	2564	он	1	30	32	0	0	0	0	41	497	он	nsubj	500	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T43	4	509	509	PER	окружающим	2608	2618	окружающим	1	30	32	12	0	0	0	42	509	окружающим	nmod	507	VERB	NOM	Not_Assigned	Not_Assigned	3
+PER_T45	6	510	511	PER	господин Тупицын	2619	2635	господин тупицын	2	30	32	13	0	1	1	43	510	господин	nsubj	505	NOUN	PROP	Singular	Not_Assigned	3
+PER_T44	5	511	511	PER	Тупицын	2628	2635	тупицын	1	30	32	14	1	0	0	44	511	тупицын	appos	510	PROPN	PROP	Singular	Not_Assigned	3
+PER_T46	7	525	525	PER	казначей	2693	2701	казначей	1	31	34	8	0	0	0	45	525	казначей	nsubj	524	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T47	8	529	529	PER	Вы	2708	2710	вы	1	32	35	2	0	0	0	46	529	вы	nsubj	530	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T48	9	551	551	PER	вам	2784	2787	вам	1	38	41	1	0	0	0	47	551	вам	iobj	530	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T49	10	566	566	PER	Чиновники	2855	2864	чиновники	1	40	43	0	0	0	0	48	566	чиновники	nsubj	567	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T50	12	575	575	PER	старик	2912	2918	старик	1	41	44	4	0	0	0	49	575	старик	nsubj	577	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T51	13	591	591	PER	канцеляристы	2999	3011	канцеляристы	1	41	44	20	0	0	0	50	591	канцеляристы	nsubj	590	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T52	14	600	600	PER	казначей	3059	3067	казначей	1	42	45	3	0	0	0	51	600	казначей	nsubj	601	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T53	15	615	615	PER	Шатров	3147	3153	шатров	1	43	46	3	0	0	0	52	615	шатров	nsubj	616	PROPN	PROP	Singular	Not_Assigned	3
+GPE_T54	17	618	618	GPE	Петербурга	3165	3175	петербурга	1	43	46	6	0	0	0	53	618	петербурга	obl	616	PROPN	PROP	Not_Assigned	Not_Assigned	3
+PER_T55	1	620	620	PER	брата	3179	3184	брата	1	43	46	8	0	0	0	54	620	брата	obl	616	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T56	16	623	623	PER	Их	3194	3196	их	1	44	47	0	0	0	0	55	623	их	nsubj	627	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T57	18	635	636	PER	несчастного казначея	3258	3278	несчастного казначея	2	44	47	12	0	0	0	56	636	казначея	nmod	634	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T58	19	640	640	PER	они	3287	3290	они	1	44	47	17	0	0	0	57	640	они	nsubj	642	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T59	20	646	646	PER	они	3318	3321	они	1	45	48	1	0	0	0	58	646	они	nsubj:pass	648	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T60	22	651	651	PER	Шатрова	3350	3357	шатрова	1	45	48	6	0	0	0	59	651	шатрова	nmod	650	PROPN	PROP	Singular	Not_Assigned	3
+PER_T61	23	653	653	PER	Маши	3360	3364	маши	1	45	48	8	0	0	0	60	653	маши	conj	651	PROPN	PROP	Singular	Not_Assigned	3
+PER_T62	24	657	658	PER	господина Тупицына	3379	3397	господина тупицына	2	46	49	2	0	1	1	61	657	господина	obl	660	NOUN	PROP	Singular	Not_Assigned	3
+PER_T63	25	658	658	PER	Тупицына	3389	3397	тупицына	1	46	49	3	1	0	0	62	658	тупицына	appos	657	PROPN	PROP	Singular	Not_Assigned	3
+PER_T64	26	665	665	PER	он	3441	3443	он	1	46	49	10	0	0	0	63	665	он	nsubj	667	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T65	27	670	670	PER	Ревизор	3467	3474	ревизор	1	47	50	0	0	0	0	64	670	ревизор	nsubj	672	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T66	28	681	682	PER	высшего начальства	3522	3540	высшего начальства	2	47	50	11	0	0	0	65	682	начальства	nmod	680	NOUN	NOM	Not_Assigned	Not_Assigned	3

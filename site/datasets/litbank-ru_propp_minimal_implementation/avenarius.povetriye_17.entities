@@ -1,0 +1,277 @@
+COREF_name	COREF	start_token	end_token	cat	sacr_text	byte_onset	byte_offset	text	mention_len	paragraph_ID	sentence_ID	start_token_ID_within_sentence	out_to_in_nested_level	in_to_out_nested_level	nested_entities_count	temp_index	head_id	head_word	head_dependency_relation	head_syntactic_head_ID	POS_tag	prop	number	gender	grammatical_person
+M1	14	1	2	PER	юная львица	3	14	юная львица	2	0	0	1	0	0	0	0	2	львица	nsubj	7	NOUN	NOM	Not_Assigned	Not_Assigned	3
+M2	40	8	8	PER	его	38	41	его	1	0	0	8	0	0	0	1	8	его	obj	7	PRON	PRON	Not_Assigned	Not_Assigned	3
+M1	14	14	14	PER	она	85	88	она	1	0	0	14	0	0	0	2	14	она	nsubj	13	PRON	PRON	Not_Assigned	Not_Assigned	3
+M3	39	21	21	PER	их	128	130	их	1	0	0	21	0	0	0	3	21	их	obj	20	PRON	PRON	Not_Assigned	Not_Assigned	3
+VEH_T2	15	23	24	VEH	заводском вороном	134	151	заводском вороном	2	0	0	23	0	0	0	4	24	вороном	amod	26	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T1	33	25	26	PER	удалой конногвардеец	152	172	удалой конногвардеец	2	0	0	25	0	0	0	5	26	конногвардеец	obl	20	PROPN	PROP	Singular	Not_Assigned	3
+M4	38	40	41	PER	А. Грибоедов	238	250	а. грибоедов	2	2	2	0	0	0	0	6	40	а.	nsubj	46	PROPN	PROP	Singular	Not_Assigned	3
+Nadya	1	49	49	PER	Наденькой	293	302	наденькой	1	2	2	9	0	0	0	7	49	наденькой	obl	46	ADJ	NOM	Not_Assigned	Not_Assigned	3
+Nadya	1	61	61	PER	студентка	381	390	студентка	1	3	3	10	0	0	0	8	61	студентка	nsubj:pass	63	NOUN	NOM	Not_Assigned	Not_Assigned	3
+bureauoffather	12	65	66	FAC	кабинет отца	406	418	кабинет отца	2	3	3	14	0	1	1	9	65	кабинет	obl	63	NOUN	NOM	Not_Assigned	Not_Assigned	3
+fatherofNadya	2	66	66	PER	отца	414	418	отца	1	3	3	15	1	0	0	10	66	отца	nmod	65	NOUN	NOM	Not_Assigned	Not_Assigned	3
+parentsofNadya	4	69	70	PER	обоих родителей	433	448	обоих родителей	2	3	3	18	0	0	0	11	70	родителей	nmod	68	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Nadya	1	76	84	PER	молоденькой, еще так недавно молодцевато - энергической девушке	474	537	молоденькой , еще так недавно молодцевато - энергической девушке	9	4	4	4	0	0	0	12	81	молодцевато	amod	85	ADJ	NOM	Not_Assigned	Not_Assigned	3
+Nadya	1	99	99	PER	ее	623	625	ее	1	4	4	27	0	0	0	13	99	ее	obj	74	PRON	PRON	Not_Assigned	Not_Assigned	3
+Nadya	1	107	107	PER	нее	649	652	нее	1	5	5	6	0	0	0	14	107	нее	nmod	105	PRON	PRON	Not_Assigned	Not_Assigned	3
+motherofNadya	5	110	110	PER	мать	674	678	мать	1	5	5	9	0	0	0	15	110	мать	nsubj	105	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Nadya	1	114	115	PER	vous meme	688	697	vous meme	2	5	5	13	0	0	0	16	114	vous	flat:foreign	113	X	NOM	Ambiguous	Not_Assigned	3
+Nadya	1	120	134	PER	наша Наденька, свеженькая, осанистая, которою мы имели полное право гордиться перед светом	715	805	наша наденька , свеженькая , осанистая , которою мы имели полное право гордиться перед светом	15	6	6	3	0	1	3	17	121	наденька	nsubj	117	PROPN	PROP	Singular	Not_Assigned	3
+parentsofNadya	4	120	120	PER	наша	715	719	наша	1	6	6	3	1	0	0	18	120	наша	det	121	DET	PRON	Not_Assigned	Not_Assigned	3
+parentsofNadya	4	128	128	PER	мы	761	763	мы	1	6	6	11	1	0	0	19	128	мы	nsubj	129	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T15	9	134	134	PER	светом	799	805	светом	1	6	6	17	1	0	0	20	134	светом	obl	132	NOUN	NOM	Not_Assigned	Not_Assigned	3
+fatherofNadya	2	137	137	PER	Вы	811	813	вы	1	7	7	1	0	0	0	21	137	вы	nsubj	138	PRON	PRON	Not_Assigned	Not_Assigned	3
+Nadya	1	140	140	PER	мной	826	830	мной	1	7	7	4	0	0	0	22	140	мной	obl	138	PRON	PRON	Not_Assigned	Not_Assigned	3
+fatherofNadya	2	142	142	PER	папа	832	836	папа	1	7	7	6	0	0	0	23	142	папа	nsubj	145	NOUN	NOM	Not_Assigned	Not_Assigned	3
+fatherofNadya	2	147	147	PER	отцу	852	856	отцу	1	7	7	11	0	0	0	24	147	отцу	obl	145	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Nadya	1	152	152	PER	девушка	890	897	девушка	1	7	7	16	0	0	0	25	152	девушка	nsubj	145	NOUN	NOM	Not_Assigned	Not_Assigned	3
+fatherofNadya	2	156	156	PER	вам	907	910	вам	1	8	8	2	0	0	0	26	156	вам	iobj	158	PRON	PRON	Not_Assigned	Not_Assigned	3
+Nadya	1	158	158	PER	меня	914	918	меня	1	8	8	4	0	0	0	27	158	меня	ROOT	158	PRON	PRON	Not_Assigned	Not_Assigned	3
+motherofNadya	5	161	162	PER	Mon amie	924	932	mon amie	2	9	9	1	0	1	1	28	161	mon	flat:foreign	160	X	NOM	Singular	Not_Assigned	3
+fatherofNadya	2	161	161	PER	Mon	924	927	mon	1	9	9	1	1	0	0	29	161	mon	flat:foreign	160	X	PRON	Singular	Ambiguous	1
+fatherofNadya	2	166	166	PER	он	946	948	он	1	9	9	6	0	0	0	30	166	он	nsubj	165	PRON	PRON	Not_Assigned	Not_Assigned	3
+motherofNadya	5	168	168	PER	супруге	951	958	супруге	1	9	9	8	0	0	0	31	168	супруге	obl	165	NOUN	NOM	Not_Assigned	Not_Assigned	3
+motherofNadya	5	172	172	PER	ты	970	972	ты	1	9	9	12	0	0	0	32	172	ты	nsubj	171	PRON	PRON	Not_Assigned	Not_Assigned	3
+motherofNadya	5	174	174	PER	ты	975	977	ты	1	9	9	14	0	0	0	33	174	ты	nsubj	175	PRON	PRON	Not_Assigned	Not_Assigned	3
+motherofNadya	5	175	175	PER	мать	978	982	мать	1	9	9	15	0	0	0	34	175	мать	parataxis	171	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Nadya	1	183	183	PER	Наденьки	1035	1043	наденьки	1	10	10	6	0	0	0	35	183	наденьки	nmod	182	PROPN	PROP	Singular	Not_Assigned	3
+Nadya	1	209	209	PER	ее	1190	1192	ее	1	12	12	7	0	0	0	36	209	ее	det	211	DET	PRON	Not_Assigned	Not_Assigned	3
+Nadya	1	217	217	PER	нее	1223	1226	нее	1	12	12	15	0	0	0	37	217	нее	obl	218	PRON	PRON	Not_Assigned	Not_Assigned	3
+Nadya	1	225	225	PER	Наденька	1273	1281	наденька	1	13	13	1	0	0	0	38	225	наденька	ROOT	225	PART	NOM	Not_Assigned	Not_Assigned	3
+parentsofNadya	4	234	234	PER	родители	1318	1326	родители	1	13	14	7	0	0	0	39	234	родители	nsubj	230	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Nadya	1	246	246	PER	Я	1372	1373	я	1	16	17	0	0	0	0	40	246	я	nsubj	247	PRON	PRON	Not_Assigned	Not_Assigned	3
+fatherofNadya	2	260	260	PER	отец	1447	1451	отец	1	17	19	3	0	0	0	41	260	отец	nsubj	259	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Chekmarev	0	275	277	PER	оборвышем - студентишкой	1499	1523	оборвышем - студентишкой	3	19	21	6	0	0	0	42	275	оборвышем	advcl	290	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Chekmarev	0	283	283	PER	Чекмаревым	1535	1545	чекмаревым	1	20	22	4	0	0	0	43	283	чекмаревым	conj	277	PROPN	PROP	Singular	Not_Assigned	3
+PER_T37	8	293	293	PER	им	1572	1574	им	1	22	24	1	0	0	0	44	293	им	iobj	292	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T37	8	298	298	PER	они	1592	1595	они	1	22	24	6	0	0	0	45	298	они	nsubj	299	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T39	18	300	300	PER	тебе	1604	1608	тебе	1	22	24	8	0	0	0	46	300	тебе	iobj	299	PRON	PRON	Not_Assigned	Not_Assigned	3
+Nadya	1	306	306	PER	ты	1628	1630	ты	1	23	25	2	0	0	0	47	306	ты	nsubj	310	PRON	PRON	Not_Assigned	Not_Assigned	3
+fatherofNadya	2	320	320	PER	папа	1704	1708	папа	1	24	26	5	0	0	0	48	320	папа	conj	310	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T42	24	325	325	PER	родителей	1732	1741	родителей	1	24	26	10	0	0	0	49	325	родителей	nmod	324	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T43	16	352	352	PER	вашему	1887	1893	вашему	1	27	29	9	0	0	0	50	352	вашему	iobj	351	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T256	21	357	357	PER	человека	1924	1932	человека	1	28	30	1	0	0	0	51	357	человека	nmod	356	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T255	7	366	368	PER	лица разных полов	1976	1993	лица разных полов	3	28	30	10	0	0	0	52	368	полов	nmod	366	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T255	7	371	373	PER	друг к другу	2012	2024	друг к другу	3	28	30	15	0	0	0	53	371	друг	obl	370	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T255	7	377	377	PER	их	2043	2045	их	1	28	30	21	0	0	0	54	377	их	obj	376	PRON	PRON	Not_Assigned	Not_Assigned	3
+Nadya	1	400	400	PER	Студентка	2180	2189	студентка	1	30	32	0	0	0	0	55	400	студентка	nsubj	401	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Nadya	1	403	403	PER	своему	2208	2214	своему	1	30	32	3	0	0	0	56	403	своему	det	404	DET	PRON	Not_Assigned	Not_Assigned	3
+Nadya	1	417	417	PER	она	2284	2287	она	1	30	32	17	0	0	0	57	417	она	nsubj	418	PRON	PRON	Not_Assigned	Not_Assigned	3
+Nadya	1	424	427	PER	Обманутое, бестолковое дитя	2326	2353	обманутое , бестолковое дитя	4	31	33	1	0	0	0	58	427	дитя	ROOT	427	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Nadya	1	432	432	PER	ты	2372	2374	ты	1	32	34	3	0	0	0	59	432	ты	nsubj	430	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T15	9	437	437	PER	свет	2401	2405	свет	1	33	35	2	0	0	0	60	437	свет	obj	436	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Nadya	1	439	439	PER	Ты	2409	2411	ты	1	34	36	0	0	0	0	61	439	ты	nsubj	436	PRON	PRON	Not_Assigned	Not_Assigned	3
+Nadya	1	441	444	PER	дочь Николая Николаевича Липецкого	2413	2447	дочь николая николаевича липецкого	4	34	36	2	0	1	1	62	442	николая	nmod	441	PROPN	PROP	Singular	Not_Assigned	3
+fatherofNadya	2	442	444	PER	Николая Николаевича Липецкого	2418	2447	николая николаевича липецкого	3	34	36	3	1	0	0	63	442	николая	nmod	441	PROPN	PROP	Singular	Not_Assigned	3
+fatherofNadya	2	446	446	PER	он	2450	2452	он	1	34	36	7	0	0	0	64	446	он	nsubj	447	PRON	PRON	Not_Assigned	Not_Assigned	3
+Chekmarev	0	461	461	PER	он	2521	2523	он	1	35	37	1	0	0	0	65	461	он	nsubj	464	PRON	PRON	Not_Assigned	Not_Assigned	3
+Nadya	1	467	467	PER	тебя	2551	2555	тебя	1	36	38	1	0	0	0	66	467	тебя	obj	468	PRON	PRON	Not_Assigned	Not_Assigned	3
+Chekmarev	0	480	480	PER	Он	2611	2613	он	1	38	40	0	0	0	0	67	480	он	nsubj	501	PRON	PRON	Not_Assigned	Not_Assigned	3
+fatherofNadya	2	482	482	PER	папа	2615	2619	папа	1	38	40	2	0	0	0	68	482	папа	appos	480	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T259	20	485	495	PER	людей новых, для которых честь - первое условие земного счастья	2624	2687	людей новых , для которых честь - первое условие земного счастья	11	38	40	5	0	0	0	69	493	условие	acl:relcl	485	NOUN	NOM	Not_Assigned	Not_Assigned	3
+fatherofNadya	2	504	504	PER	я	2710	2711	я	1	40	42	1	0	0	0	70	504	я	nsubj	509	PRON	PRON	Not_Assigned	Not_Assigned	3
+Nadya	1	512	512	PER	ты	2744	2746	ты	1	41	43	1	0	0	0	71	512	ты	nsubj	513	PRON	PRON	Not_Assigned	Not_Assigned	3
+Chekmarev	0	515	515	PER	он	2756	2758	он	1	41	43	4	0	0	0	72	515	он	nsubj	516	PRON	PRON	Not_Assigned	Not_Assigned	3
+Nadya	1	519	519	PER	тебе	2782	2786	тебе	1	41	43	8	0	0	0	73	519	тебе	obl	517	PRON	PRON	Not_Assigned	Not_Assigned	3
+Nadya	1	527	527	PER	Я	2823	2824	я	1	43	45	0	0	0	0	74	527	я	nsubj	529	PRON	PRON	Not_Assigned	Not_Assigned	3
+Chekmarev	0	530	530	PER	ему	2838	2841	ему	1	43	45	3	0	0	0	75	530	ему	iobj	529	PRON	PRON	Not_Assigned	Not_Assigned	3
+Chekmarev	0	535	535	PER	он	2854	2856	он	1	43	45	8	0	0	0	76	535	он	nsubj	536	PRON	PRON	Not_Assigned	Not_Assigned	3
+Chekmarev	0	548	548	PER	Он	2904	2906	он	1	45	47	0	0	0	0	77	548	он	nsubj	553	PRON	PRON	Not_Assigned	Not_Assigned	3
+Nadya	1	563	563	PER	тебя	2983	2987	тебя	1	45	47	15	0	0	0	78	563	тебя	obl	561	PRON	PRON	Not_Assigned	Not_Assigned	3
+Chekmarev	0	566	566	PER	вы	2993	2995	вы	1	46	48	1	0	0	0	79	566	вы	nsubj	568	PRON	PRON	Not_Assigned	Not_Assigned	3
+Chekmarev	0	570	571	PER	государь мой	3015	3027	государь мой	2	46	48	5	0	1	1	80	570	государь	nsubj	576	NOUN	NOM	Not_Assigned	Not_Assigned	3
+fatherofNadya	2	571	571	PER	мой	3024	3027	мой	1	46	48	6	1	0	0	81	571	мой	det	570	DET	PRON	Not_Assigned	Not_Assigned	3
+Nadya	1	579	579	PER	Ты	3052	3054	ты	1	47	49	0	0	0	0	82	579	ты	nsubj	583	PRON	PRON	Not_Assigned	Not_Assigned	3
+FAC_T260	25	584	584	FAC	жительство	3075	3085	жительство	1	47	49	5	0	0	0	83	584	жительство	obj	583	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Chekmarev	0	585	586	PER	этого негодяя	3086	3099	этого негодяя	2	47	49	6	0	0	0	84	586	негодяя	nmod	584	NOUN	NOM	Not_Assigned	Not_Assigned	3
+fatherofNadya	2	590	590	PER	вас	3111	3114	вас	1	48	50	2	0	0	0	85	590	вас	obj	589	PRON	PRON	Not_Assigned	Not_Assigned	3
+fatherofNadya	2	592	592	PER	папа	3116	3120	папа	1	48	50	4	0	0	0	86	592	папа	parataxis	568	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Chekmarev	0	597	597	PER	нем	3138	3141	нем	1	48	50	9	0	0	0	87	597	нем	obl	595	PRON	PRON	Not_Assigned	Not_Assigned	3
+Chekmarev	0	612	612	PER	он	3208	3210	он	1	50	52	7	0	0	0	88	612	он	nsubj	611	PRON	PRON	Not_Assigned	Not_Assigned	3
+Nadya	1	614	614	PER	Наденька	3214	3222	наденька	1	51	53	0	0	0	0	89	614	наденька	nsubj	615	PROPN	PROP	Singular	Not_Assigned	3
+Chekmarev	0	617	617	PER	Чекмарева	3237	3246	чекмарева	1	51	53	3	0	0	0	90	617	чекмарева	nmod	616	PROPN	PROP	Singular	Not_Assigned	3
+Nadya	1	624	624	PER	себе	3280	3284	себе	1	52	54	5	0	0	0	91	624	себе	obl	622	PRON	PRON	Not_Assigned	Not_Assigned	3
+Nadya	1	638	638	PER	дочь	3348	3352	дочь	1	54	56	3	0	0	0	92	638	дочь	nsubj	639	NOUN	NOM	Not_Assigned	Not_Assigned	3
+fatherofNadya	2	641	644	PER	Г-н Липецкий	3365	3377	г - н липецкий	4	55	57	0	0	0	0	93	641	г	nsubj	645	NOUN	PROP	Singular	Not_Assigned	3
+Chekmarev	0	664	665	PER	Милостивый Государь	3495	3514	милостивый государь	2	55	57	23	0	0	0	94	665	государь	parataxis	661	PROPN	PROP	Singular	Not_Assigned	3
+Chekmarev	0	671	671	PER	Вас	3550	3553	вас	1	56	58	4	0	0	0	95	671	вас	obj	670	PRON	PRON	Not_Assigned	Not_Assigned	3
+Chekmarev	0	678	678	PER	Вашим	3587	3592	вашим	1	56	58	11	0	0	0	96	678	вашим	det	679	DET	PRON	Not_Assigned	Not_Assigned	3
+fatherofNadya	2	701	702	PER	Н. Липецкий	3738	3749	н. липецкий	2	58	60	0	0	0	0	97	701	н.	ROOT	701	VERB	NOM	Not_Assigned	Not_Assigned	3
+Chekmarev	0	705	705	PER	Чекмарев	3754	3762	чекмарев	1	59	61	0	0	0	0	98	705	чекмарев	nsubj	707	PROPN	PROP	Singular	Not_Assigned	3
+Chekmarev	0	709	709	PER	себя	3776	3780	себя	1	59	61	4	0	0	0	99	709	себя	obj	708	PRON	PRON	Not_Assigned	Not_Assigned	3
+Chekmarev	0	722	722	PER	его	3855	3858	его	1	60	62	3	0	0	0	100	722	его	obj	721	PRON	PRON	Not_Assigned	Not_Assigned	3
+FAC_T85	26	725	725	FAC	приемной	3871	3879	приемной	1	60	62	6	0	0	0	101	725	приемной	obl	723	NOUN	NOM	Not_Assigned	Not_Assigned	3
+bureauoffather	12	730	731	FAC	хозяйский кабинет	3895	3912	хозяйский кабинет	2	60	62	11	0	0	0	102	731	кабинет	obl	728	NOUN	NOM	Not_Assigned	Not_Assigned	3
+parentsofNadya	4	733	735	PER	Родители юной грешницы	3915	3937	родители юной грешницы	3	61	63	0	0	1	1	103	735	грешницы	nmod	733	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Nadya	1	734	735	PER	юной грешницы	3924	3937	юной грешницы	2	61	63	1	1	0	0	104	735	грешницы	nmod	733	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Nadya	1	740	741	PER	Сама она	3960	3968	сама она	2	62	64	0	0	0	0	105	741	она	nsubj	744	PRON	PRON	Not_Assigned	Not_Assigned	3
+fatherofNadya	2	754	757	PER	Г-н Липецкий	4023	4035	г - н липецкий	4	63	65	0	0	0	0	106	754	г	nsubj	761	NOUN	PROP	Singular	Not_Assigned	3
+Chekmarev	0	762	762	PER	студенту	4055	4063	студенту	1	63	65	8	0	0	0	107	762	студенту	iobj	761	NOUN	NOM	Not_Assigned	Not_Assigned	3
+fatherofNadya	2	763	763	PER	своей	4064	4069	своей	1	63	65	9	0	0	0	108	763	своей	det	765	DET	PRON	Not_Assigned	Not_Assigned	3
+Chekmarev	0	795	795	PER	ему	4236	4239	ему	1	63	65	41	0	0	0	109	795	ему	iobj	794	PRON	PRON	Not_Assigned	Not_Assigned	3
+Nadya	1	800	800	PER	Дочь	4262	4266	дочь	1	64	66	0	0	0	0	110	800	дочь	nsubj	806	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Nadya	1	803	803	PER	своей	4271	4276	своей	1	64	66	3	0	0	0	111	803	своей	det	804	DET	PRON	Not_Assigned	Not_Assigned	3
+Chekmarev	0	808	808	PER	товарищу	4302	4310	товарищу	1	64	66	8	0	0	0	112	808	товарищу	iobj	807	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Nadya	1	820	820	PER	ей	4369	4371	ей	1	65	68	3	0	0	0	113	820	ей	iobj	819	PRON	PRON	Not_Assigned	Not_Assigned	3
+fatherofNadya	2	821	821	PER	родитель	4372	4380	родитель	1	65	68	4	0	0	0	114	821	родитель	nsubj	819	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Nadya	1	824	824	PER	Твое	4385	4389	твое	1	66	69	1	0	0	0	115	824	твое	amod	825	ADJ	NOM	Not_Assigned	Not_Assigned	3
+Nadya	1	832	832	PER	девушка	4421	4428	девушка	1	67	70	3	0	0	0	116	832	девушка	nsubj	833	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Nadya	1	835	835	PER	свой	4441	4445	свой	1	67	70	6	0	0	0	117	835	свой	det	836	DET	PRON	Not_Assigned	Not_Assigned	3
+Chekmarev	0	842	842	PER	вам	4468	4471	вам	1	68	71	4	0	0	0	118	842	вам	iobj	843	PRON	PRON	Not_Assigned	Not_Assigned	3
+fatherofNadya	2	848	848	PER	он	4497	4499	он	1	68	72	3	0	0	0	119	848	он	nsubj	847	PRON	PRON	Not_Assigned	Not_Assigned	3
+Chekmarev	0	849	849	PER	гостю	4500	4505	гостю	1	68	72	4	0	0	0	120	849	гостю	iobj	847	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Chekmarev	0	860	860	PER	тот	4563	4566	тот	1	69	74	2	0	0	0	121	860	тот	nsubj	859	DET	PRON	Not_Assigned	Not_Assigned	3
+Nadya	1	865	865	PER	товарку	4591	4598	товарку	1	69	74	7	0	0	0	122	865	товарку	obl	863	NOUN	NOM	Not_Assigned	Not_Assigned	3
+fatherofNadya	2	872	872	PER	Вы	4632	4634	вы	1	70	75	1	0	0	0	123	872	вы	nsubj	878	PRON	PRON	Not_Assigned	Not_Assigned	3
+fatherofNadya	2	883	883	PER	вас	4671	4674	вас	1	71	76	3	0	0	0	124	883	вас	obl	888	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T110	32	884	886	PER	кто-нибудь	4675	4685	кто - нибудь	3	71	76	4	0	0	0	125	884	кто	nsubj	888	PRON	PRON	Not_Assigned	Not_Assigned	3
+Chekmarev	0	915	915	PER	вам	4809	4812	вам	1	75	80	2	0	0	0	126	915	вам	iobj	888	PRON	PRON	Not_Assigned	Not_Assigned	3
+Chekmarev	0	925	925	PER	я	4856	4857	я	1	77	82	1	0	0	0	127	925	я	nsubj	927	PRON	PRON	Not_Assigned	Not_Assigned	3
+M5	37	927	927	PER	барышня	4861	4868	барышня	1	77	82	3	0	0	0	128	927	барышня	ROOT	927	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Chekmarev	0	931	931	PER	своих	4880	4885	своих	1	77	82	7	0	0	0	129	931	своих	det	932	DET	PRON	Not_Assigned	Not_Assigned	3
+Chekmarev	0	955	956	PER	милостивый государь	4969	4988	милостивый государь	2	78	83	5	0	0	0	130	956	государь	conj	927	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Chekmarev	0	963	963	PER	вы	5013	5015	вы	1	79	84	2	0	0	0	131	963	вы	nsubj	964	PRON	PRON	Not_Assigned	Not_Assigned	3
+Chekmarev	0	971	971	PER	своих	5081	5086	своих	1	79	84	10	0	0	0	132	971	своих	det	972	DET	PRON	Not_Assigned	Not_Assigned	3
+Chekmarev	0	985	985	PER	Чекмарева	5165	5174	чекмарева	1	80	85	4	0	0	0	133	985	чекмарева	nmod	984	PROPN	PROP	Singular	Not_Assigned	3
+Chekmarev	0	995	995	PER	себя	5241	5245	себя	1	81	86	3	0	0	0	134	995	себя	obj	994	PRON	PRON	Not_Assigned	Not_Assigned	3
+Chekmarev	0	999	999	PER	он	5256	5258	он	1	81	86	7	0	0	0	135	999	он	nsubj	1002	PRON	PRON	Not_Assigned	Not_Assigned	3
+fatherofNadya	2	1021	1021	PER	ваши	5357	5361	ваши	1	85	90	2	0	0	0	136	1021	ваши	det	1020	DET	PRON	Not_Assigned	Not_Assigned	3
+Chekmarev	0	1028	1028	PER	я	5404	5405	я	1	85	90	9	0	0	0	137	1028	я	nsubj	1029	PRON	PRON	Not_Assigned	Not_Assigned	3
+fatherofNadya	2	1046	1046	PER	вам	5486	5489	вам	1	86	91	5	0	0	0	138	1046	вам	iobj	1047	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T123	10	1053	1053	PER	нас	5518	5521	нас	1	86	91	12	0	0	0	139	1053	нас	obl	1058	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T123	10	1055	1056	PER	детей Эскулапа	5523	5537	детей эскулапа	2	86	91	14	0	0	0	140	1055	детей	conj	1053	NOUN	PROP	Singular	Not_Assigned	3
+Chekmarev	0	1059	1059	PER	я	5546	5547	я	1	86	91	18	0	0	0	141	1059	я	nsubj	1058	PRON	PRON	Not_Assigned	Not_Assigned	3
+fatherofNadya	2	1060	1060	PER	вам	5548	5551	вам	1	86	91	19	0	0	0	142	1060	вам	iobj	1061	PRON	PRON	Not_Assigned	Not_Assigned	3
+Chekmarev	0	1068	1068	PER	студента	5592	5600	студента	1	87	92	1	0	0	0	143	1068	студента	nmod	1067	NOUN	NOM	Not_Assigned	Not_Assigned	3
+fatherofNadya	2	1071	1071	PER	хозяина	5617	5624	хозяина	1	87	92	4	0	0	0	144	1071	хозяина	obj	1070	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Chekmarev	0	1084	1084	PER	вам	5685	5688	вам	1	88	93	3	0	0	0	145	1084	вам	iobj	1086	PRON	PRON	Not_Assigned	Not_Assigned	3
+fatherofNadya	2	1091	1091	PER	он	5715	5717	он	1	88	93	10	0	0	0	146	1091	он	nsubj	1090	PRON	PRON	Not_Assigned	Not_Assigned	3
+Chekmarev	0	1102	1102	PER	ваше	5775	5779	ваше	1	88	93	21	0	0	0	147	1102	ваше	obj	1103	DET	PRON	Not_Assigned	Not_Assigned	3
+Chekmarev	0	1108	1108	PER	вам	5818	5821	вам	1	88	93	27	0	0	0	148	1108	вам	iobj	1107	PRON	PRON	Not_Assigned	Not_Assigned	3
+fatherofNadya	2	1117	1117	PER	он	5863	5865	он	1	89	94	5	0	0	0	149	1117	он	nsubj	1118	PRON	PRON	Not_Assigned	Not_Assigned	3
+Chekmarev	0	1119	1119	PER	медику	5873	5879	медику	1	89	94	7	0	0	0	150	1119	медику	iobj	1118	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Chekmarev	0	1124	1124	PER	Тот	5901	5904	тот	1	90	95	0	0	0	0	151	1124	тот	nsubj	1126	DET	PRON	Not_Assigned	Not_Assigned	3
+Chekmarev	0	1150	1150	PER	я	6022	6023	я	1	92	97	1	0	0	0	152	1150	я	nsubj	1153	PRON	PRON	Not_Assigned	Not_Assigned	3
+fatherofNadya	2	1152	1152	PER	вашим	6026	6031	вашим	1	92	97	3	0	0	0	153	1152	вашим	det	1153	DET	PRON	Not_Assigned	Not_Assigned	3
+ChekmarevFather	28	1157	1157	PER	мы	6049	6051	мы	1	93	98	2	0	0	0	154	1157	мы	nsubj	1156	PRON	PRON	Not_Assigned	Not_Assigned	3
+Nadya	1	1164	1167	PER	Дочь моя Надежда Николаевна	6077	6104	дочь моя надежда николаевна	4	94	99	1	0	1	1	155	1166	надежда	nsubj	1170	PROPN	PROP	Singular	Not_Assigned	3
+fatherofNadya	2	1165	1165	PER	моя	6082	6085	моя	1	94	99	2	1	0	0	156	1165	моя	det	1166	DET	PRON	Not_Assigned	Not_Assigned	3
+Chekmarev	0	1171	1171	PER	ваши	6121	6125	ваши	1	94	99	8	0	0	0	157	1171	ваши	det	1173	DET	PRON	Not_Assigned	Not_Assigned	3
+fatherofNadya	2	1183	1183	PER	себя	6191	6195	себя	1	94	99	20	0	0	0	158	1183	себя	obj	1182	PRON	PRON	Not_Assigned	Not_Assigned	3
+fatherofNadya	2	1185	1186	PER	г-н Липецкий	6197	6209	г-н липецкий	2	94	99	22	0	0	0	159	1185	г-н	parataxis	1176	NOUN	PROP	Singular	Not_Assigned	3
+Nadya	1	1198	1198	PER	нею	6249	6252	нею	1	97	102	3	0	0	0	160	1198	нею	obl	1207	PROPN	PROP	Singular	Not_Assigned	3
+Chekmarev	0	1200	1200	PER	вами	6255	6259	вами	1	97	102	5	0	0	0	161	1200	вами	conj	1198	PRON	PRON	Not_Assigned	Not_Assigned	3
+Chekmarev	0	1202	1205	PER	г-ном Чекмаревым	6261	6277	г - ном чекмаревым	4	97	102	7	0	0	0	162	1202	г	conj	1198	NOUN	PROP	Singular	Not_Assigned	3
+Chekmarev	0	1213	1213	PER	Эскулап	6340	6347	эскулап	1	98	103	0	0	0	0	163	1213	эскулап	nsubj	1215	PROPN	PROP	Singular	Not_Assigned	3
+Nadya	1	1217	1220	PER	сидевшей в отдалении товарке	6367	6395	сидевшей в отдалении товарке	4	98	103	4	0	0	0	164	1220	товарке	obl	1215	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Nadya	1	1227	1227	PER	нее	6434	6437	нее	1	98	103	14	0	0	0	165	1227	нее	obl	1225	PRON	PRON	Not_Assigned	Not_Assigned	3
+Chekmarev	0	1230	1230	PER	Ты	6442	6444	ты	1	99	104	1	0	0	0	166	1230	ты	nsubj	1231	PRON	PRON	Not_Assigned	Not_Assigned	3
+Nadya	1	1238	1238	PER	она	6486	6489	она	1	99	104	9	0	0	0	167	1238	она	nsubj	1237	PRON	PRON	Not_Assigned	Not_Assigned	3
+everybody	13	1245	1245	PER	всем	6508	6512	всем	1	99	104	16	0	0	0	168	1245	всем	iobj	1247	PRON	PRON	Not_Assigned	Not_Assigned	3
+parentsofNadya	4	1250	1251	PER	родителям моим	6528	6542	родителям моим	2	99	104	21	0	1	1	169	1250	родителям	iobj	1254	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Nadya	1	1251	1251	PER	моим	6538	6542	моим	1	99	104	22	1	0	0	170	1251	моим	nsubj	1254	DET	PRON	Not_Assigned	Not_Assigned	3
+Chekmarev	0	1256	1276	PER	Как затравленный гончими в тесное ущелье кабан, желающий предварительно удостовериться, какой тактики держаться ему с многочисленным неприятелем, Чекмарев	6562	6716	как затравленный гончими в тесное ущелье кабан , желающий предварительно удостовериться , какой тактики держаться ему с многочисленным неприятелем , чекмарев	21	100	105	0	0	0	0	171	1270	держаться	ccomp	1266	VERB	PROP	Singular	Not_Assigned	3
+everybody	13	1283	1284	PER	всех присутствующих	6756	6775	всех присутствующих	2	100	105	27	0	0	0	172	1284	присутствующих	obj	1280	VERB	NOM	Not_Assigned	Not_Assigned	3
+Nadya	1	1301	1301	PER	она	6846	6849	она	1	101	106	15	0	0	0	173	1301	она	nsubj	1302	PRON	PRON	Not_Assigned	Not_Assigned	3
+Nadya	1	1302	1306	PER	ваша нравственно - то больная	6850	6879	ваша нравственно - то больная	5	101	106	16	0	1	1	174	1302	ваша	parataxis	1290	DET	PRON	Not_Assigned	Not_Assigned	3
+parentsofNadya	4	1302	1302	PER	ваша	6850	6854	ваша	1	101	106	16	1	0	0	175	1302	ваша	parataxis	1290	DET	PRON	Not_Assigned	Not_Assigned	3
+Nadya	1	1317	1317	PER	нею	6918	6921	нею	1	102	107	9	0	0	0	176	1317	нею	obl	1322	PROPN	PROP	Singular	Not_Assigned	3
+Chekmarev	0	1319	1321	PER	вашим покорным слугою	6924	6945	вашим покорным слугою	3	102	107	11	0	1	1	177	1321	слугою	conj	1317	NOUN	NOM	Not_Assigned	Not_Assigned	3
+parentsofNadya	4	1319	1319	PER	вашим	6924	6929	вашим	1	102	107	11	1	0	0	178	1319	вашим	det	1321	DET	PRON	Not_Assigned	Not_Assigned	3
+Chekmarev	0	1330	1330	PER	я	6998	6999	я	1	102	107	22	0	0	0	179	1330	я	nsubj	1332	PRON	PRON	Not_Assigned	Not_Assigned	3
+fatherofNadya	2	1361	1363	PER	старик - отец	7164	7177	старик - отец	3	103	108	11	0	0	0	180	1361	старик	nsubj	1327	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Chekmarev	0	1367	1367	PER	вы	7185	7187	вы	1	103	108	17	0	0	0	181	1367	вы	nsubj	1375	PRON	PRON	Not_Assigned	Not_Assigned	3
+Nadya	1	1378	1378	PER	ней	7241	7244	ней	1	103	108	28	0	0	0	182	1378	ней	obl	1376	PRON	PRON	Not_Assigned	Not_Assigned	3
+Chekmarev	0	1402	1403	PER	сударь мой	7329	7339	сударь мой	2	106	111	8	0	1	1	183	1402	сударь	parataxis	1400	VERB	NOM	Not_Assigned	Not_Assigned	3
+fatherofNadya	2	1403	1403	PER	мой	7336	7339	мой	1	106	111	9	1	0	0	184	1403	мой	det	1402	DET	PRON	Not_Assigned	Not_Assigned	3
+fatherofNadya	2	1413	1414	PER	г-н Липецкий	7378	7390	г-н липецкий	2	106	111	19	0	0	0	185	1413	г-н	parataxis	1411	NOUN	PROP	Singular	Not_Assigned	3
+fatherofNadya	2	1421	1421	PER	меня	7416	7420	меня	1	106	111	27	0	0	0	186	1421	меня	obj	1420	PRON	PRON	Not_Assigned	Not_Assigned	3
+Chekmarev	0	1430	1430	PER	вашего	7477	7483	вашего	1	106	111	36	0	0	0	187	1430	вашего	det	1431	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T173	31	1444	1445	PER	лицам посторонним	7547	7564	лицам посторонним	2	106	111	50	0	0	0	188	1444	лицам	conj	1442	NOUN	NOM	Not_Assigned	Not_Assigned	3
+fatherofNadya	2	1449	1449	PER	я	7573	7574	я	1	107	112	2	0	0	0	189	1449	я	nsubj	1447	PRON	PRON	Not_Assigned	Not_Assigned	3
+Nadya	1	1457	1458	PER	свою дочь	7616	7625	свою дочь	2	107	112	10	0	1	1	190	1458	дочь	obj	1456	NOUN	NOM	Not_Assigned	Not_Assigned	3
+fatherofNadya	2	1457	1457	PER	свою	7616	7620	свою	1	107	112	10	1	0	0	191	1457	свою	det	1458	DET	PRON	Not_Assigned	Not_Assigned	3
+brotherofChekmarev	6	1460	1461	PER	вашего брата	7629	7641	вашего брата	2	107	112	13	0	1	1	192	1461	брата	obl	1456	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Chekmarev	0	1460	1460	PER	вашего	7629	7635	вашего	1	107	112	13	1	0	0	193	1460	вашего	det	1461	DET	PRON	Not_Assigned	Not_Assigned	3
+brotherofChekmarev	6	1463	1463	PER	лекаришку	7643	7652	лекаришку	1	107	112	16	0	0	0	194	1463	лекаришку	conj	1461	NOUN	NOM	Not_Assigned	Not_Assigned	3
+brotherofChekmarev	6	1465	1465	PER	нигилиста	7655	7664	нигилиста	1	107	112	18	0	0	0	195	1465	нигилиста	conj	1461	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Chekmarev	0	1467	1467	PER	Вы	7667	7669	вы	1	108	113	0	0	0	0	196	1467	вы	nsubj	1469	PRON	PRON	Not_Assigned	Not_Assigned	3
+Chekmarev	0	1475	1475	PER	свою	7711	7715	свою	1	108	113	8	0	0	0	197	1475	свою	det	1474	DET	PRON	Not_Assigned	Not_Assigned	3
+fatherofNadya	2	1478	1478	PER	я	7721	7722	я	1	108	113	11	0	0	0	198	1478	я	nsubj	1480	PRON	PRON	Not_Assigned	Not_Assigned	3
+Chekmarev	0	1483	1483	PER	ваш	7742	7745	ваш	1	108	113	16	0	0	0	199	1483	ваш	det	1485	DET	PRON	Not_Assigned	Not_Assigned	3
+Chekmarev	0	1488	1488	PER	вам	7777	7780	вам	1	108	113	21	0	0	0	200	1488	вам	iobj	1487	PRON	PRON	Not_Assigned	Not_Assigned	3
+Nadya	1	1490	1492	PER	высшее свое сокровище	7785	7806	высшее свое сокровище	3	108	113	23	0	1	1	201	1492	сокровище	obj	1487	NOUN	NOM	Not_Assigned	Not_Assigned	3
+fatherofNadya	2	1491	1491	PER	свое	7792	7796	свое	1	108	113	24	1	0	0	202	1491	свое	det	1492	DET	PRON	Not_Assigned	Not_Assigned	3
+fatherofNadya	2	1498	1498	PER	моей	7836	7840	моей	1	109	114	4	0	0	0	203	1498	моей	det	1499	DET	PRON	Not_Assigned	Not_Assigned	3
+fatherofNadya	2	1502	1502	PER	я	7855	7856	я	1	109	114	8	0	0	0	204	1502	я	nsubj	1503	PRON	PRON	Not_Assigned	Not_Assigned	3
+Chekmarev	0	1505	1505	PER	вами	7869	7873	вами	1	109	114	11	0	0	0	205	1505	вами	obl	1503	PRON	PRON	Not_Assigned	Not_Assigned	3
+Chekmarev	0	1512	1512	PER	вы	7898	7900	вы	1	109	114	18	0	0	0	206	1512	вы	nsubj	1513	PRON	PRON	Not_Assigned	Not_Assigned	3
+Chekmarev	0	1527	1527	PER	вы	7999	8001	вы	1	110	115	4	0	0	0	207	1527	вы	nsubj	1528	PRON	PRON	Not_Assigned	Not_Assigned	3
+Chekmarev	0	1539	1539	PER	вы	8058	8060	вы	1	111	116	1	0	0	0	208	1539	вы	nsubj	1538	PRON	PRON	Not_Assigned	Not_Assigned	3
+fatherofNadya	2	1540	1540	PER	меня	8061	8065	меня	1	111	116	2	0	0	0	209	1540	меня	obj	1538	PRON	PRON	Not_Assigned	Not_Assigned	3
+Chekmarev	0	1550	1550	PER	студента	8131	8139	студента	1	112	117	8	0	0	0	210	1550	студента	nmod	1549	NOUN	NOM	Not_Assigned	Not_Assigned	3
+fatherofNadya	2	1557	1558	PER	ваше превосходительство	8155	8178	ваше превосходительство	2	113	118	5	0	0	0	211	1558	превосходительство	conj	1553	NOUN	NOM	Not_Assigned	Not_Assigned	3
+fatherofNadya	2	1564	1564	PER	Вам	8196	8199	вам	1	114	119	0	0	0	0	212	1564	вам	iobj	1565	PRON	PRON	Not_Assigned	Not_Assigned	3
+Chekmarev	0	1575	1575	PER	меня	8252	8256	меня	1	114	119	11	0	0	0	213	1575	меня	obj	1574	PRON	PRON	Not_Assigned	Not_Assigned	3
+fatherofNadya	2	1587	1587	PER	вы	8314	8316	вы	1	114	119	23	0	0	0	214	1587	вы	nsubj	1589	PRON	PRON	Not_Assigned	Not_Assigned	3
+fatherofNadya	2	1590	1590	PER	своим	8331	8336	своим	1	114	119	26	0	0	0	215	1590	своим	det	1591	DET	PRON	Not_Assigned	Not_Assigned	3
+Chekmarev	0	1596	1596	PER	моем	8360	8364	моем	1	114	119	32	0	0	0	216	1596	моем	det	1597	DET	PRON	Not_Assigned	Not_Assigned	3
+Nadya	1	1599	1600	PER	вашей дочерью	8373	8386	вашей дочерью	2	114	119	35	0	1	1	217	1600	дочерью	nmod	1597	NOUN	NOM	Not_Assigned	Not_Assigned	3
+fatherofNadya	2	1599	1599	PER	вашей	8373	8378	вашей	1	114	119	35	1	0	0	218	1599	вашей	det	1600	DET	PRON	Not_Assigned	Not_Assigned	3
+fatherofNadya	2	1611	1611	PER	вашей	8433	8438	вашей	1	114	119	47	0	0	0	219	1611	вашей	det	1613	DET	PRON	Not_Assigned	Not_Assigned	3
+fatherofNadya	2	1619	1619	PER	вашу	8488	8492	вашу	1	115	120	2	0	0	0	220	1619	вашу	det	1618	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T207	30	1621	1623	PER	матушка - природа	8494	8511	матушка - природа	3	115	120	4	0	0	0	221	1621	матушка	nsubj	1624	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Chekmarev	0	1626	1626	PER	мою	8521	8524	мою	1	115	120	9	0	0	0	222	1626	мою	det	1627	DET	PRON	Not_Assigned	Not_Assigned	3
+fatherofNadya	2	1648	1648	PER	вам	8648	8651	вам	1	115	120	31	0	0	0	223	1648	вам	iobj	1651	PRON	PRON	Not_Assigned	Not_Assigned	3
+fatherofNadya	2	1653	1653	PER	Вы	8669	8671	вы	1	116	121	0	0	0	0	224	1653	вы	nsubj	1656	PRON	PRON	Not_Assigned	Not_Assigned	3
+fatherofNadya	2	1658	1658	PER	себе	8696	8700	себе	1	116	121	5	0	0	0	225	1658	себе	iobj	1657	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T210	29	1663	1664	PER	других людей	8710	8722	других людей	2	116	121	10	0	0	0	226	1664	людей	obl	1665	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Chekmarev	0	1681	1681	PER	я	8823	8824	я	1	116	121	28	0	0	0	227	1681	я	nsubj	1679	PRON	PRON	Not_Assigned	Not_Assigned	3
+Chekmarev	0	1686	1686	PER	мне	8854	8857	мне	1	116	121	33	0	0	0	228	1686	мне	iobj	1685	PRON	PRON	Not_Assigned	Not_Assigned	3
+fatherofNadya	2	1701	1702	PER	г-н Липецкий	8929	8941	г-н липецкий	2	117	123	8	0	0	0	229	1701	г-н	parataxis	1694	NOUN	PROP	Singular	Not_Assigned	3
+Chekmarev	0	1705	1705	PER	Вы	8946	8948	вы	1	118	124	1	0	0	0	230	1705	вы	nsubj	1706	PRON	PRON	Not_Assigned	Not_Assigned	3
+fatherofNadya	2	1716	1717	PER	ваше превосходительство	8996	9019	ваше превосходительство	2	119	125	3	0	0	0	231	1717	превосходительство	conj	1709	NOUN	NOM	Not_Assigned	Not_Assigned	3
+fatherofNadya	2	1720	1720	PER	вы	9030	9032	вы	1	119	125	7	0	0	0	232	1720	вы	nsubj	1719	PRON	PRON	Not_Assigned	Not_Assigned	3
+Chekmarev	0	1722	1722	PER	Я	9035	9036	я	1	120	126	0	0	0	0	233	1722	я	nsubj	1723	PRON	PRON	Not_Assigned	Not_Assigned	3
+fatherofNadya	2	1732	1732	PER	вашей	9083	9088	вашей	1	121	127	2	0	0	0	234	1732	вашей	det	1733	DET	PRON	Not_Assigned	Not_Assigned	3
+fatherofNadya	2	1753	1754	PER	г-н Липецкий	9193	9205	г-н липецкий	2	123	129	7	0	0	0	235	1753	г-н	nsubj	1752	NOUN	PROP	Singular	Not_Assigned	3
+Chekmarev	0	1762	1762	PER	медика	9237	9243	медика	1	123	129	16	0	0	0	236	1762	медика	nmod	1761	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Chekmarev	0	1771	1771	PER	Чекмарев	9277	9285	чекмарев	1	124	130	7	0	0	0	237	1771	чекмарев	flat:name	1770	PROPN	PROP	Singular	Not_Assigned	3
+M6	36	1778	1779	PER	толковые люди	9311	9324	толковые люди	2	124	130	14	0	0	0	238	1779	люди	obl	1775	NOUN	NOM	Not_Assigned	Not_Assigned	3
+fatherofNadya	2	1783	1784	PER	Николай Николаевич	9336	9354	николай николаевич	2	125	131	2	0	0	0	239	1783	николай	parataxis	1781	PROPN	PROP	Singular	Not_Assigned	3
+Chekmarev	0	1787	1787	PER	мое	9358	9361	мое	1	125	131	6	0	0	0	240	1787	мое	det	1788	DET	PRON	Not_Assigned	Not_Assigned	3
+Chekmarev	0	1790	1790	PER	Я	9374	9375	я	1	126	132	0	0	0	0	241	1790	я	nsubj	1792	PRON	PRON	Not_Assigned	Not_Assigned	3
+Chekmarev	0	1800	1800	PER	мне	9427	9430	мне	1	126	132	10	0	0	0	242	1800	мне	iobj	1799	PRON	PRON	Not_Assigned	Not_Assigned	3
+Nadya	1	1808	1809	PER	Дочь ваша	9464	9473	дочь ваша	2	127	133	0	0	1	1	243	1808	дочь	nsubj	1811	NOUN	NOM	Not_Assigned	Not_Assigned	3
+fatherofNadya	2	1809	1809	PER	ваша	9469	9473	ваша	1	127	133	1	1	0	0	244	1809	ваша	det	1810	DET	PRON	Not_Assigned	Not_Assigned	3
+Chekmarev	0	1810	1810	PER	мне	9474	9477	мне	1	127	133	2	0	0	0	245	1810	мне	iobj	1811	PRON	PRON	Not_Assigned	Not_Assigned	3
+Nadya	1	1822	1822	PER	она	9524	9527	она	1	127	133	14	0	0	0	246	1822	она	nsubj	1823	PRON	PRON	Not_Assigned	Not_Assigned	3
+Chekmarev	0	1826	1826	PER	моего	9547	9552	моего	1	127	133	18	0	0	0	247	1826	моего	det	1827	DET	PRON	Not_Assigned	Not_Assigned	3
+Chekmarev	0	1830	1830	PER	я	9570	9571	я	1	127	133	22	0	0	0	248	1830	я	nsubj	1839	PRON	PRON	Not_Assigned	Not_Assigned	3
+Nadya	1	1841	1841	PER	ней	9620	9623	ней	1	127	133	33	0	0	0	249	1841	ней	obl	1839	PRON	PRON	Not_Assigned	Not_Assigned	3
+Chekmarev	0	1855	1855	PER	моей	9693	9697	моей	1	128	134	9	0	0	0	250	1855	моей	det	1856	DET	PRON	Not_Assigned	Not_Assigned	3
+Chekmarev	0	1862	1863	PER	милый мой	9724	9733	милый мой	2	129	135	3	0	1	1	251	1862	милый	nsubj	1866	ADJ	NOM	Not_Assigned	Not_Assigned	3
+Nadya	1	1863	1863	PER	мой	9730	9733	мой	1	129	135	4	1	0	0	252	1863	мой	det	1862	DET	PRON	Not_Assigned	Not_Assigned	3
+Nadya	1	1870	1870	PER	Наденька	9765	9773	наденька	1	129	135	11	0	0	0	253	1870	наденька	nmod	1869	PROPN	PROP	Singular	Not_Assigned	3
+PER_T234	3	1875	1875	PER	Лопухов	9784	9791	лопухов	1	129	135	16	0	0	0	254	1875	лопухов	nsubj	1876	PROPN	PROP	Singular	Not_Assigned	3
+PER_T235	27	1877	1877	PER	Верочку	9801	9808	верочку	1	129	135	18	0	0	0	255	1877	верочку	obj	1876	PROPN	PROP	Singular	Not_Assigned	3
+PER_T236	41	1890	1890	PER	они	9855	9858	они	1	129	135	31	0	0	0	256	1890	они	nsubj	1891	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T234	3	1901	1901	PER	Лопухову	9914	9922	лопухову	1	129	135	42	0	0	0	257	1901	лопухову	iobj	1902	PROPN	PROP	Singular	Not_Assigned	3
+FAC_T238	19	1907	1907	FAC	заводе	9958	9964	заводе	1	129	135	48	0	0	0	258	1907	заводе	obl	1905	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Chekmarev	0	1909	1909	PER	Чекмарев	9967	9975	чекмарев	1	130	136	0	0	0	0	259	1909	чекмарев	nsubj	1912	PROPN	PROP	Singular	Not_Assigned	3
+Nadya	1	1918	1918	PER	вы	10018	10020	вы	1	131	137	3	0	0	0	260	1918	вы	nsubj	1920	PRON	PRON	Not_Assigned	Not_Assigned	3
+Nadya	1	1920	1920	PER	дитятко	10025	10032	дитятко	1	131	137	5	0	0	0	261	1920	дитятко	ROOT	1920	VERB	NOM	Not_Assigned	Not_Assigned	3
+Nadya	1	1926	1926	PER	вас	10058	10061	вас	1	132	138	4	0	0	0	262	1926	вас	obl	1922	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T234	3	1934	1934	PER	Лопухов	10096	10103	лопухов	1	133	139	1	0	0	0	263	1934	лопухов	nsubj	1936	PROPN	PROP	Singular	Not_Assigned	3
+PER_T234	3	1936	1949	PER	произведение бойкой фантазии романиста, которому ничего не стоило наделить своего героя всевозможными благодатями	10106	10219	произведение бойкой фантазии романиста , которому ничего не стоило наделить своего героя всевозможными благодатями	14	133	139	3	0	1	1	264	1944	стоило	acl:relcl	1939	VERB	NOM	Not_Assigned	Not_Assigned	3
+M7	35	1939	1939	PER	романиста	10135	10144	романиста	1	133	139	6	1	0	0	265	1939	романиста	nmod	1938	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T234	3	1952	1952	PER	он	10230	10232	он	1	133	139	19	0	0	0	266	1952	он	nsubj	1951	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T234	3	1953	1953	PER	ему	10233	10236	ему	1	133	139	20	0	0	0	267	1953	ему	iobj	1951	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T234	3	1960	1960	PER	него	10268	10272	него	1	133	139	27	0	0	0	268	1960	него	obl	1951	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T234	3	1963	1963	PER	автора	10276	10282	автора	1	133	139	30	0	0	0	269	1963	автора	conj	1960	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T246	11	1982	2015	PER	"наш брат, несочиненный, существующий в действительности смертный, не окончив курса да "" без кормила и весла "" в виде диплома на лекаря или доктора, пуститься в "" океан жизни """	10365	10540	"наш брат , несочиненный , существующий в действительности смертный , не окончив курса да "" без кормила и весла "" в виде диплома на лекаря или доктора , пуститься в "" океан жизни """	34	134	140	2	0	1	1	270	1993	окончив	advcl	1980	VERB	NOM	Not_Assigned	Not_Assigned	3
+PER_T247	17	1982	1982	PER	наш	10365	10368	наш	1	134	140	2	1	0	0	271	1982	наш	det	1983	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T246	11	2021	2021	PER	ему	10557	10560	ему	1	134	140	41	0	0	0	272	2021	ему	iobj	2023	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T249	23	2024	2024	PER	больных	10569	10576	больных	1	134	140	44	0	0	0	273	2024	больных	obj	2023	NOUN	NOM	Not_Assigned	Not_Assigned	3
+FAC_T250	34	2039	2039	FAC	заводом	10619	10626	заводом	1	134	140	59	0	0	0	274	2039	заводом	conj	2037	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T251	22	2049	2049	PER	кто	10669	10672	кто	1	134	140	69	0	0	0	275	2049	кто	nsubj	2051	PRON	PRON	Not_Assigned	Not_Assigned	3

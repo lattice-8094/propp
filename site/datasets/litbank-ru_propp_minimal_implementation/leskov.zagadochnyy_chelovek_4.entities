@@ -1,0 +1,334 @@
+COREF_name	COREF	start_token	end_token	cat	sacr_text	byte_onset	byte_offset	text	mention_len	paragraph_ID	sentence_ID	start_token_ID_within_sentence	out_to_in_nested_level	in_to_out_nested_level	nested_entities_count	temp_index	head_id	head_word	head_dependency_relation	head_syntactic_head_ID	POS_tag	prop	number	gender	grammatical_person
+GPE_T1	25	1	1	GPE	Твери	3	8	твери	1	0	0	1	0	0	0	0	1	твери	obl	4	PROPN	PROP	Not_Assigned	Not_Assigned	3
+Benni	1	2	2	PER	Бенни	9	14	бенни	1	0	0	2	0	0	0	1	2	бенни	nsubj	4	PROPN	PROP	Singular	Not_Assigned	3
+Benni	1	5	5	PER	себе	28	32	себе	1	0	0	5	0	0	0	2	5	себе	iobj	4	PRON	PRON	Not_Assigned	Not_Assigned	3
+Nichiporenko	0	10	11	PER	спутник его	52	63	спутник его	2	0	0	10	0	1	1	3	10	спутник	nsubj	15	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Benni	1	11	11	PER	его	60	63	его	1	0	0	11	1	0	0	4	11	его	det	13	DET	PRON	Not_Assigned	Not_Assigned	3
+GPE_T1	25	22	22	GPE	Твери	133	138	твери	1	1	1	4	0	0	0	5	22	твери	nmod	20	PROPN	PROP	Not_Assigned	Not_Assigned	3
+NichiporenkoBenni	2	25	25	PER	им	144	146	им	1	1	1	7	0	0	0	6	25	им	iobj	26	PRON	PRON	Not_Assigned	Not_Assigned	3
+VEH_T8	31	29	29	VEH	пароход	166	173	пароход	1	1	1	11	0	0	0	7	29	пароход	obl	27	NOUN	NOM	Not_Assigned	Not_Assigned	3
+NichiporenkoBenni	2	31	31	PER	они	175	178	они	1	1	1	13	0	0	0	8	31	они	nsubj	34	PRON	PRON	Not_Assigned	Not_Assigned	3
+FAC_T10	55	36	42	FAC	В маленьком трактирчике, где они пристали	206	247	в маленьком трактирчике , где они пристали	7	2	2	0	0	1	1	9	38	трактирчике	obl	57	NOUN	NOM	Not_Assigned	Not_Assigned	3
+NichiporenkoBenni	2	41	41	PER	они	235	238	они	1	2	2	5	1	0	0	10	41	они	nsubj	42	PRON	PRON	Not_Assigned	Not_Assigned	3
+Nichiporenko	0	44	44	PER	Ничипоренко	249	260	ничипоренко	1	2	2	8	0	0	0	11	44	ничипоренко	nsubj	57	PROPN	PROP	Singular	Not_Assigned	3
+boy	8	49	50	PER	трактирного мальчика	281	301	трактирного мальчика	2	2	2	13	0	0	0	12	50	мальчика	obl	47	NOUN	NOM	Not_Assigned	Not_Assigned	3
+boy	8	58	58	PER	его	337	340	его	1	2	2	22	0	0	0	13	58	его	obj	57	PRON	PRON	Not_Assigned	Not_Assigned	3
+Benni	1	64	64	PER	Бенни	367	372	бенни	1	2	2	28	0	0	0	14	64	бенни	nsubj	65	PROPN	PROP	Singular	Not_Assigned	3
+Benni	1	72	72	PER	Бенни	409	414	бенни	1	3	3	0	0	0	0	15	72	бенни	nsubj	73	PROPN	PROP	Singular	Not_Assigned	3
+Nichiporenko	0	79	87	PER	"человека, который ехал "" сходиться с народом """	461	507	"человека , который ехал "" сходиться с народом """	9	3	3	7	0	1	1	16	82	ехал	acl:relcl	79	VERB	NOM	Not_Assigned	Not_Assigned	3
+people	3	86	86	PER	народом	498	505	народом	1	3	3	14	1	0	0	17	86	народом	obl	84	NOUN	NOM	Not_Assigned	Not_Assigned	3
+NichiporenkoBenni	2	91	91	PER	них	513	516	них	1	3	3	19	0	0	0	18	91	них	obl	92	PRON	PRON	Not_Assigned	Not_Assigned	3
+Benni	1	95	95	PER	Бенни	535	540	бенни	1	4	4	0	0	0	0	19	95	бенни	nsubj	97	PROPN	PROP	Singular	Not_Assigned	3
+Nichiporenko	0	100	100	PER	Ничипоренко	572	583	ничипоренко	1	4	4	5	0	0	0	20	100	ничипоренко	nsubj	104	PROPN	PROP	Singular	Not_Assigned	3
+boy	8	106	107	PER	трактирным мальчиком	614	634	трактирным мальчиком	2	4	4	11	0	0	0	21	107	мальчиком	obl	104	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T23	61	116	120	PER	ни с кем из простолюдинов	679	704	ни с кем из простолюдинов	5	4	4	21	0	1	1	22	118	кем	nmod	115	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T24	62	120	120	PER	простолюдинов	691	704	простолюдинов	1	4	4	25	1	0	0	23	120	простолюдинов	nmod	118	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Benni	1	123	123	PER	Бенни	719	724	бенни	1	4	4	28	0	0	0	24	123	бенни	nsubj	125	PROPN	PROP	Singular	Not_Assigned	3
+Benni	1	130	130	PER	его	753	756	его	1	4	4	35	0	0	0	25	130	его	obj	128	PRON	PRON	Not_Assigned	Not_Assigned	3
+Benni	1	132	132	PER	Бенни	758	763	бенни	1	4	4	37	0	0	0	26	132	бенни	conj	130	PROPN	PROP	Singular	Not_Assigned	3
+Nichiporenko	0	139	139	PER	ему	785	788	ему	1	4	4	44	0	0	0	27	139	ему	iobj	140	PRON	PRON	Not_Assigned	Not_Assigned	3
+Benni	1	142	142	PER	Бенни	798	803	бенни	1	5	5	0	0	0	0	28	142	бенни	nsubj	143	PROPN	PROP	Singular	Not_Assigned	3
+Nichiporenko	0	144	144	PER	Ничипоренко	813	824	ничипоренко	1	5	5	2	0	0	0	29	144	ничипоренко	iobj	143	PROPN	PROP	Singular	Not_Assigned	3
+Benni	1	145	145	PER	свои	825	829	свои	1	5	5	3	0	0	0	30	145	свои	det	146	DET	PRON	Not_Assigned	Not_Assigned	3
+Nichiporenko	0	152	152	PER	тот	862	865	тот	1	5	5	10	0	0	0	31	152	тот	nsubj	154	DET	PRON	Not_Assigned	Not_Assigned	3
+Nichiporenko	0	155	155	PER	себя	879	883	себя	1	5	5	13	0	0	0	32	155	себя	obj	154	PRON	PRON	Not_Assigned	Not_Assigned	3
+Nichiporenko	0	169	169	PER	одному	960	966	одному	1	6	6	2	0	0	0	33	169	одному	iobj	167	NUM	NOM	Not_Assigned	Not_Assigned	3
+Nichiporenko	0	190	190	PER	он	1055	1057	он	1	6	6	23	0	0	0	34	190	он	nsubj	191	PRON	PRON	Not_Assigned	Not_Assigned	3
+Nichiporenko	0	193	193	PER	Ничипоренко	1067	1078	ничипоренко	1	6	6	26	0	0	0	35	193	ничипоренко	nsubj	194	PROPN	PROP	Singular	Not_Assigned	3
+Nichiporenko	0	198	198	PER	он	1102	1104	он	1	6	6	31	0	0	0	36	198	он	nsubj	199	PRON	PRON	Not_Assigned	Not_Assigned	3
+boy	8	201	201	PER	мальчишкою	1121	1131	мальчишкою	1	6	6	34	0	0	0	37	201	мальчишкою	obl	199	PROPN	PROP	Singular	Not_Assigned	3
+Benni	1	204	204	PER	Бенни	1138	1143	бенни	1	6	6	37	0	0	0	38	204	бенни	iobj	203	PROPN	PROP	Singular	Not_Assigned	3
+Benni	1	206	207	PER	этим последним	1154	1168	этим последним	2	6	6	39	0	0	0	39	207	последним	amod	208	ADJ	NOM	Not_Assigned	Not_Assigned	3
+NichiporenkoBenni	2	220	220	PER	эмиссары	1232	1240	эмиссары	1	7	7	2	0	0	0	40	220	эмиссары	nsubj	222	NOUN	NOM	Not_Assigned	Not_Assigned	3
+GPE_T42	32	232	232	GPE	Волге	1289	1294	волге	1	7	7	14	0	0	0	41	232	волге	conj	228	PROPN	PROP	Not_Assigned	Not_Assigned	3
+Nichiporenko	0	234	234	PER	Ничипоренко	1297	1308	ничипоренко	1	8	8	0	0	0	0	42	234	ничипоренко	nsubj	240	ADV	PROP	Singular	Not_Assigned	3
+Nichiporenko	0	244	244	PER	им	1361	1363	им	1	8	8	10	0	0	0	43	244	им	iobj	243	PRON	PRON	Not_Assigned	Not_Assigned	3
+Benni	1	247	247	PER	Бенни	1384	1389	бенни	1	8	8	13	0	0	0	44	247	бенни	nmod	246	PROPN	PROP	Singular	Not_Assigned	3
+Nichiporenko	0	249	249	PER	он	1392	1394	он	1	8	8	15	0	0	0	45	249	он	nsubj	251	PRON	PRON	Not_Assigned	Not_Assigned	3
+Nichiporenko	0	256	256	PER	он	1423	1425	он	1	8	8	22	0	0	0	46	256	он	nsubj	259	PRON	PRON	Not_Assigned	Not_Assigned	3
+Benni	1	265	267	PER	своим возмутившимся Телемаком	1475	1504	своим возмутившимся телемаком	3	8	8	31	0	1	1	47	267	телемаком	obl	260	PROPN	PROP	Singular	Not_Assigned	3
+Nichiporenko	0	265	265	PER	своим	1475	1480	своим	1	8	8	31	1	0	0	48	265	своим	det	267	DET	PRON	Not_Assigned	Not_Assigned	3
+Nichiporenko	0	270	270	PER	он	1511	1513	он	1	8	8	36	0	0	0	49	270	он	nsubj	279	PRON	PRON	Not_Assigned	Not_Assigned	3
+Nichiporenko	0	272	272	PER	руководителя	1517	1529	руководителя	1	8	8	38	0	0	0	50	272	руководителя	nmod	270	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Nichiporenko	0	274	274	PER	наставника	1532	1542	наставника	1	8	8	40	0	0	0	51	274	наставника	conj	272	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Nichiporenko	0	284	289	PER	школяра, которого дерут за уши	1583	1613	школяра , которого дерут за уши	6	8	8	50	0	0	0	52	287	дерут	acl:relcl	284	VERB	NOM	Not_Assigned	Not_Assigned	3
+GPE_T54	43	294	295	GPE	Нижний Новгород	1637	1652	нижний новгород	2	10	10	1	0	0	0	53	295	новгород	nmod	291	PROPN	PROP	Not_Assigned	Not_Assigned	3
+Benni	1	297	297	PER	Бенни	1655	1660	бенни	1	10	10	4	0	0	0	54	297	бенни	nmod	295	PROPN	PROP	Singular	Not_Assigned	3
+Nichiporenko	0	299	299	PER	Ничипоренко	1663	1674	ничипоренко	1	10	10	6	0	0	0	55	299	ничипоренко	conj	297	PROPN	PROP	Singular	Not_Assigned	3
+T57	29	303	305	PER	П. И. Мельникова	1685	1701	п. и. мельникова	3	10	10	10	0	0	0	56	303	п.	parataxis	300	PROPN	PROP	Singular	Not_Assigned	3
+house	9	309	329	FAC	один хороший семейный дом, хотя и не имевший никаких прямых связей с предприимчивою партиею, но весьма интересный для знакомства	1713	1841	один хороший семейный дом , хотя и не имевший никаких прямых связей с предприимчивою партиею , но весьма интересный для знакомства	21	10	10	16	0	0	0	57	317	имевший	acl	312	VERB	NOM	Not_Assigned	Not_Assigned	3
+landlord	10	331	334	PER	Хозяин, этого дома	1844	1862	хозяин , этого дома	4	11	11	0	0	1	1	58	334	дома	conj	331	NOUN	NOM	Not_Assigned	Not_Assigned	3
+house	9	334	334	FAC	дома	1858	1862	дома	1	11	11	3	1	0	0	59	334	дома	conj	331	NOUN	NOM	Not_Assigned	Not_Assigned	3
+landlord	10	336	337	PER	молодой человек	1867	1882	молодой человек	2	11	11	5	0	0	0	60	337	человек	ROOT	337	NOUN	NOM	Not_Assigned	Not_Assigned	3
+landlord	10	339	346	PER	чиновник с родовыми связями и хорошо открытой карьерой	1884	1938	чиновник с родовыми связями и хорошо открытой карьерой	8	11	11	8	0	0	0	61	342	связями	nmod	339	NOUN	NOM	Not_Assigned	Not_Assigned	3
+landlord	10	352	352	PER	господин	1957	1965	господин	1	12	12	4	0	0	0	62	352	господин	nsubj	358	NOUN	NOM	Not_Assigned	Not_Assigned	3
+wifeoflandlord	21	360	367	PER	молодой девушке, тоже из очень хорошего семейства	1998	2047	молодой девушке , тоже из очень хорошего семейства	8	12	12	12	0	1	1	63	367	семейства	obl	358	NOUN	NOM	Not_Assigned	Not_Assigned	3
+T65	30	365	367	PER	очень хорошего семейства	2023	2047	очень хорошего семейства	3	12	12	17	1	0	0	64	366	хорошего	amod	367	ADJ	NOM	Not_Assigned	Not_Assigned	3
+landlords	13	369	370	PER	Молодые хозяева	2050	2065	молодые хозяева	2	13	13	0	0	0	0	65	370	хозяева	nsubj	371	NOUN	NOM	Not_Assigned	Not_Assigned	3
+NichiporenkoBenni	2	372	376	PER	рекомендованных им из Петербурга гостей	2074	2113	рекомендованных им из петербурга гостей	5	13	13	3	0	1	1	66	372	рекомендованных	acl	376	VERB	PROP	Singular	Not_Assigned	3
+GPE_T68	26	375	375	GPE	Петербурга	2096	2106	петербурга	1	13	13	6	1	0	0	67	375	петербурга	obl	372	PROPN	PROP	Not_Assigned	Not_Assigned	3
+NichiporenkoBenni	2	384	384	PER	них	2152	2155	них	1	13	13	15	0	0	0	68	384	них	obl	382	PRON	PRON	Not_Assigned	Not_Assigned	3
+guests	36	391	393	PER	нескольких своих знакомых	2188	2213	нескольких своих знакомых	3	13	13	22	0	1	1	69	393	знакомых	obj	387	NOUN	NOM	Not_Assigned	Not_Assigned	3
+landlords	13	392	392	PER	своих	2199	2204	своих	1	13	13	23	1	0	0	70	392	своих	det	393	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T73	46	395	395	PER	мужчин	2215	2221	мужчин	1	13	13	26	0	0	0	71	395	мужчин	conj	393	NOUN	NOM	Not_Assigned	Not_Assigned	3
+ladies	19	397	397	PER	дам	2224	2227	дам	1	13	13	28	0	0	0	72	397	дам	conj	393	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Nichiporenko	0	399	399	PER	Ничипоренко	2230	2241	ничипоренко	1	14	14	0	0	0	0	73	399	ничипоренко	nsubj	401	PROPN	PROP	Singular	Not_Assigned	3
+landlordsguests	7	403	403	PER	всем	2260	2264	всем	1	14	14	4	0	0	0	74	403	всем	iobj	402	DET	PRON	Not_Assigned	Not_Assigned	3
+Benni	1	408	410	PER	сопровождаемый им человек	2281	2306	сопровождаемый им человек	3	14	14	9	0	1	1	75	410	человек	nsubj	415	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Nichiporenko	0	409	409	PER	им	2296	2298	им	1	14	14	10	1	0	0	76	409	им	obl	408	PRON	PRON	Not_Assigned	Not_Assigned	3
+Benni	1	412	413	PER	Артур Бенни	2308	2319	артур бенни	2	14	14	13	0	0	0	77	412	артур	appos	410	PROPN	PROP	Singular	Not_Assigned	3
+Benni	1	417	418	PER	герценовсиий эмиссар	2328	2348	герценовсиий эмиссар	2	14	14	18	0	0	0	78	417	герценовсиий	xcomp	415	ADJ	NOM	Not_Assigned	Not_Assigned	3
+NichiporenkoBenni	2	423	423	PER	они	2362	2365	они	1	14	14	24	0	0	0	79	423	они	nsubj	424	PRON	PRON	Not_Assigned	Not_Assigned	3
+landlordsguests	7	431	436	PER	все, кому это было сказано	2397	2423	все , кому это было сказано	6	14	14	32	0	0	0	80	436	сказано	acl:relcl	431	VERB	NOM	Not_Assigned	Not_Assigned	3
+Benni	1	448	449	PER	герценовского эмиссара	2473	2495	герценовского эмиссара	2	14	14	49	0	0	0	81	449	эмиссара	obl	446	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Nichiporenko	0	451	451	PER	Ничипоренко	2498	2509	ничипоренко	1	15	15	0	0	0	0	82	451	ничипоренко	nsubj	458	ADV	PROP	Singular	Not_Assigned	3
+Benni	1	454	454	PER	Бенни	2521	2526	бенни	1	15	15	3	0	0	0	83	454	бенни	obj	453	PROPN	PROP	Singular	Not_Assigned	3
+landlordsguests	7	455	456	PER	любопытным нижегородцам	2527	2550	любопытным нижегородцам	2	15	15	4	0	0	0	84	456	нижегородцам	iobj	453	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Nichiporenko	0	466	466	PER	он	2585	2587	он	1	15	15	15	0	0	0	85	466	он	nsubj	467	PRON	PRON	Not_Assigned	Not_Assigned	3
+Benni	1	470	471	PER	его эмиссар	2601	2612	его эмиссар	2	15	15	19	0	1	1	86	471	эмиссар	nsubj	475	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Nichiporenko	0	470	470	PER	его	2601	2604	его	1	15	15	19	1	0	0	87	470	его	nmod	471	PRON	PRON	Not_Assigned	Not_Assigned	3
+Benni	1	482	482	PER	он	2655	2657	он	1	15	15	31	0	0	0	88	482	он	nsubj	484	PRON	PRON	Not_Assigned	Not_Assigned	3
+Benni	1	490	490	PER	нем	2692	2695	нем	1	15	15	39	0	0	0	89	490	нем	obl	491	PRON	PRON	Not_Assigned	Not_Assigned	3
+Nichiporenko	0	496	496	PER	он	2731	2733	он	1	15	15	45	0	0	0	90	496	он	nsubj	500	PRON	PRON	Not_Assigned	Not_Assigned	3
+Nichiporenko	0	498	498	PER	Ничипоренко	2735	2746	ничипоренко	1	15	15	47	0	0	0	91	498	ничипоренко	conj	496	PROPN	PROP	Singular	Not_Assigned	3
+Benni	1	502	502	PER	Бенни	2764	2769	бенни	1	15	15	51	0	0	0	92	502	бенни	obj	501	PROPN	PROP	Singular	Not_Assigned	3
+Benni	1	507	507	PER	себя	2789	2793	себя	1	15	15	56	0	0	0	93	507	себя	obj	506	PRON	PRON	Not_Assigned	Not_Assigned	3
+landlordsguests	7	509	509	PER	провинциалами	2796	2809	провинциалами	1	15	15	58	0	0	0	94	509	провинциалами	nmod	507	NOUN	NOM	Not_Assigned	Not_Assigned	3
+landlordsguests	7	516	516	PER	них	2841	2844	них	1	15	15	65	0	0	0	95	516	них	obl	514	PRON	PRON	Not_Assigned	Not_Assigned	3
+Nichiporenko	0	520	520	PER	Ничипоренко	2870	2881	ничипоренко	1	16	16	0	0	0	0	96	520	ничипоренко	nsubj	521	PROPN	PROP	Singular	Not_Assigned	3
+Nichiporenko	0	523	523	PER	своим	2904	2909	своим	1	16	16	3	0	0	0	97	523	своим	det	524	DET	PRON	Not_Assigned	Not_Assigned	3
+landlordsguests	7	526	530	PER	собравшимся к обеду провинциальным обществом	2930	2974	собравшимся к обеду провинциальным обществом	5	16	16	6	0	0	0	98	530	обществом	obl	522	NOUN	NOM	Not_Assigned	Not_Assigned	3
+ladies	19	541	541	PER	Дамы	3027	3031	дамы	1	18	18	0	0	0	0	99	541	дамы	nsubj	559	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Benni	1	545	545	PER	Бенни	3043	3048	бенни	1	18	18	4	0	0	0	100	545	бенни	obl	543	PROPN	PROP	Singular	Not_Assigned	3
+PER_T103	48	548	548	PER	дамы	3060	3064	дамы	1	18	18	7	0	0	0	101	548	дамы	nsubj	553	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T104	49	550	550	PER	полицейские	3067	3078	полицейские	1	18	18	9	0	0	0	102	550	полицейские	conj	548	NOUN	NOM	Not_Assigned	Not_Assigned	3
+M2	47	555	556	PER	настоящего англичанина	3110	3132	настоящего англичанина	2	18	18	14	0	0	0	103	556	англичанина	obl	553	NOUN	NOM	Not_Assigned	Not_Assigned	3
+onelady	41	590	591	PER	одна дама	3342	3351	одна дама	2	19	19	16	0	0	0	104	591	дама	nsubj	589	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Benni	1	600	600	PER	Бенни	3394	3399	бенни	1	20	20	7	0	0	0	105	600	бенни	nsubj	599	PROPN	PROP	Singular	Not_Assigned	3
+GPE_T109	40	610	610	GPE	Англии	3437	3443	англии	1	20	20	17	0	0	0	106	610	англии	obl	612	PROPN	PROP	Not_Assigned	Not_Assigned	3
+Nichiporenko	0	620	620	PER	Ничипоренко	3499	3510	ничипоренко	1	21	21	0	0	0	0	107	620	ничипоренко	nsubj	621	PROPN	PROP	Singular	Not_Assigned	3
+Benni	1	631	631	PER	Бенни	3569	3574	бенни	1	21	21	11	0	0	0	108	631	бенни	obj	630	PROPN	PROP	Singular	Not_Assigned	3
+Benni	1	635	635	PER	он	3584	3586	он	1	21	21	15	0	0	0	109	635	он	nsubj	637	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T113	50	648	650	PER	людям их звания	3632	3647	людям их звания	3	21	21	28	0	1	1	110	650	звания	nmod	648	NOUN	NOM	Not_Assigned	Not_Assigned	3
+NichiporenkoBenni	2	649	649	PER	их	3638	3640	их	1	21	21	29	1	0	0	111	649	их	det	650	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T114	51	654	654	PER	обществе	3669	3677	обществе	1	21	21	34	0	0	0	112	654	обществе	obl	652	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Nichiporenko	0	661	661	PER	ему	3717	3720	ему	1	22	22	3	0	0	0	113	661	ему	iobj	660	PRON	PRON	Not_Assigned	Not_Assigned	3
+Nichiporenko	0	667	667	PER	Ничипоренко	3776	3787	ничипоренко	1	22	22	9	0	0	0	114	667	ничипоренко	nsubj	668	PROPN	PROP	Singular	Not_Assigned	3
+M3	22	682	682	PER	нас	3874	3877	нас	1	22	22	24	0	0	0	115	682	нас	obl	687	PRON	PRON	Not_Assigned	Not_Assigned	3
+M3	22	685	685	PER	первых	3881	3887	первых	1	22	22	27	0	0	0	116	685	первых	conj	682	ADJ	NOM	Not_Assigned	Not_Assigned	3
+PER_T119	52	688	693	PER	раскольники, которые не признают брака	3894	3932	раскольники , которые не признают брака	6	22	22	30	0	0	0	117	692	признают	acl:relcl	688	VERB	NOM	Not_Assigned	Not_Assigned	3
+wifeoflandlord	21	716	717	PER	замужней хозяйки	4054	4070	замужней хозяйки	2	23	23	13	0	0	0	118	717	хозяйки	nmod	715	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T121	53	719	723	PER	многих присутствовавших здесь замужних дам	4073	4115	многих присутствовавших здесь замужних дам	5	23	23	16	0	0	0	119	723	дам	conj	717	NOUN	NOM	Not_Assigned	Not_Assigned	3
+oldlady	4	725	728	PER	некоторая почтенная пожилая дама	4117	4149	некоторая почтенная пожилая дама	4	23	23	22	0	0	0	120	728	дама	ROOT	728	NOUN	NOM	Not_Assigned	Not_Assigned	3
+oldlady	4	730	731	PER	родственница хозяев	4151	4170	родственница хозяев	2	23	23	27	0	1	1	121	730	родственница	appos	728	NOUN	NOM	Not_Assigned	Not_Assigned	3
+landlords	13	731	731	PER	хозяев	4164	4170	хозяев	1	23	23	28	1	0	0	122	731	хозяев	nmod	730	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Nichiporenko	0	734	734	PER	Ничипоренко	4181	4192	ничипоренко	1	23	23	31	0	0	0	123	734	ничипоренко	nsubj	733	PROPN	PROP	Singular	Not_Assigned	3
+Nichiporenko	0	737	737	PER	ему	4198	4201	ему	1	23	23	34	0	0	0	124	737	ему	iobj	744	PRON	PRON	Not_Assigned	Not_Assigned	3
+M4	44	740	741	PER	семейных людях	4210	4224	семейных людях	2	23	23	37	0	0	0	125	741	людях	obl	742	NOUN	NOM	Not_Assigned	Not_Assigned	3
+oldlady	4	747	749	PER	она и сама	4252	4262	она и сама	3	23	23	44	0	0	0	126	749	сама	acl	750	ADJ	NOM	Not_Assigned	Not_Assigned	3
+daughtersofoldlady	15	752	752	PER	дочерей	4275	4282	дочерей	1	23	23	49	0	0	0	127	752	дочерей	obj	754	NOUN	NOM	Not_Assigned	Not_Assigned	3
+M1	54	767	767	PER	кто	4350	4353	кто	1	24	24	2	0	0	0	128	767	кто	nsubj	769	PRON	PRON	Not_Assigned	Not_Assigned	3
+Nichiporenko	0	776	776	PER	Ничипоренко	4399	4410	ничипоренко	1	24	25	3	0	0	0	129	776	ничипоренко	nsubj	774	PROPN	PROP	Singular	Not_Assigned	3
+Nichiporenko	0	781	781	PER	вам	4425	4428	вам	1	25	26	3	0	0	0	130	781	вам	iobj	779	PRON	PRON	Not_Assigned	Not_Assigned	3
+Nichiporenko	0	790	790	PER	вас	4461	4464	вас	1	25	26	12	0	0	0	131	790	вас	obj	789	PRON	PRON	Not_Assigned	Not_Assigned	3
+oldlady	4	792	792	PER	я	4466	4467	я	1	25	26	14	0	0	0	132	792	я	nsubj	793	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T136	18	799	804	PER	люди, неспособные видеть свои глупости	4510	4548	люди , неспособные видеть свои глупости	6	25	26	21	0	1	1	133	801	неспособные	acl	799	ADJ	NOM	Not_Assigned	Not_Assigned	3
+PER_T136	18	803	803	PER	свои	4535	4539	свои	1	25	26	25	1	0	0	134	803	свои	det	804	DET	PRON	Not_Assigned	Not_Assigned	3
+Nichiporenko	0	812	814	PER	вы большой невежа	4576	4593	вы большой невежа	3	25	26	34	0	0	0	135	814	невежа	nsubj	807	NOUN	NOM	Not_Assigned	Not_Assigned	3
+oldlady	4	818	818	PER	вы	4600	4602	вы	1	26	27	2	0	0	0	136	818	вы	nsubj	822	PRON	PRON	Not_Assigned	Not_Assigned	3
+Nichiporenko	0	819	819	PER	меня	4603	4607	меня	1	26	27	3	0	0	0	137	819	меня	obj	822	PRON	PRON	Not_Assigned	Not_Assigned	3
+Nichiporenko	0	830	830	PER	Ничипоренко	4665	4676	ничипоренко	1	26	28	5	0	0	0	138	830	ничипоренко	parataxis	826	PROPN	PROP	Singular	Not_Assigned	3
+Nichiporenko	0	839	839	PER	Нам	4706	4709	нам	1	26	28	14	0	0	0	139	839	нам	iobj	840	PRON	PRON	Not_Assigned	Not_Assigned	3
+Nichiporenko	0	847	847	PER	нас	4735	4738	нас	1	26	28	22	0	0	0	140	847	нас	obl	848	PRON	PRON	Not_Assigned	Not_Assigned	3
+oldlady	4	849	850	PER	подгнивающее поколение	4746	4768	подгнивающее поколение	2	26	28	24	0	0	0	141	850	поколение	nsubj	848	NOUN	NOM	Not_Assigned	Not_Assigned	3
+daughtersofoldlady	15	856	862	PER	ваших дочерей, которых вы выдали замуж	4790	4828	ваших дочерей , которых вы выдали замуж	7	27	29	4	0	1	1	142	861	выдали	acl:relcl	857	VERB	NOM	Not_Assigned	Not_Assigned	3
+oldlady	4	860	860	PER	вы	4813	4815	вы	1	27	29	8	1	0	0	143	860	вы	nsubj	861	PRON	PRON	Not_Assigned	Not_Assigned	3
+Nichiporenko	0	865	865	PER	мы	4834	4836	мы	1	27	29	13	0	0	0	144	865	мы	nsubj	868	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T150	20	876	876	PER	женщин	4886	4892	женщин	1	28	30	2	0	0	0	145	876	женщин	obj	875	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T151	56	881	883	PER	каждая из них	4908	4921	каждая из них	3	28	30	7	0	1	1	146	883	них	nmod	881	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T150	20	883	883	PER	них	4918	4921	них	1	28	30	9	1	0	0	147	883	них	nmod	881	PRON	PRON	Not_Assigned	Not_Assigned	3
+oldlady	4	892	892	PER	Вы	4988	4990	вы	1	29	31	1	0	0	0	148	892	вы	nsubj	893	PRON	PRON	Not_Assigned	Not_Assigned	3
+oldlady	4	906	906	PER	старушка	5054	5062	старушка	1	30	33	6	0	0	0	149	906	старушка	conj	904	NOUN	NOM	Not_Assigned	Not_Assigned	3
+oldlady	4	911	911	PER	свое	5083	5087	свое	1	30	33	11	0	0	0	150	911	свое	det	912	DET	PRON	Not_Assigned	Not_Assigned	3
+house	9	926	926	FAC	доме	5153	5157	доме	1	31	34	6	0	0	0	151	926	доме	nmod	923	NOUN	NOM	Not_Assigned	Not_Assigned	3
+NichiporenkoBenni	2	951	951	PER	Эмиссары	5305	5313	эмиссары	1	32	35	0	0	0	0	152	951	эмиссары	nsubj	952	NOUN	NOM	Not_Assigned	Not_Assigned	3
+house	9	956	957	FAC	нижегородском доме	5343	5361	нижегородском доме	2	32	35	5	0	0	0	153	957	доме	obl	953	NOUN	NOM	Not_Assigned	Not_Assigned	3
+GPE_T158	39	961	961	GPE	Казань	5388	5394	казань	1	32	35	10	0	0	0	154	961	казань	nmod	959	PROPN	PROP	Not_Assigned	Not_Assigned	3
+GPE_T159	38	964	964	GPE	Астрахань	5398	5407	астрахань	1	32	35	13	0	0	0	155	964	астрахань	conj	961	PROPN	PROP	Not_Assigned	Not_Assigned	3
+GPE_T160	35	967	967	GPE	Саратов	5412	5419	саратов	1	32	35	16	0	0	0	156	967	саратов	conj	961	PROPN	PROP	Not_Assigned	Not_Assigned	3
+NichiporenkoBenni	2	970	970	PER	им	5423	5425	им	1	32	35	19	0	0	0	157	970	им	iobj	974	PRON	PRON	Not_Assigned	Not_Assigned	3
+Nichiporenko	0	985	985	PER	Ничипоренком	5499	5511	ничипоренком	1	32	35	34	0	0	0	158	985	ничипоренком	obl:agent	984	PROPN	PROP	Singular	Not_Assigned	3
+Nichiporenko	0	994	994	PER	Ничипоренко	5563	5574	ничипоренко	1	33	36	0	0	0	0	159	994	ничипоренко	nsubj	996	PROPN	PROP	Singular	Not_Assigned	3
+Benni	1	998	998	PER	Бенни	5599	5604	бенни	1	33	36	4	0	0	0	160	998	бенни	obj	996	PROPN	PROP	Singular	Not_Assigned	3
+PER_T164	57	1008	1008	PER	нас	5638	5641	нас	1	33	36	14	0	0	0	161	1008	нас	obl	1018	PRON	PRON	Not_Assigned	Not_Assigned	3
+GPE_T165	27	1011	1011	GPE	России	5645	5651	россии	1	33	36	17	0	0	0	162	1011	россии	conj	1008	PROPN	PROP	Not_Assigned	Not_Assigned	3
+PER_T166	58	1014	1014	PER	молодые	5660	5667	молодые	1	33	36	20	0	0	0	163	1014	молодые	nsubj	1018	ADJ	NOM	Not_Assigned	Not_Assigned	3
+PER_T167	59	1016	1016	PER	старых	5671	5677	старых	1	33	36	22	0	0	0	164	1016	старых	nmod	1014	ADJ	NOM	Not_Assigned	Not_Assigned	3
+Benni	1	1021	1021	PER	Бенни	5692	5697	бенни	1	33	36	27	0	0	0	165	1021	бенни	nsubj	1022	PROPN	PROP	Singular	Not_Assigned	3
+Benni	1	1046	1046	PER	мне	5811	5814	мне	1	34	37	12	0	0	0	166	1046	мне	iobj	1049	PRON	PRON	Not_Assigned	Not_Assigned	3
+Benni	1	1052	1052	PER	я	5829	5830	я	1	34	37	18	0	0	0	167	1052	я	nsubj	1056	PRON	PRON	Not_Assigned	Not_Assigned	3
+Benni	1	1060	1060	PER	он	5860	5862	он	1	34	37	26	0	0	0	168	1060	он	nsubj	1059	PRON	PRON	Not_Assigned	Not_Assigned	3
+Nichiporenko	0	1061	1061	PER	Ничипоренке	5863	5874	ничипоренке	1	34	37	27	0	0	0	169	1061	ничипоренке	iobj	1059	PROPN	PROP	Singular	Not_Assigned	3
+Nichiporenko	0	1063	1063	PER	Ничипоренко	5877	5888	ничипоренко	1	35	38	0	0	0	0	170	1063	ничипоренко	nsubj	1065	PROPN	PROP	Singular	Not_Assigned	3
+Benni	1	1081	1081	PER	вы	5967	5969	вы	1	35	38	18	0	0	0	171	1081	вы	nsubj	1086	PRON	PRON	Not_Assigned	Not_Assigned	3
+GPE_T165	27	1083	1083	GPE	России	5972	5978	россии	1	35	38	20	0	0	0	172	1083	россии	obl	1086	PROPN	PROP	Not_Assigned	Not_Assigned	3
+Benni	1	1088	1088	PER	Бенни	6000	6005	бенни	1	36	39	0	0	0	0	173	1088	бенни	nsubj	1091	PROPN	PROP	Singular	Not_Assigned	3
+Nichiporenko	0	1089	1089	PER	ему	6006	6009	ему	1	36	39	1	0	0	0	174	1089	ему	iobj	1091	PRON	PRON	Not_Assigned	Not_Assigned	3
+NichiporenkoBenni	2	1093	1093	PER	Агитаторы	6023	6032	агитаторы	1	37	40	0	0	0	0	175	1093	агитаторы	nsubj	1097	NOUN	NOM	Not_Assigned	Not_Assigned	3
+NichiporenkoBenni	2	1094	1094	PER	оба	6033	6036	оба	1	37	40	1	0	0	0	176	1094	оба	nummod:gov	1095	NUM	NOM	Not_Assigned	Not_Assigned	3
+NichiporenkoBenni	2	1097	1098	PER	друг другом	6050	6061	друг другом	2	37	40	4	0	0	0	177	1097	друг	nsubj	1099	PRON	PRON	Not_Assigned	Not_Assigned	3
+NichiporenkoBenni	2	1102	1102	PER	оба	6076	6079	оба	1	37	40	9	0	0	0	178	1102	оба	nsubj	1106	NUM	NOM	Not_Assigned	Not_Assigned	3
+NichiporenkoBenni	2	1112	1112	PER	них	6116	6119	них	1	38	41	4	0	0	0	179	1112	них	obl	1114	PRON	PRON	Not_Assigned	Not_Assigned	3
+Nichiporenko	0	1118	1118	PER	Ничипоренко	6147	6158	ничипоренко	1	39	42	0	0	0	0	180	1118	ничипоренко	nsubj	1123	PROPN	PROP	Singular	Not_Assigned	3
+Nichiporenko	0	1126	1126	PER	ему	6188	6191	ему	1	39	42	8	0	0	0	181	1126	ему	iobj	1127	PRON	PRON	Not_Assigned	Not_Assigned	3
+FAC_T184	42	1138	1139	FAC	трактирном нумере	6257	6274	трактирном нумере	2	40	43	5	0	0	0	182	1139	нумере	obl	1133	NOUN	NOM	Not_Assigned	Not_Assigned	3
+GPE_T241	28	1159	1159	GPE	заречья	6369	6376	заречья	1	40	43	26	0	0	0	183	1159	заречья	nmod	1157	PROPN	PROP	Not_Assigned	Not_Assigned	3
+FAC_T242	23	1163	1163	FAC	ярмарка	6389	6396	ярмарка	1	40	43	30	0	0	0	184	1163	ярмарка	nsubj	1162	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Nichiporenko	0	1165	1165	PER	Ничипоренко	6398	6409	ничипоренко	1	40	43	32	0	0	0	185	1165	ничипоренко	nsubj	1168	PROPN	PROP	Singular	Not_Assigned	3
+Benni	1	1169	1175	PER	на своего унылого и поникшего головою партнера	6433	6479	на своего унылого и поникшего головою партнера	7	40	43	36	0	0	0	186	1174	головою	obl	1168	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Benni	1	1185	1185	PER	вы	6515	6517	вы	1	41	44	3	0	0	0	187	1185	вы	nsubj	1184	PRON	PRON	Not_Assigned	Not_Assigned	3
+Nichiporenko	0	1187	1187	PER	Бенни	6519	6524	бенни	1	41	44	5	0	0	0	188	1187	бенни	conj	1185	PROPN	PROP	Singular	Not_Assigned	3
+oldlady	4	1202	1203	PER	старая барыня	6582	6595	старая барыня	2	42	45	9	0	0	0	189	1203	барыня	nsubj	1204	NOUN	NOM	Not_Assigned	Not_Assigned	3
+NichiporenkoBenni	2	1206	1206	PER	Нам	6612	6615	нам	1	43	46	0	0	0	0	190	1206	нам	iobj	1209	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T191	17	1208	1208	PER	они	6619	6622	они	1	43	46	2	0	0	0	191	1208	они	nsubj	1209	PRON	PRON	Not_Assigned	Not_Assigned	3
+people	3	1212	1212	PER	народ	6635	6640	народ	1	43	46	6	0	0	0	192	1212	народ	nsubj	1213	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Benni	1	1215	1215	PER	Бенни	6649	6654	бенни	1	44	47	0	0	0	0	193	1215	бенни	nsubj	1216	PROPN	PROP	Singular	Not_Assigned	3
+Nichiporenko	0	1221	1222	PER	своего спутника	6686	6701	своего спутника	2	44	47	6	0	1	1	194	1222	спутника	obl	1219	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Benni	1	1221	1221	PER	своего	6686	6692	своего	1	44	47	6	1	0	0	195	1221	своего	det	1222	DET	PRON	Not_Assigned	Not_Assigned	3
+Benni	1	1232	1232	PER	Бенни	6758	6763	бенни	1	45	48	6	0	0	0	196	1232	бенни	nmod	1231	PROPN	PROP	Singular	Not_Assigned	3
+Benni	1	1251	1251	PER	его	6887	6890	его	1	45	48	25	0	0	0	197	1251	его	obj	1256	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T198	60	1269	1270	PER	очень многие	6993	7005	очень многие	2	46	49	3	0	0	0	198	1270	многие	nsubj	1268	ADJ	NOM	Not_Assigned	Not_Assigned	3
+Nichiporenko	0	1273	1273	PER	Ничипоренко	7011	7022	ничипоренко	1	46	49	7	0	0	0	199	1273	ничипоренко	nsubj:pass	1276	PROPN	PROP	Singular	Not_Assigned	3
+Benni	1	1281	1281	PER	Бенни	7074	7079	бенни	1	46	49	15	0	0	0	200	1281	бенни	nmod	1280	PROPN	PROP	Singular	Not_Assigned	3
+Nichiporenko	0	1286	1286	PER	Он	7100	7102	он	1	47	50	0	0	0	0	201	1286	он	nsubj	1287	PRON	PRON	Not_Assigned	Not_Assigned	3
+Benni	1	1288	1288	PER	Бенни	7109	7114	бенни	1	47	50	2	0	0	0	202	1288	бенни	obj	1287	PROPN	PROP	Singular	Not_Assigned	3
+doctor	14	1293	1293	PER	доктором	7133	7141	доктором	1	47	50	7	0	0	0	203	1293	доктором	obl	1291	NOUN	NOM	Not_Assigned	Not_Assigned	3
+doctor	14	1296	1296	PER	доктор	7154	7160	доктор	1	48	51	1	0	0	0	204	1296	доктор	nsubj	1297	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Benni	1	1299	1299	PER	Бенни	7175	7180	бенни	1	48	51	4	0	0	0	205	1299	бенни	obj	1298	PROPN	PROP	Singular	Not_Assigned	3
+T206	64	1305	1311	PER	фельдшера, который должен был открыть жилу	7205	7247	фельдшера , который должен был открыть жилу	7	48	51	10	0	0	0	206	1308	должен	acl:relcl	1305	ADJ	NOM	Not_Assigned	Not_Assigned	3
+Benni	1	1313	1313	PER	больной	7249	7256	больной	1	48	51	18	0	0	0	207	1313	больной	nsubj	1314	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Nichiporenko	0	1318	1318	PER	Ничипоренко	7273	7284	ничипоренко	1	49	52	0	0	0	0	208	1318	ничипоренко	nsubj:pass	1322	PROPN	PROP	Singular	Not_Assigned	3
+Nichiporenko	0	1324	1324	PER	он	7317	7319	он	1	49	52	6	0	0	0	209	1324	он	nsubj	1325	PRON	PRON	Not_Assigned	Not_Assigned	3
+Benni	1	1327	1327	PER	Бенни	7335	7340	бенни	1	49	52	9	0	0	0	210	1327	бенни	obl	1325	PROPN	PROP	Singular	Not_Assigned	3
+Nichiporenko	0	1332	1332	PER	своим	7359	7364	своим	1	49	52	14	0	0	0	211	1332	своим	det	1334	DET	PRON	Not_Assigned	Not_Assigned	3
+NichiporenkoBenni	2	1337	1337	PER	Нам	7389	7392	нам	1	50	53	1	0	0	0	212	1337	нам	iobj	1338	PRON	PRON	Not_Assigned	Not_Assigned	3
+people	3	1339	1339	PER	народ	7399	7404	народ	1	50	53	3	0	0	0	213	1339	народ	nsubj	1338	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T191	17	1342	1342	PER	они	7411	7414	они	1	51	54	1	0	0	0	214	1342	они	ROOT	1342	PRON	PRON	Not_Assigned	Not_Assigned	3
+people	3	1345	1345	PER	народ	7418	7423	народ	1	51	54	4	0	0	0	215	1345	народ	conj	1342	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Nichiporenko	0	1347	1347	PER	Я	7426	7427	я	1	52	55	0	0	0	0	216	1347	я	nsubj	1349	PRON	PRON	Not_Assigned	Not_Assigned	3
+NichiporenkoBenni	2	1352	1352	PER	нам	7453	7456	нам	1	52	55	5	0	0	0	217	1352	нам	iobj	1353	PRON	PRON	Not_Assigned	Not_Assigned	3
+people	3	1354	1354	PER	народ	7463	7468	народ	1	52	55	7	0	0	0	218	1354	народ	nsubj	1353	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Benni	1	1357	1357	PER	Бенни	7485	7490	бенни	1	53	56	1	0	0	0	219	1357	бенни	nsubj	1358	PROPN	PROP	Singular	Not_Assigned	3
+Nichiporenko	0	1360	1360	PER	ним	7503	7506	ним	1	53	56	4	0	0	0	220	1360	ним	obl	1358	PRON	PRON	Not_Assigned	Not_Assigned	3
+people	3	1363	1363	PER	народ	7511	7516	народ	1	53	56	7	0	0	0	221	1363	народ	parataxis	1358	NOUN	NOM	Not_Assigned	Not_Assigned	3
+people	3	1368	1368	PER	народ	7530	7535	народ	1	54	57	2	0	0	0	222	1368	народ	obj	1358	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Nichiporenko	0	1372	1372	PER	Ничипоренко	7550	7561	ничипоренко	1	54	58	2	0	0	0	223	1372	ничипоренко	nsubj	1371	PROPN	PROP	Singular	Not_Assigned	3
+NichiporenkoBenni	2	1376	1376	PER	мы	7568	7570	мы	1	55	59	2	0	0	0	224	1376	мы	nsubj	1377	PRON	PRON	Not_Assigned	Not_Assigned	3
+people	3	1380	1380	PER	народу	7585	7591	народу	1	55	59	6	0	0	0	225	1380	народу	obl	1378	NOUN	NOM	Not_Assigned	Not_Assigned	3
+NichiporenkoBenni	2	1383	1383	PER	мы	7595	7597	мы	1	55	59	9	0	0	0	226	1383	мы	nsubj	1384	PRON	PRON	Not_Assigned	Not_Assigned	3
+people	3	1387	1387	PER	ним	7615	7618	ним	1	55	59	13	0	0	0	227	1387	ним	obl	1385	PRON	PRON	Not_Assigned	Not_Assigned	3
+Benni	1	1389	1389	PER	Бенни	7621	7626	бенни	1	56	60	0	0	0	0	228	1389	бенни	nsubj	1390	PROPN	PROP	Singular	Not_Assigned	3
+Nichiporenko	0	1392	1392	PER	него	7638	7642	него	1	56	60	3	0	0	0	229	1392	него	obl	1390	PRON	PRON	Not_Assigned	Not_Assigned	3
+Benni	1	1397	1397	PER	вы	7658	7660	вы	1	57	61	2	0	0	0	230	1397	вы	nsubj	1398	PRON	PRON	Not_Assigned	Not_Assigned	3
+Nichiporenko	0	1408	1408	PER	Ничипоренко	7714	7725	ничипоренко	1	58	63	6	0	0	0	231	1408	ничипоренко	nsubj	1403	PROPN	PROP	Singular	Not_Assigned	3
+Nichiporenko	0	1411	1411	PER	Я	7730	7731	я	1	59	64	1	0	0	0	232	1411	я	nsubj	1413	PRON	PRON	Not_Assigned	Not_Assigned	3
+Benni	1	1412	1412	PER	вам	7732	7735	вам	1	59	64	2	0	0	0	233	1412	вам	iobj	1413	PRON	PRON	Not_Assigned	Not_Assigned	3
+Benni	1	1416	1416	PER	вы	7749	7751	вы	1	59	64	6	0	0	0	234	1416	вы	nsubj	1419	PRON	PRON	Not_Assigned	Not_Assigned	3
+people	3	1418	1418	PER	народе	7754	7760	народе	1	59	64	8	0	0	0	235	1418	народе	obl	1419	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Benni	1	1432	1432	PER	Бенни	7823	7828	бенни	1	61	66	0	0	0	0	236	1432	бенни	nsubj	1433	PROPN	PROP	Singular	Not_Assigned	3
+NichiporenkoBenni	2	1437	1437	PER	они	7843	7846	они	1	61	66	5	0	0	0	237	1437	они	nsubj	1438	PRON	PRON	Not_Assigned	Not_Assigned	3
+Nichiporenko	0	1442	1442	PER	Ментор	7874	7880	ментор	1	63	68	0	0	0	0	238	1442	ментор	nsubj	1443	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Benni	1	1445	1445	PER	Телемака	7892	7900	телемака	1	63	68	3	0	0	0	239	1445	телемака	obj	1443	PROPN	PROP	Singular	Not_Assigned	3
+FAC_T242	23	1447	1447	FAC	ярмарку	7904	7911	ярмарку	1	63	68	5	0	0	0	240	1447	ярмарку	obl	1443	NOUN	NOM	Not_Assigned	Not_Assigned	3
+NichiporenkoBenni	2	1459	1459	PER	Они	7975	7978	они	1	64	69	0	0	0	0	241	1459	они	nsubj	1460	PRON	PRON	Not_Assigned	Not_Assigned	3
+people	3	1463	1463	PER	народом	7995	8002	народом	1	64	69	4	0	0	0	242	1463	народом	obl	1461	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Nichiporenko	0	1465	1465	PER	Ничипоренко	8005	8016	ничипоренко	1	65	70	0	0	0	0	243	1465	ничипоренко	nsubj	1467	PROPN	PROP	Singular	Not_Assigned	3
+Nichiporenko	0	1469	1469	PER	свою	8030	8034	свою	1	65	70	4	0	0	0	244	1469	свою	det	1470	DET	PRON	Not_Assigned	Not_Assigned	3
+Nichiporenko	0	1471	1471	PER	руководителя	8040	8052	руководителя	1	65	70	6	0	0	0	245	1471	руководителя	nmod	1470	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Benni	1	1475	1475	PER	Бенни	8070	8075	бенни	1	65	70	10	0	0	0	246	1475	бенни	obj	1474	PROPN	PROP	Singular	Not_Assigned	3
+people	3	1481	1482	PER	русским народом	8100	8115	русским народом	2	65	70	16	0	0	0	247	1482	народом	obl	1479	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Nichiporenko	0	1488	1488	PER	свое	8132	8136	свое	1	65	70	23	0	0	0	248	1488	свое	det	1489	DET	PRON	Not_Assigned	Not_Assigned	3
+Nichiporenko	0	1491	1491	PER	он	8148	8150	он	1	65	70	26	0	0	0	249	1491	он	nsubj	1495	PRON	PRON	Not_Assigned	Not_Assigned	3
+Nichiporenko	0	1498	1498	PER	он	8180	8182	он	1	65	70	33	0	0	0	250	1498	он	nsubj	1502	PRON	PRON	Not_Assigned	Not_Assigned	3
+Nichiporenko	0	1500	1500	PER	сам	8185	8188	сам	1	65	70	35	0	0	0	251	1500	сам	amod	1498	ADJ	NOM	Not_Assigned	Not_Assigned	3
+Nichiporenko	0	1511	1511	PER	он	8228	8230	он	1	66	71	2	0	0	0	252	1511	он	nsubj	1512	PRON	PRON	Not_Assigned	Not_Assigned	3
+Yakushkin	6	1515	1516	PER	Павел Якушкин	8243	8256	павел якушкин	2	66	71	6	0	0	0	253	1515	павел	nsubj	1517	PROPN	PROP	Singular	Not_Assigned	3
+T256	37	1519	1519	PER	прислугою	8273	8282	прислугою	1	66	71	10	0	0	0	254	1519	прислугою	obl	1517	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Nichiporenko	0	1523	1523	PER	он	8291	8293	он	1	66	71	14	0	0	0	255	1523	он	nsubj	1522	PRON	PRON	Not_Assigned	Not_Assigned	3
+Yakushkin	6	1527	1528	PER	Павел Якушкин	8302	8315	павел якушкин	2	66	71	18	0	0	0	256	1527	павел	ccomp	1522	PROPN	PROP	Singular	Not_Assigned	3
+Yakushkin	6	1534	1534	PER	мужик	8343	8348	мужик	1	66	71	25	0	0	0	257	1534	мужик	conj	1512	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Nichiporenko	0	1538	1538	PER	он	8359	8361	он	1	66	71	29	0	0	0	258	1538	он	nsubj	1541	PRON	PRON	Not_Assigned	Not_Assigned	3
+Nichiporenko	0	1552	1552	PER	ему	8427	8430	ему	1	66	71	43	0	0	0	259	1552	ему	iobj	1553	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T262	63	1554	1554	PER	ямщик	8441	8446	ямщик	1	66	71	45	0	0	0	260	1554	ямщик	nsubj	1553	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Yakushkin	6	1559	1559	PER	Якушкину	8471	8479	якушкину	1	66	71	50	0	0	0	261	1559	якушкину	iobj	1558	PROPN	PROP	Singular	Not_Assigned	3
+Yakushkin	6	1566	1566	PER	табе	8499	8503	табе	1	67	72	5	0	0	0	262	1566	табе	obl	1563	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Yakushkin	6	1570	1570	PER	ты	8517	8519	ты	1	68	73	1	0	0	0	263	1570	ты	nsubj	1571	PRON	PRON	Not_Assigned	Not_Assigned	3
+Yakushkin	6	1571	1571	PER	мужик	8520	8525	мужик	1	68	73	2	0	0	0	264	1571	мужик	ROOT	1571	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Yakushkin	6	1573	1573	PER	табе	8527	8531	табе	1	68	73	4	0	0	0	265	1573	табе	conj	1571	ADP	PRON	Not_Assigned	Not_Assigned	3
+M5	45	1578	1578	PER	мужики	8554	8560	мужики	1	69	74	1	0	0	0	266	1578	мужики	nsubj	1582	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Nichiporenko	0	1584	1584	PER	Ничипоренко	8578	8589	ничипоренко	1	70	75	0	0	0	0	267	1584	ничипоренко	nsubj	1586	ADV	PROP	Singular	Not_Assigned	3
+Nichiporenko	0	1588	1588	PER	себя	8609	8613	себя	1	70	75	4	0	0	0	268	1588	себя	obl	1586	PRON	PRON	Not_Assigned	Not_Assigned	3
+Nichiporenko	0	1600	1600	PER	своему	8686	8692	своему	1	70	75	16	0	0	0	269	1600	своему	det	1601	DET	PRON	Not_Assigned	Not_Assigned	3
+Nichiporenko	0	1605	1605	PER	он	8706	8708	он	1	70	75	21	0	0	0	270	1605	он	nsubj	1606	PRON	PRON	Not_Assigned	Not_Assigned	3
+Nichiporenko	0	1610	1610	PER	его	8724	8727	его	1	70	75	26	0	0	0	271	1610	его	det	1616	PRON	PRON	Not_Assigned	Not_Assigned	3
+FAC_T275	24	1618	1633	FAC	небольшой чистенький домик с дверями, украшенными изображением чайника, графина, рюмок и чайных чашек	8781	8882	небольшой чистенький домик с дверями , украшенными изображением чайника , графина , рюмок и чайных чашек	16	70	75	34	0	0	0	272	1620	домик	nsubj	1617	NOUN	NOM	Not_Assigned	Not_Assigned	3
+FAC_T275	24	1638	1638	FAC	домика	8905	8911	домика	1	71	76	3	0	0	0	273	1638	домика	nmod	1637	NOUN	NOM	Not_Assigned	Not_Assigned	3
+FAC_T276	12	1643	1644	FAC	Белая харчевня	8929	8943	белая харчевня	2	71	76	8	0	0	0	274	1644	харчевня	parataxis	1640	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Nichiporenko	0	1651	1651	PER	Ничипоренко	8964	8975	ничипоренко	1	72	77	4	0	0	0	275	1651	ничипоренко	nsubj	1652	PROPN	PROP	Singular	Not_Assigned	3
+Benni	1	1655	1655	PER	Бенни	8994	8999	бенни	1	72	77	8	0	0	0	276	1655	бенни	nsubj	1656	PROPN	PROP	Singular	Not_Assigned	3
+Benni	1	1664	1664	PER	вы	9044	9046	вы	1	73	78	2	0	0	0	277	1664	вы	nsubj	1662	PRON	PRON	Not_Assigned	Not_Assigned	3
+Benni	1	1668	1668	PER	его	9059	9062	его	1	73	79	2	0	0	0	278	1668	его	obj	1667	PRON	PRON	Not_Assigned	Not_Assigned	3
+Nichiporenko	0	1669	1669	PER	Ничипоренко	9063	9074	ничипоренко	1	73	79	3	0	0	0	279	1669	ничипоренко	nsubj	1667	PROPN	PROP	Singular	Not_Assigned	3
+Benni	1	1671	1671	PER	Бенни	9077	9082	бенни	1	74	80	0	0	0	0	280	1671	бенни	iobj	1674	PROPN	PROP	Singular	Not_Assigned	3
+marchands	11	1685	1708	PER	обогнавших их трех купцов, которые шли, жарко между собою разговаривая и перекидывая друг другу с рук на руки какой-то образчик	9138	9265	обогнавших их трех купцов , которые шли , жарко между собою разговаривая и перекидывая друг другу с рук на руки какой - то образчик	24	74	80	14	0	1	3	281	1691	шли	acl:relcl	1688	VERB	NOM	Not_Assigned	Not_Assigned	3
+NichiporenkoBenni	2	1686	1686	PER	их	9149	9151	их	1	74	80	15	1	0	0	282	1686	их	obj	1685	PRON	PRON	Not_Assigned	Not_Assigned	3
+marchands	11	1695	1695	PER	собою	9190	9195	собою	1	74	80	24	1	0	0	283	1695	собою	obl	1696	PRON	PRON	Not_Assigned	Not_Assigned	3
+marchands	11	1699	1700	PER	друг другу	9223	9233	друг другу	2	74	80	28	1	0	0	284	1699	друг	iobj	1698	PRON	PRON	Not_Assigned	Not_Assigned	3
+onemarchand	5	1710	1713	PER	Один из этих купцов	9268	9287	один из этих купцов	4	75	81	0	0	1	1	285	1710	один	ROOT	1710	NUM	NOM	Not_Assigned	Not_Assigned	3
+marchands	11	1713	1713	PER	купцов	9281	9287	купцов	1	75	81	3	1	0	0	286	1713	купцов	nmod	1710	NOUN	NOM	Not_Assigned	Not_Assigned	3
+onemarchand	5	1726	1748	PER	"тот самый сибирский революционер, который сманил Бенни из Лондона и сказал ему в Берлине : "" ступай, немчик, назад """	9337	9453	"тот самый сибирский революционер , который сманил бенни из лондона и сказал ему в берлине : "" ступай , немчик , назад """	23	75	82	3	0	1	5	287	1732	сманил	acl:relcl	1729	VERB	PROP	Singular	Not_Assigned	3
+Benni	1	1733	1733	PER	Бенни	9386	9391	бенни	1	75	82	10	1	0	0	288	1733	бенни	obj	1732	PROPN	PROP	Singular	Not_Assigned	3
+GPE_T290	34	1735	1735	GPE	Лондона	9395	9402	лондона	1	75	82	12	1	0	0	289	1735	лондона	obl	1732	PROPN	PROP	Not_Assigned	Not_Assigned	3
+Benni	1	1738	1738	PER	ему	9412	9415	ему	1	75	82	15	1	0	0	290	1738	ему	iobj	1737	PRON	PRON	Not_Assigned	Not_Assigned	3
+GPE_T292	33	1740	1740	GPE	Берлине	9418	9425	берлине	1	75	82	17	1	0	0	291	1740	берлине	obl	1737	PROPN	PROP	Not_Assigned	Not_Assigned	3
+Benni	1	1745	1745	PER	немчик	9438	9444	немчик	1	75	82	22	1	0	0	292	1745	немчик	conj	1743	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Benni	1	1757	1757	PER	Бенни	9499	9504	бенни	1	76	83	7	0	0	0	293	1757	бенни	nmod	1756	PROPN	PROP	Singular	Not_Assigned	3
+Benni	1	1760	1760	PER	ему	9508	9511	ему	1	76	83	10	0	0	0	294	1760	ему	iobj	1761	PRON	PRON	Not_Assigned	Not_Assigned	3
+onemarchand	5	1771	1771	PER	ему	9553	9556	ему	1	77	84	2	0	0	0	295	1771	ему	iobj	1773	PRON	PRON	Not_Assigned	Not_Assigned	3
+Benni	1	1776	1776	PER	я	9580	9581	я	1	77	84	7	0	0	0	296	1776	я	nsubj	1775	PRON	PRON	Not_Assigned	Not_Assigned	3
+Benni	1	1782	1782	PER	Бенни	9608	9613	бенни	1	77	84	13	0	0	0	297	1782	бенни	nsubj	1781	PROPN	PROP	Singular	Not_Assigned	3
+onemarchand	5	1785	1785	PER	Он	9618	9620	он	1	78	85	1	0	0	0	298	1785	он	nsubj	1794	PRON	PRON	Not_Assigned	Not_Assigned	3
+Benni	1	1789	1789	PER	мною	9635	9639	мною	1	78	85	5	0	0	0	299	1789	мною	obl	1787	PRON	PRON	Not_Assigned	Not_Assigned	3
+onemarchand	5	1797	1797	PER	ему	9673	9676	ему	1	78	85	13	0	0	0	300	1797	ему	iobj	1798	PRON	PRON	Not_Assigned	Not_Assigned	3
+onemarchand	5	1801	1801	PER	его	9690	9693	его	1	78	85	17	0	0	0	301	1801	его	det	1802	DET	PRON	Not_Assigned	Not_Assigned	3
+Benni	1	1811	1811	PER	я	9729	9730	я	1	78	85	27	0	0	0	302	1811	я	nsubj	1813	PRON	PRON	Not_Assigned	Not_Assigned	3
+onemarchand	5	1830	1830	PER	Он	9810	9812	он	1	79	86	0	0	0	0	303	1830	он	nsubj	1831	PRON	PRON	Not_Assigned	Not_Assigned	3
+Benni	1	1834	1834	PER	меня	9834	9838	меня	1	79	86	4	0	0	0	304	1834	меня	obl	1831	PRON	PRON	Not_Assigned	Not_Assigned	3
+Benni	1	1837	1837	PER	меня	9846	9850	меня	1	79	86	7	0	0	0	305	1837	меня	obj	1839	PRON	PRON	Not_Assigned	Not_Assigned	3
+onemarchand	5	1843	1843	PER	он	9877	9879	он	1	80	87	2	0	0	0	306	1843	он	nsubj	1842	PRON	PRON	Not_Assigned	Not_Assigned	3
+Benni	1	1844	1844	PER	меня	9880	9884	меня	1	80	87	3	0	0	0	307	1844	меня	obj	1842	PRON	PRON	Not_Assigned	Not_Assigned	3
+onemarchand	5	1847	1847	PER	он	9890	9892	он	1	80	87	6	0	0	0	308	1847	он	nsubj	1849	PRON	PRON	Not_Assigned	Not_Assigned	3
+Benni	1	1848	1848	PER	меня	9893	9897	меня	1	80	87	7	0	0	0	309	1848	меня	obj	1849	PRON	PRON	Not_Assigned	Not_Assigned	3
+Benni	1	1854	1854	PER	Бенни	9924	9929	бенни	1	81	88	3	0	0	0	310	1854	бенни	nsubj	1855	PROPN	PROP	Singular	Not_Assigned	3
+onemarchand	5	1861	1861	PER	купец	9961	9966	купец	1	81	88	10	0	0	0	311	1861	купец	appos	1859	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Benni	1	1874	1874	PER	Бенни	10042	10047	бенни	1	81	88	23	0	0	0	312	1874	бенни	nsubj	1873	PROPN	PROP	Singular	Not_Assigned	3
+FAC_T276	12	1885	1886	PER	Белой харчевни	10097	10111	белой харчевни	2	82	89	4	0	0	0	313	1886	харчевни	nmod	1883	NOUN	NOM	Not_Assigned	Not_Assigned	3
+people	3	1904	1905	PER	большой толпы	10181	10194	большой толпы	2	82	89	23	0	0	0	314	1905	толпы	nmod	1903	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Benni	1	1915	1915	PER	Бенни	10252	10257	бенни	1	83	90	0	0	0	0	315	1915	бенни	nsubj	1916	PROPN	PROP	Singular	Not_Assigned	3
+FAC_T276	12	1921	1921	PER	харчевню	10283	10291	харчевню	1	83	90	6	0	0	0	316	1921	харчевню	obl	1919	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Nichiporenko	0	1930	1930	PER	Ничипоренко	10328	10339	ничипоренко	1	84	91	0	0	0	0	317	1930	ничипоренко	nsubj	1931	PROPN	PROP	Singular	Not_Assigned	3
+Benni	1	1935	1935	PER	вы	10359	10361	вы	1	85	92	2	0	0	0	318	1935	вы	nsubj	1933	PRON	PRON	Not_Assigned	Not_Assigned	3
+Nichiporenko	0	1939	1939	PER	он	10376	10378	он	1	85	93	2	0	0	0	319	1939	он	nsubj	1938	PRON	PRON	Not_Assigned	Not_Assigned	3
+people	3	1953	1953	PER	народ	10439	10444	народ	1	87	95	8	0	0	0	320	1953	народ	conj	1945	NOUN	NOM	Not_Assigned	Not_Assigned	3
+people	3	1969	1970	PER	русский народ	10497	10510	русский народ	2	89	97	6	0	0	0	321	1970	народ	conj	1960	NOUN	NOM	Not_Assigned	Not_Assigned	3
+NichiporenkoBenni	2	1974	1974	PER	Они	10525	10528	они	1	91	99	0	0	0	0	322	1974	они	nsubj	1975	PRON	PRON	Not_Assigned	Not_Assigned	3
+FAC_T276	12	1977	1977	FAC	харчевню	10537	10545	харчевню	1	91	99	3	0	0	0	323	1977	харчевню	obl	1975	NOUN	NOM	Not_Assigned	Not_Assigned	3
+NichiporenkoBenni	2	1981	1982	PER	Оба агитатора	10569	10582	оба агитатора	2	93	101	0	0	0	0	324	1982	агитатора	nsubj:pass	1984	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Nichiporenko	0	1989	1989	PER	Ничипоренке	10620	10631	ничипоренке	1	93	101	8	0	0	0	325	1989	ничипоренке	obl	1990	PROPN	PROP	Singular	Not_Assigned	3
+Nichiporenko	0	2004	2004	PER	Ничипоренко	10735	10746	ничипоренко	1	93	101	23	0	0	0	326	2004	ничипоренко	nsubj	2010	PROPN	PROP	Singular	Not_Assigned	3
+Nichiporenko	0	2006	2006	PER	его	10749	10752	его	1	93	101	25	0	0	0	327	2006	его	det	2007	DET	PRON	Not_Assigned	Not_Assigned	3
+Nichiporenko	0	2012	2012	PER	факельщика	10788	10798	факельщика	1	93	101	31	0	0	0	328	2012	факельщика	obl	2010	NOUN	NOM	Not_Assigned	Not_Assigned	3
+GPE_T68	26	2020	2020	GPE	Петербурге	10835	10845	петербурге	1	93	101	39	0	0	0	329	2020	петербурге	obl	2018	PROPN	PROP	Not_Assigned	Not_Assigned	3
+Benni	1	2025	2025	PER	Бенни	10854	10859	бенни	1	93	101	44	0	0	0	330	2025	бенни	obl	2026	PROPN	PROP	Singular	Not_Assigned	3
+T332	16	2052	2053	PER	королевы Виктории	11028	11045	королевы виктории	2	93	101	71	0	0	0	331	2052	королевы	nmod	2051	NOUN	PROP	Singular	Not_Assigned	3
+T332	16	2054	2059	PER	R. V. ( Regina Victoria )	11046	11071	r. v. ( regina victoria )	6	93	101	73	0	0	0	332	2057	regina	appos	2053	PROPN	PROP	Singular	Female	3

@@ -1,0 +1,306 @@
+COREF_name	COREF	start_token	end_token	cat	sacr_text	byte_onset	byte_offset	text	mention_len	paragraph_ID	sentence_ID	start_token_ID_within_sentence	out_to_in_nested_level	in_to_out_nested_level	nested_entities_count	temp_index	head_id	head_word	head_dependency_relation	head_syntactic_head_ID	POS_tag	prop	number	gender	grammatical_person
+Znamenski	5	5	5	PER	свои	24	28	свои	1	0	0	5	0	0	0	0	5	свои	det	6	DET	PRON	Not_Assigned	Not_Assigned	3
+Znamenski	5	8	9	PER	г. Знаменский	37	50	г. знаменский	2	0	0	8	0	0	0	1	8	г.	nsubj	10	NOUN	PROP	Singular	Not_Assigned	3
+Anfisa	3	12	13	PER	Анфисой Ивановной	66	83	анфисой ивановной	2	0	0	12	0	0	0	2	12	анфисой	obl	10	PROPN	PROP	Singular	Not_Assigned	3
+Znamenski	5	21	21	PER	его	117	120	его	1	0	0	21	0	0	0	3	21	его	det	22	DET	PRON	Not_Assigned	Not_Assigned	3
+FAC_T4	31	28	32	FAC	дороге ведущей в село Рычи	147	173	дороге ведущей в село рычи	5	0	0	28	0	1	1	4	28	дороге	obl	26	NOUN	PROP	Not_Assigned	Not_Assigned	3
+GPE_T5	48	31	32	GPE	село Рычи	164	173	село рычи	2	0	0	31	1	0	0	5	31	село	nmod	28	NOUN	PROP	Not_Assigned	Not_Assigned	3
+Anfisa	3	38	39	PER	Анфису Ивановну	207	222	анфису ивановну	2	1	1	4	0	0	0	6	38	анфису	obl	36	PROPN	PROP	Singular	Not_Assigned	3
+medic	11	44	45	PER	фельдшером Нирьютом	267	286	фельдшером нирьютом	2	1	1	10	0	0	0	7	44	фельдшером	obl:agent	43	NOUN	PROP	Singular	Not_Assigned	3
+Anfisa	3	49	49	PER	старушка	296	304	старушка	1	1	1	15	0	0	0	8	49	старушка	nsubj	51	NOUN	NOM	Not_Assigned	Not_Assigned	3
+FAC_T9	69	62	62	FAC	сад	380	383	сад	1	1	1	28	0	0	0	9	62	сад	obl	63	NOUN	NOM	Not_Assigned	Not_Assigned	3
+T10	34	65	65	PER	Брагиным	398	406	брагиным	1	1	1	31	0	0	0	10	65	брагиным	obl	63	PROPN	PROP	Singular	Not_Assigned	3
+Melitina	4	74	75	PER	Мелитина Петровна	450	467	мелитина петровна	2	2	2	3	0	0	0	11	74	мелитина	nsubj	73	PROPN	PROP	Singular	Not_Assigned	3
+Anfisa	3	78	79	PER	тетк е	480	486	тетк е	2	2	2	7	0	0	0	12	78	тетк	obj	77	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Melitina	4	84	84	PER	ей	508	510	ей	1	2	2	13	0	0	0	13	84	ей	iobj	85	PRON	PRON	Not_Assigned	Not_Assigned	3
+Znamenski	5	86	86	PER	Знаменский	522	532	знаменский	1	2	2	15	0	0	0	14	86	знаменский	nsubj	85	PROPN	PROP	Singular	Not_Assigned	3
+Melitina	4	89	89	PER	ее	544	546	ее	1	2	2	18	0	0	0	15	89	ее	obj	88	PRON	PRON	Not_Assigned	Not_Assigned	3
+LOC_T16	52	91	91	LOC	поля	553	557	поля	1	2	2	20	0	0	0	16	91	поля	obl	88	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Melitina	4	95	95	PER	ее	569	571	ее	1	2	2	24	0	0	0	17	95	ее	obj	94	PRON	PRON	Not_Assigned	Not_Assigned	3
+Melitina	4	103	103	PER	ей	605	607	ей	1	2	2	32	0	0	0	18	103	ей	iobj	102	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T19	16	116	118	PER	авторов этих статей	679	698	авторов этих статей	3	2	2	45	0	0	0	19	118	статей	nmod	116	NOUN	NOM	Not_Assigned	Not_Assigned	3
+GPE_T20	58	123	123	GPE	Грачевка	718	726	грачевка	1	2	2	52	0	0	0	20	123	грачевка	nsubj	125	PROPN	PROP	Not_Assigned	Not_Assigned	3
+GPE_T21	56	125	125	GPE	Норвегия	730	738	норвегия	1	2	2	54	0	0	0	21	125	норвегия	obj	121	PROPN	PROP	Not_Assigned	Not_Assigned	3
+LOC_T22	53	128	129	LOC	Оркнейские острова	743	761	оркнейские острова	2	2	2	57	0	0	0	22	129	острова	conj	125	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Znamenski	5	132	132	PER	он	767	769	он	1	2	2	61	0	0	0	23	132	он	nsubj	134	PRON	PRON	Not_Assigned	Not_Assigned	3
+T24	37	134	135	PER	капитан Древар	773	787	капитан древар	2	2	2	63	0	0	0	24	134	капитан	parataxis	114	NOUN	PROP	Singular	Not_Assigned	3
+T25	38	138	139	PER	епископ Понтопидаг	793	811	епископ понтопидаг	2	2	2	67	0	0	0	25	138	епископ	conj	134	NOUN	PROP	Singular	Not_Assigned	3
+Znamenski	5	142	143	PER	учитель Знаменский	815	833	учитель знаменский	2	2	2	71	0	0	0	26	142	учитель	discourse	141	NOUN	PROP	Singular	Not_Assigned	3
+Melitina	4	150	150	PER	ей	860	862	ей	1	2	2	79	0	0	0	27	150	ей	iobj	149	PRON	PRON	Not_Assigned	Not_Assigned	3
+Znamenski	5	159	159	PER	он	896	898	он	1	2	2	88	0	0	0	28	159	он	nsubj	160	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T19	16	161	165	PER	всех этих писателей искажающих истину	912	949	всех этих писателей искажающих истину	5	2	2	90	0	0	0	29	163	писателей	obj	160	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Melitina	4	172	172	PER	ты	966	968	ты	1	3	3	5	0	0	0	30	172	ты	nsubj	170	PRON	PRON	Not_Assigned	Not_Assigned	3
+Anfisa	3	175	176	PER	Анфиса Ивановна	980	995	анфиса ивановна	2	3	3	8	0	0	0	31	175	анфиса	nsubj	174	PROPN	PROP	Singular	Not_Assigned	3
+Melitina	4	180	180	PER	Я	1002	1003	я	1	4	4	2	0	0	0	32	180	я	nsubj	181	PRON	PRON	Not_Assigned	Not_Assigned	3
+Znamenski	5	182	182	PER	его	1013	1016	его	1	4	4	4	0	0	0	33	182	его	obj	181	PRON	PRON	Not_Assigned	Not_Assigned	3
+M3	57	183	185	PER	Дон-Кихотом	1017	1028	дон - кихотом	3	4	4	5	0	0	0	34	183	дон	iobj	181	PROPN	PROP	Singular	Not_Assigned	3
+Znamenski	5	188	188	PER	ему	1044	1047	ему	1	4	4	10	0	0	0	35	188	ему	iobj	187	PRON	PRON	Not_Assigned	Not_Assigned	3
+medic	11	191	192	PER	фельдшеру Нирьюту	1056	1073	фельдшеру нирьюту	2	4	4	13	0	0	0	36	191	фельдшеру	obl	189	NOUN	PROP	Singular	Not_Assigned	3
+Melitina	4	195	196	PER	Мелитина Петровна	1078	1095	мелитина петровна	2	5	5	1	0	0	0	37	195	мелитина	nsubj	199	PROPN	PROP	Singular	Not_Assigned	3
+Anfisa	3	205	205	PER	тетку	1150	1155	тетку	1	5	5	11	0	0	0	38	205	тетку	obj	204	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Anfisa	3	208	208	PER	ей	1166	1168	ей	1	5	5	14	0	0	0	39	208	ей	iobj	207	PRON	PRON	Not_Assigned	Not_Assigned	3
+Anfisa	3	219	220	PER	Анфиса Ивановна	1211	1226	анфиса ивановна	2	5	5	25	0	0	0	40	219	анфиса	nsubj	221	PROPN	PROP	Singular	Not_Assigned	3
+PER_T41	27	224	231	PER	какой-нибудь генерал тоже сражающийся в Сербии	1242	1288	какой - нибудь генерал тоже сражающийся в сербии	8	5	5	30	0	1	1	41	227	генерал	nsubj	221	NOUN	PROP	Singular	Not_Assigned	3
+GPE_T42	22	231	231	GPE	Сербии	1282	1288	сербии	1	5	5	37	1	0	0	42	231	сербии	obl	229	PROPN	PROP	Not_Assigned	Not_Assigned	3
+Melitina	4	234	235	PER	Мелитина Петровна	1299	1316	мелитина петровна	2	6	6	1	0	0	0	43	234	мелитина	nsubj	236	PROPN	PROP	Singular	Not_Assigned	3
+Anfisa	3	247	248	PER	Анфису Ивановну	1384	1399	анфису ивановну	2	6	6	14	0	0	0	44	247	анфису	iobj	246	PROPN	PROP	Singular	Not_Assigned	3
+Anfisa	3	250	250	PER	она	1404	1407	она	1	6	6	17	0	0	0	45	250	она	nsubj	251	PRON	PRON	Not_Assigned	Not_Assigned	3
+FAC_T46	28	275	275	FAC	дом	1546	1549	дом	1	6	6	42	0	0	0	46	275	дом	obl	276	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Melitina	4	286	287	PER	Анфисе Ивановне	1599	1614	анфисе ивановне	2	8	8	4	0	0	0	47	286	анфисе	obl	284	PROPN	PROP	Singular	Not_Assigned	3
+fatherIvan	0	288	289	PER	отец Иван	1615	1624	отец иван	2	8	8	6	0	0	0	48	288	отец	nsubj	284	NOUN	PROP	Singular	Not_Assigned	3
+Melitina	4	291	292	PER	Анфиса Ивановна	1627	1642	анфиса ивановна	2	9	9	0	0	0	0	49	291	анфиса	nsubj	294	PROPN	PROP	Singular	Not_Assigned	3
+fatherIvan	0	296	298	PER	своего любимого священника	1669	1695	своего любимого священника	3	9	9	5	0	1	1	50	298	священника	obj	295	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Melitina	4	296	296	PER	своего	1669	1675	своего	1	9	9	5	1	0	0	51	296	своего	det	298	DET	PRON	Not_Assigned	Not_Assigned	3
+fatherIvan	0	302	302	PER	его	1715	1718	его	1	9	9	11	0	0	0	52	302	его	obj	301	PRON	PRON	Not_Assigned	Not_Assigned	3
+fatherIvan	0	313	314	PER	Отец Иван	1772	1781	отец иван	2	10	10	0	0	0	0	53	313	отец	nsubj	315	NOUN	PROP	Singular	Not_Assigned	3
+Anfisa	3	316	317	PER	старух е	1790	1798	старух е	2	10	10	3	0	0	0	54	316	старух	obj	315	NOUN	NOM	Not_Assigned	Not_Assigned	3
+fatherIvan	0	319	319	PER	он	1803	1805	он	1	10	10	6	0	0	0	55	319	он	nsubj	320	PRON	PRON	Not_Assigned	Not_Assigned	3
+Anfisa	3	322	322	PER	ней	1815	1818	ней	1	10	10	9	0	0	0	56	322	ней	obl	320	PRON	PRON	Not_Assigned	Not_Assigned	3
+fatherIvan	0	327	327	PER	его	1839	1842	его	1	10	10	14	0	0	0	57	327	его	obj	328	PRON	PRON	Not_Assigned	Not_Assigned	3
+fatherIvan	0	335	335	PER	он	1871	1873	он	1	10	10	22	0	0	0	58	335	он	nsubj	337	PRON	PRON	Not_Assigned	Not_Assigned	3
+fatherIvan	0	340	340	PER	ему	1897	1900	ему	1	10	10	27	0	0	0	59	340	ему	iobj	339	PRON	PRON	Not_Assigned	Not_Assigned	3
+fatherIvan	0	347	347	PER	он	1926	1928	он	1	11	11	2	0	0	0	60	347	он	nsubj	348	PRON	PRON	Not_Assigned	Not_Assigned	3
+Anfisa	3	349	350	PER	старух е	1938	1946	старух е	2	11	11	4	0	0	0	61	349	старух	obj	348	NOUN	NOM	Not_Assigned	Not_Assigned	3
+fatherIvan	0	352	352	PER	ему	1951	1954	ему	1	11	11	7	0	0	0	62	352	ему	iobj	354	PRON	PRON	Not_Assigned	Not_Assigned	3
+fatherIvan	0	358	358	PER	он	1983	1985	он	1	11	11	13	0	0	0	63	358	он	nsubj	359	PRON	PRON	Not_Assigned	Not_Assigned	3
+fatherIvan	0	371	371	PER	он	2049	2051	он	1	11	11	26	0	0	0	64	371	он	nsubj	369	PRON	PRON	Not_Assigned	Not_Assigned	3
+Anfisa	3	379	380	PER	Анфиса Ивановна	2078	2093	анфиса ивановна	2	12	12	0	0	0	0	65	379	анфиса	nsubj	381	PROPN	PROP	Singular	Not_Assigned	3
+medic	11	384	385	PER	фельдшеру Нирьюту	2120	2137	фельдшеру нирьюту	2	12	12	5	0	0	0	66	384	фельдшеру	obl	382	NOUN	PROP	Singular	Not_Assigned	3
+fatherIvan	0	390	391	PER	отца Ивана	2153	2163	отца ивана	2	12	12	11	0	0	0	67	390	отца	obl	388	NOUN	PROP	Singular	Not_Assigned	3
+medic	11	395	395	PER	фельдшера	2183	2192	фельдшера	1	12	12	16	0	0	0	68	395	фельдшера	obj	396	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T69	15	401	402	PER	единственный врач	2215	2232	единственный врач	2	12	12	22	0	0	0	69	402	врач	nsubj	405	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T69	15	406	407	PER	милосердый Бог	2256	2270	милосердый бог	2	12	12	27	0	0	0	70	406	милосердый	nsubj	411	ADJ	PROP	Singular	Not_Assigned	3
+Anfisa	3	409	410	PER	Анфиса Ивановна	2272	2287	анфиса ивановна	2	12	12	30	0	0	0	71	409	анфиса	conj	406	PROPN	PROP	Singular	Not_Assigned	3
+fatherIvan	0	416	417	PER	отец Иван	2327	2336	отец иван	2	12	12	37	0	0	0	72	416	отец	nsubj	421	NOUN	PROP	Singular	Not_Assigned	3
+fatherIvan	0	429	429	PER	вами	2374	2378	вами	1	13	13	5	0	0	0	73	429	вами	nmod	426	PRON	PRON	Not_Assigned	Not_Assigned	3
+Anfisa	3	432	432	PER	старуха	2390	2397	старуха	1	13	13	8	0	0	0	74	432	старуха	nsubj	431	NOUN	NOM	Not_Assigned	Not_Assigned	3
+fatherIvan	0	436	437	PER	Отец Иван	2411	2420	отец иван	2	14	14	0	0	0	0	75	436	отец	nsubj	438	NOUN	PROP	Singular	Not_Assigned	3
+fatherIvan	0	444	444	PER	он	2458	2460	он	1	14	14	8	0	0	0	76	444	он	nsubj	443	PRON	PRON	Not_Assigned	Not_Assigned	3
+GPE_T186	21	446	446	GPE	Москвы	2464	2470	москвы	1	14	14	10	0	0	0	77	446	москвы	obl	443	PROPN	PROP	Not_Assigned	Not_Assigned	3
+PER_T78	29	448	450	PER	одного тамошнего священника	2474	2501	одного тамошнего священника	3	14	14	12	0	0	0	78	450	священника	obl	443	NOUN	NOM	Not_Assigned	Not_Assigned	3
+ORG_T79	59	461	461	ORG	семинарии	2549	2558	семинарии	1	14	14	25	0	0	0	79	461	семинарии	obl	459	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Anfisa	3	467	468	PER	Анфиса Ивановна	2587	2602	анфиса ивановна	2	15	15	0	0	0	0	80	467	анфиса	nsubj	469	PROPN	PROP	Singular	Not_Assigned	3
+fatherIvan	0	473	473	PER	ему	2627	2630	ему	1	15	15	6	0	0	0	81	473	ему	iobj	472	PRON	PRON	Not_Assigned	Not_Assigned	3
+fatherIvan	0	476	477	PER	отец Иван	2635	2644	отец иван	2	15	15	9	0	0	0	82	476	отец	nsubj	481	NOUN	PROP	Singular	Not_Assigned	3
+fatherIvan	0	486	486	PER	ему	2695	2698	ему	1	15	15	19	0	0	0	83	486	ему	iobj	487	PRON	PRON	Not_Assigned	Not_Assigned	3
+fatherIvan	0	490	490	PER	ему	2711	2714	ему	1	15	15	23	0	0	0	84	490	ему	iobj	491	PRON	PRON	Not_Assigned	Not_Assigned	3
+fatherIvan	0	496	496	PER	него	2732	2736	него	1	15	15	29	0	0	0	85	496	него	obl	497	PRON	PRON	Not_Assigned	Not_Assigned	3
+Anfisa	3	500	501	PER	Анфиса Ивановна	2754	2769	анфиса ивановна	2	16	16	0	0	0	0	86	500	анфиса	nsubj	502	PROPN	PROP	Singular	Not_Assigned	3
+FAC_T87	25	513	513	FAC	комнату	2842	2849	комнату	1	16	16	13	0	0	0	87	513	комнату	obl	514	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Melitina	4	515	516	PER	Мелитина Петровна	2856	2873	мелитина петровна	2	16	16	15	0	0	0	88	515	мелитина	nsubj	514	PROPN	PROP	Singular	Not_Assigned	3
+Anfisa	3	534	534	PER	теткой	2976	2982	теткой	1	17	17	6	0	0	0	89	534	теткой	obl	532	NOUN	NOM	Not_Assigned	Not_Assigned	3
+fatherIvan	0	537	538	PER	отцом Иваном	2987	2999	отцом иваном	2	17	17	9	0	0	0	90	537	отцом	conj	534	NOUN	PROP	Singular	Not_Assigned	3
+Melitina	4	540	541	PER	Мелитина Петровна	3001	3018	мелитина петровна	2	17	17	12	0	0	0	91	540	мелитина	nsubj	542	PROPN	PROP	Singular	Not_Assigned	3
+Anfisa	3	558	558	PER	старуха	3114	3121	старуха	1	18	18	9	0	0	0	92	558	старуха	nsubj	557	NOUN	NOM	Not_Assigned	Not_Assigned	3
+GPE_T99	19	570	570	GPE	Сербию	3157	3163	сербию	1	19	19	10	0	0	0	93	570	сербию	conj	557	PROPN	PROP	Not_Assigned	Not_Assigned	3
+Melitina	4	573	574	PER	Мелитина Петровна	3177	3194	мелитина петровна	2	19	19	13	0	0	0	94	573	мелитина	nsubj	572	PROPN	PROP	Singular	Not_Assigned	3
+serbianppl	20	578	578	PER	Сербы	3201	3206	сербы	1	20	21	0	0	0	0	95	578	сербы	nsubj	579	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T96	30	583	583	PER	Турок	3233	3238	турок	1	20	21	5	0	0	0	96	583	турок	obj	582	PROPN	PROP	Singular	Not_Assigned	3
+Anfisa	3	587	588	PER	Анфиса Ивановна	3251	3266	анфиса ивановна	2	21	22	0	0	0	0	97	587	анфиса	nsubj	589	PROPN	PROP	Singular	Not_Assigned	3
+Anfisa	3	593	593	PER	ей	3293	3295	ей	1	21	22	6	0	0	0	98	593	ей	iobj	597	PRON	PRON	Not_Assigned	Not_Assigned	3
+GPE_T99	19	606	606	GPE	Сербию	3367	3373	сербию	1	21	22	19	0	0	0	99	606	сербию	obl	598	PROPN	PROP	Not_Assigned	Not_Assigned	3
+Melitina	4	608	609	PER	Мелитина Петровна	3376	3393	мелитина петровна	2	22	23	0	0	0	0	100	608	мелитина	nsubj	610	PROPN	PROP	Singular	Not_Assigned	3
+T101	35	615	616	PER	генерал Черняев	3435	3450	генерал черняев	2	22	23	7	0	0	0	101	615	генерал	obl	613	NOUN	PROP	Singular	Not_Assigned	3
+FAC_T103	45	619	623	FAC	турецкий лагерь при Бабиной Главе	3464	3497	турецкий лагерь при бабиной главе	5	22	23	11	0	1	1	102	620	лагерь	obj	617	NOUN	PROP	Not_Assigned	Not_Assigned	3
+LOC_T102	51	622	623	LOC	Бабиной Главе	3484	3497	бабиной главе	2	22	23	14	1	0	0	103	623	главе	nmod	620	PROPN	PROP	Not_Assigned	Not_Assigned	3
+fatherIvan	0	625	626	PER	Отец Иван	3500	3509	отец иван	2	23	24	0	0	0	0	104	625	отец	nsubj	627	NOUN	PROP	Singular	Not_Assigned	3
+M2	18	642	642	PER	им	3588	3590	им	1	24	25	3	0	0	0	105	642	им	iobj	643	PRON	PRON	Not_Assigned	Not_Assigned	3
+fatherIvan	0	646	646	PER	он	3612	3614	он	1	24	25	7	0	0	0	106	646	он	nsubj	645	PRON	PRON	Not_Assigned	Not_Assigned	3
+M2	18	653	653	PER	им	3645	3647	им	1	25	26	5	0	0	0	107	653	им	iobj	652	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T108	60	656	657	PER	балканским христианам	3657	3678	балканским христианам	2	25	26	8	0	0	0	108	657	христианам	conj	653	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T109	61	666	668	PER	нашим русским добровольцам	3733	3759	нашим русским добровольцам	3	26	27	2	0	1	1	109	668	добровольцам	conj	664	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T117	17	666	666	PER	нашим	3733	3738	нашим	1	26	27	2	1	0	0	110	666	нашим	det	668	DET	PRON	Not_Assigned	Not_Assigned	3
+serbianppl	20	677	677	PER	Сербов	3804	3810	сербов	1	26	27	13	0	0	0	111	677	сербов	nmod	676	PROPN	PROP	Singular	Not_Assigned	3
+PER_T111	62	684	686	PER	всех турецких христиан	3843	3865	всех турецких христиан	3	27	28	5	0	0	0	112	686	христиан	nmod	683	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T112	71	709	710	PER	предки наши	3985	3996	предки наши	2	28	29	21	0	1	1	113	709	предки	nsubj	711	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T117	17	710	710	PER	наши	3992	3996	наши	1	28	29	22	1	0	0	114	710	наши	nsubj	711	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T113	63	717	717	PER	вас	4029	4032	вас	1	28	29	29	0	0	0	115	717	вас	obj	716	PRON	PRON	Not_Assigned	Not_Assigned	3
+husbandofMelitina	8	727	728	PER	мужа твоего	4084	4095	мужа твоего	2	29	30	4	0	1	1	116	727	мужа	obl	731	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Melitina	4	728	728	PER	твоего	4089	4095	твоего	1	29	30	5	1	0	0	117	728	твоего	det	729	DET	PRON	Not_Assigned	Not_Assigned	3
+Anfisa	3	734	735	PER	Анфиса Ивановна	4128	4143	анфиса ивановна	2	29	30	11	0	0	0	118	734	анфиса	nsubj	733	PROPN	PROP	Singular	Not_Assigned	3
+husbandofMelitina	8	739	740	PER	Муж мой	4150	4157	муж мой	2	30	31	2	0	1	1	119	739	муж	nsubj	742	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Melitina	4	740	740	PER	мой	4154	4157	мой	1	30	31	3	1	0	0	120	740	мой	det	742	DET	PRON	Not_Assigned	Not_Assigned	3
+husbandofMelitina	8	741	742	PER	мелкий офицер	4158	4171	мелкий офицер	2	30	31	4	0	0	0	121	742	офицер	nsubj	761	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Melitina	4	745	746	PER	Мелитина Петровна	4183	4200	мелитина петровна	2	30	31	8	0	0	0	122	745	мелитина	nsubj	744	PROPN	PROP	Singular	Not_Assigned	3
+husbandofMelitina	8	760	760	PER	он	4251	4253	он	1	31	32	5	0	0	0	123	760	он	nsubj	761	PRON	PRON	Not_Assigned	Not_Assigned	3
+Anfisa	3	770	770	PER	ее	4303	4305	ее	1	32	33	6	0	0	0	124	770	ее	obj	769	PRON	PRON	Not_Assigned	Not_Assigned	3
+Melitina	4	771	772	PER	Мелитина Петровна	4306	4323	мелитина петровна	2	32	33	7	0	0	0	125	771	мелитина	obj	769	PROPN	PROP	Singular	Not_Assigned	3
+T125	36	796	797	PER	Дарья Федоровна	4419	4434	дарья федоровна	2	34	36	7	0	0	0	126	796	дарья	nsubj	798	PROPN	PROP	Singular	Not_Assigned	3
+FAC_T126	44	803	803	FAC	дворе	4467	4472	дворе	1	34	36	14	0	0	0	127	803	дворе	obl	804	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Anfisa	3	808	809	PER	Анфиса Ивановна	4512	4527	анфиса ивановна	2	35	37	1	0	0	0	128	808	анфиса	appos	807	PROPN	PROP	Singular	Not_Assigned	3
+PER_T128	65	825	825	PER	станового	4625	4634	станового	1	35	37	18	0	0	0	129	825	станового	conj	823	ADJ	NOM	Not_Assigned	Not_Assigned	3
+PER_T129	66	828	828	PER	исправника	4640	4650	исправника	1	35	37	21	0	0	0	130	828	исправника	conj	811	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Anfisa	3	831	832	PER	Анфиса Ивановна	4660	4675	анфиса ивановна	2	35	37	24	0	0	0	131	831	анфиса	nsubj	835	PROPN	PROP	Singular	Not_Assigned	3
+fatherIvan	0	850	851	PER	отец Иван	4770	4779	отец иван	2	36	38	5	0	0	0	132	850	отец	nsubj	847	NOUN	PROP	Singular	Not_Assigned	3
+FAC_T132	43	856	856	FAC	передней	4791	4799	передней	1	36	38	11	0	0	0	133	856	передней	obl	857	ADJ	NOM	Not_Assigned	Not_Assigned	3
+fatherIvan	0	868	869	PER	отец Иван	4852	4861	отец иван	2	36	38	23	0	0	0	134	868	отец	nsubj	872	NOUN	PROP	Singular	Not_Assigned	3
+Potapych	6	876	876	PER	приехавшем	4893	4903	приехавшем	1	36	38	31	0	0	0	135	876	приехавшем	obl	874	VERB	NOM	Not_Assigned	Not_Assigned	3
+Potapych	6	883	883	PER	Потапычем	4930	4939	потапычем	1	36	38	38	0	0	0	136	883	потапычем	nmod	881	PROPN	PROP	Singular	Not_Assigned	3
+PER_T136	67	887	887	PER	Кто	4946	4949	кто	1	37	39	2	0	0	0	137	887	кто	xcomp	847	PRON	PRON	Not_Assigned	Not_Assigned	3
+Anfisa	3	891	892	PER	Анфиса Ивановна	4965	4980	анфиса ивановна	2	37	39	6	0	0	0	138	891	анфиса	nsubj	890	PROPN	PROP	Singular	Not_Assigned	3
+Potapych	6	896	896	PER	Сотник	4987	4993	сотник	1	38	40	2	0	0	0	139	896	сотник	nsubj	890	NOUN	NOM	Not_Assigned	Not_Assigned	3
+GPE_T139	64	898	898	GPE	Рычей	4997	5002	рычей	1	38	40	4	0	0	0	140	898	рычей	obl	890	PROPN	PROP	Not_Assigned	Not_Assigned	3
+fatherIvan	0	901	901	PER	батюшкой	5007	5015	батюшкой	1	38	40	7	0	0	0	141	901	батюшкой	obl	902	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Potapych	6	905	905	PER	Потапыч	5036	5043	потапыч	1	38	40	11	0	0	0	142	905	потапыч	nsubj	904	PROPN	PROP	Singular	Not_Assigned	3
+fatherIvan	0	910	911	PER	отца Ивана	5064	5074	отца ивана	2	38	40	16	0	0	0	143	910	отца	obl	907	NOUN	PROP	Singular	Not_Assigned	3
+fatherIvan	0	913	914	PER	Отец Иван	5077	5086	отец иван	2	39	41	0	0	0	0	144	913	отец	nsubj	915	NOUN	PROP	Singular	Not_Assigned	3
+fatherIvan	0	923	923	PER	нему	5135	5139	нему	1	39	41	10	0	0	0	145	923	нему	obl	924	PRON	PRON	Not_Assigned	Not_Assigned	3
+Potapych	6	925	925	PER	становой	5148	5156	становой	1	39	41	12	0	0	0	146	925	становой	nsubj	924	ADJ	NOM	Not_Assigned	Not_Assigned	3
+fatherIvan	0	928	928	PER	его	5167	5170	его	1	39	41	15	0	0	0	147	928	его	obj	927	PRON	PRON	Not_Assigned	Not_Assigned	3
+Potapych	6	930	930	PER	себе	5173	5177	себе	1	39	41	17	0	0	0	148	930	себе	obl	927	PRON	PRON	Not_Assigned	Not_Assigned	3
+Melitina	4	939	940	PER	Мелитина Петровна	5217	5234	мелитина петровна	2	40	42	7	0	0	0	149	939	мелитина	nsubj	938	PROPN	PROP	Singular	Not_Assigned	3
+fatherIvan	0	953	954	PER	отец Иван	5277	5286	отец иван	2	42	44	1	0	0	0	150	953	отец	nsubj	956	NOUN	PROP	Singular	Not_Assigned	3
+Potapych	6	959	959	PER	сотником	5315	5323	сотником	1	42	44	7	0	0	0	151	959	сотником	obl	957	NOUN	NOM	Not_Assigned	Not_Assigned	3
+FAC_T151	42	961	961	FAC	тележку	5327	5334	тележку	1	42	44	9	0	0	0	152	961	тележку	obl	957	NOUN	NOM	Not_Assigned	Not_Assigned	3
+fatherIvan	0	967	967	PER	он	5360	5362	он	1	43	45	2	0	0	0	153	967	он	nsubj	966	PRON	PRON	Not_Assigned	Not_Assigned	3
+houseofIvan	12	970	970	FAC	дома	5371	5375	дома	1	43	45	5	0	0	0	154	970	дома	advmod	966	ADV	NOM	Not_Assigned	Not_Assigned	3
+Stanovoy	2	972	972	PER	Становой	5378	5386	становой	1	44	46	0	0	0	0	155	972	становой	nsubj	973	PROPN	PROP	Singular	Not_Assigned	3
+Asklipiodot	1	978	978	PER	Асклипиодотом	5409	5422	асклипиодотом	1	44	46	6	0	0	0	156	978	асклипиодотом	obl	976	PROPN	PROP	Singular	Not_Assigned	3
+fatherIvan	0	988	989	PER	отец Иван	5475	5484	отец иван	2	45	47	8	0	0	0	157	988	отец	nsubj	987	NOUN	PROP	Singular	Not_Assigned	3
+Stanovoy	2	993	993	PER	становым	5504	5512	становым	1	45	47	13	0	0	0	158	993	становым	obl	991	ADJ	NOM	Not_Assigned	Not_Assigned	3
+Stanovoy	2	1000	1000	PER	становой	5535	5543	становой	1	46	48	5	0	0	0	159	1000	становой	nsubj	999	ADJ	NOM	Not_Assigned	Not_Assigned	3
+Stanovoy	2	1004	1004	PER	Мы	5550	5552	мы	1	47	50	0	0	0	0	160	1004	мы	nsubj	1009	PRON	PRON	Not_Assigned	Not_Assigned	3
+Asklipiodot	1	1007	1008	PER	Асклипиодотом Иванычем	5561	5583	асклипиодотом иванычем	2	47	50	3	0	0	0	161	1007	асклипиодотом	obl	1005	PROPN	PROP	Singular	Not_Assigned	3
+Asklipiodot	1	1011	1011	PER	Он	5597	5599	он	1	48	51	0	0	0	0	162	1011	он	nsubj	1012	PRON	PRON	Not_Assigned	Not_Assigned	3
+Stanovoy	2	1013	1013	PER	меня	5608	5612	меня	1	48	51	2	0	0	0	163	1013	меня	obj	1012	PRON	PRON	Not_Assigned	Not_Assigned	3
+Asklipiodot	1	1034	1034	PER	Я	5692	5693	я	1	51	54	2	0	0	0	164	1034	я	nsubj	1036	PRON	PRON	Not_Assigned	Not_Assigned	3
+Asklipiodot	1	1039	1039	PER	Асклипиодот	5717	5728	асклипиодот	1	51	54	7	0	0	0	165	1039	асклипиодот	nsubj	1038	PROPN	PROP	Singular	Not_Assigned	3
+fatherIvan	0	1040	1040	PER	отца	5729	5733	отца	1	51	54	8	0	0	0	166	1040	отца	obj	1038	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Stanovoy	2	1044	1044	PER	Они	5740	5743	они	1	52	56	0	0	0	0	167	1044	они	nsubj	1045	PRON	PRON	Not_Assigned	Not_Assigned	3
+fatherIvan	0	1052	1052	PER	хозяина	5776	5783	хозяина	1	53	57	5	0	0	0	168	1052	хозяина	nsubj	1054	NOUN	NOM	Not_Assigned	Not_Assigned	3
+houseofIvan	12	1055	1055	FAC	дома	5792	5796	дома	1	53	57	8	0	0	0	169	1055	дома	ROOT	1055	ADV	NOM	Not_Assigned	Not_Assigned	3
+Stanovoy	2	1058	1058	PER	становой	5809	5817	становой	1	53	57	11	0	0	0	170	1058	становой	nsubj	1057	ADJ	NOM	Not_Assigned	Not_Assigned	3
+fatherIvan	0	1063	1063	PER	хозяина	5828	5835	хозяина	1	54	59	1	0	0	0	171	1063	хозяина	obl	1067	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Asklipiodot	1	1087	1087	PER	Асклипиодот	5940	5951	асклипиодот	1	55	60	9	0	0	0	172	1087	асклипиодот	nsubj	1086	PROPN	PROP	Singular	Not_Assigned	3
+fatherIvan	0	1102	1103	PER	отец Иван	6012	6021	отец иван	2	56	61	13	0	0	0	173	1102	отец	nsubj	1101	NOUN	PROP	Singular	Not_Assigned	3
+Asklipiodot	1	1106	1106	PER	сыну	6034	6038	сыну	1	56	61	17	0	0	0	174	1106	сыну	obl	1104	NOUN	NOM	Not_Assigned	Not_Assigned	3
+fatherIvan	0	1137	1138	PER	отец Иван	6166	6175	отец иван	2	59	65	7	0	0	0	175	1137	отец	nsubj	1136	NOUN	PROP	Singular	Not_Assigned	3
+Stanovoy	2	1141	1141	PER	становому	6188	6197	становому	1	59	65	11	0	0	0	176	1141	становому	obl	1139	NOUN	NOM	Not_Assigned	Not_Assigned	3
+fatherIvan	0	1153	1153	PER	сам	6242	6245	сам	1	59	65	23	0	0	0	177	1153	сам	acl	1154	ADJ	NOM	Not_Assigned	Not_Assigned	3
+Asklipiodot	1	1156	1156	PER	Асклипиодот	6256	6267	асклипиодот	1	60	66	0	0	0	0	178	1156	асклипиодот	nsubj	1157	PROPN	PROP	Singular	Not_Assigned	3
+FAC_T177	9	1159	1159	FAC	комнаты	6277	6284	комнаты	1	60	66	3	0	0	0	179	1159	комнаты	obl	1157	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Stanovoy	2	1164	1164	PER	вы	6293	6295	вы	1	61	67	3	0	0	0	180	1164	вы	nsubj	1166	PRON	PRON	Not_Assigned	Not_Assigned	3
+fatherIvan	0	1166	1166	PER	мне	6299	6302	мне	1	61	67	5	0	0	0	181	1166	мне	fixed	1163	PRON	PRON	Not_Assigned	Not_Assigned	3
+fatherIvan	0	1172	1173	PER	отец Иван	6329	6338	отец иван	2	61	67	11	0	0	0	182	1172	отец	nsubj	1171	NOUN	PROP	Singular	Not_Assigned	3
+Asklipiodot	1	1207	1207	PER	сына	6466	6470	сына	1	64	70	6	0	0	0	183	1207	сына	acl	1203	NOUN	NOM	Not_Assigned	Not_Assigned	3
+fatherIvan	0	1213	1214	PER	отец Иван	6495	6504	отец иван	2	64	70	12	0	0	0	184	1213	отец	nsubj	1212	NOUN	PROP	Singular	Not_Assigned	3
+Asklipiodot	1	1224	1224	PER	его	6537	6540	его	1	65	71	5	0	0	0	185	1224	его	ROOT	1224	PRON	PRON	Not_Assigned	Not_Assigned	3
+fatherIvan	0	1241	1241	PER	мое	6596	6599	мое	1	68	74	3	0	0	0	186	1241	мое	nsubj	1242	DET	PRON	Not_Assigned	Not_Assigned	3
+fatherIvan	0	1247	1247	PER	я	6632	6633	я	1	69	75	3	0	0	0	187	1247	я	nsubj	1246	PRON	PRON	Not_Assigned	Not_Assigned	3
+GPE_T186	21	1250	1250	GPE	Москвы	6644	6650	москвы	1	69	75	6	0	0	0	188	1250	москвы	nmod	1248	PROPN	PROP	Not_Assigned	Not_Assigned	3
+PER_T187	68	1252	1253	PER	одного священника	6654	6671	одного священника	2	69	75	8	0	0	0	189	1253	священника	obl	1246	NOUN	NOM	Not_Assigned	Not_Assigned	3
+fatherIvan	0	1260	1261	PER	отец Иван	6702	6711	отец иван	2	70	76	5	0	0	0	190	1260	отец	nsubj	1262	NOUN	PROP	Singular	Not_Assigned	3
+Stanovoy	2	1264	1264	PER	становому	6722	6731	становому	1	70	76	9	0	0	0	191	1264	становому	iobj	1262	NOUN	NOM	Not_Assigned	Not_Assigned	3
+fatherIvan	0	1275	1275	PER	старик	6768	6774	старик	1	71	77	9	0	0	0	192	1275	старик	nsubj	1274	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Stanovoy	2	1284	1284	PER	Становой	6823	6831	становой	1	72	78	0	0	0	0	193	1284	становой	nsubj	1285	PROPN	PROP	Singular	Not_Assigned	3
+Stanovoy	2	1296	1296	PER	становой	6880	6888	становой	1	73	79	8	0	0	0	194	1296	становой	nsubj	1295	ADJ	NOM	Not_Assigned	Not_Assigned	3
+fatherIvan	0	1304	1304	PER	мне	6919	6922	мне	1	74	80	4	0	0	0	195	1304	мне	iobj	1305	PRON	PRON	Not_Assigned	Not_Assigned	3
+Stanovoy	2	1309	1309	PER	Я	6937	6938	я	1	75	81	2	0	0	0	196	1309	я	nsubj	1310	PRON	PRON	Not_Assigned	Not_Assigned	3
+fatherIvan	0	1312	1312	PER	вам	6952	6955	вам	1	75	81	5	0	0	0	197	1312	вам	iobj	1310	PRON	PRON	Not_Assigned	Not_Assigned	3
+Asklipiodot	1	1329	1329	PER	сыном	7014	7019	сыном	1	77	83	3	0	0	0	198	1329	сыном	obl	1333	NOUN	NOM	Not_Assigned	Not_Assigned	3
+fatherIvan	0	1332	1332	PER	вы	7025	7027	вы	1	77	83	6	0	0	0	199	1332	вы	nsubj	1333	PRON	PRON	Not_Assigned	Not_Assigned	3
+Stanovoy	2	1339	1339	PER	становой	7058	7066	становой	1	77	83	13	0	0	0	200	1339	становой	nsubj	1338	NOUN	NOM	Not_Assigned	Not_Assigned	3
+fatherIvan	0	1352	1352	PER	мне	7110	7113	мне	1	79	85	5	0	0	0	201	1352	мне	iobj	1351	PRON	PRON	Not_Assigned	Not_Assigned	3
+Asklipiodot	1	1354	1354	PER	ним	7116	7119	ним	1	79	85	7	0	0	0	202	1354	ним	obl	1351	PRON	PRON	Not_Assigned	Not_Assigned	3
+Stanovoy	2	1359	1359	PER	вы	7134	7136	вы	1	80	86	1	0	0	0	203	1359	вы	nsubj	1347	PRON	PRON	Not_Assigned	Not_Assigned	3
+Stanovoy	2	1367	1367	PER	Я	7161	7162	я	1	82	88	0	0	0	0	204	1367	я	nsubj	1368	PRON	PRON	Not_Assigned	Not_Assigned	3
+fatherIvan	0	1370	1370	PER	вами	7171	7175	вами	1	82	88	3	0	0	0	205	1370	вами	obl	1371	PRON	PRON	Not_Assigned	Not_Assigned	3
+Stanovoy	2	1376	1376	PER	вас	7207	7210	вас	1	83	89	3	0	0	0	206	1376	вас	obj	1368	PRON	PRON	Not_Assigned	Not_Assigned	3
+FAC_T177	9	1379	1379	FAC	комнату	7215	7222	комнату	1	84	90	1	0	0	0	207	1379	комнату	obl	1380	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Asklipiodot	1	1381	1381	PER	Асклипиодот	7229	7240	асклипиодот	1	84	90	3	0	0	0	208	1381	асклипиодот	nsubj	1380	PROPN	PROP	Singular	Not_Assigned	3
+StanovoyIvan	13	1398	1398	PER	вам	7304	7307	вам	1	85	91	7	0	0	0	209	1398	вам	conj	1380	PRON	PRON	Not_Assigned	Not_Assigned	3
+Asklipiodot	1	1405	1405	PER	Асклипиодот	7334	7345	асклипиодот	1	85	91	14	0	0	0	210	1405	асклипиодот	nsubj	1404	PROPN	PROP	Singular	Not_Assigned	3
+chezFather	40	1423	1423	PER	нас	7420	7423	нас	1	87	94	1	0	0	0	211	1423	нас	obl	1424	PRON	PRON	Not_Assigned	Not_Assigned	3
+Asklipiodot	1	1435	1435	PER	Асклипиодот	7484	7495	асклипиодот	1	88	95	5	0	0	0	212	1435	асклипиодот	nsubj	1434	PROPN	PROP	Singular	Not_Assigned	3
+PER_T211	70	1443	1443	PER	человек	7525	7532	человек	1	88	95	13	0	0	0	213	1443	человек	nsubj	1444	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Asklipiodot	1	1455	1455	PER	его	7589	7592	его	1	89	96	8	0	0	0	214	1455	его	nmod	1456	PRON	PRON	Not_Assigned	Not_Assigned	3
+fatherIvan	0	1456	1457	PER	отец Иван	7593	7602	отец иван	2	89	96	9	0	0	0	215	1456	отец	nsubj	1454	NOUN	PROP	Singular	Not_Assigned	3
+Asklipiodot	1	1461	1461	PER	Я	7609	7610	я	1	90	97	2	0	0	0	216	1461	я	nsubj	1464	PRON	PRON	Not_Assigned	Not_Assigned	3
+Asklipiodot	1	1467	1467	PER	Асклипиодот	7634	7645	асклипиодот	1	90	97	8	0	0	0	217	1467	асклипиодот	nsubj	1466	PROPN	PROP	Singular	Not_Assigned	3
+Asklipiodot	1	1471	1471	PER	я	7651	7652	я	1	90	97	12	0	0	0	218	1471	я	nsubj	1466	PRON	PRON	Not_Assigned	Not_Assigned	3
+fatherIvan	0	1476	1476	PER	батюшка	7668	7675	батюшка	1	90	97	17	0	0	0	219	1476	батюшка	nsubj	1477	NOUN	NOM	Not_Assigned	Not_Assigned	3
+fatherIvan	0	1482	1482	PER	Он	7704	7706	он	1	91	98	0	0	0	0	220	1482	он	nsubj	1486	PRON	PRON	Not_Assigned	Not_Assigned	3
+Asklipiodot	1	1485	1485	PER	мной	7717	7721	мной	1	91	98	3	0	0	0	221	1485	мной	obl	1486	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T220	49	1491	1491	PER	гости	7750	7755	гости	1	91	98	9	0	0	0	222	1491	гости	nsubj	1490	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Asklipiodot	1	1501	1501	PER	я	7805	7806	я	1	92	99	3	0	0	0	223	1501	я	nsubj	1500	PRON	PRON	Not_Assigned	Not_Assigned	3
+fatherIvan	0	1502	1502	PER	отцу	7807	7811	отцу	1	92	99	4	0	0	0	224	1502	отцу	iobj	1500	NOUN	NOM	Not_Assigned	Not_Assigned	3
+fatherIvan	0	1504	1504	PER	Батюшка	7814	7821	батюшка	1	92	99	6	0	0	0	225	1504	батюшка	parataxis	1502	PROPN	PROP	Singular	Not_Assigned	3
+M1	55	1513	1513	PER	мущина	7851	7857	мущина	1	92	99	15	0	0	0	226	1513	мущина	conj	1504	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T225	47	1515	1515	PER	женщины	7862	7869	женщины	1	92	99	17	0	0	0	227	1515	женщины	nmod	1513	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Asklipiodot	1	1523	1523	PER	Асклипиодот	7901	7912	асклипиодот	1	93	100	3	0	0	0	228	1523	асклипиодот	nsubj	1524	PROPN	PROP	Singular	Not_Assigned	3
+Asklipiodot	1	1534	1534	PER	он	7960	7962	он	1	94	101	5	0	0	0	229	1534	он	nsubj	1533	PRON	PRON	Not_Assigned	Not_Assigned	3
+Stanovoy	2	1537	1537	PER	становому	7975	7984	становому	1	94	101	8	0	0	0	230	1537	становому	obl	1535	ADJ	NOM	Not_Assigned	Not_Assigned	3
+fatherIvan	0	1540	1540	PER	отцу	7989	7993	отцу	1	94	101	11	0	0	0	231	1540	отцу	conj	1537	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Stanovoy	2	1546	1546	PER	Становой	8016	8024	становой	1	95	102	0	0	0	0	232	1546	становой	nsubj	1547	PROPN	PROP	Singular	Not_Assigned	3
+fatherIvan	0	1549	1550	PER	отца Ивана	8037	8047	отца ивана	2	95	102	3	0	0	0	233	1549	отца	obl	1547	NOUN	PROP	Singular	Not_Assigned	3
+fatherIvan	0	1558	1558	PER	стартик	8084	8091	стартик	1	96	103	6	0	0	0	234	1558	стартик	nsubj	1557	PROPN	PROP	Singular	Not_Assigned	3
+PER_T232	23	1560	1560	PER	Все	8094	8097	все	1	97	104	0	0	0	0	235	1560	все	nsubj	1561	PRON	PRON	Not_Assigned	Not_Assigned	3
+Asklipiodot	1	1570	1570	PER	Асклипиодот	8145	8156	асклипиодот	1	98	105	7	0	0	0	236	1570	асклипиодот	nsubj	1569	PROPN	PROP	Singular	Not_Assigned	3
+StanovoyIvan	13	1583	1583	PER	вы	8196	8198	вы	1	100	108	4	0	0	0	237	1583	вы	nsubj	1585	PRON	PRON	Not_Assigned	Not_Assigned	3
+Asklipiodot	1	1588	1588	PER	я	8221	8222	я	1	100	108	9	0	0	0	238	1588	я	nsubj	1591	PRON	PRON	Not_Assigned	Not_Assigned	3
+Asklipiodot	1	1597	1597	PER	Асклипиодот	8261	8272	асклипиодот	1	101	109	1	0	0	0	239	1597	асклипиодот	nsubj	1598	PROPN	PROP	Singular	Not_Assigned	3
+FAC_T237	41	1600	1600	FAC	сени	8281	8285	сени	1	101	109	4	0	0	0	240	1600	сени	obl	1598	NOUN	NOM	Not_Assigned	Not_Assigned	3
+cooker	7	1604	1604	PER	кухарку	8301	8308	кухарку	1	101	109	8	0	0	0	241	1604	кухарку	obj	1602	NOUN	NOM	Not_Assigned	Not_Assigned	3
+cooker	7	1607	1607	PER	ее	8327	8329	ее	1	101	109	11	0	0	0	242	1607	ее	obj	1606	PRON	PRON	Not_Assigned	Not_Assigned	3
+FAC_T240	39	1612	1612	FAC	чулан	8350	8355	чулан	1	101	109	16	0	0	0	243	1612	чулан	obl	1610	NOUN	NOM	Not_Assigned	Not_Assigned	3
+cooker	7	1624	1624	PER	кухарка	8406	8413	кухарка	1	102	110	8	0	0	0	244	1624	кухарка	nsubj	1623	NOUN	NOM	Not_Assigned	Not_Assigned	3
+cooker	7	1643	1643	PER	тебя	8467	8471	тебя	1	105	113	4	0	0	0	245	1643	тебя	conj	1641	PRON	PRON	Not_Assigned	Not_Assigned	3
+Asklipiodot	1	1651	1651	PER	те	8492	8494	те	1	106	114	6	0	0	0	246	1651	те	nsubj	1648	DET	PRON	Not_Assigned	Not_Assigned	3
+Asklipiodot	1	1666	1666	PER	Асклипиодот	8556	8567	асклипиодот	1	107	115	12	0	0	0	247	1666	асклипиодот	nsubj	1668	PROPN	PROP	Singular	Not_Assigned	3
+Asklipiodot	1	1675	1675	PER	ему	8610	8613	ему	1	107	115	21	0	0	0	248	1675	ему	iobj	1676	PRON	PRON	Not_Assigned	Not_Assigned	3
+Asklipiodot	1	1680	1680	PER	он	8638	8640	он	1	108	116	1	0	0	0	249	1680	он	nsubj	1681	PRON	PRON	Not_Assigned	Not_Assigned	3
+Asklipiodot	1	1691	1691	PER	я	8687	8688	я	1	108	116	12	0	0	0	250	1691	я	nsubj	1692	PRON	PRON	Not_Assigned	Not_Assigned	3
+fatherIvan	0	1695	1696	PER	Хозяин дома	8708	8719	хозяин дома	2	109	117	0	0	1	1	251	1695	хозяин	nsubj	1697	NOUN	NOM	Not_Assigned	Not_Assigned	3
+houseofIvan	12	1696	1696	FAC	дома	8715	8719	дома	1	109	117	1	1	0	0	252	1696	дома	nmod	1695	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Asklipiodot	1	1699	1699	PER	я	8729	8730	я	1	109	117	4	0	0	0	253	1699	я	nsubj	1701	PRON	PRON	Not_Assigned	Not_Assigned	3
+fatherIvan	0	1703	1703	PER	вас	8754	8757	вас	1	109	117	8	0	0	0	254	1703	вас	obj	1702	PRON	PRON	Not_Assigned	Not_Assigned	3
+Asklipiodot	1	1707	1707	PER	Он	8764	8766	он	1	110	118	2	0	0	0	255	1707	он	nsubj	1710	PRON	PRON	Not_Assigned	Not_Assigned	3
+Stanovoy	2	1708	1708	PER	вам	8767	8770	вам	1	110	118	3	0	0	0	256	1708	вам	iobj	1710	PRON	PRON	Not_Assigned	Not_Assigned	3
+fatherIvan	0	1713	1714	PER	отец Иван	8790	8799	отец иван	2	110	118	8	0	0	0	257	1713	отец	nsubj	1712	NOUN	PROP	Singular	Not_Assigned	3
+Stanovoy	2	1715	1715	PER	станового	8800	8809	станового	1	110	118	10	0	0	0	258	1715	станового	flat:name	1714	PROPN	PROP	Singular	Not_Assigned	3
+Asklipiodot	1	1727	1727	PER	Асклипиодот	8848	8859	асклипиодот	1	113	121	0	0	0	0	259	1727	асклипиодот	nsubj	1728	PROPN	PROP	Singular	Not_Assigned	3
+FAC_T177	9	1735	1735	FAC	комнаты	8898	8905	комнаты	1	113	121	8	0	0	0	260	1735	комнаты	obl	1733	NOUN	NOM	Not_Assigned	Not_Assigned	3
+fatherIvan	0	1742	1743	PER	отец Иван	8930	8939	отец иван	2	114	122	5	0	0	0	261	1742	отец	nsubj	1746	NOUN	PROP	Singular	Not_Assigned	3
+Stanovoy	2	1748	1748	PER	становым	8961	8969	становым	1	114	122	11	0	0	0	262	1748	становым	obl	1746	ADJ	NOM	Not_Assigned	Not_Assigned	3
+StanovoyIvan	13	1754	1754	PER	они	8990	8993	они	1	115	123	4	0	0	0	263	1754	они	nsubj	1753	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T260	46	1756	1756	PER	никто	8995	9000	никто	1	115	123	6	0	0	0	264	1756	никто	nsubj	1758	PRON	PRON	Not_Assigned	Not_Assigned	3
+cooker	7	1761	1761	PER	стряпуха	9019	9027	стряпуха	1	115	123	11	0	0	0	265	1761	стряпуха	nsubj	1771	NOUN	NOM	Not_Assigned	Not_Assigned	3
+FAC_T177	9	1769	1769	FAC	комнату	9055	9062	комнату	1	115	123	19	0	0	0	266	1769	комнату	obl	1763	NOUN	NOM	Not_Assigned	Not_Assigned	3
+fatherIvan	0	1773	1774	PER	отец Иван	9075	9084	отец иван	2	115	123	23	0	0	0	267	1773	отец	nsubj	1775	NOUN	PROP	Singular	Not_Assigned	3
+fatherIvan	0	1785	1785	PER	его	9131	9134	его	1	115	123	35	0	0	0	268	1785	его	obj	1786	DET	PRON	Not_Assigned	Not_Assigned	3
+Stanovoy	2	1799	1799	PER	становой	9203	9211	становой	1	116	124	10	0	0	0	269	1799	становой	nsubj	1798	ADJ	NOM	Not_Assigned	Not_Assigned	3
+cooker	7	1815	1815	PER	стряпуха	9288	9296	стряпуха	1	116	124	26	0	0	0	270	1815	стряпуха	nsubj	1814	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Stanovoy	2	1818	1818	PER	становой	9302	9310	становой	1	116	124	29	0	0	0	271	1818	становой	obj	1819	ADJ	NOM	Not_Assigned	Not_Assigned	3
+Stanovoy	2	1826	1826	PER	становому	9353	9362	становому	1	117	125	4	0	0	0	272	1826	становому	iobj	1828	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Stanovoy	2	1831	1831	PER	он	9384	9386	он	1	117	125	9	0	0	0	273	1831	он	nsubj	1832	PRON	PRON	Not_Assigned	Not_Assigned	3
+fatherIvan	0	1835	1836	PER	отцом Иваном	9404	9416	отцом иваном	2	117	125	13	0	0	0	274	1835	отцом	obl	1833	NOUN	PROP	Singular	Not_Assigned	3
+Stanovoy	2	1840	1840	PER	Вы	9423	9425	вы	1	118	126	2	0	0	0	275	1840	вы	nsubj	1842	PRON	PRON	Not_Assigned	Not_Assigned	3
+Stanovoy	2	1845	1845	PER	его	9457	9460	его	1	118	126	7	0	0	0	276	1845	его	nmod	1846	PRON	PRON	Not_Assigned	Not_Assigned	3
+fatherIvan	0	1846	1846	PER	старик	9461	9467	старик	1	118	126	8	0	0	0	277	1846	старик	nsubj	1844	NOUN	NOM	Not_Assigned	Not_Assigned	3
+LOC_T274	54	1857	1857	LOC	овраг	9498	9503	овраг	1	119	128	7	0	0	0	278	1857	овраг	obl	1858	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Stanovoy	2	1866	1866	PER	я	9539	9540	я	1	121	130	2	0	0	0	279	1866	я	nsubj	1867	PRON	PRON	Not_Assigned	Not_Assigned	3
+GPE_T276	50	1870	1870	GPE	городе	9555	9561	городе	1	121	130	6	0	0	0	280	1870	городе	obl	1867	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Stanovoy	2	1873	1873	PER	становой	9571	9579	становой	1	121	130	9	0	0	0	281	1873	становой	nsubj	1872	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Stanovoy	2	1883	1883	PER	вы	9619	9621	вы	1	122	131	3	0	0	0	282	1883	вы	nsubj	1884	PRON	PRON	Not_Assigned	Not_Assigned	3
+fatherIvan	0	1885	1885	PER	мне	9632	9635	мне	1	122	131	5	0	0	0	283	1885	мне	iobj	1884	PRON	PRON	Not_Assigned	Not_Assigned	3
+fatherIvan	0	1897	1897	PER	вы	9678	9680	вы	1	124	133	1	0	0	0	284	1897	вы	nsubj	1899	PRON	PRON	Not_Assigned	Not_Assigned	3
+fatherIvan	0	1902	1902	PER	вы	9707	9709	вы	1	125	134	1	0	0	0	285	1902	вы	nsubj	1904	PRON	PRON	Not_Assigned	Not_Assigned	3
+Asklipiodot	1	1906	1907	PER	сын ваш	9736	9743	сын ваш	2	125	134	5	0	1	1	286	1906	сын	nsubj	1910	NOUN	NOM	Not_Assigned	Not_Assigned	3
+fatherIvan	0	1907	1907	PER	ваш	9740	9743	ваш	1	125	134	6	1	0	0	287	1907	ваш	nsubj	1910	DET	PRON	Not_Assigned	Not_Assigned	3
+fatherIvan	0	1916	1916	PER	я	9780	9781	я	1	126	135	4	0	0	0	288	1916	я	nsubj	1917	PRON	PRON	Not_Assigned	Not_Assigned	3
+Stanovoy	2	1918	1918	PER	вам	9788	9791	вам	1	126	135	6	0	0	0	289	1918	вам	iobj	1917	PRON	PRON	Not_Assigned	Not_Assigned	3
+Asklipiodot	1	1919	1919	PER	его	9792	9795	его	1	126	135	7	0	0	0	290	1919	его	obj	1917	PRON	PRON	Not_Assigned	Not_Assigned	3
+fatherIvan	0	1928	1929	PER	отцом Иваном	9835	9847	отцом иваном	2	127	136	5	0	0	0	291	1928	отцом	obl	1924	NOUN	PROP	Singular	Not_Assigned	3
+Stanovoy	2	1930	1930	PER	становой	9848	9856	становой	1	127	136	7	0	0	0	292	1930	становой	flat:name	1929	PROPN	PROP	Singular	Not_Assigned	3
+FAC_T289	33	1933	1933	FAC	тарантас	9863	9871	тарантас	1	127	136	10	0	0	0	293	1933	тарантас	obl	1931	NOUN	NOM	Not_Assigned	Not_Assigned	3
+GPE_T290	14	1938	1939	GPE	селе Рычах	9884	9894	селе рычах	2	128	137	1	0	0	0	294	1938	селе	obl	1946	NOUN	PROP	Not_Assigned	Not_Assigned	3
+PER_T291	24	1945	1945	PER	все	9917	9920	все	1	128	137	8	0	0	0	295	1945	все	nsubj	1946	PRON	PRON	Not_Assigned	Not_Assigned	3
+GPE_T290	14	1951	1951	GPE	села	9944	9948	села	1	128	137	14	0	0	0	296	1951	села	nmod	1950	NOUN	NOM	Not_Assigned	Not_Assigned	3
+FAC_T293	32	1954	1955	FAC	покосившейся избушки	9956	9976	покосившейся избушки	2	128	137	17	0	0	0	297	1955	избушки	conj	1951	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T294	10	1970	1971	PER	несколько мужиков	10053	10070	несколько мужиков	2	128	137	33	0	1	1	298	1971	мужиков	nsubj	1969	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T295	26	1971	1971	PER	мужиков	10063	10070	мужиков	1	128	137	34	1	0	0	299	1971	мужиков	nsubj	1969	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T294	10	1974	1974	PER	ними	10075	10079	ними	1	128	137	37	0	0	0	300	1974	ними	conj	1969	PRON	PRON	Not_Assigned	Not_Assigned	3
+Asklipiodot	1	1975	1975	PER	Асклипиодот	10080	10091	асклипиодот	1	128	137	38	0	0	0	301	1975	асклипиодот	nsubj	1969	PROPN	PROP	Singular	Not_Assigned	3
+Asklipiodot	1	1977	1977	PER	Он	10094	10096	он	1	129	138	0	0	0	0	302	1977	он	nsubj	1980	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T294	10	1999	1999	PER	мужиков	10195	10202	мужиков	1	129	138	22	0	0	0	303	1999	мужиков	obj	1995	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T294	10	2003	2003	PER	Мужики	10215	10221	мужики	1	130	139	0	0	0	0	304	2003	мужики	nsubj	2007	NOUN	NOM	Not_Assigned	Not_Assigned	3

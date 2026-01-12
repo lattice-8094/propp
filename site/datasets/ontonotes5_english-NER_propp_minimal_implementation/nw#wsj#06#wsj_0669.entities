@@ -1,0 +1,33 @@
+cat	start_token	end_token	text	byte_onset	byte_offset	sentence_ID
+ORG	0	2	Nissan Motor Co.	0	16	0
+MONEY	8	10	120 billion yen	45	60	0
+MONEY	15	17	$ 857 million	70	83	0
+DATE	23	25	current fiscal year	95	114	0
+MONEY	29	31	114.6 billion yen	124	141	0
+DATE	33	35	the previous year	145	162	0
+PERSON	37	38	Yutaka Kume	164	175	0
+PERSON	45	45	Kume	198	202	1
+DATE	51	57	fiscal 1990, ending next March 31	236	269	1
+GPE	63	63	U.S.	292	296	1
+EVENT	67	70	the Tokyo Motor Show	326	346	1
+ORG	84	84	Nissan	431	437	2
+GPE	94	94	Japan	495	500	2
+DATE	104	106	the next decade	555	570	3
+PERSON	109	109	Kume	576	580	3
+ORG	112	112	Nissan	587	593	3
+GPE	128	128	Japan	693	698	3
+DATE	130	131	Last year	700	709	4
+PERSON	134	134	Kume	715	719	4
+ORG	137	137	Nissan	726	732	4
+CARDINAL	139	142	slightly over one million	742	767	4
+CARDINAL	147	147	570,000	791	798	4
+LOC	155	156	North America	835	848	4
+LOC	158	158	Europe	850	856	4
+GPE	160	160	Australia	861	870	4
+DATE	164	164	1992	879	883	5
+ORG	169	169	Nissan	895	901	5
+CARDINAL	172	173	one million	913	924	5
+GPE	178	178	Japan	949	954	5
+DATE	189	193	the end of the 1990s	994	1014	6
+CARDINAL	206	207	roughly two	1055	1066	6
+GPE	217	217	Japan	1123	1128	6

@@ -1,0 +1,251 @@
+COREF_name	COREF	start_token	end_token	cat	sacr_text	byte_onset	byte_offset	text	mention_len	paragraph_ID	sentence_ID	start_token_ID_within_sentence	out_to_in_nested_level	in_to_out_nested_level	nested_entities_count	temp_index	head_id	head_word	head_dependency_relation	head_syntactic_head_ID	POS_tag	prop	number	gender	grammatical_person
+friend	6	0	1	PER	Друг мой	0	8	друг мой	2	0	0	0	0	1	1	0	0	друг	nsubj	3	NOUN	NOM	Not_Assigned	Not_Assigned	3
+greenfrockcoat	1	1	1	PER	мой	5	8	мой	1	0	0	1	1	0	0	1	1	мой	nsubj	3	DET	PRON	Not_Assigned	Not_Assigned	3
+dead	0	9	9	PER	венгерца	48	56	венгерца	1	1	1	2	0	0	0	2	9	венгерца	obj	8	PROPN	PROP	Singular	Not_Assigned	3
+dead	0	15	15	PER	Он	79	81	он	1	2	2	1	0	0	0	3	15	он	nsubj	16	PRON	PRON	Not_Assigned	Not_Assigned	3
+procuror	10	22	22	PER	прокурор	110	118	прокурор	1	2	3	4	0	0	0	4	22	прокурор	nsubj	19	NOUN	NOM	Not_Assigned	Not_Assigned	3
+dead	0	36	36	PER	ему	189	192	ему	1	3	4	2	0	0	0	5	36	ему	iobj	37	PRON	PRON	Not_Assigned	Not_Assigned	3
+artilleryman	8	44	45	PER	артиллерийский ремонтер	235	258	артиллерийский ремонтер	2	3	5	3	0	0	0	6	45	ремонтер	nsubj	43	NOUN	NOM	Not_Assigned	Not_Assigned	3
+procuror	10	55	55	PER	вы	294	296	вы	1	4	6	8	0	0	0	7	55	вы	nsubj	54	PRON	PRON	Not_Assigned	Not_Assigned	3
+dead	0	58	58	PER	Больной	302	309	больной	1	5	7	1	0	0	0	8	58	больной	nsubj	60	PROPN	PROP	Singular	Not_Assigned	3
+dead	0	63	63	PER	него	329	333	него	1	5	7	6	0	0	0	9	63	него	obl	64	PRON	PRON	Not_Assigned	Not_Assigned	3
+dead	0	72	72	PER	его	376	379	его	1	5	7	15	0	0	0	10	72	его	nmod	71	DET	PRON	Not_Assigned	Not_Assigned	3
+dead	0	82	82	PER	он	422	424	он	1	6	8	3	0	0	0	11	82	он	nsubj	81	PRON	PRON	Not_Assigned	Not_Assigned	3
+friendofdead	23	87	93	PER	молодой друг, пораженный ужасом и сожалением	446	490	молодой друг , пораженный ужасом и сожалением	7	6	8	8	0	0	0	12	88	друг	nsubj:pass	95	NOUN	NOM	Not_Assigned	Not_Assigned	3
+dead	0	107	107	PER	умирающего	559	569	умирающего	1	6	8	28	0	0	0	13	107	умирающего	obj	106	VERB	NOM	Not_Assigned	Not_Assigned	3
+PER_T14	28	110	110	PER	лекарей	575	582	лекарей	1	7	9	1	0	0	0	14	110	лекарей	obl	111	NOUN	NOM	Not_Assigned	Not_Assigned	3
+dead	0	112	112	PER	венгерец	593	601	венгерец	1	7	9	3	0	0	0	15	112	венгерец	nsubj	111	NOUN	NOM	Not_Assigned	Not_Assigned	3
+dead	0	120	120	PER	себя	635	639	себя	1	7	9	11	0	0	0	16	120	себя	obj	119	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T17	45	125	125	PER	священника	661	671	священника	1	7	9	16	0	0	0	17	125	священника	obj	127	NOUN	NOM	Not_Assigned	Not_Assigned	3
+dead	0	137	137	PER	ему	729	732	ему	1	8	10	4	0	0	0	18	137	ему	iobj	138	PRON	PRON	Not_Assigned	Not_Assigned	3
+dead	0	153	153	PER	умирающему	810	820	умирающему	1	9	11	12	0	0	0	19	153	умирающему	nmod	152	VERB	NOM	Not_Assigned	Not_Assigned	3
+dead	0	158	158	PER	ним	840	843	ним	1	10	12	3	0	0	0	20	158	ним	obl	156	PRON	PRON	Not_Assigned	Not_Assigned	3
+dead	0	165	165	PER	его	877	880	его	1	10	12	10	0	0	0	21	165	его	obj	167	PRON	PRON	Not_Assigned	Not_Assigned	3
+dead	0	179	179	PER	его	944	947	его	1	11	13	2	0	0	0	22	179	его	nmod	178	PRON	PRON	Not_Assigned	Not_Assigned	3
+dead	0	193	193	PER	он	1028	1030	он	1	12	14	1	0	0	0	23	193	он	nsubj	194	PRON	PRON	Not_Assigned	Not_Assigned	3
+everybody	9	198	198	PER	все	1043	1046	все	1	12	14	6	0	0	0	24	198	все	nsubj	199	PRON	PRON	Not_Assigned	Not_Assigned	3
+friendofdead	23	202	204	PER	юного друга его	1064	1079	юного друга его	3	12	14	10	0	1	1	25	203	друга	obl	199	NOUN	NOM	Not_Assigned	Not_Assigned	3
+dead	0	204	204	PER	его	1076	1079	его	1	12	14	12	1	0	0	26	204	его	obj	199	PRON	PRON	Not_Assigned	Not_Assigned	3
+deadandfriend	22	208	208	PER	их	1099	1101	их	1	13	15	2	0	0	0	27	208	их	nmod	207	PRON	PRON	Not_Assigned	Not_Assigned	3
+dead	0	215	215	PER	больного	1131	1139	больного	1	13	15	9	0	0	0	28	215	больного	nmod	214	NOUN	NOM	Not_Assigned	Not_Assigned	3
+deadandfriend	22	235	235	PER	их	1231	1233	их	1	14	16	7	0	0	0	29	235	их	parataxis	238	PRON	PRON	Not_Assigned	Not_Assigned	3
+FAC_T234	43	240	240	FAC	домике	1249	1255	домике	1	14	16	12	0	0	0	30	240	домике	obl	238	NOUN	NOM	Not_Assigned	Not_Assigned	3
+friend	6	250	255	PER	друг мой, движимый любопытством соучастия	1300	1341	друг мой , движимый любопытством соучастия	6	15	17	1	0	1	1	31	253	движимый	acl	251	VERB	NOM	Not_Assigned	Not_Assigned	3
+greenfrockcoat	1	251	251	PER	мой	1305	1308	мой	1	15	17	2	1	0	0	32	251	мой	det	250	DET	PRON	Not_Assigned	Not_Assigned	3
+corridor	18	260	261	FAC	общего коридора	1357	1372	общего коридора	2	15	17	11	0	0	0	33	261	коридора	nmod	259	NOUN	NOM	Not_Assigned	Not_Assigned	3
+roomofthedead	19	269	270	FAC	комнате венгерца	1409	1425	комнате венгерца	2	16	18	1	0	1	1	34	269	комнате	obl	271	NOUN	PROP	Not_Assigned	Not_Assigned	3
+dead	0	270	270	PER	венгерца	1417	1425	венгерца	1	16	18	2	1	0	0	35	270	венгерца	nmod	269	PROPN	PROP	Singular	Not_Assigned	3
+dead	0	288	288	PER	отходящего	1520	1530	отходящего	1	16	18	20	0	0	0	36	288	отходящего	acl	281	VERB	NOM	Not_Assigned	Not_Assigned	3
+friend	6	304	305	PER	друг мой	1605	1613	друг мой	2	17	19	14	0	1	1	37	304	друг	nsubj	307	NOUN	NOM	Not_Assigned	Not_Assigned	3
+greenfrockcoat	1	305	305	PER	мой	1610	1613	мой	1	17	19	15	1	0	0	38	305	мой	det	306	DET	PRON	Not_Assigned	Not_Assigned	3
+dead	0	343	343	PER	страдальца	1812	1822	страдальца	1	18	20	29	0	0	0	39	343	страдальца	nmod	342	NOUN	NOM	Not_Assigned	Not_Assigned	3
+everybody	9	349	349	PER	Все	1856	1859	все	1	19	21	0	0	0	0	40	349	все	obj	350	PRON	PRON	Not_Assigned	Not_Assigned	3
+colonel	4	355	355	PER	Полковник	1894	1903	полковник	1	20	22	0	0	0	0	41	355	полковник	nsubj	363	NOUN	NOM	Not_Assigned	Not_Assigned	3
+colonel	4	374	374	PER	ему	2004	2007	ему	1	20	22	19	0	0	0	42	374	ему	obl	371	PRON	PRON	Not_Assigned	Not_Assigned	3
+roomwitheverybody	15	386	386	FAC	залы	2064	2068	залы	1	21	23	9	0	0	0	43	386	залы	nmod	385	NOUN	NOM	Not_Assigned	Not_Assigned	3
+friend	6	398	399	PER	моего приятеля	2114	2128	моего приятеля	2	22	24	10	0	1	1	44	399	приятеля	nmod	397	NOUN	NOM	Not_Assigned	Not_Assigned	3
+greenfrockcoat	1	398	398	PER	моего	2114	2119	моего	1	22	24	10	1	0	0	45	398	моего	det	399	DET	PRON	Not_Assigned	Not_Assigned	3
+greenfrockcoat	1	403	406	PER	человек в зеленом сюртуке	2142	2167	человек в зеленом сюртуке	4	22	24	15	0	0	0	46	406	сюртуке	obl	402	NOUN	NOM	Not_Assigned	Not_Assigned	3
+friend	6	414	414	PER	он	2198	2200	он	1	22	24	26	0	0	0	47	414	он	nsubj	416	PRON	PRON	Not_Assigned	Not_Assigned	3
+friend	6	419	419	PER	сам	2217	2220	сам	1	22	24	31	0	0	0	48	419	сам	acl	416	ADJ	NOM	Not_Assigned	Not_Assigned	3
+friend	6	421	421	PER	себе	2223	2227	себе	1	22	24	33	0	0	0	49	421	себе	nmod	419	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T44	54	424	424	PER	никто	2233	2238	никто	1	22	24	36	0	0	0	50	424	никто	nsubj	426	PRON	PRON	Not_Assigned	Not_Assigned	3
+roomofthedead	19	429	430	FAC	комнату больного	2255	2271	комнату больного	2	22	24	41	0	1	1	51	429	комнату	obl	427	NOUN	NOM	Not_Assigned	Not_Assigned	3
+dead	0	430	430	PER	больного	2263	2271	больного	1	22	24	42	1	0	0	52	430	больного	nmod	429	NOUN	NOM	Not_Assigned	Not_Assigned	3
+dead	0	435	435	PER	им	2288	2290	им	1	22	24	47	0	0	0	53	435	им	iobj	434	PRON	PRON	Not_Assigned	Not_Assigned	3
+friend	6	443	443	PER	он	2337	2339	он	1	23	25	3	0	0	0	54	443	он	nsubj	442	PRON	PRON	Not_Assigned	Not_Assigned	3
+FAC_T48	39	454	455	FAC	их комнаты	2395	2405	их комнаты	2	23	25	14	0	1	1	55	455	комнаты	obj	453	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T240	51	454	454	PER	их	2395	2397	их	1	23	25	14	1	0	0	56	454	их	det	455	DET	PRON	Not_Assigned	Not_Assigned	3
+friend	6	463	463	PER	он	2448	2450	он	1	24	26	3	0	0	0	57	463	он	nsubj	462	PRON	PRON	Not_Assigned	Not_Assigned	3
+dead	0	468	468	PER	венгерца	2476	2484	венгерца	1	24	26	8	0	0	0	58	468	венгерца	nmod	467	PROPN	PROP	Singular	Not_Assigned	3
+PER_T51	55	490	490	PER	людей	2584	2589	людей	1	25	27	13	0	0	0	59	490	людей	obj	489	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T241	53	494	494	PER	существ	2596	2603	существ	1	25	27	17	0	0	0	60	494	существ	conj	490	NOUN	NOM	Not_Assigned	Not_Assigned	3
+roomofthedead	19	496	496	FAC	комнате	2607	2614	комнате	1	25	27	19	0	0	0	61	496	комнате	nmod	494	NOUN	NOM	Not_Assigned	Not_Assigned	3
+corridor	18	507	507	FAC	коридоре	2672	2680	коридоре	1	26	28	9	0	0	0	62	507	коридоре	obl	505	NOUN	NOM	Not_Assigned	Not_Assigned	3
+friend	6	510	510	PER	он	2685	2687	он	1	26	28	12	0	0	0	63	510	он	nsubj	511	PRON	PRON	Not_Assigned	Not_Assigned	3
+roomwitheverybody	15	526	526	FAC	залы	2767	2771	залы	1	27	29	13	0	0	0	64	526	залы	nmod	525	NOUN	NOM	Not_Assigned	Not_Assigned	3
+guardsman	3	538	539	PER	Гвардейский герой	2842	2859	гвардейский герой	2	28	30	0	0	0	0	65	539	герой	nsubj	540	NOUN	NOM	Not_Assigned	Not_Assigned	3
+artilleryman	8	544	544	PER	артиллерист	2878	2889	артиллерист	1	28	30	6	0	0	0	66	544	артиллерист	nsubj	545	NOUN	NOM	Not_Assigned	Not_Assigned	3
+dragooncaptain	5	556	557	PER	драгунский капитан	2955	2973	драгунский капитан	2	28	30	18	0	0	0	67	557	капитан	nsubj	558	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T59	56	565	566	PER	всех кавказцев	3016	3030	всех кавказцев	2	28	30	27	0	0	0	68	566	кавказцев	nmod	564	NOUN	NOM	Not_Assigned	Not_Assigned	3
+procuror	10	571	572	PER	чахоточный прокурор	3051	3070	чахоточный прокурор	2	28	30	33	0	0	0	69	572	прокурор	nsubj	573	NOUN	NOM	Not_Assigned	Not_Assigned	3
+procuror	10	576	576	PER	своем	3088	3093	своем	1	28	30	38	0	0	0	70	576	своем	det	573	DET	PRON	Not_Assigned	Not_Assigned	3
+fatgentleman	7	579	580	PER	толстый барин	3097	3110	толстый барин	2	28	30	41	0	0	0	71	580	барин	conj	573	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T63	57	587	587	PER	нами	3133	3137	нами	1	28	30	49	0	0	0	72	587	нами	obl	558	PRON	PRON	Not_Assigned	Not_Assigned	3
+fatgentleman	7	596	596	PER	свое	3179	3183	свое	1	28	31	5	0	0	0	73	596	свое	det	597	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T65	58	610	611	PER	Все прочие	3247	3257	все прочие	2	29	32	0	0	0	0	74	611	прочие	nsubj	620	ADJ	NOM	Not_Assigned	Not_Assigned	3
+nephewofcolonel	2	633	633	PER	кто	3351	3354	кто	1	30	33	8	0	0	0	75	633	кто	nsubj	626	PRON	PRON	Not_Assigned	Not_Assigned	3
+nephewofcolonel	2	636	638	PER	племянник пол ковника	3360	3381	племянник пол ковника	3	30	33	11	0	1	1	76	638	ковника	nmod	636	NOUN	PROP	Singular	Not_Assigned	3
+colonel	4	637	638	PER	пол ковника	3370	3381	пол ковника	2	30	33	12	1	0	0	77	638	ковника	nmod	636	NOUN	PROP	Singular	Not_Assigned	3
+nephewofcolonel	2	643	643	PER	его	3400	3403	его	1	31	34	3	0	0	0	78	643	его	obj	644	DET	PRON	Not_Assigned	Not_Assigned	3
+nephewofcolonel	2	657	657	PER	он	3474	3476	он	1	31	34	17	0	0	0	79	657	он	nsubj	664	PRON	PRON	Not_Assigned	Not_Assigned	3
+roomwitheverybody	15	666	666	FAC	залу	3509	3513	залу	1	31	34	26	0	0	0	80	666	залу	obl	664	NOUN	NOM	Not_Assigned	Not_Assigned	3
+nephewofcolonel	2	670	670	PER	его	3529	3532	его	1	32	35	2	0	0	0	81	670	его	obj	671	PRON	PRON	Not_Assigned	Not_Assigned	3
+nephewofcolonel	2	690	690	PER	он	3642	3644	он	1	33	36	5	0	0	0	82	690	он	nsubj	689	PRON	PRON	Not_Assigned	Not_Assigned	3
+nephewofcolonel	2	717	717	PER	него	3792	3796	него	1	34	37	4	0	0	0	83	717	него	obl	715	PRON	PRON	Not_Assigned	Not_Assigned	3
+nephewofcolonel	2	723	723	PER	он	3817	3819	он	1	34	37	10	0	0	0	84	723	он	nsubj	726	PRON	PRON	Not_Assigned	Not_Assigned	3
+M2	34	728	728	PER	никому	3838	3844	никому	1	34	37	15	0	0	0	85	728	никому	iobj	730	PRON	PRON	Not_Assigned	Not_Assigned	3
+nephewofcolonel	2	735	735	PER	он	3879	3881	он	1	35	38	3	0	0	0	86	735	он	nsubj	734	PRON	PRON	Not_Assigned	Not_Assigned	3
+colonel	4	740	740	PER	дядю	3899	3903	дядю	1	35	38	8	0	0	0	87	740	дядю	obj	737	NOUN	NOM	Not_Assigned	Not_Assigned	3
+colonel	4	743	743	PER	его	3912	3915	его	1	35	38	11	0	0	0	88	743	его	obj	742	PRON	PRON	Not_Assigned	Not_Assigned	3
+roomwitheverybody	15	747	747	FAC	залы	3932	3936	залы	1	35	38	15	0	0	0	89	747	залы	obj	742	NOUN	NOM	Not_Assigned	Not_Assigned	3
+everybody	9	753	753	PER	Все	3966	3969	все	1	36	39	0	0	0	0	90	753	все	det	754	DET	PRON	Not_Assigned	Not_Assigned	3
+everybody	9	758	758	PER	свое	3997	4001	свое	1	36	39	5	0	0	0	91	758	свое	det	759	DET	PRON	Not_Assigned	Not_Assigned	3
+nephewofcolonel	2	765	766	PER	молодого человека	4031	4048	молодого человека	2	36	39	12	0	0	0	92	766	человека	obl	762	NOUN	NOM	Not_Assigned	Not_Assigned	3
+nephewofcolonel	2	768	768	PER	Он	4051	4053	он	1	37	40	0	0	0	0	93	768	он	nsubj	769	PRON	PRON	Not_Assigned	Not_Assigned	3
+colonel	4	776	776	PER	Полковник	4081	4090	полковник	1	38	41	0	0	0	0	94	776	полковник	nsubj	777	NOUN	NOM	Not_Assigned	Not_Assigned	3
+colonel	4	793	793	PER	его	4172	4175	его	1	38	41	17	0	0	0	95	793	его	det	794	DET	PRON	Not_Assigned	Not_Assigned	3
+colonelandnephew	13	810	810	PER	они	4265	4268	они	1	39	42	2	0	0	0	96	810	они	nsubj	809	PRON	PRON	Not_Assigned	Not_Assigned	3
+colonelandnephew	13	814	816	PER	друг на друга	4282	4295	друг на друга	3	39	42	6	0	0	0	97	814	друг	obl	813	PRON	PRON	Not_Assigned	Not_Assigned	3
+colonel	4	824	824	PER	полковник	4334	4343	полковник	1	40	43	1	0	0	0	98	824	полковник	nsubj	826	NOUN	NOM	Not_Assigned	Not_Assigned	3
+nephewofcolonel	2	828	828	PER	племянника	4361	4371	племянника	1	40	43	5	0	0	0	99	828	племянника	nmod	827	NOUN	NOM	Not_Assigned	Not_Assigned	3
+colonel	4	836	836	PER	свой	4415	4419	свой	1	40	43	13	0	0	0	100	836	свой	obj	833	DET	PRON	Not_Assigned	Not_Assigned	3
+colonelandnephew	13	839	839	PER	оба	4423	4426	оба	1	40	43	16	0	0	0	101	839	оба	nsubj	840	NUM	NOM	Not_Assigned	Not_Assigned	3
+everybody	9	851	851	PER	собрание	4478	4486	собрание	1	40	43	28	0	0	0	102	851	собрание	obj	844	NOUN	NOM	Not_Assigned	Not_Assigned	3
+colonelandnephew	13	854	854	PER	Они	4491	4494	они	1	41	44	1	0	0	0	103	854	они	nsubj	855	PRON	PRON	Not_Assigned	Not_Assigned	3
+cemetery	14	857	857	FAC	кладбище	4504	4512	кладбище	1	41	44	4	0	0	0	104	857	кладбище	obl	855	NOUN	NOM	Not_Assigned	Not_Assigned	3
+greenfrockcoat	1	861	862	PER	таинственный человек	4523	4543	таинственный человек	2	41	44	8	0	0	0	105	862	человек	nsubj	860	NOUN	NOM	Not_Assigned	Not_Assigned	3
+greenfrockcoat	1	869	869	PER	я	4566	4567	я	1	41	44	16	0	0	0	106	869	я	nsubj	870	PRON	PRON	Not_Assigned	Not_Assigned	3
+LOC_T97	36	883	883	LOC	болотом	4640	4647	болотом	1	41	44	30	0	0	0	107	883	болотом	nmod	881	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T98	59	891	891	PER	многие	4679	4685	многие	1	42	46	2	0	0	0	108	891	многие	nsubj	890	NOUN	NOM	Not_Assigned	Not_Assigned	3
+guardsman	3	902	903	PER	гвардейский капитан	4730	4749	гвардейский капитан	2	43	48	2	0	0	0	109	903	капитан	nsubj	901	NOUN	NOM	Not_Assigned	Not_Assigned	3
+guardsman	3	906	906	PER	Я	4754	4755	я	1	44	49	1	0	0	0	110	906	я	nsubj	908	PRON	PRON	Not_Assigned	Not_Assigned	3
+colonel	4	909	909	PER	полковника	4768	4778	полковника	1	44	49	4	0	0	0	111	909	полковника	obj	908	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T102	33	911	918	PER	человека, не верующего ни в какие сказки	4782	4822	человека , не верующего ни в какие сказки	8	44	49	6	0	0	0	112	914	верующего	acl	911	VERB	NOM	Not_Assigned	Not_Assigned	3
+colonel	4	925	925	PER	его	4842	4845	его	1	44	49	20	0	0	0	113	925	его	det	926	DET	PRON	Not_Assigned	Not_Assigned	3
+colonel	4	930	930	PER	он	4864	4866	он	1	44	49	25	0	0	0	114	930	он	nsubj	931	PRON	PRON	Not_Assigned	Not_Assigned	3
+nephewofcolonel	2	933	941	PER	своего племянника, которому почудилось что-нибудь сверхъестественное	4882	4950	своего племянника , которому почудилось что - нибудь сверхъестественное	9	44	49	28	0	1	1	115	937	почудилось	acl:relcl	934	VERB	NOM	Not_Assigned	Not_Assigned	3
+colonel	4	933	933	PER	своего	4882	4888	своего	1	44	49	28	1	0	0	116	933	своего	det	934	DET	PRON	Not_Assigned	Not_Assigned	3
+guardsman	3	946	946	PER	вы	4967	4969	вы	1	45	50	3	0	0	0	117	946	вы	nsubj	944	PRON	PRON	Not_Assigned	Not_Assigned	3
+artilleryman	8	950	950	PER	артиллерист	4982	4993	артиллерист	1	45	50	7	0	0	0	118	950	артиллерист	nsubj	949	NOUN	NOM	Not_Assigned	Not_Assigned	3
+nephewofcolonel	2	956	956	PER	его	5010	5013	его	1	45	50	13	0	0	0	119	956	его	nmod	955	DET	PRON	Not_Assigned	Not_Assigned	3
+guardsman	3	978	978	PER	гвардеец	5125	5133	гвардеец	1	46	51	15	0	0	0	120	978	гвардеец	nsubj	977	NOUN	NOM	Not_Assigned	Not_Assigned	3
+nephewofcolonel	2	984	985	PER	Молодой человек	5155	5170	молодой человек	2	48	53	0	0	0	0	121	985	человек	nsubj	986	NOUN	NOM	Not_Assigned	Not_Assigned	3
+artilleryman	8	1012	1012	PER	артиллерист	5297	5308	артиллерист	1	49	55	3	0	0	0	122	1012	артиллерист	nsubj	1010	NOUN	NOM	Not_Assigned	Not_Assigned	3
+nephewofcolonel	2	1024	1025	PER	владельцу плаща	5381	5396	владельцу плаща	2	49	55	15	0	0	0	123	1024	владельцу	iobj	1023	NOUN	NOM	Not_Assigned	Not_Assigned	3
+guardsman	3	1032	1032	PER	Гвардеец	5426	5434	гвардеец	1	50	56	0	0	0	0	124	1032	гвардеец	nsubj	1033	NOUN	NOM	Not_Assigned	Not_Assigned	3
+greenfrockcoat	1	1036	1036	PER	Я	5446	5447	я	1	51	57	1	0	0	0	125	1036	я	nsubj	1038	PRON	PRON	Not_Assigned	Not_Assigned	3
+interlocutersofgreen	11	1037	1037	PER	вам	5448	5451	вам	1	51	57	2	0	0	0	126	1037	вам	iobj	1038	PRON	PRON	Not_Assigned	Not_Assigned	3
+greenfrockcoat	1	1046	1049	PER	человек в зеленом сюртуке	5500	5525	человек в зеленом сюртуке	4	51	57	11	0	0	0	127	1049	сюртуке	nmod	1045	NOUN	NOM	Not_Assigned	Not_Assigned	3
+dead	0	1055	1055	PER	венгерца	5543	5551	венгерца	1	51	57	20	0	0	0	128	1055	венгерца	nmod	1054	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T118	31	1064	1064	PER	Шекспира	5584	5592	шекспира	1	51	57	29	0	0	0	129	1064	шекспира	nmod	1063	PROPN	PROP	Singular	Not_Assigned	3
+interlocutersofgreen	11	1071	1071	PER	ваша	5614	5618	ваша	1	51	57	36	0	0	0	130	1071	ваша	det	1072	DET	PRON	Not_Assigned	Not_Assigned	3
+greenfrockcoat	1	1074	1074	PER	Я	5631	5632	я	1	52	58	0	0	0	0	131	1074	я	nsubj	1075	PRON	PRON	Not_Assigned	Not_Assigned	3
+interlocutersofgreen	11	1077	1077	PER	вам	5650	5653	вам	1	52	58	3	0	0	0	132	1077	вам	iobj	1076	PRON	PRON	Not_Assigned	Not_Assigned	3
+dead	0	1090	1090	PER	его	5699	5702	его	1	52	58	16	0	0	0	133	1090	его	nsubj	1092	PRON	PRON	Not_Assigned	Not_Assigned	3
+guardsman	3	1097	1097	PER	вы	5723	5725	вы	1	53	59	3	0	0	0	134	1097	вы	nsubj	1098	PRON	PRON	Not_Assigned	Not_Assigned	3
+guardsman	3	1100	1100	PER	капитан	5735	5742	капитан	1	53	59	6	0	0	0	135	1100	капитан	parataxis	1098	NOUN	NOM	Not_Assigned	Not_Assigned	3
+dead	0	1105	1105	PER	его	5756	5759	его	1	53	59	11	0	0	0	136	1105	его	nmod	1104	PRON	PRON	Not_Assigned	Not_Assigned	3
+guardsman	3	1112	1112	PER	вас	5791	5794	вас	1	53	59	18	0	0	0	137	1112	вас	obj	1111	PRON	PRON	Not_Assigned	Not_Assigned	3
+cemetery	14	1114	1114	FAC	кладбище	5798	5806	кладбище	1	53	59	20	0	0	0	138	1114	кладбище	obl	1111	NOUN	NOM	Not_Assigned	Not_Assigned	3
+guardsman	3	1120	1120	PER	Я	5825	5826	я	1	54	60	1	0	0	0	139	1120	я	nsubj	1122	PRON	PRON	Not_Assigned	Not_Assigned	3
+guardsman	3	1131	1131	PER	капитан	5869	5876	капитан	1	54	60	12	0	0	0	140	1131	капитан	nsubj	1130	NOUN	NOM	Not_Assigned	Not_Assigned	3
+deadppl	17	1136	1138	PER	жители того света	5891	5908	жители того света	3	55	61	3	0	0	0	141	1138	света	nmod	1136	NOUN	NOM	Not_Assigned	Not_Assigned	3
+deadppl	17	1145	1145	PER	их	5942	5944	их	1	55	61	12	0	0	0	142	1145	их	det	1146	DET	PRON	Not_Assigned	Not_Assigned	3
+deadppl	17	1151	1151	PER	они	5973	5976	они	1	56	62	2	0	0	0	143	1151	они	nsubj	1152	PRON	PRON	Not_Assigned	Not_Assigned	3
+artilleryman	8	1161	1161	PER	Я	6023	6024	я	1	57	63	1	0	0	0	144	1161	я	nsubj	1163	PRON	PRON	Not_Assigned	Not_Assigned	3
+artilleryman	8	1171	1171	PER	артиллерист	6065	6076	артиллерист	1	57	63	11	0	0	0	145	1171	артиллерист	nsubj	1170	NOUN	NOM	Not_Assigned	Not_Assigned	3
+fatgentleman	7	1175	1175	PER	я	6083	6084	я	1	58	64	2	0	0	0	146	1175	я	nsubj	1177	PRON	PRON	Not_Assigned	Not_Assigned	3
+fatgentleman	7	1187	1188	PER	рязанский толстяк	6142	6159	рязанский толстяк	2	58	64	14	0	0	0	147	1188	толстяк	nsubj	1186	NOUN	NOM	Not_Assigned	Not_Assigned	3
+cavaleryman	42	1202	1203	PER	усатый кавалерист	6214	6231	усатый кавалерист	2	59	66	3	0	0	0	148	1203	кавалерист	nsubj	1201	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T138	30	1209	1212	PER	черта в человеческом образе	6248	6275	черта в человеческом образе	4	60	67	4	0	0	0	149	1212	образе	obl	1207	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T139	29	1215	1219	PER	людей, начиненных всякою чертовщиною	6280	6316	людей , начиненных всякою чертовщиною	5	60	67	10	0	0	0	150	1217	начиненных	acl	1215	VERB	NOM	Not_Assigned	Not_Assigned	3
+greenfrockcoat	1	1229	1230	PER	таинственный человек	6365	6385	таинственный человек	2	61	68	8	0	0	0	151	1230	человек	nsubj	1228	NOUN	NOM	Not_Assigned	Not_Assigned	3
+cemetery	14	1236	1236	FAC	кладбища	6405	6413	кладбища	1	62	69	4	0	0	0	152	1236	кладбища	nmod	1235	NOUN	NOM	Not_Assigned	Not_Assigned	3
+greenfrockcoat	1	1240	1240	PER	я	6424	6425	я	1	62	69	8	0	0	0	153	1240	я	nsubj	1241	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T143	27	1253	1259	PER	тот, кто всех из нас бесстрашнее	6504	6536	тот , кто всех из нас бесстрашнее	7	62	69	21	0	1	1	154	1259	бесстрашнее	acl:relcl	1253	ADV	NOM	Not_Assigned	Not_Assigned	3
+everybody	9	1258	1258	PER	нас	6521	6524	нас	1	62	69	26	1	0	0	155	1258	нас	nmod	1256	PRON	PRON	Not_Assigned	Not_Assigned	3
+dragooncaptain	5	1269	1269	PER	Я	6576	6577	я	1	63	70	1	0	0	0	156	1269	я	nsubj	1270	PRON	PRON	Not_Assigned	Not_Assigned	3
+dragooncaptain	5	1274	1275	PER	драгунский капитан	6595	6613	драгунский капитан	2	63	71	2	0	0	0	157	1275	капитан	nsubj	1273	NOUN	NOM	Not_Assigned	Not_Assigned	3
+guardsman	3	1295	1295	PER	Я	6703	6704	я	1	64	72	1	0	0	0	158	1295	я	nsubj	1296	PRON	PRON	Not_Assigned	Not_Assigned	3
+guardsman	3	1302	1302	PER	гвардеец	6738	6746	гвардеец	1	64	73	4	0	0	0	159	1302	гвардеец	nsubj	1299	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T150	12	1319	1319	PER	Я	6813	6814	я	1	65	74	1	0	0	0	160	1319	я	nsubj	1321	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T150	12	1333	1336	PER	антикварий с готическим носом	6879	6908	антикварий с готическим носом	4	65	74	15	0	0	0	161	1336	носом	nmod	1333	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T150	12	1347	1348	PER	слуга покорный	6939	6953	слуга покорный	2	65	74	29	0	0	0	162	1347	слуга	conj	1342	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T152	26	1359	1363	PER	какого-нибудь героя древности	6995	7024	какого - нибудь героя древности	5	66	75	9	0	0	0	163	1362	героя	nmod	1358	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T150	12	1369	1369	PER	я	7034	7035	я	1	66	75	19	0	0	0	164	1369	я	nsubj	1370	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T154	25	1375	1376	PER	кубанского казака	7061	7078	кубанского казака	2	66	75	25	0	0	0	165	1376	казака	nmod	1374	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T155	40	1378	1381	PER	чахлого водолея из России	7083	7108	чахлого водолея из россии	4	66	75	28	0	1	1	166	1379	водолея	conj	1376	NOUN	PROP	Singular	Not_Assigned	3
+GPE_T156	38	1381	1381	GPE	России	7102	7108	россии	1	66	75	31	1	0	0	167	1381	россии	nmod	1374	PROPN	PROP	Not_Assigned	Not_Assigned	3
+PER_T157	41	1386	1386	PER	живых	7120	7125	живых	1	67	76	3	0	0	0	168	1386	живых	ROOT	1386	ADJ	NOM	Not_Assigned	Not_Assigned	3
+PER_T158	52	1390	1390	PER	мертвых	7134	7141	мертвых	1	67	76	7	0	0	0	169	1390	мертвых	conj	1386	ADJ	NOM	Not_Assigned	Not_Assigned	3
+fatgentleman	7	1394	1394	PER	толстяк	7156	7163	толстяк	1	67	77	2	0	0	0	170	1394	толстяк	obj	1393	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T160	50	1416	1416	PER	малый	7277	7282	малый	1	68	78	3	0	0	0	171	1416	малый	ROOT	1416	ADJ	NOM	Not_Assigned	Not_Assigned	3
+guardsman	3	1429	1429	PER	гвардеец	7341	7349	гвардеец	1	69	80	2	0	0	0	172	1429	гвардеец	nsubj	1428	NOUN	NOM	Not_Assigned	Not_Assigned	3
+fatgentleman	7	1444	1444	PER	сосед	7419	7424	сосед	1	70	81	4	0	0	0	173	1444	сосед	nsubj	1448	NOUN	NOM	Not_Assigned	Not_Assigned	3
+fatgentleman	7	1464	1465	PER	толстяк помещик	7517	7532	толстяк помещик	2	72	83	9	0	0	0	174	1465	помещик	nsubj	1463	NOUN	NOM	Not_Assigned	Not_Assigned	3
+fatgentleman	7	1477	1477	PER	он	7586	7588	он	1	72	83	22	0	0	0	175	1477	он	nsubj	1478	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T165	24	1491	1491	PER	Бахус	7646	7651	бахус	1	72	83	36	0	0	0	176	1491	бахус	nsubj	1496	PROPN	PROP	Singular	Not_Assigned	3
+greenfrockcoat	1	1502	1505	PER	человек в зеленом сюртуке	7698	7723	человек в зеленом сюртуке	4	73	84	1	0	0	0	177	1505	сюртуке	obl	1507	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T167	32	1508	1508	PER	им	7731	7733	им	1	73	84	7	0	0	0	178	1508	им	iobj	1507	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T168	44	1519	1519	PER	никто	7789	7794	никто	1	74	85	3	0	0	0	179	1519	никто	nsubj	1521	PRON	PRON	Not_Assigned	Not_Assigned	3
+greenfrockcoat	1	1529	1529	PER	он	7840	7842	он	1	74	86	2	0	0	0	180	1529	он	nsubj	1528	PRON	PRON	Not_Assigned	Not_Assigned	3
+fatgentleman	7	1539	1539	PER	Сам	7896	7899	сам	1	75	87	1	0	0	0	181	1539	сам	nsubj	1541	ADJ	NOM	Not_Assigned	Not_Assigned	3
+PER_T171	46	1543	1543	PER	других	7910	7916	других	1	75	87	5	0	0	0	182	1543	других	obj	1545	ADJ	NOM	Not_Assigned	Not_Assigned	3
+fatgentleman	7	1549	1550	PER	рязанский помещик	7937	7954	рязанский помещик	2	75	87	11	0	0	0	183	1550	помещик	nsubj	1548	NOUN	NOM	Not_Assigned	Not_Assigned	3
+dead	0	1558	1558	PER	мертвецу	7983	7991	мертвецу	1	76	88	6	0	0	0	184	1558	мертвецу	iobj	1559	NOUN	NOM	Not_Assigned	Not_Assigned	3
+everybody	9	1562	1562	PER	нам	8016	8019	нам	1	76	88	10	0	0	0	185	1562	нам	obl	1560	PRON	PRON	Not_Assigned	Not_Assigned	3
+dead	0	1564	1564	PER	своею	8023	8028	своею	1	76	88	12	0	0	0	186	1564	своею	obl	1560	NOUN	NOM	Not_Assigned	Not_Assigned	3
+artilleryman	8	1575	1575	PER	артиллерист	8080	8091	артиллерист	1	77	89	8	0	0	0	187	1575	артиллерист	nsubj	1574	NOUN	NOM	Not_Assigned	Not_Assigned	3
+dead	0	1590	1590	PER	покойников	8164	8174	покойников	1	77	89	23	0	0	0	188	1590	покойников	conj	1569	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T178	47	1598	1601	PER	сосед мой, адъютант	8203	8222	сосед мой , адъютант	4	78	91	2	0	1	1	189	1598	сосед	nsubj	1597	NOUN	NOM	Not_Assigned	Not_Assigned	3
+greenfrockcoat	1	1599	1599	PER	мой	8209	8212	мой	1	78	91	3	1	0	0	190	1599	мой	det	1598	DET	PRON	Not_Assigned	Not_Assigned	3
+dragooncaptain	5	1624	1625	PER	драгунский капитан	8329	8347	драгунский капитан	2	80	94	2	0	0	0	191	1625	капитан	nsubj	1623	NOUN	NOM	Not_Assigned	Not_Assigned	3
+dragooncaptain	5	1642	1642	PER	я	8413	8414	я	1	81	95	6	0	0	0	192	1642	я	nsubj	1643	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T181	48	1649	1649	PER	компании	8446	8454	компании	1	81	95	13	0	0	0	193	1649	компании	nmod	1648	NOUN	NOM	Not_Assigned	Not_Assigned	3
+cemetery	14	1651	1651	FAC	Кладбище	8457	8465	кладбище	1	82	96	0	0	0	0	194	1651	кладбище	nsubj	1655	NOUN	NOM	Not_Assigned	Not_Assigned	3
+FAC_T183	60	1656	1658	FAC	бахчи с арбузами	8487	8503	бахчи с арбузами	3	82	96	5	0	0	0	195	1658	арбузами	nmod	1656	NOUN	NOM	Not_Assigned	Not_Assigned	3
+guardsman	3	1664	1664	PER	меня	8524	8528	меня	1	83	97	4	0	0	0	196	1664	меня	obl	1662	PRON	PRON	Not_Assigned	Not_Assigned	3
+guardsman	3	1668	1668	PER	гвардеец	8542	8550	гвардеец	1	83	97	8	0	0	0	197	1668	гвардеец	nsubj	1667	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T186	49	1676	1676	PER	всех	8590	8594	всех	1	83	97	16	0	0	0	198	1676	всех	det	1677	PRON	PRON	Not_Assigned	Not_Assigned	3
+guardsman	3	1680	1680	PER	мне	8607	8610	мне	1	83	97	20	0	0	0	199	1680	мне	iobj	1682	PRON	PRON	Not_Assigned	Not_Assigned	3
+everybody	9	1684	1686	PER	столь приятного общества	8631	8655	столь приятного общества	3	83	97	24	0	0	0	200	1685	приятного	amod	1686	ADJ	NOM	Not_Assigned	Not_Assigned	3
+greenfrockcoat	1	1695	1695	PER	ваш	8711	8714	ваш	1	83	97	35	0	0	0	201	1695	ваш	det	1694	DET	PRON	Not_Assigned	Not_Assigned	3
+dead	0	1697	1697	PER	венгерце	8717	8725	венгерце	1	83	97	37	0	0	0	202	1697	венгерце	nmod	1695	NOUN	NOM	Not_Assigned	Not_Assigned	3
+guardsman	3	1701	1701	PER	он	8738	8740	он	1	83	97	41	0	0	0	203	1701	он	nsubj	1700	PRON	PRON	Not_Assigned	Not_Assigned	3
+greenfrockcoat	1	1706	1707	PER	зеленому сфинксу	8761	8777	зеленому сфинксу	2	83	97	46	0	0	0	204	1707	сфинксу	obl	1704	NOUN	NOM	Not_Assigned	Not_Assigned	3
+greenfrockcoat	1	1711	1711	PER	моего	8792	8797	моего	1	84	98	2	0	0	0	205	1711	моего	det	1713	DET	PRON	Not_Assigned	Not_Assigned	3
+greenfrockcoat	1	1722	1722	PER	повествователь	8862	8876	повествователь	1	84	98	13	0	0	0	206	1722	повествователь	nsubj	1721	NOUN	NOM	Not_Assigned	Not_Assigned	3
+greenfrockcoat	1	1727	1727	PER	вы	8892	8894	вы	1	85	99	3	0	0	0	207	1727	вы	nsubj	1729	PRON	PRON	Not_Assigned	Not_Assigned	3
+friend	6	1733	1734	PER	друг ваш	8917	8925	друг ваш	2	85	99	9	0	1	1	208	1733	друг	obj	1732	PRON	PRON	Not_Assigned	Not_Assigned	3
+greenfrockcoat	1	1734	1734	PER	ваш	8922	8925	ваш	1	85	99	10	1	0	0	209	1734	ваш	det	1733	DET	PRON	Not_Assigned	Not_Assigned	3
+corridor	18	1736	1736	FAC	коридоре	8928	8936	коридоре	1	85	99	12	0	0	0	210	1736	коридоре	obl	1732	NOUN	NOM	Not_Assigned	Not_Assigned	3
+artilleryman	8	1743	1744	PER	артиллерийский ремонтер	8976	8999	артиллерийский ремонтер	2	85	100	5	0	0	0	211	1744	ремонтер	nsubj	1739	NOUN	NOM	Not_Assigned	Not_Assigned	3
+artilleryman	8	1750	1750	PER	вы	9020	9022	вы	1	86	101	4	0	0	0	212	1750	вы	nsubj	1753	PRON	PRON	Not_Assigned	Not_Assigned	3
+greenfrockcoat	1	1758	1759	PER	таинственный человек	9064	9084	таинственный человек	2	86	101	12	0	0	0	213	1759	человек	nsubj	1757	NOUN	NOM	Not_Assigned	Not_Assigned	3
+nephewofcolonel	2	1767	1768	PER	племянник полковника	9112	9132	племянник полковника	2	87	102	6	0	1	1	214	1767	племянник	nsubj	1765	NOUN	NOM	Not_Assigned	Not_Assigned	3
+colonel	4	1768	1768	PER	полковника	9122	9132	полковника	1	87	102	7	1	0	0	215	1768	полковника	nmod	1767	NOUN	NOM	Not_Assigned	Not_Assigned	3
+fantom	21	1770	1770	PER	привидением	9135	9146	привидением	1	87	102	9	0	0	0	216	1770	привидением	nmod	1767	NOUN	NOM	Not_Assigned	Not_Assigned	3
+procuror	10	1775	1776	PER	тощий прокурор	9169	9183	тощий прокурор	2	87	103	3	0	0	0	217	1776	прокурор	nsubj	1774	NOUN	NOM	Not_Assigned	Not_Assigned	3
+fantom	21	1780	1781	PER	таким вожатым	9190	9203	таким вожатым	2	88	104	2	0	0	0	218	1781	вожатым	obl	1784	NOUN	NOM	Not_Assigned	Not_Assigned	3
+nephewofcolonel	2	1782	1782	PER	он	9204	9206	он	1	88	104	4	0	0	0	219	1782	он	nsubj	1784	PRON	PRON	Not_Assigned	Not_Assigned	3
+greenfrockcoat	1	1794	1794	PER	Вы	9268	9270	вы	1	91	107	0	0	0	0	220	1794	вы	nsubj	1798	PRON	PRON	Not_Assigned	Not_Assigned	3
+greenfrockcoat	1	1802	1802	PER	Я	9300	9301	я	1	92	108	0	0	0	0	221	1802	я	nsubj	1806	PRON	PRON	Not_Assigned	Not_Assigned	3
+greenfrockcoat	1	1812	1812	PER	сфинкс	9346	9352	сфинкс	1	92	108	10	0	0	0	222	1812	сфинкс	nsubj	1811	PROPN	PROP	Singular	Not_Assigned	3
+dead	0	1826	1827	PER	венгерским кадожем	9401	9419	венгерским кадожем	2	93	109	12	0	0	0	223	1827	кадожем	obl	1821	NOUN	NOM	Not_Assigned	Not_Assigned	3
+M1	35	1834	1834	PER	москвич	9446	9453	москвич	1	93	110	2	0	0	0	224	1834	москвич	nsubj	1833	NOUN	NOM	Not_Assigned	Not_Assigned	3
+greenfrockcoat	1	1842	1842	PER	мне	9492	9495	мне	1	94	111	2	0	0	0	225	1842	мне	iobj	1843	PRON	PRON	Not_Assigned	Not_Assigned	3
+greenfrockcoat	1	1854	1857	PER	человек в зеленом сюртуке	9569	9594	человек в зеленом сюртуке	4	94	111	14	0	0	0	226	1857	сюртуке	nmod	1854	NOUN	NOM	Not_Assigned	Not_Assigned	3
+nephewofcolonel	2	1860	1861	PER	Племянник полковника	9599	9619	племянник полковника	2	95	112	1	0	1	1	227	1860	племянник	nsubj	1867	NOUN	NOM	Not_Assigned	Not_Assigned	3
+colonel	4	1861	1861	PER	полковника	9609	9619	полковника	1	95	112	2	1	0	0	228	1861	полковника	nmod	1860	NOUN	NOM	Not_Assigned	Not_Assigned	3
+nephewofcolonel	2	1862	1863	PER	живой человек	9620	9633	живой человек	2	95	112	3	0	0	0	229	1863	человек	nmod	1861	NOUN	NOM	Not_Assigned	Not_Assigned	3
+nephewofcolonel	2	1866	1866	PER	он	9637	9639	он	1	95	112	7	0	0	0	230	1866	он	nsubj	1867	PRON	PRON	Not_Assigned	Not_Assigned	3
+greenfrockcoat	1	1870	1870	PER	моего	9656	9661	моего	1	95	112	11	0	0	0	231	1870	моего	obl	1869	PRON	PRON	Not_Assigned	Not_Assigned	3
+greenfrockcoat	1	1875	1875	PER	я	9679	9680	я	1	95	112	16	0	0	0	232	1875	я	nsubj	1876	PRON	PRON	Not_Assigned	Not_Assigned	3
+interlocutersofgreen	11	1877	1877	PER	вам	9689	9692	вам	1	95	112	18	0	0	0	233	1877	вам	iobj	1876	PRON	PRON	Not_Assigned	Not_Assigned	3
+dragooncaptain	5	1903	1904	PER	драгунский капитан	9854	9872	драгунский капитан	2	97	114	9	0	0	0	234	1904	капитан	nsubj	1905	NOUN	NOM	Not_Assigned	Not_Assigned	3
+dragooncaptain	5	1912	1912	PER	Я	9922	9923	я	1	98	115	1	0	0	0	235	1912	я	nsubj	1914	PRON	PRON	Not_Assigned	Not_Assigned	3
+dragooncaptain	5	1913	1914	PER	плохой краснобай	9924	9940	плохой краснобай	2	98	115	2	0	0	0	236	1914	краснобай	ROOT	1914	NOUN	NOM	Not_Assigned	Not_Assigned	3
+dragooncaptain	5	1918	1918	PER	он	9951	9953	он	1	98	115	7	0	0	0	237	1918	он	nsubj	1917	PRON	PRON	Not_Assigned	Not_Assigned	3
+GPE_T223	37	1929	1929	GPE	Кавказе	9998	10005	кавказе	1	98	115	18	0	0	0	238	1929	кавказе	nmod	1927	PROPN	PROP	Not_Assigned	Not_Assigned	3
+PER_T224	16	1946	1946	PER	господам	10092	10100	господам	1	98	115	35	0	0	0	239	1946	господам	iobj	1948	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T225	20	1957	1959	PER	родным моим братом	10160	10178	родным моим братом	3	98	115	46	0	1	1	240	1959	братом	conj	1914	NOUN	NOM	Not_Assigned	Not_Assigned	3
+dragooncaptain	5	1958	1958	PER	моим	10167	10171	моим	1	98	115	47	1	0	0	241	1958	моим	det	1959	DET	PRON	Not_Assigned	Not_Assigned	3
+dragooncaptain	5	1963	1963	PER	я	10190	10191	я	1	98	115	52	0	0	0	242	1963	я	nsubj	1965	PRON	PRON	Not_Assigned	Not_Assigned	3
+dragooncaptain	5	1978	1978	PER	него	10263	10267	него	1	99	116	7	0	0	0	243	1978	него	obl	1976	PRON	PRON	Not_Assigned	Not_Assigned	3
+dragooncaptain	5	1988	1988	PER	он	10311	10313	он	1	100	117	5	0	0	0	244	1988	он	nsubj	1989	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T224	16	2000	2000	PER	вас	10380	10383	вас	1	100	117	17	0	0	0	245	2000	вас	obj	1999	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T224	16	2002	2002	PER	господа	10385	10392	господа	1	100	117	19	0	0	0	246	2002	господа	appos	2000	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T225	20	2005	2006	PER	брат мой	10398	10406	брат мой	2	100	117	22	0	1	1	247	2005	брат	nsubj	2007	NOUN	NOM	Not_Assigned	Not_Assigned	3
+dragooncaptain	5	2006	2006	PER	мой	10403	10406	мой	1	100	117	23	1	0	0	248	2006	мой	det	2007	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T225	20	2007	2018	PER	человек прямой, благородный и без всяких предрассудков от природы и воспитания	10407	10485	человек прямой , благородный и без всяких предрассудков от природы и воспитания	12	100	117	24	0	0	0	249	2014	предрассудков	conj	2007	NOUN	NOM	Not_Assigned	Not_Assigned	3

@@ -1,0 +1,296 @@
+COREF_name	COREF	start_token	end_token	cat	sacr_text	byte_onset	byte_offset	text	mention_len	paragraph_ID	sentence_ID	start_token_ID_within_sentence	out_to_in_nested_level	in_to_out_nested_level	nested_entities_count	temp_index	head_id	head_word	head_dependency_relation	head_syntactic_head_ID	POS_tag	prop	number	gender	grammatical_person
+Styagin	0	3	4	PER	Вадим Петрович	10	24	вадим петрович	2	0	0	3	0	0	0	0	3	вадим	conj	1	PROPN	PROP	Singular	Not_Assigned	3
+Styagin	0	11	11	PER	вам	42	45	вам	1	0	0	11	0	0	0	1	11	вам	iobj	12	PRON	PRON	Not_Assigned	Not_Assigned	3
+Feducova	1	13	13	PER	мое	55	58	мое	1	0	0	13	0	0	0	2	13	мое	det	14	DET	PRON	Not_Assigned	Not_Assigned	3
+Styagin	0	16	16	PER	Вы	74	76	вы	1	1	1	0	0	0	0	3	16	вы	nsubj	18	PRON	PRON	Not_Assigned	Not_Assigned	3
+Styagin	0	18	18	PER	парижанин	79	88	парижанин	1	1	1	2	0	0	0	4	18	парижанин	ROOT	18	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Feducova	1	21	21	PER	я	92	93	я	1	1	1	5	0	0	0	5	21	я	nsubj	24	PRON	PRON	Not_Assigned	Not_Assigned	3
+Styagin	0	28	28	PER	вы	124	126	вы	1	1	1	12	0	0	0	6	28	вы	obl	25	PRON	PRON	Not_Assigned	Not_Assigned	3
+Feducova	1	30	30	PER	Она	129	132	она	1	2	2	0	0	0	0	7	30	она	nsubj	32	PRON	PRON	Not_Assigned	Not_Assigned	3
+Feducova	1	35	35	PER	Вы	154	156	вы	1	3	3	1	0	0	0	8	35	вы	nsubj	37	PRON	PRON	Not_Assigned	Not_Assigned	3
+Feducova	1	57	57	PER	вас	257	260	вас	1	5	5	6	0	0	0	9	57	вас	obl	58	PRON	PRON	Not_Assigned	Not_Assigned	3
+Feducova	1	67	67	PER	Федюкова	304	312	федюкова	1	6	7	2	0	0	0	10	67	федюкова	nsubj	66	PROPN	PROP	Singular	Not_Assigned	3
+Styagin	0	70	70	PER	ему	324	327	ему	1	6	7	5	0	0	0	11	70	ему	iobj	69	PRON	PRON	Not_Assigned	Not_Assigned	3
+Feducova	1	86	86	PER	она	394	397	она	1	7	8	6	0	0	0	12	86	она	nsubj	87	PRON	PRON	Not_Assigned	Not_Assigned	3
+autorofbook	9	104	104	PER	автора	476	482	автора	1	9	10	2	0	0	0	13	104	автора	nmod	103	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Feducova	1	105	105	PER	вам	483	486	вам	1	9	10	3	0	0	0	14	105	вам	iobj	106	PRON	PRON	Not_Assigned	Not_Assigned	3
+Styagin	0	111	111	PER	Стягин	518	524	стягин	1	9	11	3	0	0	0	15	111	стягин	nsubj	109	PROPN	PROP	Singular	Not_Assigned	3
+Feducova	1	116	116	PER	Я	536	537	я	1	11	13	0	0	0	0	16	116	я	nsubj	117	PRON	PRON	Not_Assigned	Not_Assigned	3
+autorofbook	9	118	118	PER	его	545	548	его	1	11	13	2	0	0	0	17	118	его	det	120	DET	PRON	Not_Assigned	Not_Assigned	3
+Feducova	1	127	127	PER	Федюкова	584	592	федюкова	1	12	14	0	0	0	0	18	127	федюкова	nsubj	128	PROPN	PROP	Singular	Not_Assigned	3
+Feducova	1	141	141	PER	Вы	665	667	вы	1	13	15	1	0	0	0	19	141	вы	nsubj	142	PRON	PRON	Not_Assigned	Not_Assigned	3
+Styagin	0	147	147	PER	Стягин	706	712	стягин	1	13	16	2	0	0	0	20	147	стягин	nsubj	146	PROPN	PROP	Singular	Not_Assigned	3
+Feducova	1	163	163	PER	меня	790	794	меня	1	15	18	10	0	0	0	21	163	меня	obl	164	PRON	PRON	Not_Assigned	Not_Assigned	3
+Feducova	1	166	166	PER	Вы	806	808	вы	1	16	19	0	0	0	0	22	166	вы	nsubj	167	PRON	PRON	Not_Assigned	Not_Assigned	3
+Feducova	1	175	175	PER	ее	861	863	ее	1	18	21	1	0	0	0	23	175	ее	det	174	PRON	PRON	Not_Assigned	Not_Assigned	3
+Feducova	1	183	183	PER	Она	899	902	она	1	19	22	0	0	0	0	24	183	она	nsubj	184	PRON	PRON	Not_Assigned	Not_Assigned	3
+Styagin	0	199	199	PER	он	983	985	он	1	20	23	3	0	0	0	25	199	он	nsubj	200	PRON	PRON	Not_Assigned	Not_Assigned	3
+Feducova	1	209	209	PER	она	1030	1033	она	1	20	23	13	0	0	0	26	209	она	nsubj	210	PRON	PRON	Not_Assigned	Not_Assigned	3
+Styagin	0	217	217	PER	он	1081	1083	он	1	20	23	21	0	0	0	27	217	он	nsubj	218	PRON	PRON	Not_Assigned	Not_Assigned	3
+Feducova	1	223	223	PER	Федюкову	1122	1130	федюкову	1	21	24	3	0	0	0	28	223	федюкову	obj	222	PROPN	PROP	Singular	Not_Assigned	3
+Feducova	1	227	227	PER	она	1150	1153	она	1	21	24	7	0	0	0	29	227	она	nsubj	228	PRON	PRON	Not_Assigned	Not_Assigned	3
+Styagin	0	246	246	PER	его	1263	1266	его	1	22	25	9	0	0	0	30	246	его	obj	245	PRON	PRON	Not_Assigned	Not_Assigned	3
+Styagin	0	248	249	PER	Вадим Петрович	1268	1282	вадим петрович	2	22	25	11	0	0	0	31	248	вадим	nsubj	250	PROPN	PROP	Singular	Not_Assigned	3
+M1	5	253	258	PER	той, кому он продиктовал письмо	1304	1335	той , кому он продиктовал письмо	6	22	25	16	0	1	1	32	257	продиктовал	acl:relcl	253	VERB	NOM	Not_Assigned	Not_Assigned	3
+Styagin	0	256	256	PER	он	1314	1316	он	1	22	25	19	1	0	0	33	256	он	nsubj	257	PRON	PRON	Not_Assigned	Not_Assigned	3
+M1	5	260	260	PER	Та	1338	1340	та	1	23	26	0	0	0	0	34	260	та	nsubj	264	DET	PRON	Not_Assigned	Not_Assigned	3
+M1	5	270	270	PER	нее	1390	1393	нее	1	24	27	1	0	0	0	35	270	нее	ROOT	270	PRON	PRON	Not_Assigned	Not_Assigned	3
+M1	5	279	279	PER	Она	1434	1437	она	1	25	28	0	0	0	0	36	279	она	nsubj	280	PRON	PRON	Not_Assigned	Not_Assigned	3
+Styagin	0	292	292	PER	него	1508	1512	него	1	25	28	13	0	0	0	37	292	него	obl	290	PRON	PRON	Not_Assigned	Not_Assigned	3
+Styagin	0	296	304	PER	лентяя, не знающего, как занять свои досуги	1521	1564	лентяя , не знающего , как занять свои досуги	9	25	28	17	0	0	0	38	299	знающего	acl	296	VERB	NOM	Not_Assigned	Not_Assigned	3
+Styagin	0	307	307	PER	ему	1573	1576	ему	1	26	29	1	0	0	0	39	307	ему	iobj	308	PRON	PRON	Not_Assigned	Not_Assigned	3
+GPE_T41	21	311	311	GPE	Париже	1600	1606	париже	1	26	29	5	0	0	0	40	311	париже	obl	309	PROPN	PROP	Not_Assigned	Not_Assigned	3
+M1	5	313	313	PER	она	1608	1611	она	1	26	29	7	0	0	0	41	313	она	nsubj	317	PRON	PRON	Not_Assigned	Not_Assigned	3
+Styagin	0	320	320	PER	ему	1644	1647	ему	1	26	29	14	0	0	0	42	320	ему	iobj	319	PRON	PRON	Not_Assigned	Not_Assigned	3
+M1	5	329	329	PER	ее	1684	1686	ее	1	26	29	23	0	0	0	43	329	ее	det	330	DET	PRON	Not_Assigned	Not_Assigned	3
+Styagin	0	338	338	PER	он	1737	1739	он	1	26	29	32	0	0	0	44	338	он	nsubj	341	PRON	PRON	Not_Assigned	Not_Assigned	3
+M1	5	346	346	PER	ней	1770	1773	ней	1	26	29	40	0	0	0	45	346	ней	obl	343	PRON	PRON	Not_Assigned	Not_Assigned	3
+Styagin	0	352	352	PER	он	1801	1803	он	1	27	30	2	0	0	0	46	352	он	nsubj	354	PRON	PRON	Not_Assigned	Not_Assigned	3
+Feducova	1	361	362	PER	Веры Ивановны	1852	1865	веры ивановны	2	27	30	11	0	0	0	47	361	веры	nmod	360	PROPN	PROP	Singular	Not_Assigned	3
+Feducova	1	364	364	PER	ее	1867	1869	ее	1	27	30	14	0	0	0	48	364	ее	det	365	DET	PRON	Not_Assigned	Not_Assigned	3
+Feducova	1	375	379	PER	не девочка, зрелая девица	1919	1944	не девочка , зрелая девица	5	28	31	2	0	0	0	49	376	девочка	ROOT	376	NOUN	NOM	Not_Assigned	Not_Assigned	3
+M1	5	386	391	PER	Та, кому он сейчас диктовал	1963	1990	та , кому он сейчас диктовал	6	29	33	0	0	0	0	50	391	диктовал	acl:relcl	386	VERB	NOM	Not_Assigned	Not_Assigned	3
+Styagin	0	401	401	PER	он	2031	2033	он	1	30	34	1	0	0	0	51	401	он	nsubj	403	PRON	PRON	Not_Assigned	Not_Assigned	3
+M1	5	406	406	PER	она	2051	2054	она	1	30	34	6	0	0	0	52	406	она	nsubj	411	PRON	PRON	Not_Assigned	Not_Assigned	3
+M1	5	419	419	PER	ней	2108	2111	ней	1	31	35	3	0	0	0	53	419	ней	nmod	417	PRON	PRON	Not_Assigned	Not_Assigned	3
+M1	5	425	425	PER	она	2132	2135	она	1	32	36	2	0	0	0	54	425	она	nsubj	424	PRON	PRON	Not_Assigned	Not_Assigned	3
+M1	5	430	430	PER	она	2162	2165	она	1	33	37	1	0	0	0	55	430	она	nsubj	438	PRON	PRON	Not_Assigned	Not_Assigned	3
+Styagin	0	434	434	PER	он	2180	2182	он	1	33	37	5	0	0	0	56	434	он	nsubj	438	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T58	28	442	442	PER	ними	2223	2227	ними	1	33	37	13	0	0	0	57	442	ними	obl	443	PRON	PRON	Not_Assigned	Not_Assigned	3
+Styagin	0	449	449	PER	он	2263	2265	он	1	33	37	20	0	0	0	58	449	он	nsubj	453	PRON	PRON	Not_Assigned	Not_Assigned	3
+Yakhontov	3	464	464	PER	доктора	2350	2357	доктора	1	35	39	1	0	0	0	59	464	доктора	nmod	463	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Styagin	0	465	466	PER	Вадим Петрович	2358	2372	вадим петрович	2	35	39	2	0	0	0	60	465	вадим	appos	464	PROPN	PROP	Singular	Not_Assigned	3
+Feducova	1	476	477	PER	Вера Ивановна	2422	2435	вера ивановна	2	36	40	5	0	0	0	61	476	вера	nsubj	478	PROPN	PROP	Singular	Not_Assigned	3
+Styagin	0	481	481	PER	его	2445	2448	его	1	36	40	10	0	0	0	62	481	его	det	482	DET	PRON	Not_Assigned	Not_Assigned	3
+GPE_T64	13	485	485	GPE	Кузнецкий	2463	2472	кузнецкий	1	36	40	14	0	0	0	63	485	кузнецкий	obl	478	ADJ	NOM	Not_Assigned	Not_Assigned	3
+PER_T65	15	490	490	PER	Готье	2490	2495	готье	1	36	40	19	0	0	0	64	490	готье	obl	487	PROPN	PROP	Singular	Not_Assigned	3
+PER_T66	27	497	497	PER	Швабе	2512	2517	швабе	1	36	40	26	0	0	0	65	497	швабе	obl	487	PROPN	PROP	Singular	Not_Assigned	3
+Styagin	0	500	500	PER	он	2521	2523	он	1	36	40	29	0	0	0	66	500	он	nsubj	502	PRON	PRON	Not_Assigned	Not_Assigned	3
+Yakhontov	3	504	506	PER	Павлом Степановичем Яхонтовым	2550	2579	павлом степановичем яхонтовым	3	36	40	33	0	0	0	67	504	павлом	obl	502	PROPN	PROP	Singular	Not_Assigned	3
+Styagin	0	511	511	PER	себя	2606	2610	себя	1	37	41	3	0	0	0	68	511	себя	obj	510	PRON	PRON	Not_Assigned	Not_Assigned	3
+Yakhontov	3	515	515	PER	доктор	2622	2628	доктор	1	37	41	7	0	0	0	69	515	доктор	nsubj	514	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Styagin	0	541	541	PER	Стягин	2753	2759	стягин	1	39	44	2	0	0	0	70	541	стягин	nsubj	540	PROPN	PROP	Singular	Not_Assigned	3
+GPE_T72	12	563	563	GPE	Москве	2852	2858	москве	1	43	48	4	0	0	0	71	563	москве	ROOT	563	PROPN	PROP	Not_Assigned	Not_Assigned	3
+GPE_T73	29	570	570	GPE	деревню	2897	2904	деревню	1	44	49	5	0	0	0	72	570	деревню	obl	568	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Styagin	0	602	602	PER	вами	3046	3050	вами	1	48	53	2	0	0	0	73	602	вами	ROOT	602	PRON	PRON	Not_Assigned	Not_Assigned	3
+Feducova	1	606	606	PER	Барышня	3071	3078	барышня	1	49	54	0	0	0	0	74	606	барышня	nsubj	610	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Styagin	0	610	610	PER	вас	3086	3089	вас	1	49	54	4	0	0	0	75	610	вас	conj	602	PRON	PRON	Not_Assigned	Not_Assigned	3
+Feducova	1	612	614	PER	Вера- то Ивановна	3091	3108	вера- то ивановна	3	49	54	6	0	0	0	76	612	вера-	nsubj	610	PROPN	PROP	Singular	Not_Assigned	3
+Lebedyantsev	2	618	619	PER	Приятель ваш	3122	3134	приятель ваш	2	50	55	0	0	1	1	77	618	приятель	nsubj	623	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Styagin	0	619	619	PER	ваш	3131	3134	ваш	1	50	55	1	1	0	0	78	619	ваш	det	622	DET	PRON	Not_Assigned	Not_Assigned	3
+Styagin	0	621	621	PER	вам	3142	3145	вам	1	50	55	3	0	0	0	79	621	вам	iobj	620	PRON	PRON	Not_Assigned	Not_Assigned	3
+Yakhontov	3	626	626	PER	Вы	3169	3171	вы	1	51	56	1	0	0	0	80	626	вы	nsubj	628	PRON	PRON	Not_Assigned	Not_Assigned	3
+Feducova	1	627	627	PER	ее	3172	3174	ее	1	51	56	2	0	0	0	81	627	ее	obj	628	PRON	PRON	Not_Assigned	Not_Assigned	3
+Styagin	0	636	636	PER	Стягин	3214	3220	стягин	1	51	57	4	0	0	0	82	636	стягин	nsubj	633	PROPN	PROP	Singular	Not_Assigned	3
+Lebedyantsev	2	643	643	PER	Лебедянцева	3241	3252	лебедянцева	1	52	58	5	0	0	0	83	643	лебедянцева	ROOT	643	PROPN	PROP	Singular	Not_Assigned	3
+Feducova	1	645	646	PER	Особа достойнейшая	3255	3273	особа достойнейшая	2	53	59	0	0	0	0	84	646	достойнейшая	ROOT	646	VERB	NOM	Not_Assigned	Not_Assigned	3
+PER_T85	26	648	649	PER	Вся семья	3276	3285	вся семья	2	54	60	0	0	0	0	85	649	семья	nsubj	651	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Feducova	1	650	650	PER	ею	3286	3288	ею	1	54	60	2	0	0	0	86	650	ею	obl	651	PRON	PRON	Not_Assigned	Not_Assigned	3
+motherofFeducova	16	653	653	PER	Мать	3302	3306	мать	1	55	61	0	0	0	0	87	653	мать	nsubj	655	NOUN	NOM	Not_Assigned	Not_Assigned	3
+sisterofFeducova	41	657	657	PER	Сестренка	3322	3331	сестренка	1	56	62	0	0	0	0	88	657	сестренка	ROOT	657	NOUN	NOM	Not_Assigned	Not_Assigned	3
+ORG_T89	38	659	659	ORG	гимназии	3334	3342	гимназии	1	56	62	2	0	0	0	89	659	гимназии	nmod	657	NOUN	NOM	Not_Assigned	Not_Assigned	3
+brotherofFeducova	18	661	663	PER	брат - студент	3344	3358	брат - студент	3	56	62	4	0	0	0	90	661	брат	appos	657	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Feducova	1	666	666	PER	она	3365	3368	она	1	57	63	1	0	0	0	91	666	она	nsubj	671	PRON	PRON	Not_Assigned	Not_Assigned	3
+Styagin	0	668	668	PER	вас	3373	3376	вас	1	57	63	3	0	0	0	92	668	вас	nmod	671	PRON	PRON	Not_Assigned	Not_Assigned	3
+Feducova	1	698	698	PER	Крепыш	3508	3514	крепыш	1	60	66	0	0	0	0	93	698	крепыш	ROOT	698	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Feducova	1	701	704	PER	Выносливая, героическая натура	3520	3550	выносливая , героическая натура	4	61	67	0	0	0	0	94	704	натура	conj	701	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T95	25	708	708	PER	мужа	3567	3571	мужа	1	62	68	2	0	0	0	95	708	мужа	nsubj	706	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T96	24	710	710	PER	Всякого	3576	3583	всякого	1	63	69	0	0	0	0	96	710	всякого	obj	711	ADJ	NOM	Not_Assigned	Not_Assigned	3
+PER_T97	23	714	716	PER	нынешние молодые люди	3601	3622	нынешние молодые люди	3	64	70	1	0	0	0	97	716	люди	nsubj	713	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Feducova	1	722	722	PER	Она	3644	3647	она	1	65	71	1	0	0	0	98	722	она	nsubj	726	PRON	PRON	Not_Assigned	Not_Assigned	3
+Styagin	0	732	732	PER	Стягин	3692	3698	стягин	1	65	72	4	0	0	0	99	732	стягин	nsubj	731	PROPN	PROP	Singular	Not_Assigned	3
+Styagin	0	751	751	PER	Стягин	3762	3768	стягин	1	67	74	7	0	0	0	100	751	стягин	nsubj	750	PROPN	PROP	Singular	Not_Assigned	3
+Styagin	0	754	754	PER	ему	3772	3775	ему	1	67	74	10	0	0	0	101	754	ему	iobj	755	PRON	PRON	Not_Assigned	Not_Assigned	3
+Feducova	1	762	763	PER	Вере Ивановне	3805	3818	вере ивановне	2	67	74	18	0	0	0	102	762	вере	nsubj	765	PROPN	PROP	Singular	Not_Assigned	3
+Styagin	0	779	779	PER	Ему	3893	3896	ему	1	68	75	0	0	0	0	103	779	ему	iobj	780	PRON	PRON	Not_Assigned	Not_Assigned	3
+Yakhontov	3	783	783	PER	доктора	3923	3930	доктора	1	68	75	4	0	0	0	104	783	доктора	obj	782	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Feducova	1	788	789	PER	Вера Ивановна	3948	3961	вера ивановна	2	68	75	9	0	0	0	105	788	вера	nsubj	791	PROPN	PROP	Singular	Not_Assigned	3
+Styagin	0	793	793	PER	него	3980	3984	него	1	68	75	14	0	0	0	106	793	него	obl	791	PRON	PRON	Not_Assigned	Not_Assigned	3
+Styagin	0	795	795	PER	Он	3987	3989	он	1	69	76	0	0	0	0	107	795	он	nsubj	796	PRON	PRON	Not_Assigned	Not_Assigned	3
+Feducova	1	797	797	PER	ее	3999	4001	ее	1	69	76	2	0	0	0	108	797	ее	obj	796	PRON	PRON	Not_Assigned	Not_Assigned	3
+Levontiy	10	801	801	PER	Левонтий	4014	4022	левонтий	1	70	77	0	0	0	0	109	801	левонтий	nsubj	802	PROPN	PROP	Singular	Not_Assigned	3
+PER_T110	37	803	817	PER	старика - повара, ходившего к нему в богадельню, умеющего отлично готовить для больных	4029	4115	старика - повара , ходившего к нему в богадельню , умеющего отлично готовить для больных	15	70	77	2	0	1	2	110	807	ходившего	acl	805	VERB	NOM	Not_Assigned	Not_Assigned	3
+Levontiy	10	809	809	PER	нему	4059	4063	нему	1	70	77	8	1	0	0	111	809	нему	obl	807	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T113	36	817	817	PER	больных	4108	4115	больных	1	70	77	16	1	0	0	112	817	больных	obl	815	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Feducova	1	820	821	PER	Вера Ивановна	4121	4134	вера ивановна	2	70	77	19	0	0	0	113	820	вера	nsubj	822	PROPN	PROP	Singular	Not_Assigned	3
+Feducova	1	829	830	PER	редкая девушка	4164	4178	редкая девушка	2	71	78	3	0	0	0	114	830	девушка	ROOT	830	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Yakhontov	3	834	834	PER	доктор	4193	4199	доктор	1	71	79	2	0	0	0	115	834	доктор	nsubj	833	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Yakhontov	3	837	837	PER	себя	4211	4215	себя	1	71	79	5	0	0	0	116	837	себя	obj	836	PRON	PRON	Not_Assigned	Not_Assigned	3
+Styagin	0	845	845	PER	Стягину	4246	4253	стягину	1	72	80	3	0	0	0	117	845	стягину	iobj	847	PROPN	PROP	Singular	Not_Assigned	3
+Yakhontov	3	852	852	PER	москвичом	4286	4295	москвичом	1	72	80	10	0	0	0	118	852	москвичом	nmod	850	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Styagin	0	856	856	PER	себе	4311	4315	себе	1	72	80	14	0	0	0	119	856	себе	obl	854	PRON	PRON	Not_Assigned	Not_Assigned	3
+Yakhontov	3	857	857	PER	его	4316	4319	его	1	72	80	15	0	0	0	120	857	его	det	861	DET	PRON	Not_Assigned	Not_Assigned	3
+Feducova	1	866	875	PER	женщине, которая так умело и приятно ходит за ним	4377	4426	женщине , которая так умело и приятно ходит за ним	10	72	80	24	0	1	1	121	873	ходит	acl:relcl	866	VERB	NOM	Not_Assigned	Not_Assigned	3
+Styagin	0	875	875	PER	ним	4423	4426	ним	1	72	80	33	1	0	0	122	875	ним	obl	873	PRON	PRON	Not_Assigned	Not_Assigned	3
+FAC_T123	8	888	888	FAC	комнату	4477	4484	комнату	1	73	81	11	0	0	0	123	888	комнату	obl	889	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Feducova	1	890	890	PER	Федюкова	4491	4499	федюкова	1	73	81	13	0	0	0	124	890	федюкова	nsubj	889	PROPN	PROP	Singular	Not_Assigned	3
+Feducova	1	895	896	PER	Вера Ивановна	4509	4522	вера ивановна	2	75	83	0	0	0	0	125	895	вера	ROOT	895	PROPN	PROP	Singular	Not_Assigned	3
+Feducova	1	901	901	PER	ее	4542	4544	ее	1	75	84	3	0	0	0	126	901	ее	nmod	902	DET	PRON	Not_Assigned	Not_Assigned	3
+Yakhontov	3	902	902	PER	доктор	4545	4551	доктор	1	75	84	4	0	0	0	127	902	доктор	nsubj	900	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Feducova	1	908	908	PER	ее	4575	4577	ее	1	75	84	10	0	0	0	128	908	ее	det	909	DET	PRON	Not_Assigned	Not_Assigned	3
+Styagin	0	912	912	PER	Стягин	4587	4593	стягин	1	76	85	1	0	0	0	129	912	стягин	nsubj	913	PROPN	PROP	Singular	Not_Assigned	3
+Feducova	1	915	915	PER	ей	4608	4610	ей	1	76	85	4	0	0	0	130	915	ей	iobj	913	PRON	PRON	Not_Assigned	Not_Assigned	3
+Styagin	0	916	916	PER	свою	4611	4615	свою	1	76	85	5	0	0	0	131	916	свою	det	913	DET	PRON	Not_Assigned	Not_Assigned	3
+Feducova	1	919	919	PER	она	4620	4623	она	1	76	85	8	0	0	0	132	919	она	nsubj	920	PRON	PRON	Not_Assigned	Not_Assigned	3
+Styagin	0	921	921	PER	ему	4632	4635	ему	1	76	85	10	0	0	0	133	921	ему	iobj	920	PRON	PRON	Not_Assigned	Not_Assigned	3
+Feducova	1	924	924	PER	Я	4640	4641	я	1	76	85	13	0	0	0	134	924	я	advmod	920	PRON	PRON	Not_Assigned	Not_Assigned	3
+Styagin	0	928	929	PER	Вадим Петрович	4652	4666	вадим петрович	2	76	85	17	0	0	0	135	928	вадим	parataxis	913	PROPN	PROP	Singular	Not_Assigned	3
+FAC_T136	35	937	937	FAC	дому	4694	4698	дому	1	78	87	1	0	0	0	136	937	дому	ROOT	937	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Yakhontov	3	941	941	PER	доктор	4711	4717	доктор	1	78	88	2	0	0	0	137	941	доктор	nsubj	940	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Feducova	1	946	946	PER	я	4727	4728	я	1	79	89	3	0	0	0	138	946	я	nsubj	947	PRON	PRON	Not_Assigned	Not_Assigned	3
+GPE_T64	13	949	949	GPE	Кузнецкий	4739	4748	кузнецкий	1	79	89	6	0	0	0	139	949	кузнецкий	obl	947	ADJ	NOM	Not_Assigned	Not_Assigned	3
+Lebedyantsevi	6	957	957	PER	Лебедянцевым	4781	4793	лебедянцевым	1	79	89	14	0	0	0	140	957	лебедянцевым	obl	953	PROPN	PROP	Singular	Not_Assigned	3
+Feducova	1	960	961	PER	Веры Ивановны	4803	4816	веры ивановны	2	80	90	1	0	0	0	141	960	веры	appos	959	PROPN	PROP	Singular	Not_Assigned	3
+Styagin	0	964	964	PER	Стягин	4832	4838	стягин	1	81	91	0	0	0	0	142	964	стягин	nsubj	968	PROPN	PROP	Singular	Not_Assigned	3
+Lebedyantsev	2	972	972	PER	он	4872	4874	он	1	81	91	8	0	0	0	143	972	он	nsubj	973	PRON	PRON	Not_Assigned	Not_Assigned	3
+Styagin	0	982	982	PER	Стягина	4918	4925	стягина	1	83	93	3	0	0	0	144	982	стягина	appos	981	PROPN	PROP	Singular	Not_Assigned	3
+Feducova	1	983	983	PER	Федюкова	4926	4934	федюкова	1	83	93	4	0	0	0	145	983	федюкова	flat:name	982	PROPN	PROP	Singular	Not_Assigned	3
+Yakhontov	3	988	988	PER	доктору	4955	4962	доктору	1	83	93	9	0	0	0	146	988	доктору	obl	985	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Lebedyantsevi	6	995	995	PER	них	4988	4991	них	1	83	93	16	0	0	0	147	995	них	parataxis	991	PRON	PRON	Not_Assigned	Not_Assigned	3
+Styagin	0	1006	1006	PER	Стягин	5040	5046	стягин	1	84	95	2	0	0	0	148	1006	стягин	nsubj	1005	PROPN	PROP	Singular	Not_Assigned	3
+Lebedyantsev	2	1011	1011	PER	он	5061	5063	он	1	85	96	3	0	0	0	149	1011	он	nsubj	1014	PRON	PRON	Not_Assigned	Not_Assigned	3
+Styagin	0	1012	1012	PER	мне	5064	5067	мне	1	85	96	4	0	0	0	150	1012	мне	iobj	1014	PRON	PRON	Not_Assigned	Not_Assigned	3
+Lebedyantsev	2	1019	1019	PER	чудак	5091	5096	чудак	1	86	97	1	0	0	0	151	1019	чудак	ROOT	1019	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Lebedyantseva	4	1024	1025	PER	Марьей Захаровной	5106	5123	марьей захаровной	2	87	98	2	0	0	0	152	1024	марьей	conj	1019	PROPN	PROP	Singular	Not_Assigned	3
+Yakhontov	3	1031	1031	PER	доктор	5153	5159	доктор	1	87	99	3	0	0	0	153	1031	доктор	nsubj	1030	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Yakhontov	3	1036	1037	PER	Павел Степанович	5168	5184	павел степанович	2	88	100	3	0	0	0	154	1036	павел	conj	1034	PROPN	PROP	Singular	Not_Assigned	3
+PER_T155	11	1048	1048	PER	Кто	5235	5238	кто	1	89	101	1	0	0	0	155	1048	кто	nsubj:pass	1050	PRON	PRON	Not_Assigned	Not_Assigned	3
+Feducova	1	1053	1053	PER	Я	5254	5255	я	1	90	102	1	0	0	0	156	1053	я	nsubj	1055	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T155	11	1058	1058	PER	его	5269	5272	его	1	90	102	6	0	0	0	157	1058	его	det	1059	DET	PRON	Not_Assigned	Not_Assigned	3
+Feducova	1	1070	1070	PER	Я	5328	5329	я	1	93	105	0	0	0	0	158	1070	я	nsubj	1071	PRON	PRON	Not_Assigned	Not_Assigned	3
+Sonya	22	1072	1073	PER	сестру Соню	5338	5349	сестру соню	2	93	105	2	0	0	0	159	1072	сестру	obj	1071	NOUN	PROP	Singular	Not_Assigned	3
+Lebedyantsevi	6	1075	1075	PER	ним	5352	5355	ним	1	93	105	5	0	0	0	160	1075	ним	obl	1071	PRON	PRON	Not_Assigned	Not_Assigned	3
+kidsoflebedyantsevi	7	1078	1078	PER	детях	5364	5369	детях	1	94	106	1	0	0	0	161	1078	детях	obl	1079	NOUN	NOM	Not_Assigned	Not_Assigned	3
+M2	40	1079	1079	PER	бонна	5370	5375	бонна	1	94	106	2	0	0	0	162	1079	бонна	ROOT	1079	PROPN	PROP	Singular	Not_Assigned	3
+Lebedyantsev	2	1083	1084	PER	Дмитрий Семеныч	5393	5408	дмитрий семеныч	2	95	107	0	0	0	0	163	1083	дмитрий	nsubj	1086	PROPN	PROP	Singular	Not_Assigned	3
+Lebedyantsev	2	1089	1089	PER	ему	5423	5426	ему	1	95	107	6	0	0	0	164	1089	ему	iobj	1088	PRON	PRON	Not_Assigned	Not_Assigned	3
+Styagin	0	1095	1095	PER	мне	5447	5450	мне	1	96	108	2	0	0	0	165	1095	мне	iobj	1098	PRON	PRON	Not_Assigned	Not_Assigned	3
+Styagin	0	1104	1104	PER	Стягина	5487	5494	стягина	1	96	109	3	0	0	0	166	1104	стягина	obl	1102	PROPN	PROP	Singular	Not_Assigned	3
+Styagin	0	1107	1107	PER	он	5498	5500	он	1	96	109	6	0	0	0	167	1107	он	nsubj	1108	PRON	PRON	Not_Assigned	Not_Assigned	3
+Styagin	0	1112	1112	PER	Ему	5524	5527	ему	1	97	110	0	0	0	0	168	1112	ему	iobj	1113	PRON	PRON	Not_Assigned	Not_Assigned	3
+Lebedyantsev	2	1116	1116	PER	приятеля	5545	5553	приятеля	1	97	110	4	0	0	0	169	1116	приятеля	obl	1114	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Feducova	1	1126	1126	PER	Федюковой	5606	5615	федюковой	1	97	110	14	0	0	0	170	1126	федюковой	obl	1124	PROPN	PROP	Singular	Not_Assigned	3
+Styagin	0	1131	1131	PER	он	5627	5629	он	1	97	110	19	0	0	0	171	1131	он	nsubj	1134	PRON	PRON	Not_Assigned	Not_Assigned	3
+Lebedyantsev	2	1140	1140	PER	Лебедянцевым	5670	5682	лебедянцевым	1	97	110	28	0	0	0	172	1140	лебедянцевым	obl	1138	PROPN	PROP	Singular	Not_Assigned	3
+Yakhontov	3	1143	1143	PER	Вы	5687	5689	вы	1	98	111	1	0	0	0	173	1143	вы	nsubj	1145	PRON	PRON	Not_Assigned	Not_Assigned	3
+Yakhontov	3	1148	1149	PER	Павел Степанович	5705	5721	павел степанович	2	98	111	6	0	0	0	174	1148	павел	nsubj	1145	PROPN	PROP	Singular	Not_Assigned	3
+Feducova	1	1155	1155	PER	Федюкова	5755	5763	федюкова	1	98	112	4	0	0	0	175	1155	федюкова	nsubj	1154	PROPN	PROP	Singular	Not_Assigned	3
+Styagin	0	1157	1157	PER	Стягин	5766	5772	стягин	1	99	113	0	0	0	0	176	1157	стягин	nsubj	1158	PROPN	PROP	Singular	Not_Assigned	3
+Feducova	1	1160	1160	PER	ее	5783	5785	ее	1	99	113	3	0	0	0	177	1160	ее	det	1163	PRON	PRON	Not_Assigned	Not_Assigned	3
+Feducova	1	1170	1170	PER	Она	5842	5845	она	1	100	114	0	0	0	0	178	1170	она	nsubj	1171	PRON	PRON	Not_Assigned	Not_Assigned	3
+Feducova	1	1176	1176	PER	ее	5874	5876	ее	1	101	115	2	0	0	0	179	1176	ее	det	1178	DET	PRON	Not_Assigned	Not_Assigned	3
+Styagin	0	1180	1180	PER	его	5907	5910	его	1	101	115	6	0	0	0	180	1180	его	obj	1179	PRON	PRON	Not_Assigned	Not_Assigned	3
+Yakhontov	3	1191	1191	PER	доктор	5942	5948	доктор	1	102	116	9	0	0	0	181	1191	доктор	nsubj	1190	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Korovin	14	1199	1199	PER	Коровина	5983	5991	коровина	1	103	117	2	0	0	0	182	1199	коровина	obj	1198	PROPN	PROP	Singular	Not_Assigned	3
+Lebedyantseva	4	1201	1201	PER	она	5994	5997	она	1	103	117	4	0	0	0	183	1201	она	nsubj	1198	PRON	PRON	Not_Assigned	Not_Assigned	3
+Feducova	1	1209	1209	PER	я	6027	6028	я	1	104	118	3	0	0	0	184	1209	я	nsubj	1211	PRON	PRON	Not_Assigned	Not_Assigned	3
+Yakhontov	3	1217	1217	PER	доктор	6062	6068	доктор	1	105	119	3	0	0	0	185	1217	доктор	nsubj	1220	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Yakhontov	3	1221	1221	PER	его	6082	6085	его	1	105	119	7	0	0	0	186	1221	его	obj	1220	PRON	PRON	Not_Assigned	Not_Assigned	3
+Styagin	0	1222	1222	PER	Стягин	6086	6092	стягин	1	105	119	8	0	0	0	187	1222	стягин	nsubj	1220	PROPN	PROP	Singular	Not_Assigned	3
+Lebedyantsev	2	1226	1226	PER	Лебедянцеву	6104	6115	лебедянцеву	1	105	119	12	0	0	0	188	1226	лебедянцеву	iobj	1225	PROPN	PROP	Singular	Not_Assigned	3
+Lebedyantsev	2	1229	1229	PER	он	6123	6125	он	1	105	119	15	0	0	0	189	1229	он	nsubj	1230	PRON	PRON	Not_Assigned	Not_Assigned	3
+Styagin	0	1231	1231	PER	мне	6130	6133	мне	1	105	119	17	0	0	0	190	1231	мне	iobj	1230	PRON	PRON	Not_Assigned	Not_Assigned	3
+Lebedyantsev	2	1236	1236	PER	него	6147	6151	него	1	105	119	22	0	0	0	191	1236	него	ccomp	1232	PRON	PRON	Not_Assigned	Not_Assigned	3
+Styagin	0	1252	1252	PER	вы	6209	6211	вы	1	107	121	1	0	0	0	192	1252	вы	nsubj	1253	PRON	PRON	Not_Assigned	Not_Assigned	3
+Styagin	0	1260	1260	PER	вас	6262	6265	вас	1	108	122	4	0	0	0	193	1260	вас	obj	1259	PRON	PRON	Not_Assigned	Not_Assigned	3
+Yakhontov	3	1269	1269	PER	я	6317	6318	я	1	110	124	1	0	0	0	194	1269	я	nsubj	1271	PRON	PRON	Not_Assigned	Not_Assigned	3
+Yakhontov	3	1295	1295	PER	доктора	6451	6458	доктора	1	113	127	2	0	0	0	195	1295	доктора	nmod	1294	NOUN	NOM	Not_Assigned	Not_Assigned	3
+FAC_T123	8	1298	1298	FAC	комнате	6471	6478	комнате	1	113	127	5	0	0	0	196	1298	комнате	obl	1296	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Yakhontov	3	1300	1300	PER	Его	6481	6484	его	1	114	128	0	0	0	0	197	1300	его	obj	1301	PRON	PRON	Not_Assigned	Not_Assigned	3
+FAC_T199	17	1303	1303	FAC	переднюю	6497	6505	переднюю	1	114	128	3	0	0	0	198	1303	переднюю	amod	1304	ADJ	NOM	Not_Assigned	Not_Assigned	3
+Feducova	1	1304	1304	PER	Федюкова	6506	6514	федюкова	1	114	128	4	0	0	0	199	1304	федюкова	obl	1301	PROPN	PROP	Singular	Not_Assigned	3
+Yakhontov	3	1314	1314	PER	ним	6547	6550	ним	1	114	128	14	0	0	0	200	1314	ним	obl	1312	PRON	PRON	Not_Assigned	Not_Assigned	3
+Styagin	0	1321	1321	PER	Стягина	6587	6594	стягина	1	115	129	1	0	0	0	201	1321	стягина	nmod	1320	PROPN	PROP	Singular	Not_Assigned	3
+Yakhontov	3	1334	1334	PER	приятелю	6659	6667	приятелю	1	115	129	14	0	0	0	202	1334	приятелю	nmod	1332	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Styagin	0	1336	1336	PER	Он	6670	6672	он	1	116	130	0	0	0	0	203	1336	он	nsubj	1337	PRON	PRON	Not_Assigned	Not_Assigned	3
+Lebedyantsev	2	1340	1340	PER	Лебедянцева	6697	6708	лебедянцева	1	116	130	4	0	0	0	204	1340	лебедянцева	obl	1338	PROPN	PROP	Singular	Not_Assigned	3
+Lebedyantsev	2	1343	1343	PER	ему	6712	6715	ему	1	116	130	7	0	0	0	205	1343	ему	iobj	1347	PRON	PRON	Not_Assigned	Not_Assigned	3
+Feducova	1	1352	1352	PER	Федюкова	6756	6764	федюкова	1	116	130	16	0	0	0	206	1352	федюкова	nsubj	1357	PROPN	PROP	Singular	Not_Assigned	3
+Lebedyantsev	2	1362	1363	PER	его приятеля	6818	6830	его приятеля	2	116	130	26	0	1	1	207	1363	приятеля	obj	1361	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Styagin	0	1362	1362	PER	его	6818	6821	его	1	116	130	26	1	0	0	208	1362	его	nmod	1363	PRON	PRON	Not_Assigned	Not_Assigned	3
+Lebedyantsev	2	1369	1370	PER	Дмитрия Семеныча	6847	6863	дмитрия семеныча	2	117	131	4	0	0	0	209	1369	дмитрия	obl	1365	PROPN	PROP	Singular	Not_Assigned	3
+Styagin	0	1374	1374	PER	он	6876	6878	он	1	117	132	2	0	0	0	210	1374	он	nsubj	1373	PRON	PRON	Not_Assigned	Not_Assigned	3
+Feducova	1	1378	1378	PER	Федюкова	6891	6899	федюкова	1	117	132	6	0	0	0	211	1378	федюкова	nsubj	1379	PROPN	PROP	Singular	Not_Assigned	3
+Feducova	1	1383	1383	PER	Она	6922	6925	она	1	118	133	0	0	0	0	212	1383	она	nsubj	1386	PRON	PRON	Not_Assigned	Not_Assigned	3
+Styagin	0	1399	1399	PER	Вы	6994	6996	вы	1	119	134	1	0	0	0	213	1399	вы	nsubj	1403	PRON	PRON	Not_Assigned	Not_Assigned	3
+Lebedyantseva	4	1404	1405	PER	Марью Захаровну	7020	7035	марью захаровну	2	119	134	6	0	0	0	214	1404	марью	xcomp	1403	PROPN	PROP	Singular	Not_Assigned	3
+Lebedyantseva	4	1408	1409	PER	Жену Лебедянцева	7041	7057	жену лебедянцева	2	120	135	1	0	1	1	215	1408	жену	obj	1403	NOUN	PROP	Singular	Not_Assigned	3
+Lebedyantsev	2	1409	1409	PER	Лебедянцева	7046	7057	лебедянцева	1	120	135	2	1	0	0	216	1409	лебедянцева	nmod	1408	PROPN	PROP	Singular	Not_Assigned	3
+Styagin	0	1430	1430	PER	моих	7127	7131	моих	1	124	139	7	0	0	0	217	1430	моих	det	1431	DET	PRON	Not_Assigned	Not_Assigned	3
+GPE_T72	12	1433	1433	GPE	Москву	7143	7149	москву	1	124	139	10	0	0	0	218	1433	москву	nmod	1431	PROPN	PROP	Not_Assigned	Not_Assigned	3
+Lebedyantsev	2	1441	1441	PER	Он	7182	7184	он	1	125	140	0	0	0	0	219	1441	он	nsubj	1444	PRON	PRON	Not_Assigned	Not_Assigned	3
+Styagin	0	1448	1448	PER	ему	7226	7229	ему	1	126	141	1	0	0	0	220	1448	ему	iobj	1447	PRON	PRON	Not_Assigned	Not_Assigned	3
+Styagin	0	1451	1451	PER	он	7237	7239	он	1	126	141	4	0	0	0	221	1451	он	nsubj	1452	PRON	PRON	Not_Assigned	Not_Assigned	3
+FAC_T223	19	1457	1463	FAC	квартира Лебедянцева где-то на Садовой	7266	7304	квартира лебедянцева где - то на садовой	7	126	141	10	0	1	2	222	1457	квартира	conj	1447	NOUN	PROP	Not_Assigned	Not_Assigned	3
+Lebedyantsev	2	1458	1458	PER	Лебедянцева	7275	7286	лебедянцева	1	126	141	11	1	0	0	223	1458	лебедянцева	nmod	1457	PROPN	PROP	Singular	Not_Assigned	3
+GPE_T225	20	1463	1463	GPE	Садовой	7297	7304	садовой	1	126	141	16	1	0	0	224	1463	садовой	nmod	1457	ADJ	NOM	Not_Assigned	Not_Assigned	3
+Lebedyantseva	4	1465	1465	PER	Жена	7307	7311	жена	1	127	142	0	0	0	0	225	1465	жена	nsubj	1466	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Styagin	0	1467	1467	PER	ему	7323	7326	ему	1	127	142	2	0	0	0	226	1467	ему	iobj	1466	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T229	34	1469	1469	PER	кухаркой	7329	7337	кухаркой	1	127	142	4	0	0	0	227	1469	кухаркой	xcomp	1466	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Styagin	0	1472	1472	PER	он	7341	7343	он	1	127	142	7	0	0	0	228	1472	он	nsubj	1473	PRON	PRON	Not_Assigned	Not_Assigned	3
+Lebedyantseva	4	1477	1477	PER	нее	7357	7360	нее	1	127	142	12	0	0	0	229	1477	нее	ccomp	1473	PRON	PRON	Not_Assigned	Not_Assigned	3
+Lebedyantseva	4	1484	1488	PER	такой некрасивой и скучной женщине	7391	7425	такой некрасивой и скучной женщине	5	127	142	19	0	0	0	230	1488	женщине	obl	1482	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Styagin	0	1494	1494	PER	он	7458	7460	он	1	128	143	1	0	0	0	231	1494	он	nsubj	1499	PRON	PRON	Not_Assigned	Not_Assigned	3
+Lebedyantseva	4	1497	1497	PER	ней	7471	7474	ней	1	128	143	4	0	0	0	232	1497	ней	obl	1499	PRON	PRON	Not_Assigned	Not_Assigned	3
+Lebedyantsev	2	1505	1505	PER	приятелю	7505	7513	приятелю	1	128	143	12	0	0	0	233	1505	приятелю	nmod	1503	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Lebedyantseva	4	1510	1510	PER	ей	7535	7537	ей	1	128	143	17	0	0	0	234	1510	ей	iobj	1509	PRON	PRON	Not_Assigned	Not_Assigned	3
+Lebedyantseva	4	1515	1518	PER	Это - превосходная женщина	7555	7581	это - превосходная женщина	4	129	144	1	0	0	0	235	1518	женщина	ROOT	1518	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Feducova	1	1522	1522	PER	Федюкова	7593	7601	федюкова	1	129	145	2	0	0	0	236	1522	федюкова	nmod	1521	PROPN	PROP	Singular	Not_Assigned	3
+Styagin	0	1530	1530	PER	Стягин	7642	7648	стягин	1	129	145	10	0	0	0	237	1530	стягин	nsubj	1531	PROPN	PROP	Singular	Not_Assigned	3
+Styagin	0	1548	1549	PER	Вадим Петрович	7729	7743	вадим петрович	2	131	147	5	0	0	0	238	1548	вадим	ROOT	1548	PROPN	PROP	Singular	Not_Assigned	3
+Lebedyantseva	4	1554	1556	PER	верный товарищ мужа	7762	7781	верный товарищ мужа	3	132	148	3	0	0	0	239	1555	товарищ	conj	1552	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Lebedyantsevi	6	1560	1560	PER	них	7793	7796	них	1	133	149	2	0	0	0	240	1560	них	obl	1569	PRON	PRON	Not_Assigned	Not_Assigned	3
+kidsoflebedyantsevi	7	1561	1562	PER	четверо детей	7797	7810	четверо детей	2	133	149	3	0	0	0	241	1562	детей	nsubj	1560	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T243	33	1570	1570	PER	нищих	7845	7850	нищих	1	135	151	1	0	0	0	242	1570	нищих	obj	1569	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Feducova	1	1573	1573	PER	Федюкова	7856	7864	федюкова	1	136	152	0	0	0	0	243	1573	федюкова	nsubj	1574	PROPN	PROP	Singular	Not_Assigned	3
+Styagin	0	1576	1576	PER	него	7878	7882	него	1	136	152	3	0	0	0	244	1576	него	obl	1574	PRON	PRON	Not_Assigned	Not_Assigned	3
+Feducova	1	1582	1582	PER	ее	7907	7909	ее	1	136	152	9	0	0	0	245	1582	ее	det	1586	DET	PRON	Not_Assigned	Not_Assigned	3
+Styagin	0	1588	1588	PER	его	7939	7942	его	1	136	152	15	0	0	0	246	1588	его	obj	1587	PRON	PRON	Not_Assigned	Not_Assigned	3
+Feducova	1	1591	1591	PER	Вы	7947	7949	вы	1	137	153	1	0	0	0	247	1591	вы	nsubj	1592	PRON	PRON	Not_Assigned	Not_Assigned	3
+Styagin	0	1596	1596	PER	я	7971	7972	я	1	137	153	6	0	0	0	248	1596	я	nsubj	1597	PRON	PRON	Not_Assigned	Not_Assigned	3
+Styagin	0	1601	1601	PER	он	7992	7994	он	1	137	154	2	0	0	0	249	1601	он	nsubj	1600	PRON	PRON	Not_Assigned	Not_Assigned	3
+Feducova	1	1612	1612	PER	она	8037	8040	она	1	138	156	2	0	0	0	250	1612	она	nsubj	1611	PRON	PRON	Not_Assigned	Not_Assigned	3
+Feducova	1	1620	1620	PER	девицы	8077	8083	девицы	1	139	157	6	0	0	0	251	1620	девицы	nmod	1619	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Feducova	1	1623	1624	PER	Вера Ивановна	8088	8101	вера ивановна	2	139	157	9	0	0	0	252	1623	вера	nsubj	1625	PROPN	PROP	Singular	Not_Assigned	3
+Styagin	0	1636	1636	PER	он	8165	8167	он	1	140	159	2	0	0	0	253	1636	он	nsubj	1635	PRON	PRON	Not_Assigned	Not_Assigned	3
+Lebedyantseva	4	1644	1644	PER	ней	8197	8200	ней	1	141	160	5	0	0	0	254	1644	ней	nmod	1641	PRON	PRON	Not_Assigned	Not_Assigned	3
+Lebedyantseva	4	1651	1651	PER	она	8230	8233	она	1	143	162	2	0	0	0	255	1651	она	nsubj	1650	PRON	PRON	Not_Assigned	Not_Assigned	3
+Feducova	1	1660	1660	PER	Федюкова	8264	8272	федюкова	1	143	162	11	0	0	0	256	1660	федюкова	nsubj	1661	PROPN	PROP	Singular	Not_Assigned	3
+Lebedyantseva	4	1667	1667	PER	нее	8308	8311	нее	1	143	162	18	0	0	0	257	1667	нее	obl	1668	PRON	PRON	Not_Assigned	Not_Assigned	3
+Styagin	0	1680	1680	PER	Стягин	8381	8387	стягин	1	144	164	3	0	0	0	258	1680	стягин	nsubj	1679	PROPN	PROP	Singular	Not_Assigned	3
+Lebedyantseva	4	1692	1692	PER	Она	8454	8457	она	1	147	167	0	0	0	0	259	1692	она	nsubj	1693	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T261	32	1700	1701	PER	маленький ребенок	8489	8506	маленький ребенок	2	147	167	8	0	0	0	260	1701	ребенок	obl	1695	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Feducova	1	1723	1723	PER	она	8601	8604	она	1	151	171	1	0	0	0	261	1723	она	nsubj	1724	PRON	PRON	Not_Assigned	Not_Assigned	3
+Styagin	0	1731	1731	PER	Стягина	8644	8651	стягина	1	153	173	0	0	0	0	262	1731	стягина	nsubj	1732	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Styagin	0	1740	1740	PER	Ему	8695	8698	ему	1	154	174	0	0	0	0	263	1740	ему	iobj	1742	PRON	PRON	Not_Assigned	Not_Assigned	3
+Styagin	0	1745	1745	PER	себя	8726	8730	себя	1	154	174	5	0	0	0	264	1745	себя	obl	1743	PRON	PRON	Not_Assigned	Not_Assigned	3
+Lebedyantsev	2	1747	1748	PER	московским приятелем	8737	8757	московским приятелем	2	154	174	7	0	0	0	265	1748	приятелем	obl	1743	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Styagin	0	1751	1751	PER	он	8768	8770	он	1	155	175	1	0	0	0	266	1751	он	nsubj	1753	PRON	PRON	Not_Assigned	Not_Assigned	3
+Lebedyantsev	2	1754	1754	PER	его	8782	8785	его	1	155	175	4	0	0	0	267	1754	его	obj	1753	PRON	PRON	Not_Assigned	Not_Assigned	3
+Lebedyantseva	4	1756	1756	PER	жену	8790	8794	жену	1	155	175	6	0	0	0	268	1756	жену	obl	1753	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Lebedyantsev	2	1764	1764	PER	него	8820	8824	него	1	155	175	14	0	0	0	269	1764	него	obl	1759	PRON	PRON	Not_Assigned	Not_Assigned	3
+kidsoflebedyantsevi	7	1765	1765	PER	детей	8825	8830	детей	1	155	175	15	0	0	0	270	1765	детей	obj	1759	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Lebedyantsev	2	1773	1773	PER	ему	8868	8871	ему	1	155	175	23	0	0	0	271	1773	ему	iobj	1772	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T273	31	1779	1780	PER	большим семейством	8905	8923	большим семейством	2	155	175	29	0	0	0	272	1780	семейством	nmod	1775	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Lebedyantsev	2	1785	1786	PER	Дмитрия Семеныча	8935	8951	дмитрия семеныча	2	156	176	3	0	0	0	273	1785	дмитрия	conj	1783	PROPN	PROP	Singular	Not_Assigned	3
+Feducova	1	1790	1790	PER	Федюкова	8967	8975	федюкова	1	156	177	2	0	0	0	274	1790	федюкова	nsubj	1789	PROPN	PROP	Singular	Not_Assigned	3
+Lebedyantsev	2	1793	1793	PER	Он	8980	8982	он	1	157	178	1	0	0	0	275	1793	он	nsubj	1795	PRON	PRON	Not_Assigned	Not_Assigned	3
+Lebedyantsev	2	1807	1810	PER	честного, знающего человека	9048	9075	честного , знающего человека	4	158	179	2	0	0	0	276	1809	знающего	acl	1807	VERB	NOM	Not_Assigned	Not_Assigned	3
+Lebedyantsev	2	1826	1826	PER	он	9137	9139	он	1	161	182	3	0	0	0	277	1826	он	nsubj	1828	PRON	PRON	Not_Assigned	Not_Assigned	3
+ORG_T279	39	1838	1840	ORG	одном частном обществе	9177	9199	одном частном обществе	3	162	183	2	0	0	0	278	1840	обществе	ROOT	1840	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T280	30	1848	1848	PER	конторщика	9233	9243	конторщика	1	163	184	6	0	0	0	279	1848	конторщика	nmod	1846	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Feducova	1	1855	1856	PER	Веры Ивановны	9272	9285	веры ивановны	2	164	185	5	0	0	0	280	1855	веры	appos	1854	PROPN	PROP	Singular	Not_Assigned	3
+Styagin	0	1864	1864	PER	Стягин	9316	9322	стягин	1	165	186	4	0	0	0	281	1864	стягин	nsubj	1865	PROPN	PROP	Singular	Not_Assigned	3
+Lebedyantsev	2	1872	1872	PER	приятеля	9383	9391	приятеля	1	165	186	12	0	0	0	282	1872	приятеля	obj	1871	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Lebedyantsev	2	1880	1880	PER	ему	9432	9435	ему	1	165	186	20	0	0	0	283	1880	ему	iobj	1878	PRON	PRON	Not_Assigned	Not_Assigned	3
+Lebedyantsev	2	1884	1884	PER	он	9449	9451	он	1	165	186	24	0	0	0	284	1884	он	nsubj	1885	PRON	PRON	Not_Assigned	Not_Assigned	3
+Styagin	0	1890	1890	PER	я	9484	9485	я	1	166	187	2	0	0	0	285	1890	я	nsubj	1892	PRON	PRON	Not_Assigned	Not_Assigned	3
+Styagin	0	1899	1899	PER	себя	9527	9531	себя	1	166	188	5	0	0	0	286	1899	себя	obl	1897	PRON	PRON	Not_Assigned	Not_Assigned	3
+Styagin	0	1900	1900	PER	Стягин	9532	9538	стягин	1	166	188	6	0	0	0	287	1900	стягин	appos	1899	PROPN	PROP	Singular	Not_Assigned	3
+Styagin	0	1905	1905	PER	мне	9552	9555	мне	1	167	189	3	0	0	0	288	1905	мне	iobj	1907	PRON	PRON	Not_Assigned	Not_Assigned	3
+Lebedyantsev	2	1909	1909	PER	ним	9572	9575	ним	1	167	189	7	0	0	0	289	1909	ним	obl	1907	PRON	PRON	Not_Assigned	Not_Assigned	3
+Styagin	0	1915	1915	PER	Я	9602	9603	я	1	168	190	0	0	0	0	290	1915	я	nsubj	1917	PRON	PRON	Not_Assigned	Not_Assigned	3
+Styagin	0	1924	1924	PER	он	9638	9640	он	1	169	191	1	0	0	0	291	1924	он	nsubj	1925	PRON	PRON	Not_Assigned	Not_Assigned	3
+Feducova	1	1931	1932	PER	Вера Ивановна	9669	9682	вера ивановна	2	169	191	8	0	0	0	292	1931	вера	nsubj	1933	PROPN	PROP	Singular	Not_Assigned	3
+Styagin	0	1936	1936	PER	его	9698	9701	его	1	169	191	13	0	0	0	293	1936	его	det	1937	DET	PRON	Not_Assigned	Not_Assigned	3
+Lebedyantsev	2	1939	1941	PER	приятелю и товарищу	9715	9734	приятелю и товарищу	3	169	191	16	0	0	0	294	1941	товарищу	conj	1939	NOUN	NOM	Not_Assigned	Not_Assigned	3

@@ -1,0 +1,278 @@
+COREF_name	COREF	start_token	end_token	cat	sacr_text	byte_onset	byte_offset	text	mention_len	paragraph_ID	sentence_ID	start_token_ID_within_sentence	out_to_in_nested_level	in_to_out_nested_level	nested_entities_count	temp_index	head_id	head_word	head_dependency_relation	head_syntactic_head_ID	POS_tag	prop	number	gender	grammatical_person
+M2	14	4	5	PER	людям незнакомым	18	34	людям незнакомым	2	0	0	4	0	0	0	0	5	незнакомым	ROOT	5	ADJ	NOM	Not_Assigned	Not_Assigned	3
+M2	14	23	23	PER	хозяев	107	113	хозяев	1	1	1	5	0	0	0	1	23	хозяев	nmod	22	NOUN	NOM	Not_Assigned	Not_Assigned	3
+M2	14	27	27	GPE	их	126	128	их	1	1	1	9	0	0	0	2	27	их	det	28	DET	PRON	Not_Assigned	Not_Assigned	3
+GPE_T4	38	28	28	GPE	деревне	129	136	деревне	1	1	1	10	0	0	0	3	28	деревне	obl	25	NOUN	NOM	Not_Assigned	Not_Assigned	3
+FAC_T5	39	31	32	FAC	грязной хате	140	152	грязной хате	2	1	1	13	0	0	0	4	32	хате	conj	28	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T6	5	33	33	PER	мужика	153	159	мужика	1	1	1	15	0	0	0	5	33	мужика	nmod	32	NOUN	NOM	Not_Assigned	Not_Assigned	3
+M1	37	37	38	PER	его родными	169	180	его родными	2	1	1	19	0	1	1	6	38	родными	obl	35	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T6	5	37	37	PER	его	169	172	его	1	1	1	19	1	0	0	7	37	его	det	38	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T9	27	40	40	PER	потомками	182	191	потомками	1	1	1	22	0	0	0	8	40	потомками	conj	38	NOUN	NOM	Not_Assigned	Not_Assigned	3
+autor	2	54	54	PER	я	259	260	я	1	2	2	3	0	0	0	9	54	я	nsubj	56	PRON	PRON	Not_Assigned	Not_Assigned	3
+autor	2	68	68	PER	моей	333	337	моей	1	2	2	17	0	0	0	10	68	моей	det	69	DET	PRON	Not_Assigned	Not_Assigned	3
+autor	2	86	86	PER	моим	444	448	моим	1	4	4	1	0	0	0	11	86	моим	det	88	DET	PRON	Not_Assigned	Not_Assigned	3
+autor	2	90	90	PER	я	471	472	я	1	4	4	5	0	0	0	12	90	я	nsubj	91	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T14	18	105	105	PER	хозяйка	542	549	хозяйка	1	4	4	20	0	0	0	13	105	хозяйка	nsubj	106	NOUN	NOM	Not_Assigned	Not_Assigned	3
+M3	48	123	124	PER	ее семейство	634	646	ее семейство	2	5	5	11	0	1	1	14	124	семейство	obj	122	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T14	18	123	123	PER	ее	634	636	ее	1	5	5	11	1	0	0	15	123	ее	det	124	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T6	5	129	129	PER	хозяин	666	672	хозяин	1	6	6	3	0	0	0	16	129	хозяин	nsubj	130	NOUN	NOM	Not_Assigned	Not_Assigned	3
+paysan	3	136	138	PER	другим приезжим мужиком	693	716	другим приезжим мужиком	3	6	6	10	0	0	0	17	138	мужиком	obl	130	NOUN	NOM	Not_Assigned	Not_Assigned	3
+autor	2	150	150	PER	я	761	762	я	1	7	7	10	0	0	0	18	150	я	nsubj	151	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T20	15	154	154	PER	их	786	788	их	1	7	7	14	0	0	0	19	154	их	det	155	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T6	5	157	157	PER	хозяин	802	808	хозяин	1	7	7	17	0	0	0	20	157	хозяин	nsubj	164	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Vlodinski	0	167	167	PER	помещика	868	876	помещика	1	7	7	27	0	0	0	21	167	помещика	nmod	166	NOUN	NOM	Not_Assigned	Not_Assigned	3
+paysan	3	169	170	PER	приятель его	879	891	приятель его	2	7	7	29	0	1	1	22	169	приятель	nsubj	174	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T6	5	170	170	PER	его	888	891	его	1	7	7	30	1	0	0	23	170	его	nmod	169	PRON	PRON	Not_Assigned	Not_Assigned	3
+Vlodinski	0	177	178	PER	своего владельца	933	949	своего владельца	2	7	7	37	0	1	1	24	178	владельца	nmod	176	NOUN	NOM	Not_Assigned	Not_Assigned	3
+paysan	3	177	177	PER	своего	933	939	своего	1	7	7	37	1	0	0	25	177	своего	det	178	DET	PRON	Not_Assigned	Not_Assigned	3
+Vlodinski	0	182	182	PER	нем	963	966	нем	1	7	7	42	0	0	0	26	182	нем	obl	180	PRON	PRON	Not_Assigned	Not_Assigned	3
+paysan	3	188	189	PER	флегматическому хохлу	997	1018	флегматическому хохлу	2	7	7	48	0	0	0	27	189	хохлу	iobj	187	PROPN	PROP	Singular	Not_Assigned	3
+autor	2	192	192	PER	я	1024	1025	я	1	7	7	52	0	0	0	28	192	я	nsubj	193	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T20	15	195	195	PER	их	1038	1040	их	1	7	7	55	0	0	0	29	195	их	det	196	DET	PRON	Not_Assigned	Not_Assigned	3
+Vlodinski	0	201	204	PER	редкого филантрона - помещика	1068	1097	редкого филантрона - помещика	4	7	7	61	0	0	0	30	202	филантрона	nmod	200	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Vlodinski	0	208	210	PER	Дмитрий Егорович Влодинский	1104	1131	дмитрий егорович влодинский	3	8	8	2	0	0	0	31	208	дмитрий	nsubj	151	PROPN	PROP	Singular	Not_Assigned	3
+autor	2	215	215	PER	мне	1145	1148	мне	1	8	8	9	0	0	0	32	215	мне	iobj	214	PRON	PRON	Not_Assigned	Not_Assigned	3
+paysan	3	216	216	PER	крестьянин	1149	1159	крестьянин	1	8	8	10	0	0	0	33	216	крестьянин	nsubj	214	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Vlodinski	0	218	218	PER	Влодинский	1162	1172	влодинский	1	9	9	0	0	0	0	34	218	влодинский	ROOT	218	ADJ	NOM	Not_Assigned	Not_Assigned	3
+autor	2	225	225	PER	мне	1200	1203	мне	1	10	10	4	0	0	0	35	225	мне	iobj	226	PRON	PRON	Not_Assigned	Not_Assigned	3
+autor	2	234	234	PER	я	1233	1234	я	1	10	10	13	0	0	0	36	234	я	nsubj	235	PRON	PRON	Not_Assigned	Not_Assigned	3
+autor	2	247	247	PER	я	1292	1293	я	1	11	11	3	0	0	0	37	247	я	nsubj	248	PRON	PRON	Not_Assigned	Not_Assigned	3
+Vlodinski	0	251	254	PER	этот Дмитрий Егорович Влодинский	1306	1338	этот дмитрий егорович влодинский	4	11	11	7	0	0	0	38	252	дмитрий	nsubj	255	PROPN	PROP	Singular	Not_Assigned	3
+kidsofsister	8	269	271	PER	детям сестры своей	1405	1423	детям сестры своей	3	11	11	25	0	2	2	39	269	детям	iobj	266	NOUN	NOM	Not_Assigned	Not_Assigned	3
+sisterofVlodinski	6	270	271	PER	сестры своей	1411	1423	сестры своей	2	11	11	26	1	1	1	40	270	сестры	nmod	269	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Vlodinski	0	271	271	PER	своей	1418	1423	своей	1	11	11	27	2	0	0	41	271	своей	obj	266	DET	PRON	Not_Assigned	Not_Assigned	3
+Vlodinski	0	275	275	PER	собою	1436	1441	собою	1	11	11	31	0	0	0	42	275	собою	obl	273	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T41	23	280	280	PER	крестьян	1466	1474	крестьян	1	11	11	36	0	0	0	43	280	крестьян	nmod	279	NOUN	NOM	Not_Assigned	Not_Assigned	3
+nieceofVladinski	1	283	286	PER	одна из его племянниц	1481	1502	одна из его племянниц	4	11	11	39	0	2	2	44	286	племянниц	nmod	283	NOUN	NOM	Not_Assigned	Not_Assigned	3
+kidsofsister	8	285	286	PER	его племянниц	1489	1502	его племянниц	2	11	11	41	1	1	1	45	286	племянниц	nmod	283	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Vlodinski	0	285	285	PER	его	1489	1492	его	1	11	11	41	2	0	0	46	285	его	det	286	DET	PRON	Not_Assigned	Not_Assigned	3
+Vlodinski	0	291	291	PER	ему	1525	1528	ему	1	11	11	47	0	0	0	47	291	ему	obl	288	PRON	PRON	Not_Assigned	Not_Assigned	3
+Vlodinski	0	298	298	PER	ним	1553	1556	ним	1	11	11	54	0	0	0	48	298	ним	obl	296	PRON	PRON	Not_Assigned	Not_Assigned	3
+nieceofVladinski	1	302	302	PER	себя	1569	1573	себя	1	11	11	58	0	0	0	49	302	себя	obl	300	PRON	PRON	Not_Assigned	Not_Assigned	3
+Vlodinski	0	311	311	PER	его	1622	1625	его	1	11	11	67	0	0	0	50	311	его	obj	310	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T47	24	314	314	PER	отца	1631	1635	отца	1	11	11	70	0	0	0	51	314	отца	obl	310	NOUN	NOM	Not_Assigned	Not_Assigned	3
+nieceandVlodinski	4	318	320	PER	эти странные люди	1644	1661	эти странные люди	3	11	11	74	0	0	0	52	320	люди	nsubj	321	NOUN	NOM	Not_Assigned	Not_Assigned	3
+nieceandVlodinski	4	322	322	PER	затворниками	1668	1680	затворниками	1	11	11	78	0	0	0	53	322	затворниками	xcomp	321	NOUN	NOM	Not_Assigned	Not_Assigned	3
+autor	2	335	335	PER	я	1751	1752	я	1	12	12	3	0	0	0	54	335	я	nsubj	334	PRON	PRON	Not_Assigned	Not_Assigned	3
+paysan	3	339	339	PER	крестьянина	1773	1784	крестьянина	1	12	12	7	0	0	0	55	339	крестьянина	nmod	338	NOUN	NOM	Not_Assigned	Not_Assigned	3
+paysan	3	345	345	PER	его	1810	1813	его	1	12	12	13	0	0	0	56	345	его	obj	344	PRON	PRON	Not_Assigned	Not_Assigned	3
+nieceofVladinski	1	348	349	PER	племянницы Влодинского	1823	1845	племянницы влодинского	2	12	12	16	0	1	1	57	348	племянницы	nmod	347	NOUN	PROP	Singular	Not_Assigned	3
+Vlodinski	0	349	349	PER	Влодинского	1834	1845	влодинского	1	12	12	17	1	0	0	58	349	влодинского	nmod	348	PROPN	PROP	Singular	Not_Assigned	3
+nieceofVladinski	1	355	358	PER	давно знакомой мне девицы	1870	1895	давно знакомой мне девицы	4	12	12	23	0	1	1	59	356	знакомой	acl	358	VERB	NOM	Not_Assigned	Not_Assigned	3
+autor	2	357	357	PER	мне	1885	1888	мне	1	12	12	25	1	0	0	60	357	мне	iobj	356	PRON	PRON	Not_Assigned	Not_Assigned	3
+autor	2	362	362	PER	я	1907	1908	я	1	12	12	30	0	0	0	61	362	я	nsubj	363	PRON	PRON	Not_Assigned	Not_Assigned	3
+paysan	3	375	376	PER	мой собеседник	1975	1989	мой собеседник	2	13	13	4	0	1	1	62	376	собеседник	nsubj:pass	377	NOUN	NOM	Not_Assigned	Not_Assigned	3
+autor	2	375	375	PER	мой	1975	1978	мой	1	13	13	4	1	0	0	63	375	мой	det	376	DET	PRON	Not_Assigned	Not_Assigned	3
+Vlodinski	0	385	385	PER	Влодинский	2036	2046	влодинский	1	13	13	14	0	0	0	64	385	влодинский	nsubj	386	PROPN	PROP	Singular	Not_Assigned	3
+autor	2	391	391	PER	моего	2069	2074	моего	1	13	13	20	0	0	0	65	391	моего	det	392	DET	PRON	Not_Assigned	Not_Assigned	3
+autor	2	401	401	PER	я	2117	2118	я	1	13	13	30	0	0	0	66	401	я	nsubj	402	PRON	PRON	Not_Assigned	Not_Assigned	3
+nieceofVladinski	1	412	420	PER	моей лучшей, любимой подруги, Елизаветы Николаевны З.	2184	2237	моей лучшей , любимой подруги , елизаветы николаевны з.	9	13	13	41	0	1	1	67	416	подруги	nmod	411	NOUN	PROP	Singular	Not_Assigned	3
+autor	2	412	412	PER	моей	2184	2188	моей	1	13	13	41	1	0	0	68	412	моей	det	416	DET	PRON	Not_Assigned	Not_Assigned	3
+ElizavettaAutor	13	426	426	PER	наше	2261	2265	наше	1	13	13	55	0	0	0	69	426	наше	det	427	DET	PRON	Not_Assigned	Not_Assigned	3
+ElizavettaAutor	13	429	429	PER	наша	2278	2282	наша	1	13	13	58	0	0	0	70	429	наша	det	430	DET	PRON	Not_Assigned	Not_Assigned	3
+ElizavettaAutor	13	434	434	PER	мы	2309	2311	мы	1	13	13	63	0	0	0	71	434	мы	nsubj	435	PRON	PRON	Not_Assigned	Not_Assigned	3
+autor	2	440	440	PER	я	2339	2340	я	1	13	13	69	0	0	0	72	440	я	nsubj:pass	441	PRON	PRON	Not_Assigned	Not_Assigned	3
+nieceofVladinski	1	445	445	PER	ее	2376	2378	ее	1	13	13	74	0	0	0	73	445	ее	obj	444	PRON	PRON	Not_Assigned	Not_Assigned	3
+autor	2	447	447	PER	себя	2381	2385	себя	1	13	13	76	0	0	0	74	447	себя	obl	444	PRON	PRON	Not_Assigned	Not_Assigned	3
+houseofautor	34	449	449	LOC	доме	2388	2392	доме	1	13	13	78	0	0	0	75	449	доме	obl	444	NOUN	NOM	Not_Assigned	Not_Assigned	3
+nieceofVladinski	1	451	451	PER	Она	2395	2398	она	1	14	14	0	0	0	0	76	451	она	nsubj	456	PRON	PRON	Not_Assigned	Not_Assigned	3
+M4	46	459	460	FAC	своего имения	2444	2457	своего имения	2	14	14	8	0	1	1	77	460	имения	obj	456	NOUN	NOM	Not_Assigned	Not_Assigned	3
+nieceofVladinski	1	459	459	PER	своего	2444	2450	своего	1	14	14	8	1	0	0	78	459	своего	det	460	DET	PRON	Not_Assigned	Not_Assigned	3
+Vlodinski	0	468	471	PER	своего отшельника - дяди	2486	2510	своего отшельника - дяди	4	14	14	17	0	1	1	79	469	отшельника	obj	463	NOUN	NOM	Not_Assigned	Not_Assigned	3
+nieceofVladinski	1	468	468	PER	своего	2486	2492	своего	1	14	14	17	1	0	0	80	468	своего	det	469	DET	PRON	Not_Assigned	Not_Assigned	3
+autor	2	475	475	PER	моем	2520	2524	моем	1	15	15	2	0	0	0	81	475	моем	det	476	DET	PRON	Not_Assigned	Not_Assigned	3
+nieceofVladinski	1	477	477	PER	она	2537	2540	она	1	15	15	4	0	0	0	82	477	она	nsubj	478	PRON	PRON	Not_Assigned	Not_Assigned	3
+autor	2	481	481	PER	мною	2560	2564	мною	1	15	15	8	0	0	0	83	481	мною	nmod	479	PRON	PRON	Not_Assigned	Not_Assigned	3
+Vlodinski	0	483	483	PER	им	2567	2569	им	1	15	15	10	0	0	0	84	483	им	conj	481	PRON	PRON	Not_Assigned	Not_Assigned	3
+Vlodinski	0	487	487	PER	Влодинский	2582	2592	влодинский	1	15	15	14	0	0	0	85	487	влодинский	nsubj	490	PROPN	PROP	Singular	Not_Assigned	3
+autor	2	490	490	PER	меня	2601	2605	меня	1	15	15	17	0	0	0	86	490	меня	obl	498	PRON	PRON	Not_Assigned	Not_Assigned	3
+autor	2	505	505	PER	моих	2677	2681	моих	1	15	15	32	0	0	0	87	505	моих	fixed	500	DET	PRON	Not_Assigned	Not_Assigned	3
+autor	2	506	506	PER	я	2682	2683	я	1	15	15	33	0	0	0	88	506	я	nsubj	507	PRON	PRON	Not_Assigned	Not_Assigned	3
+Vlodinski	0	508	508	PER	его	2691	2694	его	1	15	15	35	0	0	0	89	508	его	obj	507	PRON	PRON	Not_Assigned	Not_Assigned	3
+Vlodinski	0	526	526	PER	он	2765	2767	он	1	16	16	7	0	0	0	90	526	он	nsubj	528	PRON	PRON	Not_Assigned	Not_Assigned	3
+Vlodinski	0	528	528	PER	человеконенавистник	2772	2791	человеконенавистник	1	16	16	9	0	0	0	91	528	человеконенавистник	ccomp	521	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Vlodinski	0	530	531	PER	капризный калека	2793	2809	капризный калека	2	16	16	11	0	0	0	92	531	калека	conj	528	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Vlodinski	0	533	533	PER	подагрик	2811	2819	подагрик	1	16	16	14	0	0	0	93	533	подагрик	conj	528	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Vlodinski	0	540	551	PER	натуралист, обративший свой кабинет в кладбище всех родов животных и насекомых	2842	2920	натуралист , обративший свой кабинет в кладбище всех родов животных и насекомых	12	16	16	21	0	0	0	94	542	обративший	acl	540	VERB	NOM	Not_Assigned	Not_Assigned	3
+Vlodinski	0	555	555	PER	он	2928	2930	он	1	17	17	2	0	0	0	95	555	он	nsubj	557	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T88	26	564	575	PER	крестьяне, не только его села, но даже всех окрестных деревень	2977	3039	крестьяне , не только его села , но даже всех окрестных деревень	12	17	17	11	0	2	3	96	575	деревень	conj	569	NOUN	NOM	Not_Assigned	Not_Assigned	3
+M5	20	568	569	GPE	его села	2998	3006	его села	2	17	17	15	1	1	1	97	569	села	conj	557	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Vlodinski	0	568	568	PER	его	2998	3001	его	1	17	17	15	2	0	0	98	568	его	det	569	DET	PRON	Not_Assigned	Not_Assigned	3
+M6	63	573	575	GPE	всех окрестных деревень	3016	3039	всех окрестных деревень	3	17	17	20	1	0	0	99	575	деревень	conj	569	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Vlodinski	0	578	578	PER	его	3055	3058	его	1	17	17	25	0	0	0	100	578	его	det	579	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T92	28	584	584	PER	ближнему	3100	3108	ближнему	1	17	17	31	0	0	0	101	584	ближнему	iobj	583	ADJ	NOM	Not_Assigned	Not_Assigned	3
+Vlodinski	0	587	587	PER	его	3120	3123	его	1	17	17	34	0	0	0	102	587	его	nmod	586	PRON	PRON	Not_Assigned	Not_Assigned	3
+Vlodinski	0	602	602	PER	он	3201	3203	он	1	17	17	49	0	0	0	103	602	он	nsubj	604	PRON	PRON	Not_Assigned	Not_Assigned	3
+Vlodinski	0	619	619	PER	Он	3287	3289	он	1	18	18	0	0	0	0	104	619	он	nsubj	623	PRON	PRON	Not_Assigned	Not_Assigned	3
+nieceofVladinski	1	629	629	PER	племянницы	3328	3338	племянницы	1	18	18	10	0	0	0	105	629	племянницы	nmod	628	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Vlodinski	0	631	631	PER	ему	3340	3343	ему	1	18	18	12	0	0	0	106	631	ему	iobj	633	PRON	PRON	Not_Assigned	Not_Assigned	3
+Vlodinski	0	644	644	PER	его	3400	3403	его	1	18	18	25	0	0	0	107	644	его	obj	643	PRON	PRON	Not_Assigned	Not_Assigned	3
+Vlodinski	0	649	649	PER	ему	3421	3424	ему	1	18	18	30	0	0	0	108	649	ему	iobj	650	PRON	PRON	Not_Assigned	Not_Assigned	3
+Vlodinski	0	656	656	PER	его	3458	3461	его	1	19	19	1	0	0	0	109	656	его	det	655	DET	PRON	Not_Assigned	Not_Assigned	3
+Vlodinski	0	682	682	PER	его	3604	3607	его	1	20	20	1	0	0	0	110	682	его	det	683	DET	PRON	Not_Assigned	Not_Assigned	3
+Vlodinski	0	704	704	PER	нем	3725	3728	нем	1	20	20	23	0	0	0	111	704	нем	obl	705	PRON	PRON	Not_Assigned	Not_Assigned	3
+M7	44	707	710	PER	жилец не нашего мира	3739	3759	жилец не нашего мира	4	20	20	26	0	1	1	112	709	нашего	det	710	DET	PRON	Not_Assigned	Not_Assigned	3
+M8	45	709	709	PER	нашего	3748	3754	нашего	1	20	20	28	1	0	0	113	709	нашего	det	710	DET	PRON	Not_Assigned	Not_Assigned	3
+Vlodinski	0	720	720	PER	он	3801	3803	он	1	21	21	8	0	0	0	114	720	он	nsubj	730	PRON	PRON	Not_Assigned	Not_Assigned	3
+people	7	738	738	PER	людьми	3894	3900	людьми	1	21	21	26	0	0	0	115	738	людьми	nmod	736	NOUN	NOM	Not_Assigned	Not_Assigned	3
+M9	9	748	748	ORG	общества	3951	3959	общества	1	21	21	36	0	0	0	116	748	общества	nmod	747	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Vlodinski	0	757	757	PER	своему	3996	4002	своему	1	21	21	45	0	0	0	117	757	своему	det	759	DET	PRON	Not_Assigned	Not_Assigned	3
+Vlodinski	0	766	766	PER	себя	4049	4053	себя	1	22	22	4	0	0	0	118	766	себя	nmod	764	PRON	PRON	Not_Assigned	Not_Assigned	3
+Vlodinski	0	768	768	PER	он	4055	4057	он	1	22	22	6	0	0	0	119	768	он	nsubj	772	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T110	12	776	776	PER	других	4092	4098	других	1	22	22	14	0	0	0	120	776	других	nmod	774	ADJ	NOM	Not_Assigned	Not_Assigned	3
+Vlodinski	0	785	785	PER	его	4154	4157	его	1	23	23	7	0	0	0	121	785	его	det	786	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T114	16	796	797	PER	последнего нищего	4206	4223	последнего нищего	2	23	23	18	0	0	0	122	797	нищего	nmod	795	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Vlodinski	0	800	800	PER	себя	4232	4236	себя	1	23	23	22	0	0	0	123	800	себя	obj	799	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T114	16	804	804	PER	бедняка	4265	4272	бедняка	1	23	23	26	0	0	0	124	804	бедняка	nmod	803	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Vlodinski	0	823	823	PER	его	4375	4378	его	1	23	23	45	0	0	0	125	823	его	det	824	DET	PRON	Not_Assigned	Not_Assigned	3
+Vlodinski	0	829	829	PER	ему	4406	4409	ему	1	24	24	3	0	0	0	126	829	ему	iobj	828	PRON	PRON	Not_Assigned	Not_Assigned	3
+Vlodinski	0	848	848	PER	он	4505	4507	он	1	24	24	22	0	0	0	127	848	он	nsubj	847	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T110	12	850	850	PER	других	4512	4518	других	1	24	24	24	0	0	0	128	850	других	obl	847	ADJ	NOM	Not_Assigned	Not_Assigned	3
+PER_T110	12	854	854	PER	другим	4530	4536	другим	1	24	24	28	0	0	0	129	854	другим	iobj	853	ADJ	NOM	Not_Assigned	Not_Assigned	3
+Vlodinski	0	859	859	PER	ему	4559	4562	ему	1	24	24	33	0	0	0	130	859	ему	iobj	863	PRON	PRON	Not_Assigned	Not_Assigned	3
+Vlodinski	0	865	865	PER	Он	4586	4588	он	1	25	25	0	0	0	0	131	865	он	nsubj	866	PRON	PRON	Not_Assigned	Not_Assigned	3
+sisterofVlodinski	6	867	874	PER	одну только сестру, которая давно не существовала	4594	4643	одну только сестру , которая давно не существовала	8	25	25	2	0	0	0	132	874	существовала	acl:relcl	869	VERB	NOM	Not_Assigned	Not_Assigned	3
+kidsofsister	8	876	878	PER	все дети ее	4646	4657	все дети ее	3	25	25	11	0	1	1	133	877	дети	nsubj:pass	880	NOUN	NOM	Not_Assigned	Not_Assigned	3
+sisterofVlodinski	6	878	878	PER	ее	4655	4657	ее	1	25	25	13	1	0	0	134	878	ее	det	877	DET	PRON	Not_Assigned	Not_Assigned	3
+Vlodinski	0	883	883	PER	им	4686	4688	им	1	25	25	18	0	0	0	135	883	им	iobj	882	PRON	PRON	Not_Assigned	Not_Assigned	3
+kidsofsister	8	890	890	PER	они	4721	4724	они	1	25	25	25	0	0	0	136	890	они	nsubj	889	PRON	PRON	Not_Assigned	Not_Assigned	3
+Vlodinski	0	891	891	PER	его	4725	4728	его	1	25	25	26	0	0	0	137	891	его	obj	889	PRON	PRON	Not_Assigned	Not_Assigned	3
+nieceofVladinski	1	897	898	PER	моя подруга	4762	4773	моя подруга	2	25	25	32	0	1	1	138	898	подруга	nsubj	894	NOUN	NOM	Not_Assigned	Not_Assigned	3
+autor	2	897	897	PER	моя	4762	4765	моя	1	25	25	32	1	0	0	139	897	моя	det	898	DET	PRON	Not_Assigned	Not_Assigned	3
+Vlodinski	0	901	901	PER	ему	4785	4788	ему	1	25	25	36	0	0	0	140	901	ему	iobj	900	PRON	PRON	Not_Assigned	Not_Assigned	3
+nieceofVladinski	1	905	905	PER	свою	4799	4803	свою	1	25	25	40	0	0	0	141	905	свою	det	906	DET	PRON	Not_Assigned	Not_Assigned	3
+nieceofVladinski	1	908	921	PER	Девушка эта, в семнадцать лет, созданная телом и душою для украшения общества	4812	4889	девушка эта , в семнадцать лет , созданная телом и душою для украшения общества	14	26	26	0	0	1	1	142	915	созданная	acl	908	VERB	NOM	Not_Assigned	Not_Assigned	3
+M9	9	921	921	PER	общества	4881	4889	общества	1	26	26	13	1	0	0	143	921	общества	nmod	920	NOUN	NOM	Not_Assigned	Not_Assigned	3
+M9	9	925	925	PER	него	4904	4908	него	1	26	26	17	0	0	0	144	925	него	obl	923	PRON	PRON	Not_Assigned	Not_Assigned	3
+nieceofVladinski	1	932	932	PER	она	4937	4940	она	1	26	26	24	0	0	0	145	932	она	nsubj	933	PRON	PRON	Not_Assigned	Not_Assigned	3
+Vlodinski	0	945	945	PER	дяди	5011	5015	дяди	1	26	26	37	0	0	0	146	945	дяди	obl	943	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Vlodinski	0	954	954	PER	его	5082	5085	его	1	26	26	46	0	0	0	147	954	его	det	956	DET	PRON	Not_Assigned	Not_Assigned	3
+nieceofVladinski	1	959	959	PER	своею	5110	5115	своею	1	26	26	51	0	0	0	148	959	своею	conj	953	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Vlodinski	0	964	964	PER	его	5140	5143	его	1	26	26	56	0	0	0	149	964	его	det	966	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T138	49	976	976	PER	скорбящего	5219	5229	скорбящего	1	27	27	8	0	0	0	150	976	скорбящего	nmod	975	VERB	NOM	Not_Assigned	Not_Assigned	3
+nieceofVladinski	1	979	979	PER	она	5234	5237	она	1	27	27	11	0	0	0	151	979	она	nsubj:pass	981	PRON	PRON	Not_Assigned	Not_Assigned	3
+Vlodinski	0	995	995	PER	его	5313	5316	его	1	27	27	27	0	0	0	152	995	его	obj	994	PRON	PRON	Not_Assigned	Not_Assigned	3
+Vlodinski	0	1012	1012	PER	его	5393	5396	его	1	27	27	44	0	0	0	153	1012	его	obl	981	PRON	PRON	Not_Assigned	Not_Assigned	3
+nieceofVladinski	1	1014	1014	PER	Она	5399	5402	она	1	28	28	0	0	0	0	154	1014	она	nsubj	1016	PRON	PRON	Not_Assigned	Not_Assigned	3
+Vlodinski	0	1021	1021	PER	его	5437	5440	его	1	28	28	7	0	0	0	155	1021	его	det	1022	DET	PRON	Not_Assigned	Not_Assigned	3
+Vlodinski	0	1032	1032	PER	его	5501	5504	его	1	28	28	18	0	0	0	156	1032	его	obj	1031	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T145	11	1034	1035	PER	круга людей	5508	5519	круга людей	2	28	28	20	0	0	0	157	1034	круга	obl	1031	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T145	11	1037	1037	PER	их	5521	5523	их	1	28	28	23	0	0	0	158	1037	их	nmod	1038	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T145	11	1045	1045	PER	ним	5572	5575	ним	1	28	28	31	0	0	0	159	1045	ним	nmod	1043	PRON	PRON	Not_Assigned	Not_Assigned	3
+Vlodinski	0	1048	1049	PER	самому себе	5582	5593	самому себе	2	28	28	34	0	0	0	160	1049	себе	conj	1045	PRON	PRON	Not_Assigned	Not_Assigned	3
+Vlodinski	0	1059	1059	PER	он	5640	5642	он	1	28	28	45	0	0	0	161	1059	он	nsubj	1058	PRON	PRON	Not_Assigned	Not_Assigned	3
+nieceofVladinski	1	1070	1070	PER	она	5688	5691	она	1	28	28	56	0	0	0	162	1070	она	nsubj	1069	PRON	PRON	Not_Assigned	Not_Assigned	3
+Vlodinski	0	1076	1076	PER	он	5713	5715	он	1	28	28	62	0	0	0	163	1076	он	nsubj	1074	PRON	PRON	Not_Assigned	Not_Assigned	3
+nieceofVladinski	1	1095	1095	PER	нее	5823	5826	нее	1	29	29	5	0	0	0	164	1095	нее	obl	1093	PRON	PRON	Not_Assigned	Not_Assigned	3
+nieceofVladinski	1	1103	1103	PER	она	5849	5852	она	1	29	29	13	0	0	0	165	1103	она	nsubj	1104	PRON	PRON	Not_Assigned	Not_Assigned	3
+Vlodinski	0	1121	1121	PER	дяди	5980	5984	дяди	1	29	29	31	0	0	0	166	1121	дяди	nmod	1120	NOUN	NOM	Not_Assigned	Not_Assigned	3
+nieceofVladinski	1	1126	1126	PER	ее	6011	6013	ее	1	29	29	36	0	0	0	167	1126	ее	det	1127	DET	PRON	Not_Assigned	Not_Assigned	3
+Vlodinski	0	1132	1132	PER	ним	6036	6039	ним	1	29	29	42	0	0	0	168	1132	ним	obl	1130	PRON	PRON	Not_Assigned	Not_Assigned	3
+houseofVlodinski	10	1134	1135	FAC	его убежище	6042	6053	его убежище	2	29	29	44	0	1	1	169	1135	убежище	obl	1136	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Vlodinski	0	1134	1134	PER	его	6042	6045	его	1	29	29	44	1	0	0	170	1134	его	det	1135	DET	PRON	Not_Assigned	Not_Assigned	3
+Vlodinski	0	1140	1140	PER	его	6075	6078	его	1	29	29	50	0	0	0	171	1140	его	det	1142	DET	PRON	Not_Assigned	Not_Assigned	3
+Vlodinski	0	1149	1149	PER	Влодинском	6131	6141	влодинском	1	30	30	5	0	0	0	172	1149	влодинском	obl	1147	PROPN	PROP	Singular	Not_Assigned	3
+Vlodinski	0	1152	1152	PER	ему	6155	6158	ему	1	30	30	8	0	0	0	173	1152	ему	iobj	1151	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T163	50	1168	1168	PER	Одни	6252	6256	одни	1	31	31	0	0	0	0	174	1168	одни	nsubj	1169	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T164	51	1174	1174	PER	народов	6288	6295	народов	1	31	31	6	0	0	0	175	1174	народов	nmod	1173	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T165	52	1176	1176	PER	властей	6298	6305	властей	1	31	31	8	0	0	0	176	1176	властей	conj	1174	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Vlodinski	0	1177	1177	PER	он	6306	6308	он	1	31	31	9	0	0	0	177	1177	он	nsubj	1178	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T167	43	1181	1184	PER	какую-то принцессу	6328	6346	какую - то принцессу	4	31	31	13	0	0	0	178	1184	принцессу	obl	1179	NOUN	NOM	Not_Assigned	Not_Assigned	3
+M12	19	1186	1189	PER	чувствительные девы той страны	6349	6379	чувствительные девы той страны	4	31	31	18	0	1	1	179	1187	девы	nsubj	1191	NOUN	NOM	Not_Assigned	Not_Assigned	3
+M10	36	1188	1189	GPE	той страны	6369	6379	той страны	2	31	31	20	1	0	0	180	1189	страны	nmod	1187	NOUN	NOM	Not_Assigned	Not_Assigned	3
+M12	19	1199	1199	PER	их	6437	6439	их	1	31	31	31	0	0	0	181	1199	их	nmod	1198	PRON	PRON	Not_Assigned	Not_Assigned	3
+Vlodinski	0	1201	1201	PER	он	6441	6443	он	1	31	31	33	0	0	0	182	1201	он	nsubj	1202	PRON	PRON	Not_Assigned	Not_Assigned	3
+M11	35	1211	1211	PER	другие	6492	6498	другие	1	31	31	43	0	0	0	183	1211	другие	nsubj	1212	ADJ	NOM	Not_Assigned	Not_Assigned	3
+Vlodinski	0	1214	1214	PER	нем	6508	6511	нем	1	31	31	46	0	0	0	184	1214	нем	obl	1212	PRON	PRON	Not_Assigned	Not_Assigned	3
+M13	32	1216	1217	PER	Борнгольмского изгнанника	6519	6544	борнгольмского изгнанника	2	31	31	48	0	0	0	185	1217	изгнанника	nmod	1215	NOUN	NOM	Not_Assigned	Not_Assigned	3
+sisterofVlodinski	6	1225	1225	PER	сестра	6575	6581	сестра	1	31	31	57	0	0	0	186	1225	сестра	nsubj	1228	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Vlodinski	0	1229	1229	PER	его	6602	6605	его	1	31	31	61	0	0	0	187	1229	его	obl	1228	PRON	PRON	Not_Assigned	Not_Assigned	3
+Vlodinski	0	1232	1232	PER	он	6617	6619	он	1	32	32	1	0	0	0	188	1232	он	nsubj	1231	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T177	53	1243	1253	PER	новый, блестящий метеор, изумивший мир дикою гармонией своих песен	6674	6740	новый , блестящий метеор , изумивший мир дикою гармонией своих песен	11	32	32	12	0	0	0	189	1246	метеор	nsubj	1242	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Vlodinski	0	1255	1255	PER	Влодинского	6742	6753	влодинского	1	32	32	24	0	0	0	190	1255	влодинского	obj	1257	PROPN	PROP	Singular	Not_Assigned	3
+PER_T179	55	1260	1261	PER	Чайльд Гарольды	6780	6795	чайльд гарольды	2	32	32	29	0	0	0	191	1260	чайльд	obl	1257	PROPN	PROP	Singular	Not_Assigned	3
+PER_T180	56	1264	1264	PER	Лары	6799	6803	лары	1	32	32	33	0	0	0	192	1264	лары	conj	1260	PROPN	PROP	Singular	Not_Assigned	3
+PER_T181	64	1275	1275	PER	Байрон	6835	6841	байрон	1	32	32	44	0	0	0	193	1275	байрон	conj	1260	PROPN	PROP	Singular	Not_Assigned	3
+PER_T182	58	1283	1284	PER	степным помещикам	6872	6889	степным помещикам	2	32	32	52	0	0	0	194	1284	помещикам	iobj	1282	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T183	59	1288	1288	PER	все	6899	6902	все	1	32	32	57	0	0	0	195	1288	все	obl	1289	PRON	PRON	Not_Assigned	Not_Assigned	3
+Vlodinski	0	1293	1295	PER	соседа - отшельника	6923	6942	соседа - отшельника	3	32	32	62	0	0	0	196	1293	соседа	nmod	1292	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Vlodinski	0	1303	1303	PER	нем	6969	6972	нем	1	32	32	72	0	0	0	197	1303	нем	obl	1301	PRON	PRON	Not_Assigned	Not_Assigned	3
+Vlodinski	0	1313	1313	PER	он	7005	7007	он	1	33	33	8	0	0	0	198	1313	он	nsubj	1314	PRON	PRON	Not_Assigned	Not_Assigned	3
+jardin	17	1316	1316	FAC	саду	7016	7020	саду	1	33	33	11	0	0	0	199	1316	саду	obl	1314	NOUN	NOM	Not_Assigned	Not_Assigned	3
+autor	2	1318	1318	PER	я	7022	7023	я	1	33	33	13	0	0	0	200	1318	я	nsubj	1319	PRON	PRON	Not_Assigned	Not_Assigned	3
+cabinetofVlodinski	30	1322	1323	FAC	его кабинет	7043	7054	его кабинет	2	33	33	17	0	1	1	201	1323	кабинет	obl	1320	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Vlodinski	0	1322	1322	PER	его	7043	7046	его	1	33	33	17	1	0	0	202	1322	его	det	1323	DET	PRON	Not_Assigned	Not_Assigned	3
+autor	2	1344	1344	PER	моим	7166	7170	моим	1	34	34	19	0	0	0	203	1344	моим	det	1345	DET	PRON	Not_Assigned	Not_Assigned	3
+FAC_T191	57	1429	1430	FAC	остальных комнатах	7621	7639	остальных комнатах	2	37	37	1	0	0	0	204	1430	комнатах	obl	1431	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Vlodinski	0	1436	1436	PER	хозяина	7670	7677	хозяина	1	37	37	8	0	0	0	205	1436	хозяина	nmod	1435	NOUN	NOM	Not_Assigned	Not_Assigned	3
+houseofVlodinski	10	1443	1443	FAC	доме	7706	7710	доме	1	37	37	15	0	0	0	206	1443	доме	conj	1431	NOUN	NOM	Not_Assigned	Not_Assigned	3
+jardin	17	1448	1448	FAC	саду	7720	7724	саду	1	37	37	20	0	0	0	207	1448	саду	acl	1443	NOUN	NOM	Not_Assigned	Not_Assigned	3
+houseofVlodinski	10	1468	1469	FAC	этом жилище	7811	7822	этом жилище	2	38	38	3	0	0	0	208	1469	жилище	obl	1472	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Vlodinski	0	1475	1482	PER	человека, живущего без цели, без желаний	7866	7906	человека , живущего без цели , без желаний	8	38	38	10	0	0	0	209	1477	живущего	acl	1475	VERB	NOM	Not_Assigned	Not_Assigned	3
+Vlodinski	0	1484	1526	PER	горемыки, который встречает и провожает череду однообразных дней, как каторжник, осужденный тащить бечевой тяжело нагруженные суда и вечером отправляться не к отдыху, а в обратный путь к тому же месту, откуда завтра должен был начинать тот же труд	7908	8155	горемыки , который встречает и провожает череду однообразных дней , как каторжник , осужденный тащить бечевой тяжело нагруженные суда и вечером отправляться не к отдыху , а в обратный путь к тому же месту , откуда завтра должен был начинать тот же труд	43	38	38	19	0	2	2	210	1521	должен	acl:relcl	1517	ADJ	NOM	Not_Assigned	Not_Assigned	3
+PER_T198	60	1495	1526	PER	каторжник, осужденный тащить бечевой тяжело нагруженные суда и вечером отправляться не к отдыху, а в обратный путь к тому же месту, откуда завтра должен был начинать тот же труд	7978	8155	каторжник , осужденный тащить бечевой тяжело нагруженные суда и вечером отправляться не к отдыху , а в обратный путь к тому же месту , откуда завтра должен был начинать тот же труд	32	38	38	30	1	1	1	211	1513	путь	conj	1508	NOUN	NOM	Not_Assigned	Not_Assigned	3
+VEH_T199	21	1500	1502	VEH	тяжело нагруженные суда	8015	8038	тяжело нагруженные суда	3	38	38	35	2	0	0	212	1501	нагруженные	amod	1502	ADJ	NOM	Not_Assigned	Not_Assigned	3
+M14	31	1528	1528	PER	Чье	8158	8161	чье	1	39	39	0	0	0	0	213	1528	чье	det	1529	DET	PRON	Not_Assigned	Not_Assigned	3
+nieceandVlodinski	4	1552	1603	PER	двух существ, идущих дружно рука об руку не на пир жизни, а ко сну могильному ; идущих вместе ровными шагами, но разных душой, чуждых в думах, в слезах, всегда с готовою улыбкой, с одобрительным словом для другого, с одинокой, безраздельной кручиной для себя	8318	8576	двух существ , идущих дружно рука об руку не на пир жизни , а ко сну могильному ; идущих вместе ровными шагами , но разных душой , чуждых в думах , в слезах , всегда с готовою улыбкой , с одобрительным словом для другого , с одинокой , безраздельной кручиной для себя	52	40	40	10	0	1	2	214	1577	душой	conj	1573	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T202	61	1595	1595	PER	другого	8524	8531	другого	1	40	40	53	1	0	0	215	1595	другого	nmod	1593	ADJ	NOM	Not_Assigned	Not_Assigned	3
+nieceandVlodinski	4	1603	1603	PER	себя	8572	8576	себя	1	40	40	61	1	0	0	216	1603	себя	obl	1601	PRON	PRON	Not_Assigned	Not_Assigned	3
+autor	2	1607	1607	PER	наши	8597	8601	наши	1	41	41	2	0	0	0	217	1607	наши	det	1608	DET	PRON	Not_Assigned	Not_Assigned	3
+nieceofVladinski	1	1610	1611	PER	моей подругой	8613	8626	моей подругой	2	41	41	5	0	1	1	218	1611	подругой	nmod	1608	NOUN	NOM	Not_Assigned	Not_Assigned	3
+autor	2	1610	1610	PER	моей	8613	8617	моей	1	41	41	5	1	0	0	219	1610	моей	det	1611	DET	PRON	Not_Assigned	Not_Assigned	3
+autor	2	1620	1620	PER	я	8666	8667	я	1	41	41	15	0	0	0	220	1620	я	nsubj	1622	PRON	PRON	Not_Assigned	Not_Assigned	3
+ORG_T206	47	1629	1630	ORG	многолюдных обществ	8709	8728	многолюдных обществ	2	41	41	24	0	0	0	221	1630	обществ	nmod	1628	NOUN	NOM	Not_Assigned	Not_Assigned	3
+autor	2	1642	1642	PER	меня	8798	8802	меня	1	42	42	10	0	0	0	222	1642	меня	obj	1641	PRON	PRON	Not_Assigned	Not_Assigned	3
+Russia	29	1646	1646	GPE	России	8819	8825	россии	1	42	42	14	0	0	0	223	1646	россии	nmod	1645	PROPN	PROP	Not_Assigned	Not_Assigned	3
+autor	2	1653	1653	PER	я	8854	8855	я	1	42	42	21	0	0	0	224	1653	я	nsubj	1654	PRON	PRON	Not_Assigned	Not_Assigned	3
+autor	2	1657	1657	PER	меня	8876	8880	меня	1	42	42	25	0	0	0	225	1657	меня	obj	1658	PRON	PRON	Not_Assigned	Not_Assigned	3
+Vlodinski	0	1662	1662	PER	Влодинского	8907	8918	влодинского	1	42	42	30	0	0	0	226	1662	влодинского	nmod	1661	PROPN	PROP	Singular	Not_Assigned	3
+autor	2	1667	1667	PER	я	8941	8942	я	1	43	43	3	0	0	0	227	1667	я	nsubj	1668	PRON	PRON	Not_Assigned	Not_Assigned	3
+nieceofVladinski	1	1670	1672	PER	его осиротевшую племянницу	8958	8984	его осиротевшую племянницу	3	43	43	6	0	1	1	228	1672	племянницу	obj	1669	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Vlodinski	0	1670	1670	PER	его	8958	8961	его	1	43	43	6	1	0	0	229	1670	его	det	1672	PRON	PRON	Not_Assigned	Not_Assigned	3
+nieceofVladinski	1	1676	1676	PER	своей	8999	9004	своей	1	44	44	2	0	0	0	230	1676	своей	det	1677	DET	PRON	Not_Assigned	Not_Assigned	3
+nieceofVladinski	1	1679	1679	PER	она	9013	9016	она	1	44	44	5	0	0	0	231	1679	она	nsubj	1680	PRON	PRON	Not_Assigned	Not_Assigned	3
+Vlodinski	0	1684	1684	PER	страдальца	9052	9062	страдальца	1	44	44	10	0	0	0	232	1684	страдальца	obj	1683	NOUN	NOM	Not_Assigned	Not_Assigned	3
+nieceofVladinski	1	1694	1694	PER	ее	9115	9117	ее	1	45	45	2	0	0	0	233	1694	ее	nmod	1693	PRON	PRON	Not_Assigned	Not_Assigned	3
+nieceofVladinski	1	1701	1701	PER	она	9142	9145	она	1	45	45	9	0	0	0	234	1701	она	nsubj	1703	PRON	PRON	Not_Assigned	Not_Assigned	3
+people	7	1705	1705	PER	людей	9161	9166	людей	1	45	45	13	0	0	0	235	1705	людей	obl	1703	NOUN	NOM	Not_Assigned	Not_Assigned	3
+people	7	1713	1713	PER	ними	9200	9204	ними	1	45	45	21	0	0	0	236	1713	ними	obl	1711	PRON	PRON	Not_Assigned	Not_Assigned	3
+nieceofVladinski	1	1719	1719	PER	ее	9241	9243	ее	1	46	46	4	0	0	0	237	1719	ее	obj	1718	PRON	PRON	Not_Assigned	Not_Assigned	3
+nieceofVladinski	1	1729	1729	PER	она	9300	9303	она	1	47	47	3	0	0	0	238	1729	она	nsubj	1730	PRON	PRON	Not_Assigned	Not_Assigned	3
+Vlodinski	0	1737	1738	PER	ее дядею	9355	9363	ее дядею	2	47	47	11	0	1	1	239	1738	дядею	obl	1736	NOUN	NOM	Not_Assigned	Not_Assigned	3
+nieceofVladinski	1	1737	1737	PER	ее	9355	9357	ее	1	47	47	11	1	0	0	240	1737	ее	det	1738	DET	PRON	Not_Assigned	Not_Assigned	3
+nieceofVladinski	1	1747	1747	PER	она	9412	9415	она	1	48	48	2	0	0	0	241	1747	она	nsubj	1748	PRON	PRON	Not_Assigned	Not_Assigned	3
+Vlodinski	0	1750	1750	PER	им	9437	9439	им	1	48	48	5	0	0	0	242	1750	им	obl:agent	1749	PRON	PRON	Not_Assigned	Not_Assigned	3
+Vlodinski	0	1765	1765	PER	он	9499	9501	он	1	48	48	20	0	0	0	243	1765	он	nsubj	1766	PRON	PRON	Not_Assigned	Not_Assigned	3
+Vlodinski	0	1774	1774	PER	ему	9543	9546	ему	1	48	48	29	0	0	0	244	1774	ему	parataxis	1776	PRON	PRON	Not_Assigned	Not_Assigned	3
+nieceofVladinski	1	1777	1777	PER	она	9554	9557	она	1	48	48	32	0	0	0	245	1777	она	nsubj	1776	PRON	PRON	Not_Assigned	Not_Assigned	3
+nieceofVladinski	1	1784	1784	PER	собой	9579	9584	собой	1	48	48	39	0	0	0	246	1784	собой	obl	1782	PRON	PRON	Not_Assigned	Not_Assigned	3
+nieceofVladinski	1	1790	1790	PER	своем	9618	9623	своем	1	48	48	45	0	0	0	247	1790	своем	det	1789	DET	PRON	Not_Assigned	Not_Assigned	3
+Vlodinski	0	1798	1798	PER	он	9650	9652	он	1	48	48	53	0	0	0	248	1798	он	nsubj	1799	PRON	PRON	Not_Assigned	Not_Assigned	3
+Vlodinski	0	1804	1804	PER	он	9675	9677	он	1	48	48	59	0	0	0	249	1804	он	nsubj	1805	PRON	PRON	Not_Assigned	Not_Assigned	3
+nieceofVladinski	1	1810	1810	PER	ней	9695	9698	ней	1	48	48	65	0	0	0	250	1810	ней	obl	1817	PRON	PRON	Not_Assigned	Not_Assigned	3
+nieceofVladinski	1	1830	1830	PER	Она	9801	9804	она	1	49	49	0	0	0	0	251	1830	она	nsubj	1831	PRON	PRON	Not_Assigned	Not_Assigned	3
+nieceofVladinski	1	1839	1839	PER	Ее	9831	9833	ее	1	50	50	0	0	0	0	252	1839	ее	det	1840	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T235	62	1849	1857	PER	тому, у кого судьба и люди все отняли	9898	9935	тому , у кого судьба и люди все отняли	9	50	50	10	0	1	1	253	1857	отняли	ROOT	1857	VERB	NOM	Not_Assigned	Not_Assigned	3
+people	7	1855	1855	PER	люди	9920	9924	люди	1	50	50	16	1	0	0	254	1855	люди	conj	1853	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Vlodinski	0	1861	1861	PER	Влодинского	9948	9959	влодинского	1	51	51	2	0	0	0	255	1861	влодинского	nmod	1860	PROPN	PROP	Singular	Not_Assigned	3
+Vlodinski	0	1864	1864	PER	его	9975	9978	его	1	51	51	5	0	0	0	256	1864	его	nmod	1860	PRON	PRON	Not_Assigned	Not_Assigned	3
+nieceofVladinski	1	1871	1871	PER	племянницы	10010	10020	племянницы	1	51	51	12	0	0	0	257	1871	племянницы	nmod	1870	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Vlodinski	0	1875	1875	PER	его	10031	10034	его	1	52	52	2	0	0	0	258	1875	его	det	1877	DET	PRON	Not_Assigned	Not_Assigned	3
+Vlodinski	0	1881	1881	PER	его	10070	10073	его	1	52	52	8	0	0	0	259	1881	его	det	1882	DET	PRON	Not_Assigned	Not_Assigned	3
+Vlodinski	0	1884	1884	PER	его	10085	10088	его	1	52	52	11	0	0	0	260	1884	его	det	1885	DET	PRON	Not_Assigned	Not_Assigned	3
+Vlodinski	0	1904	1904	PER	страдальца	10198	10208	страдальца	1	52	52	31	0	0	0	261	1904	страдальца	nmod	1903	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Vlodinski	0	1907	1907	PER	его	10214	10217	его	1	52	52	34	0	0	0	262	1907	его	det	1908	DET	PRON	Not_Assigned	Not_Assigned	3
+Vlodinski	0	1911	1911	PER	ним	10236	10239	ним	1	52	52	38	0	0	0	263	1911	ним	obl	1909	PRON	PRON	Not_Assigned	Not_Assigned	3
+autor	2	1919	1919	PER	мне	10273	10276	мне	1	53	53	4	0	0	0	264	1919	мне	iobj	1918	PRON	PRON	Not_Assigned	Not_Assigned	3
+autor	2	1924	1924	PER	моем	10295	10299	моем	1	53	53	9	0	0	0	265	1924	моем	det	1925	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T248	41	1940	1949	PER	человека, близкого лицам, участвовавшим в этой печальной драме	10373	10435	человека , близкого лицам , участвовавшим в этой печальной драме	10	54	54	8	0	1	1	266	1949	драме	obl	1945	NOUN	NOM	Not_Assigned	Not_Assigned	3
+nieceandVlodinski	4	1943	1949	PER	лицам, участвовавшим в этой печальной драме	10392	10435	лицам , участвовавшим в этой печальной драме	7	54	54	11	1	0	0	267	1949	драме	obl	1945	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T250	54	1953	1954	PER	свидетели ее	10447	10459	свидетели ее	2	54	54	21	0	0	0	268	1953	свидетели	nsubj	1955	NOUN	NOM	Not_Assigned	Not_Assigned	3
+M15	25	1957	1958	PER	круга живущих	10471	10484	круга живущих	2	54	54	25	0	0	0	269	1957	круга	obl	1955	NOUN	NOM	Not_Assigned	Not_Assigned	3
+autor	2	1973	1973	PER	я	10567	10568	я	1	54	54	41	0	0	0	270	1973	я	nsubj	1974	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T252	42	1976	1977	PER	моим читателям	10589	10603	моим читателям	2	54	54	44	0	1	1	271	1977	читателям	iobj	1975	NOUN	NOM	Not_Assigned	Not_Assigned	3
+autor	2	1976	1976	PER	моим	10589	10593	моим	1	54	54	44	1	0	0	272	1976	моим	det	1977	DET	PRON	Not_Assigned	Not_Assigned	3
+Vlodinski	0	1979	1979	PER	Влодинского	10613	10624	влодинского	1	54	54	47	0	0	0	273	1979	влодинского	nmod	1978	PROPN	PROP	Singular	Not_Assigned	3
+PER_T254	33	1984	1984	PER	женщины	10650	10657	женщины	1	54	54	52	0	0	0	274	1984	женщины	nmod	1983	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T257	40	2016	2016	PER	Иуды	10827	10831	иуды	1	54	54	84	0	0	0	275	2016	иуды	nmod	2015	PROPN	PROP	Singular	Not_Assigned	3
+PER_T258	22	2019	2019	PER	нам	10839	10842	нам	1	54	54	87	0	0	0	276	2019	нам	iobj	2018	PRON	PRON	Not_Assigned	Not_Assigned	3

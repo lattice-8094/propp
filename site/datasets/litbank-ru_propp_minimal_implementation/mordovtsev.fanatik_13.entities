@@ -1,0 +1,400 @@
+COREF_name	COREF	start_token	end_token	cat	sacr_text	byte_onset	byte_offset	text	mention_len	paragraph_ID	sentence_ID	start_token_ID_within_sentence	out_to_in_nested_level	in_to_out_nested_level	nested_entities_count	temp_index	head_id	head_word	head_dependency_relation	head_syntactic_head_ID	POS_tag	prop	number	gender	grammatical_person
+esclaves	22	3	4	PER	бедным рабыням	10	24	бедным рабыням	2	0	0	3	0	0	0	0	4	рабыням	iobj	5	NOUN	NOM	Not_Assigned	Not_Assigned	3
+esclaves	22	9	9	PER	Они	46	49	они	1	1	1	0	0	0	0	1	9	они	nsubj	11	PRON	PRON	Not_Assigned	Not_Assigned	3
+GPE_T3	77	17	18	GPE	стовратных Фивах	73	89	стовратных фивах	2	1	1	8	0	0	0	2	18	фивах	conj	14	PROPN	PROP	Not_Assigned	Not_Assigned	3
+esclaves	22	24	24	PER	рабынями	111	119	рабынями	1	1	1	15	0	0	0	3	24	рабынями	nsubj	25	NOUN	NOM	Not_Assigned	Not_Assigned	3
+M11	30	39	39	PER	всех	208	212	всех	1	2	2	9	0	0	0	4	39	всех	obl	37	PRON	PRON	Not_Assigned	Not_Assigned	3
+M11	30	43	43	PER	всех	226	230	всех	1	2	2	13	0	0	0	5	43	всех	obl	42	PRON	PRON	Not_Assigned	Not_Assigned	3
+Ator	27	47	48	PER	старой Атор	244	255	старой атор	2	2	2	17	0	0	0	6	48	атор	nsubj	49	PROPN	PROP	Singular	Not_Assigned	3
+T6	33	50	60	PER	бывшего своего господина, который столько лет пропадал где-то	263	324	бывшего своего господина , который столько лет пропадал где - то	11	2	2	20	0	0	0	7	57	пропадал	acl:relcl	52	VERB	NOM	Not_Assigned	Not_Assigned	3
+T6	33	64	64	PER	его	338	341	его	1	3	3	2	0	0	0	8	64	его	obj	63	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T10	91	76	76	PER	одного	398	404	одного	1	4	4	8	0	0	0	9	76	одного	obl	74	NUM	NOM	Not_Assigned	Not_Assigned	3
+PER_T11	98	78	78	PER	другому	407	414	другому	1	4	4	10	0	0	0	10	78	другому	obl	74	ADJ	NOM	Not_Assigned	Not_Assigned	3
+daughter	0	84	84	PER	дитя	425	429	дитя	1	5	5	4	0	0	0	11	84	дитя	parataxis	93	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T16	96	88	88	PER	нам	438	441	нам	1	5	5	8	0	0	0	12	88	нам	iobj	86	PRON	PRON	Not_Assigned	Not_Assigned	3
+Penhi	7	94	94	PER	Пенхи	465	470	пенхи	1	5	5	14	0	0	0	13	94	пенхи	nsubj	93	PROPN	PROP	Singular	Not_Assigned	3
+daughter	0	95	108	PER	внучке, которая теперь поместилась на коленях у отца и не позволяла ему шевельнуться	471	555	внучке , которая теперь поместилась на коленях у отца и не позволяла ему шевельнуться	14	5	5	15	0	1	2	14	99	поместилась	acl:relcl	94	VERB	NOM	Not_Assigned	Not_Assigned	3
+Adiroma	1	103	103	PER	отца	519	523	отца	1	5	5	23	1	0	0	15	103	отца	obl	99	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Adiroma	1	107	107	PER	ему	539	542	ему	1	5	5	27	1	0	0	16	107	ему	iobj	106	PRON	PRON	Not_Assigned	Not_Assigned	3
+Apis	24	114	116	PER	сам бог Апис	570	582	сам бог апис	3	6	6	4	0	0	0	17	115	бог	nsubj	117	NOUN	PROP	Singular	Not_Assigned	3
+daughter	0	118	118	PER	мне	590	593	мне	1	6	6	8	0	0	0	18	118	мне	iobj	117	PRON	PRON	Not_Assigned	Not_Assigned	3
+daughter	0	125	125	PER	она	615	618	она	1	6	6	15	0	0	0	19	125	она	nsubj	124	PRON	PRON	Not_Assigned	Not_Assigned	3
+daughter	0	133	133	PER	ты	636	638	ты	1	8	8	1	0	0	0	20	133	ты	nsubj	135	PRON	PRON	Not_Assigned	Not_Assigned	3
+Adiroma	1	140	140	PER	Адирома	669	676	адирома	1	8	9	3	0	0	0	21	140	адирома	nsubj	139	PROPN	PROP	Singular	Not_Assigned	3
+Adiroma	1	161	161	PER	отцу	752	756	отцу	1	10	11	10	0	0	0	22	161	отцу	iobj	160	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Penhi	7	168	168	PER	Пенхи	784	789	пенхи	1	10	11	17	0	0	0	23	168	пенхи	nsubj	167	PROPN	PROP	Singular	Not_Assigned	3
+daughter	0	172	173	PER	расходившуюся внучку	806	826	расходившуюся внучку	2	10	11	21	0	0	0	24	173	внучку	obj	171	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Adiroma	1	182	182	PER	тобой	852	857	тобой	1	11	12	7	0	0	0	25	182	тобой	obl	183	PRON	PRON	Not_Assigned	Not_Assigned	3
+Adiroma	1	186	186	PER	ты	868	870	ты	1	11	12	11	0	0	0	26	186	ты	nsubj	187	PRON	PRON	Not_Assigned	Not_Assigned	3
+Penhi	7	202	202	PER	он	944	946	он	1	11	13	3	0	0	0	27	202	он	nsubj	201	PRON	PRON	Not_Assigned	Not_Assigned	3
+Adiroma	1	203	203	PER	сына	947	951	сына	1	11	13	4	0	0	0	28	203	сына	obj	201	NOUN	NOM	Not_Assigned	Not_Assigned	3
+gods	23	207	207	PER	Боги	958	962	боги	1	12	14	2	0	0	0	29	207	боги	nsubj	209	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Adiroma	1	211	211	PER	мне	981	984	мне	1	12	14	6	0	0	0	30	211	мне	obl	209	PRON	PRON	Not_Assigned	Not_Assigned	3
+Adiroma	1	216	216	PER	Адирома	998	1005	адирома	1	12	14	11	0	0	0	31	216	адирома	nsubj	215	PROPN	PROP	Singular	Not_Assigned	3
+daughter	0	220	220	PER	девочки	1021	1028	девочки	1	12	14	15	0	0	0	32	220	девочки	nmod	219	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Adiroma	1	222	222	PER	Он	1031	1033	он	1	13	15	0	0	0	0	33	222	он	nsubj	223	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T40	38	227	227	PER	нам	1053	1056	нам	1	13	15	5	0	0	0	34	227	нам	iobj	229	PRON	PRON	Not_Assigned	Not_Assigned	3
+GPE_T35	76	238	238	GPE	Мемфисе	1096	1103	мемфисе	1	13	15	16	0	0	0	35	238	мемфисе	obl	233	PROPN	PROP	Not_Assigned	Not_Assigned	3
+gods	23	242	242	PER	богов	1113	1118	богов	1	13	15	20	0	0	0	36	242	богов	nmod	241	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Adiroma	1	244	244	PER	я	1120	1121	я	1	13	15	22	0	0	0	37	244	я	nsubj	245	PRON	PRON	Not_Assigned	Not_Assigned	3
+T36	45	247	252	PER	почтенным Имери, жрецом бога Хормаху	1135	1171	почтенным имери , жрецом бога хормаху	6	13	15	25	0	1	1	38	248	имери	obl	245	PROPN	PROP	Singular	Not_Assigned	3
+T37	50	251	252	PER	бога Хормаху	1159	1171	бога хормаху	2	13	15	29	1	0	0	39	251	бога	nmod	250	NOUN	PROP	Singular	Not_Assigned	3
+T41	52	257	260	PER	почтенными Пилока и Инини	1183	1208	почтенными пилока и инини	4	13	15	35	0	1	2	40	258	пилока	conj	248	PROPN	PROP	Singular	Not_Assigned	3
+M1	68	258	258	PER	Пилока	1194	1200	пилока	1	13	15	36	1	0	0	41	258	пилока	conj	248	PROPN	PROP	Singular	Not_Assigned	3
+M2	65	260	260	PER	Инини	1203	1208	инини	1	13	15	38	1	0	0	42	260	инини	conj	248	PROPN	PROP	Singular	Not_Assigned	3
+VEH_T42	57	268	273	VEH	"корабле "" Восход в Мемфисе """	1238	1266	"корабле "" восход в мемфисе """	6	13	15	46	0	0	0	43	270	восход	nsubj	265	NOUN	PROP	Not_Assigned	Not_Assigned	3
+PER_T43	39	276	276	PER	они	1270	1273	они	1	13	15	54	0	0	0	44	276	они	nsubj	277	PRON	PRON	Not_Assigned	Not_Assigned	3
+Adiroma	1	278	278	PER	меня	1286	1290	меня	1	13	15	56	0	0	0	45	278	меня	obj	277	PRON	PRON	Not_Assigned	Not_Assigned	3
+Adiroma	1	295	295	PER	мое	1359	1362	мое	1	13	15	73	0	0	0	46	295	мое	det	296	DET	PRON	Not_Assigned	Not_Assigned	3
+GPE_T45	74	298	298	GPE	Египте	1376	1382	египте	1	13	15	76	0	0	0	47	298	египте	nmod	296	PROPN	PROP	Not_Assigned	Not_Assigned	3
+GPE_T46	73	301	301	GPE	Фивах	1387	1392	фивах	1	13	15	79	0	0	0	48	301	фивах	conj	298	PROPN	PROP	Not_Assigned	Not_Assigned	3
+T48	53	308	311	PER	великий Аммон-Горус	1424	1443	великий аммон - горус	4	14	16	1	0	0	0	49	309	аммон	ROOT	309	PROPN	PROP	Singular	Not_Assigned	3
+Penhi	7	313	313	PER	Пенхи	1447	1452	пенхи	1	15	17	0	0	0	0	50	313	пенхи	obj	317	PROPN	PROP	Singular	Not_Assigned	3
+Ator	27	320	321	PER	старой Атор	1478	1489	старой атор	2	15	17	7	0	0	0	51	321	атор	obl	319	PROPN	PROP	Singular	Not_Assigned	3
+esclaves	22	323	324	PER	другим рабыням	1492	1506	другим рабыням	2	15	17	10	0	0	0	52	324	рабыням	conj	321	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Adiroma	1	330	331	PER	дорогого гостя	1535	1549	дорогого гостя	2	15	17	17	0	0	0	53	331	гостя	obl	327	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Laodika	2	338	338	PER	Лаодика	1569	1576	лаодика	1	16	18	5	0	0	0	54	338	лаодика	ROOT	338	PROPN	PROP	Singular	Not_Assigned	3
+daughter	0	343	343	PER	Хену	1592	1596	хену	1	16	19	3	0	0	0	55	343	хену	nsubj	342	PROPN	PROP	Singular	Not_Assigned	3
+daughter	0	351	351	PER	я	1614	1615	я	1	17	20	6	0	0	0	56	351	я	nsubj	352	PRON	PRON	Not_Assigned	Not_Assigned	3
+Laodika	2	353	353	PER	ее	1623	1625	ее	1	17	20	8	0	0	0	57	353	ее	obj	354	PRON	PRON	Not_Assigned	Not_Assigned	3
+Laodika	2	358	358	PER	Она	1640	1643	она	1	18	21	2	0	0	0	58	358	она	obl	352	PRON	PRON	Not_Assigned	Not_Assigned	3
+daughter	0	361	362	PER	милая дочка	1652	1663	милая дочка	2	18	21	5	0	0	0	59	362	дочка	conj	352	NOUN	NOM	Not_Assigned	Not_Assigned	3
+FAC_T59	69	368	369	FAC	доме царицы	1683	1694	доме царицы	2	18	21	12	0	1	1	60	368	доме	obl	364	NOUN	NOM	Not_Assigned	Not_Assigned	3
+T60	54	369	369	PER	царицы	1688	1694	царицы	1	18	21	13	1	0	0	61	369	царицы	nmod	368	NOUN	NOM	Not_Assigned	Not_Assigned	3
+FAC_T61	70	372	373	FAC	женской палате	1698	1712	женской палате	2	18	21	16	0	0	0	62	373	палате	conj	368	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Adiroma	1	378	378	PER	Адирома	1726	1733	адирома	1	18	21	22	0	0	0	63	378	адирома	nsubj	364	PROPN	PROP	Singular	Not_Assigned	3
+Didona	13	382	383	PER	Бедная Дидона	1740	1753	бедная дидона	2	19	22	2	0	0	0	64	383	дидона	ROOT	383	PROPN	PROP	Singular	Not_Assigned	3
+daughter	0	389	389	PER	девочка	1779	1786	девочка	1	19	23	4	0	0	0	65	389	девочка	obj	388	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Didona	13	395	395	PER	она	1801	1804	она	1	19	23	10	0	0	0	66	395	она	nsubj	396	PRON	PRON	Not_Assigned	Not_Assigned	3
+Didona	13	397	397	PER	себя	1812	1816	себя	1	19	23	12	0	0	0	67	397	себя	obj	396	PRON	PRON	Not_Assigned	Not_Assigned	3
+M3	64	404	404	PER	Энее	1836	1840	энее	1	20	24	5	0	0	0	68	404	энее	nmod	402	PROPN	PROP	Singular	Not_Assigned	3
+daughter	0	406	406	PER	девочка	1842	1849	девочка	1	20	24	7	0	0	0	69	406	девочка	nsubj	387	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Didona	13	411	411	PER	глупенькая	1860	1870	глупенькая	1	21	25	3	0	0	0	70	411	глупенькая	ROOT	411	ADJ	NOM	Not_Assigned	Not_Assigned	3
+daughter	0	413	413	PER	Я	1874	1875	я	1	22	26	0	0	0	0	71	413	я	nsubj	417	PRON	PRON	Not_Assigned	Not_Assigned	3
+daughter	0	418	418	PER	себя	1896	1900	себя	1	22	26	5	0	0	0	72	418	себя	obj	417	PRON	PRON	Not_Assigned	Not_Assigned	3
+Penhi	7	421	421	PER	дед	1905	1908	дед	1	23	27	1	0	0	0	73	421	дед	nsubj	425	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Adiroma	1	424	424	PER	отец	1912	1916	отец	1	23	27	4	0	0	0	74	424	отец	nsubj	425	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PenhiAdiroma	31	427	427	PER	Они	1931	1934	они	1	24	28	0	0	0	0	75	427	они	nsubj	428	PRON	PRON	Not_Assigned	Not_Assigned	3
+daughter	0	433	433	PER	Хену	1953	1957	хену	1	24	28	6	0	0	0	76	433	хену	nsubj	435	PROPN	PROP	Singular	Not_Assigned	3
+daughter	0	437	437	PER	она	1969	1972	она	1	24	28	10	0	0	0	77	437	она	nsubj	439	PRON	PRON	Not_Assigned	Not_Assigned	3
+PenhiAdiroma	31	441	441	PER	им	1992	1994	им	1	24	28	14	0	0	0	78	441	им	iobj	440	PRON	PRON	Not_Assigned	Not_Assigned	3
+daughter	0	445	445	PER	Она	2004	2007	она	1	25	29	0	0	0	0	79	445	она	nsubj	446	PRON	PRON	Not_Assigned	Not_Assigned	3
+daughter	0	456	456	PER	она	2051	2054	она	1	25	29	11	0	0	0	80	456	она	nsubj	455	PRON	PRON	Not_Assigned	Not_Assigned	3
+daughter	0	463	463	PER	они	2076	2079	они	1	25	29	18	0	0	0	81	463	они	nsubj	470	PRON	PRON	Not_Assigned	Not_Assigned	3
+Penhi	7	465	465	PER	дедом	2082	2087	дедом	1	25	29	20	0	0	0	82	465	дедом	nmod	463	NOUN	NOM	Not_Assigned	Not_Assigned	3
+gods	23	474	474	PER	богов	2123	2128	богов	1	25	29	29	0	0	0	83	474	богов	nmod	473	NOUN	NOM	Not_Assigned	Not_Assigned	3
+T81	55	476	476	PER	фараона	2130	2137	фараона	1	25	29	31	0	0	0	84	476	фараона	conj	474	NOUN	NOM	Not_Assigned	Not_Assigned	3
+T82	56	478	478	PER	царевичей	2140	2149	царевичей	1	25	29	33	0	0	0	85	478	царевичей	conj	474	NOUN	NOM	Not_Assigned	Not_Assigned	3
+daughter	0	482	482	PER	она	2155	2158	она	1	25	29	37	0	0	0	86	482	она	nsubj	486	PRON	PRON	Not_Assigned	Not_Assigned	3
+Adiroma	1	484	484	PER	отцу	2164	2168	отцу	1	25	29	39	0	0	0	87	484	отцу	iobj	486	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Penhi	7	489	489	PER	Пенхи	2187	2192	пенхи	1	26	30	1	0	0	0	88	489	пенхи	nsubj	491	PROPN	PROP	Singular	Not_Assigned	3
+daughter	0	495	497	PER	свою умненькую внучку	2220	2241	свою умненькую внучку	3	26	30	7	0	1	1	89	497	внучку	obj	511	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Penhi	7	495	495	PER	свою	2220	2224	свою	1	26	30	7	1	0	0	90	495	свою	det	497	DET	PRON	Not_Assigned	Not_Assigned	3
+daughter	0	503	503	PER	ей	2258	2260	ей	1	26	30	15	0	0	0	91	503	ей	iobj	502	PRON	PRON	Not_Assigned	Not_Assigned	3
+daughter	0	508	508	PER	она	2278	2281	она	1	26	30	20	0	0	0	92	508	она	nsubj	511	PRON	PRON	Not_Assigned	Not_Assigned	3
+M8	80	516	516	PER	кто	2307	2310	кто	1	27	31	3	0	0	0	93	516	кто	nsubj	517	PRON	PRON	Not_Assigned	Not_Assigned	3
+Didona	13	520	520	PER	Дидона	2321	2327	дидона	1	27	31	7	0	0	0	94	520	дидона	obl	517	PROPN	PROP	Singular	Not_Assigned	3
+Laodika	2	522	522	PER	Лаодика	2332	2339	лаодика	1	27	31	9	0	0	0	95	522	лаодика	conj	520	PROPN	PROP	Singular	Not_Assigned	3
+daughter	0	527	527	PER	она	2355	2358	она	1	27	32	3	0	0	0	96	527	она	nsubj	526	PRON	PRON	Not_Assigned	Not_Assigned	3
+Laodika	2	536	536	PER	Лаодика	2383	2390	лаодика	1	28	33	2	0	0	0	97	536	лаодика	nsubj	537	PROPN	PROP	Singular	Not_Assigned	3
+Adiroma	1	542	542	PER	Адирома	2410	2417	адирома	1	28	33	8	0	0	0	98	542	адирома	nsubj	541	PROPN	PROP	Singular	Not_Assigned	3
+Laodika	2	546	546	PER	Лаодику	2424	2431	лаодику	1	29	34	2	0	0	0	99	546	лаодику	obj	548	PROPN	PROP	Singular	Not_Assigned	3
+Adiroma	1	547	547	PER	я	2432	2433	я	1	29	34	3	0	0	0	100	547	я	nsubj	548	PRON	PRON	Not_Assigned	Not_Assigned	3
+daughter	0	554	554	PER	ты	2463	2465	ты	1	29	34	10	0	0	0	101	554	ты	obl	548	PRON	PRON	Not_Assigned	Not_Assigned	3
+Laodika	2	561	561	PER	ней	2482	2485	ней	1	30	35	5	0	0	0	102	561	ней	obl	548	PRON	PRON	Not_Assigned	Not_Assigned	3
+Adiroma	1	572	573	PER	милая дочка	2525	2536	милая дочка	2	32	37	4	0	0	0	103	573	дочка	conj	548	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Laodika	2	576	576	PER	Лаодики	2540	2547	лаодики	1	32	37	8	0	0	0	104	576	лаодики	obl	578	PROPN	PROP	Singular	Not_Assigned	3
+Didona	13	590	590	PER	Дидоны	2606	2612	дидоны	1	35	40	2	0	0	0	105	590	дидоны	obl	608	PROPN	PROP	Singular	Not_Assigned	3
+Didona	13	595	595	PER	Дидоны	2622	2628	дидоны	1	36	41	3	0	0	0	106	595	дидоны	nmod	590	PROPN	PROP	Singular	Not_Assigned	3
+daughter	0	606	606	PER	Я	2661	2662	я	1	38	43	0	0	0	0	107	606	я	nsubj	608	PRON	PRON	Not_Assigned	Not_Assigned	3
+daughter	0	613	613	PER	она	2689	2692	она	1	39	44	2	0	0	0	108	613	она	nsubj	614	PRON	PRON	Not_Assigned	Not_Assigned	3
+Penhi	7	616	616	PER	деда	2706	2710	деда	1	39	44	5	0	0	0	109	616	деда	obj	614	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Adiroma	1	619	619	PER	отца	2714	2718	отца	1	39	44	8	0	0	0	110	619	отца	conj	616	NOUN	NOM	Not_Assigned	Not_Assigned	3
+daughter	0	626	626	PER	ее	2756	2758	ее	1	40	45	5	0	0	0	111	626	ее	obj	625	PRON	PRON	Not_Assigned	Not_Assigned	3
+Adiroma	1	632	632	PER	я	2771	2772	я	1	41	46	4	0	0	0	112	632	я	nsubj	634	PRON	PRON	Not_Assigned	Not_Assigned	3
+Adiroma	1	646	646	PER	Адирома	2822	2829	адирома	1	41	46	18	0	0	0	113	646	адирома	nsubj	645	PROPN	PROP	Singular	Not_Assigned	3
+Laodika	2	660	660	PER	Лаодики	2892	2899	лаодики	1	42	47	6	0	0	0	114	660	лаодики	nmod	657	PROPN	PROP	Singular	Not_Assigned	3
+daughter	0	665	665	PER	Хену	2917	2921	хену	1	42	48	3	0	0	0	115	665	хену	nsubj	664	PROPN	PROP	Singular	Not_Assigned	3
+daughter	0	675	675	PER	тебя	2956	2960	тебя	1	43	49	8	0	0	0	116	675	тебя	obl	671	PRON	PRON	Not_Assigned	Not_Assigned	3
+daughter	0	683	683	PER	я	2983	2984	я	1	44	50	6	0	0	0	117	683	я	nsubj	684	PRON	PRON	Not_Assigned	Not_Assigned	3
+Apis	24	688	688	PER	Аписом	3007	3013	аписом	1	44	50	11	0	0	0	118	688	аписом	obl	684	PROPN	PROP	Singular	Not_Assigned	3
+Apis	24	691	691	PER	он	3017	3019	он	1	44	50	14	0	0	0	119	691	он	nsubj	692	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T123	97	698	698	PER	все	3046	3049	все	1	44	50	21	0	0	0	120	698	все	nsubj	699	PRON	PRON	Not_Assigned	Not_Assigned	3
+daughter	0	702	702	PER	я	3063	3064	я	1	44	50	25	0	0	0	121	702	я	nsubj	704	PRON	PRON	Not_Assigned	Not_Assigned	3
+daughter	0	703	704	PER	священная девочка	3065	3082	священная девочка	2	44	50	26	0	0	0	122	704	девочка	ccomp	699	NOUN	NOM	Not_Assigned	Not_Assigned	3
+daughter	0	709	709	PER	ты	3092	3094	ты	1	45	51	3	0	0	0	123	709	ты	nsubj	712	PRON	PRON	Not_Assigned	Not_Assigned	3
+daughter	0	712	712	PER	священная	3101	3110	священная	1	45	51	6	0	0	0	124	712	священная	ROOT	712	ADJ	NOM	Not_Assigned	Not_Assigned	3
+Adiroma	1	717	717	PER	Адирома	3126	3133	адирома	1	45	51	11	0	0	0	125	717	адирома	nsubj	716	PROPN	PROP	Singular	Not_Assigned	3
+daughter	0	722	722	PER	священная	3147	3156	священная	1	46	52	3	0	0	0	126	722	священная	nsubj	720	ADJ	NOM	Not_Assigned	Not_Assigned	3
+daughter	0	729	729	PER	ты	3176	3178	ты	1	47	53	5	0	0	0	127	729	ты	nsubj	730	PRON	PRON	Not_Assigned	Not_Assigned	3
+daughter	0	730	730	PER	невинная	3179	3187	невинная	1	47	53	6	0	0	0	128	730	невинная	ROOT	730	ADJ	NOM	Not_Assigned	Not_Assigned	3
+Laodika	2	735	735	PER	Лаодика	3196	3203	лаодика	1	48	54	3	0	0	0	129	735	лаодика	nsubj	737	PROPN	PROP	Singular	Not_Assigned	3
+Laodika	2	737	737	PER	священная	3209	3218	священная	1	48	54	5	0	0	0	130	737	священная	conj	730	ADJ	NOM	Not_Assigned	Not_Assigned	3
+Laodika	2	744	744	PER	Лаодика	3232	3239	лаодика	1	49	55	5	0	0	0	131	744	лаодика	nsubj	745	PROPN	PROP	Singular	Not_Assigned	3
+Laodika	2	745	745	PER	священная	3240	3249	священная	1	49	55	6	0	0	0	132	745	священная	conj	730	ADJ	NOM	Not_Assigned	Not_Assigned	3
+Didona	13	750	750	PER	Дидона	3258	3264	дидона	1	50	56	3	0	0	0	133	750	дидона	obl	730	PROPN	PROP	Singular	Not_Assigned	3
+Adiroma	1	752	752	PER	Адирома	3268	3275	адирома	1	51	57	0	0	0	0	134	752	адирома	nsubj	753	PROPN	PROP	Singular	Not_Assigned	3
+Didona	13	761	761	PER	она	3305	3308	она	1	52	58	6	0	0	0	135	761	она	nsubj	762	PRON	PRON	Not_Assigned	Not_Assigned	3
+M10	67	762	762	PER	священная	3309	3318	священная	1	52	58	7	0	0	0	136	762	священная	ROOT	762	ADJ	NOM	Not_Assigned	Not_Assigned	3
+daughter	0	769	769	PER	дитя	3339	3343	дитя	1	53	59	5	0	0	0	137	769	дитя	conj	767	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Penhi	7	777	777	PER	Пенхи	3375	3380	пенхи	1	53	59	13	0	0	0	138	777	пенхи	nsubj	776	PROPN	PROP	Singular	Not_Assigned	3
+daughter	0	781	781	PER	ты	3386	3388	ты	1	53	59	17	0	0	0	139	781	ты	nsubj	786	PRON	PRON	Not_Assigned	Not_Assigned	3
+Penhi	7	805	805	PER	ты	3486	3488	ты	1	55	61	1	0	0	0	140	805	ты	nsubj	804	PRON	PRON	Not_Assigned	Not_Assigned	3
+Adiroma	1	811	812	PER	моему отцу	3505	3515	моему отцу	2	55	61	7	0	1	1	141	812	отцу	iobj	810	NOUN	NOM	Not_Assigned	Not_Assigned	3
+daughter	0	811	811	PER	моему	3505	3510	моему	1	55	61	7	1	0	0	142	811	моему	det	812	DET	PRON	Not_Assigned	Not_Assigned	3
+Penhi	7	814	814	PER	ты	3517	3519	ты	1	55	61	10	0	0	0	143	814	ты	nsubj	817	PRON	PRON	Not_Assigned	Not_Assigned	3
+Penhi	7	821	821	PER	Пенхи	3544	3549	пенхи	1	56	62	0	0	0	0	144	821	пенхи	nsubj	824	PROPN	PROP	Singular	Not_Assigned	3
+Adiroma	1	827	827	PER	Адирома	3573	3580	адирома	1	56	62	6	0	0	0	145	827	адирома	nsubj	830	PROPN	PROP	Singular	Not_Assigned	3
+daughter	0	832	832	PER	болтунью	3605	3613	болтунью	1	56	62	11	0	0	0	146	832	болтунью	obj	831	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Penhi	7	837	837	PER	я	3624	3625	я	1	57	63	3	0	0	0	147	837	я	nsubj	840	PRON	PRON	Not_Assigned	Not_Assigned	3
+Penhi	7	847	847	PER	он	3659	3661	он	1	57	63	13	0	0	0	148	847	он	nsubj	846	PRON	PRON	Not_Assigned	Not_Assigned	3
+GPE_T145	71	852	852	GPE	Трои	3670	3674	трои	1	57	63	18	0	0	0	149	852	трои	obl	840	NOUN	NOM	Not_Assigned	Not_Assigned	3
+GPE_T146	72	855	855	GPE	Фивы	3680	3684	фивы	1	57	63	21	0	0	0	150	855	фивы	obl	840	PROPN	PROP	Not_Assigned	Not_Assigned	3
+Laodika	2	859	859	PER	ЛАОДИКА	3694	3701	лаодика	1	59	65	0	0	0	0	151	859	лаодика	nsubj	871	NOUN	PROP	Singular	Not_Assigned	3
+Ramzes	9	862	862	PER	РАМЗЕСА	3710	3717	рамзеса	1	59	65	3	0	0	0	152	862	рамзеса	nmod	861	PROPN	PROP	Singular	Not_Assigned	3
+Ramzes	9	863	866	PER	Рамзес III - Рампсинит	3719	3741	рамзес iii - рампсинит	4	60	66	0	0	0	0	153	863	рамзес	nsubj	871	PROPN	PROP	Singular	Not_Assigned	3
+Miamun	26	877	878	PER	своего отца	3792	3803	своего отца	2	60	66	14	0	1	1	154	878	отца	nmod	876	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Ramzes	9	877	877	PER	своего	3792	3798	своего	1	60	66	14	1	0	0	155	877	своего	det	878	DET	PRON	Not_Assigned	Not_Assigned	3
+Miamun	26	880	883	PER	Сетнахта-Миамуна II	3805	3824	сетнахта - миамуна ii	4	60	66	17	0	0	0	156	882	миамуна	conj	878	PROPN	PROP	Singular	Not_Assigned	3
+Miamun	26	890	890	PER	последнего	3850	3860	последнего	1	60	66	27	0	0	0	157	890	последнего	nmod	889	ADJ	NOM	Not_Assigned	Not_Assigned	3
+Ramzes	9	892	892	PER	он	3862	3864	он	1	60	66	29	0	0	0	158	892	он	nsubj	893	PRON	PRON	Not_Assigned	Not_Assigned	3
+GPE_T157	21	895	895	GPE	Египтом	3883	3890	египтом	1	60	66	32	0	0	0	159	895	египтом	xcomp	894	PROPN	PROP	Not_Assigned	Not_Assigned	3
+Ramzes	9	902	903	PER	Рамзес III	3917	3927	рамзес iii	2	61	67	5	0	0	0	160	902	рамзес	nsubj	904	PROPN	PROP	Singular	Not_Assigned	3
+sonsofRamzes	12	906	907	PER	восемнадцать сыновей	3937	3957	восемнадцать сыновей	2	61	67	9	0	0	0	161	907	сыновей	obj	904	NOUN	NOM	Not_Assigned	Not_Assigned	3
+daughtersofRamzes	8	909	910	PER	четырнадцать дочерей	3960	3980	четырнадцать дочерей	2	61	67	12	0	0	0	162	910	дочерей	conj	907	NOUN	NOM	Not_Assigned	Not_Assigned	3
+childrenofRamzes	10	916	916	PER	дети	4001	4005	дети	1	62	68	4	0	0	0	163	916	дети	ROOT	916	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Tia	14	918	924	PER	одной царицы Тии, его законной жены	4009	4044	одной царицы тии , его законной жены	7	62	68	6	0	0	0	164	919	царицы	nmod	916	NOUN	PROP	Singular	Not_Assigned	3
+PER_T162	95	927	927	PER	многие	4049	4055	многие	1	62	68	15	0	0	0	165	927	многие	amod	928	ADJ	NOM	Not_Assigned	Not_Assigned	3
+PER_T163	94	931	934	PER	других женщин его гарема	4070	4094	других женщин его гарема	4	62	68	19	0	0	0	166	932	женщин	nmod	928	NOUN	NOM	Not_Assigned	Not_Assigned	3
+M4	63	938	942	ORG	""" женским домом "" фараона"	4117	4142	""" женским домом "" фараона"	5	62	68	26	0	1	1	167	940	домом	obl	936	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Ramzes	9	942	942	PER	фараона	4135	4142	фараона	1	62	68	30	1	0	0	168	942	фараона	nmod	940	NOUN	NOM	Not_Assigned	Not_Assigned	3
+childrenofRamzes	10	945	947	PER	все эти дети	4150	4162	все эти дети	3	63	69	1	0	0	0	169	947	дети	nsubj:pass	948	NOUN	NOM	Not_Assigned	Not_Assigned	3
+sonsofRamzes	12	949	949	PER	принцами	4173	4181	принцами	1	63	69	5	0	0	0	170	949	принцами	xcomp	948	NOUN	NOM	Not_Assigned	Not_Assigned	3
+daughtersofRamzes	8	951	952	PER	принцессами крови	4184	4201	принцессами крови	2	63	69	7	0	0	0	171	951	принцессами	conj	949	NOUN	NOM	Not_Assigned	Not_Assigned	3
+childrenofRamzes	10	956	956	PER	они	4213	4216	они	1	63	69	12	0	0	0	172	956	они	nsubj	957	PRON	PRON	Not_Assigned	Not_Assigned	3
+childrenofRamzes	10	961	962	PER	дети фараона	4244	4256	дети фараона	2	63	69	17	0	1	1	173	961	дети	obl	957	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Ramzes	9	962	962	PER	фараона	4249	4256	фараона	1	63	69	18	1	0	0	174	962	фараона	nmod	961	NOUN	NOM	Not_Assigned	Not_Assigned	3
+GPE_T157	21	970	970	GPE	Египте	4293	4299	египте	1	63	69	26	0	0	0	175	970	египте	obl	968	PROPN	PROP	Not_Assigned	Not_Assigned	3
+childrenofRamzes	10	977	977	PER	все	4324	4327	все	1	63	69	33	0	0	0	176	977	все	nsubj	979	PRON	PRON	Not_Assigned	Not_Assigned	3
+GPE_T157	21	984	984	GPE	страной	4361	4368	страной	1	63	69	40	0	0	0	177	984	страной	conj	981	NOUN	NOM	Not_Assigned	Not_Assigned	3
+firstwife	18	995	999	PER	первая, законная жена фараона	4410	4439	первая , законная жена фараона	5	64	70	9	0	1	1	178	998	жена	nsubj	1000	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Ramzes	9	999	999	PER	фараона	4432	4439	фараона	1	64	70	13	1	0	0	179	999	фараона	nmod	998	NOUN	NOM	Not_Assigned	Not_Assigned	3
+firstwife	18	1005	1005	PER	ей	4473	4475	ей	1	64	70	19	0	0	0	180	1005	ей	iobj	1006	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T177	93	1011	1011	PER	других	4509	4515	других	1	64	70	25	0	0	0	181	1011	других	obl	1009	ADJ	NOM	Not_Assigned	Not_Assigned	3
+firstwife	18	1013	1013	PER	она	4518	4521	она	1	64	70	27	0	0	0	182	1013	она	nsubj	1014	PRON	PRON	Not_Assigned	Not_Assigned	3
+firstwife	18	1015	1018	PER	преимущественной представительницей законного престолонаследия	4531	4593	преимущественной представительницей законного престолонаследия	4	64	70	29	0	0	0	183	1016	представительницей	xcomp	1014	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Ramzes	9	1020	1026	PER	Обыкновенно женатый на принцессе - наследнице фараон	4596	4648	обыкновенно женатый на принцессе - наследнице фараон	7	65	71	0	0	1	1	184	1021	женатый	acl	1026	NOUN	NOM	Not_Assigned	Not_Assigned	3
+firstwife	18	1023	1025	PER	принцессе - наследнице	4619	4641	принцессе - наследнице	3	65	71	3	1	0	0	185	1023	принцессе	obl	1021	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Ramzes	9	1033	1033	PER	собой	4687	4692	собой	1	65	71	13	0	0	0	186	1033	собой	obl	1031	PRON	PRON	Not_Assigned	Not_Assigned	3
+heritier	29	1035	1037	PER	малолетнего сына своего	4706	4729	малолетнего сына своего	3	65	71	15	0	1	1	187	1036	сына	nmod	1034	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Ramzes	9	1037	1037	PER	своего	4723	4729	своего	1	65	71	17	1	0	0	188	1037	своего	amod	1036	DET	PRON	Not_Assigned	Not_Assigned	3
+heritier	29	1044	1044	PER	его	4761	4764	его	1	65	71	24	0	0	0	189	1044	его	det	1045	DET	PRON	Not_Assigned	Not_Assigned	3
+Ramzes	9	1049	1049	PER	своим	4788	4793	своим	1	65	71	29	0	0	0	190	1049	своим	det	1050	DET	PRON	Not_Assigned	Not_Assigned	3
+Ramzes	9	1053	1053	PER	свои	4806	4810	свои	1	65	71	33	0	0	0	191	1053	свои	det	1054	DET	PRON	Not_Assigned	Not_Assigned	3
+GPE_T157	21	1060	1060	GPE	страной	4851	4858	страной	1	65	71	40	0	0	0	192	1060	страной	conj	1058	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T189	92	1064	1064	PER	фараонами	4876	4885	фараонами	1	66	72	2	0	0	0	193	1064	фараонами	nmod	1063	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T190	90	1065	1066	PER	удельных князей	4886	4901	удельных князей	2	66	72	3	0	0	0	194	1066	князей	nmod	1063	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T191	82	1068	1068	PER	наместников	4904	4915	наместников	1	66	72	6	0	0	0	195	1068	наместников	conj	1066	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T192	89	1070	1071	PER	наследником удела	4928	4945	наследником удела	2	66	72	8	0	0	0	196	1070	наследником	xcomp	1072	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T193	88	1073	1079	PER	внук царя, рожденный от дочери его	4955	4989	внук царя , рожденный от дочери его	7	66	72	11	0	2	3	197	1076	рожденный	acl	1073	VERB	NOM	Not_Assigned	Not_Assigned	3
+M5	20	1074	1074	PER	царя	4960	4964	царя	1	66	72	12	1	0	0	198	1074	царя	nmod	1073	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T195	99	1078	1079	PER	дочери его	4979	4989	дочери его	2	66	72	16	1	1	1	199	1078	дочери	obl	1076	NOUN	NOM	Not_Assigned	Not_Assigned	3
+M5	20	1079	1079	PER	его	4986	4989	его	1	66	72	17	2	0	0	200	1079	его	obj	1076	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T196	35	1083	1084	PER	сын его	4997	5004	сын его	2	66	72	21	0	1	1	201	1083	сын	conj	1073	NOUN	NOM	Not_Assigned	Not_Assigned	3
+M5	20	1084	1084	PER	его	5001	5004	его	1	66	72	22	1	0	0	202	1084	его	nmod	1083	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T197	87	1086	1089	PER	не сын сына его	5007	5022	не сын сына его	4	66	72	24	0	2	2	203	1087	сын	conj	1073	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T196	35	1088	1089	PER	сына его	5014	5022	сына его	2	66	72	26	1	1	1	204	1088	сына	nmod	1087	NOUN	NOM	Not_Assigned	Not_Assigned	3
+M5	20	1089	1089	PER	его	5019	5022	его	1	66	72	27	2	0	0	205	1089	его	nmod	1087	PRON	PRON	Not_Assigned	Not_Assigned	3
+T201	47	1103	1103	PER	Геродот	5084	5091	геродот	1	68	74	0	0	0	0	206	1103	геродот	nsubj	1104	PROPN	PROP	Singular	Not_Assigned	3
+Egyptians	19	1110	1110	PER	египтян	5119	5126	египтян	1	68	74	7	0	0	0	207	1110	египтян	nmod	1109	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T203	86	1117	1120	PER	престарелых и дряхлых родителях	5158	5189	престарелых и дряхлых родителях	4	68	74	14	0	0	0	208	1120	родителях	nmod	1115	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T204	85	1122	1122	PER	дочерей	5193	5200	дочерей	1	68	74	19	0	0	0	209	1122	дочерей	nmod	1115	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T205	84	1127	1127	PER	сыновей	5210	5217	сыновей	1	68	74	24	0	0	0	210	1127	сыновей	conj	1122	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Adiroma	1	1135	1135	PER	Адиромы	5253	5260	адиромы	1	69	75	6	0	0	0	211	1135	адиромы	nmod	1134	PROPN	PROP	Singular	Not_Assigned	3
+GPE_T207	83	1137	1137	GPE	Фивы	5263	5267	фивы	1	69	75	8	0	0	0	212	1137	фивы	nmod	1134	PROPN	PROP	Not_Assigned	Not_Assigned	3
+PER_T208	59	1139	1142	PER	вся многочисленная семья Рамзеса	5269	5301	вся многочисленная семья рамзеса	4	69	75	10	0	1	1	213	1141	семья	nsubj	1143	NOUN	PROP	Singular	Not_Assigned	3
+Ramzes	9	1142	1142	PER	Рамзеса	5294	5301	рамзеса	1	69	75	13	1	0	0	214	1142	рамзеса	nmod	1141	PROPN	PROP	Singular	Not_Assigned	3
+garden	34	1145	1155	FAC	саду, примыкавшем к женскому дому и обнесенном высокой каменной оградой	5315	5386	саду , примыкавшем к женскому дому и обнесенном высокой каменной оградой	11	69	75	16	0	1	1	215	1147	примыкавшем	acl	1145	VERB	NOM	Not_Assigned	Not_Assigned	3
+FAC_T211	46	1149	1150	FAC	женскому дому	5335	5348	женскому дому	2	69	75	20	1	0	0	216	1150	дому	obl	1147	NOUN	NOM	Not_Assigned	Not_Assigned	3
+garden	34	1167	1167	FAC	саду	5458	5462	саду	1	70	76	10	0	0	0	217	1167	саду	nmod	1166	NOUN	NOM	Not_Assigned	Not_Assigned	3
+childrenofRamzes	10	1176	1198	PER	Младшие члены семьи фараона, мальчики с локонами юности на щеках и девочки с золотыми обручами на головах в виде змея - уреуса	5510	5636	младшие члены семьи фараона , мальчики с локонами юности на щеках и девочки с золотыми обручами на головах в виде змея - уреуса	23	71	77	0	0	1	2	218	1181	мальчики	appos	1177	NOUN	NOM	Not_Assigned	Not_Assigned	3
+sonsofRamzes	12	1181	1186	PER	мальчики с локонами юности на щеках	5539	5574	мальчики с локонами юности на щеках	6	71	77	5	1	0	0	219	1183	локонами	nmod	1181	NOUN	NOM	Not_Assigned	Not_Assigned	3
+daughtersofRamzes	8	1188	1198	PER	девочки с золотыми обручами на головах в виде змея - уреуса	5577	5636	девочки с золотыми обручами на головах в виде змея - уреуса	11	71	77	12	1	0	0	220	1191	обручами	nmod	1188	NOUN	NOM	Not_Assigned	Not_Assigned	3
+childrenofRamzes	10	1210	1210	PER	они	5707	5710	они	1	71	77	34	0	0	0	221	1210	они	nsubj	1211	PRON	PRON	Not_Assigned	Not_Assigned	3
+Egyptians	19	1222	1222	PER	египтян	5786	5793	египтян	1	71	77	46	0	0	0	222	1222	египтян	obj	1220	NOUN	NOM	Not_Assigned	Not_Assigned	3
+T218	16	1228	1231	PER	презренных обитателей страны Либу	5808	5841	презренных обитателей страны либу	4	71	77	52	0	1	1	223	1229	обитателей	conj	1211	NOUN	PROP	Singular	Not_Assigned	3
+GPE_T219	78	1230	1231	GPE	страны Либу	5830	5841	страны либу	2	71	77	54	1	0	0	224	1230	страны	nmod	1229	NOUN	PROP	Not_Assigned	Not_Assigned	3
+M9	81	1233	1236	PER	Некоторые девочки - принцессы	5844	5873	некоторые девочки - принцессы	4	72	78	0	0	1	1	225	1234	девочки	nsubj	1237	NOUN	NOM	Not_Assigned	Not_Assigned	3
+daughtersofRamzes	8	1234	1236	PER	девочки - принцессы	5854	5873	девочки - принцессы	3	72	78	1	1	0	0	226	1234	девочки	nsubj	1237	NOUN	NOM	Not_Assigned	Not_Assigned	3
+daughtersofRamzes	8	1241	1241	PER	их	5892	5894	их	1	72	78	8	0	0	0	227	1241	их	det	1242	DET	PRON	Not_Assigned	Not_Assigned	3
+T218	16	1245	1246	PER	презренными либу	5912	5928	презренными либу	2	72	78	12	0	0	0	228	1246	либу	nsubj	1243	NOUN	NOM	Not_Assigned	Not_Assigned	3
+T223	48	1250	1254	PER	своим черномазым статс-дамам	5943	5971	своим черномазым статс - дамам	5	72	78	17	0	1	1	229	1251	черномазым	iobj	1249	NOUN	NOM	Not_Assigned	Not_Assigned	3
+daughtersofRamzes	8	1250	1250	PER	своим	5943	5948	своим	1	72	78	17	1	0	0	230	1250	своим	det	1251	DET	PRON	Not_Assigned	Not_Assigned	3
+sonsofRamzes	12	1257	1259	PER	мальчики - принцы	5977	5994	мальчики - принцы	3	72	78	24	0	0	0	231	1257	мальчики	nsubj	1260	NOUN	NOM	Not_Assigned	Not_Assigned	3
+daughtersofRamzes	8	1263	1263	PER	них	6012	6015	них	1	72	78	30	0	0	0	232	1263	них	obl	1261	PRON	PRON	Not_Assigned	Not_Assigned	3
+sonsofRamzes	12	1267	1267	PER	победителей	6030	6041	победителей	1	72	78	34	0	0	0	233	1267	победителей	nmod	1266	NOUN	NOM	Not_Assigned	Not_Assigned	3
+daughtersofRamzes	8	1270	1271	PER	обиженных сестренок	6052	6071	обиженных сестренок	2	73	79	1	0	0	0	234	1271	сестренок	nmod	1269	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Snat	3	1273	1274	PER	хорошенькая Снат	6080	6096	хорошенькая снат	2	73	79	4	0	0	0	235	1274	снат	nsubj	1272	PROPN	PROP	Singular	Not_Assigned	3
+Snat	3	1277	1277	PER	Нитокрис	6102	6110	нитокрис	1	73	79	8	0	0	0	236	1277	нитокрис	conj	1274	PROPN	PROP	Singular	Not_Assigned	3
+Snat	3	1279	1279	PER	Она	6113	6116	она	1	74	80	0	0	0	0	237	1279	она	nsubj	1280	PRON	PRON	Not_Assigned	Not_Assigned	3
+M6	62	1284	1284	PER	египтян	6141	6148	египтян	1	74	80	5	0	0	0	238	1284	египтян	obj	1283	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T234	61	1286	1286	PER	египтянок	6151	6160	египтянок	1	74	80	7	0	0	0	239	1286	египтянок	conj	1284	NOUN	NOM	Not_Assigned	Not_Assigned	3
+T218	16	1288	1289	PER	презренных либу	6163	6178	презренных либу	2	74	80	9	0	0	0	240	1289	либу	obl	1283	NOUN	NOM	Not_Assigned	Not_Assigned	3
+godIzida	25	1292	1293	PER	богиня Изида	6192	6204	богиня изида	2	74	80	13	0	0	0	241	1292	богиня	nsubj	1290	NOUN	PROP	Singular	Not_Assigned	3
+Snat	3	1300	1301	PER	милая Снат	6219	6229	милая снат	2	75	81	5	0	0	0	242	1301	снат	appos	1297	PROPN	PROP	Singular	Not_Assigned	3
+childrenofRamzes	10	1303	1303	PER	мы	6231	6233	мы	1	75	81	8	0	0	0	243	1303	мы	nsubj	1304	PRON	PRON	Not_Assigned	Not_Assigned	3
+godIzida	25	1305	1305	PER	Изиду	6242	6247	изиду	1	75	81	10	0	0	0	244	1305	изиду	obj	1304	PROPN	PROP	Singular	Not_Assigned	3
+Gator	5	1310	1323	PER	самая маленькая принцесса, Гатор, названная так по имени богини красоты и любви	6263	6342	самая маленькая принцесса , гатор , названная так по имени богини красоты и любви	14	75	82	3	0	0	0	245	1316	названная	acl	1314	VERB	PROP	Singular	Not_Assigned	3
+Snat	3	1327	1327	PER	Я	6349	6350	я	1	76	83	2	0	0	0	246	1327	я	nsubj	1329	PRON	PRON	Not_Assigned	Not_Assigned	3
+godIzida	25	1329	1329	PER	Изидой	6356	6362	изидой	1	76	83	4	0	0	0	247	1329	изидой	ROOT	1329	PROPN	PROP	Singular	Not_Assigned	3
+Snat	3	1334	1334	PER	Нитокрис	6377	6385	нитокрис	1	76	83	9	0	0	0	248	1334	нитокрис	conj	1329	PROPN	PROP	Singular	Not_Assigned	3
+Snat	3	1339	1339	PER	мне	6402	6405	мне	1	77	84	3	0	0	0	249	1339	мне	iobj	1338	PRON	PRON	Not_Assigned	Not_Assigned	3
+daughtersofRamzes	8	1347	1348	PER	Маленькие принцессы	6451	6470	маленькие принцессы	2	78	85	0	0	0	0	250	1348	принцессы	nsubj	1349	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Snat	3	1352	1353	PER	старшей сестры	6502	6516	старшей сестры	2	78	85	5	0	0	0	251	1353	сестры	nmod	1351	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Snat	3	1363	1364	PER	Шалунья Нитокрис	6564	6580	шалунья нитокрис	2	79	86	0	0	0	0	252	1363	шалунья	nsubj	1365	PROPN	PROP	Singular	Not_Assigned	3
+Snat	3	1367	1367	PER	себя	6592	6596	себя	1	79	86	4	0	0	0	253	1367	себя	obl	1365	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T248	60	1370	1370	PER	богини	6608	6614	богини	1	79	86	7	0	0	0	254	1370	богини	nmod	1369	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Snat	3	1378	1378	PER	божеством	6649	6658	божеством	1	80	87	6	0	0	0	255	1378	божеством	obl	1365	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Snat	3	1383	1383	PER	она	6673	6676	она	1	80	88	3	0	0	0	256	1383	она	nsubj	1382	PRON	PRON	Not_Assigned	Not_Assigned	3
+daughtersofRamzes	8	1386	1386	PER	Девочки	6692	6699	девочки	1	81	89	0	0	0	0	257	1386	девочки	nsubj	1389	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Snat	3	1391	1391	PER	богини	6731	6737	богини	1	81	89	5	0	0	0	258	1391	богини	nmod	1390	NOUN	NOM	Not_Assigned	Not_Assigned	3
+M7	79	1394	1396	PER	некоторые юные принцы	6742	6763	некоторые юные принцы	3	81	89	8	0	0	0	259	1396	принцы	nsubj	1397	NOUN	NOM	Not_Assigned	Not_Assigned	3
+T218	16	1402	1403	PER	презренных либу	6799	6814	презренных либу	2	81	89	16	0	0	0	260	1403	либу	obl	1400	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Snat	3	1406	1406	PER	Нитокрис	6824	6832	нитокрис	1	82	90	1	0	0	0	261	1406	нитокрис	nsubj	1407	PROPN	PROP	Singular	Not_Assigned	3
+Snat	3	1408	1408	PER	свою	6844	6848	свою	1	82	90	3	0	0	0	262	1408	свою	det	1409	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T257	49	1415	1415	PER	младших	6870	6877	младших	1	83	91	4	0	0	0	263	1415	младших	nmod	1413	ADJ	NOM	Not_Assigned	Not_Assigned	3
+Snat	3	1420	1420	PER	она	6891	6894	она	1	83	91	9	0	0	0	264	1420	она	nsubj	1419	PRON	PRON	Not_Assigned	Not_Assigned	3
+Gator	5	1424	1424	PER	Гатор	6901	6906	гатор	1	84	92	2	0	0	0	265	1424	гатор	ROOT	1424	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Gator	5	1427	1427	PER	себе	6917	6921	себе	1	85	93	1	0	0	0	266	1427	себе	iobj	1429	PRON	PRON	Not_Assigned	Not_Assigned	3
+Gator	5	1431	1432	PER	Юная принцесса	6935	6949	юная принцесса	2	86	94	0	0	0	0	267	1432	принцесса	nsubj	1435	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Egypt	6	1455	1455	GPE	Египет	7062	7068	египет	1	87	95	13	0	0	0	268	1455	египет	parataxis	1453	PROPN	PROP	Not_Assigned	Not_Assigned	3
+Libu	4	1457	1457	GPE	Либу	7069	7073	либу	1	87	95	15	0	0	0	269	1457	либу	parataxis	1453	PROPN	PROP	Not_Assigned	Not_Assigned	3
+Egypt	6	1459	1459	GPE	Египет	7075	7081	египет	1	87	95	17	0	0	0	270	1459	египет	conj	1453	PROPN	PROP	Not_Assigned	Not_Assigned	3
+Libu	4	1461	1461	GPE	Либу	7082	7086	либу	1	87	95	19	0	0	0	271	1461	либу	parataxis	1453	PROPN	PROP	Not_Assigned	Not_Assigned	3
+Egypt	6	1472	1472	GPE	Египет	7141	7147	египет	1	88	96	4	0	0	0	272	1472	египет	advcl	1479	PROPN	PROP	Not_Assigned	Not_Assigned	3
+Gator	5	1478	1478	PER	ты	7161	7163	ты	1	88	96	10	0	0	0	273	1478	ты	nsubj	1479	PRON	PRON	Not_Assigned	Not_Assigned	3
+Egyptians	19	1479	1479	PER	египтянин	7164	7173	египтянин	1	88	96	11	0	0	0	274	1479	египтянин	ROOT	1479	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Libu	4	1486	1486	GPE	Либу	7206	7210	либу	1	88	96	18	0	0	0	275	1486	либу	advcl	1493	PROPN	PROP	Not_Assigned	Not_Assigned	3
+Gator	5	1490	1490	PER	ты	7217	7219	ты	1	88	96	22	0	0	0	276	1490	ты	nsubj	1493	PRON	PRON	Not_Assigned	Not_Assigned	3
+T218	16	1492	1493	PER	презренным либу	7227	7242	презренным либу	2	88	96	24	0	0	0	277	1493	либу	advcl	1479	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Gator	5	1495	1495	PER	Девочка	7245	7252	девочка	1	89	97	0	0	0	0	278	1495	девочка	nsubj	1498	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Gator	5	1505	1505	PER	ее	7303	7305	ее	1	90	98	1	0	0	0	279	1505	ее	obj	1506	PRON	PRON	Not_Assigned	Not_Assigned	3
+Egypt	6	1510	1510	GPE	Египет	7320	7326	египет	1	91	99	2	0	0	0	280	1510	египет	ROOT	1510	PROPN	PROP	Not_Assigned	Not_Assigned	3
+Libu	4	1512	1512	GPE	Либу	7327	7331	либу	1	91	99	4	0	0	0	281	1512	либу	appos	1511	PROPN	PROP	Not_Assigned	Not_Assigned	3
+Egypt	6	1514	1514	GPE	Египет	7333	7339	египет	1	91	99	6	0	0	0	282	1514	египет	conj	1512	PROPN	PROP	Not_Assigned	Not_Assigned	3
+Libu	4	1516	1516	GPE	Либу	7340	7344	либу	1	91	99	8	0	0	0	283	1516	либу	appos	1512	PROPN	PROP	Not_Assigned	Not_Assigned	3
+Gator	5	1521	1521	PER	она	7358	7361	она	1	91	99	13	0	0	0	284	1521	она	nsubj	1520	PRON	PRON	Not_Assigned	Not_Assigned	3
+childrenofRamzes	10	1524	1524	PER	фараонята	7368	7377	фараонята	1	92	100	1	0	0	0	285	1524	фараонята	nsubj	1525	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Egypt	6	1543	1543	GPE	Египет	7486	7492	египет	1	92	100	20	0	0	0	286	1543	египет	nsubj	1531	PROPN	PROP	Not_Assigned	Not_Assigned	3
+Libu	4	1545	1545	GPE	Либу	7495	7499	либу	1	92	100	22	0	0	0	287	1545	либу	nsubj	1531	PROPN	PROP	Not_Assigned	Not_Assigned	3
+Egypt	6	1547	1547	GPE	Египет	7501	7507	египет	1	92	100	24	0	0	0	288	1547	египет	conj	1545	PROPN	PROP	Not_Assigned	Not_Assigned	3
+Libu	4	1549	1549	GPE	Либу	7508	7512	либу	1	92	100	26	0	0	0	289	1549	либу	nsubj	1531	PROPN	PROP	Not_Assigned	Not_Assigned	3
+Egypt	6	1554	1554	GPE	Египет	7521	7527	египет	1	93	101	2	0	0	0	290	1554	египет	obl	1525	PROPN	PROP	Not_Assigned	Not_Assigned	3
+Libu	4	1556	1556	GPE	Либу	7528	7532	либу	1	93	101	4	0	0	0	291	1556	либу	nsubj	1525	PROPN	PROP	Not_Assigned	Not_Assigned	3
+Egypt	6	1558	1558	GPE	Египет	7534	7540	египет	1	93	101	6	0	0	0	292	1558	египет	conj	1556	PROPN	PROP	Not_Assigned	Not_Assigned	3
+Libu	4	1560	1560	GPE	Либу	7541	7545	либу	1	93	101	8	0	0	0	293	1560	либу	conj	1556	PROPN	PROP	Not_Assigned	Not_Assigned	3
+Egypt	6	1562	1562	GPE	Египет	7547	7553	египет	1	93	101	10	0	0	0	294	1562	египет	conj	1556	PROPN	PROP	Not_Assigned	Not_Assigned	3
+Gator	5	1564	1564	PER	Гатор	7558	7563	гатор	1	94	102	0	0	0	0	295	1564	гатор	nsubj	1566	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Gator	5	1565	1565	PER	вся	7564	7567	вся	1	94	102	1	0	0	0	296	1565	вся	nsubj	1566	DET	PRON	Not_Assigned	Not_Assigned	3
+Gator	5	1576	1576	PER	нее	7628	7631	нее	1	94	102	12	0	0	0	297	1576	нее	nmod	1574	PRON	PRON	Not_Assigned	Not_Assigned	3
+Egypt	6	1580	1580	GPE	Египет	7641	7647	египет	1	94	102	16	0	0	0	298	1580	египет	nsubj	1574	PROPN	PROP	Not_Assigned	Not_Assigned	3
+Snat	3	1584	1585	PER	Милая Снат	7654	7664	милая снат	2	95	103	2	0	0	0	299	1584	милая	ROOT	1584	NOUN	PROP	Singular	Not_Assigned	3
+Gator	5	1590	1590	PER	она	7681	7684	она	1	95	104	3	0	0	0	300	1590	она	nsubj	1589	PRON	PRON	Not_Assigned	Not_Assigned	3
+Gator	5	1595	1595	PER	Я	7700	7701	я	1	96	105	2	0	0	0	301	1595	я	nsubj	1596	PRON	PRON	Not_Assigned	Not_Assigned	3
+Gator	5	1596	1596	PER	египтянин	7702	7711	египтянин	1	96	105	3	0	0	0	302	1596	египтянин	ROOT	1596	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Gator	5	1598	1599	PER	Она вся	7715	7722	она вся	2	97	106	0	0	0	0	303	1598	она	nsubj	1600	PRON	PRON	Not_Assigned	Not_Assigned	3
+Gator	5	1604	1604	PER	ее	7751	7753	ее	1	97	106	6	0	0	0	304	1604	ее	det	1605	DET	PRON	Not_Assigned	Not_Assigned	3
+sonsofRamzes	12	1610	1610	PER	мальчиков	7786	7795	мальчиков	1	98	107	3	0	0	0	305	1610	мальчиков	obj	1608	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T301	43	1615	1615	PER	я	7809	7810	я	1	99	108	3	0	0	0	306	1615	я	ROOT	1615	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T300	58	1618	1618	PER	мне	7821	7824	мне	1	100	109	1	0	0	0	307	1618	мне	ROOT	1618	PRON	PRON	Not_Assigned	Not_Assigned	3
+sonsofRamzes	12	1623	1623	PER	они	7842	7845	они	1	100	110	3	0	0	0	308	1623	они	nsubj	1622	PRON	PRON	Not_Assigned	Not_Assigned	3
+Snat	3	1625	1626	PER	важной Изиде	7848	7860	важной изиде	2	100	110	5	0	0	0	309	1626	изиде	obl	1622	PROPN	PROP	Singular	Not_Assigned	3
+Snat	3	1628	1628	PER	Нитокрис	7863	7871	нитокрис	1	101	111	0	0	0	0	310	1628	нитокрис	nsubj	1630	PROPN	PROP	Singular	Not_Assigned	3
+sonsofRamzes	12	1629	1629	PER	всех	7872	7876	всех	1	101	111	1	0	0	0	311	1629	всех	obj	1630	PRON	PRON	Not_Assigned	Not_Assigned	3
+Gorus	11	1637	1637	PER	тебе	7922	7926	тебе	1	102	112	3	0	0	0	312	1637	тебе	iobj	1645	PRON	PRON	Not_Assigned	Not_Assigned	3
+Gorus	11	1639	1641	PER	Рамзес - Горус	7928	7942	рамзес - горус	3	102	112	5	0	0	0	313	1639	рамзес	appos	1637	PROPN	PROP	Singular	Not_Assigned	3
+Snat	3	1646	1646	PER	она	7956	7959	она	1	102	112	12	0	0	0	314	1646	она	nsubj	1645	PRON	PRON	Not_Assigned	Not_Assigned	3
+Gorus	11	1652	1653	PER	младшему братишке	7989	8006	младшему братишке	2	102	112	18	0	0	0	315	1653	братишке	iobj	1648	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Gorus	11	1655	1656	PER	Юный принц	8009	8019	юный принц	2	103	113	0	0	0	0	316	1656	принц	nsubj	1660	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Egypt	6	1665	1665	GPE	Египет	8052	8058	египет	1	104	114	2	0	0	0	317	1665	египет	ROOT	1665	PROPN	PROP	Not_Assigned	Not_Assigned	3
+Libu	4	1667	1667	GPE	Либу	8059	8063	либу	1	104	114	4	0	0	0	318	1667	либу	appos	1666	PROPN	PROP	Not_Assigned	Not_Assigned	3
+Egypt	6	1669	1669	GPE	Египет	8065	8071	египет	1	104	114	6	0	0	0	319	1669	египет	conj	1667	PROPN	PROP	Not_Assigned	Not_Assigned	3
+Libu	4	1671	1671	GPE	Либу	8072	8076	либу	1	104	114	8	0	0	0	320	1671	либу	conj	1667	PROPN	PROP	Not_Assigned	Not_Assigned	3
+Egypt	6	1673	1673	GPE	Египет	8078	8084	египет	1	104	114	10	0	0	0	321	1673	египет	conj	1667	PROPN	PROP	Not_Assigned	Not_Assigned	3
+Libu	4	1675	1675	GPE	Либу	8085	8089	либу	1	104	114	12	0	0	0	322	1675	либу	appos	1667	PROPN	PROP	Not_Assigned	Not_Assigned	3
+Gorus	11	1680	1680	PER	он	8102	8104	он	1	104	114	17	0	0	0	323	1680	он	nsubj	1679	PRON	PRON	Not_Assigned	Not_Assigned	3
+Egypt	6	1697	1697	GPE	Египет	8185	8191	египет	1	106	116	2	0	0	0	324	1697	египет	ROOT	1697	PROPN	PROP	Not_Assigned	Not_Assigned	3
+Libu	4	1699	1699	GPE	Либу	8192	8196	либу	1	106	116	4	0	0	0	325	1699	либу	appos	1698	PROPN	PROP	Not_Assigned	Not_Assigned	3
+Egypt	6	1701	1701	GPE	Египет	8198	8204	египет	1	106	116	6	0	0	0	326	1701	египет	conj	1699	PROPN	PROP	Not_Assigned	Not_Assigned	3
+Libu	4	1703	1703	GPE	Либу	8205	8209	либу	1	106	116	8	0	0	0	327	1703	либу	conj	1699	PROPN	PROP	Not_Assigned	Not_Assigned	3
+Egypt	6	1705	1705	GPE	Египет	8211	8217	египет	1	106	116	10	0	0	0	328	1705	египет	conj	1699	PROPN	PROP	Not_Assigned	Not_Assigned	3
+Libu	4	1709	1709	GPE	Либу	8226	8230	либу	1	107	117	2	0	0	0	329	1709	либу	appos	1698	PART	PROP	Not_Assigned	Not_Assigned	3
+Libu	4	1711	1711	GPE	Либу	8234	8238	либу	1	108	118	0	0	0	0	330	1711	либу	ROOT	1711	ADV	PROP	Not_Assigned	Not_Assigned	3
+Gator	5	1718	1719	PER	счастливая Гатор	8264	8280	счастливая гатор	2	108	119	5	0	0	0	331	1719	гатор	nsubj	1715	PROPN	PROP	Singular	Not_Assigned	3
+Libu	4	1723	1723	GPE	Либу	8287	8291	либу	1	109	120	2	0	0	0	332	1723	либу	ROOT	1723	PART	PROP	Not_Assigned	Not_Assigned	3
+Libu	4	1725	1725	GPE	Либу	8295	8299	либу	1	110	121	0	0	0	0	333	1725	либу	appos	1723	ADV	PROP	Not_Assigned	Not_Assigned	3
+daughtersofRamzes	8	1730	1731	PER	другие девочки	8316	8330	другие девочки	2	110	122	3	0	0	0	334	1731	девочки	nsubj	1729	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Gorus	11	1735	1735	PER	Ты	8337	8339	ты	1	111	123	2	0	0	0	335	1735	ты	nsubj	1737	NOUN	NOM	Not_Assigned	Not_Assigned	3
+T218	16	1736	1737	PER	презренный либу	8340	8355	презренный либу	2	111	123	3	0	0	0	336	1737	либу	ROOT	1737	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Libu	4	1739	1739	GPE	Либу	8359	8363	либу	1	112	124	0	0	0	0	337	1739	либу	parataxis	1745	ADV	PROP	Not_Assigned	Not_Assigned	3
+Gorus	11	1743	1743	PER	Я	8371	8372	я	1	113	125	2	0	0	0	338	1743	я	nsubj	1745	PRON	PRON	Not_Assigned	Not_Assigned	3
+Gorus	11	1747	1747	PER	Я	8384	8385	я	1	114	126	0	0	0	0	339	1747	я	nsubj	1749	PRON	PRON	Not_Assigned	Not_Assigned	3
+Gorus	11	1754	1755	PER	юный принц	8409	8419	юный принц	2	114	127	3	0	0	0	340	1755	принц	nsubj	1753	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Gorus	11	1758	1758	PER	свой	8429	8433	свой	1	114	127	7	0	0	0	341	1758	свой	det	1760	DET	PRON	Not_Assigned	Not_Assigned	3
+childrenofRamzes	10	1762	1764	PER	Все юные фараоны	8452	8468	все юные фараоны	3	115	128	0	0	0	0	342	1764	фараоны	nsubj	1765	NOUN	NOM	Not_Assigned	Not_Assigned	3
+daughtersofRamzes	8	1772	1772	PER	Девочки	8509	8516	девочки	1	117	130	0	0	0	0	343	1772	девочки	nsubj	1773	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Snat	3	1775	1775	PER	Изиды	8533	8538	изиды	1	117	130	3	0	0	0	344	1775	изиды	nmod	1774	PROPN	PROP	Singular	Not_Assigned	3
+PER_T369	44	1780	1780	PER	кому	8552	8556	кому	1	118	131	3	0	0	0	345	1780	кому	iobj	1781	PRON	PRON	Not_Assigned	Not_Assigned	3
+Ammon	17	1787	1788	PER	Миамуну -Аммону	8586	8601	миамуну -аммону	2	119	132	3	0	0	0	346	1787	миамуну	obj	1781	PROPN	PROP	Singular	Not_Assigned	3
+Putifara	15	1795	1795	PER	Путифаре	8620	8628	путифаре	1	120	133	5	0	0	0	347	1795	путифаре	nsubj	1799	PROPN	PROP	Singular	Not_Assigned	3
+Putifara	15	1798	1798	PER	она	8633	8636	она	1	120	133	8	0	0	0	348	1798	она	nsubj	1799	PRON	PRON	Not_Assigned	Not_Assigned	3
+Ammon	17	1800	1800	PER	Миамуна	8644	8651	миамуна	1	120	133	10	0	0	0	349	1800	миамуна	obl	1799	PROPN	PROP	Singular	Not_Assigned	3
+Ammon	17	1807	1807	PER	мне	8672	8675	мне	1	122	135	1	0	0	0	350	1807	мне	iobj	1809	PRON	PRON	Not_Assigned	Not_Assigned	3
+Putifara	15	1812	1812	PER	тебе	8690	8694	тебе	1	122	135	6	0	0	0	351	1812	тебе	conj	1809	PRON	PRON	Not_Assigned	Not_Assigned	3
+Putifara	15	1816	1816	PER	Мне	8702	8705	мне	1	123	136	2	0	0	0	352	1816	мне	obl	1824	PRON	PRON	Not_Assigned	Not_Assigned	3
+Putifara	15	1823	1823	PER	я	8732	8733	я	1	123	136	9	0	0	0	353	1823	я	nsubj	1824	PRON	PRON	Not_Assigned	Not_Assigned	3
+Ammon	17	1830	1830	PER	я	8753	8754	я	1	124	137	4	0	0	0	354	1830	я	nsubj	1831	PRON	PRON	Not_Assigned	Not_Assigned	3
+Ammon	17	1833	1833	PER	я	8764	8765	я	1	124	137	7	0	0	0	355	1833	я	parataxis	1831	PRON	PRON	Not_Assigned	Not_Assigned	3
+Tia	14	1836	1836	PER	царицы	8776	8782	царицы	1	124	137	10	0	0	0	356	1836	царицы	nmod	1835	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Putifara	15	1839	1839	PER	ты	8786	8788	ты	1	124	137	13	0	0	0	357	1839	ты	nsubj	1841	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T351	42	1842	1842	PER	рабыни	8799	8805	рабыни	1	124	137	16	0	0	0	358	1842	рабыни	nmod	1841	NOUN	NOM	Not_Assigned	Not_Assigned	3
+T352	28	1848	1849	PER	Моя мама	8824	8832	моя мама	2	126	139	0	0	1	1	359	1849	мама	nsubj	1852	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Putifara	15	1848	1848	PER	Моя	8824	8827	моя	1	126	139	0	1	0	0	360	1848	моя	det	1849	DET	PRON	Not_Assigned	Not_Assigned	3
+T352	28	1852	1852	PER	царевна	8843	8850	царевна	1	126	139	4	0	0	0	361	1852	царевна	ROOT	1852	ADJ	NOM	Not_Assigned	Not_Assigned	3
+childrenofRamzes	10	1854	1854	PER	Дети	8853	8857	дети	1	127	140	0	0	0	0	362	1854	дети	nsubj	1855	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T355	41	1857	1857	PER	старших	8869	8876	старших	1	127	140	3	0	0	0	363	1857	старших	obl	1855	ADJ	NOM	Not_Assigned	Not_Assigned	3
+FAC_T357	37	1882	1882	FAC	саду	8989	8993	саду	1	128	141	5	0	0	0	364	1882	саду	obl	1883	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Tia	14	1884	1886	PER	сама царица Тиа	9005	9020	сама царица тиа	3	128	141	7	0	0	0	365	1885	царица	nsubj	1883	NOUN	PROP	Singular	Not_Assigned	3
+Pentaur	36	1889	1892	PER	своего первенца, Пентаура	9037	9062	своего первенца , пентаура	4	128	141	12	0	1	1	366	1890	первенца	nmod	1888	NOUN	PROP	Singular	Not_Assigned	3
+Tia	14	1889	1889	PER	своего	9037	9043	своего	1	128	141	12	1	0	0	367	1889	своего	det	1890	DET	PRON	Not_Assigned	Not_Assigned	3
+Tia	14	1898	1898	PER	Мама	9074	9078	мама	1	130	143	0	0	0	0	368	1898	мама	nsubj	1883	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Snat	3	1904	1904	PER	Нитокрис	9106	9114	нитокрис	1	130	144	4	0	0	0	369	1904	нитокрис	nsubj	1903	PROPN	PROP	Singular	Not_Assigned	3
+Snat	3	1908	1908	PER	себя	9128	9132	себя	1	130	144	8	0	0	0	370	1908	себя	obl	1906	PRON	PRON	Not_Assigned	Not_Assigned	3
+Snat	3	1912	1912	PER	богини	9156	9162	богини	1	130	144	12	0	0	0	371	1912	богини	nmod	1911	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Laodika	2	1920	1920	PER	Лаодика	9179	9186	лаодика	1	131	145	6	0	0	0	372	1920	лаодика	conj	1916	PROPN	PROP	Singular	Not_Assigned	3
+Laodika	2	1924	1924	PER	Лаодика	9193	9200	лаодика	1	132	146	2	0	0	0	373	1924	лаодика	ROOT	1924	NOUN	PROP	Singular	Not_Assigned	3
+Laodika	2	1926	1926	PER	Лаодика	9204	9211	лаодика	1	133	147	0	0	0	0	374	1926	лаодика	appos	1924	NOUN	PROP	Singular	Not_Assigned	3
+daughtersofRamzes	8	1931	1932	PER	юные принцессы	9232	9246	юные принцессы	2	133	148	3	0	0	0	375	1932	принцессы	nsubj	1930	NOUN	NOM	Not_Assigned	Not_Assigned	3
+daughtersofRamzes	8	1936	1936	PER	ними	9253	9257	ними	1	133	148	8	0	0	0	376	1936	ними	conj	1930	PRON	PRON	Not_Assigned	Not_Assigned	3
+sonsofRamzes	12	1938	1939	PER	юные принцы	9260	9271	юные принцы	2	133	148	10	0	0	0	377	1939	принцы	nsubj	1936	NOUN	NOM	Not_Assigned	Not_Assigned	3
+childrenofRamzes	10	1942	1942	PER	все	9275	9278	все	1	133	148	14	0	0	0	378	1942	все	nsubj	1943	PRON	PRON	Not_Assigned	Not_Assigned	3
+Tia	14	1945	1945	PER	царице	9299	9305	царице	1	133	148	17	0	0	0	379	1945	царице	iobj	1944	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Laodika	2	1947	1947	PER	Лаодике	9308	9315	лаодике	1	133	148	19	0	0	0	380	1947	лаодике	conj	1945	PROPN	PROP	Singular	Not_Assigned	3
+Laodika	2	1949	1949	PER	Последняя	9318	9327	последняя	1	134	149	0	0	0	0	381	1949	последняя	nsubj	1953	ADJ	NOM	Not_Assigned	Not_Assigned	3
+Tia	14	1968	1969	PER	Жена Рамзеса	9433	9445	жена рамзеса	2	135	150	0	0	0	0	382	1968	жена	nsubj	1980	NOUN	PROP	Singular	Not_Assigned	3
+T378	51	1972	1972	PER	Бокакамон	9453	9462	бокакамон	1	135	150	4	0	0	0	383	1972	бокакамон	nsubj	1973	PROPN	PROP	Singular	Not_Assigned	3
+Laodika	2	1974	1976	PER	юную дочь Приама	9474	9490	юную дочь приама	3	135	150	6	0	1	1	384	1975	дочь	obj	1973	NOUN	PROP	Singular	Not_Assigned	3
+Priama	32	1976	1976	PER	Приама	9484	9490	приама	1	135	150	8	1	0	0	385	1976	приама	appos	1975	PROPN	PROP	Singular	Not_Assigned	3
+Laodika	2	1981	1981	PER	ее	9509	9511	ее	1	135	150	13	0	0	0	386	1981	ее	obj	1980	PRON	PRON	Not_Assigned	Not_Assigned	3
+Laodika	2	1994	1995	PER	молодой девушки	9589	9604	молодой девушки	2	135	150	26	0	0	0	387	1995	девушки	nmod	1993	NOUN	NOM	Not_Assigned	Not_Assigned	3
+GPE_T384	75	2000	2002	GPE	царство ее отца	9628	9643	царство ее отца	3	135	150	32	0	2	2	388	2002	отца	nmod	2000	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Priama	32	2001	2002	PER	ее отца	9636	9643	ее отца	2	135	150	33	1	1	1	389	2002	отца	nmod	2000	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Laodika	2	2001	2001	PER	ее	9636	9638	ее	1	135	150	33	2	0	0	390	2001	ее	det	2002	DET	PRON	Not_Assigned	Not_Assigned	3
+Tia	14	2006	2007	PER	царицы Египта	9664	9677	царицы египта	2	135	150	38	0	0	0	391	2006	царицы	nmod	2005	NOUN	PROP	Singular	Not_Assigned	3
+Laodika	2	2010	2011	PER	бедной сиротки	9687	9701	бедной сиротки	2	135	150	42	0	0	0	392	2011	сиротки	nmod	2009	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Laodika	2	2015	2015	PER	Лаодики	9721	9728	лаодики	1	136	151	2	0	0	0	393	2015	лаодики	nsubj	2016	PROPN	PROP	Singular	Not_Assigned	3
+M12	66	2017	2017	PER	всех	9739	9743	всех	1	136	151	4	0	0	0	394	2017	всех	obj	2016	PRON	PRON	Not_Assigned	Not_Assigned	3
+Laodika	2	2020	2020	PER	ее	9754	9756	ее	1	137	152	1	0	0	0	395	2020	ее	nsubj	2021	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T390	40	2041	2041	PER	нубийцев	9855	9863	нубийцев	1	137	152	22	0	0	0	396	2041	нубийцев	nmod	2040	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Laodika	2	2046	2047	PER	юная троянка	9879	9891	юная троянка	2	137	152	27	0	0	0	397	2047	троянка	nsubj	2049	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Egyptians	19	2062	2063	PER	черноволосым египтянам	9966	9988	черноволосым египтянам	2	137	152	43	0	0	0	398	2062	черноволосым	obl	2057	NOUN	NOM	Not_Assigned	Not_Assigned	3

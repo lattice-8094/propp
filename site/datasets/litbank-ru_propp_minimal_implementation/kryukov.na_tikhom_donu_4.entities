@@ -1,0 +1,258 @@
+COREF_name	COREF	start_token	end_token	cat	sacr_text	byte_onset	byte_offset	text	mention_len	paragraph_ID	sentence_ID	start_token_ID_within_sentence	out_to_in_nested_level	in_to_out_nested_level	nested_entities_count	temp_index	head_id	head_word	head_dependency_relation	head_syntactic_head_ID	POS_tag	prop	number	gender	grammatical_person
+PER_T1	204	0	0	PER	Я	0	1	я	1	0	0	0	0	0	0	0	0	я	nsubj	1	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T2	56	10	10	PER	кем	38	41	кем	1	2	2	1	0	0	0	1	10	кем	obl	13	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T3	63	16	16	PER	отец	64	68	отец	1	3	3	1	0	0	0	2	16	отец	nsubj	22	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T4	100	18	18	PER	матерью	71	78	матерью	1	3	3	3	0	0	0	3	18	матерью	nmod	16	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T5	106	19	19	PER	меня	79	83	меня	1	3	3	4	0	0	0	4	19	меня	nmod	18	PRON	PRON	Not_Assigned	Not_Assigned	3
+FAC_T6	146	21	21	FAC	дома	87	91	дома	1	3	3	6	0	0	0	5	21	дома	obl	22	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T7	120	24	24	PER	Я	103	104	я	1	4	4	0	0	0	0	6	24	я	nsubj	25	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T8	126	28	28	PER	мать	116	120	мать	1	4	4	4	0	0	0	7	28	мать	parataxis	25	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T9	73	30	30	PER	мать	122	126	мать	1	4	4	6	0	0	0	8	30	мать	conj	28	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T10	205	33	33	PER	я	133	134	я	1	4	4	9	0	0	0	9	33	я	nsubj	34	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T11	213	42	42	PER	я	170	171	я	1	5	5	6	0	0	0	10	42	я	obl	38	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T12	223	44	44	PER	Я	175	176	я	1	6	6	0	0	0	0	11	44	я	nsubj	45	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T13	38	50	50	PER	дочери	202	208	дочери	1	6	6	6	0	0	0	12	50	дочери	nmod	49	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T14	39	55	55	PER	себе	229	233	себе	1	6	6	11	0	0	0	13	55	себе	iobj	56	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T15	42	59	60	PER	моей жене	241	250	моей жене	2	6	6	15	0	1	1	14	60	жене	iobj	61	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T16	44	59	59	PER	моей	241	245	моей	1	6	6	15	1	0	0	15	59	моей	det	60	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T17	45	64	64	PER	я	259	260	я	1	6	6	20	0	0	0	16	64	я	nsubj	66	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T18	46	77	77	PER	я	313	314	я	1	6	6	33	0	0	0	17	77	я	nsubj	78	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T20	57	84	84	PER	Ты	342	344	ты	1	8	8	0	0	0	0	18	84	ты	nsubj	89	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T19	54	86	86	PER	кум	346	349	кум	1	8	8	2	0	0	0	19	86	кум	conj	84	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T21	31	96	96	PER	я	376	377	я	1	8	8	12	0	0	0	20	96	я	nsubj	97	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T24	26	99	99	PER	она	385	388	она	1	8	8	15	0	0	0	21	99	она	nsubj	105	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T22	11	102	103	PER	моей бабе	397	406	моей бабе	2	8	8	18	0	1	1	22	103	бабе	obl	105	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T23	20	102	102	PER	моей	397	401	моей	1	8	8	18	1	0	0	23	102	моей	det	103	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T25	27	119	119	PER	Я	468	469	я	1	10	10	0	0	0	0	24	119	я	nsubj	120	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T26	28	123	123	PER	мать	481	485	мать	1	10	10	4	0	0	0	25	123	мать	parataxis	120	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T27	30	125	125	PER	мать	487	491	мать	1	10	10	6	0	0	0	26	125	мать	conj	123	NOUN	NOM	Not_Assigned	Not_Assigned	3
+GPE_T28	235	135	136	GPE	родная Донщина	533	547	родная донщина	2	10	10	16	0	1	1	27	135	родная	conj	133	ADJ	PROP	Not_Assigned	Not_Assigned	3
+GPE_T29	236	136	136	GPE	Донщина	540	547	донщина	1	10	10	17	1	0	0	28	136	донщина	parataxis	131	PROPN	PROP	Not_Assigned	Not_Assigned	3
+PER_T32	64	141	141	PER	мне	560	563	мне	1	10	10	22	0	0	0	29	141	мне	iobj	143	PRON	PRON	Not_Assigned	Not_Assigned	3
+GPE_T30	237	148	149	GPE	тихий Дон	596	605	тихий дон	2	10	10	29	0	1	1	30	148	тихий	conj	146	ADJ	PROP	Not_Assigned	Not_Assigned	3
+GPE_T31	238	149	149	GPE	Дон	602	605	дон	1	10	10	30	1	0	0	31	149	дон	nsubj	145	PROPN	PROP	Not_Assigned	Not_Assigned	3
+FAC_T33	141	154	155	FAC	Михайловского вокзала	618	639	михайловского вокзала	2	10	10	35	0	0	0	32	155	вокзала	obl	168	NOUN	NOM	Not_Assigned	Not_Assigned	3
+GPE_T34	239	166	166	GPE	Дон	674	677	дон	1	10	10	47	0	0	0	33	166	дон	nsubj	168	PROPN	PROP	Not_Assigned	Not_Assigned	3
+FAC_T35	142	170	170	FAC	Она	692	695	она	1	11	11	0	0	0	0	34	170	она	nsubj	175	PRON	PRON	Not_Assigned	Not_Assigned	3
+FAC_T36	143	172	175	FAC	железная - то дорога	697	717	железная - то дорога	4	11	11	2	0	0	0	35	175	дорога	ROOT	175	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T37	65	187	187	PER	мать	756	760	мать	1	12	12	4	0	0	0	36	187	мать	appos	185	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T38	97	190	190	PER	Тимошка	769	776	тимошка	1	12	12	7	0	0	0	37	190	тимошка	nsubj	189	PROPN	PROP	Singular	Not_Assigned	3
+GPE_T43	240	194	194	GPE	Донщина	787	794	донщина	1	12	12	11	0	0	0	38	194	донщина	parataxis	192	PROPN	PROP	Not_Assigned	Not_Assigned	3
+PER_T39	99	200	200	PER	Тимошки	819	826	тимошки	1	12	12	17	0	0	0	39	200	тимошки	obl	199	PROPN	PROP	Singular	Not_Assigned	3
+PER_T40	101	204	204	PER	Тимошка	834	841	тимошка	1	13	13	2	0	0	0	40	204	тимошка	conj	202	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T41	102	206	206	PER	Тимошка	843	850	тимошка	1	13	13	4	0	0	0	41	206	тимошка	conj	202	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T44	103	210	210	PER	оратора	862	869	оратора	1	14	14	1	0	0	0	42	210	оратора	nmod	209	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T45	104	223	223	PER	его	936	939	его	1	15	15	4	0	0	0	43	223	его	det	222	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T46	105	227	227	PER	никого	950	956	никого	1	15	15	8	0	0	0	44	227	никого	nsubj	235	PRON	PRON	Not_Assigned	Not_Assigned	3
+FAC_T47	144	245	245	FAC	крыльце	1039	1046	крыльце	1	16	16	8	0	0	0	45	245	крыльце	obl	243	NOUN	NOM	Not_Assigned	Not_Assigned	3
+FAC_T48	145	256	256	FAC	его	1115	1118	его	1	17	17	7	0	0	0	46	256	его	obj	255	PRON	PRON	Not_Assigned	Not_Assigned	3
+LOC_T53	201	289	289	LOC	гор	1310	1313	гор	1	20	20	4	0	0	0	47	289	гор	nmod	287	NOUN	NOM	Not_Assigned	Not_Assigned	3
+LOC_T49	200	295	295	LOC	ущельица	1333	1341	ущельица	1	20	20	10	0	0	0	48	295	ущельица	conj	283	NOUN	NOM	Not_Assigned	Not_Assigned	3
+LOC_T54	202	300	300	LOC	провальица	1358	1368	провальица	1	20	20	15	0	0	0	49	300	провальица	conj	283	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T50	107	304	305	PER	молодой турчин	1390	1404	молодой турчин	2	20	20	19	0	0	0	50	305	турчин	nsubj	300	PROPN	PROP	Singular	Not_Assigned	3
+PER_T51	108	307	307	PER	Он	1409	1411	он	1	21	21	0	0	0	0	51	307	он	nsubj	308	PRON	PRON	Not_Assigned	Not_Assigned	3
+LOC_T55	203	317	318	LOC	донскую сторонушку	1460	1478	донскую сторонушку	2	21	21	10	0	1	1	52	318	сторонушку	nmod	315	NOUN	NOM	Not_Assigned	Not_Assigned	3
+GPE_T56	227	317	317	GPE	донскую	1460	1467	донскую	1	21	21	10	1	0	0	53	317	донскую	amod	318	ADJ	NOM	Not_Assigned	Not_Assigned	3
+PER_T52	109	320	320	PER	Он	1481	1483	он	1	22	22	0	0	0	0	54	320	он	nsubj	321	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T57	110	322	322	PER	своим	1491	1496	своим	1	22	22	2	0	0	0	55	322	своим	det	324	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T58	111	327	327	PER	охотничка	1522	1531	охотничка	1	22	22	7	0	0	0	56	327	охотничка	nsubj	326	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T59	98	329	329	PER	поединщика	1534	1544	поединщика	1	22	22	9	0	0	0	57	329	поединщика	obj	326	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T60	112	333	336	PER	донской казак - малолеточек	1559	1586	донской казак - малолеточек	4	23	23	2	0	1	1	58	334	казак	nsubj	331	NOUN	NOM	Not_Assigned	Not_Assigned	3
+GPE_T61	241	333	333	GPE	донской	1559	1566	донской	1	23	23	2	1	0	0	59	333	донской	amod	334	ADJ	NOM	Not_Assigned	Not_Assigned	3
+PER_T62	114	338	338	PER	Малолеточек	1588	1599	малолеточек	1	23	23	7	0	0	0	60	338	малолеточек	nsubj	341	PROPN	PROP	Singular	Not_Assigned	3
+PER_T63	115	340	341	PER	полковничий сын	1602	1617	полковничий сын	2	23	23	9	0	1	1	61	341	сын	nsubj	331	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T64	116	340	340	PER	полковничий	1602	1613	полковничий	1	23	23	9	1	0	0	62	340	полковничий	amod	341	ADJ	NOM	Not_Assigned	Not_Assigned	3
+PER_T65	117	361	361	PER	певцу	1717	1722	певцу	1	25	25	17	0	0	0	63	361	певцу	obl	359	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T66	118	377	377	PER	старика	1800	1807	старика	1	26	26	3	0	0	0	64	377	старика	nmod	376	NOUN	NOM	Not_Assigned	Not_Assigned	3
+FAC_T67	147	387	388	FAC	затихшей улицей	1866	1881	затихшей улицей	2	26	26	13	0	0	0	65	388	улицей	obl	385	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T68	119	403	406	PER	дорогих, родных удальцов	1957	1981	дорогих , родных удальцов	4	26	26	29	0	0	0	66	406	удальцов	nmod	402	NOUN	NOM	Not_Assigned	Not_Assigned	3
+FAC_T69	148	411	411	FAC	крыльце	2000	2007	крыльце	1	27	27	3	0	0	0	67	411	крыльце	nmod	409	NOUN	NOM	Not_Assigned	Not_Assigned	3
+VEH_T70	256	414	419	VEH	двух повозок, стоявших у кабака	2016	2047	двух повозок , стоявших у кабака	6	27	27	6	0	1	1	68	415	повозок	conj	411	NOUN	NOM	Not_Assigned	Not_Assigned	3
+FAC_T71	149	419	419	FAC	кабака	2041	2047	кабака	1	27	27	11	1	0	0	69	419	кабака	obl	417	NOUN	NOM	Not_Assigned	Not_Assigned	3
+FAC_T72	150	426	426	FAC	кабака	2080	2086	кабака	1	28	28	2	0	0	0	70	426	кабака	obl	424	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T73	121	427	449	PER	высокий казак - атаманец, которого я знал еще по Петербургу, преследуемый своей женой, неотступно требовавшей, чтобы он шел домой	2087	2216	высокий казак - атаманец , которого я знал еще по петербургу , преследуемый своей женой , неотступно требовавшей , чтобы он шел домой	23	28	28	3	0	2	5	71	434	знал	acl:relcl	430	VERB	PROP	Singular	Not_Assigned	3
+GPE_T74	243	437	437	GPE	Петербургу	2136	2146	петербургу	1	28	28	13	1	0	0	72	437	петербургу	obl	434	PROPN	PROP	Not_Assigned	Not_Assigned	3
+PER_T75	122	440	441	PER	своей женой	2161	2172	своей женой	2	28	28	16	1	1	1	73	441	женой	obl:agent	439	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T76	123	440	440	PER	своей	2161	2166	своей	1	28	28	16	2	0	0	74	440	своей	det	441	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T77	124	447	447	PER	он	2204	2206	он	1	28	28	23	1	0	0	75	447	он	nsubj	448	PRON	PRON	Not_Assigned	Not_Assigned	3
+FAC_T78	151	449	449	FAC	домой	2211	2216	домой	1	28	28	25	1	0	0	76	449	домой	advmod	448	ADV	NOM	Not_Assigned	Not_Assigned	3
+PER_T79	125	457	457	PER	ее	2241	2243	ее	1	28	28	33	0	0	0	77	457	ее	obj	458	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T80	113	463	463	PER	он	2269	2271	он	1	29	29	3	0	0	0	78	463	он	nsubj	464	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T83	95	472	472	PER	нее	2330	2333	нее	1	29	29	12	0	0	0	79	472	нее	obl	470	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T84	67	480	480	PER	ее	2369	2371	ее	1	29	29	20	0	0	0	80	480	ее	obj	479	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T86	69	485	486	PER	Жена его	2393	2401	жена его	2	30	30	0	0	1	1	81	485	жена	ROOT	485	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T85	68	486	486	PER	его	2398	2401	его	1	30	30	1	1	0	0	82	486	его	nmod	485	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T87	70	488	492	PER	круглая, невысокого роста казачка	2403	2436	круглая , невысокого роста казачка	5	30	30	3	0	0	0	83	491	роста	conj	485	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T88	71	501	501	PER	его	2469	2472	его	1	30	30	16	0	0	0	84	501	его	obj	500	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T89	72	514	514	PER	ты	2519	2521	ты	1	31	31	3	0	0	0	85	514	ты	nsubj	515	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T90	74	517	518	PER	черт толстый	2531	2543	черт толстый	2	31	31	6	0	0	0	86	517	черт	parataxis	515	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T91	75	522	522	PER	она	2556	2559	она	1	31	32	2	0	0	0	87	522	она	nsubj	521	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T92	76	530	530	PER	себя	2600	2604	себя	1	31	32	10	0	0	0	88	530	себя	obj	529	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T93	77	536	536	PER	ты	2636	2638	ты	1	31	32	16	0	0	0	89	536	ты	nsubj	538	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T94	78	545	545	PER	она	2666	2669	она	1	32	33	1	0	0	0	90	545	она	nsubj	546	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T95	79	549	549	PER	него	2693	2697	него	1	32	33	5	0	0	0	91	549	него	obl	547	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T96	66	552	552	PER	он	2701	2703	он	1	32	33	8	0	0	0	92	552	он	nsubj	553	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T97	80	567	567	PER	меня	2791	2795	меня	1	33	34	1	0	0	0	93	567	меня	obj	566	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T98	82	569	569	PER	он	2797	2799	он	1	33	34	3	0	0	0	94	569	он	nsubj	571	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T81	96	579	579	PER	Ф.	2846	2848	ф.	1	34	35	4	0	0	0	95	579	ф.	appos	577	PROPN	PROP	Singular	Not_Assigned	3
+PER_T82	81	580	580	PER	Д.	2849	2851	д.	1	34	35	5	0	0	0	96	580	д.	flat:name	579	PROPN	PROP	Singular	Not_Assigned	3
+PER_T99	83	584	584	PER	он	2863	2865	он	1	34	36	2	0	0	0	97	584	он	nsubj	583	PRON	PRON	Not_Assigned	Not_Assigned	3
+FAC_T101	0	592	592	FAC	домой	2893	2898	домой	1	35	37	2	0	0	0	98	592	домой	advmod	591	ADV	NOM	Not_Assigned	Not_Assigned	3
+PER_T103	207	598	598	PER	жена	2928	2932	жена	1	35	38	4	0	0	0	99	598	жена	obj	597	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T104	208	603	603	PER	ты	2950	2952	ты	1	36	39	3	0	0	0	100	603	ты	nsubj	602	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T102	206	605	606	PER	дура бессовестная	2954	2971	дура бессовестная	2	36	39	5	0	0	0	101	606	бессовестная	conj	602	ADJ	NOM	Not_Assigned	Not_Assigned	3
+PER_T105	195	618	618	PER	он	3030	3032	он	1	36	40	10	0	0	0	102	618	он	nsubj	617	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T106	209	620	620	PER	ее	3045	3047	ее	1	36	40	12	0	0	0	103	620	ее	obj	619	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T107	211	624	624	PER	людях	3055	3060	людях	1	36	40	16	0	0	0	104	624	людях	obl	629	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T108	212	630	630	PER	тебе	3080	3084	тебе	1	36	40	22	0	0	0	105	630	тебе	iobj	629	PRON	PRON	Not_Assigned	Not_Assigned	3
+FAC_T109	129	637	637	FAC	кабака	3109	3115	кабака	1	37	41	5	0	0	0	106	637	кабака	obl	635	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T110	214	638	639	PER	ожидаемый товарищ	3116	3133	ожидаемый товарищ	2	37	41	6	0	0	0	107	639	товарищ	nsubj	635	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T111	215	642	643	PER	высокий казак	3137	3150	высокий казак	2	37	41	10	0	0	0	108	643	казак	conj	639	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T112	216	646	646	PER	мне	3165	3168	мне	1	37	41	14	0	0	0	109	646	мне	iobj	645	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T114	217	650	650	PER	ним	3178	3181	ним	1	37	41	18	0	0	0	110	650	ним	obl	648	PRON	PRON	Not_Assigned	Not_Assigned	3
+FAC_T113	164	653	653	FAC	улице	3191	3196	улице	1	37	41	21	0	0	0	111	653	улице	obl	648	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T115	218	655	655	PER	Жена	3199	3203	жена	1	38	42	0	0	0	0	112	655	жена	nsubj	657	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T116	219	659	659	PER	него	3220	3224	него	1	38	42	4	0	0	0	113	659	него	obl	657	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T117	220	664	664	PER	свои	3261	3265	свои	1	38	42	9	0	0	0	114	664	свои	det	665	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T118	221	670	670	PER	ее	3298	3300	ее	1	39	43	3	0	0	0	115	670	ее	det	674	DET	PRON	Not_Assigned	Not_Assigned	3
+FAC_T120	165	678	678	FAC	домой	3343	3348	домой	1	40	44	2	0	0	0	116	678	домой	advmod	680	ADV	NOM	Not_Assigned	Not_Assigned	3
+PER_T126	36	681	681	PER	тебе	3358	3362	тебе	1	40	44	5	0	0	0	117	681	тебе	iobj	680	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T119	222	686	686	PER	холера	3373	3379	холера	1	41	45	3	0	0	0	118	686	холера	ROOT	686	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T121	130	699	702	PER	высокий, темный силуэт	3424	3446	высокий , темный силуэт	4	42	46	6	0	0	0	119	702	силуэт	nsubj	703	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T122	128	705	708	PER	другого такого же силуэта	3460	3485	другого такого же силуэта	4	42	46	12	0	0	0	120	708	силуэта	obl	703	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T123	1	715	716	PER	маленькому силуэту	3517	3535	маленькому силуэту	2	42	46	22	0	0	0	121	716	силуэту	obl	710	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T124	127	719	719	PER	маленький	3544	3553	маленький	1	42	46	26	0	0	0	122	719	маленький	nsubj	720	ADJ	NOM	Not_Assigned	Not_Assigned	3
+PER_T125	35	731	731	PER	черт	3612	3616	черт	1	42	46	38	0	0	0	123	731	черт	nsubj	734	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T127	37	736	736	PER	ты	3633	3635	ты	1	42	46	43	0	0	0	124	736	ты	nsubj	738	PRON	PRON	Not_Assigned	Not_Assigned	3
+FAC_T128	166	759	759	FAC	кабака	3734	3740	кабака	1	43	47	16	0	0	0	125	759	кабака	nmod	757	NOUN	NOM	Not_Assigned	Not_Assigned	3
+GPE_T129	152	768	768	GPE	Станица	3783	3790	станица	1	45	49	0	0	0	0	126	768	станица	nsubj	769	NOUN	NOM	Not_Assigned	Not_Assigned	3
+GPE_T130	153	781	781	GPE	ее	3853	3855	ее	1	46	50	10	0	0	0	127	781	ее	det	780	PRON	PRON	Not_Assigned	Not_Assigned	3
+FAC_T131	167	808	809	FAC	Себряковской станции	3994	4014	себряковской станции	2	50	54	1	0	1	1	128	809	станции	obl	827	NOUN	NOM	Not_Assigned	Not_Assigned	3
+GPE_T136	157	808	808	GPE	Себряковской	3994	4006	себряковской	1	50	54	1	1	0	0	129	808	себряковской	amod	809	ADJ	NOM	Not_Assigned	Not_Assigned	3
+GPE_T132	154	811	812	GPE	хутора Калача	4018	4031	хутора калача	2	50	54	4	0	0	0	130	811	хутора	nmod	809	NOUN	PROP	Not_Assigned	Not_Assigned	3
+GPE_T133	155	815	815	GPE	Царицын	4036	4043	царицын	1	51	55	1	0	0	0	131	815	царицын	appos	809	NOUN	NOM	Not_Assigned	Not_Assigned	3
+FAC_T134	168	818	821	FAC	Волго-Донская дорога	4048	4068	волго - донская дорога	4	52	56	1	0	1	1	132	821	дорога	conj	809	NOUN	NOM	Not_Assigned	Not_Assigned	3
+GPE_T135	156	818	820	GPE	Волго-Донская	4048	4061	волго - донская	3	52	56	1	1	0	0	133	818	волго	amod	821	ADJ	NOM	Not_Assigned	Not_Assigned	3
+GPE_T137	158	824	824	GPE	Калач	4073	4078	калач	1	53	57	1	0	0	0	134	824	калач	appos	809	NOUN	NOM	Not_Assigned	Not_Assigned	3
+VEH_T138	84	826	826	VEH	Поезд	4081	4086	поезд	1	54	58	0	0	0	0	135	826	поезд	nsubj	827	NOUN	NOM	Not_Assigned	Not_Assigned	3
+FAC_T139	169	834	834	FAC	вагоне	4118	4124	вагоне	1	55	59	1	0	0	0	136	834	вагоне	obl	836	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T140	40	840	840	PER	я	4146	4147	я	1	55	59	7	0	0	0	137	840	я	nsubj	841	PRON	PRON	Not_Assigned	Not_Assigned	3
+FAC_T141	170	843	843	FAC	площадке	4155	4163	площадке	1	55	59	10	0	0	0	138	843	площадке	obl	841	NOUN	NOM	Not_Assigned	Not_Assigned	3
+LOC_T142	244	854	854	LOC	востоке	4205	4212	востоке	1	56	60	9	0	0	0	139	854	востоке	obl	858	NOUN	NOM	Not_Assigned	Not_Assigned	3
+VEH_T143	85	868	868	VEH	поезда	4297	4303	поезда	1	57	61	1	0	0	0	140	868	поезда	obl	870	NOUN	NOM	Not_Assigned	Not_Assigned	3
+FAC_T144	171	871	876	FAC	длинные деревянные и каменные - сараи	4324	4361	длинные деревянные и каменные - сараи	6	57	61	4	0	0	0	141	872	деревянные	nsubj	870	ADJ	PROP	Not_Assigned	Not_Assigned	3
+FAC_T145	172	878	879	FAC	товарные вагоны	4363	4378	товарные вагоны	2	57	61	11	0	0	0	142	879	вагоны	conj	872	NOUN	NOM	Not_Assigned	Not_Assigned	3
+FAC_T146	173	881	882	FAC	паровая мельница	4380	4396	паровая мельница	2	57	61	14	0	0	0	143	882	мельница	conj	872	NOUN	NOM	Not_Assigned	Not_Assigned	3
+FAC_T147	174	884	892	FAC	"лабазы с надписью "" Торговля дехтю и соли """	4398	4441	"лабазы с надписью "" торговля дехтю и соли """	9	57	61	17	0	0	0	144	888	торговля	appos	886	NOUN	PROP	Not_Assigned	Not_Assigned	3
+PER_T148	41	894	904	PER	только что проснувшиеся обыватели слободы, не спеша направлявшиеся к вокзалу	4443	4519	только что проснувшиеся обыватели слободы , не спеша направлявшиеся к вокзалу	11	57	61	27	0	1	1	145	902	направлявшиеся	advcl	870	VERB	NOM	Not_Assigned	Not_Assigned	3
+FAC_T149	175	904	904	FAC	вокзалу	4512	4519	вокзалу	1	57	61	37	1	0	0	146	904	вокзалу	obl	902	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T150	43	906	912	PER	казак, державший под уздцы испуганную лошадь	4521	4565	казак , державший под уздцы испуганную лошадь	7	57	61	39	0	1	1	147	908	державший	acl	906	VERB	NOM	Not_Assigned	Not_Assigned	3
+VEH_T151	86	912	912	VEH	лошадь	4559	4565	лошадь	1	57	61	45	1	0	0	148	912	лошадь	obj	908	NOUN	NOM	Not_Assigned	Not_Assigned	3
+VEH_T152	87	919	921	VEH	возов с досками	4596	4611	возов с досками	3	57	61	52	0	0	0	149	921	досками	nmod	919	NOUN	NOM	Not_Assigned	Not_Assigned	3
+FAC_T153	176	923	930	FAC	хохлацкие белые хатки с тесовыми и соломенными крышами	4613	4667	хохлацкие белые хатки с тесовыми и соломенными крышами	8	57	61	56	0	0	0	150	925	хатки	conj	870	NOUN	NOM	Not_Assigned	Not_Assigned	3
+LOC_T154	245	934	939	LOC	дубовый лес по р. Медведице	4678	4705	дубовый лес по р . медведице	6	57	61	67	0	1	1	151	935	лес	nsubj	870	NOUN	PROP	Not_Assigned	Not_Assigned	3
+LOC_T156	246	937	939	LOC	р. Медведице	4693	4705	р . медведице	3	57	61	70	1	0	0	152	937	р	nmod	935	PROPN	PROP	Not_Assigned	Not_Assigned	3
+LOC_T157	247	941	948	LOC	река, разделенная на два русла песчаной отмелью	4707	4754	река , разделенная на два русла песчаной отмелью	8	57	62	2	0	0	0	153	943	разделенная	acl	941	VERB	NOM	Not_Assigned	Not_Assigned	3
+LOC_T158	248	956	957	LOC	ее берегу	4782	4791	ее берегу	2	57	62	17	0	1	1	154	957	берегу	conj	939	NOUN	NOM	Not_Assigned	Not_Assigned	3
+LOC_T159	249	957	957	LOC	берегу	4785	4791	берегу	1	57	62	18	1	0	0	155	957	берегу	conj	939	NOUN	NOM	Not_Assigned	Not_Assigned	3
+LOC_T160	250	970	992	LOC	степь, ровная, как доска, бурая, выжженная беспощадным солнцем, с серым, дымчатым полынком и с синими курганами вдали	4860	4977	степь , ровная , как доска , бурая , выжженная беспощадным солнцем , с серым , дымчатым полынком и с синими курганами вдали	23	58	63	2	0	0	0	156	972	ровная	amod	970	ADJ	NOM	Not_Assigned	Not_Assigned	3
+FAC_T161	163	998	1003	FAC	тощие посевы со скирдами прошлогодней соломы	5011	5055	тощие посевы со скирдами прошлогодней соломы	6	58	63	30	0	0	0	157	999	посевы	nsubj	997	NOUN	NOM	Not_Assigned	Not_Assigned	3
+LOC_T162	251	1007	1025	LOC	узкие и кривые балки, зеленые полосы которых мелькнут, как отрадный оазис, среди глубоко - унылой равнины	5076	5181	узкие и кривые балки , зеленые полосы которых мелькнут , как отрадный оазис , среди глубоко - унылой равнины	19	58	63	39	0	1	2	158	1025	равнины	conj	1010	NOUN	NOM	Not_Assigned	Not_Assigned	3
+LOC_T163	252	1018	1019	LOC	отрадный оазис	5135	5149	отрадный оазис	2	58	63	50	1	0	0	159	1019	оазис	obl	1015	NOUN	NOM	Not_Assigned	Not_Assigned	3
+LOC_T164	253	1022	1025	LOC	глубоко - унылой равнины	5157	5181	глубоко - унылой равнины	4	58	63	54	1	0	0	160	1025	равнины	conj	1010	NOUN	NOM	Not_Assigned	Not_Assigned	3
+FAC_T165	177	1027	1052	FAC	Небольшие хуторки без зелени, без садов, с белыми маленькими хатками, крытыми соломой, с шестами колодцев, рассыпаны кое-где по косогорам	5184	5321	небольшие хуторки без зелени , без садов , с белыми маленькими хатками , крытыми соломой , с шестами колодцев , рассыпаны кое - где по косогорам	26	59	64	0	0	1	2	161	1047	рассыпаны	ROOT	1047	VERB	NOM	Not_Assigned	Not_Assigned	3
+FAC_T167	180	1033	1033	FAC	садов	5218	5223	садов	1	59	64	6	1	0	0	162	1033	садов	conj	1030	NOUN	NOM	Not_Assigned	Not_Assigned	3
+FAC_T166	179	1036	1052	FAC	белыми маленькими хатками, крытыми соломой, с шестами колодцев, рассыпаны кое-где по косогорам	5227	5321	белыми маленькими хатками , крытыми соломой , с шестами колодцев , рассыпаны кое - где по косогорам	17	59	64	9	1	0	0	163	1047	рассыпаны	ROOT	1047	VERB	NOM	Not_Assigned	Not_Assigned	3
+FAC_T168	181	1055	1055	FAC	хутором	5327	5334	хутором	1	60	65	1	0	0	0	164	1055	хутором	obl	1077	NOUN	NOM	Not_Assigned	Not_Assigned	3
+LOC_T169	254	1057	1064	LOC	"грязная "" котлобань "" ( мелкий пруд )"	5346	5383	"грязная "" котлобань "" ( мелкий пруд )"	8	60	65	3	0	0	0	165	1059	котлобань	nmod	1055	NOUN	NOM	Not_Assigned	Not_Assigned	3
+LOC_T170	255	1067	1067	LOC	нее	5392	5395	нее	1	60	65	13	0	0	0	166	1067	нее	conj	1059	PRON	PRON	Not_Assigned	Not_Assigned	3
+FAC_T171	182	1084	1089	FAC	Небольшие рощицы тополей и серебристой ивы	5468	5510	небольшие рощицы тополей и серебристой ивы	6	62	67	0	0	0	0	167	1085	рощицы	nsubj	1090	NOUN	NOM	Not_Assigned	Not_Assigned	3
+FAC_T172	183	1105	1105	FAC	станциях	5603	5611	станциях	1	63	68	10	0	0	0	168	1105	станциях	nmod	1103	NOUN	NOM	Not_Assigned	Not_Assigned	3
+VEH_T173	88	1125	1125	VEH	вагоне	5716	5722	вагоне	1	64	69	18	0	0	0	169	1125	вагоне	obl	1121	NOUN	NOM	Not_Assigned	Not_Assigned	3
+FAC_T174	184	1129	1129	FAC	платформе	5729	5738	платформе	1	64	69	22	0	0	0	170	1129	платформе	conj	1125	NOUN	NOM	Not_Assigned	Not_Assigned	3
+VEH_T175	89	1136	1138	VEH	пустых товарных вагонов	5779	5802	пустых товарных вагонов	3	65	70	5	0	0	0	171	1138	вагонов	nmod	1135	NOUN	NOM	Not_Assigned	Not_Assigned	3
+FAC_T176	185	1162	1163	FAC	маленький вокзал	5917	5933	маленький вокзал	2	67	72	14	0	0	0	172	1163	вокзал	nsubj:pass	1160	NOUN	NOM	Not_Assigned	Not_Assigned	3
+FAC_T177	186	1166	1167	FAC	длинные сараи	5937	5950	длинные сараи	2	67	72	18	0	0	0	173	1167	сараи	conj	1163	NOUN	NOM	Not_Assigned	Not_Assigned	3
+VEH_T178	90	1173	1174	VEH	товарные вагоны	5964	5979	товарные вагоны	2	67	72	25	0	0	0	174	1174	вагоны	conj	1163	NOUN	NOM	Not_Assigned	Not_Assigned	3
+FAC_T179	187	1183	1183	FAC	платформе	6010	6019	платформе	1	68	73	1	0	0	0	175	1183	платформе	obl	1150	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T180	47	1190	1191	PER	немногочисленная публика	6042	6066	немногочисленная публика	2	68	73	8	0	0	0	176	1191	публика	nsubj	1189	NOUN	NOM	Not_Assigned	Not_Assigned	3
+VEH_T181	91	1202	1202	VEH	вагоны	6131	6137	вагоны	1	68	73	20	0	0	0	177	1202	вагоны	obl	1200	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T182	34	1205	1211	PER	тяжеловесный жандарм с черной, расчесанной бородой	6148	6198	тяжеловесный жандарм с черной , расчесанной бородой	7	68	73	23	0	0	0	178	1206	жандарм	nsubj	1204	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T183	48	1215	1220	PER	босоногая девочка с ребенком на руках	6207	6244	босоногая девочка с ребенком на руках	6	68	73	33	0	0	0	179	1216	девочка	nsubj	1235	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T184	50	1222	1225	PER	барышни под красными зонтиками	6246	6276	барышни под красными зонтиками	4	68	73	40	0	0	0	180	1225	зонтиками	nmod	1222	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T185	51	1227	1231	PER	железнодорожный служитель в синей блузе	6278	6317	железнодорожный служитель в синей блузе	5	68	73	45	0	0	0	181	1228	служитель	conj	1216	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T186	52	1233	1238	PER	угрюмого вида рабочий с багажной тележкой	6319	6360	угрюмого вида рабочий с багажной тележкой	6	68	73	51	0	0	0	182	1238	тележкой	nmod	1235	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T187	53	1240	1268	PER	"бронзового цвета казак в чириках, в заплатанных шароварах с лампасами и в одной рубахе, взирающий на "" машину "" взором, отчасти как бы недоумевающим и удивленным"	6362	6523	"бронзового цвета казак в чириках , в заплатанных шароварах с лампасами и в одной рубахе , взирающий на "" машину "" взором , отчасти как бы недоумевающим и удивленным"	29	68	73	58	0	1	1	183	1248	шароварах	conj	1244	NOUN	NOM	Not_Assigned	Not_Assigned	3
+VEH_T188	92	1258	1260	VEH	""" машину """	6463	6473	""" машину """	3	68	73	76	1	0	0	184	1259	машину	obl	1256	NOUN	NOM	Not_Assigned	Not_Assigned	3
+GPE_T189	159	1271	1271	GPE	Иловлей	6531	6538	иловлей	1	69	74	1	0	0	0	185	1271	иловлей	obl	1275	ADJ	NOM	Not_Assigned	Not_Assigned	3
+LOC_T190	242	1273	1273	LOC	степи	6548	6553	степи	1	69	74	3	0	0	0	186	1273	степи	nmod	1272	NOUN	NOM	Not_Assigned	Not_Assigned	3
+LOC_T191	225	1277	1277	LOC	она	6577	6580	она	1	69	74	7	0	0	0	187	1277	она	nsubj:pass	1278	PRON	PRON	Not_Assigned	Not_Assigned	3
+FAC_T192	188	1292	1292	FAC	дороги	6659	6665	дороги	1	69	74	22	0	0	0	188	1292	дороги	parataxis	1285	NOUN	NOM	Not_Assigned	Not_Assigned	3
+LOC_T193	210	1299	1299	LOC	холмы	6698	6703	холмы	1	70	75	1	0	0	0	189	1299	холмы	nsubj	1302	NOUN	NOM	Not_Assigned	Not_Assigned	3
+LOC_T194	224	1301	1301	LOC	балки	6706	6711	балки	1	70	75	3	0	0	0	190	1301	балки	conj	1299	NOUN	NOM	Not_Assigned	Not_Assigned	3
+LOC_T196	197	1340	1344	LOC	бесплодная плоская равнина с редкой	6917	6952	бесплодная плоская равнина с редкой	5	71	76	2	0	0	0	191	1342	равнина	ROOT	1342	NOUN	NOM	Not_Assigned	Not_Assigned	3
+LOC_T195	196	1363	1366	LOC	полоса нагорного берега Дона	7062	7090	полоса нагорного берега дона	4	72	77	7	0	1	1	192	1365	берега	nmod	1363	NOUN	PROP	Not_Assigned	Not_Assigned	3
+GPE_T197	192	1366	1366	GPE	Дона	7086	7090	дона	1	72	77	10	1	0	0	193	1366	дона	nmod	1365	PROPN	PROP	Not_Assigned	Not_Assigned	3
+LOC_T198	198	1386	1394	LOC	лес, похожий издали на кудрявый, разбросанный кустарник	7188	7243	лес , похожий издали на кудрявый , разбросанный кустарник	9	72	77	30	0	0	0	194	1389	издали	conj	1359	VERB	NOM	Not_Assigned	Not_Assigned	3
+PER_T199	55	1417	1439	PER	старичок - казак, сидевший против меня, поглядывая на редкую, поблекшую, низкорослую пшеничку, полосы которой потянулись по сторонам дороги	7326	7465	старичок - казак , сидевший против меня , поглядывая на редкую , поблекшую , низкорослую пшеничку , полосы которой потянулись по сторонам дороги	23	73	78	21	0	1	1	195	1421	сидевший	acl	1419	VERB	NOM	Not_Assigned	Not_Assigned	3
+FAC_T200	189	1439	1439	FAC	дороги	7459	7465	дороги	1	73	78	43	1	0	0	196	1439	дороги	nmod	1438	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T201	58	1450	1450	PER	я	7506	7507	я	1	74	79	9	0	0	0	197	1450	я	nsubj	1449	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T202	59	1475	1475	PER	Он	7593	7595	он	1	78	83	0	0	0	0	198	1475	он	nsubj	1476	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T203	60	1494	1494	PER	он	7683	7685	он	1	79	84	8	0	0	0	199	1494	он	nsubj	1493	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T204	61	1503	1503	PER	казачка	7722	7729	казачка	1	80	85	5	0	0	0	200	1503	казачка	appos	1502	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T205	62	1506	1506	PER	народ	7747	7752	народ	1	80	85	8	0	0	0	201	1506	народ	nsubj	1505	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T208	32	1515	1517	PER	богатый да богатый	7792	7810	богатый да богатый	3	81	86	7	0	0	0	202	1516	да	cc	1518	CCONJ	NOM	Not_Assigned	Not_Assigned	3
+PER_T206	49	1524	1527	PER	наш брат, голопуп	7843	7860	наш брат , голопуп	4	81	86	16	0	1	1	203	1525	брат	nsubj	1531	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T207	33	1524	1524	PER	наш	7843	7846	наш	1	81	86	16	1	0	0	204	1524	наш	det	1525	DET	PRON	Not_Assigned	Not_Assigned	3
+FAC_T209	190	1543	1543	FAC	двора	7930	7935	двора	1	82	87	10	0	0	0	205	1543	двора	orphan	1539	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T210	2	1550	1550	PER	кого	7962	7966	кого	1	83	88	3	0	0	0	206	1550	кого	obl	1553	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T211	3	1570	1570	PER	народ	8044	8049	народ	1	84	89	4	0	0	0	207	1570	народ	nsubj	1574	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T212	4	1581	1581	PER	он	8104	8106	он	1	84	89	15	0	0	0	208	1581	он	nsubj	1580	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T216	7	1589	1590	PER	свою любимую	8136	8148	свою любимую	2	84	89	23	0	0	0	209	1590	любимую	amod	1596	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T213	5	1596	1596	PER	бабы	8165	8169	бабы	1	84	89	30	0	0	0	210	1596	бабы	conj	1574	NOUN	NOM	Not_Assigned	Not_Assigned	3
+FAC_T214	191	1603	1603	FAC	улицу	8192	8197	улицу	1	84	89	37	0	0	0	211	1603	улицу	obl	1601	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T215	6	1607	1608	PER	чистые барыни	8211	8224	чистые барыни	2	84	89	41	0	0	0	212	1608	барыни	obl	1601	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T217	8	1618	1618	PER	он	8264	8266	он	1	85	90	5	0	0	0	213	1618	он	nsubj	1620	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T218	9	1634	1634	PER	казаков	8331	8338	казаков	1	85	90	21	0	0	0	214	1634	казаков	conj	1628	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T219	10	1646	1646	PER	него	8377	8381	него	1	86	91	5	0	0	0	215	1646	него	obl	1647	PRON	PRON	Not_Assigned	Not_Assigned	3
+FAC_T220	178	1649	1649	FAC	доме	8389	8393	доме	1	86	91	8	0	0	0	216	1649	доме	obl	1647	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T221	12	1667	1667	PER	отца	8471	8475	отца	1	88	93	7	0	0	0	217	1667	отца	obl	1665	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T222	13	1671	1671	PER	свои	8492	8496	свои	1	88	93	11	0	0	0	218	1671	свои	det	1672	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T223	14	1684	1684	PER	сам	8555	8558	сам	1	90	95	5	0	0	0	219	1684	сам	acl	1685	ADJ	NOM	Not_Assigned	Not_Assigned	3
+PER_T224	15	1693	1693	PER	вас	8593	8596	вас	1	91	96	4	0	0	0	220	1693	вас	obl	1697	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T225	16	1701	1701	PER	нас	8628	8631	нас	1	92	97	2	0	0	0	221	1701	нас	obl	1704	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T227	18	1708	1708	PER	землемера	8656	8665	землемера	1	93	98	2	0	0	0	222	1708	землемера	obj	1711	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T226	17	1718	1718	PER	он	8710	8712	он	1	93	98	12	0	0	0	223	1718	он	nsubj	1721	PRON	PRON	Not_Assigned	Not_Assigned	3
+GPE_T228	193	1723	1725	GPE	Одна наша станица	8732	8749	одна наша станица	3	94	99	0	0	1	1	224	1725	станица	nsubj	1730	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T229	19	1724	1724	PER	наша	8737	8741	наша	1	94	99	1	1	0	0	225	1724	наша	det	1725	DET	PRON	Not_Assigned	Not_Assigned	3
+GPE_T230	194	1728	1728	GPE	войске	8758	8764	войске	1	94	99	5	0	0	0	226	1728	войске	nmod	1725	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T231	21	1732	1732	PER	кто	8782	8785	кто	1	94	99	9	0	0	0	227	1732	кто	nsubj	1734	PRON	PRON	Not_Assigned	Not_Assigned	3
+GPE_T232	226	1746	1747	GPE	Наша станица	8847	8859	наша станица	2	96	101	0	0	1	1	228	1747	станица	ROOT	1747	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T233	22	1746	1746	PER	Наша	8847	8851	наша	1	96	101	0	1	0	0	229	1746	наша	det	1747	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T234	23	1753	1753	PER	Казаки	8889	8895	казаки	1	97	102	0	0	0	0	230	1753	казаки	nsubj	1758	PROPN	PROP	Singular	Not_Assigned	3
+PER_T236	25	1760	1760	PER	собой	8935	8940	собой	1	97	102	7	0	0	0	231	1760	собой	obl	1758	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T235	24	1765	1765	PER	бабе	8949	8953	бабе	1	97	102	12	0	0	0	232	1765	бабе	obl	1768	NOUN	NOM	Not_Assigned	Not_Assigned	3
+GPE_T237	228	1784	1784	GPE	Царицын	9057	9064	царицын	1	98	103	7	0	0	0	233	1784	царицын	nsubj	1783	PROPN	PROP	Not_Assigned	Not_Assigned	3
+GPE_T238	229	1786	1787	GPE	Донская область	9067	9082	донская область	2	98	103	9	0	0	0	234	1787	область	nsubj	1788	NOUN	NOM	Not_Assigned	Not_Assigned	3
+FAC_T239	162	1789	1790	FAC	железнодорожными путями	9089	9112	железнодорожными путями	2	98	103	12	0	0	0	235	1790	путями	iobj	1788	NOUN	NOM	Not_Assigned	Not_Assigned	3
+GPE_T241	230	1796	1796	GPE	ее	9139	9141	ее	1	99	104	4	0	0	0	236	1796	ее	obj	1797	PRON	PRON	Not_Assigned	Not_Assigned	3
+GPE_T242	231	1803	1803	GPE	Новочеркасск	9160	9172	новочеркасск	1	99	105	2	0	0	0	237	1803	новочеркасск	obl	1805	PROPN	PROP	Not_Assigned	Not_Assigned	3
+GPE_T243	232	1809	1809	GPE	Тамбовскую	9197	9207	тамбовскую	1	99	105	8	0	0	0	238	1809	тамбовскую	amod	1812	ADJ	NOM	Not_Assigned	Not_Assigned	3
+GPE_T244	233	1811	1812	GPE	Воронежскую губернии	9210	9230	воронежскую губернии	2	99	105	10	0	0	0	239	1811	воронежскую	conj	1809	ADJ	NOM	Not_Assigned	Not_Assigned	3
+GPE_T245	234	1816	1816	GPE	Саратовскую	9241	9252	саратовскую	1	99	105	15	0	0	0	240	1816	саратовскую	conj	1812	ADJ	NOM	Not_Assigned	Not_Assigned	3
+FAC_T247	161	1852	1852	FAC	завода	9453	9459	завода	1	101	107	6	0	0	0	241	1852	завода	nmod	1848	NOUN	NOM	Not_Assigned	Not_Assigned	3
+FAC_T248	160	1857	1858	FAC	телеграфных столбов	9474	9493	телеграфных столбов	2	101	107	11	0	0	0	242	1858	столбов	obl	1853	NOUN	NOM	Not_Assigned	Not_Assigned	3
+VEH_T249	93	1867	1867	VEH	вагона	9533	9539	вагона	1	102	108	2	0	0	0	243	1867	вагона	obl	1868	NOUN	NOM	Not_Assigned	Not_Assigned	3
+FAC_T250	131	1869	1872	FAC	группа круглых серых зданий	9550	9577	группа круглых серых зданий	4	102	108	4	0	0	0	244	1872	зданий	nmod	1869	NOUN	NOM	Not_Assigned	Not_Assigned	3
+FAC_T252	132	1875	1875	FAC	ними	9583	9587	ними	1	102	108	10	0	0	0	245	1875	ними	obl	1868	PRON	PRON	Not_Assigned	Not_Assigned	3
+VEH_T251	94	1876	1883	VEH	бесконечный ряд таких же серых и бурокрасных вагонов	9588	9640	бесконечный ряд таких же серых и бурокрасных вагонов	8	102	108	11	0	0	0	246	1877	ряд	nsubj	1868	NOUN	NOM	Not_Assigned	Not_Assigned	3
+FAC_T253	133	1901	1909	FAC	деревянные тесовые домики, тесно прижимающиеся друг к другу	9719	9778	деревянные тесовые домики , тесно прижимающиеся друг к другу	9	103	110	2	0	1	2	247	1903	домики	nsubj	1900	NOUN	NOM	Not_Assigned	Not_Assigned	3
+FAC_T254	134	1907	1907	FAC	друг	9766	9770	друг	1	103	110	8	1	0	0	248	1907	друг	obl	1906	PRON	PRON	Not_Assigned	Not_Assigned	3
+FAC_T255	135	1909	1909	FAC	другу	9773	9778	другу	1	103	110	10	1	0	0	249	1909	другу	fixed	1907	PRON	PRON	Not_Assigned	Not_Assigned	3
+FAC_T256	136	1911	1915	FAC	кирпичное здание с высокой трубой	9780	9813	кирпичное здание с высокой трубой	5	103	110	12	0	0	0	250	1912	здание	conj	1903	NOUN	NOM	Not_Assigned	Not_Assigned	3
+FAC_T257	137	1917	1918	FAC	недостроенная церковь	9815	9836	недостроенная церковь	2	103	110	18	0	0	0	251	1918	церковь	conj	1903	NOUN	NOM	Not_Assigned	Not_Assigned	3
+LOC_T258	199	1920	1930	LOC	крутые яры с зеленой, ползущей вверх по ним, колючкой	9838	9891	крутые яры с зеленой , ползущей вверх по ним , колючкой	11	103	110	21	0	0	0	252	1923	зеленой	nmod	1921	ADJ	NOM	Not_Assigned	Not_Assigned	3
+FAC_T259	138	1938	1938	FAC	вокзал	9926	9932	вокзал	1	103	110	39	0	0	0	253	1938	вокзал	conj	1903	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T260	29	1940	1940	PER	Я	9937	9938	я	1	104	111	0	0	0	0	254	1940	я	nsubj	1941	PRON	PRON	Not_Assigned	Not_Assigned	3
+FAC_T261	139	1945	1945	FAC	городу	9959	9965	городу	1	104	111	5	0	0	0	255	1945	городу	nmod	1943	NOUN	NOM	Not_Assigned	Not_Assigned	3
+FAC_T262	140	1972	1972	FAC	улицам	10114	10120	улицам	1	106	113	18	0	0	0	256	1972	улицам	obl	1970	NOUN	NOM	Not_Assigned	Not_Assigned	3

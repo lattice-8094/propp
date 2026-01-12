@@ -1,0 +1,341 @@
+COREF_name	COREF	start_token	end_token	cat	sacr_text	byte_onset	byte_offset	text	mention_len	paragraph_ID	sentence_ID	start_token_ID_within_sentence	out_to_in_nested_level	in_to_out_nested_level	nested_entities_count	temp_index	head_id	head_word	head_dependency_relation	head_syntactic_head_ID	POS_tag	prop	number	gender	grammatical_person
+PER_T1	188	3	8	PER	дочь бедных, но благородных родителей	15	52	дочь бедных , но благородных родителей	6	0	0	3	0	1	1	0	3	дочь	conj	0	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T2	257	4	8	PER	бедных, но благородных родителей	20	52	бедных , но благородных родителей	5	0	0	4	1	0	0	1	8	родителей	nsubj	10	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T3	8	15	15	PER	Вы	82	84	вы	1	1	1	2	0	0	0	2	15	вы	nsubj	17	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T4	131	19	19	PER	меня	101	105	меня	1	1	1	6	0	0	0	3	19	меня	obl	17	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T5	163	21	21	PER	душенька	107	115	душенька	1	1	1	8	0	0	0	4	21	душенька	conj	17	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T6	155	26	26	PER	она	131	134	она	1	1	2	3	0	0	0	5	26	она	nsubj	25	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T7	105	35	36	PER	Ольгу Михайловну	184	200	ольгу михайловну	2	1	2	12	0	0	0	6	35	ольгу	nmod	33	PROPN	PROP	Singular	Not_Assigned	3
+PER_T8	94	48	48	PER	Вы	228	230	вы	1	3	4	2	0	0	0	7	48	вы	nsubj	49	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T9	108	53	53	PER	я	249	250	я	1	3	4	7	0	0	0	8	53	я	nsubj	56	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T10	187	63	63	PER	вы	320	322	вы	1	3	4	17	0	0	0	9	63	вы	nsubj	62	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T11	180	65	66	PER	Прасковьи Павловны	326	344	прасковьи павловны	2	3	4	19	0	0	0	10	65	прасковьи	obl	62	PROPN	PROP	Singular	Not_Assigned	3
+PER_T12	191	69	69	PER	я	348	349	я	1	3	4	23	0	0	0	11	69	я	nsubj	71	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T13	205	72	72	PER	вам	359	362	вам	1	3	4	26	0	0	0	12	72	вам	iobj	71	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T14	195	77	77	PER	ее	386	388	ее	1	3	4	31	0	0	0	13	77	ее	obj	76	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T15	312	83	83	PER	ей	413	415	ей	1	3	4	37	0	0	0	14	83	ей	iobj	82	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T16	307	84	84	PER	вас	416	419	вас	1	3	4	38	0	0	0	15	84	вас	obj	82	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T17	321	89	89	PER	вам	434	437	вам	1	4	5	3	0	0	0	16	89	вам	iobj	90	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T18	328	94	94	PER	Мне	455	458	мне	1	5	6	2	0	0	0	17	94	мне	obl	49	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T19	275	100	100	PER	вас	484	487	вас	1	5	6	8	0	0	0	18	100	вас	obl	101	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T20	265	103	103	PER	я	499	500	я	1	5	6	11	0	0	0	19	103	я	nsubj	108	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T21	277	110	110	PER	вас	544	547	вас	1	5	6	18	0	0	0	20	110	вас	obl	108	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T22	288	113	113	PER	мне	562	565	мне	1	6	7	1	0	0	0	21	113	мне	iobj	112	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T23	281	118	118	PER	мы	586	588	мы	1	6	7	6	0	0	0	22	118	мы	nsubj	119	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T24	60	121	121	PER	вами	602	606	вами	1	6	7	9	0	0	0	23	121	вами	obl	119	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T25	56	131	131	PER	вам	658	661	вам	1	8	9	1	0	0	0	24	131	вам	iobj	130	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T26	45	135	140	PER	Дочь бедных, но благородных родителей	680	717	дочь бедных , но благородных родителей	6	9	10	0	0	1	1	25	135	дочь	ROOT	135	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T27	79	136	140	PER	бедных, но благородных родителей	685	717	бедных , но благородных родителей	5	9	10	1	1	0	0	26	140	родителей	obj	141	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T28	68	142	143	PER	Ольгу Михайловну	729	745	ольгу михайловну	2	9	10	7	0	0	0	27	142	ольгу	obj	141	PROPN	PROP	Singular	Not_Assigned	3
+PER_T29	15	153	154	PER	Прасковья Павловна	788	806	прасковья павловна	2	11	12	0	0	0	0	28	153	прасковья	nsubj	169	PROPN	PROP	Singular	Not_Assigned	3
+PER_T30	7	156	157	PER	Семен Никифорыч	808	823	семен никифорыч	2	11	12	3	0	0	0	29	156	семен	conj	153	PROPN	PROP	Singular	Not_Assigned	3
+PER_T31	23	159	160	PER	Петр Александрыч	825	841	петр александрыч	2	11	12	6	0	0	0	30	159	петр	conj	153	PROPN	PROP	Singular	Not_Assigned	3
+PER_T32	30	162	162	PER	невеста	844	851	невеста	1	11	12	9	0	0	0	31	162	невеста	conj	153	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T33	147	183	184	PER	Прасковья Павловна	952	970	прасковья павловна	2	11	12	30	0	0	0	32	183	прасковья	nsubj	185	PROPN	PROP	Singular	Not_Assigned	3
+PER_T34	137	189	190	PER	свою Анеточку	1001	1014	свою анеточку	2	11	12	36	0	1	1	33	190	анеточку	obj	188	PROPN	PROP	Singular	Not_Assigned	3
+PER_T35	135	189	189	PER	свою	1001	1005	свою	1	11	12	36	1	0	0	34	189	свою	det	190	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T36	134	193	193	PER	все	1023	1026	все	1	11	12	40	0	0	0	35	193	все	nsubj	194	PRON	PRON	Not_Assigned	Not_Assigned	3
+VEH_T37	111	196	196	VEH	карете	1035	1041	карете	1	11	12	43	0	0	0	36	196	карете	obl	194	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T38	133	200	200	PER	их	1055	1057	их	1	11	12	47	0	0	0	37	200	их	det	202	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T39	132	201	202	PER	мрачный Антон	1058	1071	мрачный антон	2	11	12	48	0	0	0	38	202	антон	nsubj	199	PROPN	PROP	Singular	Not_Assigned	3
+PER_T40	148	204	206	PER	вечно цветущая Агафья	1074	1095	вечно цветущая агафья	3	11	12	51	0	0	0	39	205	цветущая	amod	206	VERB	PROP	Singular	Not_Assigned	3
+PER_T41	130	212	220	PER	Илья Иваныч, приехавший в тележечке на одной лошадке	1117	1169	илья иваныч , приехавший в тележечке на одной лошадке	9	12	13	4	0	1	1	40	215	приехавший	acl	212	VERB	PROP	Singular	Not_Assigned	3
+VEH_T42	110	217	220	VEH	тележечке на одной лошадке	1143	1169	тележечке на одной лошадке	4	12	13	9	1	0	0	41	220	лошадке	obl	215	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T43	149	224	224	PER	отъезжающим	1182	1193	отъезжающим	1	12	13	16	0	0	0	42	224	отъезжающим	obl	222	VERB	NOM	Not_Assigned	Not_Assigned	3
+PER_T45	168	230	231	PER	Илья Иваныч	1204	1215	илья иваныч	2	13	14	4	0	0	0	43	230	илья	ROOT	230	PROPN	PROP	Singular	Not_Assigned	3
+PER_T44	151	236	236	PER	Актеон	1231	1237	актеон	1	13	15	3	0	0	0	44	236	актеон	nsubj	235	PROPN	PROP	Singular	Not_Assigned	3
+PER_T46	167	242	243	PER	Илья Иваныч	1251	1262	илья иваныч	2	15	17	0	0	0	0	45	242	илья	nsubj	247	PROPN	PROP	Singular	Not_Assigned	3
+PER_T47	166	248	249	PER	Семен Никифорыч	1277	1292	семен никифорыч	2	15	17	6	0	0	0	46	248	семен	nsubj	247	PROPN	PROP	Singular	Not_Assigned	3
+PER_T48	165	253	254	PER	Илья Иваныч	1299	1310	илья иваныч	2	16	18	2	0	0	0	47	253	илья	ROOT	253	PROPN	PROP	Singular	Not_Assigned	3
+PER_T49	164	256	257	PER	Илья Иваныч	1314	1325	илья иваныч	2	17	19	0	0	0	0	48	256	илья	appos	253	PROPN	PROP	Singular	Not_Assigned	3
+PER_T50	162	262	265	PER	Прасковья Павловна с Анеточкой	1342	1372	прасковья павловна с анеточкой	4	17	20	3	0	1	1	49	262	прасковья	appos	261	PROPN	PROP	Singular	Not_Assigned	3
+PER_T51	161	265	265	PER	Анеточкой	1363	1372	анеточкой	1	17	20	6	1	0	0	50	265	анеточкой	nmod	261	PROPN	PROP	Singular	Not_Assigned	3
+PER_T52	160	269	269	PER	Мое	1379	1382	мое	1	18	21	2	0	0	0	51	269	мое	nsubj	275	ADJ	NOM	Not_Assigned	Not_Assigned	3
+PER_T54	158	274	274	PER	я	1400	1401	я	1	19	22	1	0	0	0	52	274	я	nsubj	275	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T53	159	276	276	PER	вам	1409	1412	вам	1	19	22	3	0	0	0	53	276	вам	iobj	275	PRON	PRON	Not_Assigned	Not_Assigned	3
+GPE_T55	235	280	285	GPE	Село Козмо-Демьянское графа Воротынцева	1427	1466	село козмо - демьянское графа воротынцева	6	20	23	0	0	2	3	54	284	графа	nmod	280	NOUN	PROP	Not_Assigned	Not_Assigned	3
+GPE_T58	214	280	280	GPE	Село	1427	1431	село	1	20	23	0	1	0	0	55	280	село	obj	275	PROPN	PROP	Not_Assigned	Not_Assigned	3
+PER_T56	157	284	285	PER	графа Воротынцева	1449	1466	графа воротынцева	2	20	23	4	1	1	1	56	284	графа	nmod	280	NOUN	PROP	Singular	Not_Assigned	3
+PER_T57	156	284	284	PER	графа	1449	1454	графа	1	20	23	4	2	0	0	57	284	графа	nmod	280	NOUN	NOM	Not_Assigned	Not_Assigned	3
+FAC_T59	223	295	295	FAC	фабрикой	1515	1523	фабрикой	1	20	23	15	0	0	0	58	295	фабрикой	conj	291	NOUN	NOM	Not_Assigned	Not_Assigned	3
+FAC_T60	222	298	298	FAC	домом	1527	1532	домом	1	20	23	18	0	0	0	59	298	домом	conj	291	NOUN	NOM	Not_Assigned	Not_Assigned	3
+FAC_T61	221	301	302	FAC	всеми угодьями	1538	1552	всеми угодьями	2	20	23	21	0	0	0	60	302	угодьями	conj	291	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T62	154	318	318	PER	все	1613	1616	все	1	21	25	3	0	0	0	61	318	все	nsubj	317	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T63	153	325	327	PER	Дмитрию Васильичу Бобынину	1636	1662	дмитрию васильичу бобынину	3	22	26	2	0	0	0	62	325	дмитрию	ROOT	325	PROPN	PROP	Singular	Not_Assigned	3
+PER_T64	152	336	337	PER	Прасковья Павловна	1692	1710	прасковья павловна	2	23	28	3	0	0	0	63	336	прасковья	nsubj	335	PROPN	PROP	Singular	Not_Assigned	3
+GPE_T65	213	360	360	GPE	городе	1785	1791	городе	1	26	31	2	0	0	0	64	360	городе	obl	364	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T66	150	361	361	PER	вы	1792	1794	вы	1	26	31	3	0	0	0	65	361	вы	nsubj	364	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T67	129	363	363	PER	сами	1799	1803	сами	1	26	31	5	0	0	0	66	363	сами	amod	362	ADJ	NOM	Not_Assigned	Not_Assigned	3
+PER_T68	128	366	367	PER	Прасковья Павловна	1814	1832	прасковья павловна	2	27	32	0	0	0	0	67	366	прасковья	nsubj	368	PROPN	PROP	Singular	Not_Assigned	3
+PER_T69	127	372	372	PER	сына	1864	1868	сына	1	27	32	6	0	0	0	68	372	сына	nmod	370	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T70	104	377	377	PER	вы	1877	1879	вы	1	28	33	3	0	0	0	69	377	вы	nsubj	381	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T71	103	386	387	PER	Илья Иваныч	1909	1920	илья иваныч	2	28	34	3	0	0	0	70	386	илья	nsubj	385	PROPN	PROP	Singular	Not_Assigned	3
+PER_T72	102	393	393	PER	батюшка	1931	1938	батюшка	1	29	35	4	0	0	0	71	393	батюшка	nsubj	399	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T73	101	397	397	PER	ты	1949	1951	ты	1	29	35	8	0	0	0	72	397	ты	nsubj	399	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T74	100	404	404	PER	Анеточку	1985	1993	анеточку	1	30	36	3	0	0	0	73	404	анеточку	obj	402	PROPN	PROP	Singular	Not_Assigned	3
+PER_T75	99	412	412	PER	нами	2014	2018	нами	1	31	37	6	0	0	0	74	412	нами	obl	423	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T76	98	417	417	PER	Актеон	2031	2037	актеон	1	31	37	11	0	0	0	75	417	актеон	nsubj	416	PROPN	PROP	Singular	Not_Assigned	3
+PER_T77	96	434	434	PER	Он	2095	2097	он	1	32	38	2	0	0	0	76	434	он	nsubj	435	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T78	87	440	441	PER	Дмитрий Васильич	2116	2132	дмитрий васильич	2	32	38	8	0	0	0	77	440	дмитрий	appos	438	PROPN	PROP	Singular	Not_Assigned	3
+PER_T79	95	446	446	PER	я	2143	2144	я	1	33	39	3	0	0	0	78	446	я	nsubj	448	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T80	93	450	450	PER	него	2156	2160	него	1	33	39	7	0	0	0	79	450	него	obl	448	PRON	PRON	Not_Assigned	Not_Assigned	3
+FAC_T81	220	455	455	FAC	филатуру	2181	2189	филатуру	1	33	39	12	0	0	0	80	455	филатуру	obl	453	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T82	92	460	460	PER	Вы	2199	2201	вы	1	34	41	2	0	0	0	81	460	вы	nsubj	465	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T83	91	462	463	PER	Илья Иваныч	2203	2214	илья иваныч	2	34	41	4	0	0	0	82	462	илья	conj	460	PROPN	PROP	Singular	Not_Assigned	3
+VEH_T84	339	470	470	VEH	тарантасе	2236	2245	тарантасе	1	34	41	12	0	0	0	83	470	тарантасе	conj	467	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T85	90	473	473	PER	Настей	2249	2255	настей	1	34	41	15	0	0	0	84	473	настей	conj	467	PROPN	PROP	Singular	Not_Assigned	3
+PER_T86	89	476	476	PER	Машей	2260	2265	машей	1	34	41	18	0	0	0	85	476	машей	conj	467	PROPN	PROP	Singular	Not_Assigned	3
+PER_T87	88	481	482	PER	Прасковья Павловна	2280	2298	прасковья павловна	2	34	41	23	0	0	0	86	481	прасковья	obj	465	PROPN	PROP	Singular	Not_Assigned	3
+PER_T88	106	489	489	PER	я	2313	2314	я	1	35	42	5	0	0	0	87	489	я	nsubj	490	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T89	107	490	490	PER	жене	2315	2319	жене	1	35	42	6	0	0	0	88	490	жене	iobj	495	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T90	109	492	492	PER	детям	2322	2327	детям	1	35	42	8	0	0	0	89	492	детям	conj	490	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T91	126	500	501	PER	моим мужичком	2359	2372	моим мужичком	2	36	43	2	0	1	1	90	501	мужичком	obl	502	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T92	125	500	500	PER	моим	2359	2363	моим	1	36	43	2	1	0	0	91	500	моим	det	501	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T93	124	503	503	PER	их	2381	2383	их	1	36	43	5	0	0	0	92	503	их	obj	502	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T94	123	507	507	PER	я	2399	2400	я	1	36	43	9	0	0	0	93	507	я	nsubj	515	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T95	122	512	512	PER	вами	2413	2417	вами	1	36	43	14	0	0	0	94	512	вами	obl	515	PRON	PRON	Not_Assigned	Not_Assigned	3
+GPE_T96	212	514	514	GPE	город	2420	2425	город	1	36	43	16	0	0	0	95	514	город	obl	515	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T97	121	533	533	PER	мы	2505	2507	мы	1	40	47	3	0	0	0	96	533	мы	nsubj	535	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T98	120	537	537	PER	молодым	2527	2534	молодым	1	40	47	7	0	0	0	97	537	молодым	iobj	535	ADJ	NOM	Not_Assigned	Not_Assigned	3
+PER_T99	119	548	549	PER	Илья Иваныч	2590	2601	илья иваныч	2	41	48	4	0	0	0	98	548	илья	nsubj	550	PROPN	PROP	Singular	Not_Assigned	3
+VEH_T100	118	552	553	VEH	своей тележке	2613	2626	своей тележке	2	41	48	8	0	1	1	99	553	тележке	obl	550	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T101	186	552	552	PER	своей	2613	2618	своей	1	41	48	8	1	0	0	100	552	своей	det	553	DET	PRON	Not_Assigned	Not_Assigned	3
+VEH_T102	117	557	557	VEH	нее	2637	2640	нее	1	41	48	13	0	0	0	101	557	нее	obl	555	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T103	185	558	558	PER	свой	2641	2645	свой	1	41	48	14	0	0	0	102	558	свой	det	559	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T104	184	563	564	PER	своему мужичку	2671	2685	своему мужичку	2	41	48	19	0	1	1	103	564	мужичку	iobj	561	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T105	183	563	563	PER	своему	2671	2677	своему	1	41	48	19	1	0	0	104	563	своему	det	564	DET	PRON	Not_Assigned	Not_Assigned	3
+VEH_T106	116	568	568	VEH	тарантасе	2703	2712	тарантасе	1	41	48	24	0	0	0	105	568	тарантасе	obl	566	NOUN	NOM	Not_Assigned	Not_Assigned	3
+VEH_T107	115	571	571	VEH	карету	2717	2723	карету	1	42	49	1	0	0	0	106	571	карету	ROOT	571	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T108	181	575	576	PER	четырех господ	2736	2750	четырех господ	2	42	49	5	0	0	0	107	576	господ	conj	571	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T109	172	578	579	PER	Агафья Васильевна	2752	2769	агафья васильевна	2	42	49	8	0	0	0	108	578	агафья	appos	571	PROPN	PROP	Singular	Not_Assigned	3
+PER_T110	179	581	581	PER	Антон	2772	2777	антон	1	43	50	0	0	0	0	109	581	антон	nsubj	582	PROPN	PROP	Singular	Not_Assigned	3
+PER_T111	178	586	586	PER	Гришка	2803	2809	гришка	1	44	51	0	0	0	0	110	586	гришка	nsubj	587	PROPN	PROP	Singular	Not_Assigned	3
+VEH_T112	114	591	591	VEH	Карета	2828	2834	карета	1	45	52	0	0	0	0	111	591	карета	nsubj	592	NOUN	NOM	Not_Assigned	Not_Assigned	3
+VEH_T113	113	596	596	VEH	нею	2851	2854	нею	1	45	52	5	0	0	0	112	596	нею	conj	592	PRON	PRON	Not_Assigned	Not_Assigned	3
+VEH_T114	112	597	605	VEH	два тарантаса, нагруженные перинами, подушками и девками	2855	2911	два тарантаса , нагруженные перинами , подушками и девками	9	45	52	6	0	1	1	113	598	тарантаса	nsubj	596	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T115	177	605	605	PER	девками	2904	2911	девками	1	45	52	14	1	0	0	114	605	девками	conj	601	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T117	175	611	612	PER	Ольга Михайловна	2930	2946	ольга михайловна	2	46	53	4	0	0	0	115	611	ольга	nsubj	613	PROPN	PROP	Singular	Not_Assigned	3
+PER_T116	176	615	615	PER	учителю	2958	2965	учителю	1	46	53	8	0	0	0	116	615	учителю	obl	613	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T120	192	620	620	PER	я	2984	2985	я	1	47	54	3	0	0	0	117	620	я	nsubj	621	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T118	174	622	622	PER	вас	2993	2996	вас	1	47	54	5	0	0	0	118	622	вас	obj	621	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T119	173	624	624	PER	себе	2999	3003	себе	1	47	54	7	0	0	0	119	624	себе	obl	621	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T121	193	626	626	PER	Вы	3006	3008	вы	1	48	55	0	0	0	0	120	626	вы	nsubj	629	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T124	211	631	632	PER	Я одна	3031	3037	я одна	2	49	56	0	0	0	0	121	632	одна	ROOT	632	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T123	194	634	634	PER	все	3039	3042	все	1	49	56	3	0	0	0	122	634	все	nsubj	635	PRON	PRON	Not_Assigned	Not_Assigned	3
+GPE_T122	219	637	637	GPE	город	3052	3057	город	1	49	56	6	0	0	0	123	637	город	obl	635	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T125	210	642	642	PER	кем	3067	3070	кем	1	50	57	2	0	0	0	124	642	кем	obl	643	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T126	209	647	648	PER	Ольга Михайловна	3094	3110	ольга михайловна	2	51	58	0	0	0	0	125	647	ольга	nsubj	649	PROPN	PROP	Singular	Not_Assigned	3
+PER_T127	208	652	652	PER	ей	3130	3132	ей	1	51	58	5	0	0	0	126	652	ей	iobj	653	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T128	207	658	659	PER	умирающая няня	3155	3169	умирающая няня	2	51	58	11	0	0	0	127	659	няня	nsubj	660	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T129	206	662	662	PER	Петре	3181	3186	петре	1	51	58	15	0	0	0	128	662	петре	obl	660	PROPN	PROP	Singular	Not_Assigned	3
+PER_T130	204	665	665	PER	Петр	3194	3198	петр	1	52	59	1	0	0	0	129	665	петр	nsubj	666	PROPN	PROP	Singular	Not_Assigned	3
+PER_T131	203	670	671	PER	Прасковьи Павловны	3222	3240	прасковьи павловны	2	52	59	6	0	0	0	130	670	прасковьи	obl	666	PROPN	PROP	Singular	Not_Assigned	3
+FAC_T132	0	676	676	FAC	комнаты	3260	3267	комнаты	1	52	59	12	0	0	0	131	676	комнаты	obl	674	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T133	202	678	679	PER	Ольга Михайловна	3270	3286	ольга михайловна	2	53	60	0	0	0	0	132	678	ольга	nsubj	680	PROPN	PROP	Singular	Not_Assigned	3
+PER_T135	200	682	682	PER	его	3302	3305	его	1	53	60	4	0	0	0	133	682	его	obj	681	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T134	201	684	684	PER	себе	3308	3312	себе	1	53	60	6	0	0	0	134	684	себе	obl	681	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T136	199	686	686	PER	Он	3315	3317	он	1	54	61	0	0	0	0	135	686	он	nsubj	687	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T137	198	693	693	PER	ты	3345	3347	ты	1	55	62	4	0	0	0	136	693	ты	nsubj	694	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T138	197	697	703	PER	учителю, который живет у Андрея Петровича	3370	3411	учителю , который живет у андрея петровича	7	55	62	8	0	1	1	137	700	живет	acl:relcl	697	VERB	PROP	Singular	Not_Assigned	3
+PER_T139	196	702	703	PER	Андрея Петровича	3395	3411	андрея петровича	2	55	62	13	1	0	0	138	702	андрея	obl	700	PROPN	PROP	Singular	Not_Assigned	3
+PER_T140	254	708	708	PER	она	3427	3430	она	1	55	63	3	0	0	0	139	708	она	nsubj	707	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T141	182	722	722	PER	сударыня	3474	3482	сударыня	1	57	65	4	0	0	0	140	722	сударыня	parataxis	719	VERB	NOM	Not_Assigned	Not_Assigned	3
+PER_T142	255	726	735	PER	покровскому крестьянину, который здесь проездом у нашего мужичка Ермолая	3494	3566	покровскому крестьянину , который здесь проездом у нашего мужичка ермолая	10	57	65	8	0	2	4	141	731	проездом	acl:relcl	727	NOUN	PROP	Singular	Not_Assigned	3
+GPE_T143	218	730	730	GPE	здесь	3527	3532	здесь	1	57	65	12	1	0	0	142	730	здесь	advmod	731	ADV	NOM	Not_Assigned	Not_Assigned	3
+PER_T144	267	733	735	PER	нашего мужичка Ермолая	3544	3566	нашего мужичка ермолая	3	57	65	15	1	1	2	143	734	мужичка	obl	731	NOUN	PROP	Singular	Not_Assigned	3
+PER_T145	317	733	733	PER	нашего	3544	3550	нашего	1	57	65	15	2	0	0	144	733	нашего	det	734	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T146	316	734	734	PER	мужичка	3551	3558	мужичка	1	57	65	16	2	0	0	145	734	мужичка	obl	731	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T147	315	740	740	PER	он	3575	3577	он	1	58	66	3	0	0	0	146	740	он	nsubj	741	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T148	314	755	755	PER	ему	3636	3639	ему	1	59	67	11	0	0	0	147	755	ему	iobj	756	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T149	313	767	767	PER	его	3689	3692	его	1	60	68	9	0	0	0	148	767	его	obj	766	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T150	311	770	770	PER	он	3699	3701	он	1	60	68	12	0	0	0	149	770	он	nsubj	771	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T151	310	786	786	PER	Петр	3760	3764	петр	1	62	70	2	0	0	0	150	786	петр	nsubj	787	PROPN	PROP	Singular	Not_Assigned	3
+PER_T152	309	792	792	PER	она	3790	3793	она	1	63	71	3	0	0	0	151	792	она	nsubj	793	PRON	PRON	Not_Assigned	Not_Assigned	3
+FAC_T153	43	798	798	FAC	сад	3816	3819	сад	1	63	71	9	0	0	0	152	798	сад	obl	796	NOUN	NOM	Not_Assigned	Not_Assigned	3
+LOC_T154	190	815	815	LOC	поля	3908	3912	поля	1	65	73	5	0	0	0	153	815	поля	obl	813	NOUN	NOM	Not_Assigned	Not_Assigned	3
+LOC_T155	189	834	834	LOC	пруде	4015	4020	пруде	1	65	73	24	0	0	0	154	834	пруде	obl	832	NOUN	NOM	Not_Assigned	Not_Assigned	3
+FAC_T156	232	837	840	FAC	полусгнившем и почернелом заборе	4026	4058	полусгнившем и почернелом заборе	4	65	73	27	0	0	0	155	840	заборе	obl	841	NOUN	NOM	Not_Assigned	Not_Assigned	3
+FAC_T157	231	846	847	FAC	разваливающегося дома	4083	4104	разваливающегося дома	2	65	73	36	0	0	0	156	847	дома	nmod	845	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T158	308	863	863	PER	Она	4185	4188	она	1	66	74	0	0	0	0	157	863	она	nsubj	864	PRON	PRON	Not_Assigned	Not_Assigned	3
+FAC_T159	230	866	867	FAC	свою комнату	4204	4216	свою комнату	2	66	74	3	0	1	1	158	867	комнату	obl	864	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T160	306	866	866	PER	свою	4204	4208	свою	1	66	74	3	1	0	0	159	866	свою	det	867	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T161	305	887	887	PER	ее	4332	4334	ее	1	67	75	1	0	0	0	160	887	ее	det	886	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T162	304	895	895	PER	ней	4366	4369	ней	1	68	76	1	0	0	0	161	895	ней	obl	896	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T163	303	910	910	PER	она	4424	4427	она	1	68	76	16	0	0	0	162	910	она	nsubj	911	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T164	302	912	912	PER	его	4436	4439	его	1	68	76	18	0	0	0	163	912	его	obj	911	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T165	301	919	919	PER	ее	4472	4474	ее	1	69	77	2	0	0	0	164	919	ее	nsubj:pass	921	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T166	318	936	938	PER	чьи-то	4574	4580	чьи - то	3	70	78	2	0	0	0	165	936	чьи	det	939	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T167	300	943	945	PER	Кто-то	4597	4603	кто - то	3	71	79	0	0	0	0	166	943	кто	nsubj	946	PRON	PRON	Not_Assigned	Not_Assigned	3
+FAC_T168	229	948	948	FAC	лестницу	4615	4623	лестницу	1	71	79	5	0	0	0	167	948	лестницу	obl	946	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T169	319	950	950	PER	Она	4626	4629	она	1	72	80	0	0	0	0	168	950	она	nsubj	951	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T170	338	956	956	PER	он	4653	4655	он	1	73	81	2	0	0	0	169	956	он	ROOT	956	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T171	337	962	962	PER	она	4675	4678	она	1	73	82	4	0	0	0	170	962	она	nsubj	961	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T172	336	966	966	PER	нему	4689	4693	нему	1	73	82	8	0	0	0	171	966	нему	obl	964	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T173	335	971	971	PER	Я	4710	4711	я	1	74	83	2	0	0	0	172	971	я	nsubj	973	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T174	334	974	974	PER	ваши	4728	4732	ваши	1	74	83	5	0	0	0	173	974	ваши	det	975	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T175	333	980	980	PER	она	4751	4754	она	1	74	83	11	0	0	0	174	980	она	nsubj	979	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T176	332	985	985	PER	ему	4778	4781	ему	1	74	83	16	0	0	0	175	985	ему	iobj	984	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T177	331	994	996	PER	старые друзья ваши	4808	4826	старые друзья ваши	3	75	84	6	0	1	1	176	995	друзья	nsubj	997	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T178	330	996	996	PER	ваши	4822	4826	ваши	1	75	84	8	1	0	0	177	996	ваши	nsubj	997	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T179	329	998	998	PER	вас	4834	4837	вас	1	75	84	10	0	0	0	178	998	вас	obj	997	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T180	327	1001	1001	PER	Она	4843	4846	она	1	76	85	0	0	0	0	179	1001	она	nsubj	1002	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T181	326	1007	1007	PER	ему	4871	4874	ему	1	76	85	6	0	0	0	180	1007	ему	iobj	1006	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T182	325	1010	1010	PER	себя	4887	4891	себя	1	76	85	9	0	0	0	181	1010	себя	nmod	1008	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T183	324	1014	1014	PER	Я	4898	4899	я	1	77	86	2	0	0	0	182	1014	я	nsubj	1015	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T184	323	1023	1023	PER	вами	4933	4937	вами	1	77	86	11	0	0	0	183	1023	вами	obl	1021	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T185	322	1032	1032	PER	вы	4957	4959	вы	1	78	87	7	0	0	0	184	1032	вы	nsubj	1034	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T186	320	1041	1041	PER	мною	4999	5003	мною	1	78	87	16	0	0	0	185	1041	мною	obl	1039	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T187	299	1044	1044	PER	вы	5010	5012	вы	1	79	88	1	0	0	0	186	1044	вы	nsubj	1046	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T188	298	1051	1051	PER	она	5040	5043	она	1	79	89	3	0	0	0	187	1051	она	nsubj	1050	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T189	297	1065	1065	PER	он	5108	5110	он	1	80	90	9	0	0	0	188	1065	он	nsubj	1064	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T190	274	1076	1076	PER	она	5147	5150	она	1	81	92	3	0	0	0	189	1076	она	nsubj	1075	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T191	273	1083	1083	PER	ваше	5178	5182	ваше	1	82	93	3	0	0	0	190	1083	ваше	det	1085	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T192	272	1100	1100	PER	он	5259	5261	он	1	83	94	12	0	0	0	191	1100	он	nsubj	1099	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T193	271	1104	1104	PER	я	5267	5268	я	1	83	94	16	0	0	0	192	1104	я	nsubj	1105	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T194	270	1112	1112	PER	мне	5305	5308	мне	1	83	94	24	0	0	0	193	1112	мне	iobj	1114	PRON	PRON	Not_Assigned	Not_Assigned	3
+FAC_T195	228	1117	1117	FAC	здесь	5338	5343	здесь	1	83	94	29	0	0	0	194	1117	здесь	advmod	1116	ADV	NOM	Not_Assigned	Not_Assigned	3
+PER_T196	269	1121	1121	PER	они	5364	5367	они	1	84	95	2	0	0	0	195	1121	они	nsubj	1122	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T197	268	1128	1128	PER	вы	5390	5392	вы	1	85	96	4	0	0	0	196	1128	вы	nsubj	1129	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T198	266	1134	1134	PER	она	5414	5417	она	1	85	97	3	0	0	0	197	1134	она	nsubj	1133	PRON	PRON	Not_Assigned	Not_Assigned	3
+GPE_T199	217	1139	1139	GPE	Италию	5426	5432	италию	1	86	98	3	0	0	0	198	1139	италию	ROOT	1139	PROPN	PROP	Not_Assigned	Not_Assigned	3
+PER_T200	264	1147	1147	PER	вам	5462	5465	вам	1	87	99	6	0	0	0	199	1147	вам	iobj	1149	PRON	PRON	Not_Assigned	Not_Assigned	3
+GPE_T201	216	1150	1150	GPE	там	5478	5481	там	1	87	99	9	0	0	0	200	1150	там	advmod	1149	ADV	NOM	Not_Assigned	Not_Assigned	3
+PER_T202	263	1152	1152	PER	Я	5486	5487	я	1	88	100	0	0	0	0	201	1152	я	nsubj	1153	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T203	262	1155	1155	PER	вас	5496	5499	вас	1	88	100	3	0	0	0	202	1155	вас	obl	1153	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T204	261	1159	1159	PER	Она	5506	5509	она	1	89	101	2	0	0	0	203	1159	она	nsubj	1161	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T205	260	1166	1166	PER	я	5535	5536	я	1	90	102	3	0	0	0	204	1166	я	nsubj	1170	PRON	PRON	Not_Assigned	Not_Assigned	3
+GPE_T206	233	1173	1173	GPE	Италии	5560	5566	италии	1	90	102	10	0	0	0	205	1173	италии	obl	1170	PROPN	PROP	Not_Assigned	Not_Assigned	3
+PER_T207	259	1180	1180	PER	Она	5595	5598	она	1	91	103	0	0	0	0	206	1180	она	nsubj	1181	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T209	276	1186	1186	PER	я	5618	5619	я	1	92	104	3	0	0	0	207	1186	я	nsubj	1187	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T208	258	1188	1188	PER	вас	5625	5628	вас	1	92	104	5	0	0	0	208	1188	вас	obj	1187	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T210	278	1196	1196	PER	он	5660	5662	он	1	92	105	3	0	0	0	209	1196	он	nsubj	1195	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T211	279	1212	1212	PER	ее	5739	5741	ее	1	94	107	2	0	0	0	210	1212	ее	nmod	1211	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T212	296	1220	1220	PER	я	5773	5774	я	1	95	108	4	0	0	0	211	1220	я	nsubj	1222	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T213	295	1225	1225	PER	вы	5804	5806	вы	1	95	108	9	0	0	0	212	1225	вы	nsubj	1229	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T214	294	1232	1232	PER	меня	5835	5839	меня	1	95	108	16	0	0	0	213	1232	меня	obl	1230	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T215	293	1237	1237	PER	Шуберта	5852	5859	шуберта	1	95	108	21	0	0	0	214	1237	шуберта	obj	1230	PROPN	PROP	Singular	Not_Assigned	3
+PER_T216	292	1240	1240	PER	я	5871	5872	я	1	96	109	1	0	0	0	215	1240	я	nsubj	1241	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T217	291	1243	1243	PER	ваше	5888	5892	ваше	1	96	109	4	0	0	0	216	1243	ваше	det	1244	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T218	290	1248	1248	PER	Она	5907	5910	она	1	97	110	2	0	0	0	217	1248	она	nsubj	1249	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T219	289	1269	1269	PER	ее	6009	6011	ее	1	98	111	7	0	0	0	218	1269	ее	det	1270	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T220	287	1294	1294	PER	Она	6129	6132	она	1	99	112	0	0	0	0	219	1294	она	nsubj	1295	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T221	286	1303	1303	PER	я	6171	6172	я	1	99	112	9	0	0	0	220	1303	я	nsubj	1302	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T222	285	1323	1323	PER	меня	6268	6272	меня	1	100	113	5	0	0	0	221	1323	меня	obl	1321	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T223	284	1329	1329	PER	моей	6299	6303	моей	1	100	113	11	0	0	0	222	1329	моей	det	1330	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T224	283	1333	1333	PER	их	6316	6318	их	1	100	113	15	0	0	0	223	1333	их	nmod	1332	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T225	282	1337	1337	PER	меня	6327	6331	меня	1	100	113	19	0	0	0	224	1337	меня	nmod	1332	PRON	PRON	Not_Assigned	Not_Assigned	3
+GPE_T227	234	1346	1346	GPE	ты	6361	6363	ты	1	101	114	5	0	0	0	225	1346	ты	nsubj	1344	PRON	PRON	Not_Assigned	Not_Assigned	3
+GPE_T226	215	1349	1349	GPE	ты	6369	6371	ты	1	101	114	8	0	0	0	226	1349	ты	nsubj	1348	PRON	PRON	Not_Assigned	Not_Assigned	3
+GPE_T228	236	1351	1353	GPE	моя возлюбленная страна	6373	6396	моя возлюбленная страна	3	101	114	10	0	1	1	227	1353	страна	appos	1349	NOUN	NOM	Not_Assigned	Not_Assigned	3
+GPE_T229	253	1351	1351	GPE	моя	6373	6376	моя	1	101	114	10	1	0	0	228	1351	моя	det	1353	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T230	280	1356	1356	PER	мной	6402	6406	мной	1	101	114	15	0	0	0	229	1356	мной	obl	1357	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T231	256	1362	1362	PER	мной	6442	6446	мной	1	101	114	21	0	0	0	230	1362	мной	obl	1364	PRON	PRON	Not_Assigned	Not_Assigned	3
+GPE_T232	252	1366	1370	GPE	Страна, столь полная надежды	6461	6489	страна , столь полная надежды	5	102	115	0	0	0	0	231	1370	надежды	ROOT	1370	NOUN	NOM	Not_Assigned	Not_Assigned	3
+GPE_T233	251	1374	1389	GPE	страна, где цветут мои розы, где живут друзья мои, где восстают мои мертвые	6495	6570	страна , где цветут мои розы , где живут друзья мои , где восстают мои мертвые	16	102	115	8	0	2	5	232	1377	цветут	acl:relcl	1374	VERB	NOM	Not_Assigned	Not_Assigned	3
+PER_T234	171	1378	1378	PER	мои	6514	6517	мои	1	102	115	12	1	0	0	233	1378	мои	det	1379	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T235	170	1383	1384	PER	друзья мои	6534	6544	друзья мои	2	102	115	17	1	1	1	234	1383	друзья	nsubj	1382	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T236	169	1384	1384	PER	мои	6541	6544	мои	1	102	115	18	2	0	0	235	1384	мои	det	1383	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T237	62	1388	1389	PER	мои мертвые	6559	6570	мои мертвые	2	102	115	22	1	1	1	236	1389	мертвые	nsubj	1387	ADJ	NOM	Not_Assigned	Not_Assigned	3
+PER_T238	61	1388	1388	PER	мои	6559	6562	мои	1	102	115	22	2	0	0	237	1388	мои	det	1389	DET	PRON	Not_Assigned	Not_Assigned	3
+GPE_T239	250	1393	1398	GPE	страна, где говорят моим языком	6576	6607	страна , где говорят моим языком	6	102	115	27	0	1	1	238	1396	говорят	acl:relcl	1393	VERB	NOM	Not_Assigned	Not_Assigned	3
+PER_T240	59	1397	1397	PER	моим	6596	6600	моим	1	102	115	31	1	0	0	239	1397	моим	det	1398	DET	PRON	Not_Assigned	Not_Assigned	3
+GPE_T241	249	1406	1406	GPE	ты	6623	6625	ты	1	102	115	40	0	0	0	240	1406	ты	nsubj	1404	PRON	PRON	Not_Assigned	Not_Assigned	3
+GPE_T242	248	1409	1409	GPE	ты	6631	6633	ты	1	102	115	43	0	0	0	241	1409	ты	nsubj	1408	PRON	PRON	Not_Assigned	Not_Assigned	3
+GPE_T243	247	1416	1416	GPE	я	6665	6666	я	1	103	116	5	0	0	0	242	1416	я	nsubj	1415	PRON	PRON	Not_Assigned	Not_Assigned	3
+GPE_T244	246	1428	1428	GPE	она	6728	6731	она	1	103	116	17	0	0	0	243	1428	она	nsubj	1424	PRON	PRON	Not_Assigned	Not_Assigned	3
+GPE_T245	245	1431	1431	GPE	она	6737	6740	она	1	103	116	20	0	0	0	244	1431	она	nsubj	1430	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T246	58	1434	1434	PER	Мне	6746	6749	мне	1	104	117	1	0	0	0	245	1434	мне	iobj	1435	PRON	PRON	Not_Assigned	Not_Assigned	3
+GPE_T248	244	1445	1449	GPE	там, где нет тебя	6816	6833	там , где нет тебя	5	104	117	12	0	1	1	246	1448	нет	acl:relcl	1445	VERB	NOM	Not_Assigned	Not_Assigned	3
+PER_T247	57	1449	1449	PER	тебя	6829	6833	тебя	1	104	117	16	1	0	0	247	1449	тебя	nsubj	1448	PRON	PRON	Not_Assigned	Not_Assigned	3
+GPE_T249	243	1453	1453	GPE	там	6839	6842	там	1	104	117	20	0	0	0	248	1453	там	advmod	1445	ADV	NOM	Not_Assigned	Not_Assigned	3
+PER_T250	55	1454	1454	PER	твое	6843	6847	твое	1	104	117	21	0	0	0	249	1454	твое	det	1455	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T251	53	1459	1459	PER	Она	6863	6866	она	1	105	118	0	0	0	0	250	1459	она	nsubj	1460	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T252	44	1463	1463	PER	ее	6883	6885	ее	1	105	118	4	0	0	0	251	1463	ее	obj	1465	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T253	52	1471	1471	PER	ее	6929	6931	ее	1	106	119	2	0	0	0	252	1471	ее	det	1473	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T254	51	1475	1475	PER	Он	6950	6952	он	1	107	120	0	0	0	0	253	1475	он	nsubj	1476	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T255	50	1478	1478	PER	нее	6964	6967	нее	1	107	120	3	0	0	0	254	1478	нее	obl	1476	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T256	49	1484	1484	PER	его	6988	6991	его	1	107	120	9	0	0	0	255	1484	его	det	1485	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T257	48	1491	1491	PER	она	7028	7031	она	1	108	121	2	0	0	0	256	1491	она	nsubj	1494	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T258	47	1496	1496	PER	ним	7058	7061	ним	1	108	121	7	0	0	0	257	1496	ним	obl	1494	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T259	46	1498	1498	PER	своей	7064	7069	своей	1	108	121	9	0	0	0	258	1498	своей	det	1499	DET	PRON	Not_Assigned	Not_Assigned	3
+GPE_T260	242	1501	1501	GPE	Москве	7078	7084	москве	1	108	121	12	0	0	0	259	1501	москве	nmod	1499	PROPN	PROP	Not_Assigned	Not_Assigned	3
+GPE_T261	241	1504	1505	GPE	чужих краях	7088	7099	чужих краях	2	108	121	15	0	0	0	260	1505	краях	conj	1499	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T262	63	1508	1508	PER	он	7112	7114	он	1	109	122	1	0	0	0	261	1508	он	nsubj	1509	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T263	64	1519	1519	PER	Вы	7154	7156	вы	1	110	123	2	0	0	0	262	1519	вы	nsubj	1521	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T264	65	1526	1526	PER	она	7180	7183	она	1	110	124	3	0	0	0	263	1526	она	nsubj	1525	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T265	66	1529	1529	PER	его	7192	7195	его	1	110	124	6	0	0	0	264	1529	его	det	1530	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T266	83	1538	1538	PER	вас	7233	7236	вас	1	111	125	6	0	0	0	265	1538	вас	obj	1537	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T267	82	1543	1543	PER	вас	7256	7259	вас	1	112	126	1	0	0	0	266	1543	вас	obj	1542	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T268	81	1548	1548	PER	Вам	7274	7277	вам	1	113	127	0	0	0	0	267	1548	вам	iobj	1550	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T269	80	1549	1549	PER	я	7278	7279	я	1	113	127	1	0	0	0	268	1549	я	nsubj	1550	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T270	78	1553	1553	PER	моей	7305	7309	моей	1	113	127	5	0	0	0	269	1553	моей	det	1554	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T271	77	1558	1558	PER	Она	7324	7327	она	1	114	128	2	0	0	0	270	1558	она	nsubj	1560	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T272	76	1567	1567	PER	ее	7382	7384	ее	1	114	128	11	0	0	0	271	1567	ее	obj	1566	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T273	75	1571	1571	PER	ее	7395	7397	ее	1	114	128	15	0	0	0	272	1571	ее	nmod	1570	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T274	74	1574	1574	PER	нему	7406	7410	нему	1	114	128	18	0	0	0	273	1574	нему	obl	1572	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T275	73	1580	1580	PER	она	7433	7436	она	1	115	129	2	0	0	0	274	1580	она	nsubj	1586	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T276	72	1595	1595	PER	свои	7503	7507	свои	1	115	129	17	0	0	0	275	1595	свои	det	1596	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T277	71	1600	1600	PER	него	7529	7533	него	1	115	129	22	0	0	0	276	1600	него	obl	1598	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T278	70	1611	1611	PER	своей	7593	7598	своей	1	115	129	33	0	0	0	277	1611	своей	det	1612	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T279	69	1614	1614	PER	его	7612	7615	его	1	115	129	36	0	0	0	278	1614	его	nmod	1613	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T280	67	1623	1623	PER	она	7647	7650	она	1	116	130	7	0	0	0	279	1623	она	nsubj	1622	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T281	54	1632	1632	PER	вам	7683	7686	вам	1	116	130	16	0	0	0	280	1632	вам	iobj	1631	PRON	PRON	Not_Assigned	Not_Assigned	3
+GPE_T282	240	1636	1636	GPE	местах	7699	7705	местах	1	116	130	20	0	0	0	281	1636	местах	obl	1631	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T283	42	1640	1640	PER	мою	7718	7721	мою	1	116	130	24	0	0	0	282	1640	мою	det	1641	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T284	11	1643	1643	PER	Она	7733	7736	она	1	117	131	0	0	0	0	283	1643	она	nsubj	1644	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T285	41	1646	1646	PER	Он	7750	7752	он	1	118	132	0	0	0	0	284	1646	он	nsubj	1649	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T286	19	1654	1654	PER	его	7793	7796	его	1	118	132	8	0	0	0	285	1654	его	obj	1653	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T287	18	1656	1656	PER	он	7798	7800	он	1	118	132	10	0	0	0	286	1656	он	nsubj	1659	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T288	17	1661	1661	PER	ее	7825	7827	ее	1	118	132	15	0	0	0	287	1661	ее	det	1662	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T289	16	1667	1667	PER	Она	7857	7860	она	1	119	133	0	0	0	0	288	1667	она	nsubj	1668	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T290	14	1669	1669	PER	его	7871	7874	его	1	119	133	2	0	0	0	289	1669	его	obj	1668	PRON	PRON	Not_Assigned	Not_Assigned	3
+FAC_T291	227	1671	1672	FAC	другой комнаты	7878	7892	другой комнаты	2	119	133	4	0	0	0	290	1672	комнаты	obl	1668	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T292	13	1679	1679	PER	ей	7925	7927	ей	1	119	133	12	0	0	0	291	1679	ей	iobj	1678	PRON	PRON	Not_Assigned	Not_Assigned	3
+FAC_T293	226	1691	1691	FAC	улицу	7975	7980	улицу	1	119	133	24	0	0	0	292	1691	улицу	obl	1689	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T294	12	1693	1693	PER	Он	7983	7985	он	1	120	134	0	0	0	0	293	1693	он	nsubj	1695	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T295	10	1698	1698	PER	она	8004	8007	она	1	120	134	5	0	0	0	294	1698	она	nsubj	1701	PRON	PRON	Not_Assigned	Not_Assigned	3
+FAC_T296	225	1706	1707	FAC	Полицейского моста	8036	8054	полицейского моста	2	121	135	1	0	1	1	295	1707	моста	obl	1722	NOUN	NOM	Not_Assigned	Not_Assigned	3
+FAC_T297	224	1707	1707	FAC	моста	8049	8054	моста	1	121	135	2	1	0	0	296	1707	моста	obl	1722	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T298	1	1714	1721	PER	офицер с серебряными эполетами и с черным султаном	8073	8123	офицер с серебряными эполетами и с черным султаном	8	121	135	9	0	0	0	297	1717	эполетами	nmod	1714	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T299	9	1723	1730	PER	офицера с золотыми эполетами и с белым султаном	8134	8181	офицера с золотыми эполетами и с белым султаном	8	121	135	18	0	0	0	298	1726	эполетами	nmod	1723	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T300	6	1738	1740	PER	мон-шер	8197	8204	мон - шер	3	122	136	6	0	0	0	299	1738	мон	conj	1736	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T301	5	1745	1748	PER	офицер с черным султаном	8217	8241	офицер с черным султаном	4	122	136	13	0	0	0	300	1748	султаном	nmod	1745	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T302	4	1755	1758	PER	офицера с белым султаном	8273	8297	офицера с белым султаном	4	122	136	23	0	0	0	301	1758	султаном	nmod	1755	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T303	3	1766	1766	PER	ты	8320	8322	ты	1	122	136	34	0	0	0	302	1766	ты	nsubj	1768	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T304	2	1779	1781	PER	мон-шер	8382	8389	мон - шер	3	123	137	5	0	0	0	303	1779	мон	conj	1777	NOUN	NOM	Not_Assigned	Not_Assigned	3
+GPE_T305	239	1789	1789	GPE	Сюда	8410	8414	сюда	1	125	139	2	0	0	0	304	1789	сюда	obl	1772	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T306	20	1790	1791	PER	две француженки	8415	8430	две француженки	2	125	139	3	0	0	0	305	1791	француженки	nsubj	1792	NOUN	NOM	Not_Assigned	Not_Assigned	3
+GPE_T307	238	1798	1798	GPE	Парижа	8466	8472	парижа	1	125	139	11	0	0	0	306	1798	парижа	conj	1792	PROPN	PROP	Not_Assigned	Not_Assigned	3
+PER_T308	21	1800	1800	PER	я	8475	8476	я	1	125	139	13	0	0	0	307	1800	я	nsubj	1805	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T309	22	1802	1804	PER	одной из них	8480	8492	одной из них	3	125	139	15	0	1	1	308	1804	них	nmod	1802	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T310	40	1804	1804	PER	них	8489	8492	них	1	125	139	17	1	0	0	309	1804	них	nmod	1802	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T311	39	1807	1807	PER	она	8505	8508	она	1	125	139	20	0	0	0	310	1807	она	nsubj	1808	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T312	38	1809	1809	PER	мне	8518	8521	мне	1	125	139	22	0	0	0	311	1809	мне	iobj	1808	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T313	37	1814	1814	PER	я	8545	8546	я	1	125	139	27	0	0	0	312	1814	я	nsubj	1817	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T314	36	1820	1820	PER	она	8573	8576	она	1	126	140	1	0	0	0	313	1820	она	nsubj	1822	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T315	35	1825	1825	PER	Je	8594	8596	je	1	126	140	6	0	0	0	314	1825	je	parataxis	1822	X	PRON	Singular	Ambiguous	1
+PER_T316	34	1827	1827	PER	adore	8602	8607	adore	1	126	140	8	0	0	0	315	1827	adore	flat:foreign	1825	X	NOM	Not_Assigned	Not_Assigned	3
+PER_T317	33	1831	1831	PER	ты	8613	8615	ты	1	126	141	2	0	0	0	316	1831	ты	nsubj	1833	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T319	31	1838	1838	PER	ты	8642	8644	ты	1	127	142	3	0	0	0	317	1838	ты	nsubj	1840	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T318	32	1841	1843	PER	Петра Александрыча Разнатовского	8655	8687	петра александрыча разнатовского	3	127	142	6	0	0	0	318	1841	петра	obj	1840	PROPN	PROP	Singular	Not_Assigned	3
+PER_T320	29	1846	1846	PER	Пьер	8693	8697	пьер	1	128	143	0	0	0	0	319	1846	пьер	nsubj	1855	PROPN	PROP	Singular	Not_Assigned	3
+PER_T321	28	1849	1850	PER	славный малый	8705	8718	славный малый	2	128	143	3	0	0	0	320	1850	малый	amod	1846	ADJ	NOM	Not_Assigned	Not_Assigned	3
+PER_T322	27	1852	1852	PER	Я	8722	8723	я	1	129	144	0	0	0	0	321	1852	я	nsubj	1855	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T323	26	1854	1854	PER	него	8726	8730	него	1	129	144	2	0	0	0	322	1854	него	nmod	1855	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T324	25	1855	1855	PER	шафером	8731	8738	шафером	1	129	144	3	0	0	0	323	1855	шафером	ROOT	1855	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T325	24	1860	1860	PER	Мы	8756	8758	мы	1	130	145	0	0	0	0	324	1860	мы	nsubj	1865	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T326	84	1864	1864	PER	ним	8772	8775	ним	1	130	145	4	0	0	0	325	1864	ним	obl	1862	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T327	85	1867	1867	PER	я	8786	8787	я	1	130	145	7	0	0	0	326	1867	я	nsubj	1872	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T328	86	1869	1869	PER	него	8790	8794	него	1	130	145	9	0	0	0	327	1869	него	obl	1872	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T329	97	1879	1879	PER	себе	8840	8844	себе	1	130	145	19	0	0	0	328	1879	себе	obl	1877	PRON	PRON	Not_Assigned	Not_Assigned	3
+GPE_T330	237	1881	1881	GPE	деревню	8847	8854	деревню	1	130	145	21	0	0	0	329	1881	деревню	obl	1877	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T331	146	1890	1890	PER	братец	8878	8884	братец	1	131	146	5	0	0	0	330	1890	братец	obl	1872	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T332	145	1905	1906	PER	его жену	8928	8936	его жену	2	133	148	4	0	0	0	331	1906	жену	obj	1904	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T334	143	1908	1910	PER	мон-шер	8938	8945	мон - шер	3	133	148	7	0	0	0	332	1908	мон	conj	1904	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T335	142	1912	1912	PER	Она	8949	8952	она	1	134	149	0	0	0	0	333	1912	она	nsubj	1915	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T333	144	1914	1914	PER	Горбачевым	8955	8965	горбачевым	1	134	149	2	0	0	0	334	1914	горбачевым	obl	1915	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T336	141	1917	1918	PER	шармант персонь	8974	8989	шармант персонь	2	134	149	5	0	0	0	335	1917	шармант	nsubj	1919	NOUN	PROP	Singular	Not_Assigned	3
+PER_T337	140	1922	1922	PER	Она	9000	9003	она	1	135	150	0	0	0	0	336	1922	она	nsubj	1928	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T338	139	1939	1939	PER	братец	9086	9092	братец	1	136	151	6	0	0	0	337	1939	братец	conj	1928	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T339	138	1953	1953	PER	я	9142	9143	я	1	137	152	8	0	0	0	338	1953	я	nsubj	1956	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T340	136	1960	1962	PER	мон-шер	9174	9181	мон - шер	3	137	152	15	0	0	0	339	1960	мон	parataxis	1956	NOUN	NOM	Not_Assigned	Not_Assigned	3

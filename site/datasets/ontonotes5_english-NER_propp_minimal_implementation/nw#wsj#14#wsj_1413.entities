@@ -1,0 +1,33 @@
+cat	start_token	end_token	text	byte_onset	byte_offset	sentence_ID
+PERSON	1	1	Bush	10	14	0
+ORG	4	4	Pentagon	25	33	0
+DATE	23	24	last week	126	135	0
+PERSON	27	27	Bush	141	145	1
+ORG	29	29	Congress	152	160	1
+MONEY	33	35	$ 6 billion	173	184	1
+MONEY	37	39	$ 3 billion	190	201	1
+ORG	44	44	Defense	222	229	1
+PERSON	46	47	Dick Cheney	240	251	1
+ORG	52	52	Pentagon	272	280	1
+LAW	69	71	Gramm-Rudman	368	380	1
+ORG	87	87	House	456	461	2
+ORG	89	89	Senate	466	472	2
+PERSON	92	92	Cheney	478	484	2
+ORG	98	105	the White House Office of Management and Budget	517	564	2
+ORG	113	113	Senate	597	603	2
+ORG	121	121	Pentagon	641	649	3
+PERSON	155	156	James Sasser	815	827	4
+NORP	160	160	D.	832	834	4
+GPE	162	162	Tenn.-RRB	836	845	4
+ORG	165	168	the Senate Budget Committee	849	876	4
+LAW	190	192	Gramm-Rudman	975	987	5
+PERSON	211	211	Cheney	1072	1078	6
+ORG	218	218	Pentagon	1104	1112	7
+DATE	240	241	Last week	1220	1229	8
+ORG	243	243	Budget	1231	1237	8
+PERSON	245	246	Richard Darman	1247	1261	8
+MONEY	249	251	$ 16.1 billion	1277	1291	8
+CARDINAL	255	255	half	1312	1316	8
+PERCENT	314	315	4.3 %	1596	1601	10
+ORG	318	318	Pentagon	1609	1617	10
+PERCENT	322	323	5.3 %	1630	1635	10

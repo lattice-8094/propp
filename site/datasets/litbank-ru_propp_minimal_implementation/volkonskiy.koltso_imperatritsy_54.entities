@@ -1,0 +1,305 @@
+COREF_name	COREF	start_token	end_token	cat	sacr_text	byte_onset	byte_offset	text	mention_len	paragraph_ID	sentence_ID	start_token_ID_within_sentence	out_to_in_nested_level	in_to_out_nested_level	nested_entities_count	temp_index	head_id	head_word	head_dependency_relation	head_syntactic_head_ID	POS_tag	prop	number	gender	grammatical_person
+Lestok	0	0	0	PER	Он	0	2	он	1	0	0	0	0	0	0	0	0	он	nsubj	1	PRON	PRON	Not_Assigned	Not_Assigned	3
+T2	9	5	5	PER	посланного	34	44	посланного	1	0	0	5	0	0	0	1	5	посланного	obl	3	VERB	NOM	Not_Assigned	Not_Assigned	3
+PER_T3	28	7	7	PER	кто	46	49	кто	1	0	0	7	0	0	0	2	7	кто	nsubj	11	PRON	PRON	Not_Assigned	Not_Assigned	3
+T2	9	15	15	PER	того	76	80	того	1	0	0	15	0	0	0	3	15	того	obl	18	PRON	PRON	Not_Assigned	Not_Assigned	3
+T2	9	21	21	PER	он	108	110	он	1	0	0	21	0	0	0	4	21	он	nsubj	22	PRON	PRON	Not_Assigned	Not_Assigned	3
+T2	9	26	26	PER	ему	129	132	ему	1	0	0	26	0	0	0	5	26	ему	iobj	27	PRON	PRON	Not_Assigned	Not_Assigned	3
+T2	9	36	36	PER	он	183	185	он	1	0	0	36	0	0	0	6	36	он	nsubj	41	PRON	PRON	Not_Assigned	Not_Assigned	3
+Bestujev	1	49	50	PER	Алексей Петрович	231	247	алексей петрович	2	1	1	6	0	0	0	7	49	алексей	nsubj	51	PROPN	PROP	Singular	Not_Assigned	3
+Lestok	0	57	57	PER	Лестока	291	298	лестока	1	2	2	4	0	0	0	8	57	лестока	obj	56	PROPN	PROP	Singular	Not_Assigned	3
+houseofAlexey	43	67	68	PER	доме Бестужева	345	359	доме бестужева	2	2	2	14	0	1	1	9	67	доме	nmod	65	NOUN	PROP	Singular	Not_Assigned	3
+Bestujev	1	68	68	PER	Бестужева	350	359	бестужева	1	2	2	15	1	0	0	10	68	бестужева	nmod	67	PROPN	PROP	Singular	Not_Assigned	3
+chezBestujev	41	75	75	PER	них	383	386	них	1	2	2	22	0	0	0	11	75	них	obl	79	PRON	PRON	Not_Assigned	Not_Assigned	3
+Lestok	0	80	80	PER	ему	405	408	ему	1	2	2	27	0	0	0	12	80	ему	iobj	79	PRON	PRON	Not_Assigned	Not_Assigned	3
+Lestok	0	83	83	PER	Он	427	429	он	1	3	3	0	0	0	0	13	83	он	nsubj	84	PRON	PRON	Not_Assigned	Not_Assigned	3
+Lestok	0	106	106	PER	ему	535	538	ему	1	3	3	23	0	0	0	14	106	ему	iobj	108	PRON	PRON	Not_Assigned	Not_Assigned	3
+Lestok	0	125	125	PER	он	609	611	он	1	4	4	6	0	0	0	15	125	он	nsubj	126	PRON	PRON	Not_Assigned	Not_Assigned	3
+Lestok	0	129	129	PER	его	623	626	его	1	4	4	10	0	0	0	16	129	его	obj	130	PRON	PRON	Not_Assigned	Not_Assigned	3
+Bestujev	1	132	133	PER	Алексей Петрович	640	656	алексей петрович	2	4	4	13	0	0	0	17	132	алексей	nsubj	130	PROPN	PROP	Singular	Not_Assigned	3
+Lestok	0	136	136	PER	ему	662	665	ему	1	4	4	17	0	0	0	18	136	ему	iobj	137	PRON	PRON	Not_Assigned	Not_Assigned	3
+Lestok	0	143	143	PER	он	699	701	он	1	4	4	24	0	0	0	19	143	он	nsubj	144	PRON	PRON	Not_Assigned	Not_Assigned	3
+Lestok	0	156	156	PER	его	761	764	его	1	5	5	8	0	0	0	20	156	его	nmod	157	PRON	PRON	Not_Assigned	Not_Assigned	3
+sonofBestujev	3	157	183	PER	сын Бестужева, сказавший, что отец во дворце и хотел, правда, вернуться к его приезду, но, вероятно, его задержали у государыни	765	892	сын бестужева , сказавший , что отец во дворце и хотел , правда , вернуться к его приезду , но , вероятно , его задержали у государыни	27	5	5	9	0	1	6	21	181	задержали	ccomp	160	VERB	PROP	Singular	Not_Assigned	3
+Bestujev	1	158	158	PER	Бестужева	769	778	бестужева	1	5	5	10	1	0	0	22	158	бестужева	appos	157	PROPN	PROP	Singular	Not_Assigned	3
+Bestujev	1	163	163	PER	отец	795	799	отец	1	5	5	15	1	0	0	23	163	отец	nsubj	181	NOUN	NOM	Not_Assigned	Not_Assigned	3
+M1	61	165	165	FAC	дворце	803	809	дворце	1	5	5	17	1	0	0	24	165	дворце	nmod	163	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Lestok	0	173	173	PER	его	839	842	его	1	5	5	25	1	0	0	25	173	его	det	174	DET	PRON	Not_Assigned	Not_Assigned	3
+Bestujev	1	180	180	PER	его	866	869	его	1	5	5	32	1	0	0	26	180	его	obj	181	PRON	PRON	Not_Assigned	Not_Assigned	3
+governess	4	183	183	PER	государыни	882	892	государыни	1	5	5	35	1	0	0	27	183	государыни	obl	181	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Lestok	0	188	188	PER	его	907	910	его	1	6	6	3	0	0	0	28	188	его	obj	192	PRON	PRON	Not_Assigned	Not_Assigned	3
+Lestok	0	190	190	PER	Лестока	912	919	лестока	1	6	6	5	0	0	0	29	190	лестока	conj	188	PROPN	PROP	Singular	Not_Assigned	3
+FAC_T28	35	195	196	FAC	парадные комнаты	933	949	парадные комнаты	2	6	6	10	0	0	0	30	196	комнаты	obl	192	NOUN	NOM	Not_Assigned	Not_Assigned	3
+FAC_T29	49	203	203	FAC	зал	972	975	зал	1	6	6	18	0	0	0	31	203	зал	conj	200	NOUN	NOM	Not_Assigned	Not_Assigned	3
+FAC_T30	20	207	207	FAC	канцелярия	986	996	канцелярия	1	6	6	22	0	0	0	32	207	канцелярия	nsubj	206	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Lestok	0	217	217	PER	ему	1046	1049	ему	1	6	6	32	0	0	0	33	217	ему	iobj	218	PRON	PRON	Not_Assigned	Not_Assigned	3
+knyazKosoy	2	221	235	PER	князем Косым, которого он помнил отлично и который именно сегодня показался ему особенно неприятен	1073	1171	князем косым , которого он помнил отлично и который именно сегодня показался ему особенно неприятен	15	6	6	36	0	1	2	34	226	помнил	acl:relcl	221	VERB	PROP	Singular	Not_Assigned	3
+Lestok	0	225	225	PER	он	1096	1098	он	1	6	6	40	1	0	0	35	225	он	nsubj	226	PRON	PRON	Not_Assigned	Not_Assigned	3
+Lestok	0	233	233	PER	ему	1149	1152	ему	1	6	6	48	1	0	0	36	233	ему	iobj	235	PRON	PRON	Not_Assigned	Not_Assigned	3
+Lestok	0	239	239	PER	Лесток	1184	1190	лесток	1	7	7	2	0	0	0	37	239	лесток	nsubj	240	PROPN	PROP	Singular	Not_Assigned	3
+Lestok	0	244	244	PER	Он	1218	1220	он	1	8	8	0	0	0	0	38	244	он	nsubj	246	PRON	PRON	Not_Assigned	Not_Assigned	3
+knyazKosoy	2	249	250	PER	князя Ивана	1244	1255	князя ивана	2	8	8	5	0	0	0	39	249	князя	nmod	248	NOUN	PROP	Singular	Not_Assigned	3
+M2	62	257	257	FAC	домой	1287	1292	домой	1	8	8	13	0	0	0	40	257	домой	advmod	256	ADV	NOM	Not_Assigned	Not_Assigned	3
+Lestok	0	271	271	PER	сам	1347	1350	сам	1	8	8	27	0	0	0	41	271	сам	acl	272	ADJ	NOM	Not_Assigned	Not_Assigned	3
+T38	38	281	281	PER	больной	1392	1399	больной	1	9	9	4	0	0	0	42	281	больной	appos	279	ADJ	NOM	Not_Assigned	Not_Assigned	3
+Lestok	0	286	286	PER	он	1414	1416	он	1	9	10	3	0	0	0	43	286	он	nsubj	285	PRON	PRON	Not_Assigned	Not_Assigned	3
+sonofBestujev	3	290	291	PER	молодому Бестужеву	1430	1448	молодому бестужеву	2	9	10	7	0	0	0	44	291	бестужеву	obl	288	PROPN	PROP	Singular	Not_Assigned	3
+knyazKosoy	2	297	297	PER	Косого	1470	1476	косого	1	9	10	14	0	0	0	45	297	косого	nsubj	302	PROPN	PROP	Singular	Not_Assigned	3
+FAC_T42	60	302	302	FAC	комнате	1489	1496	комнате	1	9	10	19	0	0	0	46	302	комнате	obl	288	NOUN	NOM	Not_Assigned	Not_Assigned	3
+sonofBestujev	3	304	305	PER	Андрей Алексеевич	1499	1516	андрей алексеевич	2	10	11	0	0	0	0	47	304	андрей	nsubj	306	PROPN	PROP	Singular	Not_Assigned	3
+bedroom	8	309	309	FAC	спальню	1532	1539	спальню	1	10	11	5	0	0	0	48	309	спальню	nmod	307	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Lestok	0	311	311	PER	Лесток	1542	1548	лесток	1	11	12	0	0	0	0	49	311	лесток	nsubj	322	NOUN	PROP	Singular	Not_Assigned	3
+Lestok	0	318	321	PER	знающего свое дело доктора	1583	1609	знающего свое дело доктора	4	11	12	7	0	1	1	50	320	дело	obj	318	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Lestok	0	319	319	PER	свое	1592	1596	свое	1	11	12	8	1	0	0	51	319	свое	det	320	DET	PRON	Not_Assigned	Not_Assigned	3
+knyazKosoy	2	325	326	PER	Князю Ивану	1623	1634	князю ивану	2	12	13	0	0	0	0	52	325	князю	obj	330	PROPN	PROP	Singular	Not_Assigned	3
+Lestok	0	336	336	PER	Лестоком	1679	1687	лестоком	1	12	13	11	0	0	0	53	336	лестоком	obl	334	PROPN	PROP	Singular	Not_Assigned	3
+bedroom	8	338	338	FAC	спальню	1690	1697	спальню	1	12	13	13	0	0	0	54	338	спальню	obl	334	NOUN	NOM	Not_Assigned	Not_Assigned	3
+knyazKosoy	2	341	341	PER	он	1702	1704	он	1	12	13	16	0	0	0	55	341	он	nsubj	342	PRON	PRON	Not_Assigned	Not_Assigned	3
+bedroom	8	345	345	FAC	туда	1718	1722	туда	1	12	13	20	0	0	0	56	345	туда	advmod	344	ADV	NOM	Not_Assigned	Not_Assigned	3
+sonofBestujev	3	348	349	PER	молодой Бестужев	1731	1747	молодой бестужев	2	12	13	23	0	0	0	57	349	бестужев	nsubj	347	PROPN	PROP	Singular	Not_Assigned	3
+sonofBestujev	3	356	356	PER	ним	1774	1777	ним	1	12	13	31	0	0	0	58	356	ним	obl	353	PRON	PRON	Not_Assigned	Not_Assigned	3
+sonofBestujev	3	359	360	PER	Андрей Алексеевич	1787	1804	андрей алексеевич	2	13	14	1	0	0	0	59	359	андрей	nsubj	367	PROPN	PROP	Singular	Not_Assigned	3
+Lestok	0	363	365	PER	лейб-медика	1816	1827	лейб - медика	3	13	14	5	0	0	0	60	363	лейб	obj	362	NOUN	NOM	Not_Assigned	Not_Assigned	3
+knyazKosoy	2	372	373	PER	князю Ивану	1861	1872	князю ивану	2	13	14	14	0	0	0	61	372	князю	iobj	371	NOUN	PROP	Singular	Not_Assigned	3
+Bestujev	1	377	377	PER	Батюшка	1879	1886	батюшка	1	13	14	19	0	0	0	62	377	батюшка	appos	372	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Lestok	0	380	380	PER	его	1905	1908	его	1	13	14	22	0	0	0	63	380	его	obj	379	PRON	PRON	Not_Assigned	Not_Assigned	3
+Lestok	0	385	385	PER	Лесток	1927	1933	лесток	1	15	16	0	0	0	0	64	385	лесток	nsubj	386	NOUN	PROP	Singular	Not_Assigned	3
+knyazKosoy	2	392	393	PER	Князь Иван	1971	1981	князь иван	2	16	17	0	0	0	0	65	392	князь	nsubj	397	NOUN	PROP	Singular	Not_Assigned	3
+sonofBestujev	3	395	396	PER	молодым Бестужевым	1984	2002	молодым бестужевым	2	16	17	3	0	0	0	66	396	бестужевым	nmod	392	PROPN	PROP	Singular	Not_Assigned	3
+Lestok	0	398	398	PER	его	2009	2012	его	1	16	17	6	0	0	0	67	398	его	obj	397	PRON	PRON	Not_Assigned	Not_Assigned	3
+knyazKosoy	2	403	403	PER	Косой	2034	2039	косой	1	17	18	0	0	0	0	68	403	косой	nsubj	404	NOUN	NOM	Not_Assigned	Not_Assigned	3
+sonofBestujev	3	405	406	PER	Андрею Алексеевичу	2048	2066	андрею алексеевичу	2	17	18	2	0	0	0	69	405	андрею	iobj	404	PROPN	PROP	Singular	Not_Assigned	3
+knyazKosoy	2	410	410	PER	сам	2081	2084	сам	1	17	18	7	0	0	0	70	410	сам	amod	412	ADJ	NOM	Not_Assigned	Not_Assigned	3
+Lestok	0	424	424	PER	Лестоком	2152	2160	лестоком	1	17	18	21	0	0	0	71	424	лестоком	nmod	422	PROPN	PROP	Singular	Not_Assigned	3
+Opolchinin	7	426	428	PER	его неудачным посланным	2163	2186	его неудачным посланным	3	17	18	23	0	1	1	72	428	посланным	conj	424	VERB	NOM	Not_Assigned	Not_Assigned	3
+knyazKosoy	2	426	426	PER	его	2163	2166	его	1	17	18	23	1	0	0	73	426	его	det	428	PRON	PRON	Not_Assigned	Not_Assigned	3
+knyazKosoy	2	430	430	PER	Он	2189	2191	он	1	18	19	0	0	0	0	74	430	он	nsubj	431	PRON	PRON	Not_Assigned	Not_Assigned	3
+Opolchinin	7	435	435	PER	Ополчинин	2206	2215	ополчинин	1	18	19	5	0	0	0	75	435	ополчинин	nsubj	436	PROPN	PROP	Singular	Not_Assigned	3
+Opolchinin	7	438	438	PER	себя	2225	2229	себя	1	18	19	8	0	0	0	76	438	себя	obl	436	PRON	PRON	Not_Assigned	Not_Assigned	3
+Opolchinin	7	449	449	PER	нему	2269	2273	нему	1	18	19	19	0	0	0	77	449	нему	obl	447	PRON	PRON	Not_Assigned	Not_Assigned	3
+Lestok	0	454	454	PER	Лестока	2308	2315	лестока	1	19	20	3	0	0	0	78	454	лестока	nmod	453	PROPN	PROP	Singular	Not_Assigned	3
+knyazKosoy	2	457	457	PER	князь	2326	2331	князь	1	19	20	6	0	0	0	79	457	князь	nsubj	458	NOUN	NOM	Not_Assigned	Not_Assigned	3
+OpolchininLestok	26	461	461	PER	они	2348	2351	они	1	19	20	10	0	0	0	80	461	они	nsubj	462	PRON	PRON	Not_Assigned	Not_Assigned	3
+Opolchinin	7	481	481	PER	Ополчинина	2436	2446	ополчинина	1	19	20	30	0	0	0	81	481	ополчинина	obl	476	PROPN	PROP	Singular	Not_Assigned	3
+OpolchininLestok	26	485	485	PER	они	2465	2468	они	1	20	21	2	0	0	0	82	485	они	nsubj	484	PRON	PRON	Not_Assigned	Not_Assigned	3
+bedroom	8	500	500	FAC	спальни	2528	2535	спальни	1	20	21	17	0	0	0	83	500	спальни	obl	498	NOUN	NOM	Not_Assigned	Not_Assigned	3
+sonofBestujev	3	505	505	PER	я	2544	2545	я	1	21	22	3	0	0	0	84	505	я	nsubj	507	PRON	PRON	Not_Assigned	Not_Assigned	3
+Bestujev	1	511	511	PER	батюшка	2568	2575	батюшка	1	21	22	9	0	0	0	85	511	батюшка	nsubj	512	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Lestok	0	515	517	PER	лейб-медика	2595	2606	лейб - медика	3	21	22	13	0	0	0	86	515	лейб	nmod	514	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Lestok	0	521	521	PER	он	2613	2615	он	1	21	22	19	0	0	0	87	521	он	nsubj	525	PRON	PRON	Not_Assigned	Not_Assigned	3
+sonofBestujev	3	534	534	PER	его	2667	2670	его	1	22	23	7	0	0	0	88	534	его	obj	533	PRON	PRON	Not_Assigned	Not_Assigned	3
+knyazKosoy	2	535	535	PER	Косой	2671	2676	косой	1	22	23	8	0	0	0	89	535	косой	nsubj	533	PROPN	PROP	Singular	Not_Assigned	3
+VEH_T81	39	547	549	VEH	карета Алексея Петровича	2721	2745	карета алексея петровича	3	22	23	20	0	1	1	90	547	карета	conj	507	NOUN	PROP	Not_Assigned	Not_Assigned	3
+Bestujev	1	548	549	PER	Алексея Петровича	2728	2745	алексея петровича	2	22	23	21	1	0	0	91	548	алексея	nmod	547	PROPN	PROP	Singular	Not_Assigned	3
+sonofBestujev	3	565	566	PER	молодой Бестужев	2794	2810	молодой бестужев	2	24	26	3	0	0	0	92	566	бестужев	nsubj	564	PROPN	PROP	Singular	Not_Assigned	3
+Bestujev	1	572	573	PER	Алексей Петрович	2831	2847	алексей петрович	2	25	27	0	0	0	0	93	572	алексей	nsubj	576	PROPN	PROP	Singular	Not_Assigned	3
+governess	4	578	578	PER	государыни	2864	2874	государыни	1	25	27	6	0	0	0	94	578	государыни	obl	576	NOUN	NOM	Not_Assigned	Not_Assigned	3
+FAC_T30	20	595	595	FAC	канцелярию	2951	2961	канцелярию	1	25	27	23	0	0	0	95	595	канцелярию	obl	593	NOUN	NOM	Not_Assigned	Not_Assigned	3
+FAC_T87	33	597	599	FAC	помещение князя Ивана	2964	2985	помещение князя ивана	3	25	27	25	0	1	1	96	597	помещение	obl	593	NOUN	PROP	Not_Assigned	Not_Assigned	3
+knyazKosoy	2	598	599	PER	князя Ивана	2974	2985	князя ивана	2	25	27	26	1	0	0	97	598	князя	nmod	597	NOUN	PROP	Singular	Not_Assigned	3
+Bestujev	1	622	622	PER	он	3067	3069	он	1	26	29	3	0	0	0	98	622	он	nsubj	621	PRON	PRON	Not_Assigned	Not_Assigned	3
+knyazKosoy	2	623	623	PER	Косому	3070	3076	косому	1	26	29	4	0	0	0	99	623	косому	iobj	621	PROPN	PROP	Singular	Not_Assigned	3
+governess	4	627	627	PER	Государыня	3083	3093	государыня	1	27	30	2	0	0	0	100	627	государыня	obj	632	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Bestujev	1	629	629	PER	меня	3101	3105	меня	1	27	30	4	0	0	0	101	629	меня	obj	632	PRON	PRON	Not_Assigned	Not_Assigned	3
+governess	4	635	635	PER	Ей	3133	3135	ей	1	28	31	0	0	0	0	102	635	ей	iobj	637	PRON	PRON	Not_Assigned	Not_Assigned	3
+Bestujev	1	639	639	PER	Он	3151	3153	он	1	29	32	0	0	0	0	103	639	он	nsubj	640	PRON	PRON	Not_Assigned	Not_Assigned	3
+knyazKosoy	2	649	650	PER	князь Иван	3188	3198	князь иван	2	29	32	10	0	0	0	104	649	князь	nsubj	652	NOUN	PROP	Singular	Not_Assigned	3
+Lestok	0	676	676	PER	он	3313	3315	он	1	30	33	3	0	0	0	105	676	он	nsubj	677	PRON	PRON	Not_Assigned	Not_Assigned	3
+Bestujev	1	682	682	PER	Бестужев	3334	3342	бестужев	1	30	34	3	0	0	0	106	682	бестужев	iobj	681	PROPN	PROP	Singular	Not_Assigned	3
+Lestok	0	688	690	PER	Лейб-медик	3360	3370	лейб - медик	3	31	35	2	0	0	0	107	689		nsubj	696	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Opolchinin	7	692	692	PER	больного	3373	3381	больного	1	31	35	6	0	0	0	108	692	больного	nmod	690	NOUN	NOM	Not_Assigned	Not_Assigned	3
+knyazKosoy	2	697	698	PER	князь Иван	3395	3405	князь иван	2	31	35	11	0	0	0	109	697	князь	nsubj	696	NOUN	PROP	Singular	Not_Assigned	3
+Bestujev	1	714	714	PER	меня	3471	3475	меня	1	33	37	1	0	0	0	110	714	меня	obj	713	PRON	PRON	Not_Assigned	Not_Assigned	3
+Bestujev	1	718	718	PER	мне	3490	3493	мне	1	33	37	5	0	0	0	111	718	мне	iobj	719	PRON	PRON	Not_Assigned	Not_Assigned	3
+Lestok	0	722	722	PER	ним	3515	3518	ним	1	33	37	9	0	0	0	112	722	ним	obl	720	PRON	PRON	Not_Assigned	Not_Assigned	3
+Bestujev	1	727	727	PER	Бестужев	3535	3543	бестужев	1	33	37	14	0	0	0	113	727	бестужев	nsubj	713	PROPN	PROP	Singular	Not_Assigned	3
+knyazKosoy	2	729	730	PER	Князь Иван	3546	3556	князь иван	2	34	38	0	0	0	0	114	729	князь	nsubj	734	NOUN	PROP	Singular	Not_Assigned	3
+sonofBestujev	3	732	733	PER	Андрей Алексеевич	3559	3576	андрей алексеевич	2	34	38	3	0	0	0	115	732	андрей	conj	730	PROPN	PROP	Singular	Not_Assigned	3
+Bestujev	1	737	737	PER	один	3595	3599	один	1	35	39	1	0	0	0	116	737	один	nsubj	736	DET	PRON	Not_Assigned	Not_Assigned	3
+Bestujev	1	739	740	PER	Алексей Петрович	3601	3617	алексей петрович	2	35	39	3	0	0	0	117	739	алексей	nsubj	741	PROPN	PROP	Singular	Not_Assigned	3
+FAC_T109	63	743	743	FAC	комнате	3630	3637	комнате	1	35	39	7	0	0	0	118	743	комнате	obl	741	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Bestujev	1	757	757	PER	свое	3704	3708	свое	1	35	39	21	0	0	0	119	757	свое	det	758	DET	PRON	Not_Assigned	Not_Assigned	3
+Bestujev	1	775	775	PER	нем	3808	3811	нем	1	35	39	39	0	0	0	120	775	нем	obl	773	PRON	PRON	Not_Assigned	Not_Assigned	3
+Bestujev	1	777	777	PER	Он	3814	3816	он	1	36	40	0	0	0	0	121	777	он	nsubj	778	PRON	PRON	Not_Assigned	Not_Assigned	3
+knyazKosoy	2	782	783	PER	князя Ивана	3844	3855	князя ивана	2	36	40	5	0	0	0	122	782	князя	nmod	781	NOUN	PROP	Singular	Not_Assigned	3
+Sonya	19	807	807	PER	Сонюшки	3996	4003	сонюшки	1	37	41	6	0	0	0	123	807	сонюшки	nmod	806	PROPN	PROP	Singular	Not_Assigned	3
+Bestujev	1	810	811	PER	Алексеем Петровичем	4016	4035	алексеем петровичем	2	37	41	9	0	0	0	124	810	алексеем	obl:agent	809	PROPN	PROP	Singular	Not_Assigned	3
+T114	32	812	812	PER	Караваку	4036	4044	караваку	1	37	41	11	0	0	0	125	812	караваку	flat:name	810	PROPN	PROP	Singular	Not_Assigned	3
+knyazKosoy	2	814	815	PER	князя Ивана	4049	4060	князя ивана	2	37	41	13	0	0	0	126	814	князя	obl	809	NOUN	PROP	Singular	Not_Assigned	3
+bedroom	8	829	829	FAC	спальни	4132	4139	спальни	1	39	43	1	0	0	0	127	829	спальни	nmod	828	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Lestok	0	833	836	PER	Лесток, весь красный	4154	4174	лесток , весь красный	4	39	43	5	0	0	0	128	836	красный	amod	833	ADJ	PROP	Singular	Not_Assigned	3
+Bestujev	1	851	852	PER	сам Бестужев	4250	4262	сам бестужев	2	39	43	23	0	0	0	129	852	бестужев	nsubj	853	PROPN	PROP	Singular	Not_Assigned	3
+Lestok	0	854	854	PER	его	4268	4271	его	1	39	43	26	0	0	0	130	854	его	obj	853	PRON	PRON	Not_Assigned	Not_Assigned	3
+LestokBestujev	15	857	857	PER	Они	4278	4281	они	1	40	44	0	0	0	0	131	857	они	nsubj	858	PRON	PRON	Not_Assigned	Not_Assigned	3
+LestokBestujev	15	859	860	PER	друг другу	4293	4303	друг другу	2	40	44	2	0	0	0	132	859	друг	iobj	858	PRON	PRON	Not_Assigned	Not_Assigned	3
+Lestok	0	865	865	PER	Лесток	4315	4321	лесток	1	40	44	8	0	0	0	133	865	лесток	nsubj	866	PROPN	PROP	Singular	Not_Assigned	3
+Bestujev	1	869	870	PER	Алексей Петрович	4333	4349	алексей петрович	2	40	44	12	0	0	0	134	869	алексей	nsubj	872	PROPN	PROP	Singular	Not_Assigned	3
+Bestujev	1	890	890	PER	Бестужев	4438	4446	бестужев	1	42	46	1	0	0	0	135	890	бестужев	nsubj	900	PROPN	PROP	Singular	Not_Assigned	3
+Opolchinin	7	907	907	PER	больной	4526	4533	больной	1	42	46	18	0	0	0	136	907	больной	ccomp	900	ADJ	NOM	Not_Assigned	Not_Assigned	3
+Lestok	0	909	909	PER	Лесток	4537	4543	лесток	1	43	47	0	0	0	0	137	909	лесток	nsubj	915	NOUN	PROP	Singular	Not_Assigned	3
+Lestok	0	913	913	PER	собою	4554	4559	собою	1	43	47	4	0	0	0	138	913	собою	obl	911	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Lestok	0	935	935	PER	Он	4675	4677	он	1	45	49	0	0	0	0	139	935	он	nsubj	936	PRON	PRON	Not_Assigned	Not_Assigned	3
+Lestok	0	938	938	PER	доктор	4690	4696	доктор	1	45	49	3	0	0	0	140	938	доктор	obl	936	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Lestok	0	947	947	PER	он	4733	4735	он	1	45	49	12	0	0	0	141	947	он	nsubj	948	PRON	PRON	Not_Assigned	Not_Assigned	3
+Lestok	0	951	951	PER	доктор	4753	4759	доктор	1	45	49	16	0	0	0	142	951	доктор	obl	948	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Lestok	0	960	960	PER	Он	4811	4813	он	1	46	50	0	0	0	0	143	960	он	nsubj	961	PRON	PRON	Not_Assigned	Not_Assigned	3
+Lestok	0	974	974	PER	него	4872	4876	него	1	46	50	14	0	0	0	144	974	него	conj	961	PRON	PRON	Not_Assigned	Not_Assigned	3
+Bestujev	1	979	979	PER	Бестужев	4895	4903	бестужев	1	46	50	19	0	0	0	145	979	бестужев	nsubj	980	PROPN	PROP	Singular	Not_Assigned	3
+Lestok	0	981	981	PER	его	4914	4917	его	1	46	50	21	0	0	0	146	981	его	obj	980	PRON	PRON	Not_Assigned	Not_Assigned	3
+Bestujev	1	988	988	PER	я	4938	4939	я	1	47	51	5	0	0	0	147	988	я	nsubj:pass	990	PRON	PRON	Not_Assigned	Not_Assigned	3
+Lestok	0	993	993	PER	вас	4973	4976	вас	1	47	51	10	0	0	0	148	993	вас	obj	992	PRON	PRON	Not_Assigned	Not_Assigned	3
+Bestujev	1	999	999	PER	он	4999	5001	он	1	47	51	16	0	0	0	149	999	он	nsubj	998	PRON	PRON	Not_Assigned	Not_Assigned	3
+Bestujev	1	1004	1004	PER	я	5010	5011	я	1	47	51	21	0	0	0	150	1004	я	nsubj	1007	PRON	PRON	Not_Assigned	Not_Assigned	3
+governess	4	1007	1007	PER	государыни	5021	5031	государыни	1	47	51	24	0	0	0	151	1007	государыни	obl	990	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Bestujev	1	1012	1012	PER	он	5042	5044	он	1	48	52	3	0	0	0	152	1012	он	nsubj	1013	PRON	PRON	Not_Assigned	Not_Assigned	3
+Bestujev	1	1015	1015	PER	свое	5056	5060	свое	1	48	52	6	0	0	0	153	1015	свое	det	1017	DET	PRON	Not_Assigned	Not_Assigned	3
+Lestok	0	1019	1019	PER	Лесток	5080	5086	лесток	1	49	53	0	0	0	0	154	1019	лесток	nsubj	1021	NOUN	PROP	Singular	Not_Assigned	3
+Lestok	0	1027	1027	PER	Ему	5127	5130	ему	1	50	54	0	0	0	0	155	1027	ему	iobj	1030	PRON	PRON	Not_Assigned	Not_Assigned	3
+Bestujev	1	1037	1037	PER	Бестужев	5185	5193	бестужев	1	50	54	10	0	0	0	156	1037	бестужев	nsubj	1036	PROPN	PROP	Singular	Not_Assigned	3
+Lestok	0	1045	1045	PER	он	5226	5228	он	1	50	54	18	0	0	0	157	1045	он	nsubj	1044	PRON	PRON	Not_Assigned	Not_Assigned	3
+Bestujev	1	1050	1052	PER	вице-канцлер	5248	5260	вице - канцлер	3	51	55	2	0	0	0	158	1050	вице	nsubj	1054	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Bestujev	1	1058	1058	PER	Мне	5282	5285	мне	1	51	55	10	0	0	0	159	1058	мне	iobj	1062	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Lestok	0	1064	1064	PER	вам	5309	5312	вам	1	51	55	16	0	0	0	160	1064	вам	iobj	1063	PRON	PRON	Not_Assigned	Not_Assigned	3
+Lestok	0	1077	1077	PER	мне	5383	5386	мне	1	52	56	4	0	0	0	161	1077	мне	iobj	1078	PRON	PRON	Not_Assigned	Not_Assigned	3
+Lestok	0	1084	1084	PER	Лесток	5411	5417	лесток	1	52	56	11	0	0	0	162	1084	лесток	nsubj	1054	PROPN	PROP	Singular	Not_Assigned	3
+governess	4	1090	1091	PER	ее величества	5438	5451	ее величества	2	53	57	4	0	0	0	163	1091	величества	nmod	1089	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Bestujev	1	1096	1096	PER	Бестужев	5464	5472	бестужев	1	53	57	10	0	0	0	164	1096	бестужев	nsubj	1095	PROPN	PROP	Singular	Not_Assigned	3
+Lestok	0	1098	1098	PER	Лесток	5475	5481	лесток	1	54	58	0	0	0	0	165	1098	лесток	nsubj	1099	NOUN	PROP	Singular	Not_Assigned	3
+Lestok	0	1102	1102	PER	он	5498	5500	он	1	54	58	4	0	0	0	166	1102	он	nsubj	1103	PRON	PRON	Not_Assigned	Not_Assigned	3
+governess	4	1111	1111	PER	императрицы	5553	5564	императрицы	1	54	58	13	0	0	0	167	1111	императрицы	nmod	1110	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Lestok	0	1114	1114	PER	он	5574	5576	он	1	55	59	1	0	0	0	168	1114	он	nsubj	1115	PRON	PRON	Not_Assigned	Not_Assigned	3
+Bestujev	1	1120	1121	PER	Алексей Петрович	5602	5618	алексей петрович	2	55	59	7	0	0	0	169	1120	алексей	nsubj	1122	PROPN	PROP	Singular	Not_Assigned	3
+Lestok	0	1125	1125	PER	ему	5646	5649	ему	1	55	59	12	0	0	0	170	1125	ему	iobj	1124	PRON	PRON	Not_Assigned	Not_Assigned	3
+Lestok	0	1128	1128	PER	Лесток	5657	5663	лесток	1	56	60	0	0	0	0	171	1128	лесток	nsubj	1132	NOUN	PROP	Singular	Not_Assigned	3
+Lestok	0	1142	1142	PER	Он	5734	5736	он	1	57	61	0	0	0	0	172	1142	он	nsubj	1143	PRON	PRON	Not_Assigned	Not_Assigned	3
+Lestok	0	1150	1150	PER	он	5770	5772	он	1	57	61	8	0	0	0	173	1150	он	nsubj	1154	PRON	PRON	Not_Assigned	Not_Assigned	3
+Lestok	0	1168	1168	PER	он	5839	5841	он	1	58	63	3	0	0	0	174	1168	он	nsubj	1167	PRON	PRON	Not_Assigned	Not_Assigned	3
+Lestok	0	1174	1174	PER	вы	5861	5863	вы	1	59	64	3	0	0	0	175	1174	вы	nsubj	1179	PRON	PRON	Not_Assigned	Not_Assigned	3
+Shetardi	6	1181	1181	PER	Шетарди	5891	5898	шетарди	1	59	64	10	0	0	0	176	1181	шетарди	obl	1179	PROPN	PROP	Singular	Not_Assigned	3
+M3	69	1190	1190	PER	всеми	5919	5924	всеми	1	60	65	7	0	0	0	177	1190	всеми	obl	1179	PRON	PRON	Not_Assigned	Not_Assigned	3
+Lestok	0	1195	1195	PER	Лесток	5938	5944	лесток	1	60	65	12	0	0	0	178	1195	лесток	nsubj	1194	PROPN	PROP	Singular	Not_Assigned	3
+Lestok	0	1206	1206	PER	вами	5981	5985	вами	1	61	66	7	0	0	0	179	1206	вами	obl	1210	PRON	PRON	Not_Assigned	Not_Assigned	3
+Shetardi	6	1208	1209	PER	французским послом	5988	6006	французским послом	2	61	66	9	0	0	0	180	1209	послом	conj	1206	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Lestok	0	1219	1219	PER	Я	6067	6068	я	1	63	68	0	0	0	0	181	1219	я	nsubj	1220	PRON	PRON	Not_Assigned	Not_Assigned	3
+Bestujev	1	1228	1228	PER	я	6105	6106	я	1	64	69	4	0	0	0	182	1228	я	nsubj	1229	PRON	PRON	Not_Assigned	Not_Assigned	3
+Bestujev	1	1234	1234	PER	Бестужев	6124	6132	бестужев	1	64	69	10	0	0	0	183	1234	бестужев	nsubj	1233	PROPN	PROP	Singular	Not_Assigned	3
+Bestujev	1	1246	1246	PER	него	6178	6182	него	1	64	70	5	0	0	0	184	1246	него	ROOT	1246	PRON	PRON	Not_Assigned	Not_Assigned	3
+Bestujev	1	1260	1260	PER	он	6226	6228	он	1	65	72	3	0	0	0	185	1260	он	nsubj	1259	PRON	PRON	Not_Assigned	Not_Assigned	3
+Shetardi	6	1265	1265	PER	ему	6245	6248	ему	1	66	73	3	0	0	0	186	1265	ему	iobj	1264	PRON	PRON	Not_Assigned	Not_Assigned	3
+Shetardi	6	1268	1268	PER	он	6256	6258	он	1	66	73	6	0	0	0	187	1268	он	nsubj	1269	PRON	PRON	Not_Assigned	Not_Assigned	3
+GPE_T173	11	1277	1277	GPE	Францию	6294	6301	францию	1	66	73	15	0	0	0	188	1277	францию	conj	1274	PROPN	PROP	Not_Assigned	Not_Assigned	3
+GPE_T173	11	1284	1284	GPE	Францию	6320	6327	францию	1	67	74	5	0	0	0	189	1284	францию	conj	1273	PROPN	PROP	Not_Assigned	Not_Assigned	3
+Lestok	0	1293	1293	PER	Лесток	6360	6366	лесток	1	67	75	7	0	0	0	190	1293	лесток	conj	1291	PROPN	PROP	Singular	Not_Assigned	3
+Shetardi	6	1300	1301	PER	французский посол	6385	6402	французский посол	2	69	77	1	0	0	0	191	1301	посол	nsubj	1302	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Shetardi	6	1313	1313	PER	него	6448	6452	него	1	70	78	8	0	0	0	192	1313	него	obl	1311	PRON	PRON	Not_Assigned	Not_Assigned	3
+governess	4	1320	1320	PER	государыня	6468	6478	государыня	1	71	79	5	0	0	0	193	1320	государыня	nsubj	1321	NOUN	NOM	Not_Assigned	Not_Assigned	3
+governess	4	1327	1327	PER	ее	6509	6511	ее	1	72	80	4	0	0	0	194	1327	ее	det	1328	DET	PRON	Not_Assigned	Not_Assigned	3
+governess	4	1340	1340	PER	императрица	6561	6572	императрица	1	72	80	17	0	0	0	195	1340	императрица	nsubj	1342	NOUN	NOM	Not_Assigned	Not_Assigned	3
+GPE_T173	11	1346	1346	GPE	Францией	6601	6609	францией	1	72	80	23	0	0	0	196	1346	францией	nmod	1344	PROPN	PROP	Not_Assigned	Not_Assigned	3
+governess	4	1361	1362	PER	ее величеству	6669	6682	ее величеству	2	72	80	38	0	0	0	197	1361	ее	obj	1360	PRON	PRON	Not_Assigned	Not_Assigned	3
+Shetardi	6	1363	1363	PER	Шетарди	6683	6690	шетарди	1	72	80	40	0	0	0	198	1363	шетарди	appos	1362	PROPN	PROP	Singular	Not_Assigned	3
+governess	4	1366	1366	PER	она	6698	6701	она	1	72	80	43	0	0	0	199	1366	она	nsubj	1368	PRON	PRON	Not_Assigned	Not_Assigned	3
+M5	65	1368	1368	PER	цесаревною	6707	6717	цесаревною	1	72	80	45	0	0	0	200	1368	цесаревною	advcl	1360	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Shetardi	6	1380	1380	PER	его	6766	6769	его	1	73	81	10	0	0	0	201	1380	его	det	1382	DET	PRON	Not_Assigned	Not_Assigned	3
+Shetardi	6	1387	1387	PER	его	6824	6827	его	1	73	81	17	0	0	0	202	1387	его	obj	1386	PRON	PRON	Not_Assigned	Not_Assigned	3
+Lestok	0	1403	1403	PER	Лесток	6891	6897	лесток	1	75	83	4	0	0	0	203	1403	лесток	nsubj	1402	PROPN	PROP	Singular	Not_Assigned	3
+GPE_T187	10	1414	1414	GPE	Швецией	6938	6945	швецией	1	75	83	15	0	0	0	204	1414	швецией	nmod	1412	PROPN	PROP	Not_Assigned	Not_Assigned	3
+Nolken	5	1418	1418	PER	Нолькен	6959	6966	нолькен	1	76	84	2	0	0	0	205	1418	нолькен	nsubj	1419	PROPN	PROP	Singular	Not_Assigned	3
+Nolken	5	1425	1425	PER	его	6989	6992	его	1	77	85	4	0	0	0	206	1425	его	obj	1426	PRON	PRON	Not_Assigned	Not_Assigned	3
+Bestujev	1	1445	1445	PER	Бестужев	7093	7101	бестужев	1	79	88	3	0	0	0	207	1445	бестужев	nsubj	1444	PROPN	PROP	Singular	Not_Assigned	3
+swedish	13	1456	1456	PER	шведы	7146	7151	шведы	1	80	89	9	0	0	0	208	1456	шведы	nsubj	1457	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T191	48	1472	1473	PER	наши войска	7229	7240	наши войска	2	81	90	6	0	1	1	209	1473	войска	nsubj	1476	NOUN	NOM	Not_Assigned	Not_Assigned	3
+M4	64	1472	1472	PER	наши	7229	7233	наши	1	81	90	6	1	0	0	210	1472	наши	det	1473	DET	PRON	Not_Assigned	Not_Assigned	3
+Lestok	0	1493	1493	PER	вы	7349	7351	вы	1	82	91	4	0	0	0	211	1493	вы	nsubj	1494	PRON	PRON	Not_Assigned	Not_Assigned	3
+GPE_T193	24	1497	1497	GPE	Россия	7366	7372	россия	1	82	91	8	0	0	0	212	1497	россия	nsubj	1498	PROPN	PROP	Not_Assigned	Not_Assigned	3
+GPE_T187	10	1502	1502	GPE	Швеции	7395	7401	швеции	1	82	91	13	0	0	0	213	1502	швеции	iobj	1501	PROPN	PROP	Not_Assigned	Not_Assigned	3
+T195	21	1518	1519	PER	Петра Великого	7492	7506	петра великого	2	83	92	10	0	0	0	214	1518	петра	nmod	1517	PROPN	PROP	Singular	Not_Assigned	3
+GPE_T187	10	1522	1522	GPE	Швеции	7512	7518	швеции	1	84	93	0	0	0	0	215	1522	швеции	iobj	1523	PROPN	PROP	Not_Assigned	Not_Assigned	3
+GPE_T173	11	1536	1536	GPE	Франции	7570	7577	франции	1	85	94	6	0	0	0	216	1536	франции	iobj	1535	PROPN	PROP	Not_Assigned	Not_Assigned	3
+GPE_T198	27	1545	1545	GPE	Европы	7603	7609	европы	1	86	95	6	0	0	0	217	1545	европы	nmod	1544	PROPN	PROP	Not_Assigned	Not_Assigned	3
+Lestok	0	1553	1553	PER	Лесток	7649	7655	лесток	1	87	96	5	0	0	0	218	1553	лесток	obj	1552	PROPN	PROP	Singular	Not_Assigned	3
+Lestok	0	1555	1555	PER	сам	7657	7660	сам	1	87	96	7	0	0	0	219	1555	сам	acl	1557	ADJ	NOM	Not_Assigned	Not_Assigned	3
+PER_T200	12	1565	1565	PER	Нам	7693	7696	нам	1	88	97	2	0	0	0	220	1565	нам	obl	1570	PRON	PRON	Not_Assigned	Not_Assigned	3
+GPE_T198	27	1569	1569	GPE	Европы	7713	7719	европы	1	88	97	6	0	0	0	221	1569	европы	nmod	1568	PROPN	PROP	Not_Assigned	Not_Assigned	3
+Bestujev	1	1577	1577	PER	Бестужев	7756	7764	бестужев	1	88	97	14	0	0	0	222	1577	бестужев	nsubj	1570	PROPN	PROP	Singular	Not_Assigned	3
+PER_T200	12	1581	1581	PER	мы	7770	7772	мы	1	88	97	18	0	0	0	223	1581	мы	nsubj	1582	PRON	PRON	Not_Assigned	Not_Assigned	3
+GPE_T193	24	1590	1590	GPE	России	7820	7826	россии	1	88	97	27	0	0	0	224	1590	россии	nmod	1589	PROPN	PROP	Not_Assigned	Not_Assigned	3
+PER_T200	12	1596	1596	PER	наше	7841	7845	наше	1	89	98	4	0	0	0	225	1596	наше	det	1597	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T200	12	1602	1602	PER	мы	7865	7867	мы	1	89	98	10	0	0	0	226	1602	мы	nsubj	1604	PRON	PRON	Not_Assigned	Not_Assigned	3
+Lestok	0	1606	1606	PER	Лесток	7882	7888	лесток	1	90	99	0	0	0	0	227	1606	лесток	nsubj	1615	NOUN	PROP	Singular	Not_Assigned	3
+Lestok	0	1617	1617	PER	свое	7939	7943	свое	1	90	99	11	0	0	0	228	1617	свое	det	1618	DET	PRON	Not_Assigned	Not_Assigned	3
+Bestujev	1	1633	1633	PER	вы	8023	8025	вы	1	91	100	8	0	0	0	229	1633	вы	nsubj	1634	PRON	PRON	Not_Assigned	Not_Assigned	3
+Lestok	0	1636	1636	PER	мне	8041	8044	мне	1	91	100	11	0	0	0	230	1636	мне	iobj	1635	PRON	PRON	Not_Assigned	Not_Assigned	3
+Lestok	0	1641	1641	PER	он	8059	8061	он	1	91	101	3	0	0	0	231	1641	он	nsubj	1640	PRON	PRON	Not_Assigned	Not_Assigned	3
+Bestujev	1	1660	1660	PER	я	8149	8150	я	1	92	102	9	0	0	0	232	1660	я	nsubj	1661	PRON	PRON	Not_Assigned	Not_Assigned	3
+Lestok	0	1665	1665	PER	вам	8170	8173	вам	1	92	102	14	0	0	0	233	1665	вам	iobj	1664	PRON	PRON	Not_Assigned	Not_Assigned	3
+Lestok	0	1668	1668	PER	вы	8182	8184	вы	1	93	103	1	0	0	0	234	1668	вы	nsubj	1669	PRON	PRON	Not_Assigned	Not_Assigned	3
+Opolchinin	7	1672	1672	PER	больной	8198	8205	больной	1	93	103	5	0	0	0	235	1672	больной	nsubj	1673	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Lestok	0	1684	1684	PER	Лесток	8248	8254	лесток	1	94	104	8	0	0	0	236	1684	лесток	nsubj	1683	PROPN	PROP	Singular	Not_Assigned	3
+Lestok	0	1696	1696	PER	своего	8320	8326	своего	1	94	104	20	0	0	0	237	1696	своего	det	1697	DET	PRON	Not_Assigned	Not_Assigned	3
+Bestujev	1	1699	1699	PER	Бестужев	8335	8343	бестужев	1	95	105	0	0	0	0	238	1699	бестужев	nsubj	1701	PROPN	PROP	Singular	Not_Assigned	3
+LestokBestujev	15	1707	1707	GPE	их	8376	8378	их	1	95	105	8	0	0	0	239	1707	их	det	1708	DET	PRON	Not_Assigned	Not_Assigned	3
+Lestok	0	1714	1714	PER	Лестока	8415	8422	лестока	1	95	105	15	0	0	0	240	1714	лестока	obj	1713	PROPN	PROP	Singular	Not_Assigned	3
+FAC_T217	45	1716	1717	FAC	самых сеней	8426	8437	самых сеней	2	95	105	17	0	0	0	241	1717	сеней	obl	1713	NOUN	NOM	Not_Assigned	Not_Assigned	3
+knyazKosoy	2	1720	1721	PER	князь Иван	8446	8456	князь иван	2	96	106	1	0	0	0	242	1720	князь	nsubj	1722	NOUN	PROP	Singular	Not_Assigned	3
+knyazKosoy	2	1724	1724	PER	себе	8468	8472	себе	1	96	106	5	0	0	0	243	1724	себе	obl	1722	PRON	PRON	Not_Assigned	Not_Assigned	3
+FAC_T219	44	1726	1726	FAC	кабинет	8475	8482	кабинет	1	96	106	7	0	0	0	244	1726	кабинет	obl	1722	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Sonya	19	1735	1735	PER	Сонюшки	8524	8531	сонюшки	1	96	106	16	0	0	0	245	1735	сонюшки	nmod	1734	PROPN	PROP	Singular	Not_Assigned	3
+knyazKosoy	2	1737	1737	PER	Он	8534	8536	он	1	97	107	0	0	0	0	246	1737	он	nsubj	1738	PRON	PRON	Not_Assigned	Not_Assigned	3
+knyazKosoy	2	1745	1745	PER	ему	8564	8567	ему	1	97	107	8	0	0	0	247	1745	ему	iobj	1744	PRON	PRON	Not_Assigned	Not_Assigned	3
+Bestujev	1	1746	1746	PER	Бестужева	8568	8577	бестужева	1	97	107	9	0	0	0	248	1746	бестужева	nmod	1745	PROPN	PROP	Singular	Not_Assigned	3
+Bestujev	1	1749	1749	PER	им	8590	8592	им	1	97	107	12	0	0	0	249	1749	им	iobj	1748	PRON	PRON	Not_Assigned	Not_Assigned	3
+knyazKosoy	2	1758	1758	PER	его	8641	8644	его	1	97	107	21	0	0	0	250	1758	его	det	1760	DET	PRON	Not_Assigned	Not_Assigned	3
+FAC_T223	42	1764	1766	FAC	ДОМ НА ФОНТАННОЙ	8676	8692	дом на фонтанной	3	98	108	2	0	1	1	251	1766	фонтанной	nmod	1764	PROPN	PROP	Not_Assigned	Not_Assigned	3
+FAC_T224	40	1766	1766	FAC	ФОНТАННОЙ	8683	8692	фонтанной	1	98	108	4	1	0	0	252	1766	фонтанной	nmod	1764	PROPN	PROP	Not_Assigned	Not_Assigned	3
+Nolken	5	1772	1772	PER	Нолькен	8721	8728	нолькен	1	100	110	0	0	0	0	253	1772	нолькен	nsubj	1773	PROPN	PROP	Singular	Not_Assigned	3
+GPE_T226	50	1775	1775	GPE	Москвы	8738	8744	москвы	1	100	110	3	0	0	0	254	1775	москвы	obl	1773	PROPN	PROP	Not_Assigned	Not_Assigned	3
+Nolken	5	1781	1781	PER	он	8767	8769	он	1	100	110	9	0	0	0	255	1781	он	nsubj	1780	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T228	46	1782	1784	PER	русским представителям власти	8770	8799	русским представителям власти	3	100	110	10	0	0	0	256	1783	представителям	iobj	1780	NOUN	NOM	Not_Assigned	Not_Assigned	3
+GPE_T187	10	1789	1789	GPE	Швецию	8821	8827	швецию	1	100	110	17	0	0	0	257	1789	швецию	obl	1786	PROPN	PROP	Not_Assigned	Not_Assigned	3
+ORG_T230	66	1797	1798	ORG	русского правительства	8879	8901	русского правительства	2	100	110	25	0	0	0	258	1798	правительства	nmod	1796	NOUN	NOM	Not_Assigned	Not_Assigned	3
+GPE_T187	10	1807	1807	GPE	Швецией	8951	8958	швецией	1	100	110	35	0	0	0	259	1807	швецией	nmod	1804	PROPN	PROP	Not_Assigned	Not_Assigned	3
+Nolken	5	1817	1817	PER	он	9008	9010	он	1	100	110	45	0	0	0	260	1817	он	nsubj	1818	PRON	PRON	Not_Assigned	Not_Assigned	3
+Lessi	16	1829	1836	PER	фельдмаршал Лесси, командовавший русской армией в Финляндии	9069	9128	фельдмаршал лесси , командовавший русской армией в финляндии	8	101	111	5	0	2	2	261	1832	командовавший	acl	1829	VERB	PROP	Singular	Not_Assigned	3
+ORG_T234	67	1833	1836	ORG	русской армией в Финляндии	9102	9128	русской армией в финляндии	4	101	111	9	1	1	1	262	1834	армией	obl	1832	NOUN	PROP	Not_Assigned	Not_Assigned	3
+GPE_T235	25	1836	1836	GPE	Финляндии	9119	9128	финляндии	1	101	111	12	2	0	0	263	1836	финляндии	obl	1832	PROPN	PROP	Not_Assigned	Not_Assigned	3
+Nolken	5	1840	1840	PER	Нолькена	9141	9149	нолькена	1	101	111	16	0	0	0	264	1840	нолькена	obl	1838	PROPN	PROP	Singular	Not_Assigned	3
+Nolken	5	1845	1845	PER	тот	9168	9171	тот	1	101	111	21	0	0	0	265	1845	тот	nsubj	1846	DET	PRON	Not_Assigned	Not_Assigned	3
+GPE_T238	51	1851	1851	GPE	Стокгольме	9193	9203	стокгольме	1	101	111	27	0	0	0	266	1851	стокгольме	obl	1849	PROPN	PROP	Not_Assigned	Not_Assigned	3
+GPE_T235	25	1855	1855	GPE	Финляндию	9215	9224	финляндию	1	101	111	31	0	0	0	267	1855	финляндию	obl	1853	PROPN	PROP	Not_Assigned	Not_Assigned	3
+Nolken	5	1858	1865	PER	полномочного посла, которому поручено вести мирные переговоры	9236	9297	полномочного посла , которому поручено вести мирные переговоры	8	101	111	34	0	0	0	268	1862	поручено	acl:relcl	1859	VERB	NOM	Not_Assigned	Not_Assigned	3
+Nolken	5	1867	1867	PER	Он	9300	9302	он	1	102	112	0	0	0	0	269	1867	он	nsubj	1870	PRON	PRON	Not_Assigned	Not_Assigned	3
+GPE_T242	52	1870	1870	GPE	Борго	9309	9314	борго	1	102	112	3	0	0	0	270	1870	борго	ROOT	1870	PROPN	PROP	Not_Assigned	Not_Assigned	3
+Nolken	5	1874	1874	PER	Нолькеном	9330	9339	нолькеном	1	103	113	2	0	0	0	271	1874	нолькеном	nmod	1872	PROPN	PROP	Singular	Not_Assigned	3
+T244	34	1877	1877	PER	Румянцеву	9354	9363	румянцеву	1	103	113	5	0	0	0	272	1877	румянцеву	iobj	1876	PROPN	PROP	Singular	Not_Assigned	3
+Lessi	16	1889	1889	PER	Лесси	9415	9420	лесси	1	104	114	0	0	0	0	273	1889	лесси	nsubj	1890	PROPN	PROP	Singular	Not_Assigned	3
+GPE_T246	53	1892	1892	GPE	Фридрихсгаму	9431	9443	фридрихсгаму	1	104	114	3	0	0	0	274	1892	фридрихсгаму	obl	1890	PROPN	PROP	Not_Assigned	Not_Assigned	3
+swedish	13	1895	1895	PER	шведы	9447	9452	шведы	1	104	114	6	0	0	0	275	1895	шведы	nsubj	1896	NOUN	NOM	Not_Assigned	Not_Assigned	3
+FAC_T248	22	1897	1898	FAC	эту крепость	9459	9471	эту крепость	2	104	114	8	0	0	0	276	1898	крепость	obj	1896	NOUN	NOM	Not_Assigned	Not_Assigned	3
+FAC_T248	22	1903	1903	FAC	ее	9492	9494	ее	1	104	114	14	0	0	0	277	1903	ее	obj	1902	PRON	PRON	Not_Assigned	Not_Assigned	3
+Levengaupt	14	1905	1907	PER	Предводительствовавший шведами Левенгаупт	9497	9538	предводительствовавший шведами левенгаупт	3	105	115	0	0	1	1	278	1907	левенгаупт	nsubj	1908	PROPN	PROP	Singular	Not_Assigned	3
+swedish	13	1906	1906	PER	шведами	9520	9527	шведами	1	105	115	1	1	0	0	279	1906	шведами	obl:agent	1905	NOUN	NOM	Not_Assigned	Not_Assigned	3
+GPE_T253	54	1910	1910	GPE	Кюмень	9551	9557	кюмень	1	105	115	5	0	0	0	280	1910	кюмень	obl	1908	PROPN	PROP	Not_Assigned	Not_Assigned	3
+GPE_T254	18	1914	1914	GPE	Гельсингфорсу	9573	9586	гельсингфорсу	1	105	115	9	0	0	0	281	1914	гельсингфорсу	obl	1912	PROPN	PROP	Not_Assigned	Not_Assigned	3
+PER_T255	31	1916	1916	PER	Русские	9589	9596	русские	1	106	116	0	0	0	0	282	1916	русские	nsubj	1917	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Levengaupt	14	1918	1918	PER	его	9610	9613	его	1	106	116	2	0	0	0	283	1918	его	obj	1917	PRON	PRON	Not_Assigned	Not_Assigned	3
+GPE_T257	55	1924	1924	GPE	Нейшлот	9648	9655	нейшлот	1	107	117	4	0	0	0	284	1924	нейшлот	appos	1923	PROPN	PROP	Not_Assigned	Not_Assigned	3
+GPE_T258	56	1926	1926	GPE	Тавастгус	9658	9667	тавастгус	1	107	117	6	0	0	0	285	1926	тавастгус	conj	1924	PROPN	PROP	Not_Assigned	Not_Assigned	3
+Lessi	16	1928	1928	PER	Лесси	9670	9675	лесси	1	108	118	0	0	0	0	286	1928	лесси	nsubj	1929	PROPN	PROP	Singular	Not_Assigned	3
+ORG_T260	23	1930	1931	ORG	шведскую армию	9683	9697	шведскую армию	2	108	118	2	0	0	0	287	1931	армию	obj	1929	NOUN	NOM	Not_Assigned	Not_Assigned	3
+GPE_T254	18	1933	1933	GPE	Гельсингфорса	9700	9713	гельсингфорса	1	108	118	5	0	0	0	288	1933	гельсингфорса	obl	1929	PROPN	PROP	Not_Assigned	Not_Assigned	3
+ORG_T260	23	1937	1937	ORG	ей	9731	9733	ей	1	108	118	9	0	0	0	289	1937	ей	iobj	1936	PRON	PRON	Not_Assigned	Not_Assigned	3
+GPE_T263	57	1940	1940	GPE	Або	9748	9751	або	1	108	118	12	0	0	0	290	1940	або	nmod	1938	PROPN	PROP	Not_Assigned	Not_Assigned	3
+FAC_T264	30	1945	1957	FAC	дорогой, проложенной некогда по приказанию Петра Великого и указанной теперь одним крестьянином	9780	9875	дорогой , проложенной некогда по приказанию петра великого и указанной теперь одним крестьянином	13	108	118	17	0	1	2	291	1947	проложенной	acl	1945	VERB	PROP	Not_Assigned	Not_Assigned	3
+T195	21	1951	1952	PER	Петра Великого	9823	9837	петра великого	2	108	118	23	1	0	0	292	1951	петра	nmod	1950	PROPN	PROP	Singular	Not_Assigned	3
+PER_T266	29	1956	1957	PER	одним крестьянином	9857	9875	одним крестьянином	2	108	118	28	1	0	0	293	1957	крестьянином	obl	1947	NOUN	NOM	Not_Assigned	Not_Assigned	3
+LOC_T267	59	1961	1961	LOC	моря	9889	9893	моря	1	109	119	2	0	0	0	294	1961	моря	obl	1964	NOUN	NOM	Not_Assigned	Not_Assigned	3
+swedish	13	1962	1962	PER	шведы	9894	9899	шведы	1	109	119	3	0	0	0	295	1962	шведы	nsubj:pass	1964	NOUN	NOM	Not_Assigned	Not_Assigned	3
+ORG_T269	47	1965	1966	ORG	русским флотом	9913	9927	русским флотом	2	109	119	6	0	0	0	296	1966	флотом	obl	1964	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T270	17	1968	1969	PER	Шведские генералы	9930	9947	шведские генералы	2	110	120	0	0	0	0	297	1969	генералы	nsubj:pass	1974	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Levengaupt	14	1970	1970	PER	Левенгаупт	9948	9958	левенгаупт	1	110	120	2	0	0	0	298	1970	левенгаупт	nmod	1969	PROPN	PROP	Singular	Not_Assigned	3
+T272	36	1972	1972	PER	Будденброк	9961	9971	будденброк	1	110	120	4	0	0	0	299	1972	будденброк	conj	1970	PROPN	PROP	Singular	Not_Assigned	3
+GPE_T273	58	1976	1976	GPE	Стокгольм	9988	9997	стокгольм	1	110	120	8	0	0	0	300	1976	стокгольм	obl	1974	PROPN	PROP	Not_Assigned	Not_Assigned	3
+PER_T270	17	1987	1987	PER	их	10052	10054	их	1	111	121	2	0	0	0	301	1987	их	nsubj	1988	PRON	PRON	Not_Assigned	Not_Assigned	3
+ORG_T275	68	1990	1990	ORG	армией	10075	10081	армией	1	111	121	5	0	0	0	302	1990	армией	obl	1989	NOUN	NOM	Not_Assigned	Not_Assigned	3
+T276	37	1991	1992	PER	генерал Бускет	10082	10096	генерал бускет	2	111	121	6	0	0	0	303	1991	генерал	nsubj	1988	NOUN	PROP	Singular	Not_Assigned	3

@@ -1626,6 +1626,166 @@
 
 <h1 id="training-a-mention-detection-model">Training a Mention Detection Model</h1>
 <h2 id="load-a-dataset">Load a dataset</h2>
+<p>Copy / Paste this code to define the dataset loading functions</p>
+<details class="abstract">
+<summary>Dataset Loading Functions</summary>
+<div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">pandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pd</span>
+
+<span class="kn">import</span><span class="w"> </span><span class="nn">os</span><span class="o">,</span><span class="w"> </span><span class="nn">requests</span><span class="o">,</span><span class="w"> </span><span class="nn">zipfile</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">tqdm.auto</span><span class="w"> </span><span class="kn">import</span> <span class="n">tqdm</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">collections</span><span class="w"> </span><span class="kn">import</span> <span class="n">Counter</span>
+
+<span class="kn">from</span><span class="w"> </span><span class="nn">pathlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">Path</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">json</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">collections</span><span class="w"> </span><span class="kn">import</span> <span class="n">Counter</span>
+
+<span class="kn">from</span><span class="w"> </span><span class="nn">propp_fr</span><span class="w"> </span><span class="kn">import</span> <span class="n">load_spacy_model</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">propp_fr</span><span class="w"> </span><span class="kn">import</span> <span class="n">load_text_file</span><span class="p">,</span> <span class="n">generate_tokens_df</span><span class="p">,</span> <span class="n">save_tokens_df</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">propp_fr</span><span class="w"> </span><span class="kn">import</span> <span class="n">load_tokens_df</span><span class="p">,</span> <span class="n">load_entities_df</span><span class="p">,</span> <span class="n">add_features_to_entities</span><span class="p">,</span> <span class="n">save_entities_df</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">propp_fr</span><span class="w"> </span><span class="kn">import</span> <span class="n">mentions_detection_LOOCV_full_model_training</span><span class="p">,</span> <span class="n">generate_NER_model_card_from_LOOCV_directory</span>
+
+<span class="k">def</span><span class="w"> </span><span class="nf">realign_tokens_offsets</span><span class="p">(</span><span class="n">tokens_df</span><span class="p">,</span> <span class="n">entities_df</span><span class="p">):</span>
+    <span class="n">start_tokens</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">end_tokens</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">new_byte_onsets</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">new_byte_offsets</span> <span class="o">=</span> <span class="p">[]</span>
+
+    <span class="k">for</span> <span class="n">mention_byte_onset</span><span class="p">,</span> <span class="n">mention_byte_offset</span> <span class="ow">in</span> <span class="n">entities_df</span><span class="p">[[</span><span class="s2">&quot;byte_onset&quot;</span><span class="p">,</span> <span class="s2">&quot;byte_offset&quot;</span><span class="p">]]</span><span class="o">.</span><span class="n">values</span><span class="p">:</span>
+        <span class="n">start_token</span> <span class="o">=</span> <span class="n">tokens_df</span><span class="p">[</span><span class="n">tokens_df</span><span class="p">[</span><span class="s2">&quot;byte_offset&quot;</span><span class="p">]</span> <span class="o">&gt;</span> <span class="n">mention_byte_onset</span><span class="p">]</span><span class="o">.</span><span class="n">index</span><span class="o">.</span><span class="n">min</span><span class="p">()</span>
+        <span class="n">end_token</span> <span class="o">=</span> <span class="n">tokens_df</span><span class="p">[</span><span class="n">tokens_df</span><span class="p">[</span><span class="s2">&quot;byte_onset&quot;</span><span class="p">]</span> <span class="o">&lt;</span> <span class="n">mention_byte_offset</span><span class="p">]</span><span class="o">.</span><span class="n">index</span><span class="o">.</span><span class="n">max</span><span class="p">()</span>
+        <span class="n">new_byte_onsets</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">tokens_df</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">start_token</span><span class="p">,</span> <span class="s2">&quot;byte_onset&quot;</span><span class="p">])</span>
+        <span class="n">new_byte_offsets</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">tokens_df</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">end_token</span><span class="p">,</span> <span class="s2">&quot;byte_offset&quot;</span><span class="p">])</span>
+
+        <span class="n">start_tokens</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">start_token</span><span class="p">)</span>
+        <span class="n">end_tokens</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">end_token</span><span class="p">)</span>
+
+    <span class="n">entities_df</span><span class="p">[</span><span class="s2">&quot;start_token&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">start_tokens</span>
+    <span class="n">entities_df</span><span class="p">[</span><span class="s2">&quot;end_token&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">end_tokens</span>
+    <span class="n">entities_df</span><span class="p">[</span><span class="s2">&quot;byte_onset&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">new_byte_onsets</span>
+    <span class="n">entities_df</span><span class="p">[</span><span class="s2">&quot;byte_offset&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">new_byte_offsets</span>
+
+    <span class="k">return</span> <span class="n">entities_df</span>
+
+<span class="k">def</span><span class="w"> </span><span class="nf">extract_mention_text</span><span class="p">(</span><span class="n">text_content</span><span class="p">,</span> <span class="n">entities_df</span><span class="p">):</span>
+    <span class="n">mention_texts</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">mention_byte_onset</span><span class="p">,</span> <span class="n">mention_byte_offset</span> <span class="ow">in</span> <span class="n">entities_df</span><span class="p">[[</span><span class="s2">&quot;byte_onset&quot;</span><span class="p">,</span> <span class="s2">&quot;byte_offset&quot;</span><span class="p">]]</span><span class="o">.</span><span class="n">values</span><span class="p">:</span>
+        <span class="n">mention_texts</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">text_content</span><span class="p">[</span><span class="n">mention_byte_onset</span><span class="p">:</span><span class="n">mention_byte_offset</span><span class="p">])</span>
+    <span class="n">entities_df</span><span class="p">[</span><span class="s2">&quot;text&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">mention_texts</span>
+    <span class="n">entities_df</span><span class="p">[</span><span class="s2">&quot;text&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">entities_df</span><span class="p">[</span><span class="s2">&quot;text&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">str</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">entities_df</span>
+
+<span class="k">def</span><span class="w"> </span><span class="nf">load_dataset</span><span class="p">(</span><span class="n">dataset_name</span><span class="p">,</span> <span class="n">local_dataset_directory</span><span class="o">=</span><span class="s2">&quot;loaded_datasets&quot;</span><span class="p">,</span> <span class="n">preprocess</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">force_download</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
+    <span class="c1"># Where datasets will be stored</span>
+    <span class="n">os</span><span class="o">.</span><span class="n">makedirs</span><span class="p">(</span><span class="n">local_dataset_directory</span><span class="p">,</span> <span class="n">exist_ok</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+
+    <span class="c1"># Dataset URL</span>
+    <span class="n">dataset_URL_path</span> <span class="o">=</span> <span class="p">(</span>
+        <span class="s2">&quot;https://lattice-8094.github.io/propp/datasets/&quot;</span>
+        <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">dataset_name</span><span class="si">}</span><span class="s2">_propp_minimal_implementation.zip&quot;</span>
+    <span class="p">)</span>
+
+    <span class="c1"># Local paths</span>
+    <span class="n">archive_name</span> <span class="o">=</span> <span class="n">dataset_URL_path</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;/&quot;</span><span class="p">)[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+    <span class="n">archive_path</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">local_dataset_directory</span><span class="p">,</span> <span class="n">archive_name</span><span class="p">)</span>
+    <span class="n">files_directory</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">local_dataset_directory</span><span class="p">,</span> <span class="n">dataset_name</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;.zip&quot;</span><span class="p">,</span> <span class="s2">&quot;&quot;</span><span class="p">))</span>
+
+    <span class="c1"># Download if needed</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">archive_path</span><span class="p">)</span> <span class="ow">or</span> <span class="n">force_download</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Downloading dataset...&quot;</span><span class="p">)</span>
+        <span class="n">response</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">dataset_URL_path</span><span class="p">,</span> <span class="n">stream</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+        <span class="n">response</span><span class="o">.</span><span class="n">raise_for_status</span><span class="p">()</span>
+
+        <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">archive_path</span><span class="p">,</span> <span class="s2">&quot;wb&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+            <span class="k">for</span> <span class="n">chunk</span> <span class="ow">in</span> <span class="n">response</span><span class="o">.</span><span class="n">iter_content</span><span class="p">(</span><span class="n">chunk_size</span><span class="o">=</span><span class="mi">8192</span><span class="p">):</span>
+                <span class="k">if</span> <span class="n">chunk</span><span class="p">:</span>
+                    <span class="n">f</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">chunk</span><span class="p">)</span>
+
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Downloaded dataset to </span><span class="si">{</span><span class="n">archive_path</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Archive already exists, skipping download.&quot;</span><span class="p">)</span>
+
+    <span class="c1"># Extract if needed</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">files_directory</span><span class="p">)</span> <span class="ow">or</span> <span class="n">force_download</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Extracting dataset...&quot;</span><span class="p">)</span>
+        <span class="k">with</span> <span class="n">zipfile</span><span class="o">.</span><span class="n">ZipFile</span><span class="p">(</span><span class="n">archive_path</span><span class="p">,</span> <span class="s2">&quot;r&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">zip_ref</span><span class="p">:</span>
+            <span class="n">zip_ref</span><span class="o">.</span><span class="n">extractall</span><span class="p">(</span><span class="n">files_directory</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Dataset extracted to </span><span class="si">{</span><span class="n">files_directory</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Dataset already extracted.&quot;</span><span class="p">)</span>
+
+    <span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">files_directory</span><span class="p">,</span> <span class="s2">&quot;split_config.json&quot;</span><span class="p">)):</span>
+        <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">files_directory</span><span class="p">,</span> <span class="s2">&quot;split_config.json&quot;</span><span class="p">),</span> <span class="s2">&quot;r&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+            <span class="n">config</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">f</span><span class="p">)</span>
+            <span class="k">if</span> <span class="s2">&quot;dataset_language&quot;</span> <span class="ow">in</span> <span class="n">config</span><span class="o">.</span><span class="n">keys</span><span class="p">():</span>
+                <span class="n">dataset_language</span> <span class="o">=</span> <span class="n">config</span><span class="p">[</span><span class="s2">&quot;dataset_language&quot;</span><span class="p">]</span>
+                <span class="nb">print</span><span class="p">(</span><span class="n">dataset_language</span><span class="p">)</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;No language configuration. Default to English.&quot;</span><span class="p">)</span>
+                <span class="n">dataset_language</span> <span class="o">=</span> <span class="s2">&quot;en&quot;</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Config not found for &#39;</span><span class="si">{</span><span class="n">dataset_name</span><span class="si">}</span><span class="s2">&#39;&quot;</span><span class="p">)</span>
+        <span class="n">dataset_language</span> <span class="o">=</span> <span class="s2">&quot;en&quot;</span>
+
+    <span class="k">if</span> <span class="n">dataset_language</span> <span class="o">==</span> <span class="s2">&quot;fr&quot;</span><span class="p">:</span>
+        <span class="n">spacy_model_name</span> <span class="o">=</span> <span class="s2">&quot;fr_dep_news_trf&quot;</span>
+    <span class="k">elif</span> <span class="n">dataset_language</span> <span class="o">==</span> <span class="s2">&quot;ru&quot;</span><span class="p">:</span>
+        <span class="n">spacy_model_name</span> <span class="o">=</span> <span class="s2">&quot;ru_core_news_lg&quot;</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">spacy_model_name</span> <span class="o">=</span> <span class="s2">&quot;en_core_web_trf&quot;</span>
+
+    <span class="n">all_entities_files</span> <span class="o">=</span> <span class="nb">sorted</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="nb">set</span><span class="p">([</span><span class="n">p</span><span class="o">.</span><span class="n">stem</span> <span class="k">for</span> <span class="n">p</span> <span class="ow">in</span> <span class="n">Path</span><span class="p">(</span><span class="n">files_directory</span><span class="p">)</span><span class="o">.</span><span class="n">iterdir</span><span class="p">()</span> <span class="k">if</span> <span class="n">p</span><span class="o">.</span><span class="n">suffix</span> <span class="o">==</span> <span class="s2">&quot;.entities&quot;</span><span class="p">])))</span>
+    <span class="n">all_tokens_files</span> <span class="o">=</span> <span class="nb">sorted</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="nb">set</span><span class="p">([</span><span class="n">p</span><span class="o">.</span><span class="n">stem</span> <span class="k">for</span> <span class="n">p</span> <span class="ow">in</span> <span class="n">Path</span><span class="p">(</span><span class="n">files_directory</span><span class="p">)</span><span class="o">.</span><span class="n">iterdir</span><span class="p">()</span> <span class="k">if</span> <span class="n">p</span><span class="o">.</span><span class="n">suffix</span> <span class="o">==</span> <span class="s2">&quot;.tokens&quot;</span><span class="p">])))</span>
+
+    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">all_entities_files</span><span class="p">)</span> <span class="o">!=</span> <span class="nb">len</span><span class="p">(</span><span class="n">all_tokens_files</span><span class="p">)</span> <span class="ow">or</span> <span class="n">preprocess</span><span class="p">:</span>
+        <span class="n">spacy_model</span> <span class="o">=</span> <span class="n">load_spacy_model</span><span class="p">(</span><span class="n">spacy_model_name</span><span class="p">)</span>
+
+    <span class="k">for</span> <span class="n">file_name</span> <span class="ow">in</span> <span class="n">tqdm</span><span class="p">(</span><span class="n">all_entities_files</span><span class="p">,</span> <span class="n">leave</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">files_directory</span><span class="p">,</span> <span class="n">file_name</span> <span class="o">+</span> <span class="s2">&quot;.tokens&quot;</span><span class="p">))</span> <span class="ow">and</span> <span class="ow">not</span> <span class="n">preprocess</span><span class="p">:</span>
+            <span class="k">continue</span>
+        <span class="n">text_content</span> <span class="o">=</span> <span class="n">load_text_file</span><span class="p">(</span><span class="n">file_name</span><span class="p">,</span> <span class="n">files_directory</span><span class="p">)</span>
+        <span class="n">tokens_df</span> <span class="o">=</span> <span class="n">generate_tokens_df</span><span class="p">(</span><span class="n">text_content</span><span class="p">,</span> <span class="n">spacy_model</span><span class="p">,</span> <span class="n">verbose</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+        <span class="n">entities_df</span> <span class="o">=</span> <span class="n">load_entities_df</span><span class="p">(</span><span class="n">file_name</span><span class="p">,</span> <span class="n">files_directory</span><span class="p">)</span>
+
+        <span class="n">entities_df</span> <span class="o">=</span> <span class="n">realign_tokens_offsets</span><span class="p">(</span><span class="n">tokens_df</span><span class="p">,</span> <span class="n">entities_df</span><span class="p">)</span>
+        <span class="n">entities_df</span> <span class="o">=</span> <span class="n">extract_mention_text</span><span class="p">(</span><span class="n">text_content</span><span class="p">,</span> <span class="n">entities_df</span><span class="p">)</span>
+
+        <span class="n">entities_df</span> <span class="o">=</span> <span class="n">add_features_to_entities</span><span class="p">(</span><span class="n">entities_df</span><span class="p">,</span> <span class="n">tokens_df</span><span class="p">)</span>
+
+        <span class="k">if</span> <span class="n">dataset_language</span> <span class="o">!=</span> <span class="s2">&quot;fr&quot;</span><span class="p">:</span>
+            <span class="n">entities_df</span><span class="p">[</span><span class="s2">&quot;gender&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Not_Assigned&quot;</span> <span class="c1"># Not available for english</span>
+            <span class="n">entities_df</span><span class="p">[</span><span class="s2">&quot;number&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Not_Assigned&quot;</span> <span class="c1"># Not available for english</span>
+            <span class="n">entities_df</span><span class="p">[</span><span class="s2">&quot;grammatical_person&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;4&quot;</span> <span class="c1"># Not available for english</span>
+
+        <span class="n">save_entities_df</span><span class="p">(</span><span class="n">entities_df</span><span class="p">,</span> <span class="n">file_name</span><span class="p">,</span> <span class="n">files_directory</span><span class="p">)</span>
+        <span class="n">save_tokens_df</span><span class="p">(</span><span class="n">tokens_df</span><span class="p">,</span> <span class="n">file_name</span><span class="p">,</span> <span class="n">files_directory</span><span class="p">)</span>
+
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Dataset Directory: </span><span class="si">{</span><span class="n">files_directory</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+</code></pre></div>
+</details>
+<p>Choose the Dataset to load. See <a href="../available_datasets/#coreference-resolution-propp-formatted-datasets">Available Dataset</a>.</p>
+<div class="highlight"><pre><span></span><code><span class="c1"># Available Datasets: [&quot;long-litbank-fr-PER-only&quot;, &quot;litbank-fr&quot;, &quot;litbank-ru&quot;, &quot;litbank&quot;, &quot;conll2003-NER&quot;, &quot;ontonotes5_english-NER&quot;]</span>
+<span class="n">dataset_name</span> <span class="o">=</span> <span class="s2">&quot;litbank&quot;</span>
+
+<span class="n">local_dataset_directory</span><span class="o">=</span><span class="s2">&quot;loaded_datasets&quot;</span>
+<span class="n">load_dataset</span><span class="p">(</span><span class="n">dataset_name</span><span class="p">,</span> <span class="n">local_dataset_directory</span><span class="o">=</span><span class="n">local_dataset_directory</span><span class="p">)</span>
+
+<span class="n">files_directory</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">local_dataset_directory</span><span class="p">,</span> <span class="n">dataset_name</span><span class="p">)</span>
+
+<span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">files_directory</span><span class="p">,</span> <span class="s2">&quot;split_config.json&quot;</span><span class="p">)):</span>
+    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">files_directory</span><span class="p">,</span> <span class="s2">&quot;split_config.json&quot;</span><span class="p">),</span> <span class="s2">&quot;r&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+        <span class="n">config</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">f</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">Configuration:</span><span class="se">\n</span><span class="si">{</span><span class="nb">list</span><span class="p">(</span><span class="n">config</span><span class="o">.</span><span class="n">keys</span><span class="p">())</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+</code></pre></div>
+<div class="highlight"><pre><span></span><code>Archive already exists, skipping download.  
+Dataset already extracted.  
+[&#39;en&#39;]  
+
+Dataset Directory: loaded_datasets/litbank  
+</code></pre></div>
+<p>Dataset contains a <code>config.json</code> file with the language of the dataset, and possibly the <code>train</code>, <code>valid</code>, <code>test</code> splits</p>
+<div class="highlight"><pre><span></span><code>Configuration:  
+[&#39;test_0&#39;, &#39;test_1&#39;, &#39;test_2&#39;, &#39;test_3&#39;, &#39;test_4&#39;, &#39;test_5&#39;, &#39;test_6&#39;, &#39;test_7&#39;, &#39;test_8&#39;, &#39;test_9&#39;, &#39;dataset_language&#39;]
+</code></pre></div>
 <div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">os</span><span class="o">,</span><span class="w"> </span><span class="nn">requests</span><span class="o">,</span><span class="w"> </span><span class="nn">zipfile</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">tqdm.auto</span><span class="w"> </span><span class="kn">import</span> <span class="n">tqdm</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">collections</span><span class="w"> </span><span class="kn">import</span> <span class="n">Counter</span>

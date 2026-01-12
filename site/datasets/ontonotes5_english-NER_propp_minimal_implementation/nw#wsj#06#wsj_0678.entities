@@ -1,0 +1,95 @@
+cat	start_token	end_token	text	byte_onset	byte_offset	sentence_ID
+ORG	2	3	U.S. Treasury	14	27	0
+DATE	14	15	this week	98	107	0
+ORG	19	23	Dow Jones Capital Markets Report	122	154	0
+MONEY	25	27	$ 15.6 billion	157	171	1
+DATE	29	31	three-month	175	186	1
+DATE	33	35	six-month	191	200	1
+MONEY	38	40	$ 2 billion	208	219	2
+DATE	42	44	51-day	223	229	2
+ORG	49	52	Associated Natural Gas Corp.--1.4	253	286	3
+CARDINAL	52	53	Corp.--1.4 million	276	294	3
+ORG	58	61	Dillon Read & Co.	314	331	3
+ORG	62	67	B & H Crude Carriers Ltd.--Four	332	363	4
+CARDINAL	67	68	Ltd.--Four million	353	371	4
+ORG	73	75	Salomon Brothers Inc.	391	412	4
+ORG	76	78	Chemical Banking Corp.--14	413	439	5
+CARDINAL	78	79	Corp.--14 million	430	447	5
+ORG	84	88	Goldman, Sachs & Co.	467	487	5
+ORG	89	91	Chemex Pharmaceuticals Inc.--1.2	488	520	6
+CARDINAL	91	92	Inc.--1.2 million	511	528	6
+CARDINAL	96	96	two	549	552	6
+CARDINAL	102	102	one	580	583	6
+ORG	107	108	PaineWebber Inc.	604	620	6
+ORG	109	110	Comcast Corp.--$	621	637	7
+MONEY	110	112	Corp.--$ 150 million	629	649	7
+ORG	117	120	Merrill Lynch Capital Markets	678	707	7
+ORG	122	124	Energy Service Co.--9.5	709	732	8
+CARDINAL	124	125	Co.--9.5 million	724	740	8
+ORG	130	130	Alex	760	764	8
+ORG	132	135	Brown & Sons Inc.	766	783	9
+ORG	136	138	Harmonia Bancorp Inc.--4,750,000	784	816	10
+CARDINAL	138	138	Inc.--4,750,000	801	816	10
+ORG	143	146	Shearson Lehman Hutton Inc.	836	863	10
+ORG	147	148	Healthsource Inc.--Two	864	886	11
+CARDINAL	148	149	Inc.--Two million	877	894	11
+ORG	154	158	Kidder, Peabody & Co.	914	935	11
+ORG	159	161	Immune Response Corp.--Three	936	964	12
+CARDINAL	161	162	Corp.--Three million	952	972	12
+ORG	167	168	Merrill Lynch	992	1005	12
+ORG	170	172	Marsam Pharmaceuticals Inc.--1.3	1007	1039	13
+CARDINAL	172	173	Inc.--1.3 million	1030	1047	13
+ORG	178	183	Smith Barney Harris Upham & Co.	1067	1098	13
+ORG	184	188	Potash Corp. of Saskatchewan Inc.--13	1099	1136	14
+CARDINAL	188	189	Inc.--13 million	1128	1144	14
+ORG	194	195	Merrill Lynch	1164	1177	14
+GPE	198	199	New Jersey	1189	1199	16
+MONEY	203	203	75,075,000	1230	1240	16
+MONEY	209	211	$ 40.86 million	1269	1284	16
+DATE	218	218	1989A	1328	1333	16
+MONEY	221	222	$ 34,215,000	1339	1351	16
+DATE	228	228	1989B	1387	1392	16
+LOC	234	237	Eastern Municipal Water District	1415	1447	17
+GPE	239	239	Calif.--$	1449	1458	17
+MONEY	240	240	56,565,000	1459	1469	17
+DATE	242	242	1989	1473	1477	17
+GPE	259	259	California	1564	1574	18
+ORG	260	263	Health Facilities Financing Authority--$	1575	1615	18
+MONEY	263	265	Authority--$ 114 million	1603	1627	18
+ORG	274	276	Catholic Healthcare West	1665	1689	18
+DATE	281	281	1989A	1703	1708	18
+ORG	285	287	First Boston Corp.	1716	1734	18
+GPE	290	290	Detroit--$	1742	1752	19
+MONEY	290	292	Detroit--$ 130 million	1742	1764	19
+ORG	301	303	Chemical Securities Inc.	1805	1829	19
+GPE	306	306	Maryland	1837	1845	20
+ORG	307	309	Community Development Administration	1846	1882	20
+ORG	311	316	Department of Housing and Community Development--$	1884	1934	20
+MONEY	316	318	Development--$ 80 million	1920	1945	20
+DATE	326	326	1989	1978	1982	20
+ORDINAL	327	327	4th	1983	1986	20
+ORDINAL	329	329	5th	1991	1994	20
+ORG	334	335	Merrill Lynch	2009	2022	20
+GPE	338	339	Matagorda County	2030	2046	21
+LOC	340	344	Navigation District No. 1	2047	2072	21
+GPE	346	346	Texas--$	2074	2082	21
+MONEY	347	347	70,315,000	2083	2093	21
+GPE	367	367	Texas	2175	2180	21
+ORG	368	374	Project Units No. 1 and 2	2181	2206	21
+ORG	380	381	Goldman Sachs	2219	2232	21
+GPE	384	386	New York City--$	2240	2256	22
+MONEY	387	387	786,860,000	2257	2268	22
+DATE	392	392	1990	2286	2290	22
+MONEY	399	401	$ 729.04 million	2317	2333	22
+MONEY	407	409	$ 57.82 million	2355	2370	22
+ORG	415	416	Goldman Sachs	2392	2405	22
+GPE	419	420	Santa Ana	2413	2422	23
+ORG	421	422	Redevelopment Agency--$	2423	2446	23
+MONEY	422	424	Agency--$ 107 million	2437	2458	23
+DATE	430	430	1989	2484	2488	23
+ORG	438	443	Donaldson Lufkin & Jenrette Securities Corp.	2507	2551	23
+GPE	447	448	Shelby County	2567	2580	24
+GPE	450	450	Tenn.--$	2582	2590	24
+MONEY	450	452	Tenn.--$ 80 million	2582	2601	24
+DATE	458	458	1989	2629	2633	24
+ORG	462	464	First Tennessee Bank	2641	2661	24

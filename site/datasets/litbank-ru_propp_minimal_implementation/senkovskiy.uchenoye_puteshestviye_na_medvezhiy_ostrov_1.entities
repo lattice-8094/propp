@@ -1,0 +1,294 @@
+COREF_name	COREF	start_token	end_token	cat	sacr_text	byte_onset	byte_offset	text	mention_len	paragraph_ID	sentence_ID	start_token_ID_within_sentence	out_to_in_nested_level	in_to_out_nested_level	nested_entities_count	temp_index	head_id	head_word	head_dependency_relation	head_syntactic_head_ID	POS_tag	prop	number	gender	grammatical_person
+PER_T1	238	0	0	PER	Шпурцманн	0	9	шпурцманн	1	0	0	0	0	0	0	0	0	шпурцманн	nsubj	22	PROPN	PROP	Singular	Not_Assigned	3
+PER_T2	2	26	26	PER	своего	160	166	своего	1	0	0	26	0	0	0	1	26	своего	det	27	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T3	141	29	29	PER	Он	178	180	он	1	1	1	0	0	0	0	2	29	он	nsubj	30	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T4	134	35	35	PER	меня	199	203	меня	1	1	1	6	0	0	0	3	35	меня	obl	36	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T5	110	39	40	PER	разных ученых	218	231	разных ученых	2	1	1	10	0	0	0	4	40	ученых	nmod	38	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T6	85	53	53	PER	он	292	294	он	1	2	2	2	0	0	0	5	53	он	nsubj	57	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T7	78	61	61	PER	мною	351	355	мною	1	2	2	10	0	0	0	6	61	мною	obl:agent	60	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T8	106	65	65	PER	мне	369	372	мне	1	2	2	14	0	0	0	7	65	мне	iobj	64	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T9	103	72	72	PER	он	401	403	он	1	2	2	21	0	0	0	8	72	он	nsubj	73	PRON	PRON	Not_Assigned	Not_Assigned	3
+GPE_T10	188	84	84	GPE	Петербург	478	487	петербург	1	2	2	33	0	0	0	9	84	петербург	nmod	81	PROPN	PROP	Not_Assigned	Not_Assigned	3
+FAC_T11	0	88	89	FAC	Египетскому мосту	503	520	египетскому мосту	2	2	2	37	0	0	0	10	89	мосту	obl	85	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T12	242	92	92	PER	им	532	534	им	1	2	2	41	0	0	0	11	92	им	iobj	91	PRON	PRON	Not_Assigned	Not_Assigned	3
+FAC_T13	147	94	94	FAC	Фонтанке	538	546	фонтанке	1	2	2	43	0	0	0	12	94	фонтанке	obl	91	PROPN	PROP	Not_Assigned	Not_Assigned	3
+FAC_T14	200	99	102	FAC	неправильно называемому извозчиками Бердовым	562	606	неправильно называемому извозчиками бердовым	4	2	2	48	0	0	0	13	100	называемому	acl	107	VERB	PROP	Not_Assigned	Not_Assigned	3
+PER_T15	40	107	109	PER	К. И. Берда	640	651	к. и. берда	3	2	2	56	0	0	0	14	107	к.	nmod	97	PROPN	PROP	Singular	Not_Assigned	3
+PER_T16	70	120	120	PER	сам	691	694	сам	1	2	2	69	0	0	0	15	120	сам	acl	122	ADJ	NOM	Not_Assigned	Not_Assigned	3
+FAC_T150	199	125	125	FAC	нем	726	729	нем	1	2	2	74	0	0	0	16	125	нем	obl	123	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T17	57	143	144	PER	Р. X.	835	840	р. x.	2	2	2	92	0	0	0	17	143	р.	nmod	141	PROPN	PROP	Singular	Not_Assigned	3
+FAC_T18	197	147	148	FAC	любопытный мост	855	870	любопытный мост	2	2	2	96	0	0	0	18	148	мост	nsubj:pass	145	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T19	12	152	152	PER	мы	889	891	мы	1	3	3	2	0	0	0	19	152	мы	nsubj	151	PRON	PRON	Not_Assigned	Not_Assigned	3
+LOC_T20	177	155	167	LOC	обширные луга, расстилающиеся на правом берегу Лены, на которых построен Якутск	904	983	обширные луга , расстилающиеся на правом берегу лены , на которых построен якутск	13	3	3	5	0	1	2	20	161	берегу	obl	158	NOUN	PROP	Not_Assigned	Not_Assigned	3
+LOC_T21	171	162	162	LOC	Лены	951	955	лены	1	3	3	12	1	0	0	21	162	лены	nmod	161	PROPN	PROP	Not_Assigned	Not_Assigned	3
+GPE_T22	216	167	167	GPE	Якутск	977	983	якутск	1	3	3	17	1	0	0	22	167	якутск	nsubj:pass	166	PROPN	PROP	Not_Assigned	Not_Assigned	3
+PER_T23	27	172	172	PER	мы	1005	1007	мы	1	4	4	3	0	0	0	23	172	мы	nsubj	171	PRON	PRON	Not_Assigned	Not_Assigned	3
+GPE_T24	215	175	189	GPE	небольшой, но весьма красивый город, изящным вкусом многих деревянных строений напоминающий царскосельские улицы	1015	1127	небольшой , но весьма красивый город , изящным вкусом многих деревянных строений напоминающий царскосельские улицы	15	4	4	6	0	1	2	24	183	вкусом	conj	171	NOUN	NOM	Not_Assigned	Not_Assigned	3
+FAC_T25	195	184	186	FAC	многих деревянных строений	1067	1093	многих деревянных строений	3	4	4	15	1	0	0	25	186	строений	nmod	183	NOUN	NOM	Not_Assigned	Not_Assigned	3
+FAC_T26	194	188	189	FAC	царскосельские улицы	1107	1127	царскосельские улицы	2	4	4	19	1	0	0	26	189	улицы	obj	187	NOUN	NOM	Not_Assigned	Not_Assigned	3
+FAC_T27	192	194	205	FAC	разным домам, к хозяевам которых имели мы рекомендательные письма из Иркутска	1147	1224	разным домам , к хозяевам которых имели мы рекомендательные письма из иркутска	12	4	4	25	0	1	3	27	200	имели	acl:relcl	195	VERB	PROP	Not_Assigned	Not_Assigned	3
+PER_T28	117	198	198	PER	хозяевам	1163	1171	хозяевам	1	4	4	29	1	0	0	28	198	хозяевам	obl	200	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T29	138	201	201	PER	мы	1186	1188	мы	1	4	4	32	1	0	0	29	201	мы	nsubj	200	PRON	PRON	Not_Assigned	Not_Assigned	3
+GPE_T30	213	205	205	GPE	Иркутска	1216	1224	иркутска	1	4	4	36	1	0	0	30	205	иркутска	nmod	203	PROPN	PROP	Not_Assigned	Not_Assigned	3
+FAC_T31	190	208	209	FAC	местные достопримечательности	1236	1265	местные достопримечательности	2	5	5	1	0	0	0	31	209	достопримечательности	obj	207	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T32	140	214	216	PER	всех якутских хлебосолов	1290	1314	всех якутских хлебосолов	3	5	5	7	0	0	0	32	216	хлебосолов	obl	211	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T33	139	221	221	PER	мы	1332	1334	мы	1	5	5	14	0	0	0	33	221	мы	nsubj	220	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T34	137	225	225	PER	их	1356	1358	их	1	5	5	18	0	0	0	34	225	их	det	228	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T35	130	233	233	PER	нас	1392	1395	нас	1	5	5	26	0	0	0	35	233	нас	nmod	231	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T36	136	239	239	PER	свою	1422	1426	свою	1	5	5	32	0	0	0	36	239	свою	det	240	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T37	135	242	242	PER	Я	1437	1438	я	1	6	6	0	0	0	0	37	242	я	nsubj	243	PRON	PRON	Not_Assigned	Not_Assigned	3
+GPE_T38	211	245	245	GPE	Каира	1447	1452	каира	1	6	6	3	0	0	0	38	245	каира	obl	243	PROPN	PROP	Not_Assigned	Not_Assigned	3
+GPE_T39	204	247	247	GPE	Торопец	1455	1462	торопец	1	6	6	5	0	0	0	39	247	торопец	obl	243	PROPN	PROP	Not_Assigned	Not_Assigned	3
+PER_T40	133	252	252	PER	сам	1477	1480	сам	1	6	6	10	0	0	0	40	252	сам	nsubj	254	ADJ	NOM	Not_Assigned	Not_Assigned	3
+GPE_T41	210	262	262	GPE	Якутск	1523	1529	якутск	1	6	6	20	0	0	0	41	262	якутск	obl	260	PROPN	PROP	Not_Assigned	Not_Assigned	3
+PER_T43	132	266	266	PER	я	1539	1540	я	1	6	6	24	0	0	0	42	266	я	nsubj	267	PRON	PRON	Not_Assigned	Not_Assigned	3
+GPE_T42	209	269	269	GPE	Якутске	1553	1560	якутске	1	6	6	27	0	0	0	43	269	якутске	obl	267	PROPN	PROP	Not_Assigned	Not_Assigned	3
+PER_T44	131	275	276	PER	опытных людей	1576	1589	опытных людей	2	6	6	33	0	0	0	44	276	людей	nmod	274	NOUN	NOM	Not_Assigned	Not_Assigned	3
+GPE_T45	208	281	281	GPE	Торопец	1608	1615	торопец	1	6	6	39	0	0	0	45	281	торопец	nmod	279	PROPN	PROP	Not_Assigned	Not_Assigned	3
+GPE_T46	207	287	287	GPE	Иркутск	1639	1646	иркутск	1	6	6	45	0	0	0	46	287	иркутск	obl	285	PROPN	PROP	Not_Assigned	Not_Assigned	3
+PER_T47	129	294	297	PER	ни с какими натуралистами	1674	1699	ни с какими натуралистами	4	6	6	52	0	0	0	47	297	натуралистами	obl	292	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T48	111	301	301	PER	приятелей	1714	1723	приятелей	1	6	6	59	0	0	0	48	301	приятелей	obj	300	NOUN	NOM	Not_Assigned	Not_Assigned	3
+GPE_T49	206	305	305	GPE	Тобольск	1741	1749	тобольск	1	6	6	63	0	0	0	49	305	тобольск	obl	303	PROPN	PROP	Not_Assigned	Not_Assigned	3
+GPE_T50	205	307	307	GPE	Казань	1752	1758	казань	1	6	6	65	0	0	0	50	307	казань	conj	305	PROPN	PROP	Not_Assigned	Not_Assigned	3
+LOC_T51	257	309	309	LOC	запад	1762	1767	запад	1	6	6	67	0	0	0	51	309	запад	obl	303	NOUN	NOM	Not_Assigned	Not_Assigned	3
+LOC_T52	256	314	314	LOC	восток	1777	1783	восток	1	6	6	72	0	0	0	52	314	восток	conj	309	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T53	109	316	317	PER	Доктор Шпурцманн	1786	1802	доктор шпурцманн	2	7	7	0	0	1	1	53	316	доктор	nsubj	318	NOUN	PROP	Singular	Not_Assigned	3
+PER_T54	90	317	317	PER	Шпурцманн	1793	1802	шпурцманн	1	7	7	1	1	0	0	54	317	шпурцманн	appos	316	PROPN	PROP	Singular	Not_Assigned	3
+PER_T55	89	329	329	PER	ему	1849	1852	ему	1	7	7	13	0	0	0	55	329	ему	iobj	330	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T56	88	336	338	PER	Иван Антонович Страбинских	1881	1907	иван антонович страбинских	3	8	8	0	0	0	0	56	336	иван	nsubj	339	PROPN	PROP	Singular	Not_Assigned	3
+LOC_T57	237	342	342	LOC	Лены	1928	1932	лены	1	8	8	6	0	0	0	57	342	лены	nmod	341	PROPN	PROP	Not_Assigned	Not_Assigned	3
+PER_T58	87	347	347	PER	начальства	1952	1962	начальства	1	8	8	11	0	0	0	58	347	начальства	nmod	345	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T59	86	357	358	PER	Мой натуралист	2027	2041	мой натуралист	2	9	9	0	0	1	1	59	358	натуралист	nsubj	360	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T60	84	357	357	PER	Мой	2027	2030	мой	1	9	9	0	1	0	0	60	357	мой	det	358	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T61	83	364	366	PER	обербергпробирмейстера 7-го класса	2080	2114	обербергпробирмейстера 7-го класса	3	9	9	7	0	0	0	61	366	класса	nmod	364	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T62	82	374	374	PER	ему	2173	2176	ему	1	9	9	17	0	0	0	62	374	ему	iobj	373	PRON	PRON	Not_Assigned	Not_Assigned	3
+LOC_T63	236	375	379	LOC	под 70-й градус северной широты	2177	2208	под 70-й градус северной широты	5	9	9	18	0	0	0	63	377	градус	obl	373	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T64	81	384	384	PER	он	2227	2229	он	1	9	9	27	0	0	0	64	384	он	nsubj	383	PRON	PRON	Not_Assigned	Not_Assigned	3
+LOC_T65	235	392	393	LOC	Фадеевского Острова	2268	2287	фадеевского острова	2	9	9	35	0	0	0	65	393	острова	conj	377	PROPN	PROP	Not_Assigned	Not_Assigned	3
+LOC_T66	234	397	398	LOC	Костяного пролива	2298	2315	костяного пролива	2	9	9	40	0	0	0	66	398	пролива	conj	377	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T67	80	402	402	PER	я	2330	2331	я	1	10	10	2	0	0	0	67	402	я	nsubj	401	PRON	PRON	Not_Assigned	Not_Assigned	3
+FAC_T68	189	405	406	FAC	своей комнате	2342	2355	своей комнате	2	10	10	5	0	1	1	68	406	комнате	obl	401	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T149	41	405	405	PER	своей	2342	2347	своей	1	10	10	5	1	0	0	69	405	своей	det	406	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T69	79	422	422	PER	Шпурцманн	2439	2448	шпурцманн	1	10	10	22	0	0	0	70	422	шпурцманн	nsubj	423	PROPN	PROP	Singular	Not_Assigned	3
+PER_T70	77	425	425	PER	мне	2459	2462	мне	1	10	10	25	0	0	0	71	425	мне	obl	423	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T71	76	432	432	PER	он	2500	2502	он	1	10	10	32	0	0	0	72	432	он	nsubj	431	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T72	91	434	435	PER	Иваном Антоновичем	2505	2523	иваном антоновичем	2	10	10	34	0	0	0	73	434	иваном	nmod	432	PROPN	PROP	Singular	Not_Assigned	3
+LOC_T73	233	440	440	LOC	север	2545	2550	север	1	10	10	40	0	0	0	74	440	север	nmod	438	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T74	92	442	442	PER	Он	2553	2555	он	1	11	11	0	0	0	0	75	442	он	nsubj	445	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T75	93	445	445	PER	себя	2564	2568	себя	1	11	11	3	0	0	0	76	445	себя	obl	498	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T76	102	451	451	PER	меня	2600	2604	меня	1	11	11	9	0	0	0	77	451	меня	obj	450	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T77	108	454	454	PER	ним	2613	2616	ним	1	11	11	12	0	0	0	78	454	ним	obl	452	PRON	PRON	Not_Assigned	Not_Assigned	3
+LOC_T78	232	455	455	LOC	туда	2617	2621	туда	1	11	11	13	0	0	0	79	455	туда	advmod	452	ADV	NOM	Not_Assigned	Not_Assigned	3
+PER_T79	107	468	468	PER	наших	2708	2713	наших	1	11	11	26	0	0	0	80	468	наших	det	469	DET	PRON	Not_Assigned	Not_Assigned	3
+LOC_T80	231	476	476	LOC	Лену	2762	2766	лену	1	11	11	34	0	0	0	81	476	лену	obj	474	PROPN	PROP	Not_Assigned	Not_Assigned	3
+LOC_T81	230	479	479	LOC	ее	2775	2777	ее	1	11	11	37	0	0	0	82	479	ее	det	480	DET	PRON	Not_Assigned	Not_Assigned	3
+LOC_T82	229	483	483	LOC	ее	2795	2797	ее	1	11	11	41	0	0	0	83	483	ее	det	484	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T83	105	491	491	PER	филологом	2835	2844	филологом	1	11	11	49	0	0	0	84	491	филологом	obl:agent	488	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T84	104	494	494	PER	натуралистом	2849	2861	натуралистом	1	11	11	52	0	0	0	85	494	натуралистом	conj	491	NOUN	NOM	Not_Assigned	Not_Assigned	3
+LOC_T85	228	500	501	LOC	Северному океану	2890	2906	северному океану	2	11	11	58	0	0	0	86	501	океану	obl	498	NOUN	NOM	Not_Assigned	Not_Assigned	3
+LOC_T86	227	504	505	LOC	ледяных гор	2914	2925	ледяных гор	2	11	11	62	0	0	0	87	505	гор	conj	501	NOUN	NOM	Not_Assigned	Not_Assigned	3
+LOC_T87	226	515	515	LOC	льдинах	2978	2985	льдинах	1	11	11	73	0	0	0	88	515	льдинах	conj	501	NOUN	NOM	Not_Assigned	Not_Assigned	3
+GPE_T88	185	526	527	GPE	Новой Сибири	3034	3046	новой сибири	2	11	11	84	0	0	0	89	527	сибири	conj	522	PROPN	PROP	Not_Assigned	Not_Assigned	3
+LOC_T89	225	529	530	LOC	Костяном проливе	3049	3065	костяном проливе	2	11	11	87	0	0	0	90	530	проливе	conj	522	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T90	101	547	547	PER	наши	3176	3180	наши	1	11	11	105	0	0	0	91	547	наши	det	549	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T91	94	564	564	PER	нас	3277	3280	нас	1	11	11	122	0	0	0	92	564	нас	obj	562	PRON	PRON	Not_Assigned	Not_Assigned	3
+GPE_T92	183	567	567	GPE	Европе	3292	3298	европе	1	11	11	125	0	0	0	93	567	европе	obl	562	PROPN	PROP	Not_Assigned	Not_Assigned	3
+GPE_T93	148	569	569	GPE	Азии	3300	3304	азии	1	11	11	127	0	0	0	94	569	азии	conj	567	PROPN	PROP	Not_Assigned	Not_Assigned	3
+GPE_T94	182	571	571	GPE	Америке	3307	3314	америке	1	11	11	129	0	0	0	95	571	америке	conj	567	PROPN	PROP	Not_Assigned	Not_Assigned	3
+PER_T95	100	575	575	PER	мое	3335	3338	мое	1	12	12	2	0	0	0	96	575	мое	det	576	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T96	99	578	579	PER	тонкий немец	3350	3362	тонкий немец	2	12	12	5	0	0	0	97	579	немец	nsubj	580	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T97	98	582	582	PER	мне	3380	3383	мне	1	12	12	9	0	0	0	98	582	мне	iobj	581	PRON	PRON	Not_Assigned	Not_Assigned	3
+LOC_T98	224	602	603	LOC	тех странах	3512	3523	тех странах	2	12	12	29	0	0	0	99	603	странах	obl	600	NOUN	NOM	Not_Assigned	Not_Assigned	3
+LOC_T99	223	604	604	LOC	островов	3524	3532	островов	1	12	12	31	0	0	0	100	604	островов	nmod	603	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T100	239	606	606	PER	ему	3541	3544	ему	1	12	12	33	0	0	0	101	606	ему	iobj	605	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T101	240	621	621	PER	нашей	3616	3621	нашей	1	12	12	48	0	0	0	102	621	нашей	det	622	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T102	249	628	628	PER	мою	3654	3657	мою	1	12	12	55	0	0	0	103	628	мою	det	630	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T103	255	645	645	PER	мне	3754	3757	мне	1	12	12	72	0	0	0	104	645	мне	iobj	648	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T104	254	653	653	PER	мое	3799	3802	мое	1	12	12	80	0	0	0	105	653	мое	det	654	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T105	253	681	681	PER	многие	3945	3951	многие	1	13	13	14	0	0	0	106	681	многие	nsubj	685	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T106	252	684	684	PER	меня	3960	3964	меня	1	13	13	17	0	0	0	107	684	меня	obl	683	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T107	251	694	694	PER	его	4019	4022	его	1	13	13	27	0	0	0	108	694	его	det	695	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T108	250	696	696	PER	я	4035	4036	я	1	13	13	29	0	0	0	109	696	я	nsubj	698	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T109	248	712	712	PER	Доктор	4147	4153	доктор	1	14	14	0	0	0	0	110	712	доктор	nsubj	713	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T110	241	714	714	PER	мне	4163	4166	мне	1	14	14	2	0	0	0	111	714	мне	iobj	713	PRON	PRON	Not_Assigned	Not_Assigned	3
+LOC_T111	163	719	719	LOC	Лены	4182	4186	лены	1	14	14	7	0	0	0	112	719	лены	nmod	718	PROPN	PROP	Not_Assigned	Not_Assigned	3
+LOC_T112	162	722	722	LOC	пещера	4207	4213	пещера	1	14	14	10	0	0	0	113	722	пещера	nsubj	720	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T113	247	730	730	PER	Паллас	4240	4246	паллас	1	14	14	18	0	0	0	114	730	паллас	nsubj	733	PROPN	PROP	Singular	Not_Assigned	3
+PER_T114	246	732	732	PER	Гмелин	4249	4255	гмелин	1	14	14	20	0	0	0	115	732	гмелин	conj	730	PROPN	PROP	Singular	Not_Assigned	3
+PER_T115	245	738	739	PER	русских промышленников	4290	4312	русских промышленников	2	14	14	26	0	0	0	116	739	промышленников	obl	736	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T116	244	746	746	PER	им	4344	4346	им	1	14	14	34	0	0	0	117	746	им	iobj	749	PRON	PRON	Not_Assigned	Not_Assigned	3
+LOC_T117	161	751	751	LOC	ее	4373	4375	ее	1	14	14	39	0	0	0	118	751	ее	obj	750	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T118	243	755	756	PER	Наши рыбаки	4399	4410	наши рыбаки	2	15	15	0	0	0	0	119	756	рыбаки	nsubj	757	NOUN	NOM	Not_Assigned	Not_Assigned	3
+LOC_T119	160	758	758	LOC	ее	4420	4422	ее	1	15	15	3	0	0	0	120	758	ее	obj	757	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T120	184	768	768	PER	Паллас	4463	4469	паллас	1	15	15	13	0	0	0	121	768	паллас	nsubj	769	PROPN	PROP	Singular	Not_Assigned	3
+PER_T123	145	770	770	PER	свой	4477	4481	свой	1	15	15	15	0	0	0	122	770	свой	det	771	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T121	146	775	775	PER	Рейнеггс	4507	4515	рейнеггс	1	15	15	20	0	0	0	123	775	рейнеггс	nsubj	776	PROPN	PROP	Singular	Not_Assigned	3
+PER_T122	37	784	784	PER	Гмелин	4561	4567	гмелин	1	15	16	0	0	0	0	124	784	гмелин	nsubj	785	PROPN	PROP	Singular	Not_Assigned	3
+LOC_T124	159	794	795	LOC	этой пещеры	4635	4646	этой пещеры	2	15	16	10	0	0	0	125	795	пещеры	nmod	793	NOUN	NOM	Not_Assigned	Not_Assigned	3
+LOC_T125	158	801	801	LOC	ее	4674	4676	ее	1	16	17	4	0	0	0	126	801	ее	nmod	800	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T126	53	809	810	PER	Арабские географы	4713	4730	арабские географы	2	17	18	0	0	0	0	127	810	географы	nsubj	819	NOUN	NOM	Not_Assigned	Not_Assigned	3
+LOC_T127	157	814	814	LOC	ней	4745	4748	ней	1	17	18	5	0	0	0	128	814	ней	obl	812	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T128	52	816	817	PER	харасских купцов	4752	4768	харасских купцов	2	17	18	7	0	0	0	129	817	купцов	obl	812	NOUN	NOM	Not_Assigned	Not_Assigned	3
+LOC_T129	156	834	834	LOC	остров	4828	4834	остров	1	17	18	25	0	0	0	130	834	остров	conj	821	NOUN	NOM	Not_Assigned	Not_Assigned	3
+LOC_T130	155	838	838	LOC	она	4847	4850	она	1	17	18	29	0	0	0	131	838	она	nsubj	839	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T131	51	858	859	PER	ученым Клапротом	4942	4958	ученым клапротом	2	18	19	5	0	1	1	132	859	клапротом	obl:agent	857	PROPN	PROP	Singular	Not_Assigned	3
+PER_T132	50	859	859	PER	Клапротом	4949	4958	клапротом	1	18	19	6	1	0	0	133	859	клапротом	obl:agent	857	PROPN	PROP	Singular	Not_Assigned	3
+LOC_T133	154	870	873	LOC	реки Ли-но	5010	5020	реки ли - но	4	18	19	17	0	1	1	134	870	реки	nmod	869	NOUN	PROP	Not_Assigned	Not_Assigned	3
+LOC_T134	153	871	873	LOC	Ли-но	5015	5020	ли - но	3	18	19	18	1	0	0	135	871	ли	appos	870	PROPN	PROP	Not_Assigned	Not_Assigned	3
+LOC_T135	152	876	877	LOC	высокой горе	5029	5041	высокой горе	2	18	19	23	0	0	0	136	877	горе	obl	874	NOUN	NOM	Not_Assigned	Not_Assigned	3
+LOC_T136	151	878	889	LOC	пещера с надписью на неизвестном языке, относимою к веку императора Яо	5042	5112	пещера с надписью на неизвестном языке , относимою к веку императора яо	12	18	19	25	0	2	2	137	880	надписью	nmod	878	NOUN	PROP	Not_Assigned	Not_Assigned	3
+PER_T137	49	888	889	PER	императора Яо	5099	5112	императора яо	2	18	19	35	1	1	1	138	888	императора	nmod	887	NOUN	PROP	Singular	Not_Assigned	3
+PER_T138	48	889	889	PER	Яо	5110	5112	яо	1	18	19	36	2	0	0	139	889	яо	appos	888	PROPN	PROP	Singular	Not_Assigned	3
+PER_T139	47	891	892	PER	Мын- дзы	5115	5123	мын- дзы	2	19	20	0	0	0	0	140	891	мын-	nsubj	893	PROPN	PROP	Singular	Not_Assigned	3
+PER_T140	46	910	910	PER	Конфуция	5209	5217	конфуция	1	19	20	19	0	0	0	141	910	конфуция	obj	907	PROPN	PROP	Singular	Not_Assigned	3
+PER_T141	45	914	915	PER	Плано Карпини	5224	5237	плано карпини	2	20	21	0	0	0	0	142	914	плано	nsubj	925	PROPN	PROP	Singular	Not_Assigned	3
+LOC_T142	150	919	919	LOC	Сибири	5258	5264	сибири	1	20	21	5	0	0	0	143	919	сибири	obl	917	PROPN	PROP	Not_Assigned	Not_Assigned	3
+LOC_T143	149	927	958	LOC	любопытной пещере, лежащей у последних пределов севера, in ultimo septentrioni, в окрестностях которой живут, по его словам, люди, имеющие только по одной ноге и одной руке	5300	5472	любопытной пещере , лежащей у последних пределов севера , in ultimo septentrioni , в окрестностях которой живут , по его словам , люди , имеющие только по одной ноге и одной руке	32	20	21	13	0	1	1	144	943	живут	acl:relcl	936	VERB	NOM	Not_Assigned	Not_Assigned	3
+PER_T144	44	949	958	PER	люди, имеющие только по одной ноге и одной руке	5425	5472	люди , имеющие только по одной ноге и одной руке	10	20	21	35	1	0	0	145	955	ноге	obl	951	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T145	43	960	960	PER	они	5475	5478	они	1	20	21	46	0	0	0	146	960	они	nsubj	963	PRON	PRON	Not_Assigned	Not_Assigned	3
+LOC_T146	164	983	983	LOC	пещере	5594	5600	пещере	1	21	22	2	0	0	0	147	983	пещере	obl	987	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T147	42	984	986	PER	суеверный посол папы	5601	5621	суеверный посол папы	3	21	22	3	0	0	0	148	985	посол	nsubj	987	NOUN	NOM	Not_Assigned	Not_Assigned	3
+LOC_T148	165	992	992	LOC	ней	5651	5654	ней	1	21	22	11	0	0	0	149	992	ней	obl	993	PRON	PRON	Not_Assigned	Not_Assigned	3
+GPE_T151	187	1066	1066	GPE	Джунгарии	5976	5985	джунгарии	1	26	28	5	0	0	0	150	1066	джунгарии	nmod	1065	PROPN	PROP	Not_Assigned	Not_Assigned	3
+GPE_T152	186	1068	1068	GPE	Монголии	5988	5996	монголии	1	26	28	7	0	0	0	151	1068	монголии	conj	1066	PROPN	PROP	Not_Assigned	Not_Assigned	3
+GPE_T153	201	1070	1072	GPE	о. Иакинфа	5998	6008	о . иакинфа	3	26	28	9	0	0	0	152	1072	иакинфа	ROOT	1072	PROPN	PROP	Not_Assigned	Not_Assigned	3
+PER_T154	39	1077	1077	PER	мне	6028	6031	мне	1	27	30	3	0	0	0	153	1077	мне	iobj	1087	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T155	54	1080	1081	PER	ученому путешественнику	6037	6060	ученому путешественнику	2	27	30	6	0	0	0	154	1081	путешественнику	acl	1077	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T156	55	1095	1095	PER	доктор	6117	6123	доктор	1	27	30	21	0	0	0	155	1095	доктор	nsubj	1096	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T157	56	1098	1098	PER	мне	6136	6139	мне	1	27	30	24	0	0	0	156	1098	мне	iobj	1096	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T158	65	1105	1105	PER	моей	6185	6189	моей	1	27	30	31	0	0	0	157	1105	моей	det	1106	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T159	71	1113	1113	PER	Я	6228	6229	я	1	28	31	0	0	0	0	158	1113	я	nsubj	1114	PRON	PRON	Not_Assigned	Not_Assigned	3
+LOC_T160	166	1124	1125	LOC	прославленную пещеру	6286	6306	прославленную пещеру	2	29	32	8	0	0	0	159	1125	пещеру	obj	1122	NOUN	NOM	Not_Assigned	Not_Assigned	3
+LOC_T161	175	1128	1128	LOC	ее	6315	6317	ее	1	29	32	12	0	0	0	160	1128	ее	obj	1127	PRON	PRON	Not_Assigned	Not_Assigned	3
+GPE_T162	202	1138	1138	GPE	Европу	6361	6367	европу	1	29	32	22	0	0	0	161	1138	европу	obl	1135	PROPN	PROP	Not_Assigned	Not_Assigned	3
+PER_T163	69	1151	1151	PER	моему	6437	6442	моему	1	30	33	5	0	0	0	162	1151	моему	det	1152	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T164	68	1156	1156	PER	мне	6461	6464	мне	1	31	34	2	0	0	0	163	1156	мне	iobj	1154	PRON	PRON	Not_Assigned	Not_Assigned	3
+FAC_T166	198	1166	1166	FAC	пути	6504	6508	пути	1	32	35	5	0	0	0	164	1166	пути	nmod	1164	NOUN	NOM	Not_Assigned	Not_Assigned	3
+GPE_T165	203	1168	1168	GPE	Торопец	6511	6518	торопец	1	32	35	7	0	0	0	165	1168	торопец	nmod	1166	PROPN	PROP	Not_Assigned	Not_Assigned	3
+PER_T167	67	1174	1174	PER	приятеля	6540	6548	приятеля	1	33	36	3	0	0	0	166	1174	приятеля	obj	1173	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T168	66	1178	1178	PER	Шпурцманн	6561	6570	шпурцманн	1	34	37	1	0	0	0	167	1178	шпурцманн	appos	1177	PROPN	PROP	Singular	Not_Assigned	3
+PER_T169	64	1185	1185	PER	он	6606	6608	он	1	34	37	8	0	0	0	168	1185	он	nsubj	1187	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T170	63	1203	1203	PER	Я	6701	6702	я	1	35	38	0	0	0	0	169	1203	я	nsubj	1208	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T171	62	1211	1211	PER	Я	6728	6729	я	1	36	39	0	0	0	0	170	1211	я	nsubj:pass	1212	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T172	61	1217	1217	PER	я	6761	6762	я	1	36	39	6	0	0	0	171	1217	я	nsubj	1218	PRON	PRON	Not_Assigned	Not_Assigned	3
+GPE_T173	212	1222	1224	GPE	разных странах света	6782	6802	разных странах света	3	36	39	11	0	0	0	172	1223	странах	obl	1218	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T174	60	1232	1233	PER	любезный доктор	6822	6837	любезный доктор	2	37	40	6	0	0	0	173	1233	доктор	conj	1212	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T175	59	1238	1238	PER	я	6853	6854	я	1	37	41	3	0	0	0	174	1238	я	nsubj	1237	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T176	58	1241	1242	PER	предприимчивого натуралиста	6864	6891	предприимчивого натуралиста	2	37	41	6	0	0	0	175	1242	натуралиста	obj	1240	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T177	38	1248	1248	PER	тебя	6912	6916	тебя	1	38	42	4	0	0	0	176	1248	тебя	obj	1247	PRON	PRON	Not_Assigned	Not_Assigned	3
+LOC_T178	181	1250	1251	LOC	Костяной пролив	6919	6934	костяной пролив	2	38	42	6	0	0	0	177	1251	пролив	obl	1247	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T179	36	1261	1261	PER	мы	6971	6973	мы	1	39	43	8	0	0	0	178	1261	мы	nsubj	1265	PRON	PRON	Not_Assigned	Not_Assigned	3
+VEH_T190	96	1265	1265	VEH	лодке	6986	6991	лодке	1	39	43	12	0	0	0	179	1265	лодке	ROOT	1265	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T180	1	1275	1275	PER	наше	7043	7047	наше	1	40	44	1	0	0	0	180	1275	наше	det	1274	DET	PRON	Not_Assigned	Not_Assigned	3
+LOC_T181	180	1277	1277	LOC	Лене	7051	7055	лене	1	40	44	3	0	0	0	181	1277	лене	nmod	1274	PROPN	PROP	Not_Assigned	Not_Assigned	3
+PER_T182	35	1286	1293	PER	Иван Антонович, который теперь совершенно располагал нами	7101	7158	иван антонович , который теперь совершенно располагал нами	8	40	44	12	0	1	1	182	1292	располагал	acl:relcl	1286	VERB	PROP	Singular	Not_Assigned	3
+PER_T183	16	1293	1293	PER	нами	7154	7158	нами	1	40	44	19	1	0	0	183	1293	нами	obl	1292	PRON	PRON	Not_Assigned	Not_Assigned	3
+LOC_T184	179	1301	1310	LOC	гор, примыкающих во многих местах к самому руслу реки	7208	7261	гор , примыкающих во многих местах к самому руслу реки	10	40	44	27	0	1	1	184	1303	примыкающих	acl	1301	VERB	NOM	Not_Assigned	Not_Assigned	3
+LOC_T185	178	1310	1310	LOC	реки	7257	7261	реки	1	40	44	36	1	0	0	185	1310	реки	nmod	1309	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T186	15	1312	1312	PER	Доктор	7264	7270	доктор	1	41	45	0	0	0	0	186	1312	доктор	nsubj	1314	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T187	14	1315	1315	PER	его	7292	7295	его	1	41	45	3	0	0	0	187	1315	его	obj	1314	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T188	13	1324	1324	PER	я	7340	7341	я	1	41	45	12	0	0	0	188	1324	я	nsubj	1325	PRON	PRON	Not_Assigned	Not_Assigned	3
+VEH_T189	97	1327	1327	VEH	лодке	7355	7360	лодке	1	41	45	15	0	0	0	189	1327	лодке	obl	1325	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T191	11	1337	1337	PER	мы	7417	7419	мы	1	42	46	5	0	0	0	190	1337	мы	nsubj	1336	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T192	10	1341	1344	PER	нашего товарища и хозяина	7443	7468	нашего товарища и хозяина	4	42	46	9	0	0	0	191	1342	товарища	obj	1340	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T193	9	1346	1346	PER	он	7471	7473	он	1	42	46	14	0	0	0	192	1346	он	nsubj	1350	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T194	8	1350	1376	PER	человек добрый, честный, услужливый, но и весьма ученый по своей части, чего прежде, сквозь казенную его оболочку, мы вовсе не приметили	7488	7624	человек добрый , честный , услужливый , но и весьма ученый по своей части , чего прежде , сквозь казенную его оболочку , мы вовсе не приметили	27	42	46	18	0	1	2	193	1376	приметили	parataxis	1350	VERB	NOM	Not_Assigned	Not_Assigned	3
+PER_T195	7	1370	1370	PER	его	7589	7592	его	1	42	46	38	1	0	0	194	1370	его	det	1371	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T196	6	1373	1373	PER	мы	7603	7605	мы	1	42	46	41	1	0	0	195	1373	мы	nsubj	1376	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T197	5	1378	1378	PER	Мы	7627	7629	мы	1	43	47	0	0	0	0	196	1378	мы	nsubj	1379	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T198	4	1380	1380	PER	его	7639	7642	его	1	43	47	2	0	0	0	197	1380	его	obj	1379	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T199	3	1389	1389	PER	он	7678	7680	он	1	44	48	4	0	0	0	198	1389	он	nsubj	1392	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T200	17	1399	1399	PER	своем	7728	7733	своем	1	44	48	14	0	0	0	199	1399	своем	det	1400	DET	PRON	Not_Assigned	Not_Assigned	3
+LOC_T201	176	1408	1408	LOC	Лена	7771	7775	лена	1	46	50	0	0	0	0	200	1408	лена	nsubj	1415	PROPN	PROP	Not_Assigned	Not_Assigned	3
+PER_T202	18	1417	1417	PER	нас	7823	7826	нас	1	46	50	9	0	0	0	201	1417	нас	obj	1416	PRON	PRON	Not_Assigned	Not_Assigned	3
+GPE_T203	218	1437	1437	GPE	Якутска	7944	7951	якутска	1	47	51	4	0	0	0	202	1437	якутска	nmod	1435	PROPN	PROP	Not_Assigned	Not_Assigned	3
+LOC_T204	174	1462	1462	LOC	река	8123	8127	река	1	48	52	4	0	0	0	203	1462	река	nsubj	1464	NOUN	NOM	Not_Assigned	Not_Assigned	3
+LOC_T205	167	1465	1467	LOC	бесконечно длинному озеру	8145	8170	бесконечно длинному озеру	3	48	52	7	0	0	0	204	1466	длинному	amod	1467	ADJ	NOM	Not_Assigned	Not_Assigned	3
+LOC_T206	173	1470	1471	LOC	смежные горы	8174	8186	смежные горы	2	48	52	12	0	0	0	205	1471	горы	nsubj	1472	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T207	19	1479	1479	PER	мы	8246	8248	мы	1	49	53	2	0	0	0	206	1479	мы	nsubj	1478	PRON	PRON	Not_Assigned	Not_Assigned	3
+GPE_T208	217	1481	1483	GPE	пустынное царство Севера	8251	8275	пустынное царство севера	3	49	53	4	0	0	0	207	1482	царство	obl	1478	NOUN	PROP	Not_Assigned	Not_Assigned	3
+LOC_T209	172	1557	1557	LOC	планету	8709	8716	планету	1	54	58	27	0	0	0	208	1557	планету	obl	1555	NOUN	NOM	Not_Assigned	Not_Assigned	3
+LOC_T210	170	1560	1560	LOC	планета	8721	8728	планета	1	54	58	30	0	0	0	209	1560	планета	nsubj	1536	NOUN	NOM	Not_Assigned	Not_Assigned	3
+LOC_T211	169	1563	1563	LOC	свое	8737	8741	свое	1	54	58	33	0	0	0	210	1563	свое	det	1566	DET	PRON	Not_Assigned	Not_Assigned	3
+LOC_T212	168	1580	1580	LOC	она	8858	8861	она	1	54	58	50	0	0	0	211	1580	она	nsubj	1579	PRON	PRON	Not_Assigned	Not_Assigned	3
+LOC_T213	219	1592	1592	LOC	своих	8929	8934	своих	1	54	58	62	0	0	0	212	1592	своих	det	1591	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T214	28	1597	1597	PER	мы	8952	8954	мы	1	55	59	3	0	0	0	213	1597	мы	nsubj	1596	PRON	PRON	Not_Assigned	Not_Assigned	3
+FAC_T215	196	1600	1601	FAC	небольшой бухте	8963	8978	небольшой бухте	2	55	59	6	0	0	0	214	1601	бухте	obl	1596	NOUN	NOM	Not_Assigned	Not_Assigned	3
+LOC_T216	220	1604	1605	LOC	самого устья	8982	8994	самого устья	2	55	59	10	0	0	0	215	1605	устья	conj	1601	NOUN	NOM	Not_Assigned	Not_Assigned	3
+LOC_T217	221	1606	1606	LOC	Лены	8995	8999	лены	1	55	59	12	0	0	0	216	1606	лены	appos	1605	PROPN	PROP	Not_Assigned	Not_Assigned	3
+LOC_T218	222	1609	1609	LOC	которого	9008	9016	которого	1	55	59	15	0	0	0	217	1609	которого	nmod	1608	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T219	34	1617	1617	PER	мы	9057	9059	мы	1	56	60	2	0	0	0	218	1617	мы	nsubj	1618	PRON	PRON	Not_Assigned	Not_Assigned	3
+LOC_T220	273	1620	1623	LOC	устье этой могущественной реки	9073	9103	устье этой могущественной реки	4	56	60	5	0	0	0	219	1623	реки	nmod	1620	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T221	33	1632	1632	PER	наши	9144	9148	наши	1	56	60	17	0	0	0	220	1632	наши	nsubj:pass	1635	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T222	32	1642	1642	PER	мы	9212	9214	мы	1	56	60	27	0	0	0	221	1642	мы	nsubj	1646	PRON	PRON	Not_Assigned	Not_Assigned	3
+LOC_T224	272	1648	1648	LOC	Река	9240	9244	река	1	57	61	0	0	0	0	222	1648	река	nsubj	1656	NOUN	NOM	Not_Assigned	Not_Assigned	3
+LOC_T225	271	1650	1650	LOC	море	9247	9251	море	1	57	61	2	0	0	0	223	1650	море	conj	1648	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T223	31	1657	1657	PER	нам	9285	9288	нам	1	57	61	9	0	0	0	224	1657	нам	iobj	1656	PRON	PRON	Not_Assigned	Not_Assigned	3
+LOC_T226	270	1675	1676	LOC	Ледовитый океан	9398	9413	ледовитый океан	2	58	62	1	0	0	0	225	1676	океан	nsubj	1679	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T227	30	1680	1680	PER	нас	9433	9436	нас	1	58	62	6	0	0	0	226	1680	нас	obj	1679	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T228	29	1697	1697	PER	Я	9526	9527	я	1	59	63	0	0	0	0	227	1697	я	nsubj	1700	PRON	PRON	Not_Assigned	Not_Assigned	3
+LOC_T229	269	1701	1702	LOC	устьем Лены	9548	9559	устьем лены	2	59	63	4	0	1	1	228	1701	устьем	obl	1700	NOUN	PROP	Not_Assigned	Not_Assigned	3
+LOC_T230	268	1702	1702	LOC	Лены	9555	9559	лены	1	59	63	5	1	0	0	229	1702	лены	appos	1701	PROPN	PROP	Not_Assigned	Not_Assigned	3
+LOC_T231	266	1704	1705	LOC	Ледовитым океаном	9562	9579	ледовитым океаном	2	59	63	7	0	0	0	230	1705	океаном	conj	1701	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T232	20	1707	1707	PER	Доктор	9582	9588	доктор	1	60	64	0	0	0	0	231	1707	доктор	nsubj	1708	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T233	26	1709	1709	PER	мое	9599	9602	мое	1	60	64	2	0	0	0	232	1709	мое	det	1710	DET	PRON	Not_Assigned	Not_Assigned	3
+LOC_T234	259	1714	1715	LOC	этого устья	9636	9647	этого устья	2	60	64	7	0	0	0	233	1715	устья	nmod	1713	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T235	25	1730	1730	PER	мы	9722	9724	мы	1	61	65	8	0	0	0	234	1730	мы	nsubj	1729	PRON	PRON	Not_Assigned	Not_Assigned	3
+LOC_T236	265	1739	1739	LOC	реке	9759	9763	реке	1	61	65	17	0	0	0	235	1739	реке	obl	1729	NOUN	NOM	Not_Assigned	Not_Assigned	3
+LOC_T237	264	1745	1745	LOC	устья	9784	9789	устья	1	61	65	23	0	0	0	236	1745	устья	nmod	1744	NOUN	NOM	Not_Assigned	Not_Assigned	3
+LOC_T238	263	1747	1760	LOC	длинная аллея утесистых островов, конец которой теряется из виду на отдаленных водах океана	9798	9889	длинная аллея утесистых островов , конец которой теряется из виду на отдаленных водах океана	14	61	65	25	0	1	2	237	1754	теряется	acl:relcl	1748	VERB	NOM	Not_Assigned	Not_Assigned	3
+LOC_T239	262	1753	1753	LOC	которой	9838	9845	которой	1	61	65	31	1	0	0	238	1753	которой	nmod	1752	PRON	PRON	Not_Assigned	Not_Assigned	3
+LOC_T240	261	1760	1760	LOC	океана	9883	9889	океана	1	61	65	38	1	0	0	239	1760	океана	nmod	1759	NOUN	NOM	Not_Assigned	Not_Assigned	3
+LOC_T241	260	1766	1766	LOC	это	9916	9919	это	1	62	66	4	0	0	0	240	1766	это	nsubj	1767	PRON	PRON	Not_Assigned	Not_Assigned	3
+LOC_T242	274	1769	1769	LOC	Лены	9940	9944	лены	1	62	66	7	0	0	0	241	1769	лены	nmod	1768	PROPN	PROP	Not_Assigned	Not_Assigned	3
+LOC_T243	267	1771	1771	LOC	которая	9946	9953	которая	1	62	66	9	0	0	0	242	1771	которая	nsubj	1775	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T244	24	1793	1795	PER	мы с доктором	10084	10097	мы с доктором	3	62	66	31	0	1	1	243	1795	доктором	nmod	1793	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T245	23	1795	1795	PER	доктором	10089	10097	доктором	1	62	66	33	1	0	0	244	1795	доктором	nmod	1793	NOUN	NOM	Not_Assigned	Not_Assigned	3
+LOC_T246	275	1804	1804	LOC	ее	10144	10146	ее	1	62	66	42	0	0	0	245	1804	ее	det	1805	DET	PRON	Not_Assigned	Not_Assigned	3
+LOC_T247	285	1810	1810	LOC	русла	10183	10188	русла	1	62	66	48	0	0	0	246	1810	русла	nmod	1809	NOUN	NOM	Not_Assigned	Not_Assigned	3
+LOC_T248	291	1811	1811	LOC	ее	10189	10191	ее	1	62	66	49	0	0	0	247	1811	ее	nmod	1810	PRON	PRON	Not_Assigned	Not_Assigned	3
+LOC_T249	290	1814	1814	LOC	моря	10204	10208	моря	1	62	66	52	0	0	0	248	1814	моря	nmod	1813	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T250	22	1816	1816	PER	Шпурцманн	10211	10220	шпурцманн	1	63	67	0	0	0	0	249	1816	шпурцманн	nsubj	1819	PROPN	PROP	Singular	Not_Assigned	3
+PER_T251	21	1826	1826	PER	его	10279	10282	его	1	63	67	10	0	0	0	250	1826	его	det	1827	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T252	72	1829	1829	PER	меня	10304	10308	меня	1	63	67	13	0	0	0	251	1829	меня	obj	1831	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T253	73	1837	1837	PER	я	10333	10334	я	1	64	68	4	0	0	0	252	1837	я	nsubj	1838	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T254	74	1842	1842	PER	я	10362	10363	я	1	64	68	9	0	0	0	253	1842	я	nsubj	1844	PRON	PRON	Not_Assigned	Not_Assigned	3
+LOC_T255	289	1845	1845	LOC	устье	10375	10380	устье	1	64	68	12	0	0	0	254	1845	устье	obj	1844	NOUN	NOM	Not_Assigned	Not_Assigned	3
+LOC_T256	288	1846	1846	LOC	Лены	10381	10385	лены	1	64	68	13	0	0	0	255	1846	лены	appos	1845	PROPN	PROP	Not_Assigned	Not_Assigned	3
+GPE_T257	214	1850	1850	GPE	Якутску	10398	10405	якутску	1	64	68	17	0	0	0	256	1850	якутску	obl	1848	PROPN	PROP	Not_Assigned	Not_Assigned	3
+PER_T258	75	1855	1855	PER	я	10418	10419	я	1	64	68	22	0	0	0	257	1855	я	nsubj	1854	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T259	126	1860	1860	PER	вы	10428	10430	вы	1	65	69	3	0	0	0	258	1860	вы	nsubj	1864	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T260	125	1863	1864	PER	таким вандалом	10439	10453	таким вандалом	2	65	69	6	0	0	0	259	1864	вандалом	ROOT	1864	NOUN	NOM	Not_Assigned	Not_Assigned	3
+LOC_T261	287	1867	1869	LOC	такую прекрасную реку	10463	10484	такую прекрасную реку	3	65	69	10	0	0	0	260	1869	реку	obj	1866	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T297	142	1874	1874	PER	доктор	10498	10504	доктор	1	65	70	3	0	0	0	261	1874	доктор	nsubj	1873	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T262	124	1876	1876	PER	Мы	10507	10509	мы	1	66	71	0	0	0	0	262	1876	мы	nsubj	1877	PRON	PRON	Not_Assigned	Not_Assigned	3
+FAC_T263	193	1879	1885	FAC	несколько юрт тунгусов, занимающихся рыбною ловлею	10522	10572	несколько юрт тунгусов , занимающихся рыбною ловлею	7	66	71	3	0	1	1	263	1880	юрт	obj	1877	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T264	123	1881	1885	PER	тунгусов, занимающихся рыбною ловлею	10536	10572	тунгусов , занимающихся рыбною ловлею	5	66	71	5	1	0	0	264	1883	занимающихся	acl	1881	VERB	NOM	Not_Assigned	Not_Assigned	3
+PER_T265	122	1887	1887	PER	они	10575	10578	они	1	66	71	11	0	0	0	265	1887	они	nsubj	1888	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T266	121	1889	1890	PER	все народонаселение	10590	10609	все народонаселение	2	66	71	13	0	0	0	266	1890	народонаселение	obj	1888	NOUN	NOM	Not_Assigned	Not_Assigned	3
+LOC_T267	286	1891	1892	LOC	здешнего края	10610	10623	здешнего края	2	66	71	15	0	0	0	267	1892	края	nmod	1890	NOUN	NOM	Not_Assigned	Not_Assigned	3
+VEH_T268	95	1894	1905	VEH	Два большие судна, отправленные одним купцом из Якутска для ловли тюленей	10626	10699	два большие судна , отправленные одним купцом из якутска для ловли тюленей	12	67	72	0	0	1	1	268	1896	судна	nsubj	1907	NOUN	PROP	Not_Assigned	Not_Assigned	3
+PER_T269	119	1899	1902	PER	одним купцом из Якутска	10658	10681	одним купцом из якутска	4	67	72	5	1	0	0	269	1900	купцом	obl:agent	1898	NOUN	PROP	Singular	Not_Assigned	3
+LOC_T270	284	1909	1915	LOC	островка, закрывающего вход в нашу бухту	10710	10750	островка , закрывающего вход в нашу бухту	7	67	72	15	0	1	1	270	1911	закрывающего	acl	1909	VERB	NOM	Not_Assigned	Not_Assigned	3
+FAC_T271	191	1914	1915	FAC	нашу бухту	10740	10750	нашу бухту	2	67	72	20	1	0	0	271	1915	бухту	nmod	1912	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T272	112	1920	1920	PER	мы	10774	10776	мы	1	68	73	3	0	0	0	272	1920	мы	nsubj	1922	PRON	PRON	Not_Assigned	Not_Assigned	3
+LOC_T273	277	1927	1928	LOC	Писанная Комната	10809	10825	писанная комната	2	68	73	10	0	0	0	273	1928	комната	nsubj	1929	PROPN	PROP	Not_Assigned	Not_Assigned	3
+LOC_T274	283	1931	1934	LOC	так называемом Медвежьем Острове	10839	10871	так называемом медвежьем острове	4	68	73	14	0	0	0	274	1932	называемом	acl	1933	VERB	PROP	Not_Assigned	Not_Assigned	3
+LOC_T275	282	1938	1939	LOC	Фадеевским Островом	10887	10906	фадеевским островом	2	68	73	21	0	0	0	275	1939	островом	obl	1936	PROPN	PROP	Not_Assigned	Not_Assigned	3
+LOC_T276	281	1941	1942	LOC	Новою Сибирью	10908	10921	новою сибирью	2	68	73	24	0	0	0	276	1941	новою	nsubj	1929	PROPN	PROP	Not_Assigned	Not_Assigned	3
+LOC_T277	280	1944	1945	LOC	Костяным проливом	10924	10941	костяным проливом	2	68	73	27	0	0	0	277	1945	проливом	conj	1941	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T278	118	1948	1949	PER	Антон Иванович	10948	10962	антон иванович	2	69	74	1	0	0	0	278	1948	антон	nsubj	1950	PROPN	PROP	Singular	Not_Assigned	3
+LOC_T279	279	1952	1952	LOC	здесь	10983	10988	здесь	1	69	74	5	0	0	0	279	1952	здесь	advmod	1951	ADV	NOM	Not_Assigned	Not_Assigned	3
+PER_T280	116	1958	1960	PER	мы с доктором	11011	11024	мы с доктором	3	69	74	11	0	1	1	280	1960	доктором	nmod	1958	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T281	115	1960	1960	PER	доктором	11016	11024	доктором	1	69	74	13	1	0	0	281	1960	доктором	nmod	1958	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T282	114	1965	1967	PER	приказчиком одного судна	11049	11073	приказчиком одного судна	3	69	74	18	0	1	1	282	1967	судна	nmod	1965	NOUN	NOM	Not_Assigned	Not_Assigned	3
+VEH_T283	292	1967	1967	VEH	судна	11068	11073	судна	1	69	74	20	1	0	0	283	1967	судна	nmod	1965	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T284	113	1999	1999	PER	сами	11253	11257	сами	1	70	75	24	0	0	0	284	1999	сами	acl	2002	ADJ	NOM	Not_Assigned	Not_Assigned	3
+LOC_T285	278	2004	2005	LOC	этом острову	11275	11287	этом острову	2	70	75	29	0	0	0	285	2005	острову	obl	2002	NOUN	NOM	Not_Assigned	Not_Assigned	3
+LOC_T286	276	2008	2009	LOC	Писанной Комнате	11292	11308	писанной комнате	2	70	75	33	0	0	0	286	2009	комнате	conj	2005	PROPN	PROP	Not_Assigned	Not_Assigned	3
+PER_T287	127	2013	2013	PER	ними	11322	11326	ними	1	71	76	2	0	0	0	287	2013	ними	obl	2011	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T288	120	2019	2019	PER	мы	11354	11356	мы	1	71	76	8	0	0	0	288	2019	мы	nsubj	2018	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T289	128	2023	2047	PER	хозяином, который душевно сожалел, что должен был расстаться с нами, тогда как и сам он очень желал бы посетить столь любопытную пещеру	11374	11509	хозяином , который душевно сожалел , что должен был расстаться с нами , тогда как и сам он очень желал бы посетить столь любопытную пещеру	25	71	76	12	0	1	3	289	2042	желал	advcl	2032	VERB	NOM	Not_Assigned	Not_Assigned	3
+PER_T290	144	2034	2034	PER	нами	11437	11441	нами	1	71	76	23	1	0	0	290	2034	нами	obl	2032	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T291	143	2040	2040	PER	он	11459	11461	он	1	71	76	29	1	0	0	291	2040	он	nsubj	2042	PRON	PRON	Not_Assigned	Not_Assigned	3
+LOC_T292	258	2045	2047	LOC	столь любопытную пещеру	11486	11509	столь любопытную пещеру	3	71	76	34	1	0	0	292	2046	любопытную	amod	2047	ADJ	NOM	Not_Assigned	Not_Assigned	3

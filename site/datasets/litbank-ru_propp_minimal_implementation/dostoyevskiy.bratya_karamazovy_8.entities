@@ -1,0 +1,290 @@
+COREF_name	COREF	start_token	end_token	cat	sacr_text	byte_onset	byte_offset	text	mention_len	paragraph_ID	sentence_ID	start_token_ID_within_sentence	out_to_in_nested_level	in_to_out_nested_level	nested_entities_count	temp_index	head_id	head_word	head_dependency_relation	head_syntactic_head_ID	POS_tag	prop	number	gender	grammatical_person
+autor	3	0	0	PER	Я	0	1	я	1	0	0	0	0	0	0	0	0	я	nsubj	4	PRON	PRON	Not_Assigned	Not_Assigned	3
+autor	3	2	2	PER	сам	12	15	сам	1	0	0	2	0	0	0	1	2	сам	acl	4	ADJ	NOM	Not_Assigned	Not_Assigned	3
+Efim	5	24	26	PER	Главным наследником старухи	116	143	главным наследником старухи	3	1	1	0	0	1	1	2	25	наследником	xcomp	27	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T4	17	26	26	PER	старухи	136	143	старухи	1	1	1	2	1	0	0	3	26	старухи	nmod	25	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Efim	5	32	42	PER	честный человек, губернский предводитель дворянства той губернии Ефим Петрович Поленов	165	251	честный человек , губернский предводитель дворянства той губернии ефим петрович поленов	11	1	1	8	0	2	2	4	36	предводитель	appos	33	NOUN	PROP	Singular	Not_Assigned	3
+PER_T6	54	37	39	PER	дворянства той губернии	206	229	дворянства той губернии	3	1	1	13	1	1	1	5	39	губернии	nmod	37	NOUN	NOM	Not_Assigned	Not_Assigned	3
+GPE_T7	37	38	39	GPE	той губернии	217	229	той губернии	2	1	1	14	2	0	0	6	39	губернии	nmod	37	NOUN	NOM	Not_Assigned	Not_Assigned	3
+fatherofadopted	2	46	47	PER	Федором Павловичем	267	285	федором павловичем	2	2	2	2	0	0	0	7	46	федором	obl	44	PROPN	PROP	Singular	Not_Assigned	3
+fatherofadopted	2	54	54	PER	него	309	313	него	1	2	2	10	0	0	0	8	54	него	obl	62	PRON	PRON	Not_Assigned	Not_Assigned	3
+fatherofadopted	2	58	58	PER	его	334	337	его	1	2	2	14	0	0	0	9	58	его	det	60	DET	PRON	Not_Assigned	Not_Assigned	3
+adoptedkids	4	60	60	PER	детей	341	346	детей	1	2	2	16	0	0	0	10	60	детей	nmod	57	NOUN	NOM	Not_Assigned	Not_Assigned	3
+fatherofadopted	2	65	65	PER	тот	366	369	тот	1	2	2	21	0	0	0	11	65	тот	nsubj	69	DET	PRON	Not_Assigned	Not_Assigned	3
+Efim	5	86	86	PER	он	483	485	он	1	2	2	42	0	0	0	12	86	он	nsubj	87	PRON	PRON	Not_Assigned	Not_Assigned	3
+adoptedkids	4	89	89	PER	сиротах	495	502	сиротах	1	2	2	45	0	0	0	13	89	сиротах	obl	87	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Aleksey	1	95	99	PER	младшего из них, Алексея	536	560	младшего из них , алексея	5	2	2	51	0	1	1	14	97	них	nmod	95	PRON	PROP	Singular	Not_Assigned	3
+adoptedkids	4	97	97	PER	них	548	551	них	1	2	2	53	1	0	0	15	97	них	nmod	95	PRON	PRON	Not_Assigned	Not_Assigned	3
+Aleksey	1	103	103	PER	тот	570	573	тот	1	2	2	59	0	0	0	16	103	тот	det	105	DET	PRON	Not_Assigned	Not_Assigned	3
+familyofEfim	13	110	111	PER	его семействе	600	613	его семействе	2	2	2	66	0	1	1	17	111	семействе	obl	108	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Efim	5	110	110	PER	его	600	603	его	1	2	2	66	1	0	0	18	110	его	det	111	DET	PRON	Not_Assigned	Not_Assigned	3
+autor	3	114	114	PER	я	620	621	я	1	3	3	1	0	0	0	19	114	я	nsubj	115	PRON	PRON	Not_Assigned	Not_Assigned	3
+reader	14	116	116	PER	читателя	628	636	читателя	1	3	3	3	0	0	0	20	116	читателя	obj	115	NOUN	NOM	Not_Assigned	Not_Assigned	3
+M1	33	124	124	PER	кому	671	675	кому	1	4	4	2	0	0	0	21	124	кому	iobj	125	PRON	PRON	Not_Assigned	Not_Assigned	3
+adoptedkids	4	127	128	PER	молодые люди	689	701	молодые люди	2	4	4	5	0	0	0	22	128	люди	nsubj	125	NOUN	NOM	Not_Assigned	Not_Assigned	3
+adoptedkids	4	129	129	PER	своим	702	707	своим	1	4	4	7	0	0	0	23	129	своим	det	130	DET	PRON	Not_Assigned	Not_Assigned	3
+adoptedkids	4	135	135	PER	свою	742	746	свою	1	4	4	13	0	0	0	24	135	свою	det	136	DET	PRON	Not_Assigned	Not_Assigned	3
+Efim	5	141	142	PER	Ефиму Петровичу	770	785	ефиму петровичу	2	4	4	19	0	0	0	25	141	ефиму	nsubj	125	PROPN	PROP	Singular	Not_Assigned	3
+Efim	5	144	154	PER	благороднейшему и гуманнейшему человеку, из таких, какие редко встречаются	787	861	благороднейшему и гуманнейшему человеку , из таких , какие редко встречаются	11	4	4	22	0	1	1	26	150	таких	det	125	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T27	57	150	154	PER	таких, какие редко встречаются	831	861	таких , какие редко встречаются	5	4	4	28	1	0	0	27	154	встречаются	acl:relcl	150	VERB	NOM	Not_Assigned	Not_Assigned	3
+Efim	5	156	156	PER	Он	864	866	он	1	5	5	0	0	0	0	28	156	он	nsubj	157	PRON	PRON	Not_Assigned	Not_Assigned	3
+adoptedkids	4	158	158	PER	малюткам	876	884	малюткам	1	5	5	2	0	0	0	29	158	малюткам	iobj	157	NOUN	NOM	Not_Assigned	Not_Assigned	3
+adoptedkids	4	160	160	PER	их	888	890	их	1	5	5	4	0	0	0	30	160	их	det	161	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T4	17	164	164	PER	генеральшей	911	922	генеральшей	1	5	5	8	0	0	0	31	164	генеральшей	obl:agent	163	NOUN	NOM	Not_Assigned	Not_Assigned	3
+adoptedkids	4	173	173	PER	их	971	973	их	1	5	5	17	0	0	0	32	173	их	nmod	172	PRON	PRON	Not_Assigned	Not_Assigned	3
+adoptedkids	4	183	183	PER	их	1023	1025	их	1	5	5	27	0	0	0	33	183	их	obj	181	PRON	PRON	Not_Assigned	Not_Assigned	3
+Efim	5	185	185	PER	свои	1029	1033	свои	1	5	5	29	0	0	0	34	185	свои	det	186	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T35	22	201	201	PER	каждого	1098	1105	каждого	1	5	5	45	0	0	0	35	201	каждого	det	199	DET	PRON	Not_Assigned	Not_Assigned	3
+adoptedkids	4	206	206	PER	их	1128	1130	их	1	6	6	3	0	0	0	36	206	их	det	207	DET	PRON	Not_Assigned	Not_Assigned	3
+autor	3	210	210	PER	я	1148	1149	я	1	6	6	7	0	0	0	37	210	я	nsubj	214	PRON	PRON	Not_Assigned	Not_Assigned	3
+Ivan	0	226	226	PER	старшем	1231	1238	старшем	1	7	7	3	0	0	0	38	226	старшем	obl	230	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Ivan	0	228	228	PER	Иване	1240	1245	иване	1	7	7	5	0	0	0	39	228	иване	conj	226	PROPN	PROP	Singular	Not_Assigned	3
+Ivan	0	235	235	PER	он	1267	1269	он	1	7	7	12	0	0	0	40	235	он	nsubj	236	PRON	PRON	Not_Assigned	Not_Assigned	3
+Ivan	0	237	298	PER	каким-то угрюмым и закрывшимся сам в себе отроком, далеко не робким, но как бы еще с десяти лет проникнувшим в то, что растут они все-таки в чужой семье и на чужих милостях и что отец у них какой-то такой, о котором даже и говорить стыдно, и проч., и проч	1274	1529	каким - то угрюмым и закрывшимся сам в себе отроком , далеко не робким , но как бы еще с десяти лет проникнувшим в то , что растут они все - таки в чужой семье и на чужих милостях и что отец у них какой - то такой , о котором даже и говорить стыдно , и проч . , и проч	62	7	7	14	0	1	7	41	264	растут	acl	261	VERB	NOM	Not_Assigned	Not_Assigned	3
+Ivan	0	243	243	PER	сам	1305	1308	сам	1	7	7	20	1	0	0	42	243	сам	acl	246	ADJ	NOM	Not_Assigned	Not_Assigned	3
+Ivan	0	245	245	PER	себе	1311	1315	себе	1	7	7	22	1	0	0	43	245	себе	nmod	243	PRON	PRON	Not_Assigned	Not_Assigned	3
+adoptedkids	4	265	265	PER	они	1400	1403	они	1	7	7	42	1	0	0	44	265	они	nsubj	264	PRON	PRON	Not_Assigned	Not_Assigned	3
+familyofEfim	13	270	271	PER	чужой семье	1415	1426	чужой семье	2	7	7	47	1	0	0	45	271	семье	obl	264	NOUN	NOM	Not_Assigned	Not_Assigned	3
+fatherofadopted	2	278	278	PER	отец	1453	1457	отец	1	7	7	55	1	0	0	46	278	отец	discourse	277	NOUN	NOM	Not_Assigned	Not_Assigned	3
+adoptedkids	4	280	280	PER	них	1460	1463	них	1	7	7	57	1	0	0	47	280	них	conj	264	PRON	PRON	Not_Assigned	Not_Assigned	3
+fatherofadopted	2	281	291	PER	какой-то такой, о котором даже и говорить стыдно	1464	1512	какой - то такой , о котором даже и говорить стыдно	11	7	7	58	1	0	0	48	284	такой	det	280	DET	PRON	Not_Assigned	Not_Assigned	3
+Ivan	0	300	301	PER	Этот мальчик	1532	1544	этот мальчик	2	8	8	0	0	0	0	49	301	мальчик	nsubj	317	NOUN	NOM	Not_Assigned	Not_Assigned	3
+familyofEfim	13	343	345	PER	семьей Ефима Петровича	1745	1767	семьей ефима петровича	3	9	9	14	0	1	1	50	343	семьей	obl	347	NOUN	PROP	Singular	Not_Assigned	3
+Efim	5	344	345	PER	Ефима Петровича	1752	1767	ефима петровича	2	9	9	15	1	0	0	51	344	ефима	nmod	343	PROPN	PROP	Singular	Not_Assigned	3
+Ivan	0	346	346	PER	он	1768	1770	он	1	9	9	17	0	0	0	52	346	он	nsubj	347	PRON	PRON	Not_Assigned	Not_Assigned	3
+ORG_T52	25	356	359	ORG	одну из московских гимназий	1818	1845	одну из московских гимназий	4	9	9	27	0	1	1	53	359	гимназий	nmod	356	NOUN	NOM	Not_Assigned	Not_Assigned	3
+ORG_T53	60	358	359	ORG	московских гимназий	1826	1845	московских гимназий	2	9	9	29	1	0	0	54	359	гимназий	nmod	356	NOUN	NOM	Not_Assigned	Not_Assigned	3
+ORG_T54	55	362	362	ORG	пансион	1851	1858	пансион	1	9	9	33	0	0	0	55	362	пансион	obl	354	NOUN	NOM	Not_Assigned	Not_Assigned	3
+teacherofIvan	15	364	377	PER	какому-то опытному и знаменитому тогда педагогу, другу с детства Ефима Петровича	1861	1941	какому - то опытному и знаменитому тогда педагогу , другу с детства ефима петровича	14	9	9	35	0	1	1	56	371	педагогу	nmod	362	NOUN	PROP	Singular	Not_Assigned	3
+Ivan	0	376	377	PER	Ефима Петровича	1926	1941	ефима петровича	2	9	9	47	1	0	0	57	376	ефима	nmod	375	PROPN	PROP	Singular	Not_Assigned	3
+Ivan	0	379	379	PER	Сам	1944	1947	сам	1	10	10	0	0	0	0	58	379	сам	amod	380	ADJ	NOM	Not_Assigned	Not_Assigned	3
+Ivan	0	380	380	PER	Иван	1948	1952	иван	1	10	10	1	0	0	0	59	380	иван	nsubj	381	PROPN	PROP	Singular	Not_Assigned	3
+Efim	5	398	413	PER	Ефима Петровича, увлекшегося идеей, что гениальных способностей мальчик должен и воспитываться у гениального воспитателя	2035	2155	ефима петровича , увлекшегося идеей , что гениальных способностей мальчик должен и воспитываться у гениального воспитателя	16	11	11	0	0	1	2	60	408	должен	ccomp	401	ADJ	PROP	Singular	Not_Assigned	3
+Ivan	0	405	407	PER	гениальных способностей мальчик	2075	2106	гениальных способностей мальчик	3	11	11	7	1	0	0	61	406	способностей	obj	408	NOUN	NOM	Not_Assigned	Not_Assigned	3
+teacherofIvan	15	412	413	PER	гениального воспитателя	2132	2155	гениального воспитателя	2	11	11	14	1	0	0	62	413	воспитателя	obl	410	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Efim	5	418	419	PER	Ефима Петровича	2170	2185	ефима петровича	2	12	12	3	0	0	0	63	418	ефима	nsubj	428	PROPN	PROP	Singular	Not_Assigned	3
+teacherofIvan	15	422	423	PER	гениального воспитателя	2190	2213	гениального воспитателя	2	12	12	7	0	0	0	64	423	воспитателя	conj	418	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Ivan	0	431	432	PER	молодой человек	2241	2256	молодой человек	2	12	12	16	0	0	0	65	432	человек	nsubj	437	NOUN	NOM	Not_Assigned	Not_Assigned	3
+ORG_T52	25	435	435	ORG	гимназию	2265	2273	гимназию	1	12	12	20	0	0	0	66	435	гимназию	obj	434	NOUN	NOM	Not_Assigned	Not_Assigned	3
+ORG_T66	10	439	439	ORG	университет	2286	2297	университет	1	12	12	24	0	0	0	67	439	университет	obl	437	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Efim	5	443	444	PER	Ефим Петрович	2308	2321	ефим петрович	2	13	13	2	0	0	0	68	443	ефим	nsubj	446	PROPN	PROP	Singular	Not_Assigned	3
+PER_T4	17	450	451	PER	самодуркой генеральшей	2364	2386	самодуркой генеральшей	2	13	13	9	0	0	0	69	451	генеральшей	obl:agent	449	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Efim	5	452	452	PER	собственных	2387	2398	собственных	1	13	13	11	0	0	0	70	452	собственных	amod	454	ADJ	NOM	Not_Assigned	Not_Assigned	3
+nous	6	470	470	PER	нас	2503	2506	нас	1	13	13	29	0	0	0	71	470	нас	obl	468	PRON	PRON	Not_Assigned	Not_Assigned	3
+Ivan	0	476	477	PER	молодому человеку	2539	2556	молодому человеку	2	13	13	35	0	0	0	72	477	человеку	iobj	485	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Ivan	0	480	480	PER	его	2566	2569	его	1	13	13	39	0	0	0	73	480	его	det	481	DET	PRON	Not_Assigned	Not_Assigned	3
+ORG_T66	10	484	484	ORG	университете	2581	2593	университете	1	13	13	43	0	0	0	74	484	университете	obl	485	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Ivan	0	491	491	PER	он	2625	2627	он	1	13	13	50	0	0	0	75	491	он	nsubj:pass	492	PRON	PRON	Not_Assigned	Not_Assigned	3
+Ivan	0	500	500	PER	себя	2676	2680	себя	1	13	13	59	0	0	0	76	500	себя	obj	499	PRON	PRON	Not_Assigned	Not_Assigned	3
+Ivan	0	501	501	PER	сам	2681	2684	сам	1	13	13	60	0	0	0	77	501	сам	amod	497	ADJ	NOM	Not_Assigned	Not_Assigned	3
+Ivan	0	513	513	PER	он	2730	2732	он	1	14	14	4	0	0	0	78	513	он	nsubj	518	PRON	PRON	Not_Assigned	Not_Assigned	3
+fatherofadopted	2	523	523	PER	отцом	2785	2790	отцом	1	14	14	14	0	0	0	79	523	отцом	obl	521	NOUN	NOM	Not_Assigned	Not_Assigned	3
+fatherofadopted	2	535	535	PER	нему	2834	2838	нему	1	14	14	26	0	0	0	80	535	нему	nmod	533	PRON	PRON	Not_Assigned	Not_Assigned	3
+fatherofadopted	2	547	547	PER	ему	2911	2914	ему	1	14	14	38	0	0	0	81	547	ему	iobj	546	PRON	PRON	Not_Assigned	Not_Assigned	3
+fatherofadopted	2	551	551	PER	папеньки	2923	2931	папеньки	1	14	14	42	0	0	0	82	551	папеньки	obl	559	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Ivan	0	567	568	PER	молодой человек	3003	3018	молодой человек	2	15	15	6	0	0	0	83	568	человек	nsubj	570	NOUN	NOM	Not_Assigned	Not_Assigned	3
+ORG_T81	18	587	588	ORG	редакциям газет	3115	3130	редакциям газет	2	15	15	26	0	0	0	84	587	редакциям	obl	585	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T82	44	602	602	PER	Очевидец	3209	3217	очевидец	1	15	15	41	0	0	0	85	602	очевидец	appos	600	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Ivan	0	629	630	PER	молодой человек	3336	3351	молодой человек	2	16	16	24	0	0	0	86	630	человек	nsubj	631	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Ivan	0	633	633	PER	свое	3363	3367	свое	1	16	16	28	0	0	0	87	633	свое	det	637	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T85	35	639	691	PER	тою многочисленною, вечно нуждающеюся и несчастною частью нашей учащейся молодежи обоего пола, которая в столицах, по обыкновению, с утра до ночи обивает пороги разных газет и журналов, не умея ничего лучше выдумать, кроме вечного повторения одной и той же просьбы о переводах с французского или о переписке	3412	3719	тою многочисленною , вечно нуждающеюся и несчастною частью нашей учащейся молодежи обоего пола , которая в столицах , по обыкновению , с утра до ночи обивает пороги разных газет и журналов , не умея ничего лучше выдумать , кроме вечного повторения одной и той же просьбы о переводах с французского или о переписке	53	16	16	34	0	2	5	88	664	обивает	acl:relcl	651	VERB	NOM	Not_Assigned	Not_Assigned	3
+PER_T87	43	647	691	PER	нашей учащейся молодежи обоего пола, которая в столицах, по обыкновению, с утра до ночи обивает пороги разных газет и журналов, не умея ничего лучше выдумать, кроме вечного повторения одной и той же просьбы о переводах с французского или о переписке	3470	3719	нашей учащейся молодежи обоего пола , которая в столицах , по обыкновению , с утра до ночи обивает пороги разных газет и журналов , не умея ничего лучше выдумать , кроме вечного повторения одной и той же просьбы о переводах с французского или о переписке	45	16	16	42	1	1	4	89	664	обивает	acl:relcl	651	VERB	NOM	Not_Assigned	Not_Assigned	3
+nous	6	647	647	PER	нашей	3470	3475	нашей	1	16	16	42	2	0	0	90	647	нашей	det	649	DET	PRON	Not_Assigned	Not_Assigned	3
+GPE_T88	36	655	655	GPE	столицах	3517	3525	столицах	1	16	16	50	2	0	0	91	655	столицах	obl	664	NOUN	NOM	Not_Assigned	Not_Assigned	3
+ORG_T89	51	667	667	ORG	газет	3580	3585	газет	1	16	16	62	2	0	0	92	667	газет	nmod	665	NOUN	NOM	Not_Assigned	Not_Assigned	3
+ORG_T90	47	669	669	ORG	журналов	3588	3596	журналов	1	16	16	64	2	0	0	93	669	журналов	conj	667	NOUN	NOM	Not_Assigned	Not_Assigned	3
+ORG_T81	18	695	695	ORG	редакциями	3739	3749	редакциями	1	17	17	2	0	0	0	94	695	редакциями	obl	693	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Ivan	0	697	698	PER	Иван Федорович	3751	3765	иван федорович	2	17	17	4	0	0	0	95	697	иван	nsubj	703	PROPN	PROP	Singular	Not_Assigned	3
+ORG_T81	18	706	706	ORG	ними	3803	3807	ними	1	17	17	13	0	0	0	96	706	ними	nmod	704	PRON	PRON	Not_Assigned	Not_Assigned	3
+Ivan	0	710	710	PER	свои	3822	3826	свои	1	17	17	17	0	0	0	97	710	свои	det	711	DET	PRON	Not_Assigned	Not_Assigned	3
+ORG_T66	10	713	713	ORG	университете	3834	3846	университете	1	17	17	20	0	0	0	98	713	университете	obl	714	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T95	30	730	731	PER	литературных кружках	3941	3961	литературных кружках	2	17	17	37	0	0	0	99	731	кружках	obl	728	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Ivan	0	742	742	PER	ему	4018	4021	ему	1	18	18	8	0	0	0	100	742	ему	iobj	743	PRON	PRON	Not_Assigned	Not_Assigned	3
+Ivan	0	747	747	PER	себя	4051	4055	себя	1	18	18	13	0	0	0	101	747	себя	obl	745	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T99	31	752	755	PER	гораздо большем круге читателей	4083	4114	гораздо большем круге читателей	4	18	18	18	0	0	0	102	754	круге	nmod	750	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Ivan	0	759	759	PER	его	4124	4127	его	1	18	18	25	0	0	0	103	759	его	obj	764	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T101	28	760	761	PER	весьма многие	4128	4141	весьма многие	2	18	18	26	0	0	0	104	761	многие	amod	762	NOUN	NOM	Not_Assigned	Not_Assigned	3
+ORG_T66	10	777	777	ORG	университета	4227	4239	университета	1	20	20	3	0	0	0	105	777	университета	obl	775	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Ivan	0	781	781	PER	свои	4259	4263	свои	1	20	20	7	0	0	0	106	781	свои	det	783	DET	PRON	Not_Assigned	Not_Assigned	3
+LOC_T104	27	785	786	LOC	за границу	4284	4294	за границу	2	20	20	11	0	0	0	107	786	границу	obl	784	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Ivan	0	788	789	PER	Иван Федорович	4296	4310	иван федорович	2	20	20	14	0	0	0	108	788	иван	nsubj	791	PROPN	PROP	Singular	Not_Assigned	3
+PER_T106	45	807	807	PER	неспециалистов	4409	4423	неспециалистов	1	20	20	33	0	0	0	109	807	неспециалистов	obj	801	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Ivan	0	821	821	PER	ему	4469	4472	ему	1	20	20	47	0	0	0	110	821	ему	iobj	822	PRON	PRON	Not_Assigned	Not_Assigned	3
+Ivan	0	827	827	PER	он	4504	4506	он	1	20	20	53	0	0	0	111	827	он	nsubj	826	PRON	PRON	Not_Assigned	Not_Assigned	3
+Ivan	0	829	829	PER	естественником	4512	4526	естественником	1	20	20	55	0	0	0	112	829	естественником	obl	826	NOUN	NOM	Not_Assigned	Not_Assigned	3
+ORG_T110	26	840	841	ORG	церковном суде(7	4592	4608	церковном суде(7	2	21	21	9	0	0	0	113	841	суде 7	nmod	838	PROPN	PROP	Not_Assigned	Not_Assigned	3
+Ivan	0	853	853	PER	он	4669	4671	он	1	22	22	9	0	0	0	114	853	он	nsubj	854	PRON	PRON	Not_Assigned	Not_Assigned	3
+Ivan	0	856	856	PER	свой	4683	4687	свой	1	22	22	12	0	0	0	115	856	свой	det	858	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T113	12	873	875	PER	многие из церковников	4781	4802	многие из церковников	3	24	24	3	0	1	1	116	875	церковников	nmod	873	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T114	48	875	875	PER	церковников	4791	4802	церковников	1	24	24	5	1	0	0	117	875	церковников	nmod	873	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Ivan	0	878	878	PER	автора	4820	4826	автора	1	24	24	8	0	0	0	118	878	автора	obj	877	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T113	12	880	880	PER	своего	4830	4836	своего	1	24	24	10	0	0	0	119	880	своего	obl	877	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T113	12	886	886	PER	ними	4855	4859	ними	1	25	25	4	0	0	0	120	886	ними	obl	884	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T118	49	889	889	PER	гражданственники	4870	4886	гражданственники	1	25	25	7	0	0	0	121	889	гражданственники	obl	884	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T119	50	893	894	PER	сами атеисты	4896	4908	сами атеисты	2	25	25	11	0	0	0	122	894	атеисты	nsubj	895	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T121	61	898	898	PER	своей	4923	4928	своей	1	25	25	16	0	0	0	123	898	своей	det	899	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T122	52	905	907	PER	некоторые догадливые люди	4967	4992	некоторые догадливые люди	3	26	26	3	0	0	0	124	907	люди	nsubj	908	NOUN	NOM	Not_Assigned	Not_Assigned	3
+FAC_T123	16	934	946	FAC	подгородный знаменитый наш монастырь, где возникшим вопросом о церковном суде вообще интересовались	5132	5231	подгородный знаменитый наш монастырь , где возникшим вопросом о церковном суде вообще интересовались	13	27	27	14	0	1	2	125	946	интересовались	acl:relcl	937	VERB	NOM	Not_Assigned	Not_Assigned	3
+nous	6	936	936	PER	наш	5155	5158	наш	1	27	27	16	1	0	0	126	936	наш	det	937	DET	PRON	Not_Assigned	Not_Assigned	3
+ORG_T110	26	943	944	ORG	церковном суде	5195	5209	церковном суде	2	27	27	23	1	0	0	127	944	суде	obl	946	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Ivan	0	958	958	PER	автора	5294	5300	автора	1	28	28	3	0	0	0	128	958	автора	nmod	957	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Ivan	0	965	965	PER	он	5330	5332	он	1	28	28	10	0	0	0	129	965	он	nsubj	966	PRON	PRON	Not_Assigned	Not_Assigned	3
+Ivan	0	966	968	PER	уроженец нашего города	5333	5355	уроженец нашего города	3	28	28	11	0	2	2	130	968	города	nmod	966	NOUN	NOM	Not_Assigned	Not_Assigned	3
+thecity	42	967	968	GPE	нашего города	5342	5355	нашего города	2	28	28	12	1	1	1	131	968	города	nmod	966	NOUN	NOM	Not_Assigned	Not_Assigned	3
+nous	6	967	967	PER	нашего	5342	5348	нашего	1	28	28	12	2	0	0	132	967	нашего	det	968	DET	PRON	Not_Assigned	Not_Assigned	3
+Ivan	0	970	977	PER	сын «вот этого самого Федора Павловича»	5358	5397	сын « вот этого самого федора павловича »	8	28	28	15	0	1	1	133	975	федора	appos	970	PROPN	PROP	Singular	Not_Assigned	3
+Fedor	11	974	976	PER	самого Федора Павловича	5373	5396	самого федора павловича	3	28	28	19	1	0	0	134	975	федора	appos	970	PROPN	PROP	Singular	Not_Assigned	3
+nous	6	988	988	PER	нам	5444	5447	нам	1	29	29	9	0	0	0	135	988	нам	obl	986	PRON	PRON	Not_Assigned	Not_Assigned	3
+Ivan	0	990	991	PER	сам автор	5450	5459	сам автор	2	29	29	11	0	0	0	136	991	автор	nsubj	986	NOUN	NOM	Not_Assigned	Not_Assigned	3
+nous	6	997	997	PER	нам	5484	5487	нам	1	30	30	4	0	0	0	137	997	нам	obl	994	PRON	PRON	Not_Assigned	Not_Assigned	3
+Ivan	0	998	999	PER	Иван Федорович	5488	5502	иван федорович	2	30	30	5	0	0	0	138	998	иван	nsubj	994	PROPN	PROP	Singular	Not_Assigned	3
+autor	3	1002	1002	PER	я	5506	5507	я	1	30	30	9	0	0	0	139	1002	я	nsubj	1010	PRON	PRON	Not_Assigned	Not_Assigned	3
+autor	3	1011	1011	PER	себе	5541	5545	себе	1	30	30	18	0	0	0	140	1011	себе	iobj	1010	PRON	PRON	Not_Assigned	Not_Assigned	3
+autor	3	1033	1033	PER	меня	5668	5672	меня	1	31	31	12	0	0	0	141	1033	меня	obl	1040	PRON	PRON	Not_Assigned	Not_Assigned	3
+Ivan	0	1051	1062	PER	молодой человек, столь ученый, столь гордый и осторожный на вид	5757	5820	молодой человек , столь ученый , столь гордый и осторожный на вид	12	32	32	7	0	0	0	142	1058	гордый	amod	1052	ADJ	NOM	Not_Assigned	Not_Assigned	3
+houseoffather	20	1067	1069	FAC	такой безобразный дом	5837	5858	такой безобразный дом	3	32	32	23	0	0	0	143	1069	дом	obl	1065	NOUN	NOM	Not_Assigned	Not_Assigned	3
+fatherofadopted	2	1072	1136	PER	такому отцу, который всю жизнь его игнорировал, не знал его и не помнил, и хоть не дал бы, конечно, денег ни за что и ни в каком случае, если бы сын у него попросил, но все же всю жизнь боялся, что и сыновья, Иван и Алексей, тоже когда-нибудь придут да и попросят денег	5862	6131	такому отцу , который всю жизнь его игнорировал , не знал его и не помнил , и хоть не дал бы , конечно , денег ни за что и ни в каком случае , если бы сын у него попросил , но все же всю жизнь боялся , что и сыновья , иван и алексей , тоже когда - нибудь придут да и попросят денег	65	32	32	28	0	1	7	144	1091	дал	conj	1065	VERB	PROP	Singular	Not_Assigned	3
+Ivan	0	1078	1078	PER	его	5893	5896	его	1	32	32	34	1	0	0	145	1078	его	obj	1079	PRON	PRON	Not_Assigned	Not_Assigned	3
+Ivan	0	1083	1083	PER	его	5918	5921	его	1	32	32	39	1	0	0	146	1083	его	obj	1082	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T35	22	1108	1108	PER	сын	6007	6010	сын	1	32	32	64	1	0	0	147	1108	сын	nsubj	1111	NOUN	NOM	Not_Assigned	Not_Assigned	3
+fatherofadopted	2	1110	1110	PER	него	6013	6017	него	1	32	32	66	1	0	0	148	1110	него	obl	1111	PRON	PRON	Not_Assigned	Not_Assigned	3
+adoptedkids	4	1122	1122	PER	сыновья	6062	6069	сыновья	1	32	32	78	1	0	0	149	1122	сыновья	ccomp	1118	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Ivan	0	1124	1124	PER	Иван	6071	6075	иван	1	32	32	80	1	0	0	150	1124	иван	conj	1122	PROPN	PROP	Singular	Not_Assigned	3
+Aleksey	1	1126	1126	PER	Алексей	6078	6085	алексей	1	32	32	82	1	0	0	151	1126	алексей	conj	1122	PROPN	PROP	Singular	Not_Assigned	3
+Ivan	0	1140	1141	PER	молодой человек	6140	6155	молодой человек	2	33	33	2	0	0	0	152	1141	человек	nsubj	1142	NOUN	NOM	Not_Assigned	Not_Assigned	3
+houseoffather	20	1144	1146	FAC	доме такого отца	6169	6185	доме такого отца	3	33	33	6	0	1	1	153	1146	отца	nmod	1144	NOUN	NOM	Not_Assigned	Not_Assigned	3
+fatherofadopted	2	1145	1146	PER	такого отца	6174	6185	такого отца	2	33	33	7	1	0	0	154	1146	отца	nmod	1144	NOUN	NOM	Not_Assigned	Not_Assigned	3
+fatherofadopted	2	1150	1150	PER	ним	6195	6198	ним	1	33	33	12	0	0	0	155	1150	ним	obl	1148	PRON	PRON	Not_Assigned	Not_Assigned	3
+Ivanandfather	29	1156	1156	PER	оба	6217	6220	оба	1	33	33	18	0	0	0	156	1156	оба	nsubj	1157	NUM	NOM	Not_Assigned	Not_Assigned	3
+autor	3	1169	1169	PER	меня	6293	6297	меня	1	34	34	6	0	0	0	157	1169	меня	obj	1166	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T157	46	1173	1174	PER	многих других	6304	6317	многих других	2	34	34	10	0	0	0	158	1174	других	conj	1169	ADJ	NOM	Not_Assigned	Not_Assigned	3
+Miusov	8	1176	1194	PER	Петр Александрович Миусов, о котором я говорил уже выше, дальний родственник Федора Павловича по его первой жене	6320	6432	петр александрович миусов , о котором я говорил уже выше , дальний родственник федора павловича по его первой жене	19	35	35	0	0	2	4	159	1176	петр	nsubj	1196	PROPN	PROP	Singular	Not_Assigned	3
+autor	3	1182	1182	PER	я	6357	6358	я	1	35	35	6	1	0	0	160	1182	я	nsubj	1183	PRON	PRON	Not_Assigned	Not_Assigned	3
+Fedor	11	1189	1190	PER	Федора Павловича	6397	6413	федора павловича	2	35	35	13	1	0	0	161	1189	федора	nmod	1188	PROPN	PROP	Singular	Not_Assigned	3
+PER_T161	53	1192	1194	PER	его первой жене	6417	6432	его первой жене	3	35	35	16	1	1	1	162	1194	жене	nmod	1188	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Fedor	11	1192	1192	PER	его	6417	6420	его	1	35	35	16	2	0	0	163	1192	его	det	1194	DET	PRON	Not_Assigned	Not_Assigned	3
+nous	6	1200	1200	PER	нас	6457	6460	нас	1	35	35	24	0	0	0	164	1200	нас	obl	1196	PRON	PRON	Not_Assigned	Not_Assigned	3
+FAC_T165	41	1203	1205	FAC	своем подгородном имении	6464	6488	своем подгородном имении	3	35	35	27	0	1	1	165	1205	имении	conj	1200	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Miusov	8	1203	1203	PER	своем	6464	6469	своем	1	35	35	27	1	0	0	166	1203	своем	det	1205	DET	PRON	Not_Assigned	Not_Assigned	3
+GPE_T166	38	1209	1215	GPE	Парижа, в котором уже совсем поселился	6503	6541	парижа , в котором уже совсем поселился	7	35	35	33	0	0	0	167	1215	поселился	acl:relcl	1209	VERB	PROP	Not_Assigned	Not_Assigned	3
+Miusov	8	1219	1219	PER	он	6551	6553	он	1	36	36	2	0	0	0	168	1219	он	nsubj	1224	PRON	PRON	Not_Assigned	Not_Assigned	3
+toutlemonde	24	1225	1225	PER	всех	6576	6580	всех	1	36	36	8	0	0	0	169	1225	всех	obj	1224	PRON	PRON	Not_Assigned	Not_Assigned	3
+Ivan	0	1230	1245	PER	заинтересовавшим его чрезвычайно молодым человеком, с которым он не без внутренней боли пикировался иногда познаниями	6605	6722	заинтересовавшим его чрезвычайно молодым человеком , с которым он не без внутренней боли пикировался иногда познаниями	16	36	36	13	0	1	2	170	1243	пикировался	acl:relcl	1234	VERB	NOM	Not_Assigned	Not_Assigned	3
+Miusov	8	1231	1231	PER	его	6622	6625	его	1	36	36	14	1	0	0	171	1231	его	obj	1230	PRON	PRON	Not_Assigned	Not_Assigned	3
+Miusov	8	1238	1238	PER	он	6667	6669	он	1	36	36	21	1	0	0	172	1238	он	nsubj	1243	PRON	PRON	Not_Assigned	Not_Assigned	3
+Ivan	0	1248	1248	PER	Он	6727	6729	он	1	37	37	1	0	0	0	173	1248	он	nsubj	1249	PRON	PRON	Not_Assigned	Not_Assigned	3
+Miusov	8	1253	1253	PER	он	6746	6748	он	1	37	37	6	0	0	0	174	1253	он	nsubj	1252	PRON	PRON	Not_Assigned	Not_Assigned	3
+nous	6	1254	1254	PER	нам	6749	6752	нам	1	37	37	7	0	0	0	175	1254	нам	iobj	1252	PRON	PRON	Not_Assigned	Not_Assigned	3
+Ivan	0	1257	1257	PER	него	6763	6767	него	1	37	37	10	0	0	0	176	1257	него	obl	1252	PRON	PRON	Not_Assigned	Not_Assigned	3
+Ivan	0	1262	1262	PER	себе	6786	6790	себе	1	37	37	15	0	0	0	177	1262	себе	iobj	1261	PRON	PRON	Not_Assigned	Not_Assigned	3
+Ivan	0	1266	1266	PER	него	6802	6806	него	1	37	37	19	0	0	0	178	1266	него	obl	1269	PRON	PRON	Not_Assigned	Not_Assigned	3
+LOC_T104	27	1272	1272	LOC	заграницу	6831	6840	заграницу	1	37	37	25	0	0	0	179	1272	заграницу	nmod	1270	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Ivan	0	1276	1276	PER	ему	6850	6853	ему	1	37	37	29	0	0	0	180	1276	ему	iobj	1278	PRON	PRON	Not_Assigned	Not_Assigned	3
+toutlemonde	24	1280	1280	PER	Всем	6868	6872	всем	1	38	38	0	0	0	0	181	1280	всем	iobj	1281	PRON	PRON	Not_Assigned	Not_Assigned	3
+Ivan	0	1284	1284	PER	он	6883	6885	он	1	38	38	4	0	0	0	182	1284	он	nsubj	1285	PRON	PRON	Not_Assigned	Not_Assigned	3
+fatherofadopted	2	1287	1287	PER	отцу	6896	6900	отцу	1	38	38	7	0	0	0	183	1287	отцу	obl	1285	NOUN	NOM	Not_Assigned	Not_Assigned	3
+fatherofadopted	2	1297	1297	PER	отец	6945	6949	отец	1	38	38	17	0	0	0	184	1297	отец	nsubj	1300	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Ivan	0	1306	1306	PER	он	6989	6991	он	1	39	39	4	0	0	0	185	1306	он	nsubj	1308	PRON	PRON	Not_Assigned	Not_Assigned	3
+fatherofadopted	2	1313	1313	PER	старик	7014	7020	старик	1	39	39	11	0	0	0	186	1313	старик	nsubj	1319	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Ivan	0	1317	1317	PER	него	7036	7040	него	1	39	39	15	0	0	0	187	1317	него	obl	1315	PRON	PRON	Not_Assigned	Not_Assigned	3
+Ivan	0	1330	1331	PER	молодой человек	7090	7105	молодой человек	2	40	40	4	0	0	0	188	1331	человек	nsubj	1332	NOUN	NOM	Not_Assigned	Not_Assigned	3
+fatherofadopted	2	1337	1337	PER	старика	7135	7142	старика	1	40	40	11	0	0	0	189	1337	старика	nmod	1335	NOUN	NOM	Not_Assigned	Not_Assigned	3
+fatherofadopted	2	1339	1339	PER	тот	7145	7148	тот	1	40	40	13	0	0	0	190	1339	тот	nsubj	1341	DET	PRON	Not_Assigned	Not_Assigned	3
+Ivan	0	1342	1342	PER	его	7161	7164	его	1	40	40	16	0	0	0	191	1342	его	obj	1341	PRON	PRON	Not_Assigned	Not_Assigned	3
+fatherofadopted	2	1359	1359	PER	себя	7259	7263	себя	1	40	40	33	0	0	0	192	1359	себя	obj	1358	PRON	PRON	Not_Assigned	Not_Assigned	3
+Ivan	0	1369	1370	PER	Иван Федорович	7327	7341	иван федорович	2	41	41	5	0	0	0	193	1369	иван	nsubj	1371	PROPN	PROP	Singular	Not_Assigned	3
+Dmitriy	9	1378	1431	PER	своего старшего брата, Дмитрия Федоровича, которого в первый раз отроду узнал и увидал тоже почти в это же самое время, в этот самый приезд, но с которым, однако же, по одному важному случаю, касавшемуся более Дмитрия Федоровича, вступил еще до приезда своего из Москвы в переписку	7381	7662	своего старшего брата , дмитрия федоровича , которого в первый раз отроду узнал и увидал тоже почти в это же самое время , в этот самый приезд , но с которым , однако же , по одному важному случаю , касавшемуся более дмитрия федоровича , вступил еще до приезда своего из москвы в переписку	54	41	41	14	0	1	4	194	1423	вступил	conj	1371	VERB	PROP	Singular	Not_Assigned	3
+Ivan	0	1378	1378	PER	своего	7381	7387	своего	1	41	41	14	1	0	0	195	1378	своего	det	1380	DET	PRON	Not_Assigned	Not_Assigned	3
+Dmitriy	9	1420	1421	PER	Дмитрия Федоровича	7591	7609	дмитрия федоровича	2	41	41	56	1	0	0	196	1420	дмитрия	obl	1418	PROPN	PROP	Singular	Not_Assigned	3
+Ivan	0	1427	1427	PER	своего	7634	7640	своего	1	41	41	63	1	0	0	197	1427	своего	det	1426	DET	PRON	Not_Assigned	Not_Assigned	3
+Moscow	32	1429	1429	GPE	Москвы	7644	7650	москвы	1	41	41	65	1	0	0	198	1429	москвы	nmod	1426	PROPN	PROP	Not_Assigned	Not_Assigned	3
+reader	14	1438	1438	PER	читатель	7686	7694	читатель	1	42	42	5	0	0	0	199	1438	читатель	nsubj	1440	NOUN	NOM	Not_Assigned	Not_Assigned	3
+reader	14	1442	1442	PER	свое	7711	7715	свое	1	42	42	9	0	0	0	200	1442	свое	det	1443	DET	PRON	Not_Assigned	Not_Assigned	3
+autor	3	1454	1454	PER	я	7769	7770	я	1	43	43	7	0	0	0	201	1454	я	nsubj	1456	PRON	PRON	Not_Assigned	Not_Assigned	3
+autor	3	1463	1463	PER	мне	7816	7819	мне	1	43	43	16	0	0	0	202	1463	мне	iobj	1451	PRON	PRON	Not_Assigned	Not_Assigned	3
+Ivan	0	1464	1465	PER	Иван Федорович	7820	7834	иван федорович	2	43	43	17	0	0	0	203	1464	иван	nsubj	1467	PROPN	PROP	Singular	Not_Assigned	3
+Ivan	0	1472	1472	PER	его	7868	7871	его	1	43	43	25	0	0	0	204	1472	его	nmod	1471	PRON	PRON	Not_Assigned	Not_Assigned	3
+nous	6	1474	1474	PER	нам	7874	7877	нам	1	43	43	27	0	0	0	205	1474	нам	nmod	1471	PRON	PRON	Not_Assigned	Not_Assigned	3
+Ivan	0	1484	1485	PER	Иван Федорович	7920	7934	иван федорович	2	44	44	4	0	0	0	206	1484	иван	nsubj	1486	PROPN	PROP	Singular	Not_Assigned	3
+Ivan	0	1489	1510	PER	посредника и примирителя между отцом и затеявшим тогда большую ссору и даже формальный иск на отца старшим братом своим, Дмитрием Федоровичем	7950	8091	посредника и примирителя между отцом и затеявшим тогда большую ссору и даже формальный иск на отца старшим братом своим , дмитрием федоровичем	22	44	44	9	0	2	4	207	1502	иск	conj	1498	NOUN	PROP	Singular	Not_Assigned	3
+fatherofadopted	2	1493	1493	PER	отцом	7981	7986	отцом	1	44	44	13	1	0	0	208	1493	отцом	nmod	1491	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Dmitriy	9	1495	1510	PER	затеявшим тогда большую ссору и даже формальный иск на отца старшим братом своим, Дмитрием Федоровичем	7989	8091	затеявшим тогда большую ссору и даже формальный иск на отца старшим братом своим , дмитрием федоровичем	16	44	44	15	1	1	2	209	1502	иск	conj	1498	NOUN	PROP	Singular	Not_Assigned	3
+fatherofadopted	2	1504	1504	PER	отца	8044	8048	отца	1	44	44	24	2	0	0	210	1504	отца	nmod	1502	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Ivan	0	1507	1507	PER	своим	8064	8069	своим	1	44	44	27	2	0	0	211	1507	своим	det	1506	DET	PRON	Not_Assigned	Not_Assigned	3
+familyofIvan	19	1512	1513	PER	Семейка эта	8094	8105	семейка эта	2	45	45	0	0	0	0	212	1512	семейка	nsubj	1517	NOUN	NOM	Not_Assigned	Not_Assigned	3
+familyofIvan	19	1519	1519	PER	вся	8131	8134	вся	1	45	45	7	0	0	0	213	1519	вся	nsubj	1517	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T212	23	1528	1530	PER	некоторые члены ее	8166	8184	некоторые члены ее	3	45	45	16	0	1	1	214	1529	члены	nsubj	1536	NOUN	NOM	Not_Assigned	Not_Assigned	3
+familyofIvan	19	1530	1530	PER	ее	8182	8184	ее	1	45	45	18	1	0	0	215	1530	ее	obj	1536	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T212	23	1537	1538	PER	друг друга	8214	8224	друг друга	2	45	45	25	0	0	0	216	1537	друг	obj	1536	PRON	PRON	Not_Assigned	Not_Assigned	3
+Aleksey	1	1541	1547	PER	один только младший сын, Алексей Федорович	8232	8274	один только младший сын , алексей федорович	7	46	46	1	0	0	0	217	1544	сын	ROOT	1544	NOUN	PROP	Singular	Not_Assigned	3
+nous	6	1557	1557	PER	нас	8310	8313	нас	1	46	46	17	0	0	0	218	1557	нас	obl	1555	PRON	PRON	Not_Assigned	Not_Assigned	3
+nous	6	1561	1561	PER	нам	8324	8327	нам	1	46	46	21	0	0	0	219	1561	нам	obl	1559	PRON	PRON	Not_Assigned	Not_Assigned	3
+adoptedkids	4	1567	1568	PER	всех братьев	8351	8363	всех братьев	2	46	46	27	0	0	0	220	1568	братьев	obl	1566	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Aleksey	1	1572	1575	PER	этого-то Алексея	8374	8390	этого - то алексея	4	47	47	2	0	0	0	221	1575	алексея	obl	1578	PROPN	PROP	Singular	Not_Assigned	3
+autor	3	1576	1576	PER	мне	8391	8394	мне	1	47	47	6	0	0	0	222	1576	мне	iobj	1578	PRON	PRON	Not_Assigned	Not_Assigned	3
+autor	3	1581	1581	PER	моим	8429	8433	моим	1	47	47	11	0	0	0	223	1581	моим	det	1583	DET	PRON	Not_Assigned	Not_Assigned	3
+Aleksey	1	1588	1588	PER	его	8477	8480	его	1	47	47	18	0	0	0	224	1588	его	obj	1587	PRON	PRON	Not_Assigned	Not_Assigned	3
+Aleksey	1	1598	1598	PER	него	8519	8523	него	1	48	48	4	0	0	0	225	1598	него	obl	1599	PRON	PRON	Not_Assigned	Not_Assigned	3
+Aleksey	1	1615	1617	PER	будущего героя моего	8630	8650	будущего героя моего	3	48	48	21	0	1	1	226	1616	героя	parataxis	1613	NOUN	NOM	Not_Assigned	Not_Assigned	3
+autor	3	1617	1617	PER	моего	8645	8650	моего	1	48	48	23	1	0	0	227	1617	моего	det	1616	DET	PRON	Not_Assigned	Not_Assigned	3
+autor	3	1618	1618	PER	я	8651	8652	я	1	48	48	24	0	0	0	228	1618	я	nsubj	1619	PRON	PRON	Not_Assigned	Not_Assigned	3
+readers	40	1621	1621	PER	читателям	8675	8684	читателям	1	48	48	27	0	0	0	229	1621	читателям	iobj	1620	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Aleksey	1	1625	1625	PER	его	8700	8703	его	1	48	48	31	0	0	0	230	1625	его	det	1626	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T233	56	1629	1629	PER	послушника	8719	8729	послушника	1	48	48	35	0	0	0	231	1629	послушника	nmod	1628	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Aleksey	1	1638	1638	PER	он	8759	8761	он	1	49	49	7	0	0	0	232	1638	он	nsubj	1637	PRON	PRON	Not_Assigned	Not_Assigned	3
+FAC_T123	16	1641	1642	FAC	нашем монастыре	8770	8785	нашем монастыре	2	49	49	10	0	1	1	233	1642	монастыре	obl	1637	NOUN	NOM	Not_Assigned	Not_Assigned	3
+nous	6	1641	1641	PER	нашем	8770	8775	нашем	1	49	49	10	1	0	0	234	1641	нашем	det	1642	DET	PRON	Not_Assigned	Not_Assigned	3
+FAC_T123	16	1652	1652	FAC	нем	8824	8827	нем	1	49	49	21	0	0	0	235	1652	нем	obl	1653	PRON	PRON	Not_Assigned	Not_Assigned	3
+Aleksey	1	1656	1658	PER	Третий сын Алеша	8846	8862	третий сын алеша	3	51	51	0	0	0	0	236	1657	сын	nsubj	1664	NOUN	PROP	Singular	Not_Assigned	3
+Aleksey	1	1660	1660	PER	ему	8868	8871	ему	1	51	51	4	0	0	0	237	1660	ему	iobj	1664	PRON	PRON	Not_Assigned	Not_Assigned	3
+Ivan	0	1666	1668	PER	брату его Ивану	8899	8914	брату его ивану	3	51	51	10	0	1	1	238	1668	ивану	nmod	1666	PROPN	PROP	Singular	Not_Assigned	3
+Aleksey	1	1667	1667	PER	его	8905	8908	его	1	51	51	11	1	0	0	239	1667	его	det	1668	DET	PRON	Not_Assigned	Not_Assigned	3
+Dmitriy	9	1676	1678	PER	старшему их брату	8951	8968	старшему их брату	3	51	51	20	0	1	1	240	1678	брату	conj	1673	NOUN	NOM	Not_Assigned	Not_Assigned	3
+IvanAleksey	34	1677	1677	PER	их	8960	8962	их	1	51	51	21	1	0	0	241	1677	их	det	1678	DET	PRON	Not_Assigned	Not_Assigned	3
+Dmitriy	9	1680	1680	PER	Дмитрию	8970	8977	дмитрию	1	51	51	24	0	0	0	242	1680	дмитрию	conj	1673	PROPN	PROP	Singular	Not_Assigned	3
+Aleksey	1	1692	1693	PER	этот юноша	9029	9039	этот юноша	2	52	52	5	0	0	0	243	1693	юноша	nsubj	1700	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Aleksey	1	1695	1695	PER	Алеша	9041	9046	алеша	1	52	52	8	0	0	0	244	1695	алеша	appos	1693	PROPN	PROP	Singular	Not_Assigned	3
+autor	3	1719	1719	PER	мое	9138	9141	мое	1	53	53	2	0	0	0	245	1719	мое	det	1721	DET	PRON	Not_Assigned	Not_Assigned	3
+Aleksey	1	1724	1724	PER	он	9162	9164	он	1	53	53	7	0	0	0	246	1724	он	nsubj	1727	PRON	PRON	Not_Assigned	Not_Assigned	3
+Aleksey	1	1726	1727	PER	ранний человеколюбец	9172	9192	ранний человеколюбец	2	53	53	9	0	0	0	247	1727	человеколюбец	parataxis	1718	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Aleksey	1	1747	1747	PER	его	9285	9288	его	1	53	53	30	0	0	0	248	1747	его	obj	1746	PRON	PRON	Not_Assigned	Not_Assigned	3
+Aleksey	1	1750	1750	PER	ему	9303	9306	ему	1	53	53	33	0	0	0	249	1750	ему	iobj	1749	PRON	PRON	Not_Assigned	Not_Assigned	3
+Aleksey	1	1766	1766	PER	его	9386	9389	его	1	53	53	49	0	0	0	250	1766	его	nmod	1765	PRON	PRON	Not_Assigned	Not_Assigned	3
+Aleksey	1	1772	1772	PER	его	9408	9411	его	1	54	54	4	0	0	0	251	1772	его	det	1774	PRON	PRON	Not_Assigned	Not_Assigned	3
+Aleksey	1	1781	1781	PER	он	9447	9449	он	1	54	54	13	0	0	0	252	1781	он	nsubj	1782	PRON	PRON	Not_Assigned	Not_Assigned	3
+Aleksey	1	1787	1787	PER	его	9484	9487	его	1	54	54	19	0	0	0	253	1787	его	det	1788	DET	PRON	Not_Assigned	Not_Assigned	3
+Zosim	21	1790	1790	PER	существо	9496	9504	существо	1	54	54	22	0	0	0	254	1790	существо	obj	1782	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Zosim	21	1792	1807	PER	нашего знаменитого монастырского старца Зосиму, к которому привязался всею горячею первою любовью своего неутолимого сердца	9507	9630	нашего знаменитого монастырского старца зосиму , к которому привязался всею горячею первою любовью своего неутолимого сердца	16	54	54	24	0	1	2	255	1795	старца	obj	1782	NOUN	PROP	Singular	Not_Assigned	3
+nous	6	1792	1792	PER	нашего	9507	9513	нашего	1	54	54	24	1	0	0	256	1792	нашего	det	1795	DET	PRON	Not_Assigned	Not_Assigned	3
+Aleksey	1	1805	1805	PER	своего	9605	9611	своего	1	54	54	37	1	0	0	257	1805	своего	det	1807	DET	PRON	Not_Assigned	Not_Assigned	3
+autor	3	1811	1811	PER	я	9642	9643	я	1	55	55	2	0	0	0	258	1811	я	nsubj	1813	PRON	PRON	Not_Assigned	Not_Assigned	3
+Aleksey	1	1817	1817	PER	он	9662	9664	он	1	55	55	8	0	0	0	259	1817	он	nsubj	1822	PRON	PRON	Not_Assigned	Not_Assigned	3
+autor	3	1831	1831	PER	я	9724	9725	я	1	56	56	2	0	0	0	260	1831	я	nsubj	1833	PRON	PRON	Not_Assigned	Not_Assigned	3
+Aleksey	1	1835	1835	PER	него	9743	9747	него	1	56	56	6	0	0	0	261	1835	него	obl	1833	PRON	PRON	Not_Assigned	Not_Assigned	3
+mother	7	1841	1841	PER	матери	9770	9776	матери	1	56	56	12	0	0	0	262	1841	матери	obl	1839	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Aleksey	1	1848	1848	PER	он	9808	9810	он	1	56	56	19	0	0	0	263	1848	он	nsubj	1849	PRON	PRON	Not_Assigned	Not_Assigned	3
+mother	7	1850	1850	PER	ее	9820	9822	ее	1	56	56	21	0	0	0	264	1850	ее	obj	1849	PRON	PRON	Not_Assigned	Not_Assigned	3
+mother	7	1856	1856	PER	ее	9843	9845	ее	1	56	56	27	0	0	0	265	1856	ее	det	1857	DET	PRON	Not_Assigned	Not_Assigned	3
+mother	7	1859	1859	PER	ее	9852	9854	ее	1	56	56	30	0	0	0	266	1859	ее	det	1860	DET	PRON	Not_Assigned	Not_Assigned	3
+mother	7	1866	1866	PER	она	9879	9882	она	1	56	56	37	0	0	0	267	1866	она	nsubj	1867	PRON	PRON	Not_Assigned	Not_Assigned	3
+Aleksey	1	1869	1869	PER	мной	9895	9899	мной	1	56	56	40	0	0	0	268	1869	мной	obl	1867	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T271	58	1880	1880	PER	всем	9955	9959	всем	1	57	57	7	0	0	0	269	1880	всем	iobj	1881	PRON	PRON	Not_Assigned	Not_Assigned	3
+Aleksey	1	1930	1930	PER	ним	10212	10215	ним	1	58	58	5	0	0	0	270	1930	ним	nsubj	1927	PRON	PRON	Not_Assigned	Not_Assigned	3
+Aleksey	1	1932	1932	PER	он	10218	10220	он	1	58	58	7	0	0	0	271	1932	он	nsubj	1933	PRON	PRON	Not_Assigned	Not_Assigned	3
+FAC_T274	39	1960	1960	FAC	комнате	10350	10357	комнате	1	58	58	35	0	0	0	272	1960	комнате	conj	1933	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Aleksey	1	1966	1966	PER	ним	10377	10380	ним	1	58	58	41	0	0	0	273	1966	ним	advcl	1933	PRON	PRON	Not_Assigned	Not_Assigned	3
+mother	7	1971	2018	PER	пред образом на коленях рыдающую как в истерике, со взвизгиваниями и вскрикиваниями, мать свою, схватившую его в обе руки, обнявшую его крепко до боли и молящую за него Богородицу, протягивающую его из объятий своих обеими руками к образу как бы под покров Богородице	10403	10670	пред образом на коленях рыдающую как в истерике , со взвизгиваниями и вскрикиваниями , мать свою , схватившую его в обе руки , обнявшую его крепко до боли и молящую за него богородицу , протягивающую его из объятий своих обеими руками к образу как бы под покров богородице	48	58	58	46	0	1	6	274	1994	обнявшую	acl	1992	VERB	PROP	Singular	Not_Assigned	3
+Aleksey	1	1986	1986	PER	свою	10493	10497	свою	1	58	58	61	1	0	0	275	1986	свою	det	1985	DET	PRON	Not_Assigned	Not_Assigned	3
+Aleksey	1	1989	1989	PER	его	10510	10513	его	1	58	58	64	1	0	0	276	1989	его	obj	1988	PRON	PRON	Not_Assigned	Not_Assigned	3
+Aleksey	1	1995	1995	PER	его	10535	10538	его	1	58	58	70	1	0	0	277	1995	его	obj	1994	PRON	PRON	Not_Assigned	Not_Assigned	3
+Aleksey	1	2002	2002	PER	него	10567	10571	него	1	58	58	77	1	0	0	278	2002	него	obl	2000	PRON	PRON	Not_Assigned	Not_Assigned	3
+Aleksey	1	2006	2006	PER	его	10598	10601	его	1	58	58	81	1	0	0	279	2006	его	obj	2005	PRON	PRON	Not_Assigned	Not_Assigned	3
+mother	7	2009	2009	PER	своих	10613	10618	своих	1	58	58	84	1	0	0	280	2009	своих	det	2010	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T283	59	2023	2023	PER	нянька	10689	10695	нянька	1	58	58	98	0	0	0	281	2023	нянька	nsubj	2022	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Aleksey	1	2026	2026	PER	его	10707	10710	его	1	58	58	101	0	0	0	282	2026	его	obj	2025	PRON	PRON	Not_Assigned	Not_Assigned	3
+mother	7	2028	2028	PER	нее	10713	10716	нее	1	58	58	103	0	0	0	283	2028	нее	obl	2025	PRON	PRON	Not_Assigned	Not_Assigned	3
+Aleksey	1	2035	2035	PER	Алеша	10743	10748	алеша	1	60	60	0	0	0	0	284	2035	алеша	nsubj	2036	PROPN	PROP	Singular	Not_Assigned	3
+mother	7	2042	2043	PER	своей матери	10775	10787	своей матери	2	60	60	7	0	1	1	285	2043	матери	nmod	2041	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Aleksey	1	2042	2042	PER	своей	10775	10780	своей	1	60	60	7	1	0	0	286	2042	своей	det	2043	DET	PRON	Not_Assigned	Not_Assigned	3
+Aleksey	1	2045	2045	PER	он	10790	10792	он	1	60	60	10	0	0	0	287	2045	он	nsubj	2046	PRON	PRON	Not_Assigned	Not_Assigned	3
+Aleksey	1	2062	2062	PER	он	10870	10872	он	1	60	60	27	0	0	0	288	2062	он	nsubj	2061	PRON	PRON	Not_Assigned	Not_Assigned	3

@@ -1,0 +1,380 @@
+COREF_name	COREF	start_token	end_token	cat	sacr_text	byte_onset	byte_offset	text	mention_len	paragraph_ID	sentence_ID	start_token_ID_within_sentence	out_to_in_nested_level	in_to_out_nested_level	nested_entities_count	temp_index	head_id	head_word	head_dependency_relation	head_syntactic_head_ID	POS_tag	prop	number	gender	grammatical_person
+Andrey	9	0	1	PER	Андрей Андреевич	0	16	андрей андреевич	2	0	0	0	0	0	0	0	0	андрей	nsubj	2	PROPN	PROP	Singular	Not_Assigned	3
+Andrey	9	7	7	PER	он	48	50	он	1	0	0	7	0	0	0	1	7	он	nsubj	9	PRON	PRON	Not_Assigned	Not_Assigned	3
+Andrey	9	11	14	PER	старого, болезненного старика	70	99	старого , болезненного старика	4	0	0	11	0	0	0	2	14	старика	obl	9	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Matveevna	49	22	34	PER	добродушной Анны Матвеевны, которая одна умела успокоить его и предупреждать его желания	138	226	добродушной анны матвеевны , которая одна умела успокоить его и предупреждать его желания	13	0	0	22	0	1	2	3	28	умела	acl:relcl	23	VERB	PROP	Singular	Not_Assigned	3
+Andrey	9	30	30	PER	его	195	198	его	1	0	0	30	1	0	0	4	30	его	obj	29	PRON	PRON	Not_Assigned	Not_Assigned	3
+Andrey	9	33	33	PER	его	215	218	его	1	0	0	33	1	0	0	5	33	его	det	34	DET	PRON	Not_Assigned	Not_Assigned	3
+Boris	8	36	36	PER	Боря	230	234	боря	1	1	1	0	0	0	0	6	36	боря	nsubj	37	PROPN	PROP	Singular	Not_Assigned	3
+Boris	8	38	38	PER	своей	242	247	своей	1	1	1	2	0	0	0	7	38	своей	det	39	DET	PRON	Not_Assigned	Not_Assigned	3
+Boris	8	43	43	PER	свое	268	272	свое	1	1	1	7	0	0	0	8	43	свое	det	47	DET	PRON	Not_Assigned	Not_Assigned	3
+Mitya	5	49	49	PER	Митя	311	315	митя	1	2	2	0	0	0	0	9	49	митя	nsubj	57	PROPN	PROP	Singular	Not_Assigned	3
+FAC_T11	34	55	55	FAC	университете	336	348	университете	1	2	2	6	0	0	0	10	55	университете	nmod	52	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T13	52	70	71	PER	своим ученикам	438	452	своим ученикам	2	2	2	21	0	1	1	11	71	ученикам	iobj	69	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Mitya	5	70	70	PER	своим	438	443	своим	1	2	2	21	1	0	0	12	70	своим	det	71	DET	PRON	Not_Assigned	Not_Assigned	3
+Mitya	5	81	81	PER	сам	504	507	сам	1	2	2	32	0	0	0	13	81	сам	acl	82	ADJ	NOM	Not_Assigned	Not_Assigned	3
+Jennie	4	84	86	PER	Жени девятнадцати лет	521	542	жени девятнадцати лет	3	3	3	0	0	0	0	14	86	лет	obl	87	NOUN	PROP	Singular	Not_Assigned	3
+husbandofJennie	36	91	139	PER	"человека, который без памяти любил ее и окружал ее такими нежными, предусмотрительными заботами, что, не смотря на свое звание "" дамы "" - - она, заметим кстати, очень гордилась этим званием, - - ей приходилось по-прежнему вести жизнь балованного ребенка"	559	812	"человека , который без памяти любил ее и окружал ее такими нежными , предусмотрительными заботами , что , не смотря на свое звание "" дамы "" - - она , заметим кстати , очень гордилась этим званием , - - ей приходилось по - прежнему вести жизнь балованного ребенка"	49	3	3	7	0	1	7	15	125	гордилась	parataxis	96	VERB	NOM	Not_Assigned	Not_Assigned	3
+Jennie	4	97	97	PER	ее	594	596	ее	1	3	3	13	1	0	0	16	97	ее	obj	96	PRON	PRON	Not_Assigned	Not_Assigned	3
+Jennie	4	100	100	PER	ее	607	609	ее	1	3	3	16	1	0	0	17	100	ее	obj	99	PRON	PRON	Not_Assigned	Not_Assigned	3
+Jennie	4	112	112	PER	свое	674	678	свое	1	3	3	28	1	0	0	18	112	свое	det	113	DET	PRON	Not_Assigned	Not_Assigned	3
+Jennie	4	115	115	PER	дамы	688	692	дамы	1	3	3	31	1	0	0	19	115	дамы	nmod	107	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Jennie	4	119	119	PER	она	699	702	она	1	3	3	35	1	0	0	20	119	она	nsubj	125	PRON	PRON	Not_Assigned	Not_Assigned	3
+Jennie	4	131	131	PER	ей	754	756	ей	1	3	3	47	1	0	0	21	131	ей	iobj	132	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T23	39	138	139	PER	балованного ребенка	793	812	балованного ребенка	2	3	3	54	1	0	0	22	139	ребенка	nmod	137	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Vera	1	143	143	PER	Веры	824	828	веры	1	4	4	2	0	0	0	23	143	веры	nmod	142	PROPN	PROP	Singular	Not_Assigned	3
+BrotherofVera	0	148	150	PER	Ее меньшому брату	852	869	ее меньшому брату	3	5	5	0	0	1	1	24	150	брату	iobj	151	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Vera	1	148	148	PER	Ее	852	854	ее	1	5	5	0	1	0	0	25	148	ее	det	150	DET	PRON	Not_Assigned	Not_Assigned	3
+VeraandBrother	33	157	157	PER	их	907	909	их	1	5	5	9	0	0	0	26	157	их	nmod	156	PRON	PRON	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	162	162	PER	он	936	938	он	1	5	5	14	0	0	0	27	162	он	nsubj	166	PRON	PRON	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	167	168	PER	ее любимцем	961	972	ее любимцем	2	5	5	19	0	1	1	28	168	любимцем	xcomp	166	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Vera	1	167	167	PER	ее	961	963	ее	1	5	5	19	1	0	0	29	167	ее	det	168	PRON	PRON	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	170	171	PER	ее питомцем	974	985	ее питомцем	2	5	5	22	0	1	1	30	171	питомцем	conj	168	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Vera	1	170	170	PER	ее	974	976	ее	1	5	5	22	1	0	0	31	170	ее	nmod	171	PRON	PRON	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	173	174	PER	ее ребенком	987	998	ее ребенком	2	5	5	25	0	1	1	32	174	ребенком	conj	168	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Vera	1	173	173	PER	ее	987	989	ее	1	5	5	25	1	0	0	33	173	ее	nmod	174	PRON	PRON	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	180	180	PER	Пети	1022	1026	пети	1	6	6	4	0	0	0	34	180	пети	nmod	179	PROPN	PROP	Singular	Not_Assigned	3
+roomofVera	7	183	184	FAC	ее комнате	1036	1046	ее комнате	2	6	6	7	0	1	1	35	184	комнате	obl	181	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Vera	1	183	183	PER	ее	1036	1038	ее	1	6	6	7	1	0	0	36	183	ее	det	184	DET	PRON	Not_Assigned	Not_Assigned	3
+Vera	1	186	186	PER	она	1048	1051	она	1	6	6	10	0	0	0	37	186	она	nsubj	187	PRON	PRON	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	188	188	PER	ему	1061	1064	ему	1	6	6	12	0	0	0	38	188	ему	iobj	187	PRON	PRON	Not_Assigned	Not_Assigned	3
+Vera	1	193	193	PER	она	1090	1093	она	1	6	6	17	0	0	0	39	193	она	nsubj	194	PRON	PRON	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	197	197	PER	его	1114	1117	его	1	6	6	21	0	0	0	40	197	его	det	198	DET	PRON	Not_Assigned	Not_Assigned	3
+Vera	1	200	200	PER	она	1124	1127	она	1	6	6	24	0	0	0	41	200	она	nsubj	201	PRON	PRON	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	202	202	PER	его	1141	1144	его	1	6	6	26	0	0	0	42	202	его	det	203	DET	PRON	Not_Assigned	Not_Assigned	3
+Vera	1	206	207	PER	она сама	1167	1175	она сама	2	6	6	30	0	0	0	43	206	она	nsubj	208	PRON	PRON	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	209	209	PER	его	1182	1185	его	1	6	6	33	0	0	0	44	209	его	obj	208	PRON	PRON	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	216	216	PER	него	1221	1225	него	1	6	6	40	0	0	0	45	216	него	obl	214	PRON	PRON	Not_Assigned	Not_Assigned	3
+Vera	1	226	226	PER	сама	1274	1278	сама	1	6	6	50	0	0	0	46	226	сама	nsubj	227	ADJ	NOM	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	229	229	PER	ним	1288	1291	ним	1	6	6	53	0	0	0	47	229	ним	obl	227	PRON	PRON	Not_Assigned	Not_Assigned	3
+FAC_T49	28	232	233	FAC	улицам Петербурга	1301	1318	улицам петербурга	2	6	6	56	0	1	1	48	232	улицам	obl	227	NOUN	PROP	Not_Assigned	Not_Assigned	3
+GPE_T50	44	233	233	GPE	Петербурга	1308	1318	петербурга	1	6	6	57	1	0	0	49	233	петербурга	nmod	232	PROPN	PROP	Not_Assigned	Not_Assigned	3
+FAC_T51	51	239	241	FAC	аллеям Царскосельского парка	1333	1361	аллеям царскосельского парка	3	6	6	63	0	1	1	50	241	парка	nmod	239	NOUN	NOM	Not_Assigned	Not_Assigned	3
+FAC_T52	42	240	241	FAC	Царскосельского парка	1340	1361	царскосельского парка	2	6	6	64	1	0	0	51	241	парка	nmod	239	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Vera	1	243	243	PER	сама	1363	1367	сама	1	6	6	67	0	0	0	52	243	сама	nsubj	244	ADJ	NOM	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	246	246	PER	ним	1377	1380	ним	1	6	6	70	0	0	0	53	246	ним	obl	244	PRON	PRON	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	254	254	PER	мальчика	1420	1428	мальчика	1	6	6	78	0	0	0	54	254	мальчика	obj	252	NOUN	NOM	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	264	264	PER	его	1457	1460	его	1	6	6	88	0	0	0	55	264	его	det	266	DET	PRON	Not_Assigned	Not_Assigned	3
+Vera	1	270	270	PER	ее	1494	1496	ее	1	7	7	2	0	0	0	56	270	ее	det	269	DET	PRON	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	275	275	PER	нем	1522	1525	нем	1	7	7	7	0	0	0	57	275	нем	nmod	273	PRON	PRON	Not_Assigned	Not_Assigned	3
+Vera	1	277	277	PER	она	1528	1531	она	1	7	7	9	0	0	0	58	277	она	nsubj	278	PRON	PRON	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	284	284	PER	его	1566	1569	его	1	7	7	16	0	0	0	59	284	его	obj	283	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T61	25	294	306	PER	такими людьми, которые могли сообщить ей что-нибудь для него полезное	1619	1688	такими людьми , которые могли сообщить ей что - нибудь для него полезное	13	7	7	26	0	1	2	60	299	сообщить	xcomp	298	VERB	NOM	Not_Assigned	Not_Assigned	3
+Vera	1	300	300	PER	ей	1657	1659	ей	1	7	7	32	1	0	0	61	300	ей	iobj	299	PRON	PRON	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	305	305	PER	него	1675	1679	него	1	7	7	37	1	0	0	62	305	него	obl	299	PRON	PRON	Not_Assigned	Not_Assigned	3
+Vera	1	309	309	PER	вся	1701	1704	вся	1	8	8	1	0	0	0	63	309	вся	det	311	DET	PRON	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	310	311	PER	своему воспитаннику	1705	1724	своему воспитаннику	2	8	8	2	0	1	1	64	311	воспитаннику	iobj	308	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Vera	1	310	310	PER	своему	1705	1711	своему	1	8	8	2	1	0	0	65	310	своему	det	311	DET	PRON	Not_Assigned	Not_Assigned	3
+Vera	1	313	313	PER	она	1726	1729	она	1	8	8	5	0	0	0	66	313	она	nsubj	321	PRON	PRON	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	322	322	PER	его	1764	1767	его	1	8	8	14	0	0	0	67	322	его	obj	321	PRON	PRON	Not_Assigned	Not_Assigned	3
+Vera	1	328	328	PER	Она	1800	1803	она	1	9	9	0	0	0	0	68	328	она	nsubj	329	PRON	PRON	Not_Assigned	Not_Assigned	3
+fatherofVera	35	330	330	PER	отца	1813	1817	отца	1	9	9	2	0	0	0	69	330	отца	obj	329	NOUN	NOM	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	333	333	PER	ему	1830	1833	ему	1	9	9	5	0	0	0	70	333	ему	iobj	332	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T72	26	335	335	PER	гувернанток	1837	1848	гувернанток	1	9	9	7	0	0	0	71	335	гувернанток	obj	332	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T73	27	338	338	PER	учителей	1853	1861	учителей	1	9	9	10	0	0	0	72	338	учителей	conj	335	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Mitya	5	343	343	PER	Мити	1897	1901	мити	1	9	9	15	0	0	0	73	343	мити	nmod	342	PROPN	PROP	Singular	Not_Assigned	3
+BrotherofVera	0	345	345	PER	ему	1909	1912	ему	1	9	9	17	0	0	0	74	345	ему	iobj	344	PRON	PRON	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	351	351	PER	него	1944	1948	него	1	9	9	23	0	0	0	75	351	него	obl	349	PRON	PRON	Not_Assigned	Not_Assigned	3
+Vera	1	352	352	PER	сама	1949	1953	сама	1	9	9	24	0	0	0	76	352	сама	acl	349	ADJ	NOM	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	357	357	PER	ему	1977	1980	ему	1	9	9	29	0	0	0	77	357	ему	iobj	356	PRON	PRON	Not_Assigned	Not_Assigned	3
+Vera	1	359	359	PER	своего	1985	1991	своего	1	9	9	31	0	0	0	78	359	своего	det	360	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T80	21	363	364	PER	чужими детьми	2009	2022	чужими детьми	2	9	9	35	0	0	0	79	364	детьми	obl	361	NOUN	NOM	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	366	366	PER	Петя	2025	2029	петя	1	10	10	0	0	0	0	80	366	петя	nsubj	367	PROPN	PROP	Singular	Not_Assigned	3
+PER_T82	29	374	377	PER	сыновья слишком нежных маменек	2063	2093	сыновья слишком нежных маменек	4	10	10	8	0	1	1	81	376	нежных	amod	377	ADJ	NOM	Not_Assigned	Not_Assigned	3
+PER_T83	30	375	377	PER	слишком нежных маменек	2071	2093	слишком нежных маменек	3	10	10	9	1	0	0	82	376	нежных	amod	377	ADJ	NOM	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	381	391	PER	слабым, хилым, робким ребенком, лишенным самостоятельности и самодеятельности	2099	2176	слабым , хилым , робким ребенком , лишенным самостоятельности и самодеятельности	11	10	10	15	0	0	0	83	386	ребенком	obl	373	NOUN	NOM	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	393	393	PER	Он	2179	2181	он	1	11	11	0	0	0	0	84	393	он	nsubj	396	PRON	PRON	Not_Assigned	Not_Assigned	3
+Vera	1	399	399	PER	сестры	2224	2230	сестры	1	11	11	6	0	0	0	85	399	сестры	nmod	398	NOUN	NOM	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	401	401	PER	он	2233	2235	он	1	11	11	8	0	0	0	86	401	он	nsubj	405	PRON	PRON	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	412	412	PER	своей	2290	2295	своей	1	11	11	19	0	0	0	87	412	своей	det	413	DET	PRON	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	416	416	PER	ему	2311	2314	ему	1	11	11	23	0	0	0	88	416	ему	iobj	417	PRON	PRON	Not_Assigned	Not_Assigned	3
+roomofVera	7	421	424	FAC	комнате часто прихварывавшей Веры	2336	2369	комнате часто прихварывавшей веры	4	11	11	28	0	1	1	89	423	прихварывавшей	acl	424	VERB	PROP	Not_Assigned	Not_Assigned	3
+Vera	1	422	424	PER	часто прихварывавшей Веры	2344	2369	часто прихварывавшей веры	3	11	11	29	1	0	0	90	423	прихварывавшей	acl	424	VERB	PROP	Singular	Not_Assigned	3
+BrotherofVera	0	426	426	PER	он	2371	2373	он	1	11	11	33	0	0	0	91	426	он	nsubj	429	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T93	38	431	439	PER	детей, весело бегавших по двору и по улице	2399	2441	детей , весело бегавших по двору и по улице	9	11	11	38	0	1	2	92	434	бегавших	xcomp	408	VERB	NOM	Not_Assigned	Not_Assigned	3
+FAC_T94	43	436	436	FAC	двору	2425	2430	двору	1	11	11	43	1	0	0	93	436	двору	obl	434	NOUN	NOM	Not_Assigned	Not_Assigned	3
+FAC_T95	18	439	439	FAC	улице	2436	2441	улице	1	11	11	46	1	0	0	94	439	улице	conj	436	NOUN	NOM	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	442	442	PER	он	2446	2448	он	1	11	11	49	0	0	0	95	442	он	nsubj	444	PRON	PRON	Not_Assigned	Not_Assigned	3
+Vera	1	447	447	PER	сестре	2475	2481	сестре	1	11	11	54	0	0	0	96	447	сестре	iobj	444	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Vera	1	454	454	PER	ее	2511	2513	ее	1	11	11	61	0	0	0	97	454	ее	obj	452	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T252	16	479	480	PER	другие дети	2642	2653	другие дети	2	12	12	23	0	0	0	98	480	дети	nsubj	478	NOUN	NOM	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	482	482	PER	он	2655	2657	он	1	12	12	26	0	0	0	99	482	он	nsubj	483	PRON	PRON	Not_Assigned	Not_Assigned	3
+Vera	1	486	486	PER	сестре	2675	2681	сестре	1	12	12	30	0	0	0	100	486	сестре	obl	484	NOUN	NOM	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	500	500	PER	его	2757	2760	его	1	12	12	44	0	0	0	101	500	его	obj	499	PRON	PRON	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	505	505	PER	ты	2770	2772	ты	1	13	13	3	0	0	0	102	505	ты	appos	504	PRON	PRON	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	507	507	PER	Петя	2774	2778	петя	1	13	13	5	0	0	0	103	507	петя	conj	505	PROPN	PROP	Singular	Not_Assigned	3
+BrotherofVera	0	509	509	PER	баба	2780	2784	баба	1	13	13	7	0	0	0	104	509	баба	ROOT	509	NOUN	NOM	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	511	511	PER	Нюня	2788	2792	нюня	1	14	14	0	0	0	0	105	511	нюня	appos	509	VERB	NOM	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	515	515	PER	тебя	2807	2811	тебя	1	15	15	2	0	0	0	106	515	тебя	obl	517	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T108	41	518	519	PER	порядочного моряка	2822	2840	порядочного моряка	2	15	15	5	0	0	0	107	519	моряка	nsubj	517	NOUN	NOM	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	524	524	PER	братишку	2855	2863	братишку	1	15	16	3	0	0	0	108	524	братишку	obj	523	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Boris	8	525	525	PER	Боря	2864	2868	боря	1	15	16	4	0	0	0	109	525	боря	appos	524	PROPN	PROP	Singular	Not_Assigned	3
+Boris	8	533	533	PER	он	2906	2908	он	1	15	16	12	0	0	0	110	533	он	nsubj	534	PRON	PRON	Not_Assigned	Not_Assigned	3
+home	12	535	535	FAC	дома	2918	2922	дома	1	15	16	14	0	0	0	111	535	дома	obj	534	NOUN	NOM	Not_Assigned	Not_Assigned	3
+LOC_T113	46	539	539	LOC	море	2941	2945	море	1	15	16	18	0	0	0	112	539	море	nmod	537	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Jennie	4	543	543	PER	Я	2952	2953	я	1	16	17	2	0	0	0	113	543	я	nsubj	544	PRON	PRON	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	545	545	PER	ему	2960	2963	ему	1	16	17	4	0	0	0	114	545	ему	iobj	544	PRON	PRON	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	549	549	PER	он	2982	2984	он	1	16	17	8	0	0	0	115	549	он	nsubj	551	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T117	50	551	551	PER	девочка	2992	2999	девочка	1	16	17	10	0	0	0	116	551	девочка	conj	544	NOUN	NOM	Not_Assigned	Not_Assigned	3
+M2	47	555	555	PER	мальчик	3006	3013	мальчик	1	16	17	14	0	0	0	117	555	мальчик	conj	544	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Jennie	4	560	560	PER	Жени	3033	3037	жени	1	16	17	19	0	0	0	118	560	жени	iobj	544	PROPN	PROP	Singular	Not_Assigned	3
+Mitya	5	564	564	PER	Я	3044	3045	я	1	17	18	2	0	0	0	119	564	я	nsubj	565	PRON	PRON	Not_Assigned	Not_Assigned	3
+Vera	1	568	568	PER	ты	3057	3059	ты	1	17	18	6	0	0	0	120	568	ты	nsubj	569	PRON	PRON	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	570	570	PER	мальчика	3069	3077	мальчика	1	17	18	8	0	0	0	121	570	мальчика	obj	569	NOUN	NOM	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	577	577	PER	его	3108	3111	его	1	17	18	15	0	0	0	122	577	его	obj	576	PRON	PRON	Not_Assigned	Not_Assigned	3
+Vera	1	583	583	PER	сестре	3134	3140	сестре	1	17	19	4	0	0	0	123	583	сестре	iobj	582	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Mitya	5	584	584	PER	Митя	3141	3145	митя	1	17	19	5	0	0	0	124	584	митя	appos	583	PROPN	PROP	Singular	Not_Assigned	3
+Vera	1	586	586	PER	Вера	3148	3152	вера	1	18	20	0	0	0	0	125	586	вера	nsubj	589	PROPN	PROP	Singular	Not_Assigned	3
+Vera	1	588	588	PER	сама	3155	3159	сама	1	18	20	2	0	0	0	126	588	сама	acl	589	ADJ	NOM	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	591	591	PER	Пети	3178	3182	пети	1	18	20	5	0	0	0	127	591	пети	nmod	590	PROPN	PROP	Singular	Not_Assigned	3
+Vera	1	593	593	PER	она	3185	3188	она	1	18	20	7	0	0	0	128	593	она	nsubj	594	PRON	PRON	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	597	597	PER	он	3201	3203	он	1	18	20	11	0	0	0	129	597	он	nsubj	598	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T131	15	607	610	PER	другим мальчикам его лет	3260	3284	другим мальчикам его лет	4	18	20	21	0	1	1	130	608	мальчикам	iobj	604	NOUN	NOM	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	609	609	PER	его	3277	3280	его	1	18	20	23	1	0	0	131	609	его	det	610	DET	PRON	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	613	613	PER	он	3290	3292	он	1	18	20	27	0	0	0	132	613	он	nsubj	616	PRON	PRON	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	622	622	PER	он	3336	3338	он	1	18	20	36	0	0	0	133	622	он	nsubj	623	PRON	PRON	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	635	635	PER	он	3403	3405	он	1	18	20	49	0	0	0	134	635	он	nsubj	637	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T131	15	640	642	PER	товарищами своих лет	3427	3447	товарищами своих лет	3	18	20	54	0	1	1	135	642	лет	nmod	640	NOUN	NOM	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	641	641	PER	своих	3438	3443	своих	1	18	20	55	1	0	0	136	641	своих	det	642	DET	PRON	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	645	645	PER	он	3453	3455	он	1	18	20	59	0	0	0	137	645	он	nsubj	647	PRON	PRON	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	654	654	PER	его	3513	3516	его	1	18	20	68	0	0	0	138	654	его	det	655	DET	PRON	Not_Assigned	Not_Assigned	3
+Vera	1	665	665	PER	ее	3587	3589	ее	1	19	21	3	0	0	0	139	665	ее	obj	664	PRON	PRON	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	683	683	PER	он	3663	3665	он	1	20	22	3	0	0	0	140	683	он	nsubj	684	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T142	53	685	695	PER	одним из тех резвых, шумливых мальчиков, которые нравятся Мите	3676	3738	одним из тех резвых , шумливых мальчиков , которые нравятся мите	11	20	22	5	0	2	2	141	691	мальчиков	nmod	685	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T143	54	687	695	PER	тех резвых, шумливых мальчиков, которые нравятся Мите	3685	3738	тех резвых , шумливых мальчиков , которые нравятся мите	9	20	22	7	1	1	1	142	691	мальчиков	nmod	685	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Mitya	5	695	695	PER	Мите	3734	3738	мите	1	20	22	15	2	0	0	143	695	мите	iobj	694	VERB	NOM	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	700	700	PER	он	3755	3757	он	1	20	22	20	0	0	0	144	700	он	nsubj	704	PRON	PRON	Not_Assigned	Not_Assigned	3
+Vera	1	712	712	PER	ее	3814	3816	ее	1	20	22	32	0	0	0	145	712	ее	nmod	711	PRON	PRON	Not_Assigned	Not_Assigned	3
+Vera	1	715	715	PER	ее	3826	3828	ее	1	20	22	35	0	0	0	146	715	ее	det	718	DET	PRON	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	721	721	PER	он	3863	3865	он	1	20	22	41	0	0	0	147	721	он	nsubj	722	PRON	PRON	Not_Assigned	Not_Assigned	3
+Vera	1	727	727	PER	ее	3897	3899	ее	1	20	22	47	0	0	0	148	727	ее	det	728	DET	PRON	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	733	733	PER	он	3928	3930	он	1	20	22	53	0	0	0	149	733	он	nsubj	734	PRON	PRON	Not_Assigned	Not_Assigned	3
+Vera	1	738	738	PER	ее	3956	3958	ее	1	20	22	58	0	0	0	150	738	ее	obj	737	PRON	PRON	Not_Assigned	Not_Assigned	3
+Vera	1	743	743	PER	ей	3987	3989	ей	1	20	22	63	0	0	0	151	743	ей	iobj	742	PRON	PRON	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	745	745	PER	свою	3997	4001	свою	1	20	22	65	0	0	0	152	745	свою	det	746	DET	PRON	Not_Assigned	Not_Assigned	3
+Vera	1	757	757	PER	ее	4049	4051	ее	1	21	23	9	0	0	0	153	757	ее	det	756	DET	PRON	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	761	761	PER	Петя	4060	4064	петя	1	22	24	2	0	0	0	154	761	петя	nsubj	762	PROPN	PROP	Singular	Not_Assigned	3
+BrotherofVera	0	767	767	PER	он	4083	4085	он	1	22	24	8	0	0	0	155	767	он	nsubj	769	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T157	60	771	774	PER	большинство мальчиков своих лет	4098	4129	большинство мальчиков своих лет	4	22	24	12	0	2	2	156	771	большинство	obl	769	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T131	15	772	774	PER	мальчиков своих лет	4110	4129	мальчиков своих лет	3	22	24	13	1	1	1	157	774	лет	nmod	772	NOUN	NOM	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	773	773	PER	своих	4120	4125	своих	1	22	24	14	2	0	0	158	773	своих	det	774	DET	PRON	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	784	784	PER	него	4155	4159	него	1	22	25	3	0	0	0	159	784	него	obl	785	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T161	56	786	797	PER	честный, образованный человек, не очень ловкий, не очень храбрый	4167	4231	честный , образованный человек , не очень ловкий , не очень храбрый	12	22	25	5	0	0	0	160	789	человек	nsubj	785	NOUN	NOM	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	810	810	PER	он	4281	4283	он	1	23	26	5	0	0	0	161	810	он	nsubj	813	PRON	PRON	Not_Assigned	Not_Assigned	3
+Vera	1	815	815	PER	она	4300	4303	она	1	23	26	10	0	0	0	162	815	она	nsubj	818	PRON	PRON	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	819	819	PER	его	4330	4333	его	1	23	26	14	0	0	0	163	819	его	obj	818	PRON	PRON	Not_Assigned	Not_Assigned	3
+Vera	1	825	825	PER	ей	4362	4364	ей	1	23	26	20	0	0	0	164	825	ей	iobj	826	PRON	PRON	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	830	830	PER	нем	4387	4390	нем	1	23	26	25	0	0	0	165	830	нем	obl	828	PRON	PRON	Not_Assigned	Not_Assigned	3
+Vera	1	838	838	PER	своим	4436	4441	своим	1	23	26	33	0	0	0	166	838	своим	det	839	DET	PRON	Not_Assigned	Not_Assigned	3
+Vera	1	842	842	PER	она	4462	4465	она	1	23	26	37	0	0	0	167	842	она	nsubj	844	PRON	PRON	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	845	845	PER	его	4483	4486	его	1	23	26	40	0	0	0	168	845	его	obj	844	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T170	57	853	853	PER	детей	4536	4541	детей	1	23	26	48	0	0	0	169	853	детей	obl	851	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Vera	1	857	857	PER	себя	4556	4560	себя	1	24	27	2	0	0	0	170	857	себя	obj	856	PRON	PRON	Not_Assigned	Not_Assigned	3
+Vera	1	858	858	PER	Вера	4561	4565	вера	1	24	27	3	0	0	0	171	858	вера	nsubj	856	PROPN	PROP	Singular	Not_Assigned	3
+Vera	1	868	868	PER	ей	4628	4630	ей	1	24	27	13	0	0	0	172	868	ей	iobj	867	PRON	PRON	Not_Assigned	Not_Assigned	3
+Vera	1	871	871	PER	ее	4636	4638	ее	1	24	27	16	0	0	0	173	871	ее	det	872	DET	PRON	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	874	874	PER	брату	4648	4653	брату	1	24	27	19	0	0	0	174	874	брату	nmod	872	NOUN	NOM	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	880	880	PER	его	4680	4683	его	1	24	27	25	0	0	0	175	880	его	det	881	DET	PRON	Not_Assigned	Not_Assigned	3
+Vera	1	883	883	PER	она	4692	4695	она	1	24	27	28	0	0	0	176	883	она	nsubj	885	PRON	PRON	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	889	889	PER	ним	4727	4730	ним	1	24	27	34	0	0	0	177	889	ним	obl	887	PRON	PRON	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	895	895	PER	него	4765	4769	него	1	24	27	40	0	0	0	178	895	него	nmod	893	PRON	PRON	Not_Assigned	Not_Assigned	3
+Dmitriy	2	900	900	PER	меня	4789	4793	меня	1	25	28	3	0	0	0	179	900	меня	obj	856	PRON	PRON	Not_Assigned	Not_Assigned	3
+Dmitriy	2	909	920	PER	Дмитрий Андреевич, как мы теперь должны называть нашего старого знакомца Митю	4826	4903	дмитрий андреевич , как мы теперь должны называть нашего старого знакомца митю	12	25	28	12	0	2	3	180	915	должны	ccomp	904	ADJ	PROP	Singular	Not_Assigned	3
+autorreaders	20	913	913	PER	мы	4849	4851	мы	1	25	28	16	1	0	0	181	913	мы	nsubj	915	PRON	PRON	Not_Assigned	Not_Assigned	3
+Mitya	5	917	920	PER	нашего старого знакомца Митю	4875	4903	нашего старого знакомца митю	4	25	28	20	1	1	1	182	919	знакомца	obj	916	NOUN	PROP	Singular	Not_Assigned	3
+autorreaders	20	917	917	PER	нашего	4875	4881	нашего	1	25	28	20	2	0	0	183	917	нашего	det	919	DET	PRON	Not_Assigned	Not_Assigned	3
+Dmitriy	2	927	927	PER	его	4935	4938	его	1	25	28	30	0	0	0	184	927	его	det	931	DET	PRON	Not_Assigned	Not_Assigned	3
+Dmitriy	2	938	938	PER	я	4986	4987	я	1	25	28	41	0	0	0	185	938	я	nsubj	939	PRON	PRON	Not_Assigned	Not_Assigned	3
+Dmitriy	2	947	947	PER	мне	5027	5030	мне	1	25	28	50	0	0	0	186	947	мне	iobj	950	PRON	PRON	Not_Assigned	Not_Assigned	3
+Vera	1	961	961	PER	Вера	5088	5092	вера	1	26	30	3	0	0	0	187	961	вера	nsubj	960	PROPN	PROP	Singular	Not_Assigned	3
+school	3	968	971	FAC	так называемой семейной школе	5111	5140	так называемой семейной школе	4	27	31	5	0	0	0	188	971	школе	nmod	966	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T190	13	973	974	PER	Несколько семейств	5143	5161	несколько семейств	2	28	32	0	0	0	0	189	974	семейств	nsubj	975	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T190	13	979	979	PER	вместе	5186	5192	вместе	1	28	32	6	0	0	0	190	979	вместе	advmod	978	ADV	NOM	Not_Assigned	Not_Assigned	3
+childrenofschool	6	981	982	PER	своим детям	5205	5216	своим детям	2	28	32	8	0	1	1	191	982	детям	iobj	978	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T190	13	981	981	PER	своим	5205	5210	своим	1	28	32	8	1	0	0	192	981	своим	det	982	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T193	58	985	986	PER	хорошие учителя	5229	5244	хорошие учителя	2	28	32	12	0	0	0	193	986	учителя	nsubj:pass	984	NOUN	NOM	Not_Assigned	Not_Assigned	3
+FAC_T194	32	994	995	FAC	превосходное помещение	5289	5311	превосходное помещение	2	28	32	21	0	0	0	194	995	помещение	nsubj:pass	993	NOUN	NOM	Not_Assigned	Not_Assigned	3
+childrenofschool	6	997	997	PER	Детей	5314	5319	детей	1	29	33	0	0	0	0	195	997	детей	csubj	1014	PROPN	PROP	Singular	Not_Assigned	3
+childrenofschool	6	1000	1008	PER	десять человек, приблизительно одного возраста и одинаковых познаний	5332	5400	десять человек , приблизительно одного возраста и одинаковых познаний	9	29	33	3	0	0	0	196	1001	человек	nsubj	999	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Dmitriy	2	1018	1018	PER	я	5445	5446	я	1	30	34	2	0	0	0	197	1018	я	nsubj	1019	PRON	PRON	Not_Assigned	Not_Assigned	3
+Vera	1	1020	1020	PER	тебя	5453	5457	тебя	1	30	34	4	0	0	0	198	1020	тебя	obj	1019	PRON	PRON	Not_Assigned	Not_Assigned	3
+FAC_T199	55	1024	1026	FAC	помещение нашей школы	5482	5503	помещение нашей школы	3	30	34	8	0	2	2	199	1026	школы	nmod	1024	NOUN	NOM	Not_Assigned	Not_Assigned	3
+school	3	1025	1026	FAC	нашей школы	5492	5503	нашей школы	2	30	34	9	1	1	1	200	1026	школы	nmod	1024	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T200	11	1025	1025	PER	нашей	5492	5497	нашей	1	30	34	9	2	0	0	201	1025	нашей	det	1026	DET	PRON	Not_Assigned	Not_Assigned	3
+Vera	1	1028	1028	PER	Ты	5507	5509	ты	1	31	35	0	0	0	0	202	1028	ты	nsubj	1029	PRON	PRON	Not_Assigned	Not_Assigned	3
+Vera	1	1047	1047	PER	Вера	5603	5607	вера	1	32	36	9	0	0	0	203	1047	вера	nsubj	1046	PROPN	PROP	Singular	Not_Assigned	3
+Dmitriy	2	1051	1051	PER	брат	5624	5628	брат	1	33	37	2	0	0	0	204	1051	брат	nsubj	1065	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Vera	1	1053	1063	PER	сестра, в сопровождении маленького Пети, выпросившегося также с ними	5631	5699	сестра , в сопровождении маленького пети , выпросившегося также с ними	11	33	37	4	0	2	2	205	1056	сопровождении	obl	1065	NOUN	PROP	Singular	Not_Assigned	3
+BrotherofVera	0	1057	1063	PER	маленького Пети, выпросившегося также с ними	5655	5699	маленького пети , выпросившегося также с ними	7	33	37	8	1	1	1	206	1058	пети	nmod	1056	PROPN	PROP	Singular	Not_Assigned	3
+DmitriyVera	37	1063	1063	PER	ними	5695	5699	ними	1	33	37	14	2	0	0	207	1063	ними	obl	1060	PRON	PRON	Not_Assigned	Not_Assigned	3
+school	3	1067	1067	FAC	школу	5715	5720	школу	1	33	37	18	0	0	0	208	1067	школу	obl	1065	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Dmitriy	2	1069	1070	PER	Дмитрий Андреевич	5723	5740	дмитрий андреевич	2	34	38	0	0	0	0	209	1069	дмитрий	nsubj	1074	PROPN	PROP	Singular	Not_Assigned	3
+school	3	1075	1078	FAC	новым местом своих занятий	5768	5794	новым местом своих занятий	4	34	38	6	0	1	1	210	1076	местом	obl	1074	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Dmitriy	2	1077	1077	PER	своих	5781	5786	своих	1	34	38	8	1	0	0	211	1077	своих	det	1078	DET	PRON	Not_Assigned	Not_Assigned	3
+FAC_T213	14	1080	1084	FAC	Комната, предназначенная для класса	5797	5832	комната , предназначенная для класса	5	35	39	0	0	1	1	212	1082	предназначенная	acl	1080	VERB	NOM	Not_Assigned	Not_Assigned	3
+FAC_T214	45	1084	1084	FAC	класса	5826	5832	класса	1	35	39	4	1	0	0	213	1084	класса	obl	1082	NOUN	NOM	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	1094	1094	PER	Петя	5874	5878	петя	1	36	40	0	0	0	0	214	1094	петя	nsubj	1096	PROPN	PROP	Singular	Not_Assigned	3
+FAC_T213	14	1103	1103	FAC	ее	5922	5924	ее	1	36	40	9	0	0	0	215	1103	ее	det	1104	DET	PRON	Not_Assigned	Not_Assigned	3
+Vera	1	1106	1106	PER	Вера	5934	5938	вера	1	37	41	0	0	0	0	216	1106	вера	nsubj	1107	PROPN	PROP	Singular	Not_Assigned	3
+Dmitriy	2	1128	1129	PER	Дмитрий Андреевич	6084	6101	дмитрий андреевич	2	38	42	0	0	0	0	217	1128	дмитрий	nsubj	1130	PROPN	PROP	Singular	Not_Assigned	3
+Vera	1	1133	1133	PER	ей	6122	6124	ей	1	38	42	5	0	0	0	218	1133	ей	iobj	1132	PRON	PRON	Not_Assigned	Not_Assigned	3
+Vera	1	1147	1147	PER	ей	6213	6215	ей	1	38	42	19	0	0	0	219	1147	ей	iobj	1146	PRON	PRON	Not_Assigned	Not_Assigned	3
+FAC_T221	10	1161	1164	FAC	соседнюю, рекреационную залу	6294	6322	соседнюю , рекреационную залу	4	38	42	33	0	0	0	220	1164	залу	obl	1158	NOUN	NOM	Not_Assigned	Not_Assigned	3
+FAC_T221	10	1167	1167	FAC	комната	6329	6336	комната	1	39	43	1	0	0	0	221	1167	комната	nsubj	1171	NOUN	NOM	Not_Assigned	Not_Assigned	3
+FAC_T213	14	1171	1171	FAC	первой	6353	6359	первой	1	39	43	5	0	0	0	222	1171	первой	ROOT	1171	ADJ	NOM	Not_Assigned	Not_Assigned	3
+FAC_T221	10	1176	1176	FAC	ее	6375	6377	ее	1	39	43	10	0	0	0	223	1176	ее	nmod	1175	PRON	PRON	Not_Assigned	Not_Assigned	3
+childrenofschool	6	1187	1187	PER	детей	6447	6452	детей	1	39	43	21	0	0	0	224	1187	детей	nmod	1186	NOUN	NOM	Not_Assigned	Not_Assigned	3
+childrenofschool	6	1210	1210	PER	детей	6567	6572	детей	1	39	43	44	0	0	0	225	1210	детей	nmod	1209	NOUN	NOM	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	1222	1222	PER	Петя	6617	6621	петя	1	40	45	3	0	0	0	226	1222	петя	nsubj	1221	PROPN	PROP	Singular	Not_Assigned	3
+FAC_T221	10	1225	1225	FAC	комнату	6633	6640	комнату	1	40	45	6	0	0	0	227	1225	комнату	obj	1224	NOUN	NOM	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	1235	1235	PER	он	6666	6668	он	1	41	46	8	0	0	0	228	1235	он	nsubj	1234	PRON	PRON	Not_Assigned	Not_Assigned	3
+boysofschool	19	1246	1248	PER	всех ваших мальчиков	6716	6736	всех ваших мальчиков	3	41	46	19	0	1	1	229	1248	мальчиков	nsubj	1249	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T200	11	1247	1247	PER	ваших	6721	6726	ваших	1	41	46	20	1	0	0	230	1247	ваших	det	1248	DET	PRON	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	1265	1265	PER	его	6817	6820	его	1	42	47	10	0	0	0	231	1265	его	nmod	1267	PRON	PRON	Not_Assigned	Not_Assigned	3
+Dmitriy	2	1266	1267	PER	старший брат	6821	6833	старший брат	2	42	47	11	0	0	0	232	1267	брат	obj	1264	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T235	17	1273	1278	PER	те мальчики, которые сами хотят	6854	6885	те мальчики , которые сами хотят	6	42	47	18	0	1	1	233	1278	хотят	acl:relcl	1274	VERB	NOM	Not_Assigned	Not_Assigned	3
+PER_T235	17	1277	1277	PER	сами	6875	6879	сами	1	42	47	22	1	0	0	234	1277	сами	acl	1278	ADJ	NOM	Not_Assigned	Not_Assigned	3
+M3	48	1284	1294	PER	всякий мальчик, который с месяц поучится y нас в школе	6900	6954	всякий мальчик , который с месяц поучится y нас в школе	11	43	48	4	0	1	2	235	1285	мальчик	nsubj	1297	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T200	11	1292	1292	PER	нас	6943	6946	нас	1	43	48	12	1	0	0	236	1292	нас	nmod	1285	PRON	PRON	Not_Assigned	Not_Assigned	3
+school	3	1294	1294	FAC	школе	6949	6954	школе	1	43	48	14	1	0	0	237	1294	школе	nmod	1285	NOUN	NOM	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	1300	1300	PER	Ты	6986	6988	ты	1	44	49	0	0	0	0	238	1300	ты	nsubj	1301	PRON	PRON	Not_Assigned	Not_Assigned	3
+boysofschool	19	1307	1308	PER	наших мальчиков	7024	7039	наших мальчиков	2	44	49	7	0	1	1	239	1308	мальчиков	obl	1305	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T200	11	1307	1307	PER	наших	7024	7029	наших	1	44	49	7	1	0	0	240	1307	наших	det	1308	DET	PRON	Not_Assigned	Not_Assigned	3
+Vera	1	1310	1310	PER	Вера	7042	7046	вера	1	45	50	0	0	0	0	241	1310	вера	nsubj	1312	NOUN	PROP	Singular	Not_Assigned	3
+BrotherofVera	0	1313	1313	PER	его	7056	7059	его	1	45	50	3	0	0	0	242	1313	его	obj	1312	PRON	PRON	Not_Assigned	Not_Assigned	3
+Vera	1	1323	1323	PER	Вера	7101	7105	вера	1	46	51	8	0	0	0	243	1323	вера	nsubj	1322	PROPN	PROP	Singular	Not_Assigned	3
+Vera	1	1329	1329	PER	она	7136	7139	она	1	47	52	4	0	0	0	244	1329	она	nsubj	1328	PRON	PRON	Not_Assigned	Not_Assigned	3
+school	3	1331	1331	FAC	школы	7143	7148	школы	1	47	52	6	0	0	0	245	1331	школы	obl	1328	NOUN	NOM	Not_Assigned	Not_Assigned	3
+home	12	1332	1332	FAC	домой	7149	7154	домой	1	47	52	7	0	0	0	246	1332	домой	advmod	1331	ADV	NOM	Not_Assigned	Not_Assigned	3
+Vera	1	1334	1334	PER	ей	7157	7159	ей	1	47	52	9	0	0	0	247	1334	ей	iobj	1335	PRON	PRON	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	1339	1340	PER	ее Петя	7178	7185	ее петя	2	47	52	14	0	1	1	248	1340	петя	nsubj	1342	PROPN	PROP	Singular	Not_Assigned	3
+Vera	1	1339	1339	PER	ее	7178	7180	ее	1	47	52	14	1	0	0	249	1339	ее	det	1340	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T252	16	1352	1353	PER	другие дети	7257	7268	другие дети	2	47	52	27	0	0	0	250	1353	дети	obl	1343	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Vera	1	1355	1355	PER	она	7271	7274	она	1	47	52	30	0	0	0	251	1355	она	nsubj	1356	PRON	PRON	Not_Assigned	Not_Assigned	3
+Vera	1	1360	1360	PER	нее	7292	7295	нее	1	47	52	35	0	0	0	252	1360	нее	obl	1361	PRON	PRON	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	1363	1363	PER	ему	7314	7317	ему	1	47	52	38	0	0	0	253	1363	ему	iobj	1362	PRON	PRON	Not_Assigned	Not_Assigned	3
+Dmitriy	2	1369	1369	PER	Митя	7341	7345	митя	1	47	52	44	0	0	0	254	1369	митя	nsubj	1370	PROPN	PROP	Singular	Not_Assigned	3
+BrotherofVera	0	1372	1372	PER	его	7366	7369	его	1	47	52	47	0	0	0	255	1372	его	obj	1371	PRON	PRON	Not_Assigned	Not_Assigned	3
+school	3	1376	1376	FAC	школу	7382	7387	школу	1	47	52	51	0	0	0	256	1376	школу	obl	1371	NOUN	NOM	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	1383	1383	PER	его	7417	7420	его	1	47	52	58	0	0	0	257	1383	его	obj	1382	PRON	PRON	Not_Assigned	Not_Assigned	3
+Vera	1	1385	1385	PER	себя	7424	7428	себя	1	47	52	60	0	0	0	258	1385	себя	obl	1382	PRON	PRON	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	1388	1388	PER	его	7437	7440	его	1	47	52	63	0	0	0	259	1388	его	obj	1387	PRON	PRON	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	1395	1395	PER	он	7461	7463	он	1	48	53	2	0	0	0	260	1395	он	nsubj	1398	PRON	PRON	Not_Assigned	Not_Assigned	3
+Vera	1	1408	1408	PER	ее	7520	7522	ее	1	48	53	15	0	0	0	261	1408	ее	det	1409	DET	PRON	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	1412	1412	PER	него	7543	7547	него	1	48	53	19	0	0	0	262	1412	него	obl	1410	PRON	PRON	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	1418	1418	PER	ему	7592	7595	ему	1	48	53	25	0	0	0	263	1418	ему	iobj	1417	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T266	40	1419	1419	PER	учителей	7596	7604	учителей	1	48	53	26	0	0	0	264	1419	учителей	obj	1417	NOUN	NOM	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	1422	1422	PER	его	7615	7618	его	1	48	53	29	0	0	0	265	1422	его	obj	1421	PRON	PRON	Not_Assigned	Not_Assigned	3
+FAC_T268	59	1424	1425	FAC	учебное заведение	7621	7638	учебное заведение	2	48	53	31	0	0	0	266	1425	заведение	obl	1421	NOUN	NOM	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	1432	1432	PER	он	7657	7659	он	1	48	53	39	0	0	0	267	1432	он	nsubj	1434	PRON	PRON	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	1435	1436	PER	ее ребенком	7672	7683	ее ребенком	2	48	53	42	0	1	1	268	1436	ребенком	obl	1434	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Vera	1	1435	1435	PER	ее	7672	7674	ее	1	48	53	42	1	0	0	269	1435	ее	det	1436	PRON	PRON	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	1438	1439	PER	ее утешением	7685	7697	ее утешением	2	48	53	45	0	1	1	270	1439	утешением	conj	1434	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Vera	1	1438	1438	PER	ее	7685	7687	ее	1	48	53	45	1	0	0	271	1438	ее	det	1439	DET	PRON	Not_Assigned	Not_Assigned	3
+Dmitriy	2	1441	1442	PER	Дмитрий Андреевич	7702	7719	дмитрий андреевич	2	49	54	0	0	0	0	272	1441	дмитрий	nsubj	1444	PROPN	PROP	Singular	Not_Assigned	3
+Dmitriy	2	1445	1445	PER	своего	7729	7735	своего	1	49	54	4	0	0	0	273	1445	своего	det	1446	DET	PRON	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	1448	1448	PER	Петю	7753	7757	петю	1	49	54	7	0	0	0	274	1448	петю	obj	1447	PROPN	PROP	Singular	Not_Assigned	3
+school	3	1450	1450	FAC	школу	7760	7765	школу	1	49	54	9	0	0	0	275	1450	школу	obl	1447	NOUN	NOM	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	1454	1455	PER	сам мальчик	7772	7783	сам мальчик	2	49	54	13	0	1	1	276	1455	мальчик	nsubj	1458	NOUN	NOM	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	1454	1454	PER	сам	7772	7775	сам	1	49	54	13	1	0	0	277	1454	сам	amod	1455	ADJ	NOM	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	1462	1462	PER	ему	7809	7812	ему	1	49	54	21	0	0	0	278	1462	ему	iobj	1463	PRON	PRON	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	1469	1469	PER	его	7857	7860	его	1	49	54	28	0	0	0	279	1469	его	obj	1468	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T282	31	1476	1484	PER	смельчаков, взбиравшихся по веревочным лестницам до самого потолка	7900	7966	смельчаков , взбиравшихся по веревочным лестницам до самого потолка	9	49	54	35	0	0	0	280	1478	взбиравшихся	acl	1476	VERB	NOM	Not_Assigned	Not_Assigned	3
+Vera	1	1486	1486	PER	Вера	7969	7973	вера	1	50	55	0	0	0	0	281	1486	вера	nsubj	1487	PROPN	PROP	Singular	Not_Assigned	3
+BrotherofVera	0	1495	1495	PER	брата	8028	8033	брата	1	50	55	9	0	0	0	282	1495	брата	nmod	1494	NOUN	NOM	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	1498	1498	PER	его	8046	8049	его	1	50	55	12	0	0	0	283	1498	его	obj	1497	PRON	PRON	Not_Assigned	Not_Assigned	3
+Dmitriy	2	1500	1501	PER	Дмитрием Андреевичем	8052	8072	дмитрием андреевичем	2	50	55	14	0	0	0	284	1500	дмитрием	obl	1497	PROPN	PROP	Singular	Not_Assigned	3
+Vera	1	1506	1506	PER	сама	8091	8095	сама	1	50	55	20	0	0	0	285	1506	сама	acl	1507	ADJ	NOM	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	1509	1509	PER	ним	8105	8108	ним	1	50	55	23	0	0	0	286	1509	ним	obl	1507	PRON	PRON	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	1515	1515	PER	мальчиком	8142	8151	мальчиком	1	51	56	4	0	0	0	287	1515	мальчиком	obl:agent	1514	NOUN	NOM	Not_Assigned	Not_Assigned	3
+school	3	1517	1517	FAC	школы	8155	8160	школы	1	51	56	6	0	0	0	288	1517	школы	nmod	1515	NOUN	NOM	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	1524	1524	PER	он	8191	8193	он	1	51	56	13	0	0	0	289	1524	он	nsubj	1525	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T292	22	1527	1529	PER	половине класса арифметики	8202	8228	половине класса арифметики	3	51	56	16	0	1	1	290	1527	половине	obl	1525	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T293	23	1528	1529	PER	класса арифметики	8211	8228	класса арифметики	2	51	56	17	1	0	0	291	1528	класса	nmod	1527	NOUN	NOM	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	1531	1531	PER	ему	8231	8234	ему	1	51	56	20	0	0	0	292	1531	ему	iobj	1532	PRON	PRON	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	1538	1538	PER	ему	8277	8280	ему	1	51	56	27	0	0	0	293	1538	ему	iobj	1536	PRON	PRON	Not_Assigned	Not_Assigned	3
+childrenofschool	6	1547	1547	PER	школьников	8325	8335	школьников	1	51	56	36	0	0	0	294	1547	школьников	nmod	1546	NOUN	NOM	Not_Assigned	Not_Assigned	3
+childrenofschool	6	1549	1549	PER	их	8338	8340	их	1	51	56	38	0	0	0	295	1549	их	det	1551	DET	PRON	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	1554	1554	PER	его	8386	8389	его	1	51	56	43	0	0	0	296	1554	его	obj	1553	PRON	PRON	Not_Assigned	Not_Assigned	3
+Vera	1	1558	1558	PER	Веры	8405	8409	веры	1	52	57	2	0	0	0	297	1558	веры	nmod	1557	PROPN	PROP	Singular	Not_Assigned	3
+BrotherofVera	0	1559	1559	PER	он	8410	8412	он	1	52	57	3	0	0	0	298	1559	он	nsubj	1563	PRON	PRON	Not_Assigned	Not_Assigned	3
+school	3	1568	1568	FAC	школе	8451	8456	школе	1	52	57	12	0	0	0	299	1568	школе	obl	1563	NOUN	NOM	Not_Assigned	Not_Assigned	3
+home	12	1575	1575	FAC	дома	8482	8486	дома	1	52	57	19	0	0	0	300	1575	дома	advmod	1576	ADV	NOM	Not_Assigned	Not_Assigned	3
+Vera	1	1583	1583	PER	ее	8531	8533	ее	1	53	58	5	0	0	0	301	1583	ее	obj	1582	PRON	PRON	Not_Assigned	Not_Assigned	3
+school	3	1588	1588	FAC	школе	8546	8551	школе	1	54	59	3	0	0	0	302	1588	школе	obl	1590	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Vera	1	1595	1595	PER	Вера	8576	8580	вера	1	54	59	10	0	0	0	303	1595	вера	nsubj	1596	PROPN	PROP	Singular	Not_Assigned	3
+Vera	1	1598	1598	PER	она	8592	8595	она	1	54	59	13	0	0	0	304	1598	она	nsubj	1600	PRON	PRON	Not_Assigned	Not_Assigned	3
+Vera	1	1605	1605	PER	ее	8640	8642	ее	1	54	59	20	0	0	0	305	1605	ее	det	1609	DET	PRON	Not_Assigned	Not_Assigned	3
+Vera	1	1612	1612	PER	ей	8681	8683	ей	1	54	59	27	0	0	0	306	1612	ей	iobj	1613	PRON	PRON	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	1620	1620	PER	Петя	8730	8734	петя	1	55	60	0	0	0	0	307	1620	петя	nsubj	1621	PROPN	PROP	Singular	Not_Assigned	3
+roomofVera	7	1627	1628	FAC	ее комнате	8771	8781	ее комнате	2	55	60	7	0	1	1	308	1628	комнате	obl	1625	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Vera	1	1627	1627	PER	ее	8771	8773	ее	1	55	60	7	1	0	0	309	1627	ее	det	1628	DET	PRON	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	1632	1632	PER	себя	8798	8802	себя	1	55	60	12	0	0	0	310	1632	себя	obj	1631	PRON	PRON	Not_Assigned	Not_Assigned	3
+FAC_T95	18	1639	1639	FAC	улице	8824	8829	улице	1	56	61	1	0	0	0	311	1639	улице	obl	1641	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T314	24	1649	1650	PER	гуляющие дети	8893	8906	гуляющие дети	2	56	61	11	0	0	0	312	1650	дети	nsubj	1648	NOUN	NOM	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	1653	1653	PER	он	8910	8912	он	1	56	61	15	0	0	0	313	1653	он	nsubj	1654	PRON	PRON	Not_Assigned	Not_Assigned	3
+roomofVera	7	1658	1659	FAC	полутемной комнате	8933	8951	полутемной комнате	2	56	61	20	0	0	0	314	1659	комнате	obl	1656	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Vera	1	1666	1666	PER	Вера	8974	8978	вера	1	56	61	28	0	0	0	315	1666	вера	nsubj	1668	PROPN	PROP	Singular	Not_Assigned	3
+BrotherofVera	0	1691	1691	PER	мальчику	9108	9116	мальчику	1	57	62	7	0	0	0	316	1691	мальчику	iobj	1690	NOUN	NOM	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	1694	1694	PER	он	9121	9123	он	1	57	62	10	0	0	0	317	1694	он	nsubj	1696	PRON	PRON	Not_Assigned	Not_Assigned	3
+Vera	1	1700	1700	PER	сестрой	9152	9159	сестрой	1	57	62	16	0	0	0	318	1700	сестрой	obl	1698	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Vera	1	1708	1708	PER	ее	9211	9213	ее	1	57	62	24	0	0	0	319	1708	ее	det	1709	DET	PRON	Not_Assigned	Not_Assigned	3
+Dmitriy	2	1714	1715	PER	Дмитрий Андреевич	9240	9257	дмитрий андреевич	2	58	63	0	0	0	0	320	1714	дмитрий	nsubj	1716	PROPN	PROP	Singular	Not_Assigned	3
+Vera	1	1718	1718	PER	сестру	9274	9280	сестру	1	58	63	4	0	0	0	321	1718	сестру	obj	1717	NOUN	NOM	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	1727	1727	PER	мальчика	9326	9334	мальчика	1	58	63	13	0	0	0	322	1727	мальчика	nmod	1726	NOUN	NOM	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	1733	1733	PER	Петя	9345	9349	петя	1	59	64	4	0	0	0	323	1733	петя	ROOT	1733	PROPN	PROP	Singular	Not_Assigned	3
+BrotherofVera	0	1737	1737	PER	тебя	9359	9363	тебя	1	59	64	8	0	0	0	324	1737	тебя	acl:relcl	1733	PRON	PRON	Not_Assigned	Not_Assigned	3
+Dmitriy	2	1746	1746	PER	он	9406	9408	он	1	59	65	5	0	0	0	325	1746	он	nsubj	1745	PRON	PRON	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	1753	1753	PER	ты	9428	9430	ты	1	59	65	12	0	0	0	326	1753	ты	nsubj	1756	PRON	PRON	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	1767	1767	PER	тебе	9493	9497	тебе	1	61	67	3	0	0	0	327	1767	тебе	iobj	1769	PRON	PRON	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	1781	1781	PER	мне	9558	9561	мне	1	62	68	5	0	0	0	328	1781	мне	iobj	1782	PRON	PRON	Not_Assigned	Not_Assigned	3
+Vera	1	1785	1785	PER	Вера	9577	9581	вера	1	63	69	1	0	0	0	329	1785	вера	nsubj	1786	PROPN	PROP	Singular	Not_Assigned	3
+BrotherofVera	0	1792	1792	PER	мальчик	9610	9617	мальчик	1	63	69	8	0	0	0	330	1792	мальчик	nsubj	1791	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Dmitriy	2	1798	1798	PER	мной	9634	9638	мной	1	64	70	4	0	0	0	331	1798	мной	ROOT	1798	PRON	PRON	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	1801	1801	PER	его	9650	9653	его	1	65	71	1	0	0	0	332	1801	его	obj	1800	PRON	PRON	Not_Assigned	Not_Assigned	3
+Vera	1	1803	1803	PER	Вера	9655	9659	вера	1	65	71	3	0	0	0	333	1803	вера	conj	1801	PROPN	PROP	Singular	Not_Assigned	3
+Dmitriy	2	1805	1805	PER	Я	9663	9664	я	1	66	72	0	0	0	0	334	1805	я	nsubj	1806	PRON	PRON	Not_Assigned	Not_Assigned	3
+school	3	1809	1809	FAC	школу	9678	9683	школу	1	66	72	4	0	0	0	335	1809	школу	obl	1806	NOUN	NOM	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	1815	1815	PER	него	9708	9712	него	1	66	72	10	0	0	0	336	1815	него	obl	1813	PRON	PRON	Not_Assigned	Not_Assigned	3
+Dmitriy	2	1819	1819	PER	я	9728	9729	я	1	66	72	14	0	0	0	337	1819	я	nsubj	1820	PRON	PRON	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	1825	1825	PER	его	9757	9760	его	1	66	72	20	0	0	0	338	1825	его	obj	1824	PRON	PRON	Not_Assigned	Not_Assigned	3
+Vera	1	1826	1826	PER	тебе	9761	9765	тебе	1	66	72	21	0	0	0	339	1826	тебе	iobj	1824	PRON	PRON	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	1831	1831	PER	Петя	9784	9788	петя	1	67	73	2	0	0	0	340	1831	петя	appos	1829	PROPN	PROP	Singular	Not_Assigned	3
+BrotherofVera	0	1834	1834	PER	Пети	9801	9805	пети	1	68	74	1	0	0	0	341	1834	пети	nmod	1833	PROPN	PROP	Singular	Not_Assigned	3
+Dmitriy	2	1839	1839	PER	брата	9840	9845	брата	1	68	74	6	0	0	0	342	1839	брата	nmod	1838	NOUN	NOM	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	1847	1847	PER	себе	9866	9870	себе	1	69	75	6	0	0	0	343	1847	себе	iobj	1848	PRON	PRON	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	1851	1851	PER	ему	9882	9885	ему	1	69	75	10	0	0	0	344	1851	ему	iobj	1852	PRON	PRON	Not_Assigned	Not_Assigned	3
+Vera	1	1854	1854	PER	мной	9896	9900	мной	1	69	75	13	0	0	0	345	1854	мной	obl	1852	PRON	PRON	Not_Assigned	Not_Assigned	3
+Vera	1	1861	1861	PER	Вера	9938	9942	вера	1	69	75	20	0	0	0	346	1861	вера	nsubj	1860	PROPN	PROP	Singular	Not_Assigned	3
+BrotherofVera	0	1863	1863	PER	Петя	9945	9949	петя	1	70	76	0	0	0	0	347	1863	петя	nsubj	1864	PROPN	PROP	Singular	Not_Assigned	3
+Vera	1	1867	1867	PER	сестре	9963	9969	сестре	1	70	76	4	0	0	0	348	1867	сестре	iobj	1869	NOUN	NOM	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	1871	1871	PER	его	9991	9994	его	1	70	76	8	0	0	0	349	1871	его	obj	1870	PRON	PRON	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	1873	1874	PER	добрый мальчик	9997	10011	добрый мальчик	2	70	76	10	0	0	0	350	1874	мальчик	nsubj	1875	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Vera	1	1877	1877	PER	больную	10028	10035	больную	1	70	76	14	0	0	0	351	1877	больную	amod	1880	ADJ	NOM	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	1884	1884	PER	его	10067	10070	его	1	70	76	21	0	0	0	352	1884	его	nmod	1883	PRON	PRON	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	1887	1887	PER	он	10074	10076	он	1	70	76	24	0	0	0	353	1887	он	nsubj	1888	PRON	PRON	Not_Assigned	Not_Assigned	3
+Dmitriy	2	1891	1891	PER	брата	10095	10100	брата	1	70	76	28	0	0	0	354	1891	брата	nmod	1890	NOUN	NOM	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	1897	1897	PER	я	10112	10113	я	1	70	76	34	0	0	0	355	1897	я	nsubj	1899	PRON	PRON	Not_Assigned	Not_Assigned	3
+school	3	1902	1902	FAC	школу	10129	10134	школу	1	70	76	39	0	0	0	356	1902	школу	obl	1900	NOUN	NOM	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	1904	1904	PER	я	10136	10137	я	1	70	76	41	0	0	0	357	1904	я	nsubj	1906	PRON	PRON	Not_Assigned	Not_Assigned	3
+Vera	1	1908	1908	PER	Верой	10155	10160	верой	1	70	76	45	0	0	0	358	1908	верой	obl	1906	PROPN	PROP	Singular	Not_Assigned	3
+Vera	1	1910	1916	PER	Вера, не спускавшая глаз с мальчика	10163	10198	вера , не спускавшая глаз с мальчика	7	71	77	0	0	1	1	359	1913	спускавшая	acl	1910	VERB	NOM	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	1916	1916	PER	мальчика	10190	10198	мальчика	1	71	77	6	1	0	0	360	1916	мальчика	obl	1913	NOUN	NOM	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	1924	1924	PER	его	10231	10234	его	1	71	77	14	0	0	0	361	1924	его	nmod	1923	PRON	PRON	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	1926	1926	PER	его	10237	10240	его	1	71	77	16	0	0	0	362	1926	его	det	1927	PRON	PRON	Not_Assigned	Not_Assigned	3
+Vera	1	1931	1931	PER	ее	10274	10276	ее	1	71	77	21	0	0	0	363	1931	ее	obj	1930	PRON	PRON	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	1939	1939	PER	голубчик	10293	10301	голубчик	1	72	78	6	0	0	0	364	1939	голубчик	conj	1937	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Vera	1	1945	1945	PER	она	10321	10324	она	1	72	78	12	0	0	0	365	1945	она	nsubj	1944	PRON	PRON	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	1948	1948	PER	его	10334	10337	его	1	72	78	15	0	0	0	366	1948	его	det	1950	DET	PRON	Not_Assigned	Not_Assigned	3
+Vera	1	1956	1956	PER	мне	10365	10368	мне	1	72	78	23	0	0	0	367	1956	мне	iobj	1958	PRON	PRON	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	1961	1961	PER	ты	10390	10392	ты	1	72	78	28	0	0	0	368	1961	ты	nsubj	1962	PRON	PRON	Not_Assigned	Not_Assigned	3
+Vera	1	1965	1965	PER	я	10404	10405	я	1	72	78	32	0	0	0	369	1965	я	nsubj	1969	PRON	PRON	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	1973	1973	PER	Пете	10446	10450	пете	1	73	79	1	0	0	0	370	1973	пете	iobj	1975	VERB	NOM	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	1979	1979	PER	своих	10480	10485	своих	1	73	79	7	0	0	0	371	1979	своих	det	1980	DET	PRON	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	1983	1983	PER	он	10496	10498	он	1	73	79	11	0	0	0	372	1983	он	nsubj	1986	PRON	PRON	Not_Assigned	Not_Assigned	3
+roomofVera	7	1990	1990	FAC	комнаты	10529	10536	комнаты	1	73	79	18	0	0	0	373	1990	комнаты	obl	1988	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Dmitriy	2	1992	1993	PER	старшим братом	10540	10554	старшим братом	2	73	79	20	0	0	0	374	1993	братом	nmod	1990	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Vera	1	1999	1999	PER	Вера	10578	10582	вера	1	74	80	4	0	0	0	375	1999	вера	nsubj	2002	PROPN	PROP	Singular	Not_Assigned	3
+BrotherofVera	0	2005	2005	PER	его	10606	10609	его	1	74	80	10	0	0	0	376	2005	его	det	2006	DET	PRON	Not_Assigned	Not_Assigned	3
+Vera	1	2008	2008	PER	она	10623	10626	она	1	74	80	13	0	0	0	377	2008	она	nsubj	2011	PRON	PRON	Not_Assigned	Not_Assigned	3
+BrotherofVera	0	2016	2016	PER	его	10673	10676	его	1	74	80	21	0	0	0	378	2016	его	nmod	2017	PRON	PRON	Not_Assigned	Not_Assigned	3

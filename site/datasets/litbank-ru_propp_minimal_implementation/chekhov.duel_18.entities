@@ -1,0 +1,254 @@
+COREF_name	COREF	start_token	end_token	cat	sacr_text	byte_onset	byte_offset	text	mention_len	paragraph_ID	sentence_ID	start_token_ID_within_sentence	out_to_in_nested_level	in_to_out_nested_level	nested_entities_count	temp_index	head_id	head_word	head_dependency_relation	head_syntactic_head_ID	POS_tag	prop	number	gender	grammatical_person
+PER_T1	50	2	4	PER	внешне порядочных людей	10	33	внешне порядочных людей	3	0	0	2	0	0	0	0	4	людей	obl	2	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Laevski	0	12	17	PER	Лаевский шалый, распущенный, странный	63	100	лаевский шалый , распущенный , странный	6	1	1	2	0	0	0	1	13	шалый	amod	10	ADJ	NOM	Not_Assigned	Not_Assigned	3
+Laevski	0	21	21	PER	он	110	112	он	1	1	1	11	0	0	0	2	21	он	nsubj	23	PRON	PRON	Not_Assigned	Not_Assigned	3
+wifeofLaevski	65	33	33	PER	жену	163	167	жену	1	1	1	23	0	0	0	3	33	жену	obj	32	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T5	38	47	47	PER	ребенка	220	227	ребенка	1	1	1	37	0	0	0	4	47	ребенка	obj	46	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T7	26	51	52	PER	своих слуг	248	258	своих слуг	2	1	1	41	0	1	1	5	52	слуг	obj	50	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Laevski	0	51	51	PER	своих	248	253	своих	1	1	1	41	1	0	0	6	51	своих	det	52	DET	PRON	Not_Assigned	Not_Assigned	3
+Laevski	0	72	72	PER	он	367	369	он	1	2	2	5	0	0	0	7	72	он	nsubj	74	PRON	PRON	Not_Assigned	Not_Assigned	3
+Laevski	0	76	76	PER	своих	389	394	своих	1	2	2	9	0	0	0	8	76	своих	det	77	DET	PRON	Not_Assigned	Not_Assigned	3
+M1	21	80	80	PER	больной	412	419	больной	1	2	2	13	0	0	0	9	80	больной	acl	77	ADJ	NOM	Not_Assigned	Not_Assigned	3
+M1	21	82	82	PER	своих	423	428	своих	1	2	2	15	0	0	0	10	82	своих	det	83	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T11	16	98	100	PER	друг в друге	499	511	друг в друге	3	3	3	13	0	0	0	11	98	друг	obj	97	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T11	16	116	116	PER	им	593	595	им	1	3	3	31	0	0	0	12	116	им	iobj	114	PRON	PRON	Not_Assigned	Not_Assigned	3
+FAC_T12	60	129	130	FAC	целые улицы	666	677	целые улицы	2	3	3	44	0	0	0	13	130	улицы	nsubj	128	NOUN	NOM	Not_Assigned	Not_Assigned	3
+VEH_T13	12	148	148	VEH	экипажа	775	782	экипажа	1	4	4	2	0	0	0	14	148	экипажа	nmod	147	NOUN	NOM	Not_Assigned	Not_Assigned	3
+diakon	5	152	152	PER	дьякона	799	806	дьякона	1	4	4	6	0	0	0	15	152	дьякона	nmod	151	NOUN	NOM	Not_Assigned	Not_Assigned	3
+diakon	5	154	154	PER	Он	809	811	он	1	5	5	0	0	0	0	16	154	он	nsubj	155	PRON	PRON	Not_Assigned	Not_Assigned	3
+VEH_T13	12	160	160	VEH	коляску	838	845	коляску	1	5	5	6	0	0	0	17	160	коляску	obj	159	NOUN	NOM	Not_Assigned	Not_Assigned	3
+LaevskiSheshkovskiDirector	11	165	165	LOC	троих	855	860	троих	1	5	5	11	0	0	0	18	165	троих	conj	155	NUM	NOM	Not_Assigned	Not_Assigned	3
+Laevski	0	167	167	PER	Лаевского	863	872	лаевского	1	5	5	13	0	0	0	19	167	лаевского	parataxis	165	ADJ	NOM	Not_Assigned	Not_Assigned	3
+Sheshkovski	2	169	169	PER	Шешковского	874	885	шешковского	1	5	5	15	0	0	0	20	169	шешковского	conj	167	ADJ	NOM	Not_Assigned	Not_Assigned	3
+directorofpost	31	171	175	PER	начальника почтово-телеграфной конторы	888	926	начальника почтово - телеграфной конторы	5	5	5	17	0	0	0	21	175	конторы	nmod	171	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Sheshkovski	2	184	184	PER	Шешковский	951	961	шешковский	1	6	7	3	0	0	0	22	184	шешковский	nsubj	183	PROPN	PROP	Singular	Not_Assigned	3
+LaevskiSheshkovskiDirector	11	186	187	PER	Все трое	964	972	все трое	2	7	8	0	0	0	0	23	187	трое	nsubj	188	NUM	NOM	Not_Assigned	Not_Assigned	3
+VEH_T13	12	190	190	VEH	коляски	984	991	коляски	1	7	8	4	0	0	0	24	190	коляски	obl	188	NOUN	NOM	Not_Assigned	Not_Assigned	3
+LaevskiSheshkovskiDirector	11	193	195	PER	друг на друга	1005	1018	друг на друга	3	7	8	7	0	0	0	25	193	друг	obl	192	PRON	PRON	Not_Assigned	Not_Assigned	3
+M2	20	199	199	PER	Их	1025	1027	их	1	8	9	2	0	0	0	26	199	их	nsubj	201	PRON	PRON	Not_Assigned	Not_Assigned	3
+Sheshkovski	2	206	206	PER	Шешковский	1048	1058	шешковский	1	8	9	9	0	0	0	27	206	шешковский	nsubj	205	PROPN	PROP	Singular	Not_Assigned	3
+Sheshkovski	2	210	210	PER	себя	1072	1076	себя	1	8	9	13	0	0	0	28	210	себя	obl	208	PRON	PRON	Not_Assigned	Not_Assigned	3
+LOC_T27	45	225	226	LOC	удобного места	1130	1144	удобного места	2	10	11	7	0	0	0	29	226	места	obj	224	NOUN	NOM	Not_Assigned	Not_Assigned	3
+LaevskiSheshkovskiDirector	11	232	232	PER	Они	1173	1176	они	1	12	13	0	0	0	0	30	232	они	nsubj	233	PRON	PRON	Not_Assigned	Not_Assigned	3
+LOC_T29	46	237	237	LOC	реке	1199	1203	реке	1	12	13	5	0	0	0	31	237	реке	obl	233	NOUN	NOM	Not_Assigned	Not_Assigned	3
+coachman	34	244	246	PER	Кучер-татарин	1231	1244	кучер - татарин	3	13	14	0	0	0	0	32	244	кучер	nsubj	247	NOUN	PROP	Singular	Not_Assigned	3
+VEH_T13	12	249	249	VEH	коляску	1251	1258	коляску	1	13	14	5	0	0	0	33	249	коляску	obl	247	NOUN	NOM	Not_Assigned	Not_Assigned	3
+diakon	5	262	262	PER	дьякон	1318	1324	дьякон	1	14	15	4	0	0	0	34	262	дьякон	nsubj	263	NOUN	NOM	Not_Assigned	Not_Assigned	3
+FAC_T33	42	265	265	FAC	сушильни	1334	1342	сушильни	1	14	15	7	0	0	0	35	265	сушильни	obl	263	NOUN	NOM	Not_Assigned	Not_Assigned	3
+diakon	5	273	273	PER	его	1373	1376	его	1	14	15	15	0	0	0	36	273	его	obj	275	PRON	PRON	Not_Assigned	Not_Assigned	3
+diakon	5	298	298	PER	него	1509	1513	него	1	14	15	40	0	0	0	37	298	него	obl	296	PRON	PRON	Not_Assigned	Not_Assigned	3
+diakon	5	315	315	PER	он	1586	1588	он	1	15	17	3	0	0	0	38	315	он	nsubj	314	PRON	PRON	Not_Assigned	Not_Assigned	3
+diakon	5	318	318	PER	свои	1599	1603	свои	1	15	17	6	0	0	0	39	318	свои	det	319	DET	PRON	Not_Assigned	Not_Assigned	3
+diakon	5	333	333	PER	он	1659	1661	он	1	17	19	1	0	0	0	40	333	он	nsubj	334	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T37	40	338	338	PER	людей	1686	1691	людей	1	17	19	6	0	0	0	41	338	людей	obj	337	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Laevski	0	340	340	PER	Лаевский	1694	1702	лаевский	1	18	20	0	0	0	0	42	340	лаевский	nsubj	350	PROPN	PROP	Singular	Not_Assigned	3
+glade	18	356	356	LOC	поляне	1780	1786	поляне	1	18	20	16	0	0	0	43	356	поляне	obl	350	NOUN	NOM	Not_Assigned	Not_Assigned	3
+secondantsofLaevski	24	358	359	PER	его секунданты	1789	1803	его секунданты	2	18	20	18	0	1	1	44	359	секунданты	nsubj	360	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Laevski	0	358	358	PER	его	1789	1792	его	1	18	20	18	1	0	0	45	358	его	nmod	359	PRON	PRON	Not_Assigned	Not_Assigned	3
+diakon	5	374	374	PER	дьякон	1873	1879	дьякон	1	19	21	6	0	0	0	46	374	дьякон	nsubj	373	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Laevski	0	379	379	PER	Лаевского	1900	1909	лаевского	1	19	21	11	0	0	0	47	379	лаевского	nmod	378	PROPN	PROP	Singular	Not_Assigned	3
+PER_T44	35	384	384	PER	старик	1922	1928	старик	1	20	22	3	0	0	0	48	384	старик	nsubj	369	NOUN	NOM	Not_Assigned	Not_Assigned	3
+M2	20	393	393	PER	их	1957	1959	их	1	21	23	6	0	0	0	49	393	их	det	394	DET	PRON	Not_Assigned	Not_Assigned	3
+Laevski	0	399	400	PER	почтовый чиновник	1981	1998	почтовый чиновник	2	21	24	3	0	0	0	50	400	чиновник	nsubj	398	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Sheshkovski	2	428	434	PER	Шешковский, толстый человек с черной бородой	2094	2138	шешковский , толстый человек с черной бородой	7	23	26	0	0	0	0	51	431	человек	appos	428	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Koren	1	459	460	PER	фон Корен	2235	2244	фон корен	2	26	29	6	0	0	0	52	459	фон	nsubj	458	PART	PROP	Singular	Not_Assigned	3
+glade	18	464	464	LOC	поляне	2261	2267	поляне	1	26	29	11	0	0	0	53	464	поляне	obl	462	NOUN	NOM	Not_Assigned	Not_Assigned	3
+LOC_T50	47	484	484	LOC	гор	2352	2355	гор	1	28	31	5	0	0	0	54	484	гор	obl	485	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Koren	1	510	510	PER	зоолог	2473	2479	зоолог	1	30	34	3	0	0	0	55	510	зоолог	nsubj	509	NOUN	NOM	Not_Assigned	Not_Assigned	3
+secondantsofLaevski	24	514	515	PER	секундантам Лаевского	2496	2517	секундантам лаевского	2	30	34	7	0	1	1	56	514	секундантам	iobj	512	NOUN	PROP	Singular	Not_Assigned	3
+Laevski	0	515	515	PER	Лаевского	2508	2517	лаевского	1	30	34	8	1	0	0	57	515	лаевского	nmod	514	PROPN	PROP	Singular	Not_Assigned	3
+Koren	1	519	519	PER	Я	2524	2525	я	1	31	35	2	0	0	0	58	519	я	nsubj	521	PRON	PRON	Not_Assigned	Not_Assigned	3
+Koren	1	524	524	PER	ним	2543	2546	ним	1	32	36	1	0	0	0	59	524	ним	obl	525	PRON	PRON	Not_Assigned	Not_Assigned	3
+secondantsofzoolog	37	526	527	PER	его секунданты	2551	2565	его секунданты	2	32	36	3	0	1	1	60	527	секунданты	nsubj	525	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Koren	1	526	526	PER	его	2551	2554	его	1	32	36	3	1	0	0	61	526	его	nmod	527	PRON	PRON	Not_Assigned	Not_Assigned	3
+Youngofficers	6	529	542	PER	два очень молодых офицера одинакового роста, Бойко и Говоровский, в белых кителях	2567	2648	два очень молодых офицера одинакового роста , бойко и говоровский , в белых кителях	14	32	36	6	0	1	2	62	532	офицера	conj	527	NOUN	PROP	Singular	Not_Assigned	3
+Boyko	7	536	536	PER	Бойко	2612	2617	бойко	1	32	36	13	1	0	0	63	536	бойко	conj	527	PROPN	PROP	Singular	Not_Assigned	3
+Govorovski	44	538	538	PER	Говоровский	2620	2631	говоровский	1	32	36	15	1	0	0	64	538	говоровский	conj	527	ADJ	NOM	Not_Assigned	Not_Assigned	3
+Ustimovich	3	545	565	PER	тощий, нелюдимый доктор Устимович, который в одной руке нес узел с чем-то, а другую заложил назад	2652	2749	тощий , нелюдимый доктор устимович , который в одной руке нес узел с чем - то , а другую заложил назад	21	32	36	22	0	0	0	65	555	нес	acl:relcl	548	VERB	PROP	Singular	Not_Assigned	3
+Ustimovich	3	573	573	PER	него	2782	2786	него	1	32	36	50	0	0	0	66	573	него	obl	575	PRON	PRON	Not_Assigned	Not_Assigned	3
+Ustimovich	3	589	589	PER	он	2858	2860	он	1	33	37	11	0	0	0	67	589	он	nsubj	590	PRON	PRON	Not_Assigned	Not_Assigned	3
+Laevski	0	601	601	PER	Лаевский	2915	2923	лаевский	1	34	38	0	0	0	0	68	601	лаевский	nsubj	602	PROPN	PROP	Singular	Not_Assigned	3
+PER_T63	25	606	606	PER	человека	2958	2966	человека	1	34	38	5	0	0	0	69	606	человека	nmod	605	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T63	25	619	619	PER	себя	3023	3027	себя	1	34	38	18	0	0	0	70	619	себя	obl	617	PRON	PRON	Not_Assigned	Not_Assigned	3
+Laevski	0	623	623	PER	Ему	3045	3048	ему	1	35	39	0	0	0	0	71	623	ему	iobj	624	PRON	PRON	Not_Assigned	Not_Assigned	3
+Laevski	0	627	627	PER	его	3065	3068	его	1	35	39	4	0	0	0	72	627	его	obj	629	PRON	PRON	Not_Assigned	Not_Assigned	3
+Laevski	0	637	637	PER	он	3121	3123	он	1	36	40	2	0	0	0	73	637	он	nsubj	638	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T68	29	654	657	PER	люди в мокрых сапогах	3199	3220	люди в мокрых сапогах	4	36	40	19	0	0	0	74	657	сапогах	nmod	654	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Laevski	0	659	659	PER	ему	3230	3233	ему	1	36	40	24	0	0	0	75	659	ему	iobj	658	PRON	PRON	Not_Assigned	Not_Assigned	3
+Laevski	0	662	662	PER	его	3244	3247	его	1	36	40	27	0	0	0	76	662	его	det	663	DET	PRON	Not_Assigned	Not_Assigned	3
+Laevski	0	668	668	PER	его	3276	3279	его	1	36	40	33	0	0	0	77	668	его	obj	667	PRON	PRON	Not_Assigned	Not_Assigned	3
+Laevski	0	681	681	PER	его	3334	3337	его	1	36	40	46	0	0	0	78	681	его	det	682	DET	PRON	Not_Assigned	Not_Assigned	3
+Laevski	0	690	690	PER	он	3374	3376	он	1	36	40	55	0	0	0	79	690	он	nsubj	693	PRON	PRON	Not_Assigned	Not_Assigned	3
+Koren	1	699	700	PER	Фон Корен	3414	3423	фон корен	2	37	41	0	0	0	0	80	699	фон	nsubj:pass	703	PROPN	PROP	Singular	Not_Assigned	3
+Koren	1	713	713	PER	его	3484	3487	его	1	37	41	14	0	0	0	81	713	его	obj	716	PRON	PRON	Not_Assigned	Not_Assigned	3
+secondants	10	720	720	PER	Секунданты	3527	3537	секунданты	1	38	42	0	0	0	0	82	720	секунданты	nsubj:pass	722	NOUN	NOM	Not_Assigned	Not_Assigned	3
+secondants	10	725	727	PER	друг с другом	3569	3582	друг с другом	3	38	42	5	0	0	0	83	725	друг	obl	724	PRON	PRON	Not_Assigned	Not_Assigned	3
+secondants	10	734	734	PER	они	3608	3611	они	1	38	42	14	0	0	0	84	734	они	nsubj	739	PRON	PRON	Not_Assigned	Not_Assigned	3
+secondants	10	738	738	PER	им	3622	3624	им	1	38	42	18	0	0	0	85	738	им	iobj	739	PRON	PRON	Not_Assigned	Not_Assigned	3
+Sheshkovski	2	743	743	PER	Я	3638	3639	я	1	39	43	2	0	0	0	86	743	я	nsubj	744	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T83	28	746	746	PER	господа	3649	3656	господа	1	39	43	5	0	0	0	87	746	господа	ccomp	744	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Sheshkovski	2	757	757	PER	Шешковский	3698	3708	шешковский	1	39	43	16	0	0	0	88	757	шешковский	nsubj	756	PROPN	PROP	Singular	Not_Assigned	3
+Koren	1	774	775	PER	фон Корен	3763	3772	фон корен	2	41	45	9	0	0	0	89	774	фон	nsubj	773	PART	PROP	Singular	Not_Assigned	3
+Ustimovich	3	780	780	PER	Устимович	3796	3805	устимович	1	43	47	0	0	0	0	90	780	устимович	nsubj	786	PROPN	PROP	Singular	Not_Assigned	3
+Laevski	0	788	788	PER	Лаевскому	3837	3846	лаевскому	1	43	47	8	0	0	0	91	788	лаевскому	obl	786	PROPN	PROP	Singular	Not_Assigned	3
+Ustimovich	3	794	794	PER	ему	3873	3876	ему	1	43	47	14	0	0	0	92	794	ему	iobj	793	PRON	PRON	Not_Assigned	Not_Assigned	3
+Ustimovich	3	800	800	PER	Вам	3890	3893	вам	1	43	47	20	0	0	0	93	800	вам	obl	793	ADV	NOM	Not_Assigned	Not_Assigned	3
+Laevski	0	808	808	PER	моих	3928	3932	моих	1	43	47	28	0	0	0	94	808	моих	det	809	DET	PRON	Not_Assigned	Not_Assigned	3
+Laevski	0	814	814	PER	мне	3965	3968	мне	1	44	48	3	0	0	0	95	814	мне	iobj	813	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T92	30	823	825	PER	одного из противников	4001	4022	одного из противников	3	44	48	12	0	0	0	96	825	противников	nmod	823	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T93	27	826	828	PER	оставшийся в живых	4023	4041	оставшийся в живых	3	44	48	15	0	0	0	97	828	живых	obl	826	ADJ	NOM	Not_Assigned	Not_Assigned	3
+Laevski	0	833	833	PER	Лаевский	4058	4066	лаевский	1	45	49	0	0	0	0	98	833	лаевский	nsubj	836	PROPN	PROP	Singular	Not_Assigned	3
+Ustimovich	3	838	839	PER	этим человеком	4087	4101	этим человеком	2	45	49	5	0	0	0	99	839	человеком	obl	836	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Laevski	0	849	849	PER	его	4150	4153	его	1	45	49	16	0	0	0	100	849	его	det	851	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T97	32	861	861	PER	ростовщик	4207	4216	ростовщик	1	45	49	28	0	0	0	101	861	ростовщик	parataxis	859	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T98	33	865	865	PER	доктор	4223	4229	доктор	1	45	49	32	0	0	0	102	865	доктор	conj	861	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Ustimovich	3	868	868	PER	его	4241	4244	его	1	46	50	1	0	0	0	103	868	его	det	867	PRON	PRON	Not_Assigned	Not_Assigned	3
+M3	48	878	878	PER	людей	4294	4299	людей	1	47	51	3	0	0	0	104	878	людей	nsubj	880	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Laevski	0	888	888	PER	Лаевский	4334	4342	лаевский	1	47	51	13	0	0	0	105	888	лаевский	nsubj	887	PROPN	PROP	Singular	Not_Assigned	3
+Ustimovich	3	896	896	PER	Доктор	4368	4374	доктор	1	48	52	0	0	0	0	106	896	доктор	nsubj	897	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Ustimovich	3	908	908	PER	ему	4425	4428	ему	1	48	52	12	0	0	0	107	908	ему	iobj	911	PRON	PRON	Not_Assigned	Not_Assigned	3
+Ustimovich	3	917	917	PER	он	4469	4471	он	1	48	52	21	0	0	0	108	917	он	nsubj	916	PRON	PRON	Not_Assigned	Not_Assigned	3
+everybody	9	923	923	PER	Все	4497	4500	все	1	49	53	0	0	0	0	109	923	все	nsubj	924	PRON	PRON	Not_Assigned	Not_Assigned	3
+Youngofficers	6	952	953	PER	Молодые офицеры	4625	4640	молодые офицеры	2	50	54	0	0	0	0	110	953	офицеры	ROOT	953	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Youngofficers	6	972	972	PER	их	4734	4736	их	1	50	54	20	0	0	0	111	972	их	det	973	DET	PRON	Not_Assigned	Not_Assigned	3
+Youngofficers	6	980	980	PER	свои	4785	4789	свои	1	50	54	28	0	0	0	112	980	свои	det	981	DET	PRON	Not_Assigned	Not_Assigned	3
+Sheshkovski	2	986	986	PER	Шешковский	4820	4830	шешковский	1	51	55	0	0	0	0	113	986	шешковский	nsubj	987	PROPN	PROP	Singular	Not_Assigned	3
+Youngofficers	6	989	989	PER	ним	4841	4844	ним	1	51	55	3	0	0	0	114	989	ним	obl	987	PRON	PRON	Not_Assigned	Not_Assigned	3
+Youngofficers	6	996	996	PER	Господа	4865	4872	господа	1	51	55	10	0	0	0	115	996	господа	obj	991	ADV	NOM	Not_Assigned	Not_Assigned	3
+Youngofficers	6	998	998	PER	мы	4874	4876	мы	1	51	55	12	0	0	0	116	998	мы	nsubj	999	PRON	PRON	Not_Assigned	Not_Assigned	3
+LaevskiZoolog	4	1012	1012	PER	их	4954	4956	их	1	52	56	2	0	0	0	117	1012	их	obj	1011	PRON	PRON	Not_Assigned	Not_Assigned	3
+Sheshkovski	2	1014	1014	PER	Он	4959	4961	он	1	53	57	0	0	0	0	118	1014	он	nsubj	1015	PRON	PRON	Not_Assigned	Not_Assigned	3
+Sheshkovski	2	1023	1023	PER	меня	4998	5002	меня	1	53	57	9	0	0	0	119	1023	меня	obl	1024	PRON	PRON	Not_Assigned	Not_Assigned	3
+Kirilin	23	1025	1025	PER	Кирилин	5007	5014	кирилин	1	53	57	11	0	0	0	120	1025	кирилин	nsubj	1024	PROPN	PROP	Singular	Not_Assigned	3
+Laevski	0	1030	1030	PER	Лаевский	5032	5040	лаевский	1	53	57	16	0	0	0	121	1030	лаевский	nsubj	1031	PROPN	PROP	Singular	Not_Assigned	3
+Kirilin	23	1032	1032	PER	его	5048	5051	его	1	53	57	18	0	0	0	122	1032	его	obj	1031	PRON	PRON	Not_Assigned	Not_Assigned	3
+Nadejda	13	1035	1036	PER	Надеждой Федоровной	5060	5079	надеждой федоровной	2	53	57	21	0	0	0	123	1035	надеждой	obl	1033	PROPN	PROP	Singular	Not_Assigned	3
+Boyko	7	1053	1053	PER	Бойко	5139	5144	бойко	1	54	58	12	0	0	0	124	1053	бойко	nsubj	1052	PROPN	PROP	Singular	Not_Assigned	3
+Laevski	0	1064	1064	PER	Лаевского	5175	5184	лаевского	1	56	60	1	0	0	0	125	1064	лаевского	obl	1065	PROPN	PROP	Singular	Not_Assigned	3
+Laevski	0	1071	1071	PER	Он	5216	5218	он	1	57	61	0	0	0	0	126	1071	он	nsubj	1076	PRON	PRON	Not_Assigned	Not_Assigned	3
+Laevski	0	1080	1080	PER	ним	5262	5265	ним	1	58	62	2	0	0	0	127	1080	ним	obl	1078	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T124	51	1087	1087	PER	пьяным	5292	5298	пьяным	1	58	62	9	0	0	0	128	1087	пьяным	obl	1083	ADJ	NOM	Not_Assigned	Not_Assigned	3
+PER_T125	52	1090	1090	PER	тифозным	5305	5313	тифозным	1	58	62	12	0	0	0	129	1090	тифозным	conj	1087	ADJ	NOM	Not_Assigned	Not_Assigned	3
+Youngofficers	6	1100	1100	PER	господа	5355	5362	господа	1	59	63	8	0	0	0	130	1100	господа	parataxis	1098	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Koren	1	1122	1123	PER	фон Кореном	5453	5464	фон кореном	2	61	65	5	0	0	0	131	1122	фон	obl	1120	PART	PROP	Singular	Not_Assigned	3
+Sheshkovski	2	1127	1127	PER	Я	5471	5472	я	1	62	66	2	0	0	0	132	1127	я	nsubj	1131	PRON	PRON	Not_Assigned	Not_Assigned	3
+Koren	1	1146	1146	PER	он	5549	5551	он	1	62	66	21	0	0	0	133	1146	он	nsubj	1147	PRON	PRON	Not_Assigned	Not_Assigned	3
+Laevski	0	1150	1150	PER	Лаевский	5566	5574	лаевский	1	62	66	25	0	0	0	134	1150	лаевский	nsubj	1151	PROPN	PROP	Singular	Not_Assigned	3
+Sheshkovski	2	1153	1153	PER	меня	5585	5589	меня	1	62	66	28	0	0	0	135	1153	меня	obj	1154	PRON	PRON	Not_Assigned	Not_Assigned	3
+Koren	1	1156	1156	PER	нему	5601	5605	нему	1	62	66	31	0	0	0	136	1156	нему	obl	1154	PRON	PRON	Not_Assigned	Not_Assigned	3
+Koren	1	1163	1163	PER	ему	5624	5627	ему	1	63	67	5	0	0	0	137	1163	ему	parataxis	1167	PRON	PRON	Not_Assigned	Not_Assigned	3
+Sheshkovski	2	1166	1166	PER	я	5636	5637	я	1	63	67	8	0	0	0	138	1166	я	nsubj	1167	PRON	PRON	Not_Assigned	Not_Assigned	3
+Sheshkovski	2	1169	1169	PER	Шешковский	5649	5659	шешковский	1	64	68	0	0	0	0	139	1169	шешковский	nsubj	1170	PROPN	PROP	Singular	Not_Assigned	3
+Koren	1	1181	1182	PER	фон Корену	5727	5737	фон корену	2	64	68	12	0	0	0	140	1181	фон	obl	1179	PROPN	PROP	Singular	Not_Assigned	3
+Sheshkovski	2	1187	1187	PER	он	5747	5749	он	1	64	68	18	0	0	0	141	1187	он	nsubj	1188	PRON	PRON	Not_Assigned	Not_Assigned	3
+Sheshkovski	2	1193	1193	PER	его	5772	5775	его	1	64	68	24	0	0	0	142	1193	его	det	1194	DET	PRON	Not_Assigned	Not_Assigned	3
+Sheshkovski	2	1202	1202	PER	я	5810	5811	я	1	65	69	4	0	0	0	143	1202	я	nsubj	1203	PRON	PRON	Not_Assigned	Not_Assigned	3
+Koren	1	1207	1208	PER	сударь мой	5832	5842	сударь мой	2	65	69	9	0	1	1	144	1207	сударь	parataxis	1203	VERB	NOM	Not_Assigned	Not_Assigned	3
+Sheshkovski	2	1208	1208	PER	мой	5839	5842	мой	1	65	69	10	1	0	0	145	1208	мой	det	1207	DET	PRON	Not_Assigned	Not_Assigned	3
+Koren	1	1213	1213	PER	он	5854	5856	он	1	65	69	15	0	0	0	146	1213	он	nsubj	1212	PRON	PRON	Not_Assigned	Not_Assigned	3
+Koren	1	1220	1220	PER	зоолога	5899	5906	зоолога	1	65	69	22	0	0	0	147	1220	зоолога	nmod	1219	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Sheshkovski	2	1227	1227	PER	Я	5937	5938	я	1	67	71	0	0	0	0	148	1227	я	nsubj	1231	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T144	53	1246	1246	PER	секундант	6020	6029	секундант	1	67	71	19	0	0	0	149	1246	секундант	obl	1243	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T145	54	1253	1253	PER	человек	6052	6059	человек	1	67	71	26	0	0	0	150	1253	человек	conj	1246	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T147	17	1266	1266	PER	секунданты	6093	6103	секунданты	1	70	74	3	0	0	0	151	1266	секунданты	nsubj	1267	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T147	17	1271	1271	PER	их	6128	6130	их	1	70	74	8	0	0	0	152	1271	их	obj	1274	PRON	PRON	Not_Assigned	Not_Assigned	3
+Sheshkovski	2	1287	1287	PER	я	6207	6208	я	1	72	76	1	0	0	0	153	1287	я	nsubj	1288	PRON	PRON	Not_Assigned	Not_Assigned	3
+Laevski	0	1294	1295	PER	Ивана Андреича	6251	6265	ивана андреича	2	72	76	8	0	0	0	154	1294	ивана	nmod	1292	PROPN	PROP	Singular	Not_Assigned	3
+Laevski	0	1297	1297	PER	Он	6268	6270	он	1	73	77	0	0	0	0	155	1297	он	nsubj	1302	PRON	PRON	Not_Assigned	Not_Assigned	3
+Laevski	0	1315	1315	PER	него	6346	6350	него	1	74	78	1	0	0	0	156	1315	него	obl	1316	PRON	PRON	Not_Assigned	Not_Assigned	3
+Sheshkovski	2	1320	1320	PER	я	6381	6382	я	1	75	79	1	0	0	0	157	1320	я	nsubj	1322	PRON	PRON	Not_Assigned	Not_Assigned	3
+Sheshkovski	2	1327	1327	PER	Шешковский	6404	6414	шешковский	1	75	79	8	0	0	0	158	1327	шешковский	nsubj	1328	PROPN	PROP	Singular	Not_Assigned	3
+Sheshkovski	2	1337	1337	PER	я	6457	6458	я	1	75	79	18	0	0	0	159	1337	я	nsubj	1338	PRON	PRON	Not_Assigned	Not_Assigned	3
+Koren	1	1341	1341	PER	вам	6482	6485	вам	1	75	79	22	0	0	0	160	1341	вам	iobj	1340	PRON	PRON	Not_Assigned	Not_Assigned	3
+Laevski	0	1345	1345	PER	он	6502	6504	он	1	76	80	2	0	0	0	161	1345	он	nsubj	1349	PRON	PRON	Not_Assigned	Not_Assigned	3
+houseofMyuridov	36	1347	1348	FAC	доме Мюридова	6507	6520	доме мюридова	2	76	80	4	0	1	1	162	1347	доме	obl	1349	NOUN	PROP	Not_Assigned	Not_Assigned	3
+Myuridov	49	1348	1348	PER	Мюридова	6512	6520	мюридова	1	76	80	5	1	0	0	163	1348	мюридова	nmod	1347	PROPN	PROP	Singular	Not_Assigned	3
+Nadejda	13	1351	1351	PER	мадам	6533	6538	мадам	1	76	80	8	0	0	0	164	1351	мадам	obj	1349	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T160	55	1354	1355	PER	одним господином	6542	6558	одним господином	2	76	80	11	0	0	0	165	1355	господином	obl	1349	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Koren	1	1365	1365	PER	зоолог	6597	6603	зоолог	1	77	82	3	0	0	0	166	1365	зоолог	nsubj	1364	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Koren	1	1367	1367	PER	он	6606	6608	он	1	77	82	5	0	0	0	167	1367	он	nsubj	1368	PRON	PRON	Not_Assigned	Not_Assigned	3
+Koren	1	1382	1382	PER	него	6676	6680	него	1	78	83	3	0	0	0	168	1382	него	obl	1383	PRON	PRON	Not_Assigned	Not_Assigned	3
+Koren	1	1385	1385	PER	он	6693	6695	он	1	78	83	6	0	0	0	169	1385	он	nsubj	1386	PRON	PRON	Not_Assigned	Not_Assigned	3
+Sheshkovski	2	1388	1388	PER	Шешковского	6706	6717	шешковского	1	78	83	9	0	0	0	170	1388	шешковского	obl	1386	PROPN	PROP	Singular	Not_Assigned	3
+Laevski	0	1419	1419	PER	Лаевского	6866	6875	лаевского	1	78	83	40	0	0	0	171	1419	лаевского	obl	1417	PROPN	PROP	Singular	Not_Assigned	3
+Koren	1	1421	1421	PER	Его	6878	6881	его	1	79	84	0	0	0	0	172	1421	его	det	1422	DET	PRON	Not_Assigned	Not_Assigned	3
+interlocofKoren	8	1436	1436	PER	Господа	6958	6965	господа	1	79	84	15	0	0	0	173	1436	господа	obl	1431	PROPN	PROP	Singular	Not_Assigned	3
+everybody	9	1441	1441	PER	мы	6978	6980	мы	1	79	84	20	0	0	0	174	1441	мы	nsubj	1442	PRON	PRON	Not_Assigned	Not_Assigned	3
+Sheshkovski	2	1450	1450	PER	Шешковский	7025	7035	шешковский	1	81	86	0	0	0	0	175	1450	шешковский	nsubj	1451	PROPN	PROP	Singular	Not_Assigned	3
+Youngofficers	6	1453	1453	PER	офицерами	7051	7060	офицерами	1	81	86	3	0	0	0	176	1453	офицерами	obl	1451	NOUN	NOM	Not_Assigned	Not_Assigned	3
+interlocofSheshkovski	22	1460	1460	PER	Господа	7083	7090	господа	1	82	87	2	0	0	0	177	1460	господа	ROOT	1460	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Sheshkovski	2	1465	1465	PER	он	7104	7106	он	1	82	88	3	0	0	0	178	1465	он	nsubj	1464	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T176	56	1470	1470	PER	кому	7120	7124	кому	1	82	88	8	0	0	0	179	1470	кому	obl	1472	PRON	PRON	Not_Assigned	Not_Assigned	3
+interlocofSheshkovski	22	1476	1476	PER	Господа	7144	7151	господа	1	83	89	2	0	0	0	180	1476	господа	punct	1475	NOUN	NOM	Not_Assigned	Not_Assigned	3
+LaevskiZoolog	4	1480	1480	PER	вам	7169	7172	вам	1	84	90	2	0	0	0	181	1480	вам	iobj	1479	PRON	PRON	Not_Assigned	Not_Assigned	3
+Koren	1	1493	1494	PER	фон Корен	7236	7245	фон корен	2	85	91	10	0	0	0	182	1493	фон	nsubj	1492	PART	PROP	Singular	Not_Assigned	3
+interlocofKoren	8	1512	1512	PER	господа	7336	7343	господа	1	88	94	3	0	0	0	183	1512	господа	parataxis	1509	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T179	14	1523	1523	PER	мы	7373	7375	мы	1	89	95	3	0	0	0	184	1523	мы	nsubj	1527	PRON	PRON	Not_Assigned	Not_Assigned	3
+Sheshkovski	2	1534	1534	PER	Шешковский	7422	7432	шешковский	1	89	95	14	0	0	0	185	1534	шешковский	nsubj	1533	PROPN	PROP	Singular	Not_Assigned	3
+Sheshkovski	2	1539	1546	PER	человек, который вынужден вмешиваться в чужие дела	7456	7506	человек , который вынужден вмешиваться в чужие дела	8	89	95	19	0	0	0	186	1542	вынужден	acl:relcl	1539	ADJ	NOM	Not_Assigned	Not_Assigned	3
+Sheshkovski	2	1548	1548	PER	он	7509	7511	он	1	89	95	28	0	0	0	187	1548	он	nsubj	1549	PRON	PRON	Not_Assigned	Not_Assigned	3
+LaevskiZoolog	4	1560	1560	PER	Господа	7564	7571	господа	1	89	95	40	0	0	0	188	1560	господа	obj	1556	ADV	NOM	Not_Assigned	Not_Assigned	3
+PER_T179	14	1562	1562	PER	мы	7573	7575	мы	1	89	95	42	0	0	0	189	1562	мы	nsubj	1564	PRON	PRON	Not_Assigned	Not_Assigned	3
+M5	19	1576	1576	PER	мы	7646	7648	мы	1	90	96	4	0	0	0	190	1576	мы	nsubj	1579	PRON	PRON	Not_Assigned	Not_Assigned	3
+M5	19	1582	1583	PER	друг другу	7689	7699	друг другу	2	90	96	10	0	0	0	191	1582	друг	iobj	1581	PRON	PRON	Not_Assigned	Not_Assigned	3
+LaevskiZoolog	4	1592	1592	PER	Вы	7731	7733	вы	1	91	97	0	0	0	0	192	1592	вы	nsubj	1593	PRON	PRON	Not_Assigned	Not_Assigned	3
+LaevskiZoolog	4	1593	1596	PER	люди университетские и образованные	7734	7769	люди университетские и образованные	4	91	97	1	0	0	0	193	1593	люди	ROOT	1593	NOUN	NOM	Not_Assigned	Not_Assigned	3
+LaevskiZoolog	4	1601	1601	PER	сами	7782	7786	сами	1	91	97	9	0	0	0	194	1601	сами	acl	1602	ADJ	NOM	Not_Assigned	Not_Assigned	3
+everybody	9	1615	1615	PER	Мы	7862	7864	мы	1	92	98	0	0	0	0	195	1615	мы	nsubj	1620	PRON	PRON	Not_Assigned	Not_Assigned	3
+everybody	9	1635	1635	PER	нашем	7944	7949	нашем	1	92	98	20	0	0	0	196	1635	нашем	det	1636	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T193	15	1637	1637	PER	люди	7962	7966	люди	1	92	98	22	0	0	0	197	1637	люди	nsubj	1638	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T193	15	1639	1641	PER	друг в друга	7976	7988	друг в друга	3	92	98	24	0	0	0	198	1639	друг	obl	1638	PRON	PRON	Not_Assigned	Not_Assigned	3
+Sheshkovski	2	1647	1647	PER	Шешковский	8001	8011	шешковский	1	93	99	2	0	0	0	199	1647	шешковский	nsubj	1648	ADJ	PROP	Singular	Not_Assigned	3
+LaevskiZoolog	4	1660	1660	PER	господа	8061	8068	господа	1	93	99	15	0	0	0	200	1660	господа	conj	1648	NOUN	NOM	Not_Assigned	Not_Assigned	3
+LaevskiZoolog	4	1662	1662	PER	ваше	8070	8074	ваше	1	93	99	17	0	0	0	201	1662	ваше	det	1663	DET	PRON	Not_Assigned	Not_Assigned	3
+LaevskiZoolog	4	1666	1667	PER	друг другу	8098	8108	друг другу	2	93	99	21	0	0	0	202	1666	друг	iobj	1665	PRON	PRON	Not_Assigned	Not_Assigned	3
+LaevskiZoolog	4	1678	1678	PER	господа	8159	8166	господа	1	94	100	3	0	0	0	203	1678	господа	appos	1676	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Koren	1	1680	1681	PER	Фон Корен	8170	8179	фон корен	2	95	101	0	0	0	0	204	1680	фон	nsubj	1682	PROPN	PROP	Singular	Not_Assigned	3
+Laevski	0	1684	1684	PER	Лаевский	8189	8197	лаевский	1	96	102	0	0	0	0	205	1684	лаевский	nsubj	1693	PROPN	PROP	Singular	Not_Assigned	3
+Laevski	0	1690	1690	PER	него	8215	8219	него	1	96	102	6	0	0	0	206	1690	него	obl	1691	PRON	PRON	Not_Assigned	Not_Assigned	3
+Laevski	0	1697	1697	PER	Я	8242	8243	я	1	96	102	13	0	0	0	207	1697	я	nsubj	1700	PRON	PRON	Not_Assigned	Not_Assigned	3
+Koren	1	1702	1703	PER	Николая Васильича	8266	8283	николая васильича	2	96	102	18	0	0	0	208	1702	николая	obl	1700	PROPN	PROP	Singular	Not_Assigned	3
+Koren	1	1706	1706	PER	он	8291	8293	он	1	97	103	1	0	0	0	209	1706	он	nsubj	1707	PRON	PRON	Not_Assigned	Not_Assigned	3
+Laevski	0	1710	1710	PER	я	8307	8308	я	1	97	103	5	0	0	0	210	1710	я	nsubj	1711	PRON	PRON	Not_Assigned	Not_Assigned	3
+Laevski	0	1714	1714	PER	я	8321	8322	я	1	97	103	9	0	0	0	211	1714	я	nsubj	1715	PRON	PRON	Not_Assigned	Not_Assigned	3
+Koren	1	1718	1718	PER	ним	8346	8349	ним	1	97	103	13	0	0	0	212	1718	ним	obl	1716	PRON	PRON	Not_Assigned	Not_Assigned	3
+Koren	1	1720	1721	PER	Фон Корен	8352	8361	фон корен	2	98	104	0	0	0	0	213	1720	фон	nsubj	1722	PROPN	PROP	Singular	Not_Assigned	3
+interlocofKoren	8	1728	1728	PER	господа	8387	8394	господа	1	99	105	4	0	0	0	214	1728	господа	conj	1722	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Koren	1	1733	1733	PER	он	8407	8409	он	1	99	105	9	0	0	0	215	1733	он	nsubj	1732	PRON	PRON	Not_Assigned	Not_Assigned	3
+interlocofKoren	8	1737	1737	PER	вам	8415	8418	вам	1	99	105	13	0	0	0	216	1737	вам	iobj	1738	PRON	PRON	Not_Assigned	Not_Assigned	3
+Laevski	0	1741	1742	PER	г. Лаевский	8433	8444	г. лаевский	2	99	105	17	0	0	0	217	1741	г.	nsubj	1743	NOUN	PROP	Singular	Not_Assigned	3
+PER_T216	57	1745	1747	PER	великодушным и рыцарем	8460	8482	великодушным и рыцарем	3	99	105	21	0	0	0	218	1747	рыцарем	conj	1745	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Koren	1	1750	1750	PER	я	8487	8488	я	1	99	105	26	0	0	0	219	1750	я	nsubj	1752	PRON	PRON	Not_Assigned	Not_Assigned	3
+interlocofKoren	8	1754	1754	PER	вам	8507	8510	вам	1	99	105	30	0	0	0	220	1754	вам	iobj	1753	PRON	PRON	Not_Assigned	Not_Assigned	3
+Laevski	0	1756	1756	PER	ему	8513	8516	ему	1	99	105	32	0	0	0	221	1756	ему	conj	1754	PRON	PRON	Not_Assigned	Not_Assigned	3
+GPE_T220	43	1769	1769	GPE	города	8584	8590	города	1	100	106	9	0	0	0	222	1769	города	obl	1767	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Koren	1	1784	1784	PER	мне	8667	8670	мне	1	100	106	24	0	0	0	223	1784	мне	iobj	1783	PRON	PRON	Not_Assigned	Not_Assigned	3
+Koren	1	1811	1811	PER	Я	8797	8798	я	1	102	108	0	0	0	0	224	1811	я	nsubj	1812	PRON	PRON	Not_Assigned	Not_Assigned	3
+Boyko	7	1818	1819	PER	Офицер Бойко	8837	8849	офицер бойко	2	104	110	0	0	0	0	225	1818	офицер	nsubj	1820	NOUN	PROP	Singular	Not_Assigned	3
+Koren	1	1828	1829	PER	фон Корену	8894	8904	фон корену	2	104	110	10	0	0	0	226	1828	фон	obj	1827	PART	PROP	Singular	Not_Assigned	3
+Laevski	0	1832	1832	PER	Лаевскому	8913	8922	лаевскому	1	104	110	14	0	0	0	227	1832	лаевскому	conj	1828	PROPN	PROP	Singular	Not_Assigned	3
+Koren	1	1842	1842	PER	зоолога	8988	8995	зоолога	1	104	110	24	0	0	0	228	1842	зоолога	obj	1841	NOUN	NOM	Not_Assigned	Not_Assigned	3
+secondants	10	1844	1844	PER	секундантов	8998	9009	секундантов	1	104	110	26	0	0	0	229	1844	секундантов	conj	1842	NOUN	NOM	Not_Assigned	Not_Assigned	3
+everybody	9	1850	1851	PER	всех присутствовавших	9030	9051	всех присутствовавших	2	105	111	4	0	0	0	230	1851	присутствовавших	amod	1857	VERB	NOM	Not_Assigned	Not_Assigned	3
+PER_T229	58	1852	1853	PER	ни один	9052	9059	ни один	2	105	111	6	0	0	0	231	1853	один	conj	1851	NUM	NOM	Not_Assigned	Not_Assigned	3
+PER_T230	59	1863	1863	PER	никто	9094	9099	никто	1	105	111	17	0	0	0	232	1863	никто	nsubj	1865	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T231	39	1877	1877	PER	секунданты	9168	9178	секунданты	1	105	111	31	0	0	0	233	1877	секунданты	obj	1874	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Boyko	7	1881	1881	PER	Бойко	9190	9195	бойко	1	106	112	2	0	0	0	234	1881	бойко	nsubj	1882	PROPN	PROP	Singular	Not_Assigned	3
+interlocofKoren	8	1892	1892	PER	Господа	9239	9246	господа	1	107	113	2	0	0	0	235	1892	господа	obj	1882	PROPN	PROP	Singular	Not_Assigned	3
+PER_T234	61	1894	1894	PER	кто	9248	9251	кто	1	107	113	4	0	0	0	236	1894	кто	nsubj	1895	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T235	62	1900	1900	PER	Лермонтова	9274	9284	лермонтова	1	107	113	10	0	0	0	237	1900	лермонтова	obl	1898	PROPN	PROP	Singular	Not_Assigned	3
+Koren	1	1905	1906	PER	фон Корен	9299	9308	фон корен	2	107	114	3	0	0	0	238	1905	фон	appos	1904	PART	PROP	Singular	Not_Assigned	3
+PER_T237	63	1912	1912	PER	Тургенева	9324	9333	тургенева	1	108	115	3	0	0	0	239	1912	тургенева	obl	1907	PROPN	PROP	Singular	Not_Assigned	3
+PER_T238	64	1914	1914	PER	Базаров	9340	9347	базаров	1	108	115	5	0	0	0	240	1914	базаров	nsubj	1915	PROPN	PROP	Singular	Not_Assigned	3
+PER_T240	41	1917	1919	PER	кем-то	9360	9366	кем - то	3	108	115	8	0	0	0	241	1917	кем	obl	1915	PRON	PRON	Not_Assigned	Not_Assigned	3
+Ustimovich	3	1933	1933	PER	Устимович	9423	9432	устимович	1	109	117	4	0	0	0	242	1933	устимович	flat:name	1932	PROPN	PROP	Singular	Not_Assigned	3
+Ustimovich	3	1948	1948	PER	он	9493	9495	он	1	111	119	1	0	0	0	243	1948	он	nsubj	1951	PRON	PRON	Not_Assigned	Not_Assigned	3
+Boyko	7	1961	1961	PER	Бойко	9553	9558	бойко	1	112	120	0	0	0	0	244	1961	бойко	nsubj	1962	PROPN	PROP	Singular	Not_Assigned	3
+Ustimovich	3	1966	1967	PER	его товарищ	9576	9587	его товарищ	2	112	120	5	0	1	1	245	1967	товарищ	nsubj	1968	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Boyko	7	1966	1966	PER	его	9576	9579	его	1	112	120	5	1	0	0	246	1966	его	nmod	1967	PRON	PRON	Not_Assigned	Not_Assigned	3
+LaevskiZoolog	4	1981	1981	PER	Противники	9666	9676	противники	1	113	121	0	0	0	0	247	1981	противники	nsubj	1987	NOUN	NOM	Not_Assigned	Not_Assigned	3
+LaevskiZoolog	4	1988	1988	PER	свои	9708	9712	свои	1	113	121	7	0	0	0	248	1988	свои	det	1989	DET	PRON	Not_Assigned	Not_Assigned	3
+diakon	5	1998	1998	PER	дьякон	9745	9751	дьякон	1	114	122	7	0	0	0	249	1998	дьякон	nsubj	1997	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Sheshkovski	2	2008	2008	PER	Шешковский	9788	9798	шешковский	1	115	123	4	0	0	0	250	2008	шешковский	nsubj	2007	PROPN	PROP	Singular	Not_Assigned	3
+Boyko	7	2015	2015	PER	Бойко	9822	9827	бойко	1	115	123	11	0	0	0	251	2015	бойко	iobj	2013	PROPN	PROP	Singular	Not_Assigned	3
+Laevski	0	2018	2018	PER	Лаевский	9832	9840	лаевский	1	115	123	14	0	0	0	252	2018	лаевский	nsubj	2020	PROPN	PROP	Singular	Not_Assigned	3

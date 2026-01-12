@@ -1,0 +1,236 @@
+COREF_name	COREF	start_token	end_token	cat	sacr_text	byte_onset	byte_offset	text	mention_len	paragraph_ID	sentence_ID	start_token_ID_within_sentence	out_to_in_nested_level	in_to_out_nested_level	nested_entities_count	temp_index	head_id	head_word	head_dependency_relation	head_syntactic_head_ID	POS_tag	prop	number	gender	grammatical_person
+FAC_T1	0	4	5	FAC	соседней комнате	15	31	соседней комнате	2	0	0	4	0	0	0	0	5	комнате	obl	6	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T2	202	11	12	PER	Василий Иванович	62	78	василий иванович	2	0	0	11	0	0	0	1	11	василий	nsubj	13	PROPN	PROP	Singular	Not_Assigned	3
+PER_T3	11	24	24	PER	своего	141	147	своего	1	0	0	24	0	0	0	2	24	своего	det	25	DET	PRON	Not_Assigned	Not_Assigned	3
+FAC_T4	151	29	30	FAC	его комнаты	168	179	его комнаты	2	1	1	2	0	1	1	3	30	комнаты	nmod	28	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T5	27	29	29	PER	его	168	171	его	1	1	1	2	1	0	0	4	29	его	det	30	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T6	95	34	43	PER	он в откровенном утреннем беспорядке, прикрытый одним лишь тулупчиком	196	265	он в откровенном утреннем беспорядке , прикрытый одним лишь тулупчиком	10	1	1	7	0	0	0	5	38	беспорядке	obl	45	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T7	101	49	50	PER	Ивана Васильевич	294	310	ивана васильевич	2	1	1	22	0	0	0	6	49	ивана	nmod	48	PROPN	PROP	Singular	Not_Assigned	3
+PER_T8	102	54	55	PER	Иван Васильевич	320	335	иван васильевич	2	4	4	0	0	0	0	7	54	иван	nsubj	56	PROPN	PROP	Singular	Not_Assigned	3
+PER_T9	110	70	70	PER	ним	412	415	ним	1	5	5	1	0	0	0	8	70	ним	obl	73	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T10	146	92	93	PER	Василий Иванович	531	547	василий иванович	2	6	6	1	0	0	0	9	92	василий	nsubj	73	PROPN	PROP	Singular	Not_Assigned	3
+PER_T11	128	98	98	PER	батюшка	559	566	батюшка	1	8	8	2	0	0	0	10	98	батюшка	parataxis	95	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T12	138	115	116	PER	Василий Иванович	632	648	василий иванович	2	16	16	0	0	0	0	11	115	василий	nsubj	117	PROPN	PROP	Singular	Not_Assigned	3
+PER_T13	175	129	129	PER	он	716	718	он	1	17	17	5	0	0	0	12	129	он	nsubj	128	PRON	PRON	Not_Assigned	Not_Assigned	3
+FAC_T14	118	133	139	FAC	фабрике в Москве, где их делают	725	756	фабрике в москве , где их делают	7	17	17	9	0	1	1	13	139	делают	acl:relcl	133	VERB	PROP	Not_Assigned	Not_Assigned	3
+GPE_T15	156	135	135	GPE	Москве	735	741	москве	1	17	17	11	1	0	0	14	135	москве	nmod	133	PROPN	PROP	Not_Assigned	Not_Assigned	3
+PER_T16	220	162	162	PER	вам	877	880	вам	1	20	20	2	0	0	0	15	162	вам	iobj	161	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T17	228	165	166	PER	Иван Васильевич	887	902	иван васильевич	2	20	20	5	0	0	0	16	165	иван	conj	161	PROPN	PROP	Singular	Not_Assigned	3
+PER_T18	180	168	168	PER	вы	905	907	вы	1	20	20	8	0	0	0	17	168	вы	nsubj	173	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T19	178	179	180	PER	Василий Иванович	945	961	василий иванович	2	22	22	3	0	0	0	18	179	василий	conj	177	PROPN	PROP	Singular	Not_Assigned	3
+PER_T20	203	194	194	PER	батюшка	1010	1017	батюшка	1	24	24	2	0	0	0	19	194	батюшка	conj	192	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T21	37	198	198	PER	вам	1027	1030	вам	1	24	24	6	0	0	0	20	198	вам	iobj	196	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T22	46	210	210	PER	я	1069	1070	я	1	28	28	1	0	0	0	21	210	я	nsubj	212	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T23	54	218	218	PER	вы	1103	1105	вы	1	29	29	1	0	0	0	22	218	вы	nsubj	220	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T24	5	227	227	PER	меня	1132	1136	меня	1	31	31	4	0	0	0	23	227	меня	nmod	230	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T25	6	235	236	PER	Иван Васильевич	1173	1188	иван васильевич	2	31	31	12	0	0	0	24	235	иван	nsubj	234	PROPN	PROP	Singular	Not_Assigned	3
+PER_T30	12	240	240	PER	своего	1201	1207	своего	1	32	32	2	0	0	0	25	240	своего	det	241	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T26	7	245	245	PER	он	1232	1234	он	1	32	32	7	0	0	0	26	245	он	nsubj	244	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T27	8	249	249	PER	я	1247	1248	я	1	32	32	11	0	0	0	27	249	я	nsubj	251	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T29	10	253	253	PER	своем	1261	1266	своем	1	32	32	15	0	0	0	28	253	своем	det	254	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T28	9	257	258	PER	Василий Иванович	1281	1297	василий иванович	2	33	33	0	0	0	0	29	257	василий	nsubj	260	PROPN	PROP	Singular	Not_Assigned	3
+PER_T31	13	265	265	PER	плуты	1329	1334	плуты	1	35	35	2	0	0	0	30	265	плуты	ROOT	265	ADJ	NOM	Not_Assigned	Not_Assigned	3
+PER_T32	1	267	267	PER	татары	1339	1345	татары	1	35	35	4	0	0	0	31	267	татары	nsubj	265	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T33	14	271	271	PER	вас	1357	1360	вас	1	36	36	2	0	0	0	32	271	вас	obj	275	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T34	16	273	273	PER	младенцев	1362	1371	младенцев	1	36	36	4	0	0	0	33	273	младенцев	conj	271	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T35	17	295	295	PER	Сенька	1452	1458	сенька	1	43	43	0	0	0	0	34	295	сенька	nmod	294	PROPN	PROP	Singular	Not_Assigned	3
+PER_T36	18	299	299	PER	он	1472	1474	он	1	43	44	2	0	0	0	35	299	он	nsubj	298	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T37	19	302	302	PER	Сенька	1483	1489	сенька	1	44	45	0	0	0	0	36	302	сенька	nsubj	303	PROPN	PROP	Singular	Not_Assigned	3
+VEH_T38	79	307	307	VEH	тарантас	1511	1519	тарантас	1	46	47	1	0	0	0	37	307	тарантас	nsubj	306	PROPN	PROP	Not_Assigned	Not_Assigned	3
+PER_T39	20	327	328	PER	Иван Васильевич	1599	1614	иван васильевич	2	53	55	4	0	0	0	38	327	иван	nsubj	324	PROPN	PROP	Singular	Not_Assigned	3
+PER_T40	21	331	331	PER	Вы	1619	1621	вы	1	54	56	1	0	0	0	39	331	вы	nsubj	332	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T41	22	338	338	PER	ты	1647	1649	ты	1	56	58	2	0	0	0	40	338	ты	nsubj	339	PRON	PRON	Not_Assigned	Not_Assigned	3
+FAC_T42	152	357	358	FAC	башню Сумбеки	1739	1752	башню сумбеки	2	61	63	3	0	0	0	41	357	башню	obl	355	NOUN	PROP	Not_Assigned	Not_Assigned	3
+PER_T43	23	362	362	PER	тебе	1764	1768	тебе	1	63	65	1	0	0	0	42	362	тебе	iobj	361	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T44	24	365	365	PER	Я	1775	1776	я	1	65	67	0	0	0	0	43	365	я	nsubj	366	PRON	PRON	Not_Assigned	Not_Assigned	3
+LOC_T45	167	368	368	LOC	Восток	1790	1796	восток	1	65	67	3	0	0	0	44	368	восток	obj	367	PROPN	PROP	Not_Assigned	Not_Assigned	3
+LOC_T46	168	378	378	LOC	Восток	1829	1835	восток	1	68	70	3	0	0	0	45	378	восток	nsubj	376	PROPN	PROP	Not_Assigned	Not_Assigned	3
+GPE_T47	157	381	381	GPE	Казань	1839	1845	казань	1	68	70	6	0	0	0	46	381	казань	conj	378	PROPN	PROP	Not_Assigned	Not_Assigned	3
+PER_T48	25	385	387	PER	физиономия здесь восточная	1854	1880	физиономия здесь восточная	3	70	72	1	0	0	0	47	387	восточная	amod	385	ADJ	NOM	Not_Assigned	Not_Assigned	3
+PER_T49	26	389	390	PER	Население татарское	1883	1902	население татарское	2	71	73	0	0	0	0	48	390	татарское	amod	392	ADJ	NOM	Not_Assigned	Not_Assigned	3
+PER_T50	57	394	394	PER	ты	1911	1913	ты	1	73	75	1	0	0	0	49	394	ты	nsubj	399	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T51	15	396	396	PER	батюшка	1915	1922	батюшка	1	73	75	3	0	0	0	50	396	батюшка	appos	394	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T52	58	400	400	PER	татар	1936	1941	татар	1	73	75	7	0	0	0	51	400	татар	obj	399	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T53	74	404	404	PER	тебя	1956	1960	тебя	1	74	76	2	0	0	0	52	404	тебя	obl	402	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T54	91	407	407	PER	мы	1972	1974	мы	1	75	77	1	0	0	0	53	407	мы	nsubj	410	PRON	PRON	Not_Assigned	Not_Assigned	3
+GPE_T55	158	410	410	GPE	Мордасах	1979	1987	мордасах	1	75	77	4	0	0	0	54	410	мордасах	obl	417	PROPN	PROP	Not_Assigned	Not_Assigned	3
+PER_T56	92	416	416	PER	Я	2013	2014	я	1	77	79	0	0	0	0	55	416	я	nsubj	417	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T57	93	420	421	PER	Авдотье Петровне	2032	2048	авдотье петровне	2	77	79	4	0	0	0	56	420	авдотье	obl	417	PROPN	PROP	Singular	Not_Assigned	3
+PER_T59	94	424	424	PER	старичкам	2054	2063	старичкам	1	77	79	8	0	0	0	57	424	старичкам	conj	420	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T60	96	429	429	PER	меня	2079	2083	меня	1	78	80	2	0	0	0	58	429	меня	obl	430	PRON	PRON	Not_Assigned	Not_Assigned	3
+LOC_T62	169	433	433	LOC	Восток	2096	2102	восток	1	78	80	6	0	0	0	59	433	восток	obj	435	PROPN	PROP	Not_Assigned	Not_Assigned	3
+PER_T63	97	434	434	PER	ты	2103	2105	ты	1	78	80	7	0	0	0	60	434	ты	nsubj	435	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T64	98	447	448	PER	Иван Васильевич	2158	2173	иван васильевич	2	79	81	3	0	0	0	61	447	иван	nsubj	450	PROPN	PROP	Singular	Not_Assigned	3
+VEH_T65	80	452	452	VEH	тарантас	2198	2206	тарантас	1	79	81	8	0	0	0	62	452	тарантас	obl	450	NOUN	PROP	Not_Assigned	Not_Assigned	3
+PER_T66	99	454	456	PER	неумолимого своего спутника	2213	2240	неумолимого своего спутника	3	79	81	10	0	1	1	63	456	спутника	nmod	453	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T67	100	455	455	PER	своего	2225	2231	своего	1	79	81	11	1	0	0	64	455	своего	det	456	DET	PRON	Not_Assigned	Not_Assigned	3
+VEH_T68	81	458	458	VEH	Тарантас	2245	2253	тарантас	1	80	82	0	0	0	0	65	458	тарантас	nsubj	459	PROPN	PROP	Not_Assigned	Not_Assigned	3
+GPE_T69	159	462	462	GPE	Казани	2271	2277	казани	1	80	82	4	0	0	0	66	462	казани	obl	459	PROPN	PROP	Not_Assigned	Not_Assigned	3
+FAC_T70	153	466	467	FAC	широкой дороге	2293	2307	широкой дороге	2	80	82	8	0	0	0	67	467	дороге	obl	464	NOUN	NOM	Not_Assigned	Not_Assigned	3
+FAC_T71	154	476	477	FAC	городские стены	2339	2354	городские стены	2	81	83	7	0	0	0	68	477	стены	conj	474	NOUN	NOM	Not_Assigned	Not_Assigned	3
+FAC_T72	155	479	480	FAC	высокие башни	2357	2370	высокие башни	2	81	83	10	0	0	0	69	480	башни	conj	474	NOUN	NOM	Not_Assigned	Not_Assigned	3
+VEH_T73	82	488	488	VEH	тарантас	2400	2408	тарантас	1	81	83	19	0	0	0	70	488	тарантас	nsubj	487	NOUN	PROP	Not_Assigned	Not_Assigned	3
+LOC_T74	170	490	493	LOC	широкую, гладкую равнину	2411	2435	широкую , гладкую равнину	4	81	83	21	0	0	0	71	493	равнину	obl	487	NOUN	NOM	Not_Assigned	Not_Assigned	3
+LOC_T75	171	498	498	LOC	леса	2454	2458	леса	1	82	84	3	0	0	0	72	498	леса	nsubj	497	NOUN	NOM	Not_Assigned	Not_Assigned	3
+LOC_T76	172	501	501	LOC	долины	2462	2468	долины	1	82	84	6	0	0	0	73	501	долины	conj	498	NOUN	NOM	Not_Assigned	Not_Assigned	3
+LOC_T77	173	504	505	LOC	жилые места	2472	2483	жилые места	2	82	84	9	0	0	0	74	505	места	conj	498	NOUN	NOM	Not_Assigned	Not_Assigned	3
+LOC_T78	174	507	508	LOC	Голая степь	2486	2497	голая степь	2	83	85	0	0	0	0	75	508	степь	nsubj	509	NOUN	NOM	Not_Assigned	Not_Assigned	3
+LOC_T79	149	517	518	LOC	скованное море	2543	2557	скованное море	2	83	85	10	0	0	0	76	518	море	obl	511	NOUN	NOM	Not_Assigned	Not_Assigned	3
+VEH_T80	83	587	587	VEH	тарантас	2942	2950	тарантас	1	93	95	3	0	0	0	77	587	тарантас	nsubj	586	NOUN	PROP	Not_Assigned	Not_Assigned	3
+LOC_T81	148	589	590	LOC	широкой степи	2954	2967	широкой степи	2	93	95	5	0	0	0	78	590	степи	nmod	587	NOUN	NOM	Not_Assigned	Not_Assigned	3
+LOC_T82	147	601	602	LOC	всю окрестность	3022	3037	всю окрестность	2	95	97	6	0	0	0	79	602	окрестность	obj	600	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T83	103	614	615	PER	Иван Васильевич	3094	3109	иван васильевич	2	97	100	4	0	0	0	80	614	иван	nsubj	611	PROPN	PROP	Singular	Not_Assigned	3
+PER_T84	104	621	622	PER	Василий Иванович	3130	3146	василий иванович	2	98	101	4	0	0	0	81	621	василий	nsubj	620	PROPN	PROP	Singular	Not_Assigned	3
+PER_T85	105	624	625	PER	Василий Иванович	3150	3166	василий иванович	2	99	102	0	0	0	0	82	624	василий	nsubj	620	PROPN	PROP	Singular	Not_Assigned	3
+PER_T86	106	627	628	PER	Василий Иванович	3170	3186	василий иванович	2	100	103	0	0	0	0	83	627	василий	appos	624	PROPN	PROP	Singular	Not_Assigned	3
+PER_T87	107	631	631	PER	вы	3194	3196	вы	1	101	104	1	0	0	0	84	631	вы	nsubj	630	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T88	108	634	634	PER	вы	3204	3206	вы	1	102	105	1	0	0	0	85	634	вы	nsubj	633	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T89	109	636	637	PER	Василий Иванович	3210	3226	василий иванович	2	103	106	0	0	0	0	86	636	василий	nsubj	633	PROPN	PROP	Singular	Not_Assigned	3
+PER_T90	111	639	640	PER	Василий Иванович	3230	3246	василий иванович	2	104	107	0	0	0	0	87	639	василий	nsubj	642	PROPN	PROP	Singular	Not_Assigned	3
+PER_T91	112	644	645	PER	Иван Васильевич	3260	3275	иван васильевич	2	105	108	0	0	0	0	88	644	иван	nsubj	646	PROPN	PROP	Singular	Not_Assigned	3
+PER_T92	113	657	657	PER	он	3332	3334	он	1	107	110	7	0	0	0	89	657	он	nsubj	656	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T93	114	661	661	PER	мне	3348	3351	мне	1	107	110	11	0	0	0	90	661	мне	iobj	660	PRON	PRON	Not_Assigned	Not_Assigned	3
+VEH_T94	84	677	677	VEH	тарантас	3401	3409	тарантас	1	107	110	27	0	0	0	91	677	тарантас	nsubj	680	PROPN	PROP	Not_Assigned	Not_Assigned	3
+VEH_T95	85	680	680	VEH	тарантас	3420	3428	тарантас	1	107	110	30	0	0	0	92	680	тарантас	ccomp	674	ADJ	PROP	Not_Assigned	Not_Assigned	3
+PER_T96	115	709	709	PER	он	3538	3540	он	1	114	117	3	0	0	0	93	709	он	nsubj	711	PRON	PRON	Not_Assigned	Not_Assigned	3
+VEH_T97	86	751	751	VEH	тарантасы	3721	3730	тарантасы	1	117	120	6	0	0	0	94	751	тарантасы	nsubj	753	NOUN	NOM	Not_Assigned	Not_Assigned	3
+VEH_T98	234	754	754	VEH	экипажами	3751	3760	экипажами	1	117	120	9	0	0	0	95	754	экипажами	obl	753	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T99	90	763	764	PER	Иван Васильевич	3793	3808	иван васильевич	2	118	121	0	0	0	0	96	763	иван	nsubj	772	PROPN	PROP	Singular	Not_Assigned	3
+PER_T100	120	771	771	PER	ты	3825	3827	ты	1	118	121	8	0	0	0	97	771	ты	nsubj	772	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T101	121	775	775	PER	ты	3848	3850	ты	1	119	122	1	0	0	0	98	775	ты	nsubj	774	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T102	122	777	777	PER	брат	3852	3856	брат	1	119	122	3	0	0	0	99	777	брат	conj	774	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T103	123	782	782	PER	твоими	3869	3875	твоими	1	119	122	8	0	0	0	100	782	твоими	det	783	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T104	124	800	801	PER	Иван Васильевич	3959	3974	иван васильевич	2	123	126	5	0	0	0	101	800	иван	nsubj	803	PROPN	PROP	Singular	Not_Assigned	3
+VEH_T105	89	805	805	VEH	тарантас	3989	3997	тарантас	1	123	126	10	0	0	0	102	805	тарантас	nsubj	807	PROPN	PROP	Not_Assigned	Not_Assigned	3
+PER_T106	125	867	868	PER	Иван Васильевич	4356	4371	иван васильевич	2	127	131	2	0	0	0	103	867	иван	nsubj	866	PROPN	PROP	Singular	Not_Assigned	3
+LOC_T107	160	874	874	LOC	степи	4395	4400	степи	1	128	132	4	0	0	0	104	874	степи	obl	871	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T108	126	877	878	PER	слуга покорный	4410	4424	слуга покорный	2	128	132	7	0	0	0	105	878	покорный	conj	871	ADJ	NOM	Not_Assigned	Not_Assigned	3
+PER_T109	127	880	880	PER	Ты	4427	4429	ты	1	129	133	0	0	0	0	106	880	ты	nsubj	884	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T110	129	888	888	PER	меня	4464	4468	меня	1	129	133	8	0	0	0	107	888	меня	obj	893	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T111	130	891	891	PER	ты	4474	4476	ты	1	129	133	11	0	0	0	108	891	ты	nsubj	893	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T112	131	895	895	PER	Я	4492	4493	я	1	130	134	0	0	0	0	109	895	я	nsubj	897	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T113	119	900	900	PER	ты	4512	4514	ты	1	130	134	5	0	0	0	110	900	ты	nsubj	902	PRON	PRON	Not_Assigned	Not_Assigned	3
+VEH_T114	88	906	906	VEH	тарантас	4532	4540	тарантас	1	130	134	11	0	0	0	111	906	тарантас	obl	903	PROPN	PROP	Not_Assigned	Not_Assigned	3
+PER_T115	132	918	918	PER	твое	4588	4592	твое	1	132	136	1	0	0	0	112	918	твое	det	920	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T116	134	923	924	PER	Иван Васильевич	4607	4622	иван васильевич	2	133	137	1	0	0	0	113	923	иван	nsubj	925	PROPN	PROP	Singular	Not_Assigned	3
+PER_T117	135	992	993	PER	Иван Васильевич	4985	5000	иван васильевич	2	136	140	0	0	0	0	114	992	иван	nsubj	996	PROPN	PROP	Singular	Not_Assigned	3
+PER_T118	136	1002	1002	PER	я	5043	5044	я	1	137	141	4	0	0	0	115	1002	я	nsubj	1001	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T119	137	1007	1007	PER	он	5066	5068	он	1	137	141	9	0	0	0	116	1007	он	nsubj	1006	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T121	139	1045	1045	PER	я	5267	5268	я	1	139	143	19	0	0	0	117	1045	я	nsubj	1055	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T122	140	1062	1062	PER	мне	5382	5385	мне	1	141	145	2	0	0	0	118	1062	мне	iobj	1061	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T123	141	1092	1093	PER	Ивана Васильевича	5572	5589	ивана васильевича	2	144	148	4	0	0	0	119	1092	ивана	obj	1091	PROPN	PROP	Singular	Not_Assigned	3
+PER_T124	142	1101	1101	PER	он	5624	5626	он	1	145	149	4	0	0	0	120	1101	он	nsubj	1100	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T228	52	1106	1106	PER	ним	5648	5651	ним	1	145	149	9	0	0	0	121	1106	ним	obl	1107	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T125	143	1111	1111	PER	Ему	5678	5681	ему	1	146	150	0	0	0	0	122	1111	ему	iobj	1112	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T126	144	1115	1115	PER	он	5698	5700	он	1	146	150	4	0	0	0	123	1115	он	nsubj	1116	PRON	PRON	Not_Assigned	Not_Assigned	3
+LOC_T127	161	1124	1128	LOC	какой-то душной пещере	5732	5754	какой - то душной пещере	5	146	150	13	0	0	0	124	1128	пещере	conj	1120	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T130	133	1135	1135	PER	он	5773	5775	он	1	147	151	5	0	0	0	125	1135	он	nsubj	1136	PRON	PRON	Not_Assigned	Not_Assigned	3
+LOC_T131	162	1138	1141	LOC	узкой и мрачной пещере	5785	5807	узкой и мрачной пещере	4	147	151	8	0	0	0	126	1141	пещере	obl	1136	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T128	145	1155	1156	PER	Иван Васильевич	5863	5878	иван васильевич	2	148	152	0	0	0	0	127	1155	иван	nsubj	1157	PROPN	PROP	Singular	Not_Assigned	3
+VEH_T129	87	1163	1163	VEH	Тарантас	5908	5916	тарантас	1	150	154	0	0	0	0	128	1163	тарантас	ROOT	1163	PROPN	PROP	Not_Assigned	Not_Assigned	3
+PER_T132	176	1167	1167	PER	он	5928	5930	он	1	150	155	2	0	0	0	129	1167	он	nsubj	1166	PRON	PRON	Not_Assigned	Not_Assigned	3
+VEH_T133	61	1171	1172	VEH	Добрый тарантас	5943	5958	добрый тарантас	2	151	156	1	0	0	0	130	1172	тарантас	nsubj	1166	NOUN	NOM	Not_Assigned	Not_Assigned	3
+VEH_T134	62	1174	1175	VEH	Милый тарантас	5962	5976	милый тарантас	2	152	157	0	0	0	0	131	1175	тарантас	nsubj	1166	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T135	192	1177	1177	PER	Я	5980	5981	я	1	153	158	0	0	0	0	132	1177	я	nsubj	1178	PRON	PRON	Not_Assigned	Not_Assigned	3
+VEH_T136	63	1181	1181	VEH	ты	5992	5994	ты	1	153	158	4	0	0	0	133	1181	ты	nsubj	1182	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T137	209	1186	1186	PER	меня	6017	6021	меня	1	154	159	2	0	0	0	134	1186	меня	obj	1185	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T138	210	1192	1192	PER	меня	6045	6049	меня	1	155	160	1	0	0	0	135	1192	меня	obj	1191	PRON	PRON	Not_Assigned	Not_Assigned	3
+VEH_T139	64	1198	1198	VEH	Тарантас	6069	6077	тарантас	1	157	162	0	0	0	0	136	1198	тарантас	nsubj	1199	PROPN	PROP	Not_Assigned	Not_Assigned	3
+LOC_T140	163	1204	1205	LOC	черной пещеры	6104	6117	черной пещеры	2	158	163	3	0	0	0	137	1205	пещеры	nmod	1203	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T229	53	1219	1220	PER	Безглавые трупы	6203	6218	безглавые трупы	2	159	164	0	0	0	0	138	1220	трупы	nsubj	1234	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T230	55	1249	1249	PER	ними	6360	6364	ними	1	160	165	2	0	0	0	139	1249	ними	obl	1250	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T231	56	1251	1252	PER	другие тени	6369	6380	другие тени	2	160	165	4	0	0	0	140	1252	тени	nsubj	1250	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T232	31	1256	1258	PER	такие же тени	6390	6403	такие же тени	3	160	165	9	0	0	0	141	1258	тени	conj	1252	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T233	30	1264	1265	PER	кровавому шествию	6421	6438	кровавому шествию	2	160	165	17	0	0	0	142	1265	шествию	nsubj	1262	NOUN	NOM	Not_Assigned	Not_Assigned	3
+VEH_T141	65	1269	1269	VEH	тарантас	6451	6459	тарантас	1	162	167	1	0	0	0	143	1269	тарантас	ROOT	1269	NOUN	PROP	Not_Assigned	Not_Assigned	3
+PER_T142	211	1277	1278	PER	Иван Васильевич	6493	6508	иван васильевич	2	164	169	2	0	0	0	144	1277	иван	nsubj	1276	PROPN	PROP	Singular	Not_Assigned	3
+PER_T143	212	1281	1281	PER	мне	6519	6522	мне	1	165	170	1	0	0	0	145	1281	мне	iobj	1280	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T144	213	1286	1286	PER	меня	6544	6548	меня	1	167	172	1	0	0	0	146	1286	меня	obj	1285	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T146	214	1288	1288	PER	Я	6551	6552	я	1	168	173	0	0	0	0	147	1288	я	nsubj	1289	PRON	PRON	Not_Assigned	Not_Assigned	3
+VEH_T145	66	1290	1290	VEH	тебя	6560	6564	тебя	1	168	173	2	0	0	0	148	1290	тебя	obj	1289	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T147	215	1292	1292	PER	Я	6567	6568	я	1	169	174	0	0	0	0	149	1292	я	nsubj	1293	PRON	PRON	Not_Assigned	Not_Assigned	3
+VEH_T148	67	1294	1294	VEH	тебя	6578	6582	тебя	1	169	174	2	0	0	0	150	1294	тебя	obj	1293	PRON	PRON	Not_Assigned	Not_Assigned	3
+FAC_T149	150	1297	1297	FAC	сарай	6587	6592	сарай	1	170	175	1	0	0	0	151	1297	сарай	obl	1298	NOUN	NOM	Not_Assigned	Not_Assigned	3
+VEH_T150	68	1303	1303	VEH	Тарантас	6621	6629	тарантас	1	172	177	0	0	0	0	152	1303	тарантас	nsubj	1304	PROPN	PROP	Not_Assigned	Not_Assigned	3
+PER_T234	29	1307	1307	PER	тени	6644	6648	тени	1	173	178	1	0	0	0	153	1307	тени	nsubj	1308	NOUN	NOM	Not_Assigned	Not_Assigned	3
+LOC_T151	164	1310	1310	LOC	Пещера	6661	6667	пещера	1	174	179	0	0	0	0	154	1310	пещера	nsubj	1312	NOUN	NOM	Not_Assigned	Not_Assigned	3
+VEH_T152	69	1316	1316	VEH	Тарантас	6706	6714	тарантас	1	175	180	0	0	0	0	155	1316	тарантас	nsubj	1318	PROPN	PROP	Not_Assigned	Not_Assigned	3
+PER_T153	216	1327	1328	PER	Ивану Васильевичу	6772	6789	ивану васильевичу	2	177	182	0	0	0	0	156	1327	ивану	iobj	1330	PROPN	PROP	Singular	Not_Assigned	3
+VEH_T154	70	1339	1339	VEH	Тарантас	6856	6864	тарантас	1	178	183	0	0	0	0	157	1339	тарантас	nsubj	1341	PROPN	PROP	Not_Assigned	Not_Assigned	3
+LOC_T155	165	1344	1345	LOC	Вся пещера	6889	6899	вся пещера	2	179	184	0	0	0	0	158	1345	пещера	nsubj	1347	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T156	217	1355	1356	PER	трепетного всадника	6968	6987	трепетного всадника	2	179	184	11	0	0	0	159	1356	всадника	obj	1354	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T236	2	1374	1375	PER	уродливые рожи	7080	7094	уродливые рожи	2	181	186	2	0	0	0	160	1375	рожи	nsubj	1376	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T235	28	1394	1394	PER	них	7206	7209	них	1	182	187	6	0	0	0	161	1394	них	obl	1392	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T157	218	1427	1435	PER	маленькие дети с огромными иссохшими черепами на младенческих плечиках	7377	7447	маленькие дети с огромными иссохшими черепами на младенческих плечиках	9	185	190	23	0	0	0	162	1432	черепами	nmod	1428	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T158	219	1437	1442	PER	женщины с усами и в ботфортах	7449	7478	женщины с усами и в ботфортах	6	185	190	33	0	0	0	163	1439	усами	nmod	1437	NOUN	NOM	Not_Assigned	Not_Assigned	3
+LOC_T160	166	1511	1511	LOC	пещеры	7836	7842	пещеры	1	185	190	107	0	0	0	164	1511	пещеры	nmod	1510	NOUN	NOM	Not_Assigned	Not_Assigned	3
+VEH_T161	71	1530	1530	VEH	Тарантас	7949	7957	тарантас	1	189	194	0	0	0	0	165	1530	тарантас	ROOT	1530	PROPN	PROP	Not_Assigned	Not_Assigned	3
+PER_T162	221	1534	1535	PER	Иван Васильевич	7970	7985	иван васильевич	2	189	195	2	0	0	0	166	1534	иван	nsubj	1533	PROPN	PROP	Singular	Not_Assigned	3
+VEH_T163	72	1539	1539	VEH	тебя	7999	8003	тебя	1	190	196	2	0	0	0	167	1539	тебя	obj	1538	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T164	222	1541	1542	PER	Василия Ивановича	8011	8028	василия ивановича	2	190	196	4	0	0	0	168	1541	василия	nmod	1540	PROPN	PROP	Singular	Not_Assigned	3
+PER_T165	223	1544	1545	PER	Авдотьи Петровны	8031	8047	авдотьи петровны	2	190	196	7	0	0	0	169	1544	авдотьи	conj	1541	PROPN	PROP	Singular	Not_Assigned	3
+PER_T166	224	1549	1549	PER	мне	8056	8059	мне	1	190	196	12	0	0	0	170	1549	мне	iobj	1548	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T167	225	1555	1555	PER	Я	8085	8086	я	1	191	197	0	0	0	0	171	1555	я	nsubj	1556	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T168	226	1559	1559	PER	Я	8099	8100	я	1	192	198	0	0	0	0	172	1559	я	nsubj	1561	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T169	227	1565	1565	PER	меня	8124	8128	меня	1	193	199	1	0	0	0	173	1565	меня	obj	1564	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T170	229	1569	1569	PER	Тарантас	8137	8145	тарантас	1	196	202	0	0	0	0	174	1569	тарантас	nsubj	1570	PROPN	PROP	Singular	Not_Assigned	3
+PER_T171	230	1578	1579	PER	Иван Васильевич	8172	8187	иван васильевич	2	199	205	2	0	0	0	175	1578	иван	conj	1576	PROPN	PROP	Singular	Not_Assigned	3
+PER_T172	231	1583	1587	PER	кто-то в толпе	8201	8215	кто - то в толпе	5	199	206	2	0	1	1	176	1587	толпе	obl	1582	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T173	232	1587	1587	PER	толпе	8210	8215	толпе	1	199	206	6	1	0	0	177	1587	толпе	obl	1582	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T174	233	1590	1591	PER	Иван Васильевич	8220	8235	иван васильевич	2	200	207	1	0	0	0	178	1590	иван	appos	1589	PROPN	PROP	Singular	Not_Assigned	3
+PER_T175	208	1593	1594	PER	Иван Васильевич	8237	8252	иван васильевич	2	200	207	4	0	0	0	179	1593	иван	conj	1590	PROPN	PROP	Singular	Not_Assigned	3
+PER_T188	189	1599	1600	PER	уродливый сброд	8273	8288	уродливый сброд	2	200	208	3	0	0	0	180	1600	сброд	obj	1597	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T176	207	1604	1604	PER	мы	8303	8305	мы	1	201	209	2	0	0	0	181	1604	мы	nsubj	1606	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T177	206	1605	1606	PER	этой канальи	8306	8318	этой канальи	2	201	209	3	0	0	0	182	1606	канальи	ROOT	1606	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T178	205	1608	1609	PER	Ивана Васильевича	8320	8337	ивана васильевича	2	201	209	6	0	0	0	183	1608	ивана	conj	1606	PROPN	PROP	Singular	Not_Assigned	3
+PER_T179	179	1612	1612	PER	его	8351	8354	его	1	202	210	1	0	0	0	184	1612	его	obj	1611	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T180	181	1615	1615	PER	Мы	8362	8364	мы	1	203	211	0	0	0	0	185	1615	мы	nsubj	1618	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T181	182	1616	1616	PER	его	8365	8368	его	1	203	211	1	0	0	0	186	1616	его	obj	1618	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T182	183	1618	1618	PER	подлеца	8370	8377	подлеца	1	203	211	3	0	0	0	187	1618	подлеца	ROOT	1618	VERB	NOM	Not_Assigned	Not_Assigned	3
+PER_T183	184	1621	1621	PER	голубчика	8389	8398	голубчика	1	204	212	1	0	0	0	188	1621	голубчика	nmod	1620	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T184	185	1623	1623	PER	Мы	8402	8404	мы	1	205	213	0	0	0	0	189	1623	мы	nsubj	1627	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T185	186	1624	1624	PER	его	8405	8408	его	1	205	213	1	0	0	0	190	1624	его	obj	1627	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T186	187	1635	1635	PER	нами	8459	8463	нами	1	206	214	3	0	0	0	191	1635	нами	obl	1633	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T187	188	1643	1643	PER	нам	8492	8495	нам	1	208	216	3	0	0	0	192	1643	нам	obl	1644	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T189	190	1652	1652	PER	брат	8522	8526	брат	1	209	217	6	0	0	0	193	1652	брат	ROOT	1652	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T190	191	1660	1660	PER	Мы	8561	8563	мы	1	212	220	0	0	0	0	194	1660	мы	nsubj	1661	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T191	193	1662	1662	PER	тебя	8574	8578	тебя	1	212	220	2	0	0	0	195	1662	тебя	obj	1661	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T192	194	1667	1669	PER	Эка великая фигура	8591	8609	эка великая фигура	3	213	221	0	0	0	0	196	1669	фигура	ROOT	1669	NOUN	PROP	Singular	Not_Assigned	3
+PER_T193	195	1688	1688	PER	мы	8680	8682	мы	1	217	225	1	0	0	0	197	1688	мы	nsubj	1691	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T194	196	1690	1690	PER	сами	8687	8691	сами	1	217	225	3	0	0	0	198	1690	сами	amod	1691	ADJ	NOM	Not_Assigned	Not_Assigned	3
+PER_T195	197	1693	1696	PER	дети тьмы и света	8700	8717	дети тьмы и света	4	217	225	6	0	0	0	199	1693	дети	conj	1691	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T196	198	1698	1698	PER	сами	8719	8723	сами	1	217	225	11	0	0	0	200	1698	сами	amod	1699	ADJ	NOM	Not_Assigned	Not_Assigned	3
+PER_T197	199	1701	1704	PER	дети света и тьмы	8733	8750	дети света и тьмы	4	217	225	14	0	0	0	201	1701	дети	conj	1691	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T198	200	1715	1715	PER	его	8777	8780	его	1	219	227	1	0	0	0	202	1715	его	obj	1714	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T199	201	1719	1719	PER	его	8790	8793	его	1	220	228	1	0	0	0	203	1719	его	flat:name	1718	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T200	204	1727	1727	PER	ребята	8819	8825	ребята	1	224	232	3	0	0	0	204	1727	ребята	nsubj	1725	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T201	177	1730	1730	PER	его	8834	8837	его	1	225	233	1	0	0	0	205	1730	его	obj	1729	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T202	117	1741	1741	PER	его	8870	8873	его	1	227	235	1	0	0	0	206	1741	его	obj	1740	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T203	59	1743	1743	PER	подлеца	8875	8882	подлеца	1	227	235	3	0	0	0	207	1743	подлеца	conj	1741	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T204	116	1749	1749	PER	его	8903	8906	его	1	228	236	1	0	0	0	208	1749	его	det	1748	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T206	33	1763	1767	PER	все мерзкие, уродливые гадины	8951	8980	все мерзкие , уродливые гадины	5	231	239	6	0	0	0	209	1767	гадины	nsubj	1768	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T205	32	1773	1774	PER	Ивану Васильевичу	9012	9029	ивану васильевичу	2	231	239	16	0	0	0	210	1773	ивану	iobj	1772	PROPN	PROP	Singular	Not_Assigned	3
+PER_T207	34	1785	1786	PER	хриплые голоса	9071	9085	хриплые голоса	2	233	242	2	0	0	0	211	1786	голоса	nsubj	1784	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T208	35	1790	1790	PER	его	9094	9097	его	1	234	243	2	0	0	0	212	1790	его	obj	1789	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T209	36	1794	1794	PER	его	9110	9113	его	1	235	244	1	0	0	0	213	1794	его	obj	1793	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T211	39	1797	1797	PER	мы	9122	9124	мы	1	236	245	1	0	0	0	214	1797	мы	nsubj	1798	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T210	38	1798	1798	PER	его	9125	9128	его	1	236	245	2	0	0	0	215	1798	его	obj	1800	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T212	40	1800	1800	PER	подлеца	9130	9137	подлеца	1	236	245	4	0	0	0	216	1800	подлеца	ROOT	1800	VERB	NOM	Not_Assigned	Not_Assigned	3
+PER_T213	41	1809	1809	PER	его	9184	9187	его	1	239	248	1	0	0	0	217	1809	его	obj	1808	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T214	42	1812	1812	PER	его	9198	9201	его	1	239	248	4	0	0	0	218	1812	его	obj	1811	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T215	43	1821	1822	PER	Иван Васильевич	9239	9254	иван васильевич	2	241	251	4	0	0	0	219	1821	иван	appos	1818	PROPN	PROP	Singular	Not_Assigned	3
+VEH_T216	60	1825	1826	VEH	добрый тарантас	9260	9275	добрый тарантас	2	242	252	1	0	0	0	220	1826	тарантас	nsubj	1827	PROPN	PROP	Not_Assigned	Not_Assigned	3
+VEH_T217	73	1830	1830	VEH	Он	9294	9296	он	1	243	253	0	0	0	0	221	1830	он	nsubj	1832	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T218	44	1840	1841	PER	Иван Васильевич	9353	9368	иван васильевич	2	244	254	0	0	0	0	222	1840	иван	nsubj	1842	PROPN	PROP	Singular	Not_Assigned	3
+VEH_T237	78	1851	1853	VEH	странном своем гипогрифе	9414	9438	странном своем гипогрифе	3	244	254	11	0	1	1	223	1853	гипогрифе	obl	1849	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T238	3	1852	1852	PER	своем	9423	9428	своем	1	244	254	12	1	0	0	224	1852	своем	det	1853	DET	PRON	Not_Assigned	Not_Assigned	3
+PER_T219	45	1867	1867	PER	Он	9511	9513	он	1	245	255	0	0	0	0	225	1867	он	nsubj	1869	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T239	4	1884	1885	PER	адской толпы	9615	9627	адской толпы	2	245	255	17	0	0	0	226	1885	толпы	nmod	1883	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T220	47	1888	1888	PER	ему	9637	9640	ему	1	245	255	21	0	0	0	227	1888	ему	iobj	1887	PRON	PRON	Not_Assigned	Not_Assigned	3
+VEH_T221	75	1895	1895	VEH	тарантас	9664	9672	тарантас	1	246	256	1	0	0	0	228	1895	тарантас	nsubj	1897	PROPN	PROP	Not_Assigned	Not_Assigned	3
+VEH_T222	76	1902	1902	VEH	он	9702	9704	он	1	247	257	3	0	0	0	229	1902	он	nsubj	1901	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T223	48	1911	1912	PER	нечистая погоня	9746	9761	нечистая погоня	2	247	257	12	0	0	0	230	1912	погоня	nsubj	1910	NOUN	NOM	Not_Assigned	Not_Assigned	3
+VEH_T224	77	1924	1924	VEH	тарантас	9803	9811	тарантас	1	247	257	25	0	0	0	231	1924	тарантас	conj	1907	ADJ	PROP	Not_Assigned	Not_Assigned	3
+PER_T225	49	1936	1936	PER	они	9871	9874	они	1	248	258	3	0	0	0	232	1936	они	nsubj	1934	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T226	50	1941	1941	PER	они	9898	9901	они	1	248	258	8	0	0	0	233	1941	они	nsubj	1940	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T227	51	1952	1953	PER	Ивана Васильевича	9953	9970	ивана васильевича	2	248	258	19	0	0	0	234	1952	ивана	nmod	1951	PROPN	PROP	Singular	Not_Assigned	3

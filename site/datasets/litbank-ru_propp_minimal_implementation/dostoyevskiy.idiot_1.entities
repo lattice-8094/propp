@@ -1,0 +1,254 @@
+COREF_name	COREF	start_token	end_token	cat	sacr_text	byte_onset	byte_offset	text	mention_len	paragraph_ID	sentence_ID	start_token_ID_within_sentence	out_to_in_nested_level	in_to_out_nested_level	nested_entities_count	temp_index	head_id	head_word	head_dependency_relation	head_syntactic_head_ID	POS_tag	prop	number	gender	grammatical_person
+chinovnik	1	16	16	PER	чиновник	57	65	чиновник	1	0	0	16	0	0	0	0	16	чиновник	nsubj	15	NOUN	NOM	Not_Assigned	Not_Assigned	3
+knyaz	4	22	22	PER	вы	78	80	вы	1	1	1	4	0	0	0	1	22	вы	nsubj	29	PRON	PRON	Not_Assigned	Not_Assigned	3
+knyaz	4	24	24	PER	князь	82	87	князь	1	1	1	6	0	0	0	2	24	князь	appos	22	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T4	39	32	32	PER	профессора	115	125	профессора	1	1	1	14	0	0	0	3	32	профессора	conj	29	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Rogozhin	0	40	40	PER	черномазый	151	161	черномазый	1	1	2	4	0	0	0	4	40	черномазый	obj	38	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Rogozhin	0	51	51	PER	я	191	192	я	1	3	4	3	0	0	0	5	51	я	nsubj	53	PRON	PRON	Not_Assigned	Not_Assigned	3
+knyaz	4	63	63	PER	я	240	241	я	1	4	5	5	0	0	0	6	63	я	nsubj	79	PRON	PRON	Not_Assigned	Not_Assigned	3
+knyaz	4	74	74	PER	князь	277	282	князь	1	4	5	16	0	0	0	7	74	князь	nsubj	73	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Rogozhin	0	83	83	PER	Меня	310	314	меня	1	5	6	2	0	0	0	8	83	меня	obj	87	PRON	PRON	Not_Assigned	Not_Assigned	3
+Rogozhini	13	94	94	PER	Рогожиных	375	384	рогожиных	1	6	7	2	0	0	0	9	94	рогожиных	nsubj	95	ADJ	NOM	Not_Assigned	Not_Assigned	3
+Rogozhin	0	101	101	PER	черномазый	413	423	черномазый	1	6	8	4	0	0	0	10	101	черномазый	obj	100	NOUN	NOM	Not_Assigned	Not_Assigned	3
+knyaz	4	112	112	PER	Я	453	454	я	1	8	10	0	0	0	0	11	112	я	nsubj	119	PRON	PRON	Not_Assigned	Not_Assigned	3
+Russia	33	115	115	GPE	России	462	468	россии	1	8	10	3	0	0	0	12	115	россии	obl	119	PROPN	PROP	Not_Assigned	Not_Assigned	3
+PER_T23	41	117	118	PER	мало кого	475	484	мало кого	2	8	10	5	0	0	0	13	117	мало	advmod	119	ADV	NOM	Not_Assigned	Not_Assigned	3
+Rogozhin	0	122	122	PER	вы	496	498	вы	1	9	11	1	0	0	0	14	122	вы	ROOT	122	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T15	18	125	125	PER	Рогожин	502	509	рогожин	1	9	11	4	0	0	0	15	125	рогожин	appos	124	PROPN	PROP	Singular	Not_Assigned	3
+Rogozhin	0	131	131	PER	я	521	522	я	1	10	12	4	0	0	0	16	131	я	conj	124	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T15	18	133	133	PER	Рогожин	524	531	рогожин	1	10	12	6	0	0	0	17	133	рогожин	conj	131	PROPN	PROP	Singular	Not_Assigned	3
+Rogozhin	0	135	135	PER	Парфен	533	539	парфен	1	10	12	8	0	0	0	18	135	парфен	conj	131	PROPN	PROP	Singular	Not_Assigned	3
+Rogozhin	0	139	139	PER	Парфен	546	552	парфен	1	11	13	2	0	0	0	19	139	парфен	conj	131	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Rogozhini	13	145	148	PER	тех ли самых Рогожиных	569	591	тех ли самых рогожиных	4	12	14	4	0	0	0	20	148	рогожиных	amod	155	ADJ	NOM	Not_Assigned	Not_Assigned	3
+chinovnik	1	157	157	PER	чиновник	632	640	чиновник	1	12	14	16	0	0	0	21	157	чиновник	nsubj	155	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Rogozhini	13	165	166	PER	тех самых	656	665	тех самых	2	13	15	6	0	0	0	22	165	тех	det	163	DET	PRON	Not_Assigned	Not_Assigned	3
+chinovnik	1	176	176	PER	его	713	716	его	1	13	15	17	0	0	0	23	176	его	nmod	177	PRON	PRON	Not_Assigned	Not_Assigned	3
+Rogozhin	0	177	200	PER	черномазый, который вовсе, впрочем, и не обращался ни разу к угреватому чиновнику, а с самого начала говорил только одному князю	717	845	черномазый , который вовсе , впрочем , и не обращался ни разу к угреватому чиновнику , а с самого начала говорил только одному князю	24	13	15	18	0	1	2	24	186	обращался	acl:relcl	177	VERB	NOM	Not_Assigned	Not_Assigned	3
+chinovnik	1	190	191	PER	угреватому чиновнику	778	798	угреватому чиновнику	2	13	15	31	1	0	0	25	191	чиновнику	obl	186	NOUN	NOM	Not_Assigned	Not_Assigned	3
+knyaz	4	199	200	PER	одному князю	833	845	одному князю	2	13	15	40	1	0	0	26	200	князю	iobj	197	NOUN	NOM	Not_Assigned	Not_Assigned	3
+chinovnik	1	220	240	PER	чиновник, у которого всё лицо тотчас же стало складываться во что-то благоговейное, и подобострастное, даже испуганное	921	1039	чиновник , у которого всё лицо тотчас же стало складываться во что - то благоговейное , и подобострастное , даже испуганное	21	14	17	10	0	0	0	27	228	стало	acl:relcl	220	VERB	NOM	Not_Assigned	Not_Assigned	3
+SemenRogozhin	3	244	249	PER	это того самого Семена Парфеновича Рогожина	1045	1088	это того самого семена парфеновича рогожина	6	14	17	34	0	0	0	28	247	семена	obl	212	PROPN	PROP	Singular	Not_Assigned	3
+SemenRogozhin	3	251	267	PER	потомственного почетного гражданина, что с месяц назад тому помре и два с половиной миллиона капиталу оставил	1090	1199	потомственного почетного гражданина , что с месяц назад тому помре и два с половиной миллиона капиталу оставил	17	14	17	41	0	0	0	29	260	помре	ccomp	212	VERB	NOM	Not_Assigned	Not_Assigned	3
+chinovnik	1	272	272	PER	ты	1209	1211	ты	1	15	18	3	0	0	0	30	272	ты	nsubj	274	PRON	PRON	Not_Assigned	Not_Assigned	3
+Rogozhin	0	289	289	PER	черномазый	1297	1307	черномазый	1	15	19	3	0	0	0	31	289	черномазый	nsubj	288	PROPN	PROP	Singular	Not_Assigned	3
+Rogozhin	0	308	308	PER	он	1385	1387	он	1	16	21	2	0	0	0	32	308	он	nsubj	307	PRON	PRON	Not_Assigned	Not_Assigned	3
+chinovnik	1	310	310	PER	него	1391	1395	него	1	16	21	4	0	0	0	33	310	него	obl	307	PRON	PRON	Not_Assigned	Not_Assigned	3
+knyaz	4	311	311	PER	князю	1396	1401	князю	1	16	21	5	0	0	0	34	311	князю	iobj	307	NOUN	NOM	Not_Assigned	Not_Assigned	3
+M4	17	316	316	PER	им	1417	1419	им	1	16	21	10	0	0	0	35	316	им	iobj	319	PRON	PRON	Not_Assigned	Not_Assigned	3
+M4	17	322	322	PER	они	1440	1443	они	1	16	21	16	0	0	0	36	322	они	nsubj	326	PRON	PRON	Not_Assigned	Not_Assigned	3
+SemenRogozhin	3	334	335	PER	родитель мой	1498	1510	родитель мой	2	17	22	6	0	0	0	37	334	родитель	nsubj	336	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Pskov	10	341	341	GPE	Пскова	1525	1531	пскова	1	17	22	13	0	0	0	38	341	пскова	nmod	339	PROPN	PROP	Not_Assigned	Not_Assigned	3
+LOC_T33	27	348	348	LOC	домой	1562	1567	домой	1	17	22	20	0	0	0	39	348	домой	advmod	347	ADV	NOM	Not_Assigned	Not_Assigned	3
+brotherofRogozhin	6	352	352	PER	брат	1577	1581	брат	1	18	23	1	0	0	0	40	352	брат	nsubj	367	NOUN	NOM	Not_Assigned	Not_Assigned	3
+brotherofRogozhin	6	354	354	PER	подлец	1583	1589	подлец	1	18	23	3	0	0	0	41	354	подлец	appos	352	NOUN	NOM	Not_Assigned	Not_Assigned	3
+motherofRogozhin	16	357	357	PER	мать	1594	1598	мать	1	18	23	6	0	0	0	42	357	мать	conj	352	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Pskov	10	375	375	GPE	Пскове	1676	1682	пскове	1	20	25	3	0	0	0	43	375	пскове	nmod	373	PROPN	PROP	Not_Assigned	Not_Assigned	3
+chinovnik	1	404	404	PER	чиновник	1821	1829	чиновник	1	21	27	4	0	0	0	44	404	чиновник	nsubj	402	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Rogozhin	0	425	425	PER	Рогожин	1920	1927	рогожин	1	22	29	9	0	0	0	45	425	рогожин	nsubj	421	PROPN	PROP	Singular	Not_Assigned	3
+Rogozhin	0	430	430	PER	я	1938	1939	я	1	22	29	14	0	0	0	46	430	я	nsubj	435	PRON	PRON	Not_Assigned	Not_Assigned	3
+chinovnik	1	431	431	PER	тебе	1940	1944	тебе	1	22	29	15	0	0	0	47	431	тебе	iobj	433	PRON	PRON	Not_Assigned	Not_Assigned	3
+chinovnik	1	438	438	PER	ты	1969	1971	ты	1	22	29	22	0	0	0	48	438	ты	nsubj	442	PRON	PRON	Not_Assigned	Not_Assigned	3
+chinovnik	1	479	479	PER	мне	2120	2123	мне	1	27	34	1	0	0	0	49	479	мне	iobj	481	PRON	PRON	Not_Assigned	Not_Assigned	3
+chinovnik	1	487	487	PER	я	2147	2148	я	1	28	35	1	0	0	0	50	487	я	nsubj	489	PRON	PRON	Not_Assigned	Not_Assigned	3
+M5	35	491	491	PER	Жену	2164	2168	жену	1	29	36	0	0	0	0	51	491	жену	obj	495	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T34	40	493	494	PER	детей малых	2170	2181	детей малых	2	29	36	2	0	0	0	52	493	детей	conj	491	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Rogozhin	0	499	499	PER	тобой	2196	2201	тобой	1	29	36	8	0	0	0	53	499	тобой	obl	501	PRON	PRON	Not_Assigned	Not_Assigned	3
+chinovnik	1	510	510	PER	тебя	2246	2250	тебя	1	31	38	3	0	0	0	54	510	тебя	ROOT	510	PRON	PRON	Not_Assigned	Not_Assigned	3
+Rogozhin	0	515	515	PER	черномазый	2265	2275	черномазый	1	31	39	3	0	0	0	55	515	черномазый	nsubj	514	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Rogozhin	0	522	522	PER	я	2300	2301	я	1	32	40	5	0	0	0	56	522	я	nsubj	531	PRON	PRON	Not_Assigned	Not_Assigned	3
+knyaz	4	527	527	PER	вы	2313	2315	вы	1	32	40	10	0	0	0	57	527	вы	obl	523	PRON	PRON	Not_Assigned	Not_Assigned	3
+Rogozhin	0	532	532	PER	он	2331	2333	он	1	32	40	15	0	0	0	58	532	он	nsubj	531	PRON	PRON	Not_Assigned	Not_Assigned	3
+knyaz	4	534	534	PER	князю	2336	2341	князю	1	32	40	17	0	0	0	59	534	князю	obl	531	NOUN	NOM	Not_Assigned	Not_Assigned	3
+SemenRogozhin	3	542	542	PER	родителя	2366	2374	родителя	1	32	40	25	0	0	0	60	542	родителя	nmod	540	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Pskov	10	544	544	GPE	Псков	2378	2383	псков	1	32	40	27	0	0	0	61	544	псков	nmod	540	PROPN	PROP	Not_Assigned	Not_Assigned	3
+auntofRogozhin	7	548	548	PER	тетке	2392	2397	тетке	1	32	40	31	0	0	0	62	548	тетке	conj	545	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Pskov	10	553	553	GPE	там	2413	2416	там	1	32	40	36	0	0	0	63	553	там	advmod	552	ADV	NOM	Not_Assigned	Not_Assigned	3
+SemenRogozhin	3	558	558	PER	он	2427	2429	он	1	32	40	41	0	0	0	64	558	он	nsubj	562	PRON	PRON	Not_Assigned	Not_Assigned	3
+SemenRogozhin	3	569	569	PER	покойнику	2482	2491	покойнику	1	34	42	2	0	0	0	65	569	покойнику	iobj	568	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Rogozhin	0	573	573	PER	меня	2500	2504	меня	1	34	42	6	0	0	0	66	573	меня	obj	578	PRON	PRON	Not_Assigned	Not_Assigned	3
+knyaz	4	583	583	PER	князь	2543	2548	князь	1	35	43	3	0	0	0	67	583	князь	parataxis	580	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Rogozhin	0	592	592	PER	я	2574	2575	я	1	36	44	2	0	0	0	68	592	я	nsubj	591	PRON	PRON	Not_Assigned	Not_Assigned	3
+SemenRogozhin	3	603	603	PER	его	2608	2611	его	1	37	45	3	0	0	0	69	603	его	obj	607	DET	PRON	Not_Assigned	Not_Assigned	3
+knyaz	4	612	612	PER	князь	2650	2655	князь	1	37	46	3	0	0	0	70	612	князь	nsubj	611	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Rogozhin	0	618	620	PER	миллионера в тулупе	2704	2723	миллионера в тулупе	3	37	46	9	0	0	0	71	620	тулупе	obl	617	NOUN	NOM	Not_Assigned	Not_Assigned	3
+knyaz	4	637	637	PER	князя	2821	2826	князя	1	38	47	15	0	0	0	72	637	князя	obj	638	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Rogozhin	0	650	650	PER	Рогожин	2879	2886	рогожин	1	38	47	28	0	0	0	73	650	рогожин	nsubj	657	PROPN	PROP	Singular	Not_Assigned	3
+Rogozhin	0	651	651	PER	сам	2887	2890	сам	1	38	47	29	0	0	0	74	651	сам	amod	650	ADJ	NOM	Not_Assigned	Not_Assigned	3
+knyaz	4	658	658	PER	князя	2922	2927	князя	1	38	47	36	0	0	0	75	658	князя	obj	657	NOUN	NOM	Not_Assigned	Not_Assigned	3
+M6	46	660	661	PER	свои собеседники	2930	2946	свои собеседники	2	38	47	38	0	1	1	76	661	собеседники	obl	657	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Rogozhin	0	660	660	PER	свои	2930	2934	свои	1	38	47	38	1	0	0	77	660	свои	det	661	DET	PRON	Not_Assigned	Not_Assigned	3
+M8	47	697	699	PER	кого-нибудь	3131	3142	кого - нибудь	3	38	47	75	0	0	0	78	697	кого	obl	695	PRON	PRON	Not_Assigned	Not_Assigned	3
+Rogozhin	0	711	711	PER	он	3190	3192	он	1	39	48	3	0	0	0	79	711	он	nsubj	716	PRON	PRON	Not_Assigned	Not_Assigned	3
+chinovnik	1	730	730	PER	чиновника	3269	3278	чиновника	1	40	49	4	0	0	0	80	730	чиновника	obl	728	NOUN	NOM	Not_Assigned	Not_Assigned	3
+chinovnik	1	733	733	PER	тот	3284	3287	тот	1	40	49	7	0	0	0	81	733	тот	nsubj	736	DET	PRON	Not_Assigned	Not_Assigned	3
+Rogozhin	0	738	738	PER	Рогожиным	3304	3313	рогожиным	1	40	49	12	0	0	0	82	738	рогожиным	obl	736	PROPN	PROP	Singular	Not_Assigned	3
+SemenRogozhin	3	759	759	PER	он	3410	3412	он	1	41	50	5	0	0	0	83	759	он	nsubj	760	PRON	PRON	Not_Assigned	Not_Assigned	3
+Rogozhin	0	772	772	PER	Рогожин	3459	3466	рогожин	1	41	50	18	0	0	0	84	772	рогожин	nsubj	771	PROPN	PROP	Singular	Not_Assigned	3
+brotherofRogozhin	6	780	780	PER	брат	3491	3495	брат	1	41	50	26	0	0	0	85	780	брат	nsubj	781	NOUN	NOM	Not_Assigned	Not_Assigned	3
+motherofRogozhin	16	784	784	PER	матушку	3509	3516	матушку	1	42	51	1	0	0	0	86	784	матушку	obl	785	NOUN	NOM	Not_Assigned	Not_Assigned	3
+motherofRogozhin	16	788	789	PER	женщина старая	3533	3547	женщина старая	2	42	51	5	0	0	0	87	789	старая	amod	793	ADJ	NOM	Not_Assigned	Not_Assigned	3
+M3	25	797	797	PER	старухами	3572	3581	старухами	1	42	51	14	0	0	0	88	797	старухами	obl	798	NOUN	NOM	Not_Assigned	Not_Assigned	3
+brotherofRogozhin	6	802	804	PER	Сенька - брат	3595	3608	сенька - брат	3	42	51	19	0	0	0	89	802	сенька	nsubj	805	PROPN	PROP	Singular	Not_Assigned	3
+brotherofRogozhin	6	813	813	PER	он	3638	3640	он	1	43	52	1	0	0	0	90	813	он	nsubj	817	PRON	PRON	Not_Assigned	Not_Assigned	3
+Rogozhin	0	833	833	PER	я	3714	3715	я	1	45	54	3	0	0	0	91	833	я	nsubj	837	PRON	PRON	Not_Assigned	Not_Assigned	3
+auntofRogozhin	7	852	852	PER	тетке	3800	3805	тетке	1	47	56	5	0	0	0	92	852	тетке	nmod	850	NOUN	NOM	Not_Assigned	Not_Assigned	3
+auntofRogozhin	7	857	857	PER	она	3818	3821	она	1	48	57	1	0	0	0	93	857	она	nsubj	861	PRON	PRON	Not_Assigned	Not_Assigned	3
+PER_T40	38	865	865	PER	юродивыми	3859	3868	юродивыми	1	48	57	9	0	0	0	94	865	юродивыми	nmod	863	ADJ	NOM	Not_Assigned	Not_Assigned	3
+auntofRogozhin	7	872	874	PER	Монашенка не монашенка	3892	3914	монашенка не монашенка	3	49	58	0	0	0	0	95	874	монашенка	ROOT	874	NOUN	NOM	Not_Assigned	Not_Assigned	3
+auntofRogozhin	7	884	884	PER	она	3950	3953	она	1	50	59	3	0	0	0	96	884	она	nsubj	885	PRON	PRON	Not_Assigned	Not_Assigned	3
+auntofRogozhin	7	897	897	PER	она	4013	4016	она	1	50	59	16	0	0	0	97	897	она	nsubj	900	PRON	PRON	Not_Assigned	Not_Assigned	3
+Konev	20	906	906	PER	Конев	4051	4056	конев	1	51	60	1	0	0	0	98	906	конев	nsubj	911	PROPN	PROP	Singular	Not_Assigned	3
+Konev	20	908	909	PER	Василий Васильич	4058	4074	василий васильич	2	51	60	3	0	0	0	99	908	василий	conj	906	PROPN	PROP	Singular	Not_Assigned	3
+SemenRogozhin	3	921	921	PER	родителя	4128	4136	родителя	1	52	61	5	0	0	0	100	921	родителя	nmod	920	NOUN	NOM	Not_Assigned	Not_Assigned	3
+brotherofRogozhin	6	925	925	PER	брат	4145	4149	брат	1	52	61	9	0	0	0	101	925	брат	nsubj	927	NOUN	NOM	Not_Assigned	Not_Assigned	3
+brotherofRogozhin	6	946	946	PER	он	4234	4236	он	1	53	62	2	0	0	0	102	946	он	nsubj	952	PRON	PRON	Not_Assigned	Not_Assigned	3
+Siberia	9	951	951	GPE	Сибирь	4251	4257	сибирь	1	53	62	7	0	0	0	103	951	сибирь	nmod	949	PROPN	PROP	Not_Assigned	Not_Assigned	3
+Rogozhin	0	956	956	PER	я	4276	4277	я	1	53	62	12	0	0	0	104	956	я	nsubj	957	PRON	PRON	Not_Assigned	Not_Assigned	3
+chinovnik	1	965	965	PER	ты	4320	4322	ты	1	54	63	1	0	0	0	105	965	ты	appos	964	PRON	PRON	Not_Assigned	Not_Assigned	3
+chinovnik	1	967	968	PER	пугало гороховое	4324	4340	пугало гороховое	2	54	63	3	0	0	0	106	967	пугало	ROOT	967	VERB	NOM	Not_Assigned	Not_Assigned	3
+Rogozhin	0	973	973	PER	он	4357	4359	он	1	54	64	3	0	0	0	107	973	он	nsubj	972	PRON	PRON	Not_Assigned	Not_Assigned	3
+chinovnik	1	975	975	PER	чиновнику	4362	4371	чиновнику	1	54	64	5	0	0	0	108	975	чиновнику	obl	972	NOUN	NOM	Not_Assigned	Not_Assigned	3
+chinovnik	1	996	996	PER	чиновник	4469	4477	чиновник	1	57	68	5	0	0	0	109	996	чиновник	nsubj	995	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Siberia	9	1003	1003	GPE	Сибирь	4493	4499	сибирь	1	58	69	5	0	0	0	110	1003	сибирь	ROOT	1003	PROPN	PROP	Not_Assigned	Not_Assigned	3
+Siberia	9	1008	1008	GPE	Сибирь	4509	4515	сибирь	1	59	70	3	0	0	0	111	1008	сибирь	conj	1003	PROPN	PROP	Not_Assigned	Not_Assigned	3
+Siberia	9	1011	1011	GPE	Сибирь	4519	4525	сибирь	1	59	70	6	0	0	0	112	1011	сибирь	conj	1003	PROPN	PROP	Not_Assigned	Not_Assigned	3
+Siberia	9	1015	1015	GPE	Сибирь	4538	4544	сибирь	1	60	71	2	0	0	0	113	1015	сибирь	nmod	1003	PROPN	PROP	Not_Assigned	Not_Assigned	3
+Rogozhin	0	1019	1019	PER	Они	4552	4555	они	1	61	72	2	0	0	0	114	1019	они	nsubj	1021	PRON	PRON	Not_Assigned	Not_Assigned	3
+Rogozhin	0	1024	1024	PER	я	4572	4573	я	1	61	72	7	0	0	0	115	1024	я	nsubj	1026	PRON	PRON	Not_Assigned	Not_Assigned	3
+Rogozhin	0	1031	1031	PER	Рогожин	4599	4606	рогожин	1	61	72	14	0	0	0	116	1031	рогожин	appos	1030	PROPN	PROP	Singular	Not_Assigned	3
+knyaz	4	1032	1032	PER	князю	4607	4612	князю	1	61	72	15	0	0	0	117	1032	князю	flat:name	1031	PROPN	PROP	Singular	Not_Assigned	3
+Rogozhin	0	1037	1037	PER	я	4620	4621	я	1	61	72	20	0	0	0	118	1037	я	nsubj	1042	PRON	PRON	Not_Assigned	Not_Assigned	3
+brotherofRogozhin	6	1059	1061	PER	братец Семен Семеныч	4707	4727	братец семен семеныч	3	61	72	42	0	0	0	119	1059	братец	conj	1003	NOUN	PROP	Singular	Not_Assigned	3
+brotherofRogozhin	6	1063	1063	PER	Он	4731	4733	он	1	62	73	0	0	0	0	120	1063	он	nsubj	1068	PRON	PRON	Not_Assigned	Not_Assigned	3
+SemenRogozhin	3	1064	1065	PER	родителю покойному	4734	4752	родителю покойному	2	62	73	1	0	0	0	121	1064	родителю	iobj	1068	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Rogozhin	0	1067	1067	PER	меня	4756	4760	меня	1	62	73	4	0	0	0	122	1067	меня	obl	1068	PRON	PRON	Not_Assigned	Not_Assigned	3
+Rogozhin	0	1070	1070	PER	я	4774	4775	я	1	62	73	7	0	0	0	123	1070	я	nsubj	1071	PRON	PRON	Not_Assigned	Not_Assigned	3
+Rogozhin	0	1075	1075	PER	я	4789	4790	я	1	63	74	2	0	0	0	124	1075	я	nsubj	1079	PRON	PRON	Not_Assigned	Not_Assigned	3
+Nastasya	2	1078	1079	PER	Настасью Филипповну	4810	4829	настасью филипповну	2	63	74	5	0	0	0	125	1079	филипповну	nsubj	1082	PROPN	PROP	Singular	Not_Assigned	3
+SemenRogozhin	3	1081	1081	PER	родителя	4836	4844	родителя	1	63	74	8	0	0	0	126	1081	родителя	obj	1082	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Rogozhin	0	1090	1090	PER	я	4880	4881	я	1	64	75	2	0	0	0	127	1090	я	nsubj	1091	PRON	PRON	Not_Assigned	Not_Assigned	3
+Nastasya	2	1099	1100	PER	Настасью Филипповну	4913	4932	настасью филипповну	2	66	77	3	0	0	0	128	1099	настасью	appos	1098	PROPN	PROP	Singular	Not_Assigned	3
+chinovnik	1	1106	1106	PER	чиновник	4964	4972	чиновник	1	66	78	4	0	0	0	129	1106	чиновник	nsubj	1105	NOUN	NOM	Not_Assigned	Not_Assigned	3
+chinovnik	1	1126	1126	PER	него	5039	5043	него	1	67	80	4	0	0	0	130	1126	него	obl	1124	PRON	PRON	Not_Assigned	Not_Assigned	3
+Rogozhin	0	1129	1129	PER	Рогожин	5057	5064	рогожин	1	67	80	7	0	0	0	131	1129	рогожин	nmod	1128	PROPN	PROP	Singular	Not_Assigned	3
+chinovnik	1	1141	1141	PER	чиновник	5107	5115	чиновник	1	68	82	4	0	0	0	132	1141	чиновник	nsubj	1140	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Nastasya	2	1150	1151	PER	Настасий Филипповн	5142	5160	настасий филипповн	2	70	84	3	0	0	0	133	1150	настасий	appos	1149	PROPN	PROP	Singular	Not_Assigned	3
+chinovnik	1	1155	1155	PER	ты	5172	5174	ты	1	71	85	2	0	0	0	134	1155	ты	nsubj	1156	PRON	PRON	Not_Assigned	Not_Assigned	3
+Rogozhin	0	1158	1158	PER	я	5183	5184	я	1	71	85	5	0	0	0	135	1158	я	nsubj	1160	PRON	PRON	Not_Assigned	Not_Assigned	3
+chinovnik	1	1159	1159	PER	тебе	5185	5189	тебе	1	71	85	6	0	0	0	136	1159	тебе	iobj	1160	PRON	PRON	Not_Assigned	Not_Assigned	3
+chinovnik	1	1162	1162	PER	тварь	5197	5202	тварь	1	71	85	9	0	0	0	137	1162	тварь	nsubj	1148	NOUN	NOM	Not_Assigned	Not_Assigned	3
+PER_T59	37	1172	1177	PER	какая-нибудь вот этакая тварь	5230	5259	какая - нибудь вот этакая тварь	6	72	86	8	0	0	0	138	1177	тварь	nsubj	1182	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Rogozhin	0	1187	1187	PER	он	5301	5303	он	1	72	87	3	0	0	0	139	1187	он	nsubj	1186	PRON	PRON	Not_Assigned	Not_Assigned	3
+knyaz	4	1188	1188	PER	князю	5304	5309	князю	1	72	87	4	0	0	0	140	1188	князю	iobj	1186	PROPN	PROP	Singular	Not_Assigned	3
+chinovnik	1	1204	1204	PER	чиновник	5355	5363	чиновник	1	73	89	3	0	0	0	141	1204	чиновник	nsubj	1203	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Lebedev	12	1208	1208	PER	Лебедев	5370	5377	лебедев	1	74	90	2	0	0	0	142	1208	лебедев	nsubj	1209	PROPN	PROP	Singular	Not_Assigned	3
+Rogozhin	0	1211	1211	PER	Вы	5387	5389	вы	1	75	91	0	0	0	0	143	1211	вы	nsubj	1217	PRON	PRON	Not_Assigned	Not_Assigned	3
+Rogozhin	0	1213	1214	PER	ваша светлость	5391	5405	ваша светлость	2	75	91	2	0	0	0	144	1214	светлость	parataxis	1217	NOUN	NOM	Not_Assigned	Not_Assigned	3
+chinovnik	1	1216	1216	PER	меня	5407	5411	меня	1	75	91	5	0	0	0	145	1216	меня	obj	1217	PRON	PRON	Not_Assigned	Not_Assigned	3
+chinovnik	1	1223	1223	PER	я	5441	5442	я	1	75	91	12	0	0	0	146	1223	я	nsubj	1224	PRON	PRON	Not_Assigned	Not_Assigned	3
+Nastasya	2	1227	1230	PER	та самая Настасья Филипповна	5456	5484	та самая настасья филипповна	4	76	92	1	0	0	0	147	1229	настасья	ROOT	1229	PROPN	PROP	Singular	Not_Assigned	3
+SemenRogozhin	3	1236	1237	PER	ваш родитель	5506	5518	ваш родитель	2	76	92	10	0	1	1	148	1237	родитель	nsubj	1239	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Rogozhin	0	1236	1236	PER	ваш	5506	5509	ваш	1	76	92	10	1	0	0	149	1236	ваш	det	1237	DET	PRON	Not_Assigned	Not_Assigned	3
+Rogozhin	0	1238	1238	PER	вам	5519	5522	вам	1	76	92	12	0	0	0	150	1238	вам	iobj	1239	PRON	PRON	Not_Assigned	Not_Assigned	3
+Nastasya	2	1245	1246	PER	Настасья Филипповна	5560	5579	настасья филипповна	2	76	92	19	0	0	0	151	1245	настасья	nsubj	1247	PROPN	PROP	Singular	Not_Assigned	3
+Nastasya	2	1248	1248	PER	Барашкова	5585	5594	барашкова	1	76	92	22	0	0	0	152	1248	барашкова	nsubj	1247	PROPN	PROP	Singular	Not_Assigned	3
+Nastasya	2	1253	1254	PER	знатная барыня	5613	5627	знатная барыня	2	76	92	27	0	0	0	153	1254	барыня	nsubj	1251	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Nastasya	2	1261	1261	PER	княжна	5649	5655	княжна	1	76	92	35	0	0	0	154	1261	княжна	conj	1229	ADJ	NOM	Not_Assigned	Not_Assigned	3
+Totski	5	1266	1267	PER	некоим Тоцким	5669	5682	некоим тоцким	2	76	92	40	0	0	0	155	1267	тоцким	obl	1264	ADJ	NOM	Not_Assigned	Not_Assigned	3
+Totski	5	1270	1271	PER	Афанасием Ивановичем	5686	5706	афанасием ивановичем	2	76	92	44	0	0	0	156	1270	афанасием	conj	1229	PROPN	PROP	Singular	Not_Assigned	3
+Totski	5	1274	1274	PER	одним	5710	5715	одним	1	76	92	48	0	0	0	157	1274	одним	nummod	1229	NUM	NOM	Not_Assigned	Not_Assigned	3
+Totski	5	1277	1295	PER	помещиком и раскапиталистом, членом компаний и обществ, и большую дружбу на этот счет с генералом Епанчиным ведущие	5731	5846	помещиком и раскапиталистом , членом компаний и обществ , и большую дружбу на этот счет с генералом епанчиным ведущие	19	76	92	51	0	1	1	158	1288	дружбу	conj	1229	NOUN	PROP	Singular	Not_Assigned	3
+Epanich	44	1293	1294	FAC	генералом Епанчиным	5819	5838	генералом епанчиным	2	76	92	67	1	0	0	159	1293	генералом	nmod	1288	NOUN	PROP	Not_Assigned	Not_Assigned	3
+chinovnik	1	1302	1302	PER	ты	5863	5865	ты	1	77	93	5	0	0	0	160	1302	ты	nsubj	1304	PRON	PRON	Not_Assigned	Not_Assigned	3
+Rogozhin	0	1311	1311	PER	Рогожин	5911	5918	рогожин	1	77	94	5	0	0	0	161	1311	рогожин	nsubj	1309	PROPN	PROP	Singular	Not_Assigned	3
+chinovnik	1	1321	1321	PER	он	5945	5947	он	1	78	95	8	0	0	0	162	1321	он	nsubj	1324	PRON	PRON	Not_Assigned	Not_Assigned	3
+Lebedev	12	1331	1331	PER	Лебедев	5982	5989	лебедев	1	80	97	0	0	0	0	163	1331	лебедев	nsubj	1333	PROPN	PROP	Singular	Not_Assigned	3
+chinovnik	1	1335	1335	PER	Я	6003	6004	я	1	81	98	0	0	0	0	164	1335	я	nsubj	1346	PRON	PRON	Not_Assigned	Not_Assigned	3
+Rogozhin	0	1337	1338	PER	ваша светлость	6006	6020	ваша светлость	2	81	98	2	0	0	0	165	1338	светлость	appos	1335	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Likhachev	14	1342	1343	PER	Лихачевым Алексашкой	6026	6046	лихачевым алексашкой	2	81	98	7	0	0	0	166	1342	лихачевым	obl	1346	PROPN	PROP	Singular	Not_Assigned	3
+SemenRogozhin	3	1352	1352	PER	родителя	6085	6093	родителя	1	81	98	17	0	0	0	167	1352	родителя	nmod	1351	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Lebedev	12	1367	1367	PER	Лебедева	6141	6149	лебедева	1	81	98	32	0	0	0	168	1367	лебедева	obl	1363	PROPN	PROP	Singular	Not_Assigned	3
+Lebedev	12	1378	1378	PER	он	6185	6187	он	1	82	99	1	0	0	0	169	1378	он	nsubj	1382	PRON	PRON	Not_Assigned	Not_Assigned	3
+M1	21	1387	1387	PER	Арманс	6233	6239	арманс	1	82	99	10	0	0	0	170	1387	арманс	conj	1382	PROPN	PROP	Singular	Not_Assigned	3
+M2	43	1390	1390	PER	Коралию	6243	6250	коралию	1	82	99	13	0	0	0	171	1390	коралию	conj	1387	PROPN	PROP	Singular	Not_Assigned	3
+M7	45	1393	1394	PER	княгиню Пацкую	6254	6268	княгиню пацкую	2	82	99	16	0	0	0	172	1393	княгиню	conj	1387	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Nastasya	2	1397	1398	PER	Настасью Филипповну	6272	6291	настасью филипповну	2	82	99	20	0	0	0	173	1397	настасью	nsubj	1399	PROPN	PROP	Singular	Not_Assigned	3
+Nastasya	2	1413	1414	PER	Настасью Филипповну	6353	6372	настасью филипповну	2	83	100	2	0	0	0	174	1413	настасью	obl	1382	PROPN	PROP	Singular	Not_Assigned	3
+Nastasya	2	1418	1418	PER	она	6384	6387	она	1	84	101	2	0	0	0	175	1418	она	nsubj	1417	PRON	PRON	Not_Assigned	Not_Assigned	3
+Likhachev	14	1420	1420	PER	Лихачевым	6390	6399	лихачевым	1	84	101	4	0	0	0	176	1420	лихачевым	nmod	1418	PROPN	PROP	Singular	Not_Assigned	3
+chinovnik	1	1427	1427	PER	него	6427	6431	него	1	84	101	11	0	0	0	177	1427	него	obl	1425	PRON	PRON	Not_Assigned	Not_Assigned	3
+Rogozhin	0	1428	1428	PER	Рогожин	6432	6439	рогожин	1	84	101	12	0	0	0	178	1428	рогожин	obj	1425	PROPN	PROP	Singular	Not_Assigned	3
+Rogozhin	0	1432	1432	PER	его	6451	6454	его	1	84	101	16	0	0	0	179	1432	его	det	1431	PRON	PRON	Not_Assigned	Not_Assigned	3
+chinovnik	1	1459	1459	PER	чиновник	6567	6575	чиновник	1	87	105	6	0	0	0	180	1459	чиновник	nsubj	1457	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Likhachev	14	1469	1469	PER	Лихачев	6609	6616	лихачев	1	87	105	16	0	0	0	181	1469	лихачев	nmod	1468	PROPN	PROP	Singular	Not_Assigned	3
+M1	21	1480	1480	PER	Арманс	6654	6660	арманс	1	88	106	6	0	0	0	182	1480	арманс	nsubj	1478	PROPN	PROP	Singular	Not_Assigned	3
+Totski	5	1484	1484	PER	Тоцкий	6672	6678	тоцкий	1	89	107	2	0	0	0	183	1484	тоцкий	nsubj	1482	ADJ	NOM	Not_Assigned	Not_Assigned	3
+M10	22	1489	1493	ORG	Большом али во Французском театре	6694	6727	большом али во французском театре	5	90	108	3	0	0	0	184	1493	театре	obl	1498	NOUN	PROP	Not_Assigned	Not_Assigned	3
+Totski	5	1495	1496	PER	своей собственной	6730	6747	своей собственной	2	90	108	9	0	0	0	185	1495	своей	det	1497	DET	PRON	Not_Assigned	Not_Assigned	3
+M9	15	1500	1500	PER	Офицеры	6761	6768	офицеры	1	91	109	0	0	0	0	186	1500	офицеры	nsubj	1502	NOUN	NOM	Not_Assigned	Not_Assigned	3
+M9	15	1506	1506	PER	себя	6792	6796	себя	1	91	109	6	0	0	0	187	1506	себя	obj	1507	PRON	PRON	Not_Assigned	Not_Assigned	3
+M9	15	1511	1511	PER	те	6810	6812	те	1	91	109	11	0	0	0	188	1511	те	det	1512	DET	PRON	Not_Assigned	Not_Assigned	3
+Nastasya	2	1524	1527	PER	та самая Настасья Филипповна	6865	6893	та самая настасья филипповна	4	91	109	24	0	0	0	189	1526	настасья	nsubj	1523	PROPN	PROP	Singular	Not_Assigned	3
+Rogozhin	0	1562	1562	PER	Рогожин	7036	7043	рогожин	1	93	111	15	0	0	0	190	1562	рогожин	nsubj	1561	PROPN	PROP	Singular	Not_Assigned	3
+Rogozhin	0	1567	1567	PER	мне	7054	7057	мне	1	93	111	20	0	0	0	191	1567	мне	iobj	1561	PRON	PRON	Not_Assigned	Not_Assigned	3
+Zalezhev	8	1569	1569	FAC	Залёжев	7060	7067	залёжев	1	93	111	22	0	0	0	192	1569	залёжев	conj	1561	PROPN	PROP	Not_Assigned	Not_Assigned	3
+Rogozhin	0	1573	1573	PER	Я	7084	7085	я	1	94	112	0	0	0	0	193	1573	я	nsubj	1584	PRON	PRON	Not_Assigned	Not_Assigned	3
+knyaz	4	1576	1576	PER	князь	7093	7098	князь	1	94	112	3	0	0	0	194	1576	князь	conj	1574	NOUN	NOM	Not_Assigned	Not_Assigned	3
+M11	29	1583	1583	FAC	Невский	7141	7148	невский	1	94	112	10	0	0	0	195	1583	невский	nmod	1581	ADJ	NOM	Not_Assigned	Not_Assigned	3
+Nastasya	2	1587	1587	PER	она	7162	7165	она	1	94	112	14	0	0	0	196	1587	она	nsubj	1590	PRON	PRON	Not_Assigned	Not_Assigned	3
+M12	30	1593	1593	VEH	карету	7189	7195	карету	1	94	112	20	0	0	0	197	1593	карету	obl	1594	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Rogozhin	0	1597	1597	PER	меня	7210	7214	меня	1	95	113	1	0	0	0	198	1597	меня	obj	1600	PRON	PRON	Not_Assigned	Not_Assigned	3
+Zalezhev	8	1603	1603	PER	Залёжева	7240	7248	залёжева	1	96	114	1	0	0	0	199	1603	залёжева	flat:name	1602	PROPN	PROP	Singular	Not_Assigned	3
+Zalezhev	8	1605	1605	PER	тот	7250	7253	тот	1	96	114	3	0	0	0	200	1605	тот	nsubj	1608	DET	PRON	Not_Assigned	Not_Assigned	3
+Rogozhin	0	1607	1607	PER	мне	7257	7260	мне	1	96	114	5	0	0	0	201	1607	мне	iobj	1608	PRON	PRON	Not_Assigned	Not_Assigned	3
+M13	31	1612	1612	PER	приказчик	7277	7286	приказчик	1	96	114	10	0	0	0	202	1612	приказчик	obl	1610	NOUN	NOM	Not_Assigned	Not_Assigned	3
+M14	32	1614	1614	PER	парикмахера	7290	7301	парикмахера	1	96	114	12	0	0	0	203	1614	парикмахера	nmod	1612	NOUN	NOM	Not_Assigned	Not_Assigned	3
+M15	24	1622	1622	PER	мы	7323	7325	мы	1	96	114	20	0	0	0	204	1622	мы	nsubj	1624	PRON	PRON	Not_Assigned	Not_Assigned	3
+SemenRogozhin	3	1624	1624	PER	родителя	7328	7336	родителя	1	96	114	22	0	0	0	205	1624	родителя	obl	1632	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Nastasya	2	1646	1646	PER	княгиня	7428	7435	княгиня	1	97	115	12	0	0	0	206	1646	княгиня	conj	1640	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Nastasya	2	1650	1650	PER	ее	7445	7447	ее	1	97	115	16	0	0	0	207	1650	ее	obj	1649	PRON	PRON	Not_Assigned	Not_Assigned	3
+Nastasya	2	1651	1652	PER	Настасьей Филипповной	7448	7469	настасьей филипповной	2	97	115	17	0	0	0	208	1651	настасьей	xcomp	1649	PROPN	PROP	Singular	Not_Assigned	3
+Nastasya	2	1655	1655	PER	Барашкова	7480	7489	барашкова	1	97	115	21	0	0	0	209	1655	барашкова	nmod	1654	PROPN	PROP	Singular	Not_Assigned	3
+Totski	5	1660	1660	PER	Тоцким	7501	7507	тоцким	1	97	115	26	0	0	0	210	1660	тоцким	obl	1658	ADJ	NOM	Not_Assigned	Not_Assigned	3
+Totski	5	1663	1663	PER	Тоцкий	7511	7517	тоцкий	1	97	115	29	0	0	0	211	1663	тоцкий	nsubj	1670	ADJ	NOM	Not_Assigned	Not_Assigned	3
+Nastasya	2	1665	1665	PER	нее	7521	7524	нее	1	97	115	31	0	0	0	212	1665	нее	nmod	1663	PRON	PRON	Not_Assigned	Not_Assigned	3
+M16	26	1686	1687	PER	первейшей раскрасавице	7632	7654	первейшей раскрасавице	2	97	115	52	0	0	0	213	1687	раскрасавице	obl	1684	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Peterbourg	36	1690	1690	LOC	Петербурге	7663	7673	петербурге	1	97	115	56	0	0	0	214	1690	петербурге	obl	1684	PROPN	PROP	Not_Assigned	Not_Assigned	3
+Totski	5	1694	1694	PER	он	7686	7688	он	1	98	116	1	0	0	0	215	1694	он	nsubj	1697	PRON	PRON	Not_Assigned	Not_Assigned	3
+Rogozhin	0	1695	1695	PER	мне	7689	7692	мне	1	98	116	2	0	0	0	216	1695	мне	iobj	1697	PRON	PRON	Not_Assigned	Not_Assigned	3
+Nastasya	2	1703	1704	PER	Настасью Филипповну	7725	7744	настасью филипповну	2	98	116	10	0	0	0	217	1703	настасью	obj	1702	PROPN	PROP	Singular	Not_Assigned	3
+M10	22	1706	1707	ORG	Большом театре	7747	7761	большом театре	2	98	116	13	0	0	0	218	1707	театре	obl	1702	NOUN	NOM	Not_Assigned	Not_Assigned	3
+M15	24	1724	1724	PER	нас	7822	7825	нас	1	99	117	1	0	0	0	219	1724	нас	obl	1751	PRON	PRON	Not_Assigned	Not_Assigned	3
+SemenRogozhin	3	1727	1727	PER	родителя	7829	7837	родителя	1	99	117	4	0	0	0	220	1727	родителя	conj	1724	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Rogozhin	0	1743	1743	PER	Я	7898	7899	я	1	100	118	0	0	0	0	221	1743	я	nsubj	1751	PRON	PRON	Not_Assigned	Not_Assigned	3
+Nastasya	2	1753	1754	PER	Настасью Филипповну	7939	7958	настасью филипповну	2	100	118	10	0	0	0	222	1753	настасью	obj	1756	PROPN	PROP	Singular	Not_Assigned	3
+SemenRogozhin	3	1765	1765	PER	покойник	8002	8010	покойник	1	101	119	1	0	0	0	223	1765	покойник	nsubj	1766	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Rogozhin	0	1767	1767	PER	мне	8016	8019	мне	1	101	119	3	0	0	0	224	1767	мне	iobj	1766	PRON	PRON	Not_Assigned	Not_Assigned	3
+Andreevi	19	1789	1789	PER	Андреевым	8120	8129	андреевым	1	101	119	25	0	0	0	225	1789	андреевым	nmod	1787	PROPN	PROP	Singular	Not_Assigned	3
+M19	23	1791	1791	ORG	контору	8133	8140	контору	1	101	119	27	0	0	0	226	1791	контору	nmod	1787	NOUN	NOM	Not_Assigned	Not_Assigned	3
+SemenRogozhin	3	1807	1807	PER	мне	8208	8211	мне	1	101	119	43	0	0	0	227	1807	мне	iobj	1808	PRON	PRON	Not_Assigned	Not_Assigned	3
+Rogozhin	0	1811	1811	PER	тебя	8229	8233	тебя	1	101	119	47	0	0	0	228	1811	тебя	obj	1812	PRON	PRON	Not_Assigned	Not_Assigned	3
+Rogozhin	0	1817	1817	PER	я	8259	8260	я	1	102	120	3	0	0	0	229	1817	я	nsubj	1818	PRON	PRON	Not_Assigned	Not_Assigned	3
+Andreevi	19	1825	1825	PER	Андреевым	8286	8295	андреевым	1	102	120	11	0	0	0	230	1825	андреевым	obl	1829	PROPN	PROP	Singular	Not_Assigned	3
+M19	23	1827	1827	ORG	контору	8298	8305	контору	1	102	120	13	0	0	0	231	1827	контору	obl	1829	NOUN	NOM	Not_Assigned	Not_Assigned	3
+M18	42	1839	1840	ORG	английский магазин	8346	8364	английский магазин	2	102	120	25	0	0	0	232	1840	магазин	obl	1818	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Rogozhin	0	1874	1874	PER	я	8532	8533	я	1	103	121	2	0	0	0	233	1874	я	nsubj	1873	PRON	PRON	Not_Assigned	Not_Assigned	3
+Zalezhev	8	1876	1876	PER	Залёжеву	8536	8544	залёжеву	1	103	121	4	0	0	0	234	1876	залёжеву	nmod	1873	PROPN	PROP	Singular	Not_Assigned	3
+Zalezhev	8	1884	1884	PER	брат	8564	8568	брат	1	103	121	12	0	0	0	235	1884	брат	parataxis	1882	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Nastasya	2	1887	1888	PER	Настасье Филипповне	8572	8591	настасье филипповне	2	103	121	15	0	0	0	236	1887	настасье	conj	1882	PROPN	PROP	Singular	Not_Assigned	3
+Rogozhin	0	1894	1894	PER	меня	8614	8618	меня	1	105	123	2	0	0	0	237	1894	меня	obl	1897	PRON	PRON	Not_Assigned	Not_Assigned	3
+Rogozhin	0	1901	1901	PER	мною	8647	8651	мною	1	105	123	9	0	0	0	238	1901	мною	acl	1897	PRON	PRON	Not_Assigned	Not_Assigned	3
+Rogozhin	0	1909	1909	PER	я	8677	8678	я	1	105	123	17	0	0	0	239	1909	я	nsubj	1912	PRON	PRON	Not_Assigned	Not_Assigned	3
+Nastasya	2	1919	1919	PER	ней	8714	8717	ней	1	106	124	2	0	0	0	240	1919	ней	obl	1922	PRON	PRON	Not_Assigned	Not_Assigned	3
+M17	34	1921	1921	FAC	залу	8720	8724	залу	1	106	124	4	0	0	0	241	1921	залу	obl	1922	NOUN	NOM	Not_Assigned	Not_Assigned	3
+Nastasya	2	1924	1924	PER	сама	8732	8736	сама	1	106	124	7	0	0	0	242	1924	сама	nsubj	1925	ADJ	NOM	Not_Assigned	Not_Assigned	3
+ZalezhevRogozhin	28	1927	1927	PER	нам	8745	8748	нам	1	106	124	10	0	0	0	243	1927	нам	obl	1925	PRON	PRON	Not_Assigned	Not_Assigned	3
+Rogozhin	0	1929	1929	PER	Я	8751	8752	я	1	107	125	0	0	0	0	244	1929	я	nsubj	1934	PRON	PRON	Not_Assigned	Not_Assigned	3
+Rogozhin	0	1938	1939	PER	я самый	8788	8795	я самый	2	107	125	9	0	0	0	245	1938	я	ccomp	1934	PRON	PRON	Not_Assigned	Not_Assigned	3
+M21	11	1946	1946	PER	Парфена	8812	8819	парфена	1	107	125	17	0	0	0	246	1946	парфена	conj	1938	PROPN	PROP	Singular	Not_Assigned	3
+M21	11	1950	1950	PER	Рогожина	8830	8838	рогожина	1	107	125	21	0	0	0	247	1950	рогожина	nsubj	1966	PROPN	PROP	Singular	Not_Assigned	3
+Zalezhev	8	1955	1955	PER	Залёжев	8852	8859	залёжев	1	107	125	26	0	0	0	248	1955	залёжев	appos	1954	PROPN	PROP	Singular	Not_Assigned	3
+Nastasya	2	1959	1959	PER	вам	8865	8868	вам	1	107	125	30	0	0	0	249	1959	вам	iobj	1966	PRON	PRON	Not_Assigned	Not_Assigned	3
+M21	11	1981	1984	PER	вашего друга господина Рогожина	8988	9019	вашего друга господина рогожина	4	108	126	11	0	0	0	250	1982	друга	nsubj	1979	NOUN	PROP	Singular	Not_Assigned	3
+M21	11	1986	1986	PER	его	9023	9026	его	1	108	126	16	0	0	0	251	1986	его	det	1988	DET	PRON	Not_Assigned	Not_Assigned	3
+Rogozhin	0	2001	2001	PER	я	9087	9088	я	1	109	127	4	0	0	0	252	2001	я	nsubj	2004	PRON	PRON	Not_Assigned	Not_Assigned	3
