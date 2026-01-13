@@ -2,6 +2,7 @@
 
 ## NER datasets
 
+
 ### conll2003-NER
 
 | Embedding Model              |   Micro F1 |   Macro F1 | Support   |
@@ -12,7 +13,6 @@
 | FacebookAI/xlm-roberta-large |      92.75 |      91.26 | 5,648     |
 | FacebookAI/roberta-large     |      93.05 |      91.45 | 5,648     |
 | google/t5-v1_1-xl            |      93.39 |      91.85 | 5,648     |
-| google/mt5-xxl               |      93.54 |      92.22 | 5,648     |
 | google/flan-t5-xl            |      93.57 |      92.38 | 5,648     |
 | google/mt5-xl                |      93.70 |      92.32 | 5,648     |
 
@@ -24,7 +24,7 @@
 | answerdotai/ModernBERT-large |      86.09 |      58.90 | 29,103    |
 | google-bert/bert-base-cased  |      87.62 |      62.08 | 29,103    |
 | google-bert/bert-large-cased |      87.93 |      64.56 | 29,103    |
-| google/t5-v1_1-xl            |      88.55 |      66.78 | 17,294    |
+| google/t5-v1_1-xl            |      88.66 |      66.20 | 26,050    |
 | FacebookAI/xlm-roberta-large |      88.70 |      66.69 | 29,103    |
 | FacebookAI/roberta-large     |      88.85 |      67.02 | 29,103    |
 
@@ -34,7 +34,7 @@
 | Embedding Model              |   Micro F1 |   Macro F1 | Support   |
 |:-----------------------------|-----------:|-----------:|:----------|
 | FacebookAI/xlm-roberta-large |      86.59 |      57.90 | 19,801    |
-| almanach/camembert-base      |      86.67 |      60.68 | 27,298    |
+| almanach/camembert-base      |      87.09 |      60.95 | 30,156    |
 
 
 ### long-litbank-fr-PER-only
@@ -51,10 +51,13 @@
 | answerdotai/ModernBERT-large |      88.66 |      78.53 | 11,257    |
 | google-bert/bert-large-cased |      89.40 |      79.53 | 11,257    |
 | google-bert/bert-base-cased  |      89.42 |      80.20 | 11,257    |
+| google/t5-v1_1-xl            |      90.74 |      82.05 | 11,257    |
 | FacebookAI/roberta-large     |      90.84 |      81.96 | 11,257    |
 
 
 
+
+=============
 
 **conll2003-NER** Mention Spans Detection ([test set](https://aclanthology.org/W03-0419/))
 
@@ -128,3 +131,4 @@ We evaluated PROPP’s NER pipeline using multiple transformer-based embedding m
 | google-bert/bert-base-cased  | 86.00 | 72.93 |   74.03 |   77.66 |                2136 |                   291 |    100 |
 | google-bert/bert-large-cased | 86.53 | 74.94 |   75.08 |   78.85 |                2136 |                   291 |    100 |
 | google/mt5-xl                | 89.63 | 80.61 |   78.76 |   83.00 |                2136 |                   291 |    100 |
+

@@ -68,3 +68,16 @@ tokens_df = load_tokens_df(file_name, root_directory)
 entities_df = load_entities_df(file_name, root_directory)
 characters_dict = load_book_file(file_name, root_directory)
 ```
+
+## Yes No Flowchart
+
+Did you define your entity types (annotation guidelines)?  
+  -> No -> Annotation Guidelines  
+Is there an annotated dataset containing those entities?  
+  -> No -> Annotate Dataset  
+In the right language?  
+  -> No -> Annotate Dataset (at least **test set** to evaluate model) OR Transfer Annotations OR Train a multilingual model  
+Is there a pretrained model available?  
+-> Is performance acceptable?  
+Yes -> Use the pretrained model  
+No -> Train and Evaluate a new model (how to improve model section: ablation, dataset size (tokens, mentions, monoentity), embedding model, model architecture)
