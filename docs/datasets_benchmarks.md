@@ -2,7 +2,6 @@
 
 ## NER datasets
 
-
 ### conll2003-NER
 
 | Embedding Model              |   Micro F1 |   Macro F1 | Support   |
@@ -24,9 +23,11 @@
 | answerdotai/ModernBERT-large |      86.09 |      58.90 | 29,103    |
 | google-bert/bert-base-cased  |      87.62 |      62.08 | 29,103    |
 | google-bert/bert-large-cased |      87.93 |      64.56 | 29,103    |
-| google/t5-v1_1-xl            |      88.66 |      66.20 | 26,050    |
+| google/t5-v1_1-xl            |      88.65 |      66.27 | 29,103    |
 | FacebookAI/xlm-roberta-large |      88.70 |      66.69 | 29,103    |
 | FacebookAI/roberta-large     |      88.85 |      67.02 | 29,103    |
+| google/flan-t5-xl            |      88.96 |      66.24 | 29,103    |
+| google/mt5-xl                |      89.00 |      65.68 | 29,103    |
 
 
 ### litbank-fr
@@ -34,14 +35,15 @@
 | Embedding Model              |   Micro F1 |   Macro F1 | Support   |
 |:-----------------------------|-----------:|-----------:|:----------|
 | FacebookAI/xlm-roberta-large |      86.59 |      57.90 | 19,801    |
-| almanach/camembert-base      |      87.09 |      60.95 | 30,156    |
+| almanach/camembert-large     |      86.99 |      61.02 | 25,395    |
+| almanach/camembert-base      |      87.76 |      61.43 | 38,630    |
 
 
 ### long-litbank-fr-PER-only
 
 | Embedding Model         |   Micro F1 |   Macro F1 | Support   |
 |:------------------------|-----------:|-----------:|:----------|
-| almanach/camembert-base |      96.25 |      96.25 | 11,277    |
+| almanach/camembert-base |      95.30 |      95.30 | 31,166    |
 
 
 ### ontonotes5_english-NER
@@ -51,6 +53,9 @@
 | answerdotai/ModernBERT-large |      88.66 |      78.53 | 11,257    |
 | google-bert/bert-large-cased |      89.40 |      79.53 | 11,257    |
 | google-bert/bert-base-cased  |      89.42 |      80.20 | 11,257    |
+| google/flan-t5-xl            |      90.52 |      81.81 | 11,257    |
+| FacebookAI/xlm-roberta-large |      90.59 |      81.32 | 11,257    |
+| google/mt5-xl                |      90.66 |      82.30 | 11,257    |
 | google/t5-v1_1-xl            |      90.74 |      82.05 | 11,257    |
 | FacebookAI/roberta-large     |      90.84 |      81.96 | 11,257    |
 
