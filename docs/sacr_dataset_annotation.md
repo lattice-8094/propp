@@ -1,26 +1,44 @@
 # Annotating a new dataset
 
-Why Annotating a New Dataset ?
+## Why Annotating a New Dataset ?
 
-The entity types you are interested in are not annotated in the [Available Dataset](available_datasets/).
+Sometimes the entity types you are interested in are not covered by the [Available Dataset](available_datasets/), or the language you are working with is not supported. 
+In these cases, you will need to create a dataset from scratch.
 
-The language you are interested in is not available.
+This page will guide you through the process of annotating a new dataset, from preparing your corpus to generating the annotation files used to train a new model with Propp.
 
 ## Creating a new dataset from scratch.
 
-1. Constitute a Corpus of text files
+### Collecting texts for the corpus
+
+To create a new dataset, you must first build the corpus to be annotated. The corpus should consist of one or more plain `.txt` files.
+
+Text selection should reflect the intended application of the model. 
+There is a trade-off between corpus size and annotation effort: more data improves coverage but requires more time to annotate. 
+In practice, a small but diverse corpus is often preferable to a large, homogeneous one (e.g. varying authors, genres, and periods).
+
+If the dataset is intended for public release, the source texts must be in the public domain.
+
+Copyright duration depends on jurisdiction; see: https://en.wikipedia.org/wiki/List_of_copyright_duration_by_country
+
+Suitable sources include:
+
+  - [Wikisource](https://en.wikisource.org/wiki/Main_Page)
+  - [Project Gutenberg](https://gutenberg.org/)
+  - [Standard Ebooks](https://standardebooks.org)
+  - [Gallica](https://gallica.bnf.fr/accueil/en/html/accueil-en)
+
+#### Example
+
+Suppose we want to train a model that detects all mentions referring to `animal entities`. 
+
+To construct a minimal corpus, we can start from Wikipedia pages related to animals.
+
+!!! note
+    Wikipedia content is released under the [**CC BY-SA** license](https://creativecommons.org/licenses/by-sa/4.0/deed.en) and is **not in the public domain**.  
    
-    You need to gather one or multiple files to be annotated in the .txt format.
 
-
-
-## Example
-
-Let's say we are interested in training a model that detect all mentions referring to animals entities.
-
-To constitute our corpus we might start by the Wikipedia pages related to animals.
-
-animals = ["Dog", "Guinea pig", "Cow", "Lion", "Jellyfish", "Flamingo", "Kangaroo"]
+In this example, we construct the corpus from Wikipedia pages corresponding to a small set of animal species (Dog, Guinea pig, Cow, Lion, Jellyfish, Flamingo, Kangaroo).
 
 ??? Abstract "Python Code to Generate the .txt Animals Corpus"
 
@@ -51,6 +69,8 @@ animals = ["Dog", "Guinea pig", "Cow", "Lion", "Jellyfish", "Flamingo", "Kangaro
             f.write(text)
     ```
 
+The resulting corpus has the following structure:
+
 ```
 animals_corpus/
 ├── cow.txt
@@ -62,14 +82,49 @@ animals_corpus/
 └── lion.txt
 ```
 
-### Annotation Guidelines: Definition of what is an animal
+This corpus serves as the foundation for the annotation process. 
 
-Animal mention = All mention (Proper Noun, noun phrases, pronouns) referring to a specific species of animal (excluding wider classes: genus, families, orders, etc.)
+Before starting the actual annotation, it is essential to clearly define what entities should be annotated and how mentions should be identified. 
 
-The definition should be precise and answer all edge cases. 
+This ensures consistency and reproducibility across the dataset.
 
-  - *Should we annotate pronouns ?*
-  - *Should we annotate Latin species name (*Panthera leo*) ?*
+### Annotation Guidelines
+
+Annotation guidelines are structured instructions that define how a dataset should be annotated.
+
+They serve as a reference for annotators to ensure that entities are identified consistently and reproducibly across the corpus. 
+
+Well-defined guidelines are essential for dataset quality, inter-annotator agreement, and for training models that generalize effectively.
+
+
+A good annotation guideline should include:
+
+  1. Precise definitions of the entities or phenomena to annotate.
+    - Clearly distinguish between closely related entity types. For example, in a narrative corpus, “Animal” vs. “Mythical Creature” should have unambiguous criteria.
+  - Examples of positive and negative cases.
+    - Positive: “The `lion` roared.” → `lion` is an Animal.
+    - Negative: “The Panthera leo genus is diverse.” → “Panthera leo” may or may not be annotated depending on your scope.
+  - Annotation rules for edge cases.
+    - Pronouns referring to annotated entities.
+    - Proper nouns vs. common nouns.
+    - Mentions in foreign or Latin names.
+  - Consistency instructions for dealing with ambiguous or borderline cases.
+    - For example, always prefer the more specific type when a mention could belong to two categories.
+
+Example (Animal annotation):
+
+Annotate all mentions of specific animal species: “Dog”, “Lion”, “Jellyfish”
+
+Do not annotate higher-level taxa: “Canine”, “Felidae”
+
+Annotate pronouns referring to these entities: “it”, “they”
+
+Annotate Latin species names if they appear in context: Panthera leo
+
+For more detailed examples and templates of well-structured guidelines, see:
+
+
+Transition vers annotation process
 
 ### Annotation Process
 

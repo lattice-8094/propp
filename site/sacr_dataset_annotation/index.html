@@ -1290,6 +1290,17 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#why-annotating-a-new-dataset" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why Annotating a New Dataset ?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#creating-a-new-dataset-from-scratch" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -1298,9 +1309,22 @@
     </span>
   </a>
   
-</li>
+    <nav class="md-nav" aria-label="Creating a new dataset from scratch.">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#collecting-texts-for-the-corpus" class="md-nav__link">
+    <span class="md-ellipsis">
       
-        <li class="md-nav__item">
+        Collecting texts for the corpus
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Collecting texts for the corpus">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#example" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -1309,14 +1333,18 @@
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Example">
-      <ul class="md-nav__list">
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
         
           <li class="md-nav__item">
-  <a href="#annotation-guidelines-definition-of-what-is-an-animal" class="md-nav__link">
+  <a href="#annotation-guidelines" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Annotation Guidelines: Definition of what is an animal
+        Annotation Guidelines
       
     </span>
   </a>
@@ -1410,6 +1438,17 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#why-annotating-a-new-dataset" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why Annotating a New Dataset ?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#creating-a-new-dataset-from-scratch" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -1418,9 +1457,22 @@
     </span>
   </a>
   
-</li>
+    <nav class="md-nav" aria-label="Creating a new dataset from scratch.">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#collecting-texts-for-the-corpus" class="md-nav__link">
+    <span class="md-ellipsis">
       
-        <li class="md-nav__item">
+        Collecting texts for the corpus
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Collecting texts for the corpus">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#example" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -1429,14 +1481,18 @@
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Example">
-      <ul class="md-nav__list">
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
         
           <li class="md-nav__item">
-  <a href="#annotation-guidelines-definition-of-what-is-an-animal" class="md-nav__link">
+  <a href="#annotation-guidelines" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Annotation Guidelines: Definition of what is an animal
+        Annotation Guidelines
       
     </span>
   </a>
@@ -1475,20 +1531,33 @@
                   
 
 <h1 id="annotating-a-new-dataset">Annotating a new dataset</h1>
-<p>Why Annotating a New Dataset ?</p>
-<p>The entity types you are interested in are not annotated in the <a href="../available_datasets/">Available Dataset</a>.</p>
-<p>The language you are interested in is not available.</p>
+<h2 id="why-annotating-a-new-dataset">Why Annotating a New Dataset ?</h2>
+<p>Sometimes the entity types you are interested in are not covered by the <a href="../available_datasets/">Available Dataset</a>, or the language you are working with is not supported. 
+In these cases, you will need to create a dataset from scratch.</p>
+<p>This page will guide you through the process of annotating a new dataset, from preparing your corpus to generating the annotation files used to train a new model with Propp.</p>
 <h2 id="creating-a-new-dataset-from-scratch">Creating a new dataset from scratch.</h2>
-<ol>
-<li>
-<p>Constitute a Corpus of text files</p>
-<p>You need to gather one or multiple files to be annotated in the .txt format.</p>
-</li>
-</ol>
-<h2 id="example">Example</h2>
-<p>Let's say we are interested in training a model that detect all mentions referring to animals entities.</p>
-<p>To constitute our corpus we might start by the Wikipedia pages related to animals.</p>
-<p>animals = ["Dog", "Guinea pig", "Cow", "Lion", "Jellyfish", "Flamingo", "Kangaroo"]</p>
+<h3 id="collecting-texts-for-the-corpus">Collecting texts for the corpus</h3>
+<p>To create a new dataset, you must first build the corpus to be annotated. The corpus should consist of one or more plain <code>.txt</code> files.</p>
+<p>Text selection should reflect the intended application of the model. 
+There is a trade-off between corpus size and annotation effort: more data improves coverage but requires more time to annotate. 
+In practice, a small but diverse corpus is often preferable to a large, homogeneous one (e.g. varying authors, genres, and periods).</p>
+<p>If the dataset is intended for public release, the source texts must be in the public domain.</p>
+<p>Copyright duration depends on jurisdiction; see: https://en.wikipedia.org/wiki/List_of_copyright_duration_by_country</p>
+<p>Suitable sources include:</p>
+<ul>
+<li><a href="https://en.wikisource.org/wiki/Main_Page">Wikisource</a></li>
+<li><a href="https://gutenberg.org/">Project Gutenberg</a></li>
+<li><a href="https://standardebooks.org">Standard Ebooks</a></li>
+<li><a href="https://gallica.bnf.fr/accueil/en/html/accueil-en">Gallica</a></li>
+</ul>
+<h4 id="example">Example</h4>
+<p>Suppose we want to train a model that detects all mentions referring to <code>animal entities</code>. </p>
+<p>To construct a minimal corpus, we can start from Wikipedia pages related to animals.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Wikipedia content is released under the <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en"><strong>CC BY-SA</strong> license</a> and is <strong>not in the public domain</strong>.  </p>
+</div>
+<p>In this example, we construct the corpus from Wikipedia pages corresponding to a small set of animal species (Dog, Guinea pig, Cow, Lion, Jellyfish, Flamingo, Kangaroo).</p>
 <details class="abstract">
 <summary>Python Code to Generate the .txt Animals Corpus</summary>
 <div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">wikipedia</span><span class="o">,</span><span class="w"> </span><span class="nn">os</span>
@@ -1517,6 +1586,7 @@
         <span class="n">f</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">text</span><span class="p">)</span>
 </code></pre></div>
 </details>
+<p>The resulting corpus has the following structure:</p>
 <div class="highlight"><pre><span></span><code>animals_corpus/
 ├── cow.txt
 ├── dog.txt
@@ -1526,13 +1596,42 @@
 ├── kangaroo.txt
 └── lion.txt
 </code></pre></div>
-<h3 id="annotation-guidelines-definition-of-what-is-an-animal">Annotation Guidelines: Definition of what is an animal</h3>
-<p>Animal mention = All mention (Proper Noun, noun phrases, pronouns) referring to a specific species of animal (excluding wider classes: genus, families, orders, etc.)</p>
-<p>The definition should be precise and answer all edge cases. </p>
-<ul>
-<li><em>Should we annotate pronouns ?</em></li>
-<li><em>Should we annotate Latin species name (</em>Panthera leo<em>) ?</em></li>
+<p>This corpus serves as the foundation for the annotation process. </p>
+<p>Before starting the actual annotation, it is essential to clearly define what entities should be annotated and how mentions should be identified. </p>
+<p>This ensures consistency and reproducibility across the dataset.</p>
+<h3 id="annotation-guidelines">Annotation Guidelines</h3>
+<p>Annotation guidelines are structured instructions that define how a dataset should be annotated.</p>
+<p>They serve as a reference for annotators to ensure that entities are identified consistently and reproducibly across the corpus. </p>
+<p>Well-defined guidelines are essential for dataset quality, inter-annotator agreement, and for training models that generalize effectively.</p>
+<p>A good annotation guideline should include:</p>
+<ol>
+<li>Precise definitions of the entities or phenomena to annotate.<ul>
+<li>Clearly distinguish between closely related entity types. For example, in a narrative corpus, “Animal” vs. “Mythical Creature” should have unambiguous criteria.</li>
 </ul>
+</li>
+<li>Examples of positive and negative cases.<ul>
+<li>Positive: “The <code>lion</code> roared.” → <code>lion</code> is an Animal.</li>
+<li>Negative: “The Panthera leo genus is diverse.” → “Panthera leo” may or may not be annotated depending on your scope.</li>
+</ul>
+</li>
+<li>Annotation rules for edge cases.<ul>
+<li>Pronouns referring to annotated entities.</li>
+<li>Proper nouns vs. common nouns.</li>
+<li>Mentions in foreign or Latin names.</li>
+</ul>
+</li>
+<li>Consistency instructions for dealing with ambiguous or borderline cases.<ul>
+<li>For example, always prefer the more specific type when a mention could belong to two categories.</li>
+</ul>
+</li>
+</ol>
+<p>Example (Animal annotation):</p>
+<p>Annotate all mentions of specific animal species: “Dog”, “Lion”, “Jellyfish”</p>
+<p>Do not annotate higher-level taxa: “Canine”, “Felidae”</p>
+<p>Annotate pronouns referring to these entities: “it”, “they”</p>
+<p>Annotate Latin species names if they appear in context: Panthera leo</p>
+<p>For more detailed examples and templates of well-structured guidelines, see:</p>
+<p>Transition vers annotation process</p>
 <h3 id="annotation-process">Annotation Process</h3>
 <p>Multiple annotation tools exist. For Propp we use <a href="https://boberle.com/projects/coreference-annotation-with-sacr/">SACR</a></p>
 <div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Cite this work</label><label for="__tabbed_1_2">BibTeX</label></div>

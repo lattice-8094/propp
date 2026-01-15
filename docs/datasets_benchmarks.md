@@ -4,6 +4,8 @@
 
 ### conll2003-NER
 
+Test Splits: 1 [231 File(s) / split]  |  Overall Tested Ratio: 16.58% [231/1393 Files]
+
 | Embedding Model              |   Micro F1 |   Macro F1 | Support   |
 |:-----------------------------|-----------:|-----------:|:----------|
 | answerdotai/ModernBERT-large |      89.59 |      88.07 | 5,648     |
@@ -17,6 +19,8 @@
 
 
 ### litbank
+
+Test Splits: 10 [10 File(s) / split]  |  Overall Tested Ratio: 100.00% [100/100 Files]
 
 | Embedding Model              |   Micro F1 |   Macro F1 | Support   |
 |:-----------------------------|-----------:|-----------:|:----------|
@@ -32,21 +36,30 @@
 
 ### litbank-fr
 
-| Embedding Model              |   Micro F1 |   Macro F1 | Support   |
-|:-----------------------------|-----------:|-----------:|:----------|
-| FacebookAI/xlm-roberta-large |      86.59 |      57.90 | 19,801    |
-| almanach/camembert-large     |      86.99 |      61.02 | 25,395    |
-| almanach/camembert-base      |      87.76 |      61.43 | 38,630    |
+Test Splits: 29 [1 File(s) / split]  |  Overall Tested Ratio: 100.00% [29/29 Files]
+
+| Embedding Model                   |   Micro F1 |   Macro F1 | Support   |
+|:----------------------------------|-----------:|-----------:|:----------|
+| almanach/moderncamembert-cv2-base |      83.57 |      54.20 | 32,241    |
+| google/mt5-xl                     |      86.87 |      58.98 | 21,332    |
+| FacebookAI/xlm-roberta-large      |      87.70 |      60.39 | 38,630    |
+| almanach/camembert-base           |      87.76 |      61.43 | 38,630    |
+| almanach/camembert-large          |      88.19 |      62.43 | 38,630    |
 
 
 ### long-litbank-fr-PER-only
 
-| Embedding Model         |   Micro F1 |   Macro F1 | Support   |
-|:------------------------|-----------:|-----------:|:----------|
-| almanach/camembert-base |      95.30 |      95.30 | 31,166    |
+Test Splits: 20 [1 File(s) / split]  |  Overall Tested Ratio: 62.50% [20/32 Files]
+
+| Embedding Model              |   Micro F1 |   Macro F1 | Support   |
+|:-----------------------------|-----------:|-----------:|:----------|
+| FacebookAI/xlm-roberta-large |      94.04 |      94.04 | 43,197    |
+| almanach/camembert-base      |      94.17 |      94.17 | 44,977    |
 
 
 ### ontonotes5_english-NER
+
+Test Splits: 1 [207 File(s) / split]  |  Overall Tested Ratio: 5.69% [207/3637 Files]
 
 | Embedding Model              |   Micro F1 |   Macro F1 | Support   |
 |:-----------------------------|-----------:|-----------:|:----------|
@@ -58,6 +71,7 @@
 | google/mt5-xl                |      90.66 |      82.30 | 11,257    |
 | google/t5-v1_1-xl            |      90.74 |      82.05 | 11,257    |
 | FacebookAI/roberta-large     |      90.84 |      81.96 | 11,257    |
+
 
 
 

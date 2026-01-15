@@ -1609,6 +1609,7 @@
 <h1 id="datasets-benchmarks">Datasets Benchmarks</h1>
 <h2 id="ner-datasets">NER datasets</h2>
 <h3 id="conll2003-ner">conll2003-NER</h3>
+<p>Test Splits: 1 [231 File(s) / split]  |  Overall Tested Ratio: 16.58% [231/1393 Files]</p>
 <table>
 <thead>
 <tr>
@@ -1670,6 +1671,7 @@
 </tbody>
 </table>
 <h3 id="litbank">litbank</h3>
+<p>Test Splits: 10 [10 File(s) / split]  |  Overall Tested Ratio: 100.00% [100/100 Files]</p>
 <table>
 <thead>
 <tr>
@@ -1700,9 +1702,9 @@
 </tr>
 <tr>
 <td style="text-align: left;">google/t5-v1_1-xl</td>
-<td style="text-align: right;">88.66</td>
-<td style="text-align: right;">66.20</td>
-<td style="text-align: left;">26,050</td>
+<td style="text-align: right;">88.65</td>
+<td style="text-align: right;">66.27</td>
+<td style="text-align: left;">29,103</td>
 </tr>
 <tr>
 <td style="text-align: left;">FacebookAI/xlm-roberta-large</td>
@@ -1716,9 +1718,66 @@
 <td style="text-align: right;">67.02</td>
 <td style="text-align: left;">29,103</td>
 </tr>
+<tr>
+<td style="text-align: left;">google/flan-t5-xl</td>
+<td style="text-align: right;">88.96</td>
+<td style="text-align: right;">66.24</td>
+<td style="text-align: left;">29,103</td>
+</tr>
+<tr>
+<td style="text-align: left;">google/mt5-xl</td>
+<td style="text-align: right;">89.00</td>
+<td style="text-align: right;">65.68</td>
+<td style="text-align: left;">29,103</td>
+</tr>
 </tbody>
 </table>
 <h3 id="litbank-fr">litbank-fr</h3>
+<p>Test Splits: 29 [1 File(s) / split]  |  Overall Tested Ratio: 100.00% [29/29 Files]</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Embedding Model</th>
+<th style="text-align: right;">Micro F1</th>
+<th style="text-align: right;">Macro F1</th>
+<th style="text-align: left;">Support</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">almanach/moderncamembert-cv2-base</td>
+<td style="text-align: right;">83.57</td>
+<td style="text-align: right;">54.20</td>
+<td style="text-align: left;">32,241</td>
+</tr>
+<tr>
+<td style="text-align: left;">google/mt5-xl</td>
+<td style="text-align: right;">86.87</td>
+<td style="text-align: right;">58.98</td>
+<td style="text-align: left;">21,332</td>
+</tr>
+<tr>
+<td style="text-align: left;">FacebookAI/xlm-roberta-large</td>
+<td style="text-align: right;">87.70</td>
+<td style="text-align: right;">60.39</td>
+<td style="text-align: left;">38,630</td>
+</tr>
+<tr>
+<td style="text-align: left;">almanach/camembert-base</td>
+<td style="text-align: right;">87.76</td>
+<td style="text-align: right;">61.43</td>
+<td style="text-align: left;">38,630</td>
+</tr>
+<tr>
+<td style="text-align: left;">almanach/camembert-large</td>
+<td style="text-align: right;">88.19</td>
+<td style="text-align: right;">62.43</td>
+<td style="text-align: left;">38,630</td>
+</tr>
+</tbody>
+</table>
+<h3 id="long-litbank-fr-per-only">long-litbank-fr-PER-only</h3>
+<p>Test Splits: 20 [1 File(s) / split]  |  Overall Tested Ratio: 62.50% [20/32 Files]</p>
 <table>
 <thead>
 <tr>
@@ -1731,38 +1790,20 @@
 <tbody>
 <tr>
 <td style="text-align: left;">FacebookAI/xlm-roberta-large</td>
-<td style="text-align: right;">86.59</td>
-<td style="text-align: right;">57.90</td>
-<td style="text-align: left;">19,801</td>
+<td style="text-align: right;">94.04</td>
+<td style="text-align: right;">94.04</td>
+<td style="text-align: left;">43,197</td>
 </tr>
 <tr>
 <td style="text-align: left;">almanach/camembert-base</td>
-<td style="text-align: right;">87.09</td>
-<td style="text-align: right;">60.95</td>
-<td style="text-align: left;">30,156</td>
-</tr>
-</tbody>
-</table>
-<h3 id="long-litbank-fr-per-only">long-litbank-fr-PER-only</h3>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Embedding Model</th>
-<th style="text-align: right;">Micro F1</th>
-<th style="text-align: right;">Macro F1</th>
-<th style="text-align: left;">Support</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;">almanach/camembert-base</td>
-<td style="text-align: right;">96.25</td>
-<td style="text-align: right;">96.25</td>
-<td style="text-align: left;">11,277</td>
+<td style="text-align: right;">94.17</td>
+<td style="text-align: right;">94.17</td>
+<td style="text-align: left;">44,977</td>
 </tr>
 </tbody>
 </table>
 <h3 id="ontonotes5_english-ner">ontonotes5_english-NER</h3>
+<p>Test Splits: 1 [207 File(s) / split]  |  Overall Tested Ratio: 5.69% [207/3637 Files]</p>
 <table>
 <thead>
 <tr>
@@ -1789,6 +1830,24 @@
 <td style="text-align: left;">google-bert/bert-base-cased</td>
 <td style="text-align: right;">89.42</td>
 <td style="text-align: right;">80.20</td>
+<td style="text-align: left;">11,257</td>
+</tr>
+<tr>
+<td style="text-align: left;">google/flan-t5-xl</td>
+<td style="text-align: right;">90.52</td>
+<td style="text-align: right;">81.81</td>
+<td style="text-align: left;">11,257</td>
+</tr>
+<tr>
+<td style="text-align: left;">FacebookAI/xlm-roberta-large</td>
+<td style="text-align: right;">90.59</td>
+<td style="text-align: right;">81.32</td>
+<td style="text-align: left;">11,257</td>
+</tr>
+<tr>
+<td style="text-align: left;">google/mt5-xl</td>
+<td style="text-align: right;">90.66</td>
+<td style="text-align: right;">82.30</td>
 <td style="text-align: left;">11,257</td>
 </tr>
 <tr>
