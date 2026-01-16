@@ -40,21 +40,24 @@ Test Splits: 29 [1 File(s) / split]  |  Overall Tested Ratio: 100.00% [29/29 Fil
 
 | Embedding Model                   |   Micro F1 |   Macro F1 | Support   |
 |:----------------------------------|-----------:|-----------:|:----------|
-| almanach/moderncamembert-cv2-base |      83.57 |      54.20 | 32,241    |
-| google/mt5-xl                     |      86.87 |      58.98 | 21,332    |
+| almanach/moderncamembert-cv2-base |      84.43 |      54.84 | 38,630    |
+| almanach/moderncamembert-base     |      85.31 |      57.20 | 38,630    |
 | FacebookAI/xlm-roberta-large      |      87.70 |      60.39 | 38,630    |
 | almanach/camembert-base           |      87.76 |      61.43 | 38,630    |
+| google/mt5-xl                     |      88.16 |      61.62 | 38,630    |
 | almanach/camembert-large          |      88.19 |      62.43 | 38,630    |
 
 
 ### long-litbank-fr-PER-only
 
-Test Splits: 20 [1 File(s) / split]  |  Overall Tested Ratio: 62.50% [20/32 Files]
+Test Splits: 32 [1 File(s) / split]  |  Overall Tested Ratio: 100.00% [32/32 Files]
 
-| Embedding Model              |   Micro F1 |   Macro F1 | Support   |
-|:-----------------------------|-----------:|-----------:|:----------|
-| FacebookAI/xlm-roberta-large |      94.04 |      94.04 | 43,197    |
-| almanach/camembert-base      |      94.17 |      94.17 | 44,977    |
+| Embedding Model                   |   Micro F1 |   Macro F1 | Support   |
+|:----------------------------------|-----------:|-----------:|:----------|
+| almanach/moderncamembert-cv2-base |      91.41 |      91.41 | 42,137    |
+| almanach/camembert-large          |      94.43 |      94.43 | 37,346    |
+| FacebookAI/xlm-roberta-large      |      94.45 |      94.45 | 70,355    |
+| almanach/camembert-base           |      94.57 |      94.57 | 71,883    |
 
 
 ### ontonotes5_english-NER
@@ -71,8 +74,6 @@ Test Splits: 1 [207 File(s) / split]  |  Overall Tested Ratio: 5.69% [207/3637 F
 | google/mt5-xl                |      90.66 |      82.30 | 11,257    |
 | google/t5-v1_1-xl            |      90.74 |      82.05 | 11,257    |
 | FacebookAI/roberta-large     |      90.84 |      81.96 | 11,257    |
-
-
 
 
 
