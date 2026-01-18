@@ -17,8 +17,8 @@ Test Splits: 1 [231 File(s) / split]  |  Overall Tested Ratio: 16.58% [231/1393 
 | google/flan-t5-xl            |      93.57 |      92.38 | 5,648     |
 | google/mt5-xl                |      93.70 |      92.32 | 5,648     |
 
-
 ### litbank
+
 
 Test Splits: 10 [10 File(s) / split]  |  Overall Tested Ratio: 100.00% [100/100 Files]
 
@@ -33,8 +33,8 @@ Test Splits: 10 [10 File(s) / split]  |  Overall Tested Ratio: 100.00% [100/100 
 | google/flan-t5-xl            |      88.96 |      66.24 | 29,103    |
 | google/mt5-xl                |      89.00 |      65.68 | 29,103    |
 
+-fr
 
-### litbank-fr
 
 Test Splits: 29 [1 File(s) / split]  |  Overall Tested Ratio: 100.00% [29/29 Files]
 
@@ -47,20 +47,22 @@ Test Splits: 29 [1 File(s) / split]  |  Overall Tested Ratio: 100.00% [29/29 Fil
 | google/mt5-xl                     |      88.16 |      61.62 | 38,630    |
 | almanach/camembert-large          |      88.19 |      62.43 | 38,630    |
 
-
 ### long-litbank-fr-PER-only
+
 
 Test Splits: 32 [1 File(s) / split]  |  Overall Tested Ratio: 100.00% [32/32 Files]
 
 | Embedding Model                   |   Micro F1 |   Macro F1 | Support   |
 |:----------------------------------|-----------:|-----------:|:----------|
-| almanach/moderncamembert-cv2-base |      91.41 |      91.41 | 42,137    |
-| almanach/camembert-large          |      94.43 |      94.43 | 37,346    |
-| FacebookAI/xlm-roberta-large      |      94.45 |      94.45 | 70,355    |
+| almanach/moderncamembert-cv2-base |      91.94 |      91.94 | 71,883    |
+| almanach/moderncamembert-base     |      92.74 |      92.74 | 71,883    |
+| FacebookAI/xlm-roberta-large      |      94.45 |      94.45 | 71,883    |
 | almanach/camembert-base           |      94.57 |      94.57 | 71,883    |
-
+| almanach/camembert-large          |      94.74 |      94.74 | 71,883    |
+| google/mt5-xl                     |      94.74 |      94.74 | 71,883    |
 
 ### ontonotes5_english-NER
+
 
 Test Splits: 1 [207 File(s) / split]  |  Overall Tested Ratio: 5.69% [207/3637 Files]
 
@@ -74,6 +76,8 @@ Test Splits: 1 [207 File(s) / split]  |  Overall Tested Ratio: 5.69% [207/3637 F
 | google/mt5-xl                |      90.66 |      82.30 | 11,257    |
 | google/t5-v1_1-xl            |      90.74 |      82.05 | 11,257    |
 | FacebookAI/roberta-large     |      90.84 |      81.96 | 11,257    |
+
+
 
 
 
