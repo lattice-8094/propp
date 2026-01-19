@@ -172,6 +172,12 @@ ANIMAL
 GPE
 ```
 
+Example of other annotation properties: 
+
+litbank-fr: 7 ['FAC', 'TIME', 'GPE', 'ORG', 'VEH', 'LOC', 'PER']  
+litbank-ru : 6 ['FAC', 'GPE', 'ORG', 'VEH', 'LOC', 'PER']  
+litbank : 6 ['FAC', 'GPE', 'ORG', 'VEH', 'LOC', 'PER']  
+
 1. Open the [SACR annotation Home Page](https://boberle.com/projects/coreference-annotation-with-sacr/online/)
 2. Load your raw .txt file
 3. Paste you Properties configuration
