@@ -174,9 +174,23 @@ GPE
 
 Example of other annotation properties: 
 
-litbank-fr: 7 ['FAC', 'TIME', 'GPE', 'ORG', 'VEH', 'LOC', 'PER']  
-litbank-ru : 6 ['FAC', 'GPE', 'ORG', 'VEH', 'LOC', 'PER']  
-litbank : 6 ['FAC', 'GPE', 'ORG', 'VEH', 'LOC', 'PER']  
+Dataset: long-litbank-fr-PER-only
+1 Entity Type(s): ['PER']
+
+Dataset: litbank-fr
+7 Entity Type(s): ['FAC', 'TIME', 'GPE', 'ORG', 'VEH', 'LOC', 'PER']
+
+Dataset: litbank-ru
+6 Entity Type(s): ['FAC', 'GPE', 'ORG', 'VEH', 'LOC', 'PER']
+
+Dataset: litbank
+6 Entity Type(s): ['FAC', 'GPE', 'ORG', 'VEH', 'LOC', 'PER']
+
+Dataset: conll2003-NER
+4 Entity Type(s): ['PER', 'LOC', 'ORG', 'MISC']
+
+Dataset: ontonotes5_english-NER
+18 Entity Type(s): ['FAC', 'DATE', 'QUANTITY', 'CARDINAL', 'NORP', 'EVENT', 'PERCENT', 'LANGUAGE', 'ORDINAL', 'GPE', 'ORG', 'LAW', 'TIME', 'LOC', 'WORK_OF_ART', 'PERSON', 'PRODUCT', 'MONEY']
 
 1. Open the [SACR annotation Home Page](https://boberle.com/projects/coreference-annotation-with-sacr/online/)
 2. Load your raw .txt file
