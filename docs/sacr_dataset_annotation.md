@@ -123,6 +123,15 @@ Annotate Latin species names if they appear in context: Panthera leo
 
 For more detailed examples and templates of well-structured guidelines, see:
 
+### Annotation guidelines examples
+
+#### Litbank
+
+https://github.com/dbamman/litbank?tab=readme-ov-file
+
+#### Litbank-fr
+
+https://github.com/lattice-8094/Proppagate/blob/main/fr/data/Manuel_Annotation_propp.md
 
 Transition vers annotation process
 

@@ -17,7 +17,7 @@ Test Splits: 1 [231 File(s) / split]  |  Overall Tested Ratio: 16.58% [231/1393 
 | google/flan-t5-xl            |      93.57 |      92.38 | 5,648     |
 | google/mt5-xl                |      93.70 |      92.32 | 5,648     |
 
-### litbank
+### litbank-fr
 
 
 Test Splits: 10 [10 File(s) / split]  |  Overall Tested Ratio: 100.00% [100/100 Files]
@@ -33,7 +33,7 @@ Test Splits: 10 [10 File(s) / split]  |  Overall Tested Ratio: 100.00% [100/100 
 | google/flan-t5-xl            |      88.96 |      66.24 | 29,103    |
 | google/mt5-xl                |      89.00 |      65.68 | 29,103    |
 
--fr
+
 
 
 Test Splits: 29 [1 File(s) / split]  |  Overall Tested Ratio: 100.00% [29/29 Files]
