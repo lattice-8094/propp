@@ -51,6 +51,14 @@ This code will process all the `.txt` files in a `files_directory` and saves the
             coreference_resolution_model,
             propagate_coref=True,
             rule_based_postprocess=False,
+            characters_alias_list=None, # Can pass a list of lists, or a dict with values being list of aliases
+                                        # characters_alias_list = {
+                                        #                     'Phileas_Fogg': ["phileas fogg", "mr. fogg", "mr. phileas fogg", "m. phileas fogg",],
+                                        #                     'Jean_Passepartout': ["passepartout"],
+                                        #                     'Fix': ["fix", "l' inspecteur fix", "monsieur fix",],
+                                        #                     'Mrs_Aouda': ["mrs . aouda"],
+                                        #                     'James_Forster': ["james forster"],}
+
         )
     
         tokens_df = extract_attributes(entities_df, tokens_df)
