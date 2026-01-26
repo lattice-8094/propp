@@ -1,3 +1,4 @@
+import sys
 import warnings
 import os
 import pandas as pd
@@ -914,7 +915,7 @@ def train_model(train_dataset,
             patience_counter += 1
 
         # Verbose logging
-        if verbose:
+        if verbose != 0:
             print(
                 f"Train Loss: {train_loss:.4f}\t\tTrain Acc:{train_accuracy:.4f}\t\tVal Loss: {val_loss:.4f}\t\tVal Acc: {val_accuracy:.4f}\t\tVal Loss Patience: {patience - patience_counter}")
 
@@ -932,7 +933,7 @@ def train_model(train_dataset,
     return model, logs
 
 # Model predicitons
-def get_predictions(model, model_data_dict, batch_size=10000):
+def get_predictions(model, model_data_dict, batch_size=10000, verbose=1):
     """
     Generate predictions for coreference pairs using a trained model.
 
@@ -962,7 +963,7 @@ def get_predictions(model, model_data_dict, batch_size=10000):
     # Set the model to evaluation mode to disable dropout and other training-specific behavior
     model.eval()
     with torch.no_grad():  # Disable gradient computation for efficiency
-        for X_batch, _ in tqdm(data_loader, desc="Predicting Coreference Pairs", leave=False):
+        for X_batch, _ in tqdm(data_loader, desc="Predicting Coreference Pairs", leave=False, disable=(verbose != 2)):
             X_batch = X_batch.to(device)  # Move the batch to the same device as the model
             # Generate predictions and move them back to CPU for further processing
             batch_predictions = torch.sigmoid(model(X_batch)).cpu().numpy()
@@ -1411,7 +1412,8 @@ def evaluate_coreference_model(trained_coreference_model, coreference_resolution
                                mention_pairs_post_process=['sort_by_confidence', 'sort_by_highest_ranked_antecedent',
                                                            'assign_coreference_to_proper_mentions',
                                                            'assign_coreference_to_direct_nested_mentions',
-                                                           'assign_coreference_to_explicit_mentions']
+                                                           'assign_coreference_to_explicit_mentions'],
+                               verbose=1,
                                ):
     """
     Evaluates a trained coreference model on a given test file and calculates coreference metrics for different token windows.
@@ -1436,7 +1438,7 @@ def evaluate_coreference_model(trained_coreference_model, coreference_resolution
     gold_labels = test_data["overall_labels_tensor"]
 
     # Step 3: Get model predictions
-    predictions = get_predictions(trained_coreference_model, test_data, batch_size=10000)
+    predictions = get_predictions(trained_coreference_model, test_data, batch_size=10000, verbose=verbose)
     argmax_predictions = np.where(predictions >= 0.5, 1, 0)
 
     # Step 4: Generate prediction report (precision, recall, F1) for predicted mentions pairs
@@ -1465,13 +1467,13 @@ def evaluate_coreference_model(trained_coreference_model, coreference_resolution
 
     # Iterate over different window sizes
     for window_range in tqdm(window_ranges, desc="Evaluating Coreference Resolution for different windows",
-                             leave=False):
+                             leave=False, disable=(verbose != 2)):
         # Generates window boundaries based on the token count and window size
         boundaries = [{"start_token_id": i, "end_token_id": i + window_range}
                       for i in range(0, tokens_count, window_range) if i + window_range <= tokens_count
                       ]
 
-        for window in tqdm(boundaries, desc=f"window_range: {window_range} Tokens", leave=False):
+        for window in tqdm(boundaries, desc=f"window_range: {window_range} Tokens", leave=False, disable=(verbose != 2)):
             start_token_id = window['start_token_id']
             end_token_id = window['end_token_id']
             tokens_span = end_token_id - start_token_id
@@ -1512,7 +1514,8 @@ def evaluate_coreference_model(trained_coreference_model, coreference_resolution
 def coreference_resolution_LOOCV_full_model_training(
         files_directory=None,
         model_name="almanach/camembert-large",
-        files_to_use_in_cross_validation="all",
+        train_files="all",
+        test_splits="LOOCV",
         train_final_model = True,
         coref_trained_model_directory=None,
         pronoun_antecedent_max_distance=30,
@@ -1544,8 +1547,8 @@ def coreference_resolution_LOOCV_full_model_training(
                                     'assign_coreference_to_proper_mentions',
                                     'assign_coreference_to_direct_nested_mentions',
                                     'assign_coreference_to_explicit_mentions'],
+        evaluate=True,
 ):
-    tokenizer, model = load_tokenizer_and_embedding_model(model_name=model_name)
     config = AutoConfig.from_pretrained(model_name)
     embedding_dim = config.hidden_size
 
@@ -1568,31 +1571,43 @@ def coreference_resolution_LOOCV_full_model_training(
         embedding_batch_size=embedding_batch_size,
         features=features)
 
-    all_files = list(coreference_resolution_training_dict.keys())
+    # 5. File Splits for Cross-Validation
+    if train_files == "all":
+        all_files = list(coreference_resolution_training_dict.keys())
+    if isinstance(train_files, list):
+        all_files = [file_name for file_name in train_files if file_name in train_files]
 
-    if files_to_use_in_cross_validation == "all":
-        files_to_use_in_cross_validation = all_files
+    if test_splits == "LOOCV":
+        test_splits = {file_name: [file_name] for file_name in all_files}
 
-    # 6. Identify Unprocessed Files - This allows to resume training
-    processed_files = [file for file in os.listdir(coref_trained_model_directory)]
-    if train_final_model == True:
-        to_process_files = [file for file in ["final_model"] + files_to_use_in_cross_validation if
-                            file not in processed_files]
-    else:
-        to_process_files = [file for file in files_to_use_in_cross_validation if
-                            file not in processed_files]
+    if isinstance(test_splits, list): # test_splits contains a list
+        # Case: list of lists (e.g. predefined folds)
+        if test_splits and isinstance(test_splits[0], list):
+            print("test_splits is a list of lists")
 
-    for test_file in tqdm(to_process_files):
-        if test_file == "final_model":
-            test_files = []
+            # Map index → list of files in that fold
+            test_splits = {str(i): split_files for i, split_files in enumerate(test_splits)}
         else:
-            test_files = [test_file]
+            test_splits = {file_name: [file_name] for file_name in test_splits}
+
+    if not isinstance(test_splits, dict):
+        print(f"test_splits is not a dictionary.")
+        sys.exit(1)
+
+    if train_final_model == True:
+        test_splits["FINAL_MODEL"] = []
+
+    to_process_splits = {}
+    for split_name, split_files in test_splits.items():
+        trained_coreference_model_path = os.path.join(coref_trained_model_directory, f"coreference_resolution_{split_name}")
+        if not os.path.isfile(trained_coreference_model_path):
+            to_process_splits[trained_coreference_model_path] = split_files
+
+    for trained_coreference_model_path, test_files in tqdm(to_process_splits.items()):
 
         validation_files = []
         train_files = [file for file in all_files if file not in test_files + validation_files]
 
-        # Assigning model path
-        trained_coreference_model_path = os.path.join(coref_trained_model_directory, f"{test_file}")
         print(f"Trained Coreference Model Path:\n{trained_coreference_model_path}")
 
         split = {"test_files": test_files,
@@ -1602,10 +1617,12 @@ def coreference_resolution_LOOCV_full_model_training(
         if validation_files != []:  # Corrected check for an empty list
             train_with_validation_ratio = 0
 
-        train_dataset, validation_dataset = generate_train_and_validation_datasets(split,
-                                                                                   coreference_resolution_training_dict,
-                                                                                   train_with_validation_ratio=train_with_validation_ratio,
-                                                                                   random_state=random_state)
+        train_dataset, validation_dataset = generate_train_and_validation_datasets(
+            split,
+            coreference_resolution_training_dict,
+            train_with_validation_ratio=train_with_validation_ratio,
+            random_state=random_state)
+
         model, logs = train_model(train_dataset=train_dataset,
                                   validation_dataset=validation_dataset,
                                   batch_size=batch_size,
@@ -1623,15 +1640,19 @@ def coreference_resolution_LOOCV_full_model_training(
                                   random_state=random_state,
                                   loader_workers=loader_workers)
 
-        test_prediction_report, model_coreference_resolution_metrics_df = None, None
-        if len(test_files) != 0:
-            print(f"Evaluating trained model on: {', '.join(test_files)}")
-            test_prediction_report, model_coreference_resolution_metrics_df = evaluate_coreference_model(
-                trained_coreference_model=model,
-                coreference_resolution_training_dict=coreference_resolution_training_dict,
-                test_file=test_file,
-                files_directory=files_directory,
-                mention_pairs_post_process=mention_pairs_post_process)
+        all_test_prediction_reports, all_model_coreference_resolution_metrics_dfs = None, None
+        if len(test_files) != 0 and evaluate==True:
+            all_test_prediction_reports, all_model_coreference_resolution_metrics_dfs = {}, {}
+            for test_file in test_files:
+                test_prediction_report, model_coreference_resolution_metrics_df = evaluate_coreference_model(
+                    trained_coreference_model=model,
+                    coreference_resolution_training_dict=coreference_resolution_training_dict,
+                    test_file=test_file,
+                    files_directory=files_directory,
+                    mention_pairs_post_process=mention_pairs_post_process,
+                    verbose=verbose,)
+                all_test_prediction_reports[test_file] = test_prediction_report
+                all_model_coreference_resolution_metrics_dfs[test_file] = model_coreference_resolution_metrics_df
 
         # Prepare a dictionary to store all relevant training and evaluation information
         trained_model_infos = {"files_directory": files_directory,
@@ -1653,7 +1674,6 @@ def coreference_resolution_LOOCV_full_model_training(
                                "learning_rate": learning_rate,
                                "patience": patience,
                                "max_epochs": max_epochs,
-                               "verbose": verbose,
                                "focal_loss_gamma": focal_loss_gamma,
                                "focal_loss_alpha": focal_loss_alpha,
                                "layer_type": layer_type,
@@ -1661,8 +1681,8 @@ def coreference_resolution_LOOCV_full_model_training(
                                "model": model,
                                "logs": logs,
                                "mention_pairs_post_process": mention_pairs_post_process,
-                               "test_prediction_report": test_prediction_report,
-                               "model_coreference_resolution_metrics_df": model_coreference_resolution_metrics_df,
+                               "all_test_prediction_reports": all_test_prediction_reports,
+                               "all_model_coreference_resolution_metrics_dfs": all_model_coreference_resolution_metrics_dfs,
                                }
         # Save the trained model information and evaluation results to a pickle file
         with open(trained_coreference_model_path, "wb") as file:
@@ -1897,7 +1917,7 @@ base_model:
 ---
 
 ## INTRODUCTION:
-This model, developed as part of the [propp-fr project](https://github.com/lattice-8094/fr-litbank), is a **coreference resolution model** built on top of [{foundation_model.split("/")[-1]}](https://huggingface.co/{foundation_model}) embeddings. It is trained to link mentions of the same entity across a text, focusing on literary works in French.
+This model, developed as part of the [propp-fr project](https://lattice-8094.github.io/propp/), is a **coreference resolution model** built on top of [{foundation_model.split("/")[-1]}](https://huggingface.co/{foundation_model}) embeddings. It is trained to link mentions of the same entity across a text, focusing on literary works in French.
 
 This specific model has been trained to link entities of the following types: {', '.join(entity_types)}.
 
@@ -1939,7 +1959,7 @@ Model Input: {model_input_dimension:,} dimensions vector
 Model Output: Continuous prediction between 0 (not coreferent) and 1 (coreferent) indicating the degree of confidence.
 
 ## HOW TO USE:
-*** IN CONSTRUCTION ***
+[Propp Documentation](https://lattice-8094.github.io/propp/quick_start/)
 
 ## TRAINING CORPUS:
 {corpus_infos_table}
@@ -2661,13 +2681,58 @@ def postprocess_mentions_pairs(predicted_mention_pairs,
 
     return mention_pairs
 
+def use_characters_alias_list(characters_alias_list, CAT_entities_df, mention_pairs):
+    # Accept dict or list
+    if isinstance(characters_alias_list, dict):
+        # assume dict[str, list[str]] → use only alias lists
+        characters_alias_list = list(characters_alias_list.values())
+
+    elif not isinstance(characters_alias_list, list):
+        raise TypeError(
+            "characters_alias_list must be a dict or a list of lists"
+        )
+    if not all(isinstance(x, (list, tuple)) for x in characters_alias_list):
+        raise ValueError(
+            "characters_alias_list must be a list of lists (aliases per character) OR a dict with values being lists"
+        )
+
+    characters_mentions_lists = []
+    for character_aliases in characters_alias_list:
+        mentions_lists = CAT_entities_df[CAT_entities_df["text"].isin(character_aliases)].index.tolist()
+        characters_mentions_lists.append(mentions_lists)
+
+    text_pairs = []
+    confidence = 1
+    for i, A_character_mentions in enumerate(characters_mentions_lists):
+        A_character_mentions = sorted(A_character_mentions)
+        coreference_prediction = 1
+        positive_pairs = [
+            (a, b, coreference_prediction, confidence)
+            for idx, a in enumerate(A_character_mentions)
+            for b in A_character_mentions[idx:]
+        ]
+        text_pairs.extend(positive_pairs)
+        for B_character_mentions in characters_mentions_lists[i+1:]:
+            coreference_prediction = 0
+            negative_pairs = [(min(a, b), max(a, b), coreference_prediction, confidence)
+                              for a, b in product(A_character_mentions, B_character_mentions)]
+            text_pairs.extend(negative_pairs)
+
+    alias_mention_pairs_df = pd.DataFrame(text_pairs, columns=["A", "B", "coreference_prediction", "confidence"])
+    mention_pairs = pd.concat([alias_mention_pairs_df,
+                                   mention_pairs])
+    mention_pairs = mention_pairs.drop_duplicates(subset=["A", "B"]).reset_index(drop=True)
+    return mention_pairs
+
 
 def perform_coreference(entities_df=None,
                         tokens_embedding_tensor=None,
                         coreference_resolution_model=None,
                         batch_size=10000,
                         propagate_coref=False,
-                        rule_based_postprocess=True):
+                        rule_based_postprocess=True,
+                        characters_alias_list=None,
+                        verbose=1):
     """
     Perform coreference resolution on the given entities DataFrame.
 
@@ -2722,7 +2787,7 @@ def perform_coreference(entities_df=None,
     }
 
     # Step 4: Get predictions for mention pairs
-    predictions = get_predictions(coreference_model, test_data, batch_size=batch_size)
+    predictions = get_predictions(coreference_model, test_data, batch_size=batch_size, verbose=verbose)
     del test_data, features_array, mentions_embeddings_tensor
     gc.collect()
 
@@ -2749,6 +2814,9 @@ def perform_coreference(entities_df=None,
                                                          CAT_entities_df=CAT_entities_df,
                                                          propagate_coref=propagate_coref,
                                                          rule_based_postprocess=rule_based_postprocess)
+
+    if not characters_alias_list is None:
+        predicted_mention_pairs = use_characters_alias_list(characters_alias_list, CAT_entities_df, predicted_mention_pairs)
 
     # Step 7: Generate the coreference matrix from processed mention pairs
     predicted_coreference_matrix = generate_coreference_matrix_with_cache(CAT_entities_df,

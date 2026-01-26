@@ -122,4 +122,4 @@ def generate_characters_dict(tokens_df,
                              }
             characters_book_file['characters'].append(new_character)
 
-    return characters_book_file
+    return characters_book_file['characters']

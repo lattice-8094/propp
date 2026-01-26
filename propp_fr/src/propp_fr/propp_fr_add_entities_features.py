@@ -180,7 +180,7 @@ def assign_mention_prop(entities_df, tokens_df):
     entities_df['prop'] = entities_df['POS_tag'].map(mapping_dict).fillna(default_value)
 
     special_pronouns_tokens = ['moi', 'mien', 'miens', 'mienne', 'miennes', 'tien', 'tiens', 'tienne', 'tiennes',
-                               'vôtre', 'vôtres', 'siens', 'siennes', 'sien']
+                               'vôtre', 'vôtres', 'siens', 'siennes', 'sien',]
     special_pronouns_tokens_id = list(tokens_df[tokens_df['word'].str.lower().isin(special_pronouns_tokens)].index)
     head_id_in_special_tokens = list(entities_df[entities_df['head_id'].isin(special_pronouns_tokens_id)].index)
     entities_df.loc[head_id_in_special_tokens, ['prop']] = "PRON"
@@ -198,7 +198,7 @@ def assign_mention_prop(entities_df, tokens_df):
                                 'tien', 'tiens', 'tienne', 'tiennes', 'vous - même', 'vous-même', 'toi-même', 'toi - même', 'vous-mêmes', 'vous - mêmes', 'il',
                                 'elle', 'lui', 'son', 'sa', "l'", 'ses', 'le', 'la', 'se', 'ils', 'elles', 'leur', 'les', 'leurs', 'eux', "s'", 'elle-même',
                                 'lui-même', 'sienne', 'sien', 'sienne', 'siennes','un', 'une', "l' autre", 'tous', 'celui-ci', 'duquel', 'celle', 'celui', 'qui',
-                                'que', 'dont', "qu'", "eux - mêmes", "eux-mêmes", "elles - mêmes", "elles-mêmes"]
+                                'que', 'dont', "qu'", "eux - mêmes", "eux-mêmes", "elles - mêmes", "elles-mêmes", '-elle', '-il', '-tu', '-vous', '-elles', '-ils', ]
     pronoun_rows = entities_df[entities_df['text'].isin(always_pronouns_mentions)]
     entities_df.loc[pronoun_rows.index, 'prop'] = 'PRON'
 

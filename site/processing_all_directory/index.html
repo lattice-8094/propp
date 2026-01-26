@@ -1381,6 +1381,14 @@
         <span class="n">coreference_resolution_model</span><span class="p">,</span>
         <span class="n">propagate_coref</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
         <span class="n">rule_based_postprocess</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+        <span class="n">characters_alias_list</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="c1"># Can pass a list of lists, or a dict with values being list of aliases</span>
+                                    <span class="c1"># characters_alias_list = {</span>
+                                    <span class="c1">#                     &#39;Phileas_Fogg&#39;: [&quot;phileas fogg&quot;, &quot;mr. fogg&quot;, &quot;mr. phileas fogg&quot;, &quot;m. phileas fogg&quot;,],</span>
+                                    <span class="c1">#                     &#39;Jean_Passepartout&#39;: [&quot;passepartout&quot;],</span>
+                                    <span class="c1">#                     &#39;Fix&#39;: [&quot;fix&quot;, &quot;l&#39; inspecteur fix&quot;, &quot;monsieur fix&quot;,],</span>
+                                    <span class="c1">#                     &#39;Mrs_Aouda&#39;: [&quot;mrs . aouda&quot;],</span>
+                                    <span class="c1">#                     &#39;James_Forster&#39;: [&quot;james forster&quot;],}</span>
+
     <span class="p">)</span>
 
     <span class="n">tokens_df</span> <span class="o">=</span> <span class="n">extract_attributes</span><span class="p">(</span><span class="n">entities_df</span><span class="p">,</span> <span class="n">tokens_df</span><span class="p">)</span>

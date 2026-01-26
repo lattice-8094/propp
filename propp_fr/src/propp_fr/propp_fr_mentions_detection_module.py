@@ -23,7 +23,11 @@ from .propp_fr_generate_tokens_embeddings_tensor import load_tokenizer_and_embed
 
 
 #%%
-def get_NER_training_dictionary(files_directory, NER_training_dictionary_path, model_name, subword_pooling_strategy="average"):
+def get_NER_training_dictionary(files_directory,
+                                NER_training_dictionary_path,
+                                model_name,
+                                subword_pooling_strategy="average",
+                                verbose=1):
     """
     Generate, save, and load a dictionary for NER training containing token embeddings, token data, and entity data.
 
@@ -79,7 +83,8 @@ def get_NER_training_dictionary(files_directory, NER_training_dictionary_path, m
                                                                mini_batch_size=12,
                                                                sliding_window_overlap=0.5,
                                                                subword_pooling_strategy=subword_pooling_strategy, # ["average", "first", "last", "first_last"]
-                                                               device=None)
+                                                               device=None,
+                                                               verbose=verbose)
 
             NER_training_dictionary[file_name] = {"tokens_df": tokens_df,
                                                   "entities_df": entities_df,
@@ -752,7 +757,7 @@ def combine_gold_and_predicted_entities_df(gold_entities_df, predicted_entities_
     return entities_df
 
 #%%
-def get_NER_metrics_df(entities_df, NER_cat_list=['PER', 'LOC', 'FAC', 'TIME', 'VEH', 'GPE']):
+def get_NER_metrics_df(entities_df, NER_cat_list=None):
     def get_classification_metrics(entities_df, label):
         # Calculate the true positives, false positives, true negatives, and false negatives
         TP = len(entities_df[(entities_df['cat_gold'] == label) & (entities_df['cat_predicted'] == label)])
@@ -769,6 +774,9 @@ def get_NER_metrics_df(entities_df, NER_cat_list=['PER', 'LOC', 'FAC', 'TIME', '
 
         return support, accuracy, precision, recall, f1_score
 
+    if NER_cat_list == None:
+        NER_cat_list = set(entities_df["cat_gold"]) | set(entities_df["cat_predicted"])
+        NER_cat_list = [cat for cat in NER_cat_list if cat not in ["O"]]
     # Initialize a list to store metrics for each NER category
     metrics = []
     for ner_tag in NER_cat_list:
@@ -1209,8 +1217,9 @@ def train_NER_model(train_loader=None,
 def mentions_detection_LOOCV_full_model_training(files_directory=None,
                                                  model_name="almanach/camembert-large",
                                                  trained_model_directory=None,
-                                                 subword_pooling_strategy="average",
-                                                 files_to_use_in_cross_validation="all",
+                                                 subword_pooling_strategy="first_last",
+                                                 train_files="all",
+                                                 test_files="all",
                                                  train_final_model = True,
                                                  train_with_validation=0.85,
                                                  NER_cat_list=None,
@@ -1227,7 +1236,8 @@ def mentions_detection_LOOCV_full_model_training(files_directory=None,
                                                  loss_delta_patience=18,
                                                  validation_loss_patience=6,
                                                  metric="macro",
-                                                 metric_patience=12):
+                                                 metric_patience=12,
+                                                 verbose=1):
     """
     Trains and evaluates NER models with LOOCV using nested-level mention detection.
 
@@ -1235,7 +1245,7 @@ def mentions_detection_LOOCV_full_model_training(files_directory=None,
         files_directory (str): Path to directory containing dataset files.
         model_name (str): Name of the base model for tokenization and embeddings.
         trained_model_directory (str): Directory to save trained models.
-        files_to_use_in_cross_validation (str/list): Files for LOOCV. Default is "all".
+        test_files (str/list): Files for LOOCV. Default is "all".
         train_with_validation (float): Fraction of training data used for validation.
         NER_cat_list (list): List of NER categories to train on.
         tagging_scheme (str): Tagging scheme, e.g., "BIO", "BIOES".
@@ -1279,15 +1289,22 @@ def mentions_detection_LOOCV_full_model_training(files_directory=None,
     NER_training_dictionary = get_NER_training_dictionary(files_directory,
                                                           NER_training_dictionary_path,
                                                           model_name,
-                                                          subword_pooling_strategy=subword_pooling_strategy)
+                                                          subword_pooling_strategy=subword_pooling_strategy,
+                                                          verbose=verbose)
 
     # 5. File Splits for Cross-Validation
-    all_files = sorted(list(NER_training_dictionary.keys()))
-    if files_to_use_in_cross_validation == "all":
-        files_to_use_in_cross_validation = all_files
+    if train_files == "all":
+        all_files = sorted(list(NER_training_dictionary.keys()))
+    if isinstance(train_files, list):
+        all_files = [file_name for file_name in train_files if file_name in train_files]
+
+    print(f"Files used in model training: {len(all_files)}")
+
+    if test_files == "all":
+        test_files = all_files
     if train_final_model == True:
-        test_splits = ["final_model"] + files_to_use_in_cross_validation  # the first trained model use all files for training, then cross validation models are trained
-    else: test_splits = files_to_use_in_cross_validation
+        test_splits = ["final_model"] + test_files  # the first trained model use all files for training, then cross validation models are trained
+    else: test_splits = test_files
 
     # 6. Identify Unprocessed Files - This allows to resume training
     processed_files = [file for file in os.listdir(trained_model_directory)]
@@ -1594,7 +1611,7 @@ pipeline_tag: token-classification
 ---
 
 ## INTRODUCTION:
-This model, developed as part of the [propp-fr project](https://github.com/lattice-8094/fr-litbank), is a **NER model** built on top of [{foundation_model.split("/")[-1]}](https://huggingface.co/{foundation_model}) embeddings, trained to predict nested entities in french, specifically for literary texts.
+This model, developed as part of the [propp-fr project](https://lattice-8094.github.io/propp/), is a **NER model** built on top of [{foundation_model.split("/")[-1]}](https://huggingface.co/{foundation_model}) embeddings, trained to predict nested entities in french, specifically for literary texts.
 
 The predicted entities are:
 - mentions of characters (PER): pronouns (je, tu, il, ...), possessive pronouns (mon, ton, son, ...), common nouns (le capitaine, la princesse, ...) and proper nouns (Indiana Delmare, Honoré de Pardaillan, ...)
@@ -1639,7 +1656,7 @@ Model Input: Maximum context {foundation_model.split("/")[-1]} embeddings ({embe
 Model Output: {tagging_scheme} labels sequence
 
 ## HOW TO USE:
-*** IN CONSTRUCTION ***
+[Propp Documentation](https://lattice-8094.github.io/propp/quick_start/)
 
 ## TRAINING CORPUS:
 {corpus_infos_table}

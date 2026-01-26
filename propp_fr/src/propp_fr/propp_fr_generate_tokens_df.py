@@ -1,4 +1,5 @@
 import subprocess
+import sys
 from tqdm.auto import tqdm
 import gc
 import pandas as pd
@@ -15,7 +16,7 @@ def load_spacy_model(model_name='fr_dep_news_trf', model_max_length=500000):
     try:
         model = spacy.load(model_name)
     except OSError:
-        subprocess.run(['python', '-m', 'spacy', 'download', model_name], check=True)
+        subprocess.run([sys.executable, '-m', 'spacy', 'download', model_name], check=True)
         model = spacy.load(model_name)
 
     model.max_length = model_max_length

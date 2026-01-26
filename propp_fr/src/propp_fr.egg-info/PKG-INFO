@@ -1,0 +1,35 @@
+Metadata-Version: 2.4
+Name: propp_fr
+Version: 0.0.83
+Summary: Pattern Recognition and Ontologies for Prose Processing
+Author-email: Antoine BOURGOIS <antoine.bourgois@protonmail.com>
+License: MIT
+Project-URL: Homepage, https://lattice-8094.github.io/propp/
+Project-URL: Issues, https://github.com/lattice-8094/propp/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+Requires-Dist: tqdm
+Requires-Dist: plotly
+Requires-Dist: torch
+Requires-Dist: spacy
+Requires-Dist: spacy-transformers
+Requires-Dist: transformers
+Requires-Dist: TorchCRF
+Requires-Dist: scikit-learn
+Requires-Dist: numpy
+Requires-Dist: tabulate
+Requires-Dist: protobuf
+Requires-Dist: tokenizers
+Requires-Dist: sentencepiece
+
+# Propp_fr
+
+Pattern Recognition and Ontologies for Prose Processing
+
+Natural Language Processing Pipeline for French Literary Works
+
+[DOCUMENTATION](https://lattice-8094.github.io/propp/)

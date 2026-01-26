@@ -1,20 +1,64 @@
-from transformers import AutoTokenizer, AutoModel
+from transformers import AutoTokenizer, AutoModel, MT5EncoderModel, AutoTokenizer, T5EncoderModel
 import torch
 import numpy as np
 from tqdm.auto import tqdm
 import pandas as pd
 import gc
 
-def load_tokenizer_and_embedding_model(model_name="almanach/camembert-large"):
-
-    tokenizer = AutoTokenizer.from_pretrained(model_name)
-    model = AutoModel.from_pretrained(model_name, output_hidden_states=True)
-    print(f"Tokenizer and Embedding Model Initialized: {model_name}")
+#def load_tokenizer_and_embedding_model(model_name="almanach/camembert-large"):
+#
+#    tokenizer = AutoTokenizer.from_pretrained(model_name)
+#    model = AutoModel.from_pretrained(model_name, output_hidden_states=True)
+#    print(f"Tokenizer and Embedding Model Initialized: {model_name}")
+#
+#    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+#    model.to(device)
+#
+#    return tokenizer, model
+    
+def load_tokenizer_and_embedding_model(model_name):
+    """
+    Loads tokenizer and embedding model with hidden states enabled.
+    Supports encoder-only transformers and T5 (encoder).
+    """
 
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+
+    tokenizer = AutoTokenizer.from_pretrained(model_name)
+
+    if "mt5" in model_name.lower():
+        # T5 is encoder-decoder → we ONLY want the encoder
+        model = MT5EncoderModel.from_pretrained(
+            model_name,
+            output_hidden_states=True
+        )
+        print(f"Loaded MT5 encoder: {model_name}")
+    elif "t5" in model_name.lower():
+        # T5 is encoder-decoder → we ONLY want the encoder
+        model = T5EncoderModel.from_pretrained(
+            model_name,
+            output_hidden_states=True
+        )
+        print(f"Loaded T5 encoder: {model_name}")
+    elif "ul2" in model_name.lower():
+        model = T5EncoderModel.from_pretrained(
+            model_name,
+            output_hidden_states=True,
+            torch_dtype=torch.float16,
+        )
+        print(f"Loaded ul2 encoder: {model_name}")
+    else:
+        model = AutoModel.from_pretrained(
+            model_name,
+            output_hidden_states=True
+        )
+        print(f"Loaded encoder model: {model_name}")
+
     model.to(device)
+    model.eval()  # IMPORTANT for embedding extraction
 
     return tokenizer, model
+    
 
 def tokenize_text(text, tokenizer):
     """Tokenizes text and retrieves token IDs with byte offsets"""
@@ -134,7 +178,7 @@ def get_boudaries_list(tokens_df, sub_word_offsets, sliding_window_size=0, slidi
 
     return overlapping_window_boundaries
 
-def compute_sub_word_embeddings(boundaries_list, token_ids, model, mini_batch_size=10, padding_token_id=0, sliding_window_size=0, device='cpu'):
+def compute_sub_word_embeddings(boundaries_list, token_ids, model, mini_batch_size=10, padding_token_id=0, sliding_window_size=0, device='cpu', verbose=1):
 
     # Convert token_ids to a single tensor before the loop
     token_ids = torch.tensor(token_ids, dtype=torch.long, device=device)
@@ -147,7 +191,7 @@ def compute_sub_word_embeddings(boundaries_list, token_ids, model, mini_batch_si
     all_embeddings_batches = []
 
     with torch.no_grad():
-        for start_boundary, end_boundary in tqdm(boundaries_list, desc='Embedding Tokens', leave=False):
+        for start_boundary, end_boundary in tqdm(boundaries_list, desc='Embedding Tokens', leave=False, disable=(verbose == 0)):
             input_ids = token_ids[start_boundary:end_boundary]
             real_tokens_length = input_ids.size(0)
 
@@ -272,8 +316,9 @@ def get_embedding_tensor_from_tokens_df(text,
                                         sliding_window_size='max',
                                         mini_batch_size=12,
                                         sliding_window_overlap=0.5,
-                                        subword_pooling_strategy="average", # ["average", "first", "last", "first_last"]
-                                        device=None):
+                                        subword_pooling_strategy="average", # ["average", "first", "last", "first_last", "max"]
+                                        device=None,
+                                        verbose=1):
 
     if device is None:
         device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -288,7 +333,7 @@ def get_embedding_tensor_from_tokens_df(text,
     subwords, subword_ids, subword_offsets = tokenize_text(text, tokenizer)
     tokens_subword_ids = find_subwords_for_tokens(tokens_df, subword_offsets)
     overlapping_window_boundaries = get_boudaries_list(tokens_df, sub_word_offsets=subword_offsets, sliding_window_size=sliding_window_size, sliding_window_overlap=sliding_window_overlap)
-    subword_indices, all_subword_embeddings = compute_sub_word_embeddings(overlapping_window_boundaries, subword_ids, model, mini_batch_size=mini_batch_size, padding_token_id=padding_token_id, sliding_window_size=sliding_window_size, device=device)
+    subword_indices, all_subword_embeddings = compute_sub_word_embeddings(overlapping_window_boundaries, subword_ids, model, mini_batch_size=mini_batch_size, padding_token_id=padding_token_id, sliding_window_size=sliding_window_size, device=device, verbose=verbose)
     mean_subword_embeddings = average_embeddings_from_overlapping_sliding_windows(subword_indices, all_subword_embeddings)
     del all_subword_embeddings
     gc.collect()

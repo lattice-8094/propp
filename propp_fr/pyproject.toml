@@ -1,0 +1,68 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "propp_fr"
+version = "0.0.83"
+authors = [
+  { name="Antoine BOURGOIS", email="antoine.bourgois@protonmail.com" },
+]
+description = """Pattern Recognition and Ontologies for Prose Processing
+Natural Language Processing Pipeline for French Literary Works"""
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+license = { text = "MIT" }  # Add this line to explicitly specify the license
+
+dependencies = [
+    "pandas",
+    "tqdm",
+    "plotly",
+    "torch",
+    "spacy",
+    "spacy-transformers",
+    "transformers",
+    "TorchCRF",
+    "scikit-learn",
+    "numpy",
+    "tabulate",
+    "protobuf",
+    "tokenizers",
+    "sentencepiece",
+]
+
+
+
+#dependencies = [
+#     "pandas>=1.0.0",
+#     "tqdm>=4.0.0",
+#     "plotly>=5.0.0",
+#     "torch>=1.0.0",
+#     "spacy>=3.0.0",
+#     "spacy-transformers>=1.3.5",
+#     "transformers>=4.0.0",
+#     "TorchCRF>=1.0.0",
+#     "scikit-learn>=0.24.0",
+#     "numpy>=1.20.0",
+#     "tabulate>=0.8.0",
+#     "protobuf>=3.0.0",
+#     "tokenizers>=0.10.0",
+#     "sentencepiece>=0.1.0",
+# ]
+
+
+[project.urls]
+Homepage = "https://lattice-8094.github.io/propp/"
+Issues = "https://github.com/lattice-8094/propp/issues"
+
+[tool.setuptools]
+packages = { find = { where = ["src"] } }
+
+[tool.setuptools.package-data]
+"propp_fr" = ["data/insee_names_fr_1900_2023.csv"]

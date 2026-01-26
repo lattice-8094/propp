@@ -2,8 +2,11 @@ import os
 import spacy
 import torch
 import traceback
+import subprocess
+import sys
+import json
 
-from .propp_fr_load_save_functions import load_text_file, clean_text, save_text_file, save_tokens_df, save_entities_df
+from .propp_fr_load_save_functions import load_text_file, clean_text, save_text_file, save_tokens_df, save_entities_df, save_book_file
 from .propp_fr_generate_tokens_df import load_spacy_model, generate_tokens_df
 from .propp_fr_mentions_detection_module import load_mentions_detection_model, generate_entities_df
 from .propp_fr_coreference_resolution_module import load_coreference_resolution_model,perform_coreference
@@ -12,21 +15,68 @@ from .propp_fr_add_entities_features import add_features_to_entities
 from .propp_fr_extract_attributes import extract_attributes
 from .propp_fr_generate_characters_dict import generate_characters_dict
 
+def install_spacy_for_cuda():
+    #print("Checking SpaCy installation...")
+    
+    # Determine the correct package
+    cuda_version = "cpu"
+    if torch.version.cuda:
+        cuda_version = torch.version.cuda.split(".")[0] + "x"
+    package = f"spacy[cuda{cuda_version}]" if cuda_version != "cpu" else "spacy"
+    
+    # Check if spacy is already installed
+    try:
+        import spacy
+        #print(f"SpaCy {spacy.__version__} is already installed.")
+        
+        # Check if GPU is available and matches the desired CUDA version
+        if cuda_version != "cpu":
+            try:
+                spacy.prefer_gpu() #spacy.require_gpu()
+                #print(f"SpaCy is already configured to use GPU with CUDA {cuda_version}. Skipping installation.")
+                return
+            except Exception:
+                print("GPU support is missing or incompatible. Reinstalling...")
+        else:
+            print("CPU version detected. No GPU required. Skipping installation.")
+            return
+    except ImportError:
+        print("SpaCy not found. Installing...")
+
+    # Install or upgrade
+    subprocess.run([sys.executable, "-m", "pip", "install", "--upgrade", package], check=True)
+    print("SpaCy installation complete.")
+
+
 
 def load_models(spacy_model_name="fr_dep_news_trf",
                 mentions_detection_model_name="AntoineBourgois/propp-fr_NER_camembert-large_FAC_GPE_LOC_PER_TIME_VEH",
                 coreference_resolution_model_name="AntoineBourgois/propp-fr_coreference-resolution_camembert-large_PER",
                 spacy_input_max_length=500000,
-                force_download=True): \
+                force_download=False): \
         # Load models once
     print("Loading models...")
-    if torch.cuda.is_available():
-        spacy.require_gpu()  # prefer
-        spacy_model = spacy.load(spacy_model_name)
-        print("CUDA is available, Spacy model should run on GPU.")
-    else:
-        spacy_model = load_spacy_model(model_name=spacy_model_name, model_max_length=spacy_input_max_length)
-        print("CUDA is not available, Spacy model will run on CPU.")
+    install_spacy_for_cuda()
+    try:
+        if torch.cuda.is_available():
+            spacy.require_gpu()  # prefer_gpu()
+            spacy_model = spacy.load(spacy_model_name)
+            print("CUDA is required, Spacy model should run on GPU.")
+        else:
+            spacy_model = load_spacy_model(model_name=spacy_model_name, model_max_length=spacy_input_max_length)
+            print("CUDA is not available, Spacy model will run on CPU.")
+    except OSError:
+        subprocess.run([sys.executable, '-m', 'spacy', 'download', spacy_model_name], check=True)
+        if torch.cuda.is_available():
+            spacy.prefer_gpu()  # require_gpu()
+            spacy_model = spacy.load(spacy_model_name)
+            print("CUDA is preferred, Spacy model should run on GPU.")
+        else:
+            spacy_model = load_spacy_model(model_name=spacy_model_name, model_max_length=spacy_input_max_length)
+            print("CUDA is not available, Spacy model will run on CPU.")
+    
+    
+    
     spacy_model.max_length = spacy_input_max_length
 
     mentions_detection_model = load_mentions_detection_model(
@@ -41,6 +91,8 @@ def load_models(spacy_model_name="fr_dep_news_trf",
     if mentions_detection_model["base_model_name"] != coreference_resolution_model["base_model_name"]:
         print(
             f"WARNING: mentions_detection_model and coreference_resolution_model DO NOT use the same embedding model.")
+    
+    print(f"\nModels Loaded Successfully:\nSpacy: {spacy_model_name}\nMentions Detection: {mentions_detection_model_name}\nCoreference Resolution: {coreference_resolution_model_name}")
 
     return spacy_model, mentions_detection_model, coreference_resolution_model
 
@@ -121,10 +173,7 @@ def process_file(file_name,
     save_tokens_df(tokens_df, file_name, files_directory=output_folder)
     save_entities_df(entities_df, file_name, files_directory=output_folder)
 
-    book_file_path = os.path.join(output_folder, f"{file_name}.book")
-    with open(book_file_path, "w", encoding="utf-8") as f:
-        for char in characters_dict['characters']:
-            f.write(f"{char}\n")
+    save_book_file(characters_dict, file_name, files_directory=output_folder)
 
 
 def process_text_file(txt_file_path):
@@ -137,7 +186,7 @@ def process_text_file(txt_file_path):
 
         print("Loading models...")
         if torch.cuda.is_available():
-            spacy.require_gpu()  # prefer
+            spacy.prefer_gpu()  # prefer
             spacy_model = spacy.load(spacy_model_name)
             print("CUDA is available, Spacy model should run on GPU.")
         else:
@@ -158,8 +207,8 @@ def process_text_file(txt_file_path):
         # 1. Loading Models
         spacy_model, mentions_detection_model, coreference_resolution_model = load_models(
             spacy_model_name="fr_dep_news_trf",
-            # mentions_detection_model_name = "AntoineBourgois/propp-fr_NER_camembert-large_FAC_GPE_LOC_PER_TIME_VEH",
-            mentions_detection_model_name="AntoineBourgois/propp-fr_NER_camembert-large_PER",
+            mentions_detection_model_name = "AntoineBourgois/propp-fr_NER_camembert-large_FAC_GPE_LOC_PER_TIME_VEH",
+            # mentions_detection_model_name="AntoineBourgois/propp-fr_NER_camembert-large_PER",
             coreference_resolution_model_name="AntoineBourgois/propp-fr_coreference-resolution_camembert-large_PER",
             force_download=False)
         tokenizer, embedding_model = load_tokenizer_and_embedding_model(mentions_detection_model["base_model_name"])
