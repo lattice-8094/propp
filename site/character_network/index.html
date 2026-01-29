@@ -6,15 +6,19 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Propp is a Python-based Natural Language Processing (NLP) framework for narrative analysis, character modeling, computational narratology, and ontology-based prose processing.">
+        <meta name="description" content="Tutorial to generate character network using PROPP pipeline.">
       
       
         <meta name="author" content="Antoine Bourgois">
       
       
-        <link rel="canonical" href="https://lattice-8094.github.io/propp/API/">
+        <link rel="canonical" href="https://lattice-8094.github.io/propp/character_network/">
       
       
+        <link rel="prev" href="../processing_all_directory/">
+      
+      
+        <link rel="next" href="../algorithms/">
       
       
         
@@ -25,7 +29,7 @@
     
     
       
-        <title>API - Propp</title>
+        <title>Generate Character Network - Propp</title>
       
     
     
@@ -112,7 +116,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#api" class="md-skip">
+        <a href="#processing-all-txt-files-in-a-directory" class="md-skip">
           Skip to content
         </a>
       
@@ -145,7 +149,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              API
+              Generate Character Network
             
           </span>
         </div>
@@ -249,10 +253,12 @@
   
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
+      <li class="md-tabs__item md-tabs__item--active">
         <a href="../quick_start/" class="md-tabs__link">
           
   
@@ -424,8 +430,10 @@
       
   
   
+    
   
   
+  
     
     
       
@@ -439,19 +447,22 @@
     
     
       
+        
+        
+      
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
         
           
-          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
             
   
   
@@ -469,7 +480,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             
@@ -527,17 +538,20 @@
       
       
         
+          
+          
+        
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
         
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" >
         
           
-          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="">
             
   
   
@@ -634,8 +648,10 @@
                 
   
   
+    
   
   
+  
     
     
       
@@ -646,18 +662,21 @@
     
       
       
-        
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" >
         
           
-          <label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="">
             
   
   
@@ -675,7 +694,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3_3">
             <span class="md-nav__icon md-icon"></span>
             
@@ -690,10 +709,19 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../character_network/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -709,6 +737,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -1294,75 +1323,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      On this page
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#propp_frload_text_file" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        propp_fr.load_text_file
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="propp_fr.load_text_file">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#returns" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Returns
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#raises" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Raises
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#examples" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Examples
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#notes" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Notes
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -1376,56 +1336,21 @@
                 
                   
 
-<h1 id="api">API</h1>
-<h2 id="propp_frload_text_file">propp_fr.load_text_file</h2>
-<div class="highlight"><pre><span></span><code><span class="n">propp_fr</span><span class="o">.</span><span class="n">load_text_file</span><span class="p">(</span><span class="n">file_name</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">files_directory</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span><span class="p">,</span> <span class="n">extension</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="s2">&quot;.txt&quot;</span><span class="p">)</span> <span class="err">→</span> <span class="nb">str</span>
+<h1 id="processing-all-txt-files-in-a-directory">Processing all .txt Files in a Directory</h1>
+<p>Use this code to generate character network from Propp output files.</p>
+<details class="abstract">
+<summary><strong>You can copy / paste the whole Notebook Code</strong></summary>
+<div class="highlight"><pre><span></span><code><span class="kn">from</span><span class="w"> </span><span class="nn">propp_fr</span><span class="w"> </span><span class="kn">import</span> <span class="n">generate_character_network</span>    
+
+<span class="n">file_name</span> <span class="o">=</span> <span class="s2">&quot;/home/antoine/Bureau/1872_Verne-Jules_Le-tour-du-monde-en-quatre-vingts-jours/1872_Verne-Jules_Le-tour-du-monde-en-quatre-vingts-jours&quot;</span>
+
+<span class="n">network_metrics_df</span><span class="p">,</span> <span class="n">G</span><span class="p">,</span> <span class="n">fig</span> <span class="o">=</span> <span class="n">generate_character_network</span><span class="p">(</span>
+    <span class="n">file_name</span> <span class="o">=</span> <span class="n">file_name</span><span class="p">,</span>
+    <span class="n">top_n</span> <span class="o">=</span><span class="mi">10</span><span class="p">,</span>
+    <span class="n">keep_only_singular</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
+    <span class="n">save_outputs</span> <span class="o">=</span> <span class="kc">True</span><span class="p">,</span>
+<span class="p">)</span>
 </code></pre></div>
-<p>Loads and returns the content of a text file from a specified directory.</p>
-<p>This function automatically appends the file extension if not already present in the filename, constructs the full file path using <code>pathlib.Path</code>, and reads the entire content of the file using UTF-8 encoding.</p>
-<details class="note">
-<summary>propp_fr.load_text_file</summary>
-<p><strong>Parameters</strong></p>
-<ul>
-<li><strong>file_name</strong> (<em>str</em>) – The name of the file to load. If the extension is not included, it will be automatically appended.</li>
-<li><strong>files_directory</strong> (<em>str, optional</em>) – The directory path where the file is located. If empty, looks in the current working directory. Default: <code>""</code>.</li>
-<li><strong>extension</strong> (<em>str, optional</em>) – The file extension to append if not present in <code>file_name</code>. Default: <code>".txt"</code>.</li>
-</ul>
-<h3 id="returns">Returns</h3>
-<p><strong>str</strong> – The complete text content of the file as a string.</p>
-<h3 id="raises">Raises</h3>
-<ul>
-<li><strong>FileNotFoundError</strong> – If the specified file does not exist at the given path.</li>
-<li><strong>PermissionError</strong> – If the file cannot be read due to insufficient permissions.</li>
-<li><strong>UnicodeDecodeError</strong> – If the file cannot be decoded using UTF-8 encoding.</li>
-</ul>
-<h3 id="examples">Examples</h3>
-<div class="highlight"><pre><span></span><code><span class="c1"># Load a file from the current directory</span>
-<span class="n">content</span> <span class="o">=</span> <span class="n">propp_fr</span><span class="o">.</span><span class="n">load_text_file</span><span class="p">(</span><span class="s2">&quot;example&quot;</span><span class="p">)</span>
-<span class="c1"># Loads &quot;example.txt&quot; from current directory</span>
-
-<span class="c1"># Load a file with explicit extension</span>
-<span class="n">content</span> <span class="o">=</span> <span class="n">propp_fr</span><span class="o">.</span><span class="n">load_text_file</span><span class="p">(</span><span class="s2">&quot;data.txt&quot;</span><span class="p">)</span>
-<span class="c1"># Loads &quot;data.txt&quot; from current directory</span>
-
-<span class="c1"># Load from a specific directory</span>
-<span class="n">content</span> <span class="o">=</span> <span class="n">propp_fr</span><span class="o">.</span><span class="n">load_text_file</span><span class="p">(</span><span class="s2">&quot;story&quot;</span><span class="p">,</span> <span class="n">files_directory</span><span class="o">=</span><span class="s2">&quot;./texts&quot;</span><span class="p">)</span>
-<span class="c1"># Loads &quot;./texts/story.txt&quot;</span>
-
-<span class="c1"># Load a file with custom extension</span>
-<span class="n">content</span> <span class="o">=</span> <span class="n">propp_fr</span><span class="o">.</span><span class="n">load_text_file</span><span class="p">(</span><span class="s2">&quot;config&quot;</span><span class="p">,</span> <span class="n">extension</span><span class="o">=</span><span class="s2">&quot;.cfg&quot;</span><span class="p">)</span>
-<span class="c1"># Loads &quot;config.cfg&quot; from current directory</span>
-
-<span class="c1"># Full path example</span>
-<span class="n">content</span> <span class="o">=</span> <span class="n">propp_fr</span><span class="o">.</span><span class="n">load_text_file</span><span class="p">(</span><span class="s2">&quot;chapter1&quot;</span><span class="p">,</span> <span class="n">files_directory</span><span class="o">=</span><span class="s2">&quot;/data/books&quot;</span><span class="p">,</span> <span class="n">extension</span><span class="o">=</span><span class="s2">&quot;.md&quot;</span><span class="p">)</span>
-<span class="c1"># Loads &quot;/data/books/chapter1.md&quot;</span>
-</code></pre></div>
-<h3 id="notes">Notes</h3>
-<ul>
-<li>The function uses <code>pathlib.Path</code> for cross-platform path handling.</li>
-<li>The function always reads files using UTF-8 encoding.</li>
-<li>Extension is automatically added only if the filename doesn't already end with it.</li>
-<li>The entire file content is loaded into memory at once, which may not be suitable for very large files.</li>
-</ul>
 </details>
 
 

@@ -5,7 +5,7 @@ description: "Tutorial to generate character network using PROPP pipeline."
 
 # Processing all .txt Files in a Directory
 
-This code will process all the `.txt` files in a `files_directory` and saves the results (`tokens_df`, `entities_df`, and `characters_dict`).
+Use this code to generate character network from Propp output files.
 
 ??? Abstract "**You can copy / paste the whole Notebook Code**"
 
