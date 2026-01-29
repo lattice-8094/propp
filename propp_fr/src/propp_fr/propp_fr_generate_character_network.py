@@ -450,7 +450,7 @@ def generate_character_network(
         except Exception as e:
             print(f"[WARN] Could not save PNG (kaleido may not be installed): {e}")
 
-        metrics_df.to_csv(csv_path, index=False)
+        network_metrics_df.to_csv(csv_path, index=False)
         print(f"[INFO] Metrics CSV saved to {csv_path}")
 
     # Show plot in notebook if requested
