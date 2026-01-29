@@ -2821,7 +2821,7 @@ def perform_coreference(entities_df=None,
     # Step 7: Generate the coreference matrix from processed mention pairs
     predicted_coreference_matrix = generate_coreference_matrix_with_cache(CAT_entities_df,
                                                                           predicted_mention_pairs,
-                                                                          verbose=0,
+                                                                          verbose=verbose,
                                                                           confidence_threshold=0)
 
     # Step 8: Generate clusters from the coreference matrix

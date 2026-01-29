@@ -40,10 +40,10 @@ def get_inner_to_outer_nesting_level(entities_df, start_column="start_token", en
     non_monogram_entities["temp_index"] = non_monogram_entities.index
 
     # Step 3: Convert DataFrame columns to NumPy arrays for faster indexing
-    start_tokens = entities_df[start_column].values
-    end_tokens = entities_df[end_column].values
-    mention_lengths = entities_df["mention_len"].values
-    nested_levels = entities_df["in_to_out_nested_level"].values
+    start_tokens = entities_df[start_column].to_numpy(copy=False)
+    end_tokens = entities_df[end_column].to_numpy(copy=False)
+    mention_lengths = entities_df["mention_len"].to_numpy(copy=False)
+    nested_levels = entities_df["in_to_out_nested_level"].to_numpy(copy=True)
 
     # Step 4: Iterate over non-monogram entities
     for temp_index, start_token, end_token, mention_len in non_monogram_entities[["temp_index", start_column, end_column, "mention_len"]].values:

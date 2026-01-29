@@ -1,10 +1,13 @@
+# python3 -m build && twine upload dist/*
+
+
 [build-system]
 requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "propp_fr"
-version = "0.0.83"
+version = "0.0.86"
 authors = [
   { name="Antoine BOURGOIS", email="antoine.bourgois@protonmail.com" },
 ]
