@@ -1137,7 +1137,9 @@ def generate_coreference_matrix_with_cache(entities_df, mention_pairs_df, verbos
     mention_pairs_df["confidence"].fillna(1, inplace=True)
     mention_pairs_df = mention_pairs_df[mention_pairs_df["confidence"] >= confidence_threshold].copy().reset_index(drop=True)
     # Replace '0' with '-1' in the coreference predictions
-    mention_pairs_df['coreference_prediction'].replace(0, -1, inplace=True)
+    mention_pairs_df['coreference_prediction'] = (
+        mention_pairs_df['coreference_prediction'].replace(0, -1)
+    )
 
     # Convert mention pairs to a list of tuples (A, B, prediction)
     mention_pairs_list = list(mention_pairs_df[['A', 'B', 'coreference_prediction']].itertuples(index=False, name=None))

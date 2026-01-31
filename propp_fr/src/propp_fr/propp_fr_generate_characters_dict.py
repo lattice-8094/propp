@@ -87,7 +87,7 @@ def extract_char_attributs(COREF_group, tokens_df, attributes_column):
 def generate_characters_dict(tokens_df,
                             entities_df,
                             COREF_column='COREF',
-                             min_occurrence=2):
+                            min_occurrences=2):
     tokens_df['lemma'] = tokens_df.copy()['lemma'].str.lower()
     tokens_df = tokens_df[
         ['token_ID_within_document', 'word', 'lemma', 'char_att_poss', 'char_att_agent', 'char_att_patient',
@@ -102,7 +102,7 @@ def generate_characters_dict(tokens_df,
         char_id = COREF
         char_count = len(COREF_group)
         char_mention_ratio = round(char_count / len(PER_entities_df), 4)
-        if char_count >= min_occurrence:
+        if char_count >= min_occurrences:
             char_gender = gender_inference(COREF_group['gender'].tolist())
             char_number = number_inference(COREF_group['number'].tolist())
             char_mentions = get_mentions(COREF_group)
