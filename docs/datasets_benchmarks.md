@@ -2,10 +2,6 @@
 
 ## NER datasets
 
-/data-lachesis/common/propp/.venv/lib/python3.11/site-packages/propp_fr/propp_fr_add_entities_features.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
-propp_fr package loaded successfully.
-
-
 ### conll2003-NER
 
 
