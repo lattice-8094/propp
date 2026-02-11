@@ -88,7 +88,7 @@ This project was funded in part by the
 [PRAIRIE–PSAI](https://www.prairie-psai.fr/)
 (Paris Artificial Intelligence Research Institute – Paris School of Artificial Intelligence),
 reference
-[ANR-22-IACL-0008](https://anr.fr/ProjetIA-23-IACL-0008).
+[ANR-23-IACL-0008](https://anr.fr/ProjetIA-23-IACL-0008).
 
 The project also received support from the Major Research Program of PSL Research University,
 ["CultureLab"](https://www.culturelab.psl.eu/),
