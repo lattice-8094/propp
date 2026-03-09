@@ -47,6 +47,7 @@ def generate_tokens_df_from_spacy_doc(doc):
         byte_offset = token.idx + len(word)
         is_newline_character = '\n' in token.text_with_ws
         POS_tag = token.pos_
+        morph = token.morph
         is_sent_start = token.is_sent_start
         if previous_is_newline_char or ((
                                                 token.is_title or token.is_punct) and is_sent_start and previous_is_punct and not previous_is_sent_start):
@@ -85,6 +86,7 @@ def generate_tokens_df_from_spacy_doc(doc):
                                'POS_tag': POS_tag,
                                'dependency_relation': dependency_relation,
                                'syntactic_head_ID': syntactic_head_ID,
+                               'morph': morph,
                                })
 
     tokens_df = pd.DataFrame(token_dict)
