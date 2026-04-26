@@ -9,7 +9,8 @@ from collections import Counter
 
 def add_mention_number_and_gender_infos(entities_df):
     # Locate the CSV file within the package
-    insee_path = pkg_resources.resource_filename('propp_fr', 'data/insee_names_fr_1900_2023.csv')
+    # insee_path = pkg_resources.resource_filename('propp_fr', 'data/insee_names_fr_1900_2023.csv')
+    insee_path = "/Users/loicbourgois/github.com/loicbourgois/em/propp/propp_fr/src/propp_fr/data/insee_names_fr_1900_2023.csv"
     # print("Insee_data Loaded successfully.")
 
     entities_df['number'] = assign_number_to_PER_entities(entities_df)['number']

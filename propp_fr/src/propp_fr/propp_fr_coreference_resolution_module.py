@@ -35,8 +35,8 @@ import subprocess
 from tabulate import tabulate
 import requests
 
-from propp_fr import load_tokenizer_and_embedding_model, get_embedding_tensor_from_tokens_df
-from propp_fr import load_tokens_df, load_entities_df, load_text_file
+# from propp_fr import load_tokenizer_and_embedding_model, get_embedding_tensor_from_tokens_df
+# from propp_fr import load_tokens_df, load_entities_df, load_text_file
 
 def get_tokens_embeddings_tensor_dict(tokens_embeddings_tensor_dict_path, model_name, files_directory,
                                       embedding_batch_size=10, subword_pooling_strategy="average",
@@ -1305,13 +1305,16 @@ def coreference_resolution_metrics(gold_coreference_matrix, predicted_coreferenc
         predicted_coreference_matrix)
 
     # Save the gold and predicted dictionaries as JSON files for Scorch
-    with open('gold.json', 'w') as gold_file:
+    gold_path = "gold.json"
+    silver_path = "silver.json"
+    with open(gold_path, 'w') as gold_file:
         json.dump(gold, gold_file, indent=4)
-    with open('predicted.json', 'w') as predicted_file:
+    with open(silver_path, 'w') as predicted_file:
         json.dump(predicted, predicted_file, indent=4)
 
     # Run Scorch to compute coreference metrics
-    command = ["scorch", "gold.json", "predicted.json"]
+    # command = ["scorch", "gold.json", "predicted.json"]
+    command = ["/Users/loicbourgois/github.com/loicbourgois/em/.venv310/bin/scorch", gold_path, silver_path]
     result = subprocess.run(command, capture_output=True, text=True, encoding='utf-8')
 
     # Process the output from Scorch
@@ -1323,6 +1326,7 @@ def coreference_resolution_metrics(gold_coreference_matrix, predicted_coreferenc
 
     # Iterate over each line to extract metrics
     for line in lines:
+        print(line)
         if ':' in line:
             key, metrics = line.split(':', 1)  # Split the key and metrics part
             metrics_dict = {}
@@ -1336,8 +1340,13 @@ def coreference_resolution_metrics(gold_coreference_matrix, predicted_coreferenc
             # Add the extracted metrics to the result dictionary
             result_dict[key.strip()] = metrics_dict
 
+    print(result_dict)
+
     # Convert the result dictionary to a DataFrame for better presentation
     coreference_metrics_df = pd.DataFrame(result_dict).T
+    
+    # print(coreference_metrics_df)
+
     coreference_metrics_df.columns = ['recall', 'precision', 'f1_score']
 
     # Reorder columns and rename index for clarity
@@ -1346,6 +1355,8 @@ def coreference_resolution_metrics(gold_coreference_matrix, predicted_coreferenc
 
     # Add a 'CONLL' row, which is the mean of the MUC, B3, and CEAF_e scores
     coreference_metrics_df.loc['CONLL'] = coreference_metrics_df.loc[['MUC', 'B3', 'CEAF_e']].mean()
+
+    print(coreference_metrics_df)
 
     return coreference_metrics_df
 

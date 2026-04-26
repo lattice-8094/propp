@@ -64,6 +64,9 @@ def extract_entities_annotations(sacr_content):
     opening_ids = sorted([start for start, end, match in matches])
     closing_ids = [i for i, char in enumerate(sacr_content) if char == "}"] # Find indices of all "}" characters
 
+    # print("WIP")
+    # print(matches)
+
     # annotation pairs
     ordered_annotations_boundaries = []
     for annotation_opening in opening_ids:
@@ -77,6 +80,7 @@ def extract_entities_annotations(sacr_content):
                 break
 
     df = pd.DataFrame(ordered_annotations_boundaries)
+    # print(df)
     # Apply the function to create a new 'text' column
     df["annotation"] = df.apply(lambda row: get_mention_text_from_ids(row["sacr_start_id"], row["sacr_end_id"]+1, sacr_content), axis=1)
     # Apply regex to extract the substring between { and :EN="
@@ -142,6 +146,8 @@ def reorder_coref_ids(entities_df):
     COREF_column = 'COREF_name'
 
     # Get the most frequent category for each COREF_name
+    print(entities_df)
+    entities_df['cat'] = "plouf"
     coref_counts = entities_df.groupby(COREF_column)['cat'].agg(lambda x: x.value_counts().idxmax())
 
     # Get the count of mentions per COREF_name
@@ -210,6 +216,7 @@ def generate_tokens_and_entities_from_sacr(file_name,
                             "": "PER",
                             }
     if spacy_model == None:
+        # spacy_model = load_spacy_model(model_name='fr_dep_news_trf', model_max_length=500000)
         spacy_model = load_spacy_model(model_name='fr_dep_news_trf', model_max_length=500000)
 
     if end_directory==None:
