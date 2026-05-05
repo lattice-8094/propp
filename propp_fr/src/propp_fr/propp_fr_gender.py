@@ -339,9 +339,21 @@ def gender_proper_mentions_from_knowledge_base(df, insee_names_df):
 
     return df
 #%%
-def assign_gender_to_PER_entities(PER_entities_df, insee_path='/home/antoine/Documents/propp_modular_development/propp_fr/src/propp_fr/data/insee_names_fr_1900_2023.csv'):
-    insee_names_df = pd.read_csv(insee_path,
-                                 sep='\t', quoting=csv.QUOTE_NONE, low_memory=False)
+# def assign_gender_to_PER_entities(PER_entities_df, insee_path='/home/antoine/Documents/propp_modular_development/propp_fr/src/propp_fr/data/insee_names_fr_1900_2023.csv'):
+#     insee_names_df = pd.read_csv(insee_path,
+#                                  sep='\t', quoting=csv.QUOTE_NONE, low_memory=False)
+
+def assign_gender_to_PER_entities(PER_entities_df):
+    # Load CSV directly from package
+    with resources.files("propp_fr.data").joinpath(
+            "insee_names_fr_1900_2023.csv"
+    ).open("rb") as f:
+        insee_names_df = pd.read_csv(
+            f,
+            sep='\t',
+            quoting=csv.QUOTE_NONE,
+            low_memory=False
+        )
 
     PER_entities_df['gender'] = 'Not_Assigned'
     PER_entities_df = clean_column(PER_entities_df, 'text')
