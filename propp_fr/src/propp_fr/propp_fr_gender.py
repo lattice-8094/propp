@@ -343,6 +343,8 @@ def gender_proper_mentions_from_knowledge_base(df, insee_names_df):
 #     insee_names_df = pd.read_csv(insee_path,
 #                                  sep='\t', quoting=csv.QUOTE_NONE, low_memory=False)
 
+from importlib import resources
+
 def assign_gender_to_PER_entities(PER_entities_df):
     # Load CSV directly from package
     with resources.files("propp_fr.data").joinpath(
