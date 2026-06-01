@@ -7,7 +7,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "propp_fr"
-version = "0.0.98"
+version = "0.0.99"
 authors = [
   { name="Antoine BOURGOIS", email="antoine.bourgois@protonmail.com" },
 ]
@@ -68,4 +68,4 @@ Issues = "https://github.com/lattice-8094/propp/issues"
 packages = { find = { where = ["src"] } }
 
 [tool.setuptools.package-data]
-"propp_fr.data" = ["*.csv", "*.txt", "*.pt", "*.json", "*.npy"]
+"propp_fr.data" = ["*.csv", "*.txt", "*.pt", "*.json", "*.npy", "annotated_attributes_data/*"]
