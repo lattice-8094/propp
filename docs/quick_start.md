@@ -6,7 +6,8 @@ title: "Quick Start"
 
 ## Google Colab Hands-on Tutorial
 
-[`This Notebook`](https://colab.research.google.com/drive/151ODFrKc4EVWojHpNoSUSvZsggGjBQ1j) will guide you through the process of analyzing a French novel using the propp-fr library. 
+[`This Notebook`](https://colab.research.google.com/drive/1UqHVJrxCFCufpY9o-WRBGWdrQFdgnljD?usp=sharing) will guide you through the process of analyzing a French novel using the propp-fr library. 
+
 
 You'll learn how to load a novel, tokenize it, extract named entities, resolve coreferences, and analyze the main characters.
 

@@ -40,3 +40,27 @@ This research explores the evolution of the detective archetype in French detect
         }
 
 ## Character Representation - Ontology
+
+**<a href="https://www.cambridge.org/core/journals/computational-humanities-research/article/toward-an-ontological-representation-of-fictional-characters/EF9F289D4EA7FC0A6ECC38BAA391DF76" target="_blank">Toward an ontological representation of fictional characters</a>**
+
+Characters are central to narrative theory but remain under-specified in computational work, where they are often reduced to clusters of words or vectors. We propose an operationalizable ontology of characterization that bridges narratological theory and NLP. From BERT-based clustering of character descriptions, we derive 17 classes of attributes (actions, emotions, traits, relations, possessions, etc.), validated through manual annotation (𝑘 =0.77) and automatic classification (64% accuracy vs. 12% baseline). Applied to character similarity tasks for French fiction, our framework outperforms existing models. By aligning narratological insights with computational methods, we move toward a representation of fictional characters as structured, comparable entities for large-scale literary analysis.
+
+=== "Cite this work"
+
+    Antoine Bourgois, Jean Barré, Olga Seminck and Thierry Poibeau. 
+    2026. 
+    [Toward an ontological representation of fictional characters.](https://www.cambridge.org/core/journals/computational-humanities-research/article/toward-an-ontological-representation-of-fictional-characters/EF9F289D4EA7FC0A6ECC38BAA391DF76) 
+    In *Computational Humanities Research*, 2:e6.
+
+=== "BibTeX"
+
+        @article{bourgois2026,
+          author  = {Bourgois, Antoine and Barré, Jean and Seminck, Olga and Poibeau, Thierry},
+          title   = {Toward an ontological representation of fictional characters},
+          journal = {Computational Humanities Research},
+          year    = {2026},
+          volume  = {2},
+          pages   = {e6},
+          doi     = {10.1017/chr.2026.10025},
+          url     = {https://www.cambridge.org/core/journals/computational-humanities-research/article/toward-an-ontological-representation-of-fictional-characters/EF9F289D4EA7FC0A6ECC38BAA391DF76}
+        }
