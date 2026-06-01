@@ -10,7 +10,7 @@ This code will process all the `.txt` files in a `files_directory` and saves the
 ??? Abstract "**You can copy / paste the whole Notebook Code**"
 
     ```python
-    from propp_fr import load_models, load_text_file, generate_tokens_df, load_tokenizer_and_embedding_model, get_embedding_tensor_from_tokens_df, generate_entities_df, add_features_to_entities, perform_coreference, extract_attributes, generate_characters_dict, save_tokens_df, save_entities_df, save_book_file
+    from propp_fr import load_models, load_text_file, generate_tokens_df, load_tokenizer_and_embedding_model, get_embedding_tensor_from_tokens_df, generate_entities_df, add_features_to_entities, perform_coreference, extract_attributes, generate_characters_dict, save_tokens_df, save_entities_df, save_book_file, load_ontology_classification_model, classify_attributes
     
     from pathlib import Path
     from tqdm.auto import tqdm
@@ -25,6 +25,7 @@ This code will process all the `.txt` files in a `files_directory` and saves the
     
     spacy_model, mentions_detection_model, coreference_resolution_model = load_models()
     tokenizer, embedding_model = load_tokenizer_and_embedding_model(mentions_detection_model["base_model_name"])
+    attributes_classification_model = load_ontology_classification_model()
     
     for file_name in tqdm(unprocessed_files, desc="Processing .txt Files"):
         print(f"Processing: {file_name}...")
@@ -65,7 +66,8 @@ This code will process all the `.txt` files in a `files_directory` and saves the
     
         characters_dict = generate_characters_dict(tokens_df, entities_df)
     
-    
+        tokens_df = classify_attributes(tokens_df, tokens_embedding_tensor, attributes_classification_model)
+        
         save_tokens_df(tokens_df, file_name, files_directory)
         save_entities_df(entities_df, file_name, files_directory)
         save_book_file(characters_dict, file_name, files_directory)

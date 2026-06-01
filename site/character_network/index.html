@@ -116,7 +116,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#processing-all-txt-files-in-a-directory" class="md-skip">
+        <a href="#generate-character-network" class="md-skip">
           Skip to content
         </a>
       
@@ -1336,13 +1336,13 @@
                 
                   
 
-<h1 id="processing-all-txt-files-in-a-directory">Processing all .txt Files in a Directory</h1>
+<h1 id="generate-character-network">Generate Character Network</h1>
 <p>Use this code to generate character network from Propp output files.</p>
 <details class="abstract">
 <summary><strong>You can copy / paste the whole Notebook Code</strong></summary>
 <div class="highlight"><pre><span></span><code><span class="kn">from</span><span class="w"> </span><span class="nn">propp_fr</span><span class="w"> </span><span class="kn">import</span> <span class="n">generate_character_network</span>    
 
-<span class="n">file_name</span> <span class="o">=</span> <span class="s2">&quot;/home/antoine/Bureau/1872_Verne-Jules_Le-tour-du-monde-en-quatre-vingts-jours/1872_Verne-Jules_Le-tour-du-monde-en-quatre-vingts-jours&quot;</span>
+<span class="n">file_name</span> <span class="o">=</span> <span class="o">&lt;</span><span class="s2">&quot;&quot;</span><span class="o">&gt;</span>
 
 <span class="n">network_metrics_df</span><span class="p">,</span> <span class="n">G</span><span class="p">,</span> <span class="n">fig</span> <span class="o">=</span> <span class="n">generate_character_network</span><span class="p">(</span>
     <span class="n">file_name</span> <span class="o">=</span> <span class="n">file_name</span><span class="p">,</span>
