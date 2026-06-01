@@ -27,6 +27,8 @@ from .propp_fr_single_line_command import process_text_file, load_models
 
 from .propp_fr_generate_character_network import generate_character_network
 
+from .propp_fr_classify_attributes import load_ontology_classification_model, classify_attributes
+
 # Inside propp_fr/__init__.py
 print("propp_fr package loaded successfully.")
 
