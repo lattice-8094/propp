@@ -81,7 +81,7 @@ def load_ontology_classification_model(model_dir: str = None, device: torch.devi
     id2label = {v: k for k, v in label2id.items()}
 
     # ---- load mappings ----
-    with open(os.path.join(annotated_attributes_data_path, "syntactic_role_mapping.json"), "r", encoding="utf-8") as f:
+    with open(os.path.join(model_dir, "syntactic_role_mapping.json"), "r", encoding="utf-8") as f:
         syntactic_role_mapping = json.load(f)
 
     return {'model': model,
