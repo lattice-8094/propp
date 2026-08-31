@@ -78,6 +78,14 @@ root_directory/
 [Presentation (in french)](https://mate-shs.cnrs.fr/actions/tutomate/tuto71_propp_bourgois/)
 
 ### Research Papers
+
+
+Antoine Bourgois, Jean Barré, Olga Seminck, Thierry Poibeau.
+2026.
+[Toward an ontological representation of fictional characters](https://doi.org/10.1017/chr.2026.10025)
+In *Journal of Computational Humanities Research.* 2026, Cambridge, UK.
+[hal](https://hal.science/hal-05620448).
+
 Antoine Bourgois and Thierry Poibeau.
 2025.
 [The Elephant in the Coreference Room: Resolving Coreference in Full-Length French Fiction Works.](https://arxiv.org/pdf/2510.15594)
@@ -87,5 +95,5 @@ In *Proceeding of the Eighth Workshop on Computational Models of Reference, Anap
 Jean Barré, Olga Seminck, Antoine Bourgois, Thierry Poibeau.
 2025.
 [Modeling the Construction of a Literary Archetype: The Case of the Detective Figure in French Literature](https://arxiv.org/pdf/2511.00627)
-In *Proceeding of the Sixth Conference on Computational Humanities Research 2025 (CHR 2025).* Luxembourg, Luxembourg.
+In *Proceeding of the Sixth Conference on Computational Humanities Research 2025 (CHR 2025).* Esch-sur-Alzette, Luxembourg.
 [arxiv](https://arxiv.org/abs/2511.00627).
