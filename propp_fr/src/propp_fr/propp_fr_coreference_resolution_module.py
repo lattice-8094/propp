@@ -1134,7 +1134,8 @@ def generate_coreference_matrix_with_cache(entities_df, mention_pairs_df, verbos
     matrix = np.zeros((N, N), dtype=np.int8)  # Use int8 to save memory (since values are only -1, 0, 1)
     np.fill_diagonal(matrix, 1)  # Diagonal elements represent a mention referring to itself (coreference = 1)
 
-    mention_pairs_df["confidence"].fillna(1, inplace=True)
+    mention_pairs_df["confidence"] = mention_pairs_df["confidence"].fillna(1)
+    # mention_pairs_df["confidence"].fillna(1, inplace=True)
     mention_pairs_df = mention_pairs_df[mention_pairs_df["confidence"] >= confidence_threshold].copy().reset_index(drop=True)
     # Replace '0' with '-1' in the coreference predictions
     mention_pairs_df['coreference_prediction'] = (
